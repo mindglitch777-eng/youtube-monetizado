@@ -44,7 +44,8 @@ export const Subtitulos: React.FC<{ palabras: Palabra[]; destacada: number | nul
   duracion,
 }) => {
   const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
+  const { fps, width, height } = useVideoConfig();
+  const vertical = height > width; // shorts 9:16
   const t = frame / fps;
   const franja = armarFranjas(palabras, duracion).find((f) => t >= f.desde && t < f.hasta);
   if (!franja) return null;
@@ -56,12 +57,12 @@ export const Subtitulos: React.FC<{ palabras: Palabra[]; destacada: number | nul
       style={{
         position: "absolute",
         top: "30%",
-        left: 120,
-        right: 120,
+        left: vertical ? 60 : 120,
+        right: vertical ? 60 : 120,
         textAlign: "center",
         fontFamily,
         fontWeight: 900,
-        fontSize: 84,
+        fontSize: vertical ? 76 : 84,
         lineHeight: 1.15,
         color: "white",
         WebkitTextStroke: "12px rgba(20, 14, 10, 0.95)",

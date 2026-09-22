@@ -27,3 +27,6 @@ export type Timeline = {
 };
 
 export type Props = { timeline: Timeline | null };
+
+// Short vertical: un bloque del video largo (1 a 6).
+export type PropsShort = Props & { bloque: number };

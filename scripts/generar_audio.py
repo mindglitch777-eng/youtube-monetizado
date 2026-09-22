@@ -8,9 +8,10 @@ CTA) en content/<nombre-video>/audio/, junto con un .json con el tiempo de
 cada palabra (para los subtítulos). Las transiciones no se narran: el whoosh
 suena en una pausa corta antes del Hook de cada bloque nuevo.
 
-Un audio se regenera solo si cambió su texto en el guion (o con --forzar), así
-se puede volver a correr para reconstruir timeline.json después de generar
-las imágenes. Los audios que ya no corresponden a ninguna sección se borran.
+Un audio se regenera solo si cambió su texto en el guion (o con --forzar).
+generar_imagenes.py lo vuelve a correr automáticamente al terminar, para que
+timeline.json incluya las imágenes nuevas sin regenerar los audios. Los audios
+que ya no corresponden a ninguna sección se borran.
 
 RULES.md: Edge-TTS se usa solo en fase de prueba. Antes de publicar contenido
 monetizado, la voz tiene que migrar a una opción con licencia comercial.

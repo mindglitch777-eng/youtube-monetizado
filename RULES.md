@@ -1,4 +1,4 @@
-# Reglas obligatorias del canal — Knot
+# Reglas obligatorias del canal — Knotwise
 
 Estas reglas son no negociables. Ningún guion, imagen o video se produce 
 o publica si rompe alguna de estas reglas. Si un paso del pipeline detecta 
@@ -7,17 +7,38 @@ que una regla no se cumple, debe detenerse y avisar en vez de continuar.
 ## Personaje
 - El personaje fijo del canal es Knot, un búho de plumaje marrón cálido, 
   penachos en la cabeza, ojos grandes color ámbar.
+- Knot es solo un ícono fijo de marca de agua: no se narra, no tiene 
+  transiciones habladas y no aparece en las escenas humanas.
 - El ícono de Knot es fijo y no cambia de estado en ningún momento del 
-  video — siempre el hilo rojo enredado, la misma imagen del principio 
-  al final.
-- Mismo estilo de ilustración en todos los videos, sin excepción.
+  video — siempre la misma imagen del principio al final: Knot sosteniendo 
+  un ovillo de hilo rojo prolijo, bien enrollado y ordenado.
+- Knot nunca se vuelve a generar; se usa siempre el archivo fijo 
+  knot-icono.png.
 
 ## Estilo visual de las escenas humanas
+- Mismo estilo de ilustración en todos los videos, sin excepción.
 - Las personas se muestran como siluetas simples, sin rasgos detallados.
-- Paleta más fría en el Cuerpo y cálida en el Pago.
 - Ambientación cotidiana y reconocible (living, cocina, dormitorio, auto, etc.).
-- Encuadre cerrado en el Cuerpo y abierto en el Pago.
 - Knot nunca aparece en estas escenas.
+- Toda escena se genera con este bloque de estilo:
+  "Flat vector-style illustration, minimalist character design, soft 
+  painterly digital art, muted desaturated color palette, gentle color 
+  gradients, clean simple linework. Human figures shown as simple 
+  silhouettes with featureless or barely suggested faces — no detailed 
+  facial features. Editorial illustration style, like a modern animated 
+  explainer video or picture book, never photorealistic, never photographic."
+- Y con este bloque negativo:
+  "photorealistic, photograph, realistic skin texture, detailed facial 
+  features, detailed eyes, extra limbs, extra fingers, deformed hands, 
+  blurry, text, watermark, logo, signature, low quality, distorted 
+  anatomy, 3d render, CGI, grainy, film grain, realistic lighting"
+- Variante de color y encuadre según la sección:
+  - Hook y Gancho 2: tonos medios, ni fríos ni cálidos, encuadre medio.
+  - Cuerpo: frío y cerrado — "cool blue-gray tones, desaturated, tight and 
+    slightly claustrophobic framing, low ambient light, soft shadows".
+  - Pago: cálido y abierto — tonos ámbar y dorados suaves, luz cálida, 
+    encuadre amplio con aire alrededor de las figuras.
+- Los prompts completos están en assets/personaje/PROMPTS.md.
 
 ## Guion
 - El hook (0-3s) usa "you/your" y contradice una creencia común del espectador.
@@ -33,7 +54,8 @@ que una regla no se cumple, debe detenerse y avisar en vez de continuar.
   guion y va en las primeras 5 palabras del título.
 
 ## Miniatura y título
-- La cara de Knot ocupa aproximadamente un tercio del cuadro.
+- El protagonismo visual de la miniatura es la escena humana del Hook. 
+  Knot aparece solo como ícono fijo chico en una esquina (knot-icono.png).
 - Texto en pantalla mínimo o inexistente.
 - El título/miniatura nunca promete algo que el video no cumple.
 
@@ -58,7 +80,17 @@ que una regla no se cumple, debe detenerse y avisar en vez de continuar.
   en los puntos marcados <!-- sonido: ding --> del guion.
 - Posición: tercio superior-medio de la pantalla.
 
+## Shorts
+- 1 short reciclado por cada bloque del video largo (6 por video).
+- Duración menor a 60 segundos, formato vertical 9:16.
+- Usa las mismas imágenes del bloque recortadas al centro: nunca se generan 
+  imágenes nuevas para un short.
+- Mismos subtítulos, sonidos de marca e ícono de Knot que el video largo.
+- El CTA del video largo no va en los shorts; el short cierra con el sting.
+
 ## Producción
+- Calendario: 2 videos largos por semana, más sus shorts reciclados 
+  (1 por bloque de cada video).
 - Ningún video se publica sin revisión humana completa antes de subir.
 - Se puede generar contenido en lote (varios videos de una), pero la 
   publicación se espacia según el calendario, nunca se sube todo junto.

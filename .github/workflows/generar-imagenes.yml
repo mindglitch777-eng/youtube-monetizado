@@ -1,7 +1,11 @@
-# Genera las escenas con Pollinations.ai para cada video que tenga
-# content/<video>/imagenes/pedido.txt, y commitea las imágenes en la misma rama.
-# Corre en GitHub Actions porque Pollinations no es accesible desde el entorno
-# de Claude Code. Las imágenes que ya existen no se regeneran.
+# Genera las escenas con Cloudflare Workers AI (flux-1-schnell) para cada video
+# que tenga content/<video>/imagenes/pedido.txt, actualiza timeline.json y
+# commitea todo en la misma rama. Corre en GitHub Actions porque Cloudflare no
+# es accesible desde el entorno de Claude Code. Las imágenes que ya existen no
+# se regeneran.
+#
+# Requiere los secretos del repositorio CLOUDFLARE_ACCOUNT_ID y
+# CLOUDFLARE_API_TOKEN (Settings → Secrets and variables → Actions).
 name: Generar imágenes
 
 on:
@@ -21,14 +25,37 @@ jobs:
   imagenes:
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    env:
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_R2_ACCESS_KEY_ID: ${{ secrets.CLOUDFLARE_R2_ACCESS_KEY_ID }}
+      CLOUDFLARE_R2_SECRET_ACCESS_KEY: ${{ secrets.CLOUDFLARE_R2_SECRET_ACCESS_KEY }}
+      EDGE_TTS_VOICE: en-US-JennyNeural
     steps:
+      - name: Verificar secretos
+        id: secretos
+        run: |
+          if [ -z "$CLOUDFLARE_ACCOUNT_ID" ] || [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "::warning::Faltan los secretos CLOUDFLARE_ACCOUNT_ID / CLOUDFLARE_API_TOKEN; no se generan imágenes."
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/checkout@v4
+        if: steps.secretos.outputs.ok == 'true'
 
       - uses: actions/setup-python@v5
+        if: steps.secretos.outputs.ok == 'true'
         with:
           python-version: "3.11"
 
-      - name: Generar imágenes pedidas
+      - name: Instalar dependencias
+        if: steps.secretos.outputs.ok == 'true'
+        run: pip install -r requirements.txt
+
+      - name: Generar imágenes pedidas (y actualizar timeline.json)
+        if: steps.secretos.outputs.ok == 'true'
         run: |
           set -euo pipefail
           for pedido in content/*/imagenes/pedido.txt; do
@@ -40,15 +67,16 @@ jobs:
             echo "::endgroup::"
           done
 
-      - name: Commitear imágenes
+      - name: Commitear imágenes y timeline
+        if: steps.secretos.outputs.ok == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A content/*/imagenes
+          git add -A content/*/imagenes content/*/audio content/*/timeline.json
           if git diff --cached --quiet; then
-            echo "Sin imágenes nuevas."
+            echo "Sin cambios."
             exit 0
           fi
-          git commit -m "Generar imágenes (Pollinations.ai) desde GitHub Actions"
+          git commit -m "Generar imágenes (Cloudflare Workers AI) desde GitHub Actions"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"

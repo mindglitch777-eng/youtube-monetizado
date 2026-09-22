@@ -42,13 +42,16 @@ const Escena: React.FC<{ imagen: string | null; frames: number }> = ({ imagen, f
   );
 };
 
-const Icono: React.FC<{ src: string }> = ({ src }) => (
+// En los shorts se sube para no quedar tapado por los botones de YouTube Shorts.
+const Icono: React.FC<{ src: string }> = ({ src }) => {
+  const { width, height } = useVideoConfig();
+  return (
   <Img
     src={staticFile(src)}
     style={{
       position: "absolute",
       right: 48,
-      bottom: 48,
+      bottom: height > width ? 380 : 48,
       width: 150,
       height: 150,
       borderRadius: "50%",
@@ -57,7 +60,8 @@ const Icono: React.FC<{ src: string }> = ({ src }) => (
       boxShadow: "0 6px 20px rgba(0, 0, 0, 0.45)",
     }}
   />
-);
+  );
+};
 
 export const Video: React.FC<Props> = ({ timeline }) => {
   const { fps } = useVideoConfig();

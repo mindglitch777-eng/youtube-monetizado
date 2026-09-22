@@ -61,4 +61,5 @@ if (unicos.some((f) => f.includes("/audio/"))) {
   process.exit(1);
 }
 console.log(`Listo: ${timeline.segmentos.length} secciones de ${timeline.video} en remotion/public/.`);
-console.log(`Render: npx remotion render Video ../${timeline.video}/output.mp4`);
+console.log(`Video: npx remotion render Video ../${timeline.video}/output.mp4`);
+console.log(`Short: npx remotion render Short ../${timeline.video}/short-1.mp4 --props='{"bloque":1}'`);

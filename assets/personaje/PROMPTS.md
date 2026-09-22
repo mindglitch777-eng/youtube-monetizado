@@ -1,9 +1,44 @@
-# Knot — Prompts del personaje
+# Prompts de las escenas humanas
 
-Referencia fija del personaje del canal. Usar estos prompts en Gemini
-(app normal o API) para generar cualquier imagen nueva de Knot, siempre
-partiendo de este mismo diseño para mantener consistencia.
+Prompts fijos para generar las escenas de cada video con Cloudflare Workers AI 
+(flux-1-schnell). Son el mismo texto que usa `scripts/generar_imagenes.py` y 
+que exige RULES.md ("Estilo visual de las escenas humanas").
 
-## Prompt maestro — Knot completo (cuerpo entero)
+Knot no se genera nunca: aparece solo como ícono fijo (`knot-icono.png`), y 
+nunca en estas escenas.
 
-<!-- PENDIENTE: el texto del prompt maestro no llegó en el mensaje; pegarlo acá. -->
+## Bloque de estilo (siempre, al principio del prompt)
+
+> Flat vector-style illustration, minimalist character design, soft painterly 
+> digital art, muted desaturated color palette, gentle color gradients, clean 
+> simple linework. Human figures shown as simple silhouettes with featureless 
+> or barely suggested faces — no detailed facial features. Editorial 
+> illustration style, like a modern animated explainer video or picture book, 
+> never photorealistic, never photographic.
+
+## Variante de color y encuadre (según la sección)
+
+| Sección | Variante |
+|---|---|
+| Hook y Gancho 2 (tono medio) | balanced medium tones, neither cool nor warm, medium framing |
+| Cuerpo (frío y cerrado) | cool blue-gray tones, desaturated, tight and slightly claustrophobic framing, low ambient light, soft shadows |
+| Pago (cálido y abierto) | warm amber and soft golden tones, gentle warm light, wide open framing with breathing space around the figures, calm and reassuring |
+
+## Descripción de la escena
+
+> Scene in an everyday, recognizable setting, one or two simple human 
+> silhouettes whose posture and body language show this moment: "<texto 
+> narrado de la sección>"
+
+## Bloque negativo (siempre, al final)
+
+flux-1-schnell no acepta prompt negativo aparte, así que va al final del 
+prompt como "Avoid: …":
+
+> photorealistic, photograph, realistic skin texture, detailed facial features, 
+> detailed eyes, extra limbs, extra fingers, deformed hands, blurry, text, 
+> watermark, logo, signature, low quality, distorted anatomy, 3d render, CGI, 
+> grainy, film grain, realistic lighting
+
+Además se agrega "owls, birds, animal characters", porque Knot nunca aparece 
+en las escenas.
