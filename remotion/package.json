@@ -1,0 +1,22 @@
+{
+  "name": "knot-remotion",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "preparar": "node scripts/preparar.mjs",
+    "studio": "remotion studio",
+    "render": "remotion render Video",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.527",
+    "@remotion/fonts": "4.0.527",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "4.0.527"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}
