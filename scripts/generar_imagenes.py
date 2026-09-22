@@ -86,6 +86,12 @@ def generar(cliente, prompt):
                         return parte.inline_data.data, parte.inline_data.mime_type
             raise RuntimeError("la respuesta no trajo ninguna imagen")
         except Exception as error:  # noqa: BLE001 - se reintenta cualquier fallo de la API
+            codigo = getattr(error, "code", None)
+            if codigo == 429 and "limit: 0" in str(error):
+                sys.exit("La API key no tiene cuota para este modelo (plan gratuito con límite 0). "
+                         "Hay que activar la facturación en el proyecto de Google AI Studio.")
+            if isinstance(codigo, int) and 400 <= codigo < 500 and codigo != 429:
+                raise
             if intento == 2:
                 raise
             espera = 2 ** (intento + 1)
