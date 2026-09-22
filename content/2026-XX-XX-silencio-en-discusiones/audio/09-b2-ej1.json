@@ -1,0 +1,107 @@
+{
+  "duracion": 8.304,
+  "palabras": [
+    {
+      "texto": "A",
+      "inicio": 0.1,
+      "fin": 0.213
+    },
+    {
+      "texto": "home",
+      "inicio": 0.225,
+      "fin": 0.475
+    },
+    {
+      "texto": "where",
+      "inicio": 0.487,
+      "fin": 0.65
+    },
+    {
+      "texto": "arguments",
+      "inicio": 0.662,
+      "fin": 1.163
+    },
+    {
+      "texto": "were",
+      "inicio": 1.175,
+      "fin": 1.312
+    },
+    {
+      "texto": "loud.",
+      "inicio": 1.325,
+      "fin": 1.8
+    },
+    {
+      "texto": "When",
+      "inicio": 2.663,
+      "fin": 2.875
+    },
+    {
+      "texto": "every",
+      "inicio": 2.888,
+      "fin": 3.113
+    },
+    {
+      "texto": "disagreement",
+      "inicio": 3.125,
+      "fin": 3.825
+    },
+    {
+      "texto": "turned",
+      "inicio": 3.837,
+      "fin": 4.088
+    },
+    {
+      "texto": "into",
+      "inicio": 4.1,
+      "fin": 4.3
+    },
+    {
+      "texto": "shouting,",
+      "inicio": 4.312,
+      "fin": 4.862
+    },
+    {
+      "texto": "staying",
+      "inicio": 5.013,
+      "fin": 5.338
+    },
+    {
+      "texto": "quiet",
+      "inicio": 5.35,
+      "fin": 5.75
+    },
+    {
+      "texto": "was",
+      "inicio": 5.763,
+      "fin": 5.888
+    },
+    {
+      "texto": "the",
+      "inicio": 5.9,
+      "fin": 6.0
+    },
+    {
+      "texto": "safest",
+      "inicio": 6.013,
+      "fin": 6.487
+    },
+    {
+      "texto": "place",
+      "inicio": 6.5,
+      "fin": 6.75
+    },
+    {
+      "texto": "to",
+      "inicio": 6.763,
+      "fin": 6.862
+    },
+    {
+      "texto": "stand.",
+      "inicio": 6.875,
+      "fin": 7.425
+    }
+  ],
+  "texto": "A home where arguments were loud. When every disagreement turned into shouting, staying quiet was the safest place to stand.",
+  "voz": "en-US-JennyNeural"
+}

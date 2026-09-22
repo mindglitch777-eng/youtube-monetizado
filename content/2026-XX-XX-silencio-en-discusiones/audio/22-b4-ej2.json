@@ -1,0 +1,127 @@
+{
+  "duracion": 8.784,
+  "palabras": [
+    {
+      "texto": "Protecting",
+      "inicio": 0.1,
+      "fin": 0.65
+    },
+    {
+      "texto": "himself",
+      "inicio": 0.662,
+      "fin": 1.062
+    },
+    {
+      "texto": "from",
+      "inicio": 1.075,
+      "fin": 1.275
+    },
+    {
+      "texto": "losing.",
+      "inicio": 1.288,
+      "fin": 1.825
+    },
+    {
+      "texto": "If",
+      "inicio": 2.688,
+      "fin": 2.85
+    },
+    {
+      "texto": "he",
+      "inicio": 2.862,
+      "fin": 2.962
+    },
+    {
+      "texto": "feels",
+      "inicio": 2.975,
+      "fin": 3.3
+    },
+    {
+      "texto": "he",
+      "inicio": 3.312,
+      "fin": 3.4
+    },
+    {
+      "texto": "can't",
+      "inicio": 3.413,
+      "fin": 3.688
+    },
+    {
+      "texto": "keep",
+      "inicio": 3.7,
+      "fin": 3.888
+    },
+    {
+      "texto": "up",
+      "inicio": 3.9,
+      "fin": 4.037
+    },
+    {
+      "texto": "in",
+      "inicio": 4.05,
+      "fin": 4.138
+    },
+    {
+      "texto": "an",
+      "inicio": 4.15,
+      "fin": 4.25
+    },
+    {
+      "texto": "argument,",
+      "inicio": 4.263,
+      "fin": 4.838
+    },
+    {
+      "texto": "saying",
+      "inicio": 5.05,
+      "fin": 5.388
+    },
+    {
+      "texto": "nothing",
+      "inicio": 5.4,
+      "fin": 5.8
+    },
+    {
+      "texto": "can",
+      "inicio": 5.812,
+      "fin": 5.975
+    },
+    {
+      "texto": "feel",
+      "inicio": 5.987,
+      "fin": 6.225
+    },
+    {
+      "texto": "safer",
+      "inicio": 6.237,
+      "fin": 6.625
+    },
+    {
+      "texto": "than",
+      "inicio": 6.638,
+      "fin": 6.8
+    },
+    {
+      "texto": "saying",
+      "inicio": 6.812,
+      "fin": 7.088
+    },
+    {
+      "texto": "the",
+      "inicio": 7.1,
+      "fin": 7.188
+    },
+    {
+      "texto": "wrong",
+      "inicio": 7.2,
+      "fin": 7.45
+    },
+    {
+      "texto": "thing.",
+      "inicio": 7.463,
+      "fin": 7.913
+    }
+  ],
+  "texto": "Protecting himself from losing. If he feels he can't keep up in an argument, saying nothing can feel safer than saying the wrong thing.",
+  "voz": "en-US-JennyNeural"
+}

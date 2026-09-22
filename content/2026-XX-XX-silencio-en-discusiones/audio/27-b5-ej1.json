@@ -1,0 +1,152 @@
+{
+  "duracion": 10.536,
+  "palabras": [
+    {
+      "texto": "A",
+      "inicio": 0.1,
+      "fin": 0.225
+    },
+    {
+      "texto": "pause",
+      "inicio": 0.237,
+      "fin": 0.525
+    },
+    {
+      "texto": "sounds",
+      "inicio": 0.537,
+      "fin": 0.825
+    },
+    {
+      "texto": "like",
+      "inicio": 0.838,
+      "fin": 1.025
+    },
+    {
+      "texto": "\"I",
+      "inicio": 1.075,
+      "fin": 1.113
+    },
+    {
+      "texto": "need",
+      "inicio": 1.125,
+      "fin": 1.312
+    },
+    {
+      "texto": "a",
+      "inicio": 1.325,
+      "fin": 1.375
+    },
+    {
+      "texto": "few",
+      "inicio": 1.387,
+      "fin": 1.575
+    },
+    {
+      "texto": "minutes,",
+      "inicio": 1.587,
+      "fin": 2.075
+    },
+    {
+      "texto": "I'll",
+      "inicio": 2.225,
+      "fin": 2.337
+    },
+    {
+      "texto": "come",
+      "inicio": 2.35,
+      "fin": 2.562
+    },
+    {
+      "texto": "back.\"",
+      "inicio": 2.575,
+      "fin": 3.038
+    },
+    {
+      "texto": "Relationship",
+      "inicio": 3.9,
+      "fin": 4.612
+    },
+    {
+      "texto": "researchers",
+      "inicio": 4.625,
+      "fin": 5.2
+    },
+    {
+      "texto": "have",
+      "inicio": 5.213,
+      "fin": 5.338
+    },
+    {
+      "texto": "suggested",
+      "inicio": 5.35,
+      "fin": 5.912
+    },
+    {
+      "texto": "the",
+      "inicio": 5.925,
+      "fin": 6.013
+    },
+    {
+      "texto": "body",
+      "inicio": 6.025,
+      "fin": 6.4
+    },
+    {
+      "texto": "often",
+      "inicio": 6.412,
+      "fin": 6.762
+    },
+    {
+      "texto": "needs",
+      "inicio": 6.775,
+      "fin": 7.025
+    },
+    {
+      "texto": "around",
+      "inicio": 7.037,
+      "fin": 7.35
+    },
+    {
+      "texto": "twenty",
+      "inicio": 7.362,
+      "fin": 7.662
+    },
+    {
+      "texto": "minutes",
+      "inicio": 7.675,
+      "fin": 8.05
+    },
+    {
+      "texto": "or",
+      "inicio": 8.062,
+      "fin": 8.2
+    },
+    {
+      "texto": "more",
+      "inicio": 8.213,
+      "fin": 8.45
+    },
+    {
+      "texto": "to",
+      "inicio": 8.463,
+      "fin": 8.55
+    },
+    {
+      "texto": "truly",
+      "inicio": 8.562,
+      "fin": 8.925
+    },
+    {
+      "texto": "calm",
+      "inicio": 8.938,
+      "fin": 9.2
+    },
+    {
+      "texto": "down.",
+      "inicio": 9.213,
+      "fin": 9.662
+    }
+  ],
+  "texto": "A pause sounds like \"I need a few minutes, I'll come back.\" Relationship researchers have suggested the body often needs around twenty minutes or more to truly calm down.",
+  "voz": "en-US-JennyNeural"
+}

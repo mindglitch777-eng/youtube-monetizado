@@ -1,0 +1,107 @@
+{
+  "duracion": 8.448,
+  "palabras": [
+    {
+      "texto": "They",
+      "inicio": 0.1,
+      "fin": 0.238
+    },
+    {
+      "texto": "talk",
+      "inicio": 0.25,
+      "fin": 0.525
+    },
+    {
+      "texto": "about",
+      "inicio": 0.537,
+      "fin": 0.775
+    },
+    {
+      "texto": "the",
+      "inicio": 0.787,
+      "fin": 0.875
+    },
+    {
+      "texto": "fight",
+      "inicio": 0.887,
+      "fin": 1.237
+    },
+    {
+      "texto": "after",
+      "inicio": 1.25,
+      "fin": 1.5
+    },
+    {
+      "texto": "it's",
+      "inicio": 1.512,
+      "fin": 1.662
+    },
+    {
+      "texto": "over.",
+      "inicio": 1.675,
+      "fin": 2.125
+    },
+    {
+      "texto": "Once",
+      "inicio": 2.987,
+      "fin": 3.3
+    },
+    {
+      "texto": "both",
+      "inicio": 3.312,
+      "fin": 3.513
+    },
+    {
+      "texto": "people",
+      "inicio": 3.525,
+      "fin": 3.85
+    },
+    {
+      "texto": "are",
+      "inicio": 3.862,
+      "fin": 3.987
+    },
+    {
+      "texto": "calm,",
+      "inicio": 4.0,
+      "fin": 4.45
+    },
+    {
+      "texto": "the",
+      "inicio": 4.638,
+      "fin": 4.737
+    },
+    {
+      "texto": "same",
+      "inicio": 4.75,
+      "fin": 5.025
+    },
+    {
+      "texto": "conversation",
+      "inicio": 5.037,
+      "fin": 5.812
+    },
+    {
+      "texto": "often",
+      "inicio": 5.825,
+      "fin": 6.15
+    },
+    {
+      "texto": "goes",
+      "inicio": 6.162,
+      "fin": 6.375
+    },
+    {
+      "texto": "completely",
+      "inicio": 6.388,
+      "fin": 6.913
+    },
+    {
+      "texto": "differently.",
+      "inicio": 6.925,
+      "fin": 7.587
+    }
+  ],
+  "texto": "They talk about the fight after it's over. Once both people are calm, the same conversation often goes completely differently.",
+  "voz": "en-US-JennyNeural"
+}

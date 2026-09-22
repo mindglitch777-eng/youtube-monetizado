@@ -1,0 +1,127 @@
+{
+  "duracion": 7.584,
+  "palabras": [
+    {
+      "texto": "That",
+      "inicio": 0.1,
+      "fin": 0.363
+    },
+    {
+      "texto": "doesn't",
+      "inicio": 0.375,
+      "fin": 0.662
+    },
+    {
+      "texto": "mean",
+      "inicio": 0.675,
+      "fin": 0.85
+    },
+    {
+      "texto": "the",
+      "inicio": 0.863,
+      "fin": 0.95
+    },
+    {
+      "texto": "silence",
+      "inicio": 0.963,
+      "fin": 1.413
+    },
+    {
+      "texto": "works.",
+      "inicio": 1.425,
+      "fin": 1.975
+    },
+    {
+      "texto": "But",
+      "inicio": 2.837,
+      "fin": 3.012
+    },
+    {
+      "texto": "knowing",
+      "inicio": 3.025,
+      "fin": 3.312
+    },
+    {
+      "texto": "what",
+      "inicio": 3.325,
+      "fin": 3.45
+    },
+    {
+      "texto": "it's",
+      "inicio": 3.462,
+      "fin": 3.612
+    },
+    {
+      "texto": "guarding",
+      "inicio": 3.625,
+      "fin": 4.025
+    },
+    {
+      "texto": "can",
+      "inicio": 4.037,
+      "fin": 4.212
+    },
+    {
+      "texto": "soften",
+      "inicio": 4.225,
+      "fin": 4.688
+    },
+    {
+      "texto": "how",
+      "inicio": 4.7,
+      "fin": 4.862
+    },
+    {
+      "texto": "it",
+      "inicio": 4.875,
+      "fin": 4.963
+    },
+    {
+      "texto": "feels",
+      "inicio": 4.975,
+      "fin": 5.3
+    },
+    {
+      "texto": "to",
+      "inicio": 5.312,
+      "fin": 5.4
+    },
+    {
+      "texto": "be",
+      "inicio": 5.412,
+      "fin": 5.562
+    },
+    {
+      "texto": "on",
+      "inicio": 5.575,
+      "fin": 5.688
+    },
+    {
+      "texto": "the",
+      "inicio": 5.7,
+      "fin": 5.788
+    },
+    {
+      "texto": "other",
+      "inicio": 5.8,
+      "fin": 6.025
+    },
+    {
+      "texto": "side",
+      "inicio": 6.037,
+      "fin": 6.3
+    },
+    {
+      "texto": "of",
+      "inicio": 6.312,
+      "fin": 6.4
+    },
+    {
+      "texto": "it.",
+      "inicio": 6.412,
+      "fin": 6.7
+    }
+  ],
+  "texto": "That doesn't mean the silence works. But knowing what it's guarding can soften how it feels to be on the other side of it.",
+  "voz": "en-US-JennyNeural"
+}

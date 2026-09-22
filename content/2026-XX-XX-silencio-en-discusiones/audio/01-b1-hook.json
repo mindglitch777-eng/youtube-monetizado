@@ -1,0 +1,77 @@
+{
+  "duracion": 6.264,
+  "palabras": [
+    {
+      "texto": "You",
+      "inicio": 0.1,
+      "fin": 0.3
+    },
+    {
+      "texto": "think",
+      "inicio": 0.312,
+      "fin": 0.525
+    },
+    {
+      "texto": "his",
+      "inicio": 0.537,
+      "fin": 0.662
+    },
+    {
+      "texto": "silence",
+      "inicio": 0.675,
+      "fin": 1.15
+    },
+    {
+      "texto": "means",
+      "inicio": 1.163,
+      "fin": 1.413
+    },
+    {
+      "texto": "he",
+      "inicio": 1.425,
+      "fin": 1.512
+    },
+    {
+      "texto": "doesn't",
+      "inicio": 1.525,
+      "fin": 1.862
+    },
+    {
+      "texto": "care.",
+      "inicio": 1.875,
+      "fin": 2.35
+    },
+    {
+      "texto": "Very",
+      "inicio": 3.212,
+      "fin": 3.562
+    },
+    {
+      "texto": "often,",
+      "inicio": 3.575,
+      "fin": 4.062
+    },
+    {
+      "texto": "it",
+      "inicio": 4.237,
+      "fin": 4.312
+    },
+    {
+      "texto": "means",
+      "inicio": 4.325,
+      "fin": 4.575
+    },
+    {
+      "texto": "the",
+      "inicio": 4.588,
+      "fin": 4.688
+    },
+    {
+      "texto": "opposite.",
+      "inicio": 4.7,
+      "fin": 5.388
+    }
+  ],
+  "texto": "You think his silence means he doesn't care. Very often, it means the opposite.",
+  "voz": "en-US-JennyNeural"
+}

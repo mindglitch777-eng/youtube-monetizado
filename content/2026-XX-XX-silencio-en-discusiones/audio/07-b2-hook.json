@@ -1,0 +1,92 @@
+{
+  "duracion": 6.288,
+  "palabras": [
+    {
+      "texto": "You",
+      "inicio": 0.1,
+      "fin": 0.25
+    },
+    {
+      "texto": "might",
+      "inicio": 0.263,
+      "fin": 0.5
+    },
+    {
+      "texto": "think",
+      "inicio": 0.512,
+      "fin": 0.7
+    },
+    {
+      "texto": "he",
+      "inicio": 0.713,
+      "fin": 0.8
+    },
+    {
+      "texto": "chose",
+      "inicio": 0.812,
+      "fin": 1.113
+    },
+    {
+      "texto": "to",
+      "inicio": 1.125,
+      "fin": 1.212
+    },
+    {
+      "texto": "shut",
+      "inicio": 1.225,
+      "fin": 1.5
+    },
+    {
+      "texto": "down.",
+      "inicio": 1.512,
+      "fin": 1.962
+    },
+    {
+      "texto": "Usually,",
+      "inicio": 2.825,
+      "fin": 3.488
+    },
+    {
+      "texto": "he",
+      "inicio": 3.638,
+      "fin": 3.738
+    },
+    {
+      "texto": "learned",
+      "inicio": 3.75,
+      "fin": 3.987
+    },
+    {
+      "texto": "it",
+      "inicio": 4.0,
+      "fin": 4.112
+    },
+    {
+      "texto": "long",
+      "inicio": 4.125,
+      "fin": 4.4
+    },
+    {
+      "texto": "before",
+      "inicio": 4.412,
+      "fin": 4.762
+    },
+    {
+      "texto": "he",
+      "inicio": 4.775,
+      "fin": 4.875
+    },
+    {
+      "texto": "met",
+      "inicio": 4.888,
+      "fin": 5.1
+    },
+    {
+      "texto": "you.",
+      "inicio": 5.112,
+      "fin": 5.412
+    }
+  ],
+  "texto": "You might think he chose to shut down. Usually, he learned it long before he met you.",
+  "voz": "en-US-JennyNeural"
+}

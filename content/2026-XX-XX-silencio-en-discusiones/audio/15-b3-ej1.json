@@ -1,0 +1,132 @@
+{
+  "duracion": 9.0,
+  "palabras": [
+    {
+      "texto": "Following",
+      "inicio": 0.1,
+      "fin": 0.55
+    },
+    {
+      "texto": "him",
+      "inicio": 0.562,
+      "fin": 0.688
+    },
+    {
+      "texto": "into",
+      "inicio": 0.7,
+      "fin": 0.875
+    },
+    {
+      "texto": "the",
+      "inicio": 0.887,
+      "fin": 0.975
+    },
+    {
+      "texto": "next",
+      "inicio": 0.988,
+      "fin": 1.337
+    },
+    {
+      "texto": "room.",
+      "inicio": 1.35,
+      "fin": 1.725
+    },
+    {
+      "texto": "It",
+      "inicio": 2.587,
+      "fin": 2.75
+    },
+    {
+      "texto": "comes",
+      "inicio": 2.763,
+      "fin": 3.0
+    },
+    {
+      "texto": "from",
+      "inicio": 3.013,
+      "fin": 3.163
+    },
+    {
+      "texto": "wanting",
+      "inicio": 3.175,
+      "fin": 3.487
+    },
+    {
+      "texto": "to",
+      "inicio": 3.5,
+      "fin": 3.6
+    },
+    {
+      "texto": "fix",
+      "inicio": 3.612,
+      "fin": 3.912
+    },
+    {
+      "texto": "things,",
+      "inicio": 3.925,
+      "fin": 4.412
+    },
+    {
+      "texto": "but",
+      "inicio": 4.537,
+      "fin": 4.688
+    },
+    {
+      "texto": "to",
+      "inicio": 4.7,
+      "fin": 4.788
+    },
+    {
+      "texto": "someone",
+      "inicio": 4.8,
+      "fin": 5.125
+    },
+    {
+      "texto": "already",
+      "inicio": 5.138,
+      "fin": 5.538
+    },
+    {
+      "texto": "overwhelmed,",
+      "inicio": 5.55,
+      "fin": 6.162
+    },
+    {
+      "texto": "it",
+      "inicio": 6.375,
+      "fin": 6.463
+    },
+    {
+      "texto": "can",
+      "inicio": 6.475,
+      "fin": 6.625
+    },
+    {
+      "texto": "feel",
+      "inicio": 6.638,
+      "fin": 6.875
+    },
+    {
+      "texto": "like",
+      "inicio": 6.888,
+      "fin": 7.088
+    },
+    {
+      "texto": "there's",
+      "inicio": 7.1,
+      "fin": 7.325
+    },
+    {
+      "texto": "no",
+      "inicio": 7.338,
+      "fin": 7.5
+    },
+    {
+      "texto": "exit.",
+      "inicio": 7.513,
+      "fin": 8.137
+    }
+  ],
+  "texto": "Following him into the next room. It comes from wanting to fix things, but to someone already overwhelmed, it can feel like there's no exit.",
+  "voz": "en-US-JennyNeural"
+}

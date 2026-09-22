@@ -1,0 +1,97 @@
+{
+  "duracion": 7.392,
+  "palabras": [
+    {
+      "texto": "Silence",
+      "inicio": 0.1,
+      "fin": 0.588
+    },
+    {
+      "texto": "during",
+      "inicio": 0.6,
+      "fin": 0.85
+    },
+    {
+      "texto": "conflict",
+      "inicio": 0.863,
+      "fin": 1.45
+    },
+    {
+      "texto": "is",
+      "inicio": 1.462,
+      "fin": 1.625
+    },
+    {
+      "texto": "rarely",
+      "inicio": 1.637,
+      "fin": 1.975
+    },
+    {
+      "texto": "invented",
+      "inicio": 1.988,
+      "fin": 2.4
+    },
+    {
+      "texto": "on",
+      "inicio": 2.413,
+      "fin": 2.513
+    },
+    {
+      "texto": "the",
+      "inicio": 2.525,
+      "fin": 2.6
+    },
+    {
+      "texto": "spot.",
+      "inicio": 2.612,
+      "fin": 3.137
+    },
+    {
+      "texto": "It's",
+      "inicio": 4.0,
+      "fin": 4.2
+    },
+    {
+      "texto": "something",
+      "inicio": 4.213,
+      "fin": 4.562
+    },
+    {
+      "texto": "a",
+      "inicio": 4.575,
+      "fin": 4.638
+    },
+    {
+      "texto": "lot",
+      "inicio": 4.65,
+      "fin": 4.888
+    },
+    {
+      "texto": "of",
+      "inicio": 4.9,
+      "fin": 4.975
+    },
+    {
+      "texto": "people",
+      "inicio": 4.987,
+      "fin": 5.3
+    },
+    {
+      "texto": "practiced",
+      "inicio": 5.312,
+      "fin": 5.812
+    },
+    {
+      "texto": "for",
+      "inicio": 5.825,
+      "fin": 5.975
+    },
+    {
+      "texto": "years.",
+      "inicio": 5.987,
+      "fin": 6.525
+    }
+  ],
+  "texto": "Silence during conflict is rarely invented on the spot. It's something a lot of people practiced for years.",
+  "voz": "en-US-JennyNeural"
+}

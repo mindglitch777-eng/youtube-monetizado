@@ -1,0 +1,97 @@
+{
+  "duracion": 6.408,
+  "palabras": [
+    {
+      "texto": "If",
+      "inicio": 0.1,
+      "fin": 0.263
+    },
+    {
+      "texto": "you've",
+      "inicio": 0.275,
+      "fin": 0.425
+    },
+    {
+      "texto": "been",
+      "inicio": 0.438,
+      "fin": 0.6
+    },
+    {
+      "texto": "on",
+      "inicio": 0.613,
+      "fin": 0.738
+    },
+    {
+      "texto": "either",
+      "inicio": 0.75,
+      "fin": 1.025
+    },
+    {
+      "texto": "side",
+      "inicio": 1.038,
+      "fin": 1.3
+    },
+    {
+      "texto": "of",
+      "inicio": 1.312,
+      "fin": 1.375
+    },
+    {
+      "texto": "this",
+      "inicio": 1.387,
+      "fin": 1.55
+    },
+    {
+      "texto": "silence,",
+      "inicio": 1.562,
+      "fin": 2.15
+    },
+    {
+      "texto": "comment",
+      "inicio": 2.312,
+      "fin": 2.675
+    },
+    {
+      "texto": "\"this",
+      "inicio": 2.688,
+      "fin": 2.862
+    },
+    {
+      "texto": "is",
+      "inicio": 2.875,
+      "fin": 2.987
+    },
+    {
+      "texto": "us\".",
+      "inicio": 3.0,
+      "fin": 3.413
+    },
+    {
+      "texto": "You're",
+      "inicio": 4.275,
+      "fin": 4.45
+    },
+    {
+      "texto": "not",
+      "inicio": 4.463,
+      "fin": 4.688
+    },
+    {
+      "texto": "the",
+      "inicio": 4.7,
+      "fin": 4.812
+    },
+    {
+      "texto": "only",
+      "inicio": 4.825,
+      "fin": 5.1
+    },
+    {
+      "texto": "one.",
+      "inicio": 5.112,
+      "fin": 5.537
+    }
+  ],
+  "texto": "If you've been on either side of this silence, comment \"this is us\". You're not the only one.",
+  "voz": "en-US-JennyNeural"
+}

@@ -1,0 +1,117 @@
+{
+  "duracion": 7.584,
+  "palabras": [
+    {
+      "texto": "There's",
+      "inicio": 0.1,
+      "fin": 0.338
+    },
+    {
+      "texto": "a",
+      "inicio": 0.35,
+      "fin": 0.412
+    },
+    {
+      "texto": "pattern",
+      "inicio": 0.425,
+      "fin": 0.875
+    },
+    {
+      "texto": "that",
+      "inicio": 0.887,
+      "fin": 1.05
+    },
+    {
+      "texto": "shows",
+      "inicio": 1.062,
+      "fin": 1.35
+    },
+    {
+      "texto": "up",
+      "inicio": 1.363,
+      "fin": 1.5
+    },
+    {
+      "texto": "in",
+      "inicio": 1.512,
+      "fin": 1.6
+    },
+    {
+      "texto": "a",
+      "inicio": 1.613,
+      "fin": 1.663
+    },
+    {
+      "texto": "lot",
+      "inicio": 1.675,
+      "fin": 1.913
+    },
+    {
+      "texto": "of",
+      "inicio": 1.925,
+      "fin": 2.013
+    },
+    {
+      "texto": "couples:",
+      "inicio": 2.025,
+      "fin": 2.625
+    },
+    {
+      "texto": "one",
+      "inicio": 2.8,
+      "fin": 3.025
+    },
+    {
+      "texto": "person",
+      "inicio": 3.038,
+      "fin": 3.438
+    },
+    {
+      "texto": "reaches,",
+      "inicio": 3.45,
+      "fin": 4.038
+    },
+    {
+      "texto": "the",
+      "inicio": 4.188,
+      "fin": 4.287
+    },
+    {
+      "texto": "other",
+      "inicio": 4.3,
+      "fin": 4.537
+    },
+    {
+      "texto": "retreats,",
+      "inicio": 4.55,
+      "fin": 5.138
+    },
+    {
+      "texto": "and",
+      "inicio": 5.325,
+      "fin": 5.463
+    },
+    {
+      "texto": "both",
+      "inicio": 5.475,
+      "fin": 5.75
+    },
+    {
+      "texto": "get",
+      "inicio": 5.763,
+      "fin": 5.925
+    },
+    {
+      "texto": "more",
+      "inicio": 5.938,
+      "fin": 6.15
+    },
+    {
+      "texto": "stuck.",
+      "inicio": 6.162,
+      "fin": 6.7
+    }
+  ],
+  "texto": "There's a pattern that shows up in a lot of couples: one person reaches, the other retreats, and both get more stuck.",
+  "voz": "en-US-JennyNeural"
+}

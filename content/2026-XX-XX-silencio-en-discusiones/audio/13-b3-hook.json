@@ -1,0 +1,102 @@
+{
+  "duracion": 6.72,
+  "palabras": [
+    {
+      "texto": "Your",
+      "inicio": 0.1,
+      "fin": 0.325
+    },
+    {
+      "texto": "instinct",
+      "inicio": 0.338,
+      "fin": 0.788
+    },
+    {
+      "texto": "when",
+      "inicio": 0.8,
+      "fin": 0.9
+    },
+    {
+      "texto": "he",
+      "inicio": 0.912,
+      "fin": 1.0
+    },
+    {
+      "texto": "goes",
+      "inicio": 1.012,
+      "fin": 1.25
+    },
+    {
+      "texto": "quiet",
+      "inicio": 1.262,
+      "fin": 1.65
+    },
+    {
+      "texto": "is",
+      "inicio": 1.663,
+      "fin": 1.788
+    },
+    {
+      "texto": "to",
+      "inicio": 1.8,
+      "fin": 1.9
+    },
+    {
+      "texto": "push",
+      "inicio": 1.913,
+      "fin": 2.15
+    },
+    {
+      "texto": "harder.",
+      "inicio": 2.163,
+      "fin": 2.663
+    },
+    {
+      "texto": "That",
+      "inicio": 3.525,
+      "fin": 3.775
+    },
+    {
+      "texto": "push",
+      "inicio": 3.788,
+      "fin": 4.037
+    },
+    {
+      "texto": "is",
+      "inicio": 4.05,
+      "fin": 4.2
+    },
+    {
+      "texto": "often",
+      "inicio": 4.213,
+      "fin": 4.55
+    },
+    {
+      "texto": "what",
+      "inicio": 4.562,
+      "fin": 4.7
+    },
+    {
+      "texto": "makes",
+      "inicio": 4.713,
+      "fin": 4.95
+    },
+    {
+      "texto": "the",
+      "inicio": 4.963,
+      "fin": 5.05
+    },
+    {
+      "texto": "wall",
+      "inicio": 5.062,
+      "fin": 5.3
+    },
+    {
+      "texto": "taller.",
+      "inicio": 5.312,
+      "fin": 5.85
+    }
+  ],
+  "texto": "Your instinct when he goes quiet is to push harder. That push is often what makes the wall taller.",
+  "voz": "en-US-JennyNeural"
+}

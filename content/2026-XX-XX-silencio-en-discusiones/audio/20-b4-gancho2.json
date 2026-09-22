@@ -1,0 +1,72 @@
+{
+  "duracion": 5.016,
+  "palabras": [
+    {
+      "texto": "When",
+      "inicio": 0.1,
+      "fin": 0.3
+    },
+    {
+      "texto": "someone",
+      "inicio": 0.312,
+      "fin": 0.613
+    },
+    {
+      "texto": "goes",
+      "inicio": 0.625,
+      "fin": 0.85
+    },
+    {
+      "texto": "quiet",
+      "inicio": 0.863,
+      "fin": 1.2
+    },
+    {
+      "texto": "in",
+      "inicio": 1.212,
+      "fin": 1.3
+    },
+    {
+      "texto": "a",
+      "inicio": 1.312,
+      "fin": 1.363
+    },
+    {
+      "texto": "fight,",
+      "inicio": 1.375,
+      "fin": 1.775
+    },
+    {
+      "texto": "the",
+      "inicio": 1.95,
+      "fin": 2.05
+    },
+    {
+      "texto": "silence",
+      "inicio": 2.062,
+      "fin": 2.55
+    },
+    {
+      "texto": "is",
+      "inicio": 2.562,
+      "fin": 2.7
+    },
+    {
+      "texto": "often",
+      "inicio": 2.712,
+      "fin": 3.038
+    },
+    {
+      "texto": "protecting",
+      "inicio": 3.05,
+      "fin": 3.575
+    },
+    {
+      "texto": "something.",
+      "inicio": 3.587,
+      "fin": 4.15
+    }
+  ],
+  "texto": "When someone goes quiet in a fight, the silence is often protecting something.",
+  "voz": "en-US-JennyNeural"
+}

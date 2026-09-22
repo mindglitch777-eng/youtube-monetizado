@@ -1,0 +1,122 @@
+{
+  "duracion": 8.784,
+  "palabras": [
+    {
+      "texto": "A",
+      "inicio": 0.1,
+      "fin": 0.225
+    },
+    {
+      "texto": "wall",
+      "inicio": 0.237,
+      "fin": 0.512
+    },
+    {
+      "texto": "sounds",
+      "inicio": 0.525,
+      "fin": 0.825
+    },
+    {
+      "texto": "like",
+      "inicio": 0.838,
+      "fin": 1.012
+    },
+    {
+      "texto": "nothing",
+      "inicio": 1.025,
+      "fin": 1.412
+    },
+    {
+      "texto": "at",
+      "inicio": 1.425,
+      "fin": 1.512
+    },
+    {
+      "texto": "all.",
+      "inicio": 1.525,
+      "fin": 1.9
+    },
+    {
+      "texto": "Walking",
+      "inicio": 2.763,
+      "fin": 3.2
+    },
+    {
+      "texto": "away",
+      "inicio": 3.212,
+      "fin": 3.462
+    },
+    {
+      "texto": "without",
+      "inicio": 3.475,
+      "fin": 3.788
+    },
+    {
+      "texto": "a",
+      "inicio": 3.8,
+      "fin": 3.85
+    },
+    {
+      "texto": "word,",
+      "inicio": 3.862,
+      "fin": 4.237
+    },
+    {
+      "texto": "with",
+      "inicio": 4.4,
+      "fin": 4.55
+    },
+    {
+      "texto": "no",
+      "inicio": 4.562,
+      "fin": 4.75
+    },
+    {
+      "texto": "sign",
+      "inicio": 4.763,
+      "fin": 5.025
+    },
+    {
+      "texto": "of",
+      "inicio": 5.037,
+      "fin": 5.137
+    },
+    {
+      "texto": "when,",
+      "inicio": 5.15,
+      "fin": 5.5
+    },
+    {
+      "texto": "or",
+      "inicio": 5.725,
+      "fin": 5.875
+    },
+    {
+      "texto": "if,",
+      "inicio": 5.888,
+      "fin": 6.138
+    },
+    {
+      "texto": "the",
+      "inicio": 6.263,
+      "fin": 6.362
+    },
+    {
+      "texto": "conversation",
+      "inicio": 6.375,
+      "fin": 7.1
+    },
+    {
+      "texto": "will",
+      "inicio": 7.112,
+      "fin": 7.237
+    },
+    {
+      "texto": "continue.",
+      "inicio": 7.25,
+      "fin": 7.9
+    }
+  ],
+  "texto": "A wall sounds like nothing at all. Walking away without a word, with no sign of when, or if, the conversation will continue.",
+  "voz": "en-US-JennyNeural"
+}

@@ -1,0 +1,132 @@
+{
+  "duracion": 8.496,
+  "palabras": [
+    {
+      "texto": "The",
+      "inicio": 0.1,
+      "fin": 0.225
+    },
+    {
+      "texto": "one",
+      "inicio": 0.237,
+      "fin": 0.438
+    },
+    {
+      "texto": "who",
+      "inicio": 0.45,
+      "fin": 0.575
+    },
+    {
+      "texto": "steps",
+      "inicio": 0.588,
+      "fin": 0.9
+    },
+    {
+      "texto": "away",
+      "inicio": 0.912,
+      "fin": 1.137
+    },
+    {
+      "texto": "comes",
+      "inicio": 1.15,
+      "fin": 1.438
+    },
+    {
+      "texto": "back.",
+      "inicio": 1.45,
+      "fin": 1.925
+    },
+    {
+      "texto": "The",
+      "inicio": 2.788,
+      "fin": 2.9
+    },
+    {
+      "texto": "return",
+      "inicio": 2.913,
+      "fin": 3.363
+    },
+    {
+      "texto": "is",
+      "inicio": 3.375,
+      "fin": 3.5
+    },
+    {
+      "texto": "what",
+      "inicio": 3.513,
+      "fin": 3.663
+    },
+    {
+      "texto": "turns",
+      "inicio": 3.675,
+      "fin": 3.95
+    },
+    {
+      "texto": "a",
+      "inicio": 3.962,
+      "fin": 4.013
+    },
+    {
+      "texto": "wall",
+      "inicio": 4.025,
+      "fin": 4.288
+    },
+    {
+      "texto": "into",
+      "inicio": 4.3,
+      "fin": 4.513
+    },
+    {
+      "texto": "a",
+      "inicio": 4.525,
+      "fin": 4.588
+    },
+    {
+      "texto": "pause,",
+      "inicio": 4.6,
+      "fin": 5.137
+    },
+    {
+      "texto": "and",
+      "inicio": 5.35,
+      "fin": 5.487
+    },
+    {
+      "texto": "it",
+      "inicio": 5.5,
+      "fin": 5.6
+    },
+    {
+      "texto": "builds",
+      "inicio": 5.612,
+      "fin": 5.9
+    },
+    {
+      "texto": "trust",
+      "inicio": 5.912,
+      "fin": 6.35
+    },
+    {
+      "texto": "every",
+      "inicio": 6.362,
+      "fin": 6.575
+    },
+    {
+      "texto": "time",
+      "inicio": 6.588,
+      "fin": 6.85
+    },
+    {
+      "texto": "it",
+      "inicio": 6.862,
+      "fin": 6.938
+    },
+    {
+      "texto": "happens.",
+      "inicio": 6.95,
+      "fin": 7.612
+    }
+  ],
+  "texto": "The one who steps away comes back. The return is what turns a wall into a pause, and it builds trust every time it happens.",
+  "voz": "en-US-JennyNeural"
+}

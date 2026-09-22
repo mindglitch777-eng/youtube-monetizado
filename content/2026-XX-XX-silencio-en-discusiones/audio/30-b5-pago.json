@@ -1,0 +1,132 @@
+{
+  "duracion": 10.464,
+  "palabras": [
+    {
+      "texto": "So",
+      "inicio": 0.1,
+      "fin": 0.325
+    },
+    {
+      "texto": "silence",
+      "inicio": 0.338,
+      "fin": 0.762
+    },
+    {
+      "texto": "itself",
+      "inicio": 0.775,
+      "fin": 1.163
+    },
+    {
+      "texto": "isn't",
+      "inicio": 1.175,
+      "fin": 1.413
+    },
+    {
+      "texto": "always",
+      "inicio": 1.425,
+      "fin": 1.75
+    },
+    {
+      "texto": "the",
+      "inicio": 1.762,
+      "fin": 1.85
+    },
+    {
+      "texto": "enemy.",
+      "inicio": 1.863,
+      "fin": 2.35
+    },
+    {
+      "texto": "A",
+      "inicio": 3.212,
+      "fin": 3.337
+    },
+    {
+      "texto": "pause",
+      "inicio": 3.35,
+      "fin": 3.638
+    },
+    {
+      "texto": "that",
+      "inicio": 3.65,
+      "fin": 3.8
+    },
+    {
+      "texto": "comes",
+      "inicio": 3.812,
+      "fin": 4.088
+    },
+    {
+      "texto": "back",
+      "inicio": 4.1,
+      "fin": 4.462
+    },
+    {
+      "texto": "can",
+      "inicio": 4.475,
+      "fin": 4.65
+    },
+    {
+      "texto": "actually",
+      "inicio": 4.662,
+      "fin": 5.062
+    },
+    {
+      "texto": "protect",
+      "inicio": 5.075,
+      "fin": 5.5
+    },
+    {
+      "texto": "a",
+      "inicio": 5.513,
+      "fin": 5.562
+    },
+    {
+      "texto": "conversation.",
+      "inicio": 5.575,
+      "fin": 6.513
+    },
+    {
+      "texto": "It's",
+      "inicio": 7.375,
+      "fin": 7.575
+    },
+    {
+      "texto": "the",
+      "inicio": 7.588,
+      "fin": 7.688
+    },
+    {
+      "texto": "silence",
+      "inicio": 7.7,
+      "fin": 8.137
+    },
+    {
+      "texto": "with",
+      "inicio": 8.15,
+      "fin": 8.287
+    },
+    {
+      "texto": "no",
+      "inicio": 8.3,
+      "fin": 8.5
+    },
+    {
+      "texto": "return",
+      "inicio": 8.512,
+      "fin": 8.887
+    },
+    {
+      "texto": "that",
+      "inicio": 8.9,
+      "fin": 9.062
+    },
+    {
+      "texto": "hurts.",
+      "inicio": 9.075,
+      "fin": 9.587
+    }
+  ],
+  "texto": "So silence itself isn't always the enemy. A pause that comes back can actually protect a conversation. It's the silence with no return that hurts.",
+  "voz": "en-US-JennyNeural"
+}

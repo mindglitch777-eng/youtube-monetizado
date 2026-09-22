@@ -1,0 +1,132 @@
+{
+  "duracion": 8.76,
+  "palabras": [
+    {
+      "texto": "The",
+      "inicio": 0.1,
+      "fin": 0.225
+    },
+    {
+      "texto": "words",
+      "inicio": 0.237,
+      "fin": 0.537
+    },
+    {
+      "texto": "just",
+      "inicio": 0.55,
+      "fin": 0.8
+    },
+    {
+      "texto": "disappear.",
+      "inicio": 0.812,
+      "fin": 1.55
+    },
+    {
+      "texto": "He",
+      "inicio": 2.413,
+      "fin": 2.575
+    },
+    {
+      "texto": "might",
+      "inicio": 2.587,
+      "fin": 2.812
+    },
+    {
+      "texto": "know",
+      "inicio": 2.825,
+      "fin": 3.013
+    },
+    {
+      "texto": "exactly",
+      "inicio": 3.025,
+      "fin": 3.537
+    },
+    {
+      "texto": "what",
+      "inicio": 3.55,
+      "fin": 3.7
+    },
+    {
+      "texto": "he",
+      "inicio": 3.712,
+      "fin": 3.812
+    },
+    {
+      "texto": "feels,",
+      "inicio": 3.825,
+      "fin": 4.362
+    },
+    {
+      "texto": "and",
+      "inicio": 4.55,
+      "fin": 4.712
+    },
+    {
+      "texto": "still",
+      "inicio": 4.725,
+      "fin": 4.95
+    },
+    {
+      "texto": "be",
+      "inicio": 4.963,
+      "fin": 5.113
+    },
+    {
+      "texto": "unable",
+      "inicio": 5.125,
+      "fin": 5.5
+    },
+    {
+      "texto": "to",
+      "inicio": 5.513,
+      "fin": 5.6
+    },
+    {
+      "texto": "find",
+      "inicio": 5.612,
+      "fin": 5.875
+    },
+    {
+      "texto": "a",
+      "inicio": 5.888,
+      "fin": 5.938
+    },
+    {
+      "texto": "single",
+      "inicio": 5.95,
+      "fin": 6.288
+    },
+    {
+      "texto": "sentence",
+      "inicio": 6.3,
+      "fin": 6.787
+    },
+    {
+      "texto": "for",
+      "inicio": 6.8,
+      "fin": 6.95
+    },
+    {
+      "texto": "it",
+      "inicio": 6.963,
+      "fin": 7.05
+    },
+    {
+      "texto": "in",
+      "inicio": 7.062,
+      "fin": 7.162
+    },
+    {
+      "texto": "that",
+      "inicio": 7.175,
+      "fin": 7.362
+    },
+    {
+      "texto": "moment.",
+      "inicio": 7.375,
+      "fin": 7.888
+    }
+  ],
+  "texto": "The words just disappear. He might know exactly what he feels, and still be unable to find a single sentence for it in that moment.",
+  "voz": "en-US-JennyNeural"
+}

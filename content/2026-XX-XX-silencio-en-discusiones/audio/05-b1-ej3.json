@@ -1,0 +1,132 @@
+{
+  "duracion": 9.888,
+  "palabras": [
+    {
+      "texto": "He",
+      "inicio": 0.1,
+      "fin": 0.275
+    },
+    {
+      "texto": "stares",
+      "inicio": 0.287,
+      "fin": 0.65
+    },
+    {
+      "texto": "at",
+      "inicio": 0.662,
+      "fin": 0.762
+    },
+    {
+      "texto": "one",
+      "inicio": 0.775,
+      "fin": 0.988
+    },
+    {
+      "texto": "spot",
+      "inicio": 1.0,
+      "fin": 1.3
+    },
+    {
+      "texto": "on",
+      "inicio": 1.312,
+      "fin": 1.425
+    },
+    {
+      "texto": "the",
+      "inicio": 1.438,
+      "fin": 1.525
+    },
+    {
+      "texto": "wall.",
+      "inicio": 1.538,
+      "fin": 1.988
+    },
+    {
+      "texto": "From",
+      "inicio": 2.85,
+      "fin": 3.062
+    },
+    {
+      "texto": "the",
+      "inicio": 3.075,
+      "fin": 3.175
+    },
+    {
+      "texto": "outside",
+      "inicio": 3.188,
+      "fin": 3.638
+    },
+    {
+      "texto": "it",
+      "inicio": 3.65,
+      "fin": 3.75
+    },
+    {
+      "texto": "looks",
+      "inicio": 3.763,
+      "fin": 4.0
+    },
+    {
+      "texto": "cold.",
+      "inicio": 4.013,
+      "fin": 4.463
+    },
+    {
+      "texto": "From",
+      "inicio": 5.325,
+      "fin": 5.55
+    },
+    {
+      "texto": "the",
+      "inicio": 5.562,
+      "fin": 5.65
+    },
+    {
+      "texto": "inside,",
+      "inicio": 5.662,
+      "fin": 6.262
+    },
+    {
+      "texto": "it's",
+      "inicio": 6.463,
+      "fin": 6.6
+    },
+    {
+      "texto": "often",
+      "inicio": 6.612,
+      "fin": 6.938
+    },
+    {
+      "texto": "an",
+      "inicio": 6.95,
+      "fin": 7.038
+    },
+    {
+      "texto": "attempt",
+      "inicio": 7.05,
+      "fin": 7.525
+    },
+    {
+      "texto": "to",
+      "inicio": 7.537,
+      "fin": 7.625
+    },
+    {
+      "texto": "stop",
+      "inicio": 7.638,
+      "fin": 7.925
+    },
+    {
+      "texto": "feeling",
+      "inicio": 7.938,
+      "fin": 8.287
+    },
+    {
+      "texto": "overwhelmed.",
+      "inicio": 8.3,
+      "fin": 9.013
+    }
+  ],
+  "texto": "He stares at one spot on the wall. From the outside it looks cold. From the inside, it's often an attempt to stop feeling overwhelmed.",
+  "voz": "en-US-JennyNeural"
+}

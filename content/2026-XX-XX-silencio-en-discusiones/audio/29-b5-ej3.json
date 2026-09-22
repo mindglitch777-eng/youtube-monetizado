@@ -1,0 +1,142 @@
+{
+  "duracion": 10.416,
+  "palabras": [
+    {
+      "texto": "The",
+      "inicio": 0.1,
+      "fin": 0.238
+    },
+    {
+      "texto": "silent",
+      "inicio": 0.25,
+      "fin": 0.613
+    },
+    {
+      "texto": "treatment",
+      "inicio": 0.625,
+      "fin": 1.025
+    },
+    {
+      "texto": "is",
+      "inicio": 1.038,
+      "fin": 1.15
+    },
+    {
+      "texto": "something",
+      "inicio": 1.163,
+      "fin": 1.5
+    },
+    {
+      "texto": "else",
+      "inicio": 1.512,
+      "fin": 1.7
+    },
+    {
+      "texto": "entirely.",
+      "inicio": 1.712,
+      "fin": 2.475
+    },
+    {
+      "texto": "Using",
+      "inicio": 3.337,
+      "fin": 3.712
+    },
+    {
+      "texto": "silence",
+      "inicio": 3.725,
+      "fin": 4.175
+    },
+    {
+      "texto": "to",
+      "inicio": 4.188,
+      "fin": 4.287
+    },
+    {
+      "texto": "punish",
+      "inicio": 4.3,
+      "fin": 4.688
+    },
+    {
+      "texto": "or",
+      "inicio": 4.7,
+      "fin": 4.812
+    },
+    {
+      "texto": "control",
+      "inicio": 4.825,
+      "fin": 5.237
+    },
+    {
+      "texto": "someone",
+      "inicio": 5.25,
+      "fin": 5.575
+    },
+    {
+      "texto": "for",
+      "inicio": 5.588,
+      "fin": 5.75
+    },
+    {
+      "texto": "days",
+      "inicio": 5.763,
+      "fin": 6.088
+    },
+    {
+      "texto": "isn't",
+      "inicio": 6.1,
+      "fin": 6.375
+    },
+    {
+      "texto": "overwhelm,",
+      "inicio": 6.388,
+      "fin": 6.987
+    },
+    {
+      "texto": "and",
+      "inicio": 7.213,
+      "fin": 7.3
+    },
+    {
+      "texto": "it's",
+      "inicio": 7.312,
+      "fin": 7.463
+    },
+    {
+      "texto": "worth",
+      "inicio": 7.475,
+      "fin": 7.737
+    },
+    {
+      "texto": "recognizing",
+      "inicio": 7.75,
+      "fin": 8.438
+    },
+    {
+      "texto": "that",
+      "inicio": 8.45,
+      "fin": 8.587
+    },
+    {
+      "texto": "it's",
+      "inicio": 8.6,
+      "fin": 8.737
+    },
+    {
+      "texto": "a",
+      "inicio": 8.75,
+      "fin": 8.8
+    },
+    {
+      "texto": "different",
+      "inicio": 8.812,
+      "fin": 9.15
+    },
+    {
+      "texto": "thing.",
+      "inicio": 9.162,
+      "fin": 9.55
+    }
+  ],
+  "texto": "The silent treatment is something else entirely. Using silence to punish or control someone for days isn't overwhelm, and it's worth recognizing that it's a different thing.",
+  "voz": "en-US-JennyNeural"
+}

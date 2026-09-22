@@ -1,0 +1,122 @@
+{
+  "duracion": 9.0,
+  "palabras": [
+    {
+      "texto": "Protecting",
+      "inicio": 0.1,
+      "fin": 0.637
+    },
+    {
+      "texto": "the",
+      "inicio": 0.65,
+      "fin": 0.738
+    },
+    {
+      "texto": "relationship.",
+      "inicio": 0.75,
+      "fin": 1.637
+    },
+    {
+      "texto": "Strange",
+      "inicio": 2.5,
+      "fin": 2.925
+    },
+    {
+      "texto": "as",
+      "inicio": 2.938,
+      "fin": 3.038
+    },
+    {
+      "texto": "it",
+      "inicio": 3.05,
+      "fin": 3.175
+    },
+    {
+      "texto": "sounds,",
+      "inicio": 3.188,
+      "fin": 3.7
+    },
+    {
+      "texto": "some",
+      "inicio": 3.837,
+      "fin": 4.075
+    },
+    {
+      "texto": "people",
+      "inicio": 4.088,
+      "fin": 4.375
+    },
+    {
+      "texto": "stay",
+      "inicio": 4.388,
+      "fin": 4.6
+    },
+    {
+      "texto": "quiet",
+      "inicio": 4.612,
+      "fin": 5.087
+    },
+    {
+      "texto": "because",
+      "inicio": 5.1,
+      "fin": 5.4
+    },
+    {
+      "texto": "they",
+      "inicio": 5.412,
+      "fin": 5.525
+    },
+    {
+      "texto": "believe",
+      "inicio": 5.537,
+      "fin": 5.875
+    },
+    {
+      "texto": "that's",
+      "inicio": 5.888,
+      "fin": 6.1
+    },
+    {
+      "texto": "how",
+      "inicio": 6.112,
+      "fin": 6.2
+    },
+    {
+      "texto": "you",
+      "inicio": 6.213,
+      "fin": 6.363
+    },
+    {
+      "texto": "keep",
+      "inicio": 6.375,
+      "fin": 6.6
+    },
+    {
+      "texto": "a",
+      "inicio": 6.612,
+      "fin": 6.688
+    },
+    {
+      "texto": "fight",
+      "inicio": 6.7,
+      "fin": 7.013
+    },
+    {
+      "texto": "from",
+      "inicio": 7.025,
+      "fin": 7.188
+    },
+    {
+      "texto": "breaking",
+      "inicio": 7.2,
+      "fin": 7.575
+    },
+    {
+      "texto": "something.",
+      "inicio": 7.588,
+      "fin": 8.125
+    }
+  ],
+  "texto": "Protecting the relationship. Strange as it sounds, some people stay quiet because they believe that's how you keep a fight from breaking something.",
+  "voz": "en-US-JennyNeural"
+}

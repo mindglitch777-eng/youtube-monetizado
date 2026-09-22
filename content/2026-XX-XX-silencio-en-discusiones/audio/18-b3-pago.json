@@ -1,0 +1,162 @@
+{
+  "duracion": 10.536,
+  "palabras": [
+    {
+      "texto": "If",
+      "inicio": 0.1,
+      "fin": 0.263
+    },
+    {
+      "texto": "you've",
+      "inicio": 0.275,
+      "fin": 0.425
+    },
+    {
+      "texto": "been",
+      "inicio": 0.438,
+      "fin": 0.588
+    },
+    {
+      "texto": "the",
+      "inicio": 0.6,
+      "fin": 0.688
+    },
+    {
+      "texto": "one",
+      "inicio": 0.7,
+      "fin": 0.938
+    },
+    {
+      "texto": "reaching,",
+      "inicio": 0.95,
+      "fin": 1.413
+    },
+    {
+      "texto": "that",
+      "inicio": 1.587,
+      "fin": 1.787
+    },
+    {
+      "texto": "doesn't",
+      "inicio": 1.8,
+      "fin": 2.087
+    },
+    {
+      "texto": "make",
+      "inicio": 2.1,
+      "fin": 2.288
+    },
+    {
+      "texto": "you",
+      "inicio": 2.3,
+      "fin": 2.387
+    },
+    {
+      "texto": "the",
+      "inicio": 2.4,
+      "fin": 2.5
+    },
+    {
+      "texto": "problem.",
+      "inicio": 2.513,
+      "fin": 3.088
+    },
+    {
+      "texto": "Reaching",
+      "inicio": 3.95,
+      "fin": 4.35
+    },
+    {
+      "texto": "is",
+      "inicio": 4.362,
+      "fin": 4.475
+    },
+    {
+      "texto": "what",
+      "inicio": 4.487,
+      "fin": 4.638
+    },
+    {
+      "texto": "caring",
+      "inicio": 4.65,
+      "fin": 4.988
+    },
+    {
+      "texto": "looks",
+      "inicio": 5.0,
+      "fin": 5.237
+    },
+    {
+      "texto": "like.",
+      "inicio": 5.25,
+      "fin": 5.662
+    },
+    {
+      "texto": "Seeing",
+      "inicio": 6.525,
+      "fin": 6.863
+    },
+    {
+      "texto": "the",
+      "inicio": 6.875,
+      "fin": 6.987
+    },
+    {
+      "texto": "loop",
+      "inicio": 7.0,
+      "fin": 7.3
+    },
+    {
+      "texto": "is",
+      "inicio": 7.312,
+      "fin": 7.425
+    },
+    {
+      "texto": "the",
+      "inicio": 7.438,
+      "fin": 7.537
+    },
+    {
+      "texto": "first",
+      "inicio": 7.55,
+      "fin": 7.888
+    },
+    {
+      "texto": "step",
+      "inicio": 7.9,
+      "fin": 8.213
+    },
+    {
+      "texto": "to",
+      "inicio": 8.225,
+      "fin": 8.312
+    },
+    {
+      "texto": "stepping",
+      "inicio": 8.325,
+      "fin": 8.737
+    },
+    {
+      "texto": "out",
+      "inicio": 8.75,
+      "fin": 8.875
+    },
+    {
+      "texto": "of",
+      "inicio": 8.887,
+      "fin": 8.962
+    },
+    {
+      "texto": "it",
+      "inicio": 8.975,
+      "fin": 9.075
+    },
+    {
+      "texto": "together.",
+      "inicio": 9.088,
+      "fin": 9.675
+    }
+  ],
+  "texto": "If you've been the one reaching, that doesn't make you the problem. Reaching is what caring looks like. Seeing the loop is the first step to stepping out of it together.",
+  "voz": "en-US-JennyNeural"
+}

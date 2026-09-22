@@ -1,0 +1,87 @@
+{
+  "duracion": 5.664,
+  "palabras": [
+    {
+      "texto": "You've",
+      "inicio": 0.1,
+      "fin": 0.3
+    },
+    {
+      "texto": "probably",
+      "inicio": 0.312,
+      "fin": 0.787
+    },
+    {
+      "texto": "heard",
+      "inicio": 0.8,
+      "fin": 1.038
+    },
+    {
+      "texto": "that",
+      "inicio": 1.05,
+      "fin": 1.188
+    },
+    {
+      "texto": "all",
+      "inicio": 1.2,
+      "fin": 1.35
+    },
+    {
+      "texto": "silence",
+      "inicio": 1.363,
+      "fin": 1.837
+    },
+    {
+      "texto": "in",
+      "inicio": 1.85,
+      "fin": 1.938
+    },
+    {
+      "texto": "a",
+      "inicio": 1.95,
+      "fin": 2.0
+    },
+    {
+      "texto": "fight",
+      "inicio": 2.013,
+      "fin": 2.263
+    },
+    {
+      "texto": "is",
+      "inicio": 2.275,
+      "fin": 2.387
+    },
+    {
+      "texto": "bad.",
+      "inicio": 2.4,
+      "fin": 2.825
+    },
+    {
+      "texto": "Not",
+      "inicio": 3.688,
+      "fin": 3.975
+    },
+    {
+      "texto": "all",
+      "inicio": 3.987,
+      "fin": 4.162
+    },
+    {
+      "texto": "of",
+      "inicio": 4.175,
+      "fin": 4.263
+    },
+    {
+      "texto": "it",
+      "inicio": 4.275,
+      "fin": 4.363
+    },
+    {
+      "texto": "is.",
+      "inicio": 4.375,
+      "fin": 4.8
+    }
+  ],
+  "texto": "You've probably heard that all silence in a fight is bad. Not all of it is.",
+  "voz": "en-US-JennyNeural"
+}

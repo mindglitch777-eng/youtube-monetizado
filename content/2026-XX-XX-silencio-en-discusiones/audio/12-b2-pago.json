@@ -1,0 +1,157 @@
+{
+  "duracion": 10.008,
+  "palabras": [
+    {
+      "texto": "None",
+      "inicio": 0.1,
+      "fin": 0.338
+    },
+    {
+      "texto": "of",
+      "inicio": 0.35,
+      "fin": 0.438
+    },
+    {
+      "texto": "this",
+      "inicio": 0.45,
+      "fin": 0.65
+    },
+    {
+      "texto": "makes",
+      "inicio": 0.662,
+      "fin": 0.912
+    },
+    {
+      "texto": "the",
+      "inicio": 0.925,
+      "fin": 1.025
+    },
+    {
+      "texto": "silence",
+      "inicio": 1.038,
+      "fin": 1.475
+    },
+    {
+      "texto": "easier",
+      "inicio": 1.488,
+      "fin": 1.837
+    },
+    {
+      "texto": "to",
+      "inicio": 1.85,
+      "fin": 1.975
+    },
+    {
+      "texto": "live",
+      "inicio": 1.988,
+      "fin": 2.188
+    },
+    {
+      "texto": "with.",
+      "inicio": 2.2,
+      "fin": 2.562
+    },
+    {
+      "texto": "But",
+      "inicio": 3.425,
+      "fin": 3.562
+    },
+    {
+      "texto": "it",
+      "inicio": 3.575,
+      "fin": 3.663
+    },
+    {
+      "texto": "can",
+      "inicio": 3.675,
+      "fin": 3.812
+    },
+    {
+      "texto": "make",
+      "inicio": 3.825,
+      "fin": 4.025
+    },
+    {
+      "texto": "it",
+      "inicio": 4.037,
+      "fin": 4.15
+    },
+    {
+      "texto": "less",
+      "inicio": 4.162,
+      "fin": 4.375
+    },
+    {
+      "texto": "personal.",
+      "inicio": 4.388,
+      "fin": 5.038
+    },
+    {
+      "texto": "What",
+      "inicio": 5.9,
+      "fin": 6.1
+    },
+    {
+      "texto": "you're",
+      "inicio": 6.112,
+      "fin": 6.25
+    },
+    {
+      "texto": "seeing",
+      "inicio": 6.263,
+      "fin": 6.588
+    },
+    {
+      "texto": "is",
+      "inicio": 6.6,
+      "fin": 6.725
+    },
+    {
+      "texto": "often",
+      "inicio": 6.737,
+      "fin": 7.05
+    },
+    {
+      "texto": "an",
+      "inicio": 7.062,
+      "fin": 7.162
+    },
+    {
+      "texto": "old",
+      "inicio": 7.175,
+      "fin": 7.35
+    },
+    {
+      "texto": "habit,",
+      "inicio": 7.362,
+      "fin": 7.837
+    },
+    {
+      "texto": "not",
+      "inicio": 8.0,
+      "fin": 8.225
+    },
+    {
+      "texto": "a",
+      "inicio": 8.238,
+      "fin": 8.288
+    },
+    {
+      "texto": "verdict",
+      "inicio": 8.3,
+      "fin": 8.675
+    },
+    {
+      "texto": "on",
+      "inicio": 8.688,
+      "fin": 8.825
+    },
+    {
+      "texto": "you.",
+      "inicio": 8.838,
+      "fin": 9.125
+    }
+  ],
+  "texto": "None of this makes the silence easier to live with. But it can make it less personal. What you're seeing is often an old habit, not a verdict on you.",
+  "voz": "en-US-JennyNeural"
+}

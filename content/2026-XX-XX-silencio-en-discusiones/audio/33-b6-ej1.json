@@ -1,0 +1,107 @@
+{
+  "duracion": 7.584,
+  "palabras": [
+    {
+      "texto": "They",
+      "inicio": 0.1,
+      "fin": 0.263
+    },
+    {
+      "texto": "agree",
+      "inicio": 0.275,
+      "fin": 0.562
+    },
+    {
+      "texto": "on",
+      "inicio": 0.575,
+      "fin": 0.675
+    },
+    {
+      "texto": "a",
+      "inicio": 0.688,
+      "fin": 0.738
+    },
+    {
+      "texto": "signal",
+      "inicio": 0.75,
+      "fin": 1.15
+    },
+    {
+      "texto": "before",
+      "inicio": 1.163,
+      "fin": 1.475
+    },
+    {
+      "texto": "the",
+      "inicio": 1.488,
+      "fin": 1.562
+    },
+    {
+      "texto": "next",
+      "inicio": 1.575,
+      "fin": 1.913
+    },
+    {
+      "texto": "fight.",
+      "inicio": 1.925,
+      "fin": 2.362
+    },
+    {
+      "texto": "A",
+      "inicio": 3.225,
+      "fin": 3.35
+    },
+    {
+      "texto": "simple",
+      "inicio": 3.362,
+      "fin": 3.7
+    },
+    {
+      "texto": "word",
+      "inicio": 3.712,
+      "fin": 3.938
+    },
+    {
+      "texto": "or",
+      "inicio": 3.95,
+      "fin": 4.062
+    },
+    {
+      "texto": "gesture",
+      "inicio": 4.075,
+      "fin": 4.513
+    },
+    {
+      "texto": "that",
+      "inicio": 4.525,
+      "fin": 4.688
+    },
+    {
+      "texto": "means",
+      "inicio": 4.7,
+      "fin": 5.013
+    },
+    {
+      "texto": "\"I'm",
+      "inicio": 5.062,
+      "fin": 5.2
+    },
+    {
+      "texto": "overwhelmed,",
+      "inicio": 5.213,
+      "fin": 5.838
+    },
+    {
+      "texto": "not",
+      "inicio": 5.95,
+      "fin": 6.213
+    },
+    {
+      "texto": "leaving.\"",
+      "inicio": 6.225,
+      "fin": 6.7
+    }
+  ],
+  "texto": "They agree on a signal before the next fight. A simple word or gesture that means \"I'm overwhelmed, not leaving.\"",
+  "voz": "en-US-JennyNeural"
+}

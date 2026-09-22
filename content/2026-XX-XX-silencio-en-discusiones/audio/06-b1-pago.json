@@ -1,0 +1,182 @@
+{
+  "duracion": 9.696,
+  "palabras": [
+    {
+      "texto": "So",
+      "inicio": 0.1,
+      "fin": 0.325
+    },
+    {
+      "texto": "if",
+      "inicio": 0.338,
+      "fin": 0.438
+    },
+    {
+      "texto": "his",
+      "inicio": 0.45,
+      "fin": 0.6
+    },
+    {
+      "texto": "silence",
+      "inicio": 0.613,
+      "fin": 1.05
+    },
+    {
+      "texto": "has",
+      "inicio": 1.062,
+      "fin": 1.262
+    },
+    {
+      "texto": "ever",
+      "inicio": 1.275,
+      "fin": 1.487
+    },
+    {
+      "texto": "felt",
+      "inicio": 1.5,
+      "fin": 1.775
+    },
+    {
+      "texto": "like",
+      "inicio": 1.788,
+      "fin": 1.95
+    },
+    {
+      "texto": "a",
+      "inicio": 1.962,
+      "fin": 2.038
+    },
+    {
+      "texto": "door",
+      "inicio": 2.05,
+      "fin": 2.3
+    },
+    {
+      "texto": "slammed",
+      "inicio": 2.312,
+      "fin": 2.7
+    },
+    {
+      "texto": "in",
+      "inicio": 2.712,
+      "fin": 2.788
+    },
+    {
+      "texto": "your",
+      "inicio": 2.8,
+      "fin": 2.912
+    },
+    {
+      "texto": "face,",
+      "inicio": 2.925,
+      "fin": 3.45
+    },
+    {
+      "texto": "it",
+      "inicio": 3.675,
+      "fin": 3.75
+    },
+    {
+      "texto": "may",
+      "inicio": 3.763,
+      "fin": 3.888
+    },
+    {
+      "texto": "not",
+      "inicio": 3.9,
+      "fin": 4.125
+    },
+    {
+      "texto": "have",
+      "inicio": 4.138,
+      "fin": 4.237
+    },
+    {
+      "texto": "been",
+      "inicio": 4.25,
+      "fin": 4.4
+    },
+    {
+      "texto": "a",
+      "inicio": 4.412,
+      "fin": 4.475
+    },
+    {
+      "texto": "door",
+      "inicio": 4.487,
+      "fin": 4.712
+    },
+    {
+      "texto": "at",
+      "inicio": 4.725,
+      "fin": 4.812
+    },
+    {
+      "texto": "all.",
+      "inicio": 4.825,
+      "fin": 5.188
+    },
+    {
+      "texto": "It",
+      "inicio": 6.05,
+      "fin": 6.188
+    },
+    {
+      "texto": "may",
+      "inicio": 6.2,
+      "fin": 6.35
+    },
+    {
+      "texto": "have",
+      "inicio": 6.362,
+      "fin": 6.5
+    },
+    {
+      "texto": "been",
+      "inicio": 6.513,
+      "fin": 6.713
+    },
+    {
+      "texto": "someone",
+      "inicio": 6.725,
+      "fin": 7.037
+    },
+    {
+      "texto": "trying",
+      "inicio": 7.05,
+      "fin": 7.35
+    },
+    {
+      "texto": "to",
+      "inicio": 7.362,
+      "fin": 7.45
+    },
+    {
+      "texto": "keep",
+      "inicio": 7.463,
+      "fin": 7.7
+    },
+    {
+      "texto": "their",
+      "inicio": 7.713,
+      "fin": 7.85
+    },
+    {
+      "texto": "head",
+      "inicio": 7.862,
+      "fin": 8.05
+    },
+    {
+      "texto": "above",
+      "inicio": 8.062,
+      "fin": 8.338
+    },
+    {
+      "texto": "water.",
+      "inicio": 8.35,
+      "fin": 8.825
+    }
+  ],
+  "texto": "So if his silence has ever felt like a door slammed in your face, it may not have been a door at all. It may have been someone trying to keep their head above water.",
+  "voz": "en-US-JennyNeural"
+}

@@ -1,0 +1,132 @@
+{
+  "duracion": 7.848,
+  "palabras": [
+    {
+      "texto": "So",
+      "inicio": 0.1,
+      "fin": 0.312
+    },
+    {
+      "texto": "why",
+      "inicio": 0.325,
+      "fin": 0.525
+    },
+    {
+      "texto": "does",
+      "inicio": 0.537,
+      "fin": 0.688
+    },
+    {
+      "texto": "he",
+      "inicio": 0.7,
+      "fin": 0.775
+    },
+    {
+      "texto": "go",
+      "inicio": 0.787,
+      "fin": 0.962
+    },
+    {
+      "texto": "quiet",
+      "inicio": 0.975,
+      "fin": 1.363
+    },
+    {
+      "texto": "during",
+      "inicio": 1.375,
+      "fin": 1.625
+    },
+    {
+      "texto": "a",
+      "inicio": 1.637,
+      "fin": 1.688
+    },
+    {
+      "texto": "fight,",
+      "inicio": 1.7,
+      "fin": 2.138
+    },
+    {
+      "texto": "right",
+      "inicio": 2.35,
+      "fin": 2.55
+    },
+    {
+      "texto": "when",
+      "inicio": 2.562,
+      "fin": 2.675
+    },
+    {
+      "texto": "you",
+      "inicio": 2.688,
+      "fin": 2.775
+    },
+    {
+      "texto": "need",
+      "inicio": 2.788,
+      "fin": 2.95
+    },
+    {
+      "texto": "him",
+      "inicio": 2.962,
+      "fin": 3.075
+    },
+    {
+      "texto": "to",
+      "inicio": 3.087,
+      "fin": 3.163
+    },
+    {
+      "texto": "talk?",
+      "inicio": 3.175,
+      "fin": 3.712
+    },
+    {
+      "texto": "The",
+      "inicio": 4.575,
+      "fin": 4.713
+    },
+    {
+      "texto": "answer",
+      "inicio": 4.725,
+      "fin": 5.075
+    },
+    {
+      "texto": "starts",
+      "inicio": 5.088,
+      "fin": 5.413
+    },
+    {
+      "texto": "in",
+      "inicio": 5.425,
+      "fin": 5.513
+    },
+    {
+      "texto": "the",
+      "inicio": 5.525,
+      "fin": 5.6
+    },
+    {
+      "texto": "body,",
+      "inicio": 5.612,
+      "fin": 6.05
+    },
+    {
+      "texto": "not",
+      "inicio": 6.162,
+      "fin": 6.362
+    },
+    {
+      "texto": "the",
+      "inicio": 6.375,
+      "fin": 6.45
+    },
+    {
+      "texto": "mind.",
+      "inicio": 6.463,
+      "fin": 6.975
+    }
+  ],
+  "texto": "So why does he go quiet during a fight, right when you need him to talk? The answer starts in the body, not the mind.",
+  "voz": "en-US-JennyNeural"
+}

@@ -1,0 +1,122 @@
+{
+  "duracion": 7.344,
+  "palabras": [
+    {
+      "texto": "Couples",
+      "inicio": 0.1,
+      "fin": 0.463
+    },
+    {
+      "texto": "who",
+      "inicio": 0.475,
+      "fin": 0.562
+    },
+    {
+      "texto": "get",
+      "inicio": 0.575,
+      "fin": 0.762
+    },
+    {
+      "texto": "through",
+      "inicio": 0.775,
+      "fin": 0.913
+    },
+    {
+      "texto": "this",
+      "inicio": 0.925,
+      "fin": 1.125
+    },
+    {
+      "texto": "pattern",
+      "inicio": 1.137,
+      "fin": 1.637
+    },
+    {
+      "texto": "tend",
+      "inicio": 1.65,
+      "fin": 1.912
+    },
+    {
+      "texto": "to",
+      "inicio": 1.925,
+      "fin": 2.0
+    },
+    {
+      "texto": "do",
+      "inicio": 2.013,
+      "fin": 2.163
+    },
+    {
+      "texto": "a",
+      "inicio": 2.175,
+      "fin": 2.237
+    },
+    {
+      "texto": "few",
+      "inicio": 2.25,
+      "fin": 2.487
+    },
+    {
+      "texto": "small",
+      "inicio": 2.5,
+      "fin": 2.812
+    },
+    {
+      "texto": "things",
+      "inicio": 2.825,
+      "fin": 3.113
+    },
+    {
+      "texto": "differently,",
+      "inicio": 3.125,
+      "fin": 3.712
+    },
+    {
+      "texto": "and",
+      "inicio": 3.962,
+      "fin": 4.112
+    },
+    {
+      "texto": "none",
+      "inicio": 4.125,
+      "fin": 4.312
+    },
+    {
+      "texto": "of",
+      "inicio": 4.325,
+      "fin": 4.388
+    },
+    {
+      "texto": "them",
+      "inicio": 4.4,
+      "fin": 4.562
+    },
+    {
+      "texto": "involve",
+      "inicio": 4.575,
+      "fin": 4.963
+    },
+    {
+      "texto": "forcing",
+      "inicio": 4.975,
+      "fin": 5.487
+    },
+    {
+      "texto": "anyone",
+      "inicio": 5.5,
+      "fin": 5.85
+    },
+    {
+      "texto": "to",
+      "inicio": 5.862,
+      "fin": 5.938
+    },
+    {
+      "texto": "talk.",
+      "inicio": 5.95,
+      "fin": 6.475
+    }
+  ],
+  "texto": "Couples who get through this pattern tend to do a few small things differently, and none of them involve forcing anyone to talk.",
+  "voz": "en-US-JennyNeural"
+}

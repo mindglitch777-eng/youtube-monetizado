@@ -1,0 +1,147 @@
+{
+  "duracion": 9.816,
+  "palabras": [
+    {
+      "texto": "A",
+      "inicio": 0.1,
+      "fin": 0.213
+    },
+    {
+      "texto": "home",
+      "inicio": 0.225,
+      "fin": 0.463
+    },
+    {
+      "texto": "where",
+      "inicio": 0.475,
+      "fin": 0.613
+    },
+    {
+      "texto": "quiet",
+      "inicio": 0.625,
+      "fin": 0.988
+    },
+    {
+      "texto": "kept",
+      "inicio": 1.0,
+      "fin": 1.238
+    },
+    {
+      "texto": "the",
+      "inicio": 1.25,
+      "fin": 1.325
+    },
+    {
+      "texto": "peace.",
+      "inicio": 1.337,
+      "fin": 1.925
+    },
+    {
+      "texto": "Some",
+      "inicio": 2.788,
+      "fin": 3.113
+    },
+    {
+      "texto": "kids",
+      "inicio": 3.125,
+      "fin": 3.4
+    },
+    {
+      "texto": "learn",
+      "inicio": 3.413,
+      "fin": 3.675
+    },
+    {
+      "texto": "that",
+      "inicio": 3.688,
+      "fin": 3.812
+    },
+    {
+      "texto": "the",
+      "inicio": 3.825,
+      "fin": 3.925
+    },
+    {
+      "texto": "less",
+      "inicio": 3.938,
+      "fin": 4.2
+    },
+    {
+      "texto": "they",
+      "inicio": 4.213,
+      "fin": 4.338
+    },
+    {
+      "texto": "say,",
+      "inicio": 4.35,
+      "fin": 4.762
+    },
+    {
+      "texto": "the",
+      "inicio": 4.912,
+      "fin": 5.012
+    },
+    {
+      "texto": "faster",
+      "inicio": 5.025,
+      "fin": 5.413
+    },
+    {
+      "texto": "the",
+      "inicio": 5.425,
+      "fin": 5.525
+    },
+    {
+      "texto": "storm",
+      "inicio": 5.537,
+      "fin": 5.862
+    },
+    {
+      "texto": "passes,",
+      "inicio": 5.875,
+      "fin": 6.537
+    },
+    {
+      "texto": "and",
+      "inicio": 6.75,
+      "fin": 6.875
+    },
+    {
+      "texto": "that",
+      "inicio": 6.888,
+      "fin": 7.062
+    },
+    {
+      "texto": "lesson",
+      "inicio": 7.075,
+      "fin": 7.413
+    },
+    {
+      "texto": "doesn't",
+      "inicio": 7.425,
+      "fin": 7.737
+    },
+    {
+      "texto": "switch",
+      "inicio": 7.75,
+      "fin": 8.012
+    },
+    {
+      "texto": "off",
+      "inicio": 8.025,
+      "fin": 8.213
+    },
+    {
+      "texto": "in",
+      "inicio": 8.225,
+      "fin": 8.312
+    },
+    {
+      "texto": "adulthood.",
+      "inicio": 8.325,
+      "fin": 8.938
+    }
+  ],
+  "texto": "A home where quiet kept the peace. Some kids learn that the less they say, the faster the storm passes, and that lesson doesn't switch off in adulthood.",
+  "voz": "en-US-JennyNeural"
+}

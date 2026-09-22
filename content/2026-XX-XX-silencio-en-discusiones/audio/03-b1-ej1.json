@@ -1,0 +1,187 @@
+{
+  "duracion": 12.384,
+  "palabras": [
+    {
+      "texto": "His",
+      "inicio": 0.1,
+      "fin": 0.312
+    },
+    {
+      "texto": "heart",
+      "inicio": 0.325,
+      "fin": 0.575
+    },
+    {
+      "texto": "is",
+      "inicio": 0.588,
+      "fin": 0.725
+    },
+    {
+      "texto": "racing.",
+      "inicio": 0.738,
+      "fin": 1.3
+    },
+    {
+      "texto": "Researchers",
+      "inicio": 2.163,
+      "fin": 2.8
+    },
+    {
+      "texto": "who've",
+      "inicio": 2.812,
+      "fin": 2.95
+    },
+    {
+      "texto": "watched",
+      "inicio": 2.962,
+      "fin": 3.312
+    },
+    {
+      "texto": "thousands",
+      "inicio": 3.325,
+      "fin": 3.775
+    },
+    {
+      "texto": "of",
+      "inicio": 3.788,
+      "fin": 3.863
+    },
+    {
+      "texto": "couples",
+      "inicio": 3.875,
+      "fin": 4.25
+    },
+    {
+      "texto": "argue",
+      "inicio": 4.263,
+      "fin": 4.6
+    },
+    {
+      "texto": "noticed",
+      "inicio": 4.612,
+      "fin": 5.15
+    },
+    {
+      "texto": "that",
+      "inicio": 5.162,
+      "fin": 5.3
+    },
+    {
+      "texto": "when",
+      "inicio": 5.312,
+      "fin": 5.438
+    },
+    {
+      "texto": "the",
+      "inicio": 5.45,
+      "fin": 5.513
+    },
+    {
+      "texto": "heart",
+      "inicio": 5.525,
+      "fin": 5.812
+    },
+    {
+      "texto": "rate",
+      "inicio": 5.825,
+      "fin": 6.062
+    },
+    {
+      "texto": "jumps",
+      "inicio": 6.075,
+      "fin": 6.45
+    },
+    {
+      "texto": "well",
+      "inicio": 6.463,
+      "fin": 6.688
+    },
+    {
+      "texto": "past",
+      "inicio": 6.7,
+      "fin": 7.075
+    },
+    {
+      "texto": "its",
+      "inicio": 7.088,
+      "fin": 7.225
+    },
+    {
+      "texto": "normal",
+      "inicio": 7.237,
+      "fin": 7.562
+    },
+    {
+      "texto": "pace,",
+      "inicio": 7.575,
+      "fin": 8.075
+    },
+    {
+      "texto": "the",
+      "inicio": 8.3,
+      "fin": 8.4
+    },
+    {
+      "texto": "part",
+      "inicio": 8.412,
+      "fin": 8.637
+    },
+    {
+      "texto": "of",
+      "inicio": 8.65,
+      "fin": 8.725
+    },
+    {
+      "texto": "us",
+      "inicio": 8.738,
+      "fin": 8.888
+    },
+    {
+      "texto": "that",
+      "inicio": 8.9,
+      "fin": 9.075
+    },
+    {
+      "texto": "listens",
+      "inicio": 9.088,
+      "fin": 9.475
+    },
+    {
+      "texto": "and",
+      "inicio": 9.488,
+      "fin": 9.588
+    },
+    {
+      "texto": "finds",
+      "inicio": 9.6,
+      "fin": 9.938
+    },
+    {
+      "texto": "words",
+      "inicio": 9.95,
+      "fin": 10.262
+    },
+    {
+      "texto": "starts",
+      "inicio": 10.275,
+      "fin": 10.613
+    },
+    {
+      "texto": "to",
+      "inicio": 10.625,
+      "fin": 10.725
+    },
+    {
+      "texto": "go",
+      "inicio": 10.738,
+      "fin": 10.9
+    },
+    {
+      "texto": "offline.",
+      "inicio": 10.912,
+      "fin": 11.512
+    }
+  ],
+  "texto": "His heart is racing. Researchers who've watched thousands of couples argue noticed that when the heart rate jumps well past its normal pace, the part of us that listens and finds words starts to go offline.",
+  "voz": "en-US-JennyNeural"
+}

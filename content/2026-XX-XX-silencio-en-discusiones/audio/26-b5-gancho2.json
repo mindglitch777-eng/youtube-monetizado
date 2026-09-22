@@ -1,0 +1,117 @@
+{
+  "duracion": 6.528,
+  "palabras": [
+    {
+      "texto": "There's",
+      "inicio": 0.1,
+      "fin": 0.338
+    },
+    {
+      "texto": "a",
+      "inicio": 0.35,
+      "fin": 0.412
+    },
+    {
+      "texto": "big",
+      "inicio": 0.425,
+      "fin": 0.637
+    },
+    {
+      "texto": "difference",
+      "inicio": 0.65,
+      "fin": 1.087
+    },
+    {
+      "texto": "between",
+      "inicio": 1.1,
+      "fin": 1.425
+    },
+    {
+      "texto": "a",
+      "inicio": 1.438,
+      "fin": 1.488
+    },
+    {
+      "texto": "wall",
+      "inicio": 1.5,
+      "fin": 1.812
+    },
+    {
+      "texto": "and",
+      "inicio": 1.825,
+      "fin": 1.925
+    },
+    {
+      "texto": "a",
+      "inicio": 1.938,
+      "fin": 1.988
+    },
+    {
+      "texto": "pause,",
+      "inicio": 2.0,
+      "fin": 2.525
+    },
+    {
+      "texto": "and",
+      "inicio": 2.725,
+      "fin": 2.863
+    },
+    {
+      "texto": "it",
+      "inicio": 2.875,
+      "fin": 2.975
+    },
+    {
+      "texto": "comes",
+      "inicio": 2.987,
+      "fin": 3.262
+    },
+    {
+      "texto": "down",
+      "inicio": 3.275,
+      "fin": 3.5
+    },
+    {
+      "texto": "to",
+      "inicio": 3.513,
+      "fin": 3.613
+    },
+    {
+      "texto": "one",
+      "inicio": 3.625,
+      "fin": 3.875
+    },
+    {
+      "texto": "thing:",
+      "inicio": 3.888,
+      "fin": 4.237
+    },
+    {
+      "texto": "whether",
+      "inicio": 4.463,
+      "fin": 4.7
+    },
+    {
+      "texto": "there's",
+      "inicio": 4.713,
+      "fin": 4.913
+    },
+    {
+      "texto": "a",
+      "inicio": 4.925,
+      "fin": 4.975
+    },
+    {
+      "texto": "way",
+      "inicio": 4.987,
+      "fin": 5.162
+    },
+    {
+      "texto": "back.",
+      "inicio": 5.175,
+      "fin": 5.65
+    }
+  ],
+  "texto": "There's a big difference between a wall and a pause, and it comes down to one thing: whether there's a way back.",
+  "voz": "en-US-JennyNeural"
+}
