@@ -5,3 +5,8 @@ __pycache__/
 *.mp3
 !assets/sonido/*.mp3
 /content/*/output.mp4
+content/*/audio/
+content/*/timeline.json
+content/zz-prueba/
+remotion/public/
+remotion/out/
