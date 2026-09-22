@@ -7,8 +7,10 @@ que una regla no se cumple, debe detenerse y avisar en vez de continuar.
 ## Personaje
 - El personaje fijo del canal es Knot, un búho de plumaje marrón cálido, 
   penachos en la cabeza, ojos grandes color ámbar.
-- Knot sostiene siempre una bola de hilo roja y enredada como estado por 
-  defecto (miniaturas, portada del canal, inicio y cuerpo de cada video).
+- Knot sostiene siempre una bola de hilo roja como estado por defecto en 
+  miniaturas, portada del canal, y el inicio del bloque 1. Dentro del cuerpo 
+  de los bloques siguientes, el hilo mantiene el nivel de enredo que dejó el 
+  Pago del bloque anterior — nunca aparece más enredado de lo que ya estaba.
 - El hilo empieza completamente rojo y enredado en el bloque 1 de cada 
   video, y nunca se muestra resuelto en la miniatura ni al principio.
 - En el Pago de los bloques 1 a 5, el hilo se afloja un poco más en cada 
