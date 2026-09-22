@@ -1,0 +1,5 @@
+# archivo	id_mixkit	slug_mixkit	uso
+transicion.mp3	166	fast-small-sweep-transition	whoosh: transición de bloque
+revelacion.mp3	2870	correct-answer-tone	ding: dato importante (palabra resaltada)
+bloque.mp3	1107	positive-interface-click	click: separador entre ejemplos
+cierre.mp3	600	achievement-bell	sting: cierre del video
