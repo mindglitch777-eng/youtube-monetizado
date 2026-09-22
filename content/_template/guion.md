@@ -29,4 +29,6 @@ cada uno de los 6.
 Para armar un video completo: copiar este bloque 6 veces, cambiar el número 
 en "# Bloque N" (1 a 6), y dejar la sección CTA únicamente en la copia del 
 bloque 6.
+La línea "Palabra clave SEO: <keyword>" va una sola vez, arriba de todo el 
+archivo del video completo, no en cada bloque copiado.
 -->
