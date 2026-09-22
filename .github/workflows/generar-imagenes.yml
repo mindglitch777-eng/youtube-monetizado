@@ -1,0 +1,54 @@
+# Genera las escenas con Pollinations.ai para cada video que tenga
+# content/<video>/imagenes/pedido.txt, y commitea las imágenes en la misma rama.
+# Corre en GitHub Actions porque Pollinations no es accesible desde el entorno
+# de Claude Code. Las imágenes que ya existen no se regeneran.
+name: Generar imágenes
+
+on:
+  push:
+    paths:
+      - content/*/imagenes/pedido.txt
+      - .github/workflows/generar-imagenes.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generar-imagenes-${{ github.ref }}
+
+jobs:
+  imagenes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generar imágenes pedidas
+        run: |
+          set -euo pipefail
+          for pedido in content/*/imagenes/pedido.txt; do
+            [ -f "$pedido" ] || continue
+            video=$(dirname "$(dirname "$pedido")")
+            opciones=$(grep -v '^#' "$pedido" | grep -v '^[[:space:]]*$' | head -1 || true)
+            echo "::group::$video $opciones"
+            python scripts/generar_imagenes.py "$video/guion.md" $opciones
+            echo "::endgroup::"
+          done
+
+      - name: Commitear imágenes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A content/*/imagenes
+          if git diff --cached --quiet; then
+            echo "Sin imágenes nuevas."
+            exit 0
+          fi
+          git commit -m "Generar imágenes (Pollinations.ai) desde GitHub Actions"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

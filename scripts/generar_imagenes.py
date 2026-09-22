@@ -1,36 +1,41 @@
-"""Genera las escenas de un video con la API de Gemini.
+"""Genera las escenas de un video con Pollinations.ai (gratis, sin API key).
 
 Uso:
     python scripts/generar_imagenes.py content/<nombre-video>/guion.md [opciones]
 
 Opciones:
-    --dry-run   Solo arma los prompts (imagenes/prompts.json), sin llamar a la API.
+    --dry-run   Solo arma los prompts (imagenes/prompts.json), sin descargar nada.
     --solo N    Genera únicamente la imagen número N (para probar antes del lote).
-    --yes       No pide confirmación antes de gastar llamadas a la API.
     --forzar    Regenera también las imágenes que ya existen.
 
 Una imagen por escena: Hook, Gancho 2, cada ejemplo del Cuerpo y Pago de cada
 bloque (36 en un video de 6 bloques). Las escenas muestran siluetas humanas
 simples, nunca a Knot: Knot aparece aparte, como ícono de marca en Remotion.
-Las imágenes existentes se saltean para no pagar dos veces la misma escena.
+Las imágenes que ya existen se saltean. Entre pedido y pedido se esperan 16
+segundos: el nivel gratis anónimo de Pollinations permite 1 cada 15 segundos.
 """
 
 import argparse
 import json
-import os
 import sys
 import time
+import urllib.error
+import urllib.parse
+import urllib.request
 from pathlib import Path
 
-from segmentos import cargar_env, leer_guion, nombre_base, validar_o_salir
+from segmentos import leer_guion, nombre_base, validar_o_salir
 
-MODELO = os.environ.get("GEMINI_IMAGE_MODEL", "gemini-3.1-flash-image")
+URL_BASE = "https://image.pollinations.ai/prompt/"
+PARAMETROS = {"width": 1024, "height": 1024, "nologo": "true"}
+ESPERA_ENTRE_PEDIDOS = 16
+TIMEOUT = 180
 EXTENSIONES = {"image/png": ".png", "image/jpeg": ".jpg", "image/webp": ".webp"}
 
 # RULES.md, sección "Estilo visual de las escenas humanas".
 ESTILO = (
     "Soft digital painting in a gentle storybook style with painterly textures, "
-    "cinematic 16:9 composition. People are shown as simple human silhouettes "
+    "cinematic composition. People are shown as simple human silhouettes "
     "without detailed facial features. The setting is an everyday, easily "
     "recognizable place (a living room, kitchen, bedroom, hallway, car or cafe)."
 )
@@ -55,47 +60,43 @@ PROHIBIDO = (
 
 def armar_prompt(titulo, segmento):
     return (
-        f"{ESTILO} {ESTILO_POR_TIPO[segmento['tipo']]}\n\n"
+        f"{ESTILO} {ESTILO_POR_TIPO[segmento['tipo']]} "
         f"This image is one scene of a video titled \"{titulo}\", about relationship "
-        f"psychology and social dynamics.\n"
+        f"psychology and social dynamics. "
         f"Illustrate the moment described by this narration, with one or two "
         f"simple human silhouettes whose posture and body language convey the "
-        f"emotion:\n\"{segmento['texto']}\"\n\n"
+        f"emotion: \"{segmento['texto']}\" "
         f"{PROHIBIDO}"
     )
+
+
+def armar_url(prompt):
+    return URL_BASE + urllib.parse.quote(prompt, safe="") + "?" + urllib.parse.urlencode(PARAMETROS)
 
 
 def existente(carpeta, base):
     return next(iter(sorted(carpeta.glob(base + ".*"))), None)
 
 
-def generar(cliente, prompt):
-    from google.genai import types
-
-    config = types.GenerateContentConfig(
-        response_modalities=["IMAGE"],
-        image_config=types.ImageConfig(aspect_ratio="16:9"),
-    )
+def descargar(url):
+    """GET a la URL de Pollinations. Reintenta ante límites (429) o errores del servidor."""
+    pedido = urllib.request.Request(url, headers={"User-Agent": "knot-pipeline/1.0"})
     for intento in range(3):
         try:
-            respuesta = cliente.models.generate_content(
-                model=MODELO, contents=[prompt], config=config)
-            for candidato in respuesta.candidates or []:
-                for parte in (candidato.content.parts if candidato.content else []):
-                    if parte.inline_data and parte.inline_data.data:
-                        return parte.inline_data.data, parte.inline_data.mime_type
-            raise RuntimeError("la respuesta no trajo ninguna imagen")
-        except Exception as error:  # noqa: BLE001 - se reintenta cualquier fallo de la API
+            with urllib.request.urlopen(pedido, timeout=TIMEOUT) as respuesta:
+                tipo = respuesta.headers.get_content_type()
+                datos = respuesta.read()
+            if not tipo.startswith("image/"):
+                raise RuntimeError(f"la respuesta no es una imagen ({tipo})")
+            return datos, tipo
+        except (urllib.error.URLError, TimeoutError, RuntimeError) as error:
             codigo = getattr(error, "code", None)
-            if codigo == 429 and "limit: 0" in str(error):
-                sys.exit("La API key no tiene cuota para este modelo (plan gratuito con límite 0). "
-                         "Hay que activar la facturación en el proyecto de Google AI Studio.")
             if isinstance(codigo, int) and 400 <= codigo < 500 and codigo != 429:
                 raise
             if intento == 2:
                 raise
-            espera = 2 ** (intento + 1)
-            print(f"    reintentando en {espera}s ({error})")
+            espera = ESPERA_ENTRE_PEDIDOS * (intento + 2)
+            print(f"    reintentando en {espera}s ({error})", flush=True)
             time.sleep(espera)
 
 
@@ -104,7 +105,6 @@ def main():
     parser.add_argument("guion")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--solo", type=int)
-    parser.add_argument("--yes", action="store_true")
     parser.add_argument("--forzar", action="store_true")
     args = parser.parse_args()
     if hasattr(sys.stdout, "reconfigure"):
@@ -128,32 +128,23 @@ def main():
 
     pendientes = [s for s in escenas
                   if args.forzar or not existente(carpeta, nombre_base(s))]
-    print(f"{len(escenas)} escenas, {len(pendientes)} por generar con {MODELO}.")
+    print(f"{len(escenas)} escenas, {len(pendientes)} por generar con Pollinations.ai.")
     print(f"Prompts guardados en {carpeta / 'prompts.json'}")
     if args.dry_run or not pendientes:
         return
 
-    cargar_env()
-    clave = os.environ.get("GEMINI_API_KEY")
-    if not clave:
-        sys.exit("Falta GEMINI_API_KEY en .env")
-    if not args.yes:
-        respuesta = input(f"Esto hace {len(pendientes)} llamadas pagas a la API. ¿Seguir? (s/N) ")
-        if respuesta.strip().lower() not in ("s", "si", "sí", "y", "yes"):
-            sys.exit("Cancelado, no se llamó a la API.")
-
-    from google import genai
-    cliente = genai.Client(api_key=clave)
-    for s in pendientes:
+    for n, s in enumerate(pendientes):
+        if n:
+            time.sleep(ESPERA_ENTRE_PEDIDOS)
         base = nombre_base(s)
         print(f"  {base} ...", flush=True)
-        datos, mime = generar(cliente, prompts[base])
+        datos, tipo = descargar(armar_url(prompts[base]))
         viejo = existente(carpeta, base)
         if viejo:
             viejo.unlink()
-        destino = carpeta / (base + EXTENSIONES.get(mime, ".png"))
+        destino = carpeta / (base + EXTENSIONES.get(tipo, ".jpg"))
         destino.write_bytes(datos)
-        print(f"    guardada: {destino}")
+        print(f"    guardada: {destino} ({len(datos) // 1024} KB)")
     print("Listo.")
 
 

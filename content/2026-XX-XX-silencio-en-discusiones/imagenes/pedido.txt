@@ -1,0 +1,5 @@
+# Qué imágenes genera el workflow "Generar imágenes" para este video.
+# Una sola línea con las opciones de scripts/generar_imagenes.py:
+#   --solo N   → solo la escena N (para probar el estilo)
+#   (vacío)    → todas las que falten
+--solo 1
