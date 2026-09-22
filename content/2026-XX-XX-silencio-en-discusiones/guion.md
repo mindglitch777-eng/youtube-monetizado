@@ -28,7 +28,7 @@ So why does he go quiet during a fight, right when you need him to talk? The ans
 
 # Cuerpo (3 ejemplos)
 
-- His heart is racing. Researchers who've watched thousands of couples argue noticed that when the heart rate jumps well past its normal pace, the part of us that listens and finds words starts to go offline. <!-- sonido: ding -->
+- His heart is racing. Researchers who've watched thousands of couples argue noticed that when the heart rate jumps well past its normal pace, the part of us that listens and finds words starts to go **offline**. <!-- sonido: ding -->
 - The words just disappear. He might know exactly what he feels, and still be unable to find a single sentence for it in that moment.
 - He stares at one spot on the wall. From the outside it looks cold. From the inside, it's often an attempt to stop feeling overwhelmed.
 
@@ -136,7 +136,7 @@ There's a big difference between a wall and a pause, and it comes down to one th
 
 # Cuerpo (3 ejemplos)
 
-- A pause sounds like "I need a few minutes, I'll come back." Relationship researchers have suggested the body often needs around twenty minutes or more to truly calm down. <!-- sonido: ding -->
+- A pause sounds like "I need a few minutes, I'll come back." Relationship researchers have suggested the body often needs around **twenty** minutes or more to truly calm down. <!-- sonido: ding -->
 - A wall sounds like nothing at all. Walking away without a word, with no sign of when, or if, the conversation will continue.
 - The silent treatment is something else entirely. Using silence to punish or control someone for days isn't overwhelm, and it's worth recognizing that it's a different thing.
 
