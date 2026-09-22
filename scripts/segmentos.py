@@ -1,12 +1,13 @@
 """Lectura compartida de guion.md para generar_imagenes.py y generar_audio.py.
 
-Divide el guion en segmentos narrados, en orden:
-    intro, y por cada bloque: hook, gancho2, ej1, ej2, ej3, pago, transicion
-    (el bloque 6 termina con pago y cta).
+Divide el guion en segmentos narrados, en orden: por cada bloque hook,
+gancho2, ej1, ej2, ej3 y pago (el bloque 6 termina con pago y cta).
 
 Cada segmento sabe si lleva imagen (Hook, Gancho 2, cada ejemplo y Pago),
 si tiene una marca <!-- sonido: ding --> y qué palabra se resalta en los
-subtítulos (la que esté en **negrita** dentro de ese segmento).
+subtítulos (la que esté en **negrita** dentro de ese segmento). Las
+secciones "# Transición" no se narran: marcan que el segmento siguiente
+arranca con el whoosh (whoosh_antes).
 """
 
 import os
@@ -57,8 +58,6 @@ def _tipo(titulo):
     if tipo:
         return tipo, valor
     t = normalizar(titulo)
-    if t.startswith("intro"):
-        return "intro", None
     if t.startswith("transicion"):
         return "transicion", None
     return None, None
@@ -99,7 +98,7 @@ def leer_guion(ruta_guion):
             tipo, valor = _tipo(m.group(2))
             if tipo == "bloque":
                 bloque, actual = valor, None
-            elif tipo in ("intro", "hook", "gancho 2", "pago", "transicion", "cta"):
+            elif tipo in ("hook", "gancho 2", "pago", "transicion", "cta"):
                 actual = [bloque, tipo.replace(" ", ""), []]
                 crudos.append(actual)
             elif tipo == "cuerpo":
@@ -112,7 +111,12 @@ def leer_guion(ruta_guion):
             actual[2].append(linea)
 
     segmentos = []
+    whoosh_pendiente = False
     for bloque, tipo, contenido in crudos:
+        if tipo == "transicion":
+            whoosh_pendiente = True
+            continue
+        nuevos = []
         if tipo == "cuerpo":
             ejemplos = []
             for linea in contenido:
@@ -122,11 +126,15 @@ def leer_guion(ruta_guion):
                 elif ejemplos and linea.strip():
                     ejemplos[-1].append(linea)
             for n, partes in enumerate(ejemplos, 1):
-                segmentos.append(_segmento(bloque, "ejemplo", "\n".join(partes), n))
+                nuevos.append(_segmento(bloque, "ejemplo", "\n".join(partes), n))
         else:
             segmento = _segmento(bloque, tipo, "\n".join(contenido))
             if segmento["texto"]:
-                segmentos.append(segmento)
+                nuevos.append(segmento)
+        if nuevos and whoosh_pendiente:
+            nuevos[0]["whoosh_antes"] = True
+            whoosh_pendiente = False
+        segmentos.extend(nuevos)
 
     imagen = 0
     for orden, s in enumerate(segmentos, 1):
@@ -139,8 +147,6 @@ def leer_guion(ruta_guion):
 
 def _segmento(bloque, tipo, crudo, ejemplo=None):
     comentarios = [c.strip() for c in COMENTARIO.findall(crudo)]
-    hilo = next((c.split(":", 1)[1].strip() for c in comentarios
-                 if c.lower().startswith("hilo:")), None)
     ding = any(re.match(r"sonido\s*:\s*ding\b", c, re.IGNORECASE) for c in comentarios)
     negritas = NEGRITA.findall(COMENTARIO.sub("", crudo))
     if tipo == "ejemplo":
@@ -158,7 +164,7 @@ def _segmento(bloque, tipo, crudo, ejemplo=None):
         "ilustrar": tipo in TIPOS_CON_IMAGEN,
         "ding": ding,
         "destacada": negritas[0].strip() if negritas else None,
-        "hilo": hilo,
+        "whoosh_antes": False,
     }
 
 

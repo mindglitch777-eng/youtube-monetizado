@@ -10,12 +10,6 @@ Sonido de marca: whoosh en cada transición, click entre ejemplos,
 ding en los datos importantes marcados, sting al cierre.
 -->
 
-# Intro
-
-This is Knot. Let's untangle it.
-
-<!-- hilo: rojo, completamente enredado -->
-
 # Bloque 1
 
 # Hook
@@ -36,12 +30,9 @@ So why does he go quiet during a fight, right when you need him to talk? The ans
 
 So if his silence has ever felt like a door slammed in your face, it may not have been a door at all. It may have been someone trying to keep their head above water.
 
-<!-- hilo: rojo, se afloja apenas (nivel 1 de 5) -->
-
 # Transición
 
 <!-- sonido: whoosh -->
-Let's pull on the next thread.
 
 # Bloque 2
 
@@ -63,12 +54,9 @@ Silence during conflict is rarely invented on the spot. It's something a lot of 
 
 None of this makes the silence easier to live with. But it can make it less personal. What you're seeing is often an old habit, not a verdict on you.
 
-<!-- hilo: rojo, algo menos enredado que en el bloque 1 (nivel 2 de 5) -->
-
 # Transición
 
 <!-- sonido: whoosh -->
-Let's pull on the next thread.
 
 # Bloque 3
 
@@ -90,12 +78,9 @@ There's a pattern that shows up in a lot of couples: one person reaches, the oth
 
 If you've been the one reaching, that doesn't make you the problem. Reaching is what caring looks like. Seeing the loop is the first step to stepping out of it together.
 
-<!-- hilo: rojo, se nota claramente más suelto (nivel 3 de 5) -->
-
 # Transición
 
 <!-- sonido: whoosh -->
-Let's pull on the next thread.
 
 # Bloque 4
 
@@ -117,12 +102,9 @@ When someone goes quiet in a fight, the silence is often protecting something.
 
 That doesn't mean the silence works. But knowing what it's guarding can soften how it feels to be on the other side of it.
 
-<!-- hilo: rojo, con pocos nudos (nivel 4 de 5) -->
-
 # Transición
 
 <!-- sonido: whoosh -->
-Let's pull on the next thread.
 
 # Bloque 5
 
@@ -144,12 +126,9 @@ There's a big difference between a wall and a pause, and it comes down to one th
 
 So silence itself isn't always the enemy. A pause that comes back can actually protect a conversation. It's the silence with no return that hurts.
 
-<!-- hilo: rojo, casi suelto, apenas un nudo (nivel 5 de 5) -->
-
 # Transición
 
 <!-- sonido: whoosh -->
-Let's pull on the next thread.
 
 # Bloque 6
 
@@ -171,11 +150,8 @@ Couples who get through this pattern tend to do a few small things differently, 
 
 So why does he go quiet? Often, because he's overwhelmed, not because he's gone. And if you've spent nights wondering whether his silence meant you didn't matter, it may simply have meant he didn't know how to stay in the room yet. That's something people can learn.
 
-<!-- hilo: cambia a verde agua/celeste, completamente resuelto -->
-
 # CTA
 
 If you've been on either side of this silence, comment "this is us". You're not the only one.
 
-<!-- hilo: verde agua/celeste, resuelto, se mantiene -->
 <!-- sonido: sting -->

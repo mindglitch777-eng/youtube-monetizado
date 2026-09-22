@@ -27,12 +27,26 @@ from segmentos import cargar_env, leer_guion, nombre_base, validar_o_salir
 MODELO = os.environ.get("GEMINI_IMAGE_MODEL", "gemini-3.1-flash-image")
 EXTENSIONES = {"image/png": ".png", "image/jpeg": ".jpg", "image/webp": ".webp"}
 
+# RULES.md, sección "Estilo visual de las escenas humanas".
 ESTILO = (
-    "Warm, soft digital painting in a cozy storybook style, muted earthy palette "
-    "(warm browns, beige, soft amber light), gentle painterly textures, calm and "
-    "empathetic mood, simple uncluttered background, cinematic 16:9 composition. "
-    "People are shown as simple human silhouettes without detailed facial features."
+    "Soft digital painting in a gentle storybook style with painterly textures, "
+    "cinematic 16:9 composition. People are shown as simple human silhouettes "
+    "without detailed facial features. The setting is an everyday, easily "
+    "recognizable place (a living room, kitchen, bedroom, hallway, car or cafe)."
 )
+ESTILO_POR_TIPO = {
+    # Cuerpo: paleta más fría y encuadre cerrado.
+    "ejemplo": "Cooler palette (muted blues, grey-teal, soft cool shadows). Tight, close "
+               "framing on one or two silhouettes (medium close-up), focused on posture "
+               "and body language.",
+    # Pago: paleta cálida y encuadre abierto.
+    "pago": "Warm palette (soft amber, gold and warm browns, gentle warm light). Wide, "
+            "open framing that shows the whole room with breathing space around the "
+            "silhouettes, calm and reassuring.",
+    # Hook y Gancho 2: RULES.md no los define; término medio entre los dos.
+    "hook": "Balanced palette between cool and warm tones. Medium framing.",
+    "gancho2": "Balanced palette between cool and warm tones. Medium framing.",
+}
 PROHIBIDO = (
     "Do not include any text, letters, captions, subtitles, logos or watermarks. "
     "Do not include owls, birds or any animal characters."
@@ -41,7 +55,7 @@ PROHIBIDO = (
 
 def armar_prompt(titulo, segmento):
     return (
-        f"{ESTILO}\n\n"
+        f"{ESTILO} {ESTILO_POR_TIPO[segmento['tipo']]}\n\n"
         f"This image is one scene of a video titled \"{titulo}\", about relationship "
         f"psychology and social dynamics.\n"
         f"Illustrate the moment described by this narration, with one or two "
@@ -94,16 +108,17 @@ def main():
     validar_o_salir(ruta_guion)
     titulo, segmentos = leer_guion(ruta_guion)
     escenas = [s for s in segmentos if s["ilustrar"]]
-    if args.solo:
-        escenas = [s for s in escenas if s["numero_imagen"] == args.solo]
-        if not escenas:
-            sys.exit(f"No existe la escena número {args.solo}.")
 
     carpeta = ruta_guion.parent / "imagenes"
     carpeta.mkdir(parents=True, exist_ok=True)
     prompts = {nombre_base(s): armar_prompt(titulo, s) for s in escenas}
     (carpeta / "prompts.json").write_text(
         json.dumps(prompts, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    if args.solo:
+        escenas = [s for s in escenas if s["numero_imagen"] == args.solo]
+        if not escenas:
+            sys.exit(f"No existe la escena número {args.solo}.")
 
     pendientes = [s for s in escenas
                   if args.forzar or not existente(carpeta, nombre_base(s))]

@@ -3,11 +3,14 @@
 Uso:
     python scripts/generar_audio.py content/<nombre-video>/guion.md [--forzar]
 
-Genera un mp3 por sección (Intro, Hook, Gancho 2, cada ejemplo del Cuerpo,
-Pago, Transición y CTA) en content/<nombre-video>/audio/, junto con un .json
-con el tiempo de cada palabra (para los subtítulos). Los audios que ya
-existen se saltean salvo con --forzar, así se puede volver a correr solo para
-reconstruir timeline.json después de generar las imágenes.
+Genera un mp3 por sección (Hook, Gancho 2, cada ejemplo del Cuerpo, Pago y
+CTA) en content/<nombre-video>/audio/, junto con un .json con el tiempo de
+cada palabra (para los subtítulos). Las transiciones no se narran: el whoosh
+suena en una pausa corta antes del Hook de cada bloque nuevo.
+
+Un audio se regenera solo si cambió su texto en el guion (o con --forzar), así
+se puede volver a correr para reconstruir timeline.json después de generar
+las imágenes. Los audios que ya no corresponden a ninguna sección se borran.
 
 RULES.md: Edge-TTS se usa solo en fase de prueba. Antes de publicar contenido
 monetizado, la voz tiene que migrar a una opción con licencia comercial.
@@ -30,12 +33,12 @@ SONIDOS = {
     "click": "assets/sonido/bloque.mp3",
     "sting": "assets/sonido/cierre.mp3",
 }
-KNOT_REFERENCIA = "assets/personaje/knot-referencia.png"
-KNOT_RESUELTO = "assets/personaje/knot-resuelto.png"
+# RULES.md: el ícono de Knot es fijo, la misma imagen todo el video.
 KNOT_ICONO = "assets/personaje/knot-icono.png"
 
-PAUSA = {"pago": 0.7, "transicion": 0.4}
+PAUSA = {"pago": 0.7}
 PAUSA_DEFAULT = 0.35
+PAUSA_WHOOSH = 0.5  # hueco antes del Hook de un bloque nuevo, donde suena el whoosh
 COLA_FINAL = 2.5  # segundos después del CTA para que suene el sting
 
 
@@ -94,8 +97,8 @@ def indice_destacada(segmento, palabras):
 
 def sonidos_de(segmento, datos, destacada):
     sonidos = []
-    if segmento["tipo"] == "transicion":
-        sonidos.append({"archivo": SONIDOS["whoosh"], "en": 0})
+    if segmento["whoosh_antes"]:
+        sonidos.append({"archivo": SONIDOS["whoosh"], "en": -PAUSA_WHOOSH})
     if segmento["tipo"] == "ejemplo" and segmento["ejemplo"] > 1:
         sonidos.append({"archivo": SONIDOS["click"], "en": 0})
     if destacada is not None:
@@ -112,14 +115,7 @@ def imagen_de(segmento, carpeta_imagenes, anterior):
             return encontradas[0].relative_to(RAIZ).as_posix()
         print(f"  ! falta la imagen {nombre_base(segmento)} (se verá un fondo liso)")
         return None
-    if segmento["tipo"] == "intro":
-        return KNOT_REFERENCIA
-    if segmento["tipo"] == "cta":
-        if (RAIZ / KNOT_RESUELTO).exists():
-            return KNOT_RESUELTO
-        print(f"  ! falta {KNOT_RESUELTO} (Knot con el hilo verde agua); uso la referencia")
-        return KNOT_REFERENCIA
-    return anterior  # transición: mantiene la última escena
+    return anterior  # CTA: mantiene la última escena (el Pago del bloque 6)
 
 
 async def main_async(args):
@@ -136,15 +132,22 @@ async def main_async(args):
     timeline = []
     inicio = 0.0
     imagen = None
+    vigentes = set()
     for segmento in segmentos:
         base = carpeta_audio / nombre_audio(segmento)
         mp3, meta = base.with_suffix(".mp3"), base.with_suffix(".json")
-        if args.forzar or not (mp3.exists() and meta.exists()):
+        vigentes.update({mp3.name, meta.name})
+        datos = json.loads(meta.read_text(encoding="utf-8")) if meta.exists() else None
+        if args.forzar or not mp3.exists() or not datos or datos.get("texto") != segmento["texto"] \
+                or datos.get("voz") != voz:
             print(f"  {mp3.name} ...", flush=True)
             datos = await sintetizar(segmento["texto"], voz, mp3)
             datos["palabras"] = alinear_puntuacion(segmento["texto"], datos["palabras"])
+            datos.update(texto=segmento["texto"], voz=voz)
             meta.write_text(json.dumps(datos, ensure_ascii=False, indent=2), encoding="utf-8")
-        datos = json.loads(meta.read_text(encoding="utf-8"))
+
+        if segmento["whoosh_antes"]:
+            inicio += PAUSA_WHOOSH
 
         destacada = indice_destacada(segmento, datos["palabras"])
         imagen = imagen_de(segmento, carpeta_video / "imagenes", imagen)
@@ -161,6 +164,11 @@ async def main_async(args):
             "sonidos": sonidos_de(segmento, datos, destacada),
         })
         inicio += datos["duracion"] + PAUSA.get(segmento["tipo"], PAUSA_DEFAULT)
+
+    for viejo in carpeta_audio.glob("*"):
+        if viejo.suffix in (".mp3", ".json") and viejo.name not in vigentes:
+            viejo.unlink()
+            print(f"  borrado (ya no está en el guion): {viejo.name}")
 
     salida = {
         "titulo": titulo,

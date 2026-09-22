@@ -8,7 +8,6 @@ una sección termina en el siguiente encabezado de igual o mayor nivel):
 
     Palabra clave SEO: <keyword>
 
-    # Intro
     # Bloque 1
     ## Hook
     ## Gancho 2
@@ -16,7 +15,8 @@ una sección termina en el siguiente encabezado de igual o mayor nivel):
     - ejemplo 1          (viñetas, líneas numeradas o subencabezados
     - ejemplo 2           "Ejemplo 1/2/3")
     - ejemplo 3
-    ## Pago              (incluye una nota sobre el estado del hilo)
+    ## Pago
+    ## Transición        (solo <!-- sonido: whoosh -->, sin texto narrado)
     ...
     # Bloque 6
     ## Hook / Gancho 2 / Cuerpo / Pago
@@ -212,20 +212,6 @@ def chequear_ejemplos(bloques, secciones):
     return f"Ejemplos: exactamente {EJEMPLOS_POR_CUERPO} en cada Cuerpo", motivos
 
 
-def chequear_hilo(bloques, secciones):
-    motivos = []
-    for numero in sorted({b["valor"] for b in bloques}):
-        pagos = secciones_de(secciones, numero, "pago")
-        if not pagos:
-            motivos.append(f"bloque {numero}: no tiene Pago, no se pudo buscar la nota del hilo")
-        elif not re.search(r"\bhilo\b", "\n".join(pagos[0]["lineas"]), re.IGNORECASE):
-            motivos.append(f"bloque {numero}: el Pago (línea {pagos[0]['linea']}) no "
-                           f"menciona el 'hilo' (falta la nota de progresión)")
-    if not bloques:
-        motivos.append("no hay bloques, no se pudo buscar la nota del hilo")
-    return "Hilo: nota de progresión en cada Pago", motivos
-
-
 def buscar_keyword(lineas):
     for i, linea in enumerate(lineas):
         es_encabezado = bool(ENCABEZADO.match(linea))
@@ -283,7 +269,6 @@ def main():
         chequear_estructura(bloques, secciones),
         chequear_cta(bloques, secciones),
         chequear_ejemplos(bloques, secciones),
-        chequear_hilo(bloques, secciones),
         chequear_seo(lineas),
         chequear_seo_dicha(lineas, secciones),
     ]

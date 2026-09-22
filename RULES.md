@@ -7,18 +7,17 @@ que una regla no se cumple, debe detenerse y avisar en vez de continuar.
 ## Personaje
 - El personaje fijo del canal es Knot, un búho de plumaje marrón cálido, 
   penachos en la cabeza, ojos grandes color ámbar.
-- Knot sostiene siempre una bola de hilo roja como estado por defecto en 
-  miniaturas, portada del canal, y el inicio del bloque 1. Dentro del cuerpo 
-  de los bloques siguientes, el hilo mantiene el nivel de enredo que dejó el 
-  Pago del bloque anterior — nunca aparece más enredado de lo que ya estaba.
-- El hilo empieza completamente rojo y enredado en el bloque 1 de cada 
-  video, y nunca se muestra resuelto en la miniatura ni al principio.
-- En el Pago de los bloques 1 a 5, el hilo se afloja un poco más en cada 
-  uno (menos enredado, pero se mantiene rojo) — es un indicador visual de 
-  progreso a lo largo del video, nunca retrocede a un estado más enredado.
-- Recién en el Pago del bloque 6 (el último), el hilo cambia de color a 
-  verde agua/celeste, y así se mantiene en el CTA final.
+- El ícono de Knot es fijo y no cambia de estado en ningún momento del 
+  video — siempre el hilo rojo enredado, la misma imagen del principio 
+  al final.
 - Mismo estilo de ilustración en todos los videos, sin excepción.
+
+## Estilo visual de las escenas humanas
+- Las personas se muestran como siluetas simples, sin rasgos detallados.
+- Paleta más fría en el Cuerpo y cálida en el Pago.
+- Ambientación cotidiana y reconocible (living, cocina, dormitorio, auto, etc.).
+- Encuadre cerrado en el Cuerpo y abierto en el Pago.
+- Knot nunca aparece en estas escenas.
 
 ## Guion
 - El hook (0-3s) usa "you/your" y contradice una creencia común del espectador.

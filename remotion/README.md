@@ -15,7 +15,7 @@ npx remotion render Video ../content/<nombre-video>/output.mp4
 - Subtítulos: franjas de máximo 5 palabras, Montserrat 900 blanca con contorno
   oscuro, en el tercio superior-medio. La palabra en **negrita** de cada
   sección con `<!-- sonido: ding -->` se resalta en amarillo con un leve salto.
-- Sonidos: whoosh en cada transición, click entre ejemplos, ding en la palabra
+- Sonidos: whoosh antes de cada bloque nuevo, click entre ejemplos, ding en la palabra
   resaltada y sting al final del CTA (archivos de `assets/sonido/`).
 - La fuente (`fuentes/Montserrat.woff2`, licencia SIL Open Font License) está
   en el repo para que el render no dependa de internet.
