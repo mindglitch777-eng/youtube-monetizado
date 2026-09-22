@@ -1,0 +1,77 @@
+# TEMPORAL: 4 pruebas de estilo con Pollinations.ai para la misma escena.
+# Se borra después de elegir el estilo.
+name: Prueba de estilo (temporal)
+
+on:
+  push:
+    paths:
+      - .github/workflows/prueba-estilo.yml
+
+permissions:
+  contents: write
+
+jobs:
+  pruebas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generar las 4 pruebas
+        shell: python
+        run: |
+          import time, urllib.parse, urllib.request
+          from pathlib import Path
+
+          ESTILO = ("Flat vector-style illustration, minimalist character design, soft "
+                    "painterly digital art, muted desaturated color palette, gentle color "
+                    "gradients, clean simple linework. Human figures shown as simple "
+                    "silhouettes with featureless or barely suggested faces — no detailed "
+                    "facial features. Editorial illustration style, like a modern animated "
+                    "explainer video or picture book, never photorealistic, never photographic.")
+          COLOR = ("cool blue-gray tones, desaturated, tight and slightly claustrophobic "
+                   "framing, low ambient light, soft shadows")
+          ESCENA = ("A dimly lit house hallway, one person seen from behind, alone, standing, "
+                    "emotionally withdrawing from the situation.")
+          NEGATIVO = ("photorealistic, photograph, realistic skin texture, detailed facial "
+                      "features, detailed eyes, extra limbs, extra fingers, deformed hands, "
+                      "blurry, text, watermark, logo, signature, low quality, distorted "
+                      "anatomy, 3d render, CGI, grainy, film grain, realistic lighting")
+          prompt = f"{ESTILO} {COLOR}. {ESCENA}"
+          base = {"width": 1280, "height": 720, "nologo": "true", "negative": NEGATIVO}
+          pruebas = [
+              ("prueba-1.jpg", {"model": "flux"}),
+              ("prueba-2.jpg", {"model": "flux", "enhance": "true"}),
+              ("prueba-3.jpg", {"model": "zimage"}),
+              ("prueba-4.jpg", {"model": "flux", "seed": 42}),
+          ]
+          carpeta = Path("content/2026-XX-XX-silencio-en-discusiones/imagenes/pruebas")
+          carpeta.mkdir(parents=True, exist_ok=True)
+          for n, (nombre, extra) in enumerate(pruebas):
+              if n:
+                  time.sleep(16)
+              url = ("https://image.pollinations.ai/prompt/" + urllib.parse.quote(prompt, safe="")
+                     + "?" + urllib.parse.urlencode({**base, **extra}))
+              for intento in range(3):
+                  try:
+                      pedido = urllib.request.Request(url, headers={"User-Agent": "knot-pipeline/1.0"})
+                      with urllib.request.urlopen(pedido, timeout=180) as r:
+                          tipo, datos = r.headers.get_content_type(), r.read()
+                      if not tipo.startswith("image/"):
+                          raise RuntimeError(f"no es imagen: {tipo} {datos[:200]!r}")
+                      (carpeta / nombre).write_bytes(datos)
+                      print(f"{nombre}: {extra} -> {tipo}, {len(datos)//1024} KB", flush=True)
+                      break
+                  except Exception as e:
+                      print(f"{nombre}: intento {intento + 1} falló: {e}", flush=True)
+                      time.sleep(16 * (intento + 2))
+
+      - name: Commitear pruebas
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/*/imagenes/pruebas
+          git diff --cached --quiet && { echo "Sin pruebas nuevas."; exit 0; }
+          git commit -m "Pruebas de estilo de imagen (Pollinations.ai)"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
