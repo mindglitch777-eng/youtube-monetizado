@@ -44,6 +44,20 @@ que una regla no se cumple, debe detenerse y avisar en vez de continuar.
 - whoosh = transición de bloque | ding = confirmación de dato importante | 
   click = separador entre ejemplos | sting = cierre
 - La energía del sonido siempre coincide con la energía de la imagen en ese momento.
+- Archivos de marca: transicion.mp3 = whoosh | revelacion.mp3 = ding | 
+  bloque.mp3 = click | cierre.mp3 = sting.
+- Los sonidos de marca son gratuitos y con licencia comercial clara 
+  (preferentemente Mixkit o Pixabay Audio). La fuente y la licencia de cada 
+  archivo quedan anotadas en /assets/sonido.
+- El ding suena en la palabra resaltada del subtítulo: en el guion se marca 
+  con <!-- sonido: ding --> en la sección y la palabra en **negrita**.
+
+## Subtítulos
+- Franjas cortas, máximo 5-6 palabras en pantalla a la vez.
+- Tipografía sans-serif gruesa, blanca con sombra/contorno oscuro.
+- Una sola palabra por frase resaltada en amarillo con leve salto de tamaño, 
+  en los puntos marcados <!-- sonido: ding --> del guion.
+- Posición: tercio superior-medio de la pantalla.
 
 ## Producción
 - Ningún video se publica sin revisión humana completa antes de subir.
