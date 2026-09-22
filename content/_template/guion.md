@@ -6,18 +6,27 @@ bloques. El CTA solo va en el último bloque del video, no se repite en
 cada uno de los 6.
 -->
 
+# Bloque 1
+
 # Hook
 
 # Gancho 2
 
 # Cuerpo (3 ejemplos)
 
-## Ejemplo 1
-
-## Ejemplo 2
-
-## Ejemplo 3
+- 
+- 
+- 
 
 # Pago
 
+<!-- hilo: nivel de enredo en este bloque -->
+
+<!-- CTA: solo va en el bloque 6, borrar esta sección en los bloques 1 a 5 -->
 # CTA
+
+<!--
+Para armar un video completo: copiar este bloque 6 veces, cambiar el número 
+en "# Bloque N" (1 a 6), y dejar la sección CTA únicamente en la copia del 
+bloque 6.
+-->
