@@ -9,9 +9,13 @@ que una regla no se cumple, debe detenerse y avisar en vez de continuar.
   penachos en la cabeza, ojos grandes color ámbar.
 - Knot sostiene siempre una bola de hilo roja y enredada como estado por 
   defecto (miniaturas, portada del canal, inicio y cuerpo de cada video).
-- El hilo cambia a verde agua/celeste y aparece resuelto SOLO dentro del 
-  bloque de "pago" (cierre emocional) y en el CTA final de cada video. 
-  Nunca se muestra resuelto en la miniatura ni al principio del video.
+- El hilo empieza completamente rojo y enredado en el bloque 1 de cada 
+  video, y nunca se muestra resuelto en la miniatura ni al principio.
+- En el Pago de los bloques 1 a 5, el hilo se afloja un poco más en cada 
+  uno (menos enredado, pero se mantiene rojo) — es un indicador visual de 
+  progreso a lo largo del video, nunca retrocede a un estado más enredado.
+- Recién en el Pago del bloque 6 (el último), el hilo cambia de color a 
+  verde agua/celeste, y así se mantiene en el CTA final.
 - Mismo estilo de ilustración en todos los videos, sin excepción.
 
 ## Guion

@@ -6,8 +6,6 @@ bloques. El CTA solo va en el último bloque del video, no se repite en
 cada uno de los 6.
 -->
 
-<!-- Plantilla vacía para copiar en cada video nuevo. -->
-
 # Hook
 
 # Gancho 2
