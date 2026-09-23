@@ -1,6 +1,6 @@
 import React from "react";
 import { CalculateMetadataFunction, Composition, staticFile } from "remotion";
-import { recortarBloque } from "./shorts";
+import { prepararShort } from "./shorts";
 import type { Props, PropsShort, Timeline } from "./tipos";
 import { Video } from "./Video";
 
@@ -18,15 +18,15 @@ const calcularMetadata: CalculateMetadataFunction<Props> = async () => {
   return { props: { timeline }, durationInFrames: Math.ceil(timeline.duracionTotal * FPS) };
 };
 
-// Short: el mismo timeline recortado a un bloque (RULES.md, sección Shorts).
+// Short: un bloque del video largo o un short standalone (RULES.md, sección Shorts).
 const calcularMetadataShort: CalculateMetadataFunction<PropsShort> = async ({ props }) => {
   const completo = await leerTimeline();
   if (!completo) return { props: { ...props, timeline: null }, durationInFrames: FPS * 5 };
-  const timeline = recortarBloque(completo, props.bloque);
+  const timeline = prepararShort(completo, props.bloque);
   return { props: { ...props, timeline }, durationInFrames: Math.ceil(timeline.duracionTotal * FPS) };
 };
 
-// Mismo componente que el video largo; el recorte al bloque lo hace calcularMetadataShort.
+// Mismo componente que el video largo; el recorte lo hace calcularMetadataShort.
 const Short: React.FC<PropsShort> = ({ timeline }) => <Video timeline={timeline} />;
 
 export const Root: React.FC = () => (

@@ -37,8 +37,9 @@ const copiar = (relativo) => {
 };
 
 if (!copiar(timeline.icono)) faltantes.push(timeline.icono);
+if (timeline.audio && !copiar(timeline.audio)) faltantes.push(timeline.audio);
 for (const s of timeline.segmentos) {
-  if (!copiar(s.audio)) faltantes.push(s.audio);
+  if (s.audio && !copiar(s.audio)) faltantes.push(s.audio);
   if (s.imagen && !copiar(s.imagen)) {
     faltantes.push(s.imagen);
     s.imagen = null;
@@ -57,9 +58,13 @@ if (unicos.length) {
   unicos.forEach((f) => console.warn(`  - ${f}`));
 }
 if (unicos.some((f) => f.includes("/audio/"))) {
-  console.error("Falta narración: correr scripts/generar_audio.py antes de renderizar.");
+  console.error("Falta narración: correr scripts/generar_audio.py (o generar_short.py) antes de renderizar.");
   process.exit(1);
 }
 console.log(`Listo: ${timeline.segmentos.length} secciones de ${timeline.video} en remotion/public/.`);
-console.log(`Video: npx remotion render Video ../${timeline.video}/output.mp4`);
-console.log(`Short: npx remotion render Short ../${timeline.video}/short-1.mp4 --props='{"bloque":1}'`);
+if (timeline.formato === "short") {
+  console.log(`Short: npx remotion render Short ../${timeline.video}/output.mp4`);
+} else {
+  console.log(`Video: npx remotion render Video ../${timeline.video}/output.mp4`);
+  console.log(`Short: npx remotion render Short ../${timeline.video}/short-1.mp4 --props='{"bloque":1}'`);
+}

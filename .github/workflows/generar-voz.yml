@@ -39,6 +39,8 @@ jobs:
           set -euo pipefail
           for guion in content/*/guion.md; do
             case "$guion" in content/_template/*) continue ;; esac
+            # Los shorts standalone los procesa generar-short.yml.
+            grep -qiE '^formato:[[:space:]]*short' "$guion" && continue
             echo "::group::$guion"
             python scripts/generar_audio.py "$guion"
             echo "::endgroup::"

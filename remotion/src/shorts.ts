@@ -6,9 +6,23 @@ export const MAX_SEGUNDOS = 60;
 const COLA = 1.5; // segundos después del Pago para que suene el sting
 const STING = "assets/sonido/cierre.mp3";
 
+// Arma el timeline de un short: un short standalone se usa entero; un video
+// largo se recorta al bloque pedido. En los dos casos, debe durar menos de 60 s.
+export function prepararShort(timeline: Timeline, bloque: number): Timeline {
+  const short = timeline.formato === "short" ? timeline : recortarBloque(timeline, bloque);
+  if (short.duracionTotal >= MAX_SEGUNDOS) {
+    const que = timeline.formato === "short" ? "El short" : `El short del bloque ${bloque}`;
+    throw new Error(
+      `${que} dura ${short.duracionTotal.toFixed(1)} s; RULES.md pide menos de ` +
+        `${MAX_SEGUNDOS} s. Hay que acortar el texto.`,
+    );
+  }
+  return short;
+}
+
 // Recorta el timeline completo a los segmentos de un bloque, con los tiempos
 // empezando en 0. El CTA queda afuera: pertenece solo al video largo.
-export function recortarBloque(timeline: Timeline, bloque: number): Timeline {
+function recortarBloque(timeline: Timeline, bloque: number): Timeline {
   const segmentos = timeline.segmentos.filter((s) => s.bloque === bloque && s.tipo !== "cta");
   if (!segmentos.length) throw new Error(`El timeline no tiene un bloque ${bloque}.`);
   const desde = segmentos[0].inicio;
@@ -21,12 +35,5 @@ export function recortarBloque(timeline: Timeline, bloque: number): Timeline {
   const ultimo = recortados[recortados.length - 1];
   const fin = ultimo.inicio + ultimo.duracion;
   ultimo.sonidos = [...ultimo.sonidos, { archivo: STING, en: ultimo.duracion }];
-  const duracionTotal = fin + COLA;
-  if (duracionTotal >= MAX_SEGUNDOS) {
-    throw new Error(
-      `El short del bloque ${bloque} dura ${duracionTotal.toFixed(1)} s; ` +
-        `RULES.md pide menos de ${MAX_SEGUNDOS} s. Hay que acortar el texto de ese bloque.`,
-    );
-  }
-  return { ...timeline, duracionTotal, segmentos: recortados };
+  return { ...timeline, duracionTotal: fin + COLA, segmentos: recortados };
 }

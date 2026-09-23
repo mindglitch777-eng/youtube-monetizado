@@ -1,4 +1,5 @@
-// Formato de content/<video>/timeline.json (lo genera scripts/generar_audio.py).
+// Formato de content/<video>/timeline.json (lo generan scripts/generar_audio.py
+// para videos largos y scripts/generar_short.py para shorts standalone).
 
 export type Palabra = { texto: string; inicio: number; fin: number };
 
@@ -10,7 +11,9 @@ export type Segmento = {
   bloque: number | null;
   inicio: number;
   duracion: number;
-  audio: string;
+  // Audio propio del segmento (video largo). En un short standalone es null y
+  // la narración completa está en Timeline.audio.
+  audio: string | null;
   imagen: string | null;
   palabras: Palabra[];
   destacada: number | null;
@@ -24,9 +27,12 @@ export type Timeline = {
   icono: string;
   duracionTotal: number;
   segmentos: Segmento[];
+  // "short" = short standalone (generar_short.py): se usa entero, sin recortar.
+  formato?: "largo" | "short";
+  audio?: string | null;
 };
 
 export type Props = { timeline: Timeline | null };
 
-// Short vertical: un bloque del video largo (1 a 6).
+// Short vertical: un bloque del video largo (1 a 6), o un short standalone entero.
 export type PropsShort = Props & { bloque: number };
