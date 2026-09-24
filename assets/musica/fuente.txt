@@ -1,0 +1,4 @@
+# Página de Mixkit (Stock Music Free License) de la que el workflow
+# "Descargar sonidos de marca" toma la primera pista como música de fondo.
+# Para cambiar la música: borrar fondo.mp3 y origen.txt, cambiar esta URL y hacer push.
+https://mixkit.co/free-stock-music/mood/sad/

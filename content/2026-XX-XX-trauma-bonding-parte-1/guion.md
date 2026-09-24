@@ -17,7 +17,7 @@ validar_guion.py). Lo procesa scripts/generar_short.py.
 
 # Escena 1
 <!-- variante: media -->
-<!-- imagen: A person sitting alone in a dark room, staring at a phone, cold blue light from the screen on their face, tense posture, half the frame in shadow. -->
+<!-- imagen: A lonely figure curled up on a sofa at night, face lit only by a small phone screen, heavy sad mood, simple shapes, a tangled red thread on the floor beside them. -->
 
 This will **hurt**. Because it's about you.
 You know it's **destroying** you.
@@ -26,7 +26,7 @@ This isn't love. It's **addiction**.
 
 # Escena 2
 <!-- variante: fria -->
-<!-- imagen: An abstract glowing brain-like circuit or neural network shape, one small point pulsing intensely, dark background, clinical and cold feeling. -->
+<!-- imagen: A simple glowing brain drawn with soft lines, one bright red spark pulsing in the middle like a craving, calm dark background, feeling of being trapped. -->
 <!-- sonido: whoosh -->
 
 Literally. Your **brain** doesn't lie.
@@ -37,7 +37,7 @@ You're **hooked** — and you don't even know it.
 
 # Escena 3
 <!-- variante: fria -->
-<!-- imagen: Two human silhouettes connected by a taut glowing chain or cable pulling them together, tension in their posture, one pulling away and still bound. -->
+<!-- imagen: Two simple figures tied together by a tight red thread, one trying to walk away, the thread pulling them back, sad and tense, empty background. -->
 
 And the **worse** they treated you...
 ...the **stronger** the pull.
@@ -47,7 +47,7 @@ It's called trauma **bonding**. <!-- sonido: ding -->
 
 # Escena 4
 <!-- variante: fria -->
-<!-- imagen: A silhouette lying in bed at night, illuminated only by a phone screen, small room, long shadows, isolating atmosphere. -->
+<!-- imagen: A small figure lying awake in bed at 3 AM holding a glowing phone, big dark empty room, deep loneliness, simple shapes. -->
 
 That's why you forgive the **unforgivable**.
 That's why you check their **profile** at 3 AM.

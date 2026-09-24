@@ -17,7 +17,7 @@ validar_guion.py). Lo procesa scripts/generar_short.py.
 
 # Escena 5
 <!-- variante: fria -->
-<!-- imagen: Two open doors side by side, one glowing warm and inviting but the silhouette turns away from it, the other cold and dim but the silhouette is drawn toward it. -->
+<!-- imagen: A figure standing between two doors: a warm glowing door they turn their back on, and a dark cold door they are drawn into, confused and sad. -->
 
 That's why someone **GOOD** bores you.
 Your brain calls it '**suspicious**'.
@@ -27,7 +27,7 @@ That's what the **hijack** looks like.
 
 # Escena 6
 <!-- variante: media -->
-<!-- imagen: A silhouette standing up straight, breaking a glowing chain that was around their wrist, first hint of warm light entering the frame from one side. -->
+<!-- imagen: A figure standing tall and snapping a red thread tied around their wrist, first warm sunlight entering from one side, brave and hopeful. -->
 <!-- sonido: whoosh -->
 
 This doesn't happen because you're **weak**.
@@ -37,7 +37,7 @@ And that strength is your way **out**.
 
 # Escena 7
 <!-- variante: calida -->
-<!-- imagen: A silhouette walking toward an open bright horizon, chain left behind on the ground, wide open spacious framing. -->
+<!-- imagen: A small figure walking toward a bright warm sunrise, a broken red thread left on the ground behind them, peaceful, free and relieved. -->
 
 Next time you can't stop **thinking** about them...
 ...say **this**:

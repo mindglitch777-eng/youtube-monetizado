@@ -50,6 +50,11 @@ for (const s of timeline.segmentos) {
     return false;
   });
 }
+// Música de fondo opcional: se usa si existe (la descarga descargar-sonidos.yml).
+const MUSICA = "assets/musica/fondo.mp3";
+timeline.musica = copiar(MUSICA) ? MUSICA : null;
+if (!timeline.musica) console.warn(`Sin música de fondo (falta ${MUSICA}).`);
+
 fs.writeFileSync(path.join(publico, "timeline.json"), JSON.stringify(timeline, null, 2));
 
 const unicos = [...new Set(faltantes)];

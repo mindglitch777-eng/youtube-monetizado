@@ -5,6 +5,7 @@ import {
   Img,
   interpolate,
   Sequence,
+  spring,
   staticFile,
   useCurrentFrame,
   useVideoConfig,
@@ -14,8 +15,12 @@ import type { Props, Segmento } from "./tipos";
 
 const FONDO = "#2B2118";
 const VOLUMEN_SONIDOS = 0.6;
+const VOLUMEN_MUSICA = 0.12; // cama suave, siempre por debajo de la voz
+const SOLAPE = 0.35; // segundos de fundido cruzado entre escenas (shorts)
 
-type Tramo = { imagen: string | null; desde: number; hasta: number };
+// lineas: inicios de línea dentro del tramo (segundos desde su comienzo), para
+// los pulsos de zoom. whoosh: el corte de entrada lleva whoosh (destello).
+type Tramo = { imagen: string | null; desde: number; hasta: number; lineas: number[]; whoosh: boolean };
 
 // Ken Burns: zoom lento con un paneo suave; la dirección se alterna por escena
 // para que dos escenas seguidas no se muevan igual. En vertical el movimiento
@@ -33,28 +38,52 @@ function armarTramos(segmentos: Segmento[], total: number): Tramo[] {
   const tramos: Tramo[] = [];
   for (const s of segmentos) {
     const ultimo = tramos[tramos.length - 1];
-    if (ultimo && ultimo.imagen === s.imagen) continue;
+    if (ultimo && ultimo.imagen === s.imagen) {
+      ultimo.lineas.push(s.inicio - ultimo.desde);
+      continue;
+    }
     if (ultimo) ultimo.hasta = s.inicio;
-    tramos.push({ imagen: s.imagen, desde: s.inicio, hasta: total });
+    const whoosh = s.sonidos.some((sonido) => sonido.archivo.endsWith("transicion.mp3"));
+    tramos.push({ imagen: s.imagen, desde: s.inicio, hasta: total, lineas: [], whoosh });
   }
   return tramos;
 }
 
-const Escena: React.FC<{ imagen: string | null; frames: number; indice: number }> = ({ imagen, frames, indice }) => {
+// En los shorts, para que la imagen nunca quede quieta: entra con un "punch"
+// de zoom, hace Ken Burns, da un pulso chico de zoom en cada línea nueva y, en
+// los cortes con whoosh, un destello breve. El video largo mantiene el Ken
+// Burns suave de siempre.
+const Escena: React.FC<{ tramo: Tramo; frames: number; indice: number; entrada: number }> = ({
+  tramo,
+  frames,
+  indice,
+  entrada,
+}) => {
   const frame = useCurrentFrame();
-  const { width, height } = useVideoConfig();
+  const { fps, width, height } = useVideoConfig();
   const vertical = height > width;
-  const opacidad = interpolate(frame, [0, 12], [0, 1], { extrapolateRight: "clamp" });
+  const opacidad = interpolate(frame, [0, entrada], [0, 1], { extrapolateRight: "clamp" });
   const movimiento = MOVIMIENTOS[indice % MOVIMIENTOS.length];
   const avance = interpolate(frame, [0, frames], [0, 1], { extrapolateRight: "clamp" });
-  const zoomExtra = vertical ? 1.1 : 1; // en vertical arranca algo más cerca
-  const zoom = zoomExtra * interpolate(avance, [0, 1], vertical ? movimiento.zoom : [1, 1.06]);
-  const paneo = vertical ? interpolate(avance, [0, 1], movimiento.x) * 3 : 0; // % del ancho
-  if (!imagen) return <AbsoluteFill style={{ backgroundColor: FONDO }} />;
+
+  let zoom = interpolate(avance, [0, 1], [1, 1.06]);
+  let paneo = 0;
+  let destello = 0;
+  if (vertical) {
+    const punch = indice === 0 ? 0 : 0.14 * (1 - spring({ frame, fps, config: { damping: 18, stiffness: 120 } }));
+    const pulsos = tramo.lineas.reduce((total, inicio) => {
+      const t = frame / fps - inicio;
+      return t < 0 ? total : total + 0.035 * Math.exp(-t / 0.18);
+    }, 0);
+    zoom = 1.1 * interpolate(avance, [0, 1], movimiento.zoom) * (1 + punch + pulsos);
+    paneo = interpolate(avance, [0, 1], movimiento.x) * 3; // % del ancho
+    destello = tramo.whoosh ? interpolate(frame, [entrada, entrada + 7], [0.35, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) : 0;
+  }
+  if (!tramo.imagen) return <AbsoluteFill style={{ backgroundColor: FONDO }} />;
   return (
     <AbsoluteFill style={{ opacity: opacidad }}>
       <Img
-        src={staticFile(imagen)}
+        src={staticFile(tramo.imagen)}
         style={{
           width: "100%",
           height: "100%",
@@ -62,9 +91,15 @@ const Escena: React.FC<{ imagen: string | null; frames: number; indice: number }
           transform: `scale(${zoom}) translateX(${paneo}%)`,
         }}
       />
+      {destello > 0 ? <AbsoluteFill style={{ backgroundColor: "white", opacity: destello }} /> : null}
     </AbsoluteFill>
   );
 };
+
+// Viñeta: oscurece los bordes para dar clima y que los subtítulos resalten.
+const Vineta: React.FC = () => (
+  <AbsoluteFill style={{ background: "radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.55) 100%)" }} />
+);
 
 // En los shorts se sube para no quedar tapado por los botones de YouTube Shorts.
 const Icono: React.FC<{ src: string }> = ({ src }) => {
@@ -88,7 +123,8 @@ const Icono: React.FC<{ src: string }> = ({ src }) => {
 };
 
 export const Video: React.FC<Props> = ({ timeline }) => {
-  const { fps } = useVideoConfig();
+  const { fps, width, height } = useVideoConfig();
+  const vertical = height > width;
   const f = (segundos: number) => Math.round(segundos * fps);
 
   if (!timeline) {
@@ -100,13 +136,35 @@ export const Video: React.FC<Props> = ({ timeline }) => {
   }
 
   const { segmentos, duracionTotal } = timeline;
+  const totalFrames = f(duracionTotal);
   return (
     <AbsoluteFill style={{ backgroundColor: FONDO }}>
-      {armarTramos(segmentos, duracionTotal).map((tramo, indice) => (
-        <Sequence key={`img-${tramo.desde}`} from={f(tramo.desde)} durationInFrames={Math.max(1, f(tramo.hasta) - f(tramo.desde))}>
-          <Escena imagen={tramo.imagen} frames={f(tramo.hasta) - f(tramo.desde)} indice={indice} />
-        </Sequence>
-      ))}
+      {armarTramos(segmentos, duracionTotal).map((tramo, indice) => {
+        // En los shorts cada escena arranca un poco antes y se funde sobre la anterior.
+        const adelanto = vertical && indice > 0 ? f(SOLAPE) : 0;
+        const desde = f(tramo.desde) - adelanto;
+        const frames = Math.max(1, f(tramo.hasta) - desde);
+        return (
+          <Sequence key={`img-${tramo.desde}`} from={desde} durationInFrames={frames}>
+            <Escena tramo={tramo} frames={frames} indice={indice} entrada={adelanto || 12} />
+          </Sequence>
+        );
+      })}
+
+      <Vineta />
+
+      {timeline.musica ? (
+        <Audio
+          src={staticFile(timeline.musica)}
+          loop
+          volume={(frame) =>
+            interpolate(frame, [0, fps, totalFrames - fps * 1.5, totalFrames], [0, VOLUMEN_MUSICA, VOLUMEN_MUSICA, 0], {
+              extrapolateLeft: "clamp",
+              extrapolateRight: "clamp",
+            })
+          }
+        />
+      ) : null}
 
       {/* Short standalone: una sola narración para todo el video. */}
       {timeline.audio ? <Audio src={staticFile(timeline.audio)} /> : null}

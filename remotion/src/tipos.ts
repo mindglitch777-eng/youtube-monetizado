@@ -30,6 +30,8 @@ export type Timeline = {
   // "short" = short standalone (generar_short.py): se usa entero, sin recortar.
   formato?: "largo" | "short";
   audio?: string | null;
+  // Música de fondo (la agrega scripts/preparar.mjs si existe assets/musica/fondo.mp3).
+  musica?: string | null;
 };
 
 export type Props = { timeline: Timeline | null };
