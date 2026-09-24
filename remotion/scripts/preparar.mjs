@@ -1,6 +1,7 @@
 // Copia a remotion/public/ todo lo que usa un video: timeline.json, audios,
 // imágenes, sonidos de marca y el ícono de Knot.
-// Uso: npm run preparar -- ../content/<nombre-video>
+// Uso: npm run preparar -- ../content/<nombre-video> [parte]
+//   parte: para un short dividido, usa timeline-parte-<parte>.json.
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -14,7 +15,9 @@ if (!carpetaVideo) {
   console.error("Uso: npm run preparar -- ../content/<nombre-video>");
   process.exit(1);
 }
-const rutaTimeline = path.resolve(process.cwd(), carpetaVideo, "timeline.json");
+const parte = process.argv[3];
+const archivoTimeline = parte ? `timeline-parte-${parte}.json` : "timeline.json";
+const rutaTimeline = path.resolve(process.cwd(), carpetaVideo, archivoTimeline);
 if (!fs.existsSync(rutaTimeline)) {
   console.error(`No existe ${rutaTimeline}. Correr antes scripts/generar_audio.py.`);
   process.exit(1);
@@ -68,7 +71,8 @@ if (unicos.some((f) => f.includes("/audio/"))) {
 }
 console.log(`Listo: ${timeline.segmentos.length} secciones de ${timeline.video} en remotion/public/.`);
 if (timeline.formato === "short") {
-  console.log(`Short: npx remotion render Short ../${timeline.video}/output.mp4`);
+  const salida = parte ? `output-parte-${parte}.mp4` : "output.mp4";
+  console.log(`Short: npx remotion render Short ../${timeline.video}/${salida}`);
 } else {
   console.log(`Video: npx remotion render Video ../${timeline.video}/output.mp4`);
   console.log(`Short: npx remotion render Short ../${timeline.video}/short-1.mp4 --props='{"bloque":1}'`);

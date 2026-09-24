@@ -56,7 +56,7 @@ export const Subtitulos: React.FC<{ palabras: Palabra[]; destacada: number | nul
     <div
       style={{
         position: "absolute",
-        top: "30%",
+        top: vertical ? "13%" : "30%", // shorts: tercio superior, lejos del ícono
         left: vertical ? 60 : 120,
         right: vertical ? 60 : 120,
         textAlign: "center",

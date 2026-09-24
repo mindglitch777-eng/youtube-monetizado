@@ -96,6 +96,61 @@ const Escena: React.FC<{ tramo: Tramo; frames: number; indice: number; entrada: 
   );
 };
 
+// Contador de lista ("2/5"): una placa amarilla con texto oscuro, bien distinta
+// de los subtítulos (blancos con contorno). Entra con un salto al cambiar.
+const Contador: React.FC<{ valor: string; desde: number }> = ({ valor, desde }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const salto = spring({ frame: frame - desde, fps, config: { damping: 11, stiffness: 160 } });
+  return (
+    <div
+      style={{
+        position: "absolute",
+        top: "33%",
+        left: 0,
+        right: 0,
+        display: "flex",
+        justifyContent: "center",
+        transform: `scale(${0.6 + 0.4 * salto}) rotate(${(1 - salto) * -8}deg)`,
+        opacity: Math.min(1, salto * 2),
+      }}
+    >
+      <div
+        style={{
+          fontFamily: "Montserrat",
+          fontWeight: 900,
+          fontSize: 120,
+          lineHeight: 1,
+          color: "#1B140F",
+          backgroundColor: "#FFD83D",
+          padding: "18px 44px",
+          borderRadius: 28,
+          boxShadow: "0 12px 30px rgba(0, 0, 0, 0.5)",
+          letterSpacing: 2,
+        }}
+      >
+        {valor}
+      </div>
+    </div>
+  );
+};
+
+// Shake de cámara + flash en los momentos de impacto ("Number X:").
+function efectoImpacto(t: number, impactos: number[]) {
+  let dx = 0;
+  let dy = 0;
+  let flash = 0;
+  for (const inicio of impactos) {
+    const d = t - inicio;
+    if (d < 0 || d > 0.45) continue;
+    const caida = Math.exp(-d / 0.12);
+    dx += 22 * caida * Math.sin(d * 95);
+    dy += 16 * caida * Math.cos(d * 80);
+    flash = Math.max(flash, 0.45 * Math.exp(-d / 0.07));
+  }
+  return { dx, dy, flash };
+}
+
 // Viñeta: oscurece los bordes para dar clima y que los subtítulos resalten.
 const Vineta: React.FC = () => (
   <AbsoluteFill style={{ background: "radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.55) 100%)" }} />
@@ -123,6 +178,7 @@ const Icono: React.FC<{ src: string }> = ({ src }) => {
 };
 
 export const Video: React.FC<Props> = ({ timeline }) => {
+  const frame = useCurrentFrame();
   const { fps, width, height } = useVideoConfig();
   const vertical = height > width;
   const f = (segundos: number) => Math.round(segundos * fps);
@@ -137,8 +193,16 @@ export const Video: React.FC<Props> = ({ timeline }) => {
 
   const { segmentos, duracionTotal } = timeline;
   const totalFrames = f(duracionTotal);
+  const t = frame / fps;
+  const impacto = efectoImpacto(t, segmentos.filter((s) => s.impacto).map((s) => s.inicio));
+  const actual = [...segmentos].reverse().find((s) => s.inicio <= t);
+  const contador = actual?.contador ?? null;
+  const contadorDesde = contador
+    ? f(segmentos.find((s) => s.contador === contador)?.inicio ?? 0)
+    : 0;
   return (
     <AbsoluteFill style={{ backgroundColor: FONDO }}>
+      <AbsoluteFill style={{ transform: `translate(${impacto.dx}px, ${impacto.dy}px) scale(${impacto.dx || impacto.dy ? 1.03 : 1})` }}>
       {armarTramos(segmentos, duracionTotal).map((tramo, indice) => {
         // En los shorts cada escena arranca un poco antes y se funde sobre la anterior.
         const adelanto = vertical && indice > 0 ? f(SOLAPE) : 0;
@@ -151,7 +215,13 @@ export const Video: React.FC<Props> = ({ timeline }) => {
         );
       })}
 
+      </AbsoluteFill>
+
       <Vineta />
+
+      {impacto.flash > 0 ? <AbsoluteFill style={{ backgroundColor: "white", opacity: impacto.flash }} /> : null}
+
+      {contador ? <Contador key={contador} valor={contador} desde={contadorDesde} /> : null}
 
       {timeline.musica ? (
         <Audio
@@ -167,7 +237,9 @@ export const Video: React.FC<Props> = ({ timeline }) => {
       ) : null}
 
       {/* Short standalone: una sola narración para todo el video. */}
-      {timeline.audio ? <Audio src={staticFile(timeline.audio)} /> : null}
+      {timeline.audio ? (
+        <Audio src={staticFile(timeline.audio)} trimBefore={f(timeline.audioDesde ?? 0)} />
+      ) : null}
 
       {segmentos.map((s, n) => {
         const siguiente = segmentos[n + 1]?.inicio ?? duracionTotal;

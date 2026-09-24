@@ -64,6 +64,7 @@ It's not passion. It's a **hook**. <!-- sonido: ding -->
 The faster it starts, the harder it can **trap** you.
 
 # Escena 7
+<!-- parte: 2 -->
 <!-- variante: fria -->
 <!-- imagen: Two silhouettes in the same room, one with their back completely turned, a thick wall of ice with a deep crack separating them. -->
 <!-- sonido: whoosh -->

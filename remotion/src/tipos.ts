@@ -18,6 +18,9 @@ export type Segmento = {
   palabras: Palabra[];
   destacada: number | null;
   sonidos: Sonido[];
+  // Shorts: shake + flash de cámara al empezar la línea, y contador en pantalla ("2/5").
+  impacto?: boolean;
+  contador?: string | null;
 };
 
 export type Timeline = {
@@ -32,6 +35,8 @@ export type Timeline = {
   audio?: string | null;
   // Música de fondo (la agrega scripts/preparar.mjs si existe assets/musica/fondo.mp3).
   musica?: string | null;
+  // Parte de un short dividido: segundos del audio completo donde empieza.
+  audioDesde?: number;
 };
 
 export type Props = { timeline: Timeline | null };
