@@ -27,7 +27,7 @@ It has a **name**. And there are 5 of them.
 
 # Escena 2
 <!-- variante: media -->
-<!-- imagen: An authority figure like a therapist sitting behind a desk, pointing at five numbered circles floating in the air beside them. -->
+<!-- imagen: A therapist silhouette sitting behind a desk, calmly gesturing toward five plain blank round badges floating in a neat row beside them, clean office. -->
 <!-- sonido: whoosh -->
 
 Therapists see these exact 5 **patterns** in almost every toxic relationship.
@@ -35,7 +35,7 @@ Recognize even **ONE**, and you'll never call it 'love' again.
 
 # Escena 3
 <!-- variante: fria -->
-<!-- imagen: Two silhouettes: one small and confused with a giant question mark above their head, the other towering in a dominant pose pointing at them, warped distorted background. -->
+<!-- imagen: Two adult silhouettes of the same height, a man and a woman in their thirties: one adult shrinking back confused with a giant question mark above their own head, the other adult leaning in with a dominant pose pointing at them, warped distorted background. -->
 <!-- sonido: whoosh -->
 
 Number one: **gaslighting**. <!-- efecto: impacto --> <!-- contador: 1/5 -->
@@ -43,7 +43,7 @@ They make you **doubt** your own memory. Your own eyes.
 
 # Escena 4
 <!-- variante: fria -->
-<!-- imagen: A shattered mirror reflecting a fragmented silhouette, next to a twisted melting clock, unsettling mood. -->
+<!-- imagen: A shattered mirror on a wall reflecting one fragmented adult silhouette, a twisted melting clock beside the mirror, unsettling empty room. -->
 
 'That never happened.' 'You're overreacting.' 'You're **crazy**.'
 It's not confusion. It's **control**. <!-- sonido: ding -->
@@ -89,7 +89,7 @@ Number four: **guilt-tripping**. <!-- efecto: impacto --> <!-- contador: 4/5 -->
 
 # Escena 10
 <!-- variante: fria -->
-<!-- imagen: A giant unbalanced scale, one side crushed all the way down under a heavy weight, a tiny silhouette on the lifted side. -->
+<!-- imagen: A giant balance scale tilted heavily to one side: the left pan crushed all the way down to the floor under a huge heavy stone, the right pan lifted high in the air holding one tiny adult silhouette, strongly unbalanced. -->
 
 Turning your needs into your **fault**.
 If you feel guilty for having limits — that's the **tactic** working. <!-- sonido: ding -->
