@@ -27,7 +27,8 @@ que una regla no se cumple, debe detenerse y avisar en vez de continuar.
   silhouettes with featureless or barely suggested faces — no detailed 
   facial features. Editorial illustration style, like a modern animated 
   explainer video or picture book, never photorealistic, never photographic."
-- Y con este bloque negativo:
+- Y con este bloque negativo (solo en modelos que aceptan prompt negativo; 
+  con flux-1-schnell no se envía porque el modelo dibuja lo que se nombra):
   "photorealistic, photograph, realistic skin texture, detailed facial 
   features, detailed eyes, extra limbs, extra fingers, deformed hands, 
   blurry, text, watermark, logo, signature, low quality, distorted 

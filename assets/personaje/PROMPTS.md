@@ -30,15 +30,14 @@ nunca en estas escenas.
 > silhouettes whose posture and body language show this moment: "<texto 
 > narrado de la sección>"
 
-## Bloque negativo (siempre, al final)
+## Bloque negativo (no se envía con flux-1-schnell)
 
-flux-1-schnell no acepta prompt negativo aparte, así que va al final del 
-prompt como "Avoid: …":
+flux-1-schnell no acepta prompt negativo, y ponerlo dentro del prompt 
+("Avoid: …") es contraproducente: el modelo no entiende negaciones y dibuja lo 
+que se nombra (en las pruebas aparecieron búhos y una firma falsa). Queda 
+documentado para usarlo si se cambia a un modelo que sí acepte prompt negativo:
 
 > photorealistic, photograph, realistic skin texture, detailed facial features, 
 > detailed eyes, extra limbs, extra fingers, deformed hands, blurry, text, 
 > watermark, logo, signature, low quality, distorted anatomy, 3d render, CGI, 
 > grainy, film grain, realistic lighting
-
-Además se agrega "owls, birds, animal characters", porque Knot nunca aparece 
-en las escenas.

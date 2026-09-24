@@ -29,7 +29,7 @@ import sys
 from pathlib import Path
 
 from generar_audio import KNOT_ICONO, SONIDOS, normalizar_palabra, sintetizar
-from generar_imagenes import ESTILO, NEGATIVO, SIN_KNOT, VARIANTE_POR_TIPO, generar
+from generar_imagenes import ESTILO, VARIANTE_POR_TIPO, generar
 from segmentos import RAIZ, cargar_env
 
 VARIANTES = {
@@ -93,7 +93,9 @@ def leer_short(ruta):
 def armar_prompt(escena):
     variante = VARIANTES[escena["variante"]]
     variante = f" {variante}." if variante else ""
-    return f"{ESTILO}{variante} {escena['imagen']} Avoid: {NEGATIVO}, {SIN_KNOT}."
+    # Sin "Avoid: ...": flux-1-schnell no entiende negaciones y termina dibujando
+    # lo que se nombra (búhos, firmas). Ver generar_imagenes.py.
+    return f"{ESTILO}{variante} {escena['imagen']}"
 
 
 def repartir_palabras(lineas, palabras):

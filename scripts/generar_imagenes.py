@@ -14,9 +14,10 @@ bloque (36 en un video de 6 bloques). Las escenas muestran siluetas humanas
 simples, nunca a Knot (RULES.md). Las imágenes que ya existen se saltean.
 
 flux-1-schnell en Workers AI ignora el tamaño pedido y siempre devuelve
-1024x1024, y no acepta prompt negativo: el bloque negativo va dentro del
-prompt como "Avoid: ...". Remotion recorta centrado a 16:9 (video) o 9:16
-(shorts).
+1024x1024, y no acepta prompt negativo. Tampoco sirve ponerlo dentro del
+prompt ("Avoid: ..."): el modelo no entiende negaciones y termina dibujando lo
+que se nombra (búhos, firmas). Por eso NEGATIVO queda definido pero no se
+envía. Remotion recorta centrado a 16:9 (video) o 9:16 (shorts).
 
 Al terminar corre generar_audio.py para que timeline.json incluya las
 imágenes nuevas (los audios existentes no se regeneran).
@@ -67,13 +68,11 @@ VARIANTE_POR_TIPO = {
     "pago": "warm amber and soft golden tones, gentle warm light, wide open framing "
             "with breathing space around the figures, calm and reassuring",
 }
-# RULES.md: Knot nunca aparece en las escenas humanas.
-SIN_KNOT = "owls, birds, animal characters"
 
 
 def armar_prompt(segmento):
     inicio = f"{ESTILO} {VARIANTE_POR_TIPO[segmento['tipo']]}. "
-    fin = f" Avoid: {NEGATIVO}, {SIN_KNOT}."
+    fin = ""  # sin bloque negativo: ver la explicación arriba
     escena = ("Scene in an everyday, recognizable setting, one or two simple human "
               "silhouettes whose posture and body language show this moment: ")
     lugar = MAX_PROMPT - len(inicio) - len(escena) - len(fin) - 2
