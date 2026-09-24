@@ -88,6 +88,10 @@ que una regla no se cumple, debe detenerse y avisar en vez de continuar.
   imágenes nuevas para un short.
 - Mismos subtítulos, sonidos de marca e ícono de Knot que el video largo.
 - El CTA del video largo no va en los shorts; el short cierra con el sting.
+- En los shorts los subtítulos van en el tercio superior de la pantalla, lejos 
+  del ícono de Knot.
+- Si un short standalone pasa de 60 s, se divide en partes cortando en un 
+  momento de suspenso.
 
 ## Producción
 - Calendario: 2 videos largos por semana, más sus shorts reciclados 

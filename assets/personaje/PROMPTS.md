@@ -16,6 +16,16 @@ nunca en estas escenas.
 > illustration style, like a modern animated explainer video or picture book, 
 > never photorealistic, never photographic.
 
+## Variante "exagerada" (en prueba)
+
+Se suma al final del bloque de estilo, no lo reemplaza. Se usa en los shorts 
+que tienen `Estilo: exagerado` en el guion (primera prueba: 
+`content/2026-XX-XX-5-manipulation-tactics`); después se evalúa si queda fija.
+
+> …bold high-contrast accents, sharper shadow edges. Human figures shown as 
+> simple silhouettes with exaggerated, dramatic body language — bigger 
+> gestures, tenser posture, more dynamic poses than a neutral illustration.
+
 ## Variante de color y encuadre (según la sección)
 
 | Sección | Variante |

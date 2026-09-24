@@ -18,6 +18,10 @@ los tiempos de cada línea salen de los tiempos de sus palabras. Resultado:
     audio/narracion.mp3 + audio/narracion.json
     imagenes/escena-N.jpg (una por escena, estilo de PROMPTS.md)
     timeline.json (formato "short", para la composición Short de Remotion)
+
+Si alguna escena lleva el comentario "parte: N", el short se divide: además
+de timeline.json se escribe timeline-parte-N.json por cada parte, que usa el
+mismo audio (recortado con audioDesde) y las mismas imágenes.
 """
 
 import argparse
@@ -29,7 +33,7 @@ import sys
 from pathlib import Path
 
 from generar_audio import KNOT_ICONO, SONIDOS, normalizar_palabra, sintetizar
-from generar_imagenes import ESTILO, VARIANTE_POR_TIPO, generar
+from generar_imagenes import ESTILO, ESTILO_EXAGERADO, VARIANTE_POR_TIPO, generar
 from segmentos import RAIZ, cargar_env
 
 VARIANTES = {
@@ -40,6 +44,7 @@ VARIANTES = {
 COLA_FINAL = 1.5      # segundos después de la última palabra para el sting
 VOLUMEN_CLICK = 0.3   # click suave en cada palabra resaltada (sin ding)
 ADELANTO_WHOOSH = 0.25  # el whoosh arranca un poco antes del corte de escena
+ADELANTO_PARTE = 0.15   # margen antes de la primera palabra de cada parte
 MAX_SEGUNDOS = 60     # RULES.md, sección Shorts
 
 COMENTARIO = re.compile(r"<!--(.*?)-->", re.DOTALL)
@@ -52,13 +57,15 @@ def leer_short(ruta):
         sys.exit(f"{ruta} no empieza con 'Formato: short'.")
     # Los comentarios de varias líneas (documentación) no forman parte del guion.
     texto = re.sub(r"<!--(?:(?!-->)[^\n])*\n.*?-->", "", texto, flags=re.DOTALL)
+    exagerado = bool(re.search(r"^estilo\s*:\s*exagerado\s*$", texto, re.IGNORECASE | re.MULTILINE))
 
     escenas, lineas = [], []
+    contador = None
     for crudo in texto.splitlines():
         crudo = crudo.strip()
         if m := ESCENA.match(crudo):
             escenas.append({"numero": int(m.group(1)), "imagen": "", "variante": "media",
-                            "whoosh": False})
+                            "whoosh": False, "parte": None, "exagerado": exagerado})
             continue
         if not escenas or not crudo:
             continue
@@ -74,7 +81,12 @@ def leer_short(ruta):
                     escenas[-1]["variante"] = valor.strip().lower()
                 elif clave == "sonido" and valor.strip().lower() == "whoosh":
                     escenas[-1]["whoosh"] = True
+                elif clave == "parte":
+                    escenas[-1]["parte"] = int(valor)
             continue
+        claves = {c.partition(":")[0].strip().lower(): c.partition(":")[2].strip() for c in comentarios}
+        if "contador" in claves:
+            contador = None if claves["contador"].lower() == "fin" else claves["contador"]
         negritas = re.findall(r"\*\*(.+?)\*\*", narrado)
         lineas.append({
             "numero": len(lineas) + 1,
@@ -82,6 +94,8 @@ def leer_short(ruta):
             "texto": narrado.replace("**", ""),
             "destacada": negritas[0] if negritas else None,
             "ding": any(re.match(r"sonido\s*:\s*ding\b", c, re.IGNORECASE) for c in comentarios),
+            "impacto": claves.get("efecto", "").lower() == "impacto",
+            "contador": contador,
         })
     for e in escenas:
         if not e["imagen"]:
@@ -94,17 +108,25 @@ def leer_short(ruta):
 def armar_prompt(escena):
     variante = VARIANTES[escena["variante"]]
     variante = f" {variante}." if variante else ""
+    estilo = f"{ESTILO} {ESTILO_EXAGERADO}" if escena["exagerado"] else ESTILO
     # Sin "Avoid: ...": flux-1-schnell no entiende negaciones y termina dibujando
     # lo que se nombra (búhos, firmas). Ver generar_imagenes.py.
-    return f"{ESTILO}{variante} {escena['imagen']}"
+    return f"{estilo}{variante} {escena['imagen']}"
 
 
 def repartir_palabras(lineas, palabras):
     """Asigna cada palabra del audio a su línea, recorriendo las palabras del texto."""
     tokens = [(linea["numero"], t) for linea in lineas for t in linea["texto"].split()]
     i = 0
+    resultado = []
     for palabra in palabras:
         buscada = normalizar_palabra(palabra["texto"])
+        # Palabras con guion ("guilt-tripping") llegan partidas del audio: la
+        # segunda mitad se suma a la palabra anterior en vez de repetirse.
+        if resultado and i and buscada and buscada in normalizar_palabra(tokens[i - 1][1]) \
+                and not (i < len(tokens) and buscada in normalizar_palabra(tokens[i][1])):
+            resultado[-1]["fin"] = palabra["fin"]
+            continue
         for j in range(i, min(i + 5, len(tokens))):
             if buscada and buscada in normalizar_palabra(tokens[j][1]):
                 palabra["linea"], palabra["texto"] = tokens[j][0], tokens[j][1]
@@ -112,7 +134,8 @@ def repartir_palabras(lineas, palabras):
                 break
         else:
             palabra["linea"] = tokens[i - 1][0] if i else 1
-    return palabras
+        resultado.append(palabra)
+    return resultado
 
 
 async def main_async(args):
@@ -205,6 +228,8 @@ async def main_async(args):
             "palabras": propias,
             "destacada": destacada,
             "sonidos": sonidos,
+            "impacto": linea["impacto"],
+            "contador": linea["contador"],
         })
         escena_anterior = linea["escena"]
 
@@ -221,12 +246,49 @@ async def main_async(args):
     (carpeta / "timeline.json").write_text(
         json.dumps(salida, ensure_ascii=False, indent=2), encoding="utf-8")
 
+    escribir_partes(carpeta, salida, escenas, palabras)
+
     print(f"\n{'línea':>5} {'escena':>6} {'inicio':>7}  texto")
     for s, linea in zip(segmentos, lineas):
         print(f"{linea['numero']:>5} {linea['escena']:>6} {s['inicio']:>6.2f}s  {linea['texto']}")
     print(f"\nNarración: {fin_narracion:.2f} s. Duración total del short: {duracion_total:.2f} s.")
     if duracion_total >= MAX_SEGUNDOS:
         print(f"! El short dura {MAX_SEGUNDOS} s o más: Remotion va a frenar el render (RULES.md).")
+
+
+def escribir_partes(carpeta, salida, escenas, palabras):
+    """Si hay escenas con "parte: N", escribe timeline-parte-N.json para cada parte."""
+    if not any(e["parte"] for e in escenas):
+        return
+    parte_de, actual = {}, 1
+    for e in escenas:
+        actual = e["parte"] or actual
+        parte_de[e["numero"]] = actual
+    for parte in sorted(set(parte_de.values())):
+        segs = [s for s in salida["segmentos"] if parte_de[s["escena"]] == parte]
+        lineas_parte = {int(s["id"][1:]) for s in segs}
+        fin = max(p["fin"] for p in palabras if p["linea"] in lineas_parte)
+        desde = max(0.0, segs[0]["inicio"] - ADELANTO_PARTE)
+        nuevos = []
+        for k, s in enumerate(segs):
+            s = json.loads(json.dumps(s))
+            inicio_abs = s["inicio"]
+            s["inicio"] = round(inicio_abs - desde, 3)
+            # Sin el whoosh de entrada (sonaría antes del segundo 0) ni el sting del total.
+            s["sonidos"] = [x for x in s["sonidos"] if inicio_abs - desde + x["en"] >= 0
+                            and x["archivo"] != SONIDOS["sting"]]
+            if k == len(segs) - 1:
+                s["sonidos"].append({"archivo": SONIDOS["sting"], "en": round(fin - inicio_abs, 3)})
+                s["duracion"] = round(fin + COLA_FINAL - inicio_abs, 3)
+            nuevos.append(s)
+        dur = round(fin - desde + COLA_FINAL, 3)
+        destino = carpeta / f"timeline-parte-{parte}.json"
+        destino.write_text(json.dumps(dict(salida, segmentos=nuevos, duracionTotal=dur,
+                                           audioDesde=round(desde, 3), parte=parte),
+                                      ensure_ascii=False, indent=2), encoding="utf-8")
+        aviso = "  ! 60 s o más" if dur >= MAX_SEGUNDOS else ""
+        print(f"Parte {parte}: escenas {sorted(e for e, p in parte_de.items() if p == parte)}, "
+              f"{dur:.2f} s → {destino.name}{aviso}")
 
 
 def main():

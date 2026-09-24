@@ -54,6 +54,13 @@ ESTILO = (
     "style, like a modern animated explainer video or picture book, never "
     "photorealistic, never photographic."
 )
+# Variante "exagerada" (PROMPTS.md): se suma al bloque de estilo, no lo reemplaza.
+# En prueba; los shorts la activan con "Estilo: exagerado" en el guion.
+ESTILO_EXAGERADO = (
+    "Bold high-contrast accents, sharper shadow edges. Human figures shown as simple "
+    "silhouettes with exaggerated, dramatic body language — bigger gestures, tenser "
+    "posture, more dynamic poses than a neutral illustration."
+)
 NEGATIVO = (
     "photorealistic, photograph, realistic skin texture, detailed facial features, "
     "detailed eyes, extra limbs, extra fingers, deformed hands, blurry, text, "
