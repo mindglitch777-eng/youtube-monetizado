@@ -48,7 +48,7 @@ from pathlib import Path
 
 from generar_audio import KNOT_ICONO, SONIDOS, normalizar_palabra, sintetizar
 from generar_imagenes import ESTILO, ESTILO_EXAGERADO, VARIANTE_POR_TIPO, generar
-from segmentos import RAIZ, cargar_env
+from segmentos import RAIZ, cargar_env, checkpoint
 
 VARIANTES = {
     "media": "",
@@ -318,6 +318,7 @@ async def main_async(args):
     # también a audios ya generados.
     datos["palabras"] = repartir_palabras(lineas, [dict(p) for p in datos["palabras"]])
     meta.write_text(json.dumps(datos, ensure_ascii=False, indent=2), encoding="utf-8")
+    checkpoint("Checkpoint: narración generada (edge-tts)")
 
     palabras = datos["palabras"]
     inicios = {}
@@ -352,6 +353,7 @@ async def main_async(args):
             extension = ".png" if imagen[:8] == b"\x89PNG\r\n\x1a\n" else ".jpg"
             (carpeta_img / (nombre + extension)).write_bytes(imagen)
             print(f"  {nombre}{extension}", flush=True)
+            checkpoint(f"Checkpoint: {nombre} generada (Cloudflare)")
 
     # Imagen de cada corte; si falta, se usa otra de la misma escena.
     def archivo(nombre):
@@ -444,6 +446,7 @@ async def main_async(args):
         segundos = sum(t["hasta"] - t["desde"] for t in propios)
         print(f"  escena {e['numero']}: {len(propios)} cortes en {segundos:.1f} s")
     escribir_partes(carpeta, salida, escenas, palabras)
+    checkpoint("Checkpoint: timeline.json actualizado")
     if duracion_total >= MAX_SEGUNDOS and not any(e["parte"] for e in escenas):
         print(f"! El short dura {MAX_SEGUNDOS} s o más: Remotion va a frenar el render (RULES.md).")
 

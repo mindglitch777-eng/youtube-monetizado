@@ -31,5 +31,14 @@ Cloudflare van como secretos del repositorio (`CLOUDFLARE_ACCOUNT_ID`,
 `CLOUDFLARE_R2_SECRET_ACCESS_KEY`) y, para correr local, en `.env` (ver 
 `.env.example`).
 
+**Nunca se pierde lo ya generado.** `generar_imagenes.py` y `generar_short.py` 
+commitean y pushean cada imagen (y la voz) apenas termina, no solo al final 
+(`scripts/segmentos.py`, función `checkpoint`; solo actúa dentro de GitHub 
+Actions). Si el workflow se corta a mitad de camino — se agota el tiempo, se 
+cae la red, un modelo falla — lo generado hasta ese momento ya quedó en la 
+rama, y correrlo de nuevo retoma justo donde quedó: las imágenes que ya 
+existen no se vuelven a pagar ni regenerar. El paso final "Commitear" de cada 
+workflow es solo un respaldo por si algo quedó sin subir.
+
 Los proveedores de imágenes descartados (Gemini, Pollinations, Hugging Face) 
 están documentados en scripts/respaldo/, fuera del flujo principal.

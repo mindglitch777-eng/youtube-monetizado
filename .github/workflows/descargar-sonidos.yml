@@ -71,13 +71,15 @@ jobs:
           echo "✓ fondo.mp3 ← $url ($(stat -c%s fondo.mp3) bytes)"
 
       - name: Commitear los sonidos nuevos
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/sonido/*.mp3 assets/musica
+          git add -A -- assets/sonido assets/musica
           if git diff --cached --quiet; then
             echo "No hay sonidos nuevos."
           else
             git commit -m "Descargar sonidos de marca desde Mixkit"
-            git push
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
           fi

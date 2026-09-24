@@ -14,9 +14,11 @@ import os
 import re
 import subprocess
 import sys
+import time
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
+EN_GITHUB_ACTIONS = os.environ.get("GITHUB_ACTIONS") == "true"
 
 ENCABEZADO = re.compile(r"^(#{1,6})\s+(.*?)\s*#*\s*$")
 VINETA = re.compile(r"^ ?(?:[-*+]|\d+[.)])\s+(.*)$")
@@ -38,6 +40,36 @@ def cargar_env():
             continue
         clave, _, valor = linea.partition("=")
         os.environ.setdefault(clave.strip(), valor.strip().strip("\"'"))
+
+
+def checkpoint(mensaje):
+    """Commitea y pushea content/ ahora mismo, para no perder trabajo ya generado
+    (voz, imágenes) si el paso que sigue falla o el workflow se corta a mitad de
+    camino. Solo actúa dentro de GitHub Actions (GITHUB_ACTIONS=true, lo pone GitHub
+    solo) — en una corrida local no toca git. Nunca lanza: un checkpoint que falla
+    (red, conflicto) se avisa y se sigue generando; el próximo checkpoint, o el paso
+    final "Commitear resultados" del workflow, va a reintentar con lo que haya.
+    """
+    if not EN_GITHUB_ACTIONS:
+        return
+    rama = os.environ.get("GITHUB_REF_NAME")
+    try:
+        subprocess.run(["git", "add", "-A", "--", "content"], cwd=RAIZ, check=True)
+        si_hay_cambios = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=RAIZ)
+        if si_hay_cambios.returncode == 0:
+            return  # nada nuevo para guardar todavía
+        subprocess.run(["git", "commit", "-q", "-m", mensaje], cwd=RAIZ, check=True)
+        for intento in range(3):
+            ok_pull = subprocess.run(["git", "pull", "-q", "--rebase", "--autostash",
+                                      "origin", rama], cwd=RAIZ).returncode == 0
+            if ok_pull and subprocess.run(["git", "push", "-q", "origin",
+                                           f"HEAD:{rama}"], cwd=RAIZ).returncode == 0:
+                print(f"  ✓ checkpoint guardado: {mensaje}", flush=True)
+                return
+            time.sleep(5)
+        print(f"  ! no se pudo pushear el checkpoint ({mensaje}); sigue en el próximo", flush=True)
+    except Exception as error:  # noqa: BLE001 - un checkpoint fallido no frena la generación
+        print(f"  ! checkpoint falló ({error}); sigue sin guardar este paso", flush=True)
 
 
 def validar_o_salir(ruta_guion):

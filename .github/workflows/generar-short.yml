@@ -2,6 +2,12 @@
 # voz con edge-tts, escenas con Cloudflare Workers AI y timeline.json. Commitea
 # los resultados en la misma rama. El render con Remotion se hace a mano.
 #
+# Cada imagen y la voz se commitean y pushean apenas se generan (scripts/
+# segmentos.py, función checkpoint), no solo al final: si el workflow se corta
+# a mitad de camino (timeout, corte de red, error de un modelo), lo ya
+# generado queda guardado en la rama y la próxima corrida arranca justo donde
+# quedó. El paso "Commitear resultados" del final es solo un respaldo.
+#
 # Las imágenes requieren los secretos del repositorio CLOUDFLARE_ACCOUNT_ID y
 # CLOUDFLARE_API_TOKEN; sin ellos se genera solo la voz y el timeline.
 name: Generar short
@@ -38,6 +44,11 @@ jobs:
       - name: Instalar dependencias
         run: pip install -r requirements.txt
 
+      - name: Configurar git (para los checkpoints durante la generación)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
       - name: Generar voz, escenas y timeline de cada short
         run: |
           set -euo pipefail
@@ -57,7 +68,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A content/
+          git add -A -- content
           if git diff --cached --quiet; then
             echo "Sin cambios."
             exit 0

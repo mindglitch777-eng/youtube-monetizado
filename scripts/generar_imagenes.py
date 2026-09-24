@@ -37,7 +37,7 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-from segmentos import RAIZ, cargar_env, leer_guion, nombre_base, validar_o_salir
+from segmentos import RAIZ, cargar_env, checkpoint, leer_guion, nombre_base, validar_o_salir
 
 MODELO = "@cf/black-forest-labs/flux-1-schnell"
 PASOS = 8  # máximo que admite flux-1-schnell; más pasos, más calidad
@@ -159,10 +159,16 @@ def main():
     if not cuenta or not token:
         sys.exit("Faltan CLOUDFLARE_ACCOUNT_ID y/o CLOUDFLARE_API_TOKEN en .env")
 
+    fallidas = []
     for s in pendientes:
         base = nombre_base(s)
         print(f"  {base} ...", flush=True)
-        datos = generar(cuenta, token, prompts[base])
+        try:
+            datos = generar(cuenta, token, prompts[base])
+        except Exception as error:  # noqa: BLE001 - una imagen que falla no frena el resto del lote
+            print(f"    ! falló, sigo con la siguiente: {error}")
+            fallidas.append(base)
+            continue
         viejo = existente(carpeta, base)
         if viejo:
             viejo.unlink()
@@ -170,11 +176,16 @@ def main():
         destino = carpeta / (base + extension)
         destino.write_bytes(datos)
         print(f"    guardada: {destino} ({len(datos) // 1024} KB)")
+        checkpoint(f"Checkpoint: {base} generada (Cloudflare)")
+    if fallidas:
+        print(f"! {len(fallidas)} imágenes no se pudieron generar, volver a correr para reintentarlas: "
+              f"{', '.join(fallidas)}")
 
     if not args.sin_timeline:
         print("Actualizando timeline.json con generar_audio.py ...", flush=True)
         subprocess.run([sys.executable, str(RAIZ / "scripts" / "generar_audio.py"),
                         str(ruta_guion)], check=True)
+        checkpoint("Checkpoint: timeline.json actualizado")
     print("Listo.")
 
 
