@@ -69,7 +69,8 @@
         }
       ],
       "impacto": false,
-      "contador": null
+      "contador": null,
+      "overlay": null
     },
     {
       "id": "l02",
@@ -121,7 +122,8 @@
         }
       ],
       "impacto": false,
-      "contador": null
+      "contador": null,
+      "overlay": null
     },
     {
       "id": "l03",
@@ -173,7 +175,8 @@
         }
       ],
       "impacto": false,
-      "contador": null
+      "contador": null,
+      "overlay": null
     },
     {
       "id": "l04",
@@ -225,7 +228,8 @@
         }
       ],
       "impacto": false,
-      "contador": null
+      "contador": null,
+      "overlay": null
     },
     {
       "id": "l05",
@@ -281,7 +285,8 @@
         }
       ],
       "impacto": false,
-      "contador": null
+      "contador": null,
+      "overlay": null
     },
     {
       "id": "l06",
@@ -339,7 +344,8 @@
         }
       ],
       "impacto": false,
-      "contador": null
+      "contador": null,
+      "overlay": null
     },
     {
       "id": "l07",
@@ -408,7 +414,8 @@
         }
       ],
       "impacto": false,
-      "contador": null
+      "contador": null,
+      "overlay": null
     },
     {
       "id": "l08",
@@ -454,7 +461,8 @@
         }
       ],
       "impacto": false,
-      "contador": null
+      "contador": null,
+      "overlay": null
     },
     {
       "id": "l09",
@@ -473,7 +481,7 @@
           "linea": 9
         },
         {
-          "texto": "hooked",
+          "texto": "hooked —",
           "inicio": 0.213,
           "fin": 0.65,
           "linea": 9
@@ -524,7 +532,8 @@
         }
       ],
       "impacto": false,
-      "contador": null
+      "contador": null,
+      "overlay": null
     },
     {
       "id": "l10",
@@ -586,7 +595,8 @@
         }
       ],
       "impacto": false,
-      "contador": null
+      "contador": null,
+      "overlay": null
     },
     {
       "id": "l11",
@@ -632,7 +642,8 @@
         }
       ],
       "impacto": false,
-      "contador": null
+      "contador": null,
+      "overlay": null
     },
     {
       "id": "l12",
@@ -678,7 +689,8 @@
         }
       ],
       "impacto": false,
-      "contador": null
+      "contador": null,
+      "overlay": null
     },
     {
       "id": "l13",
@@ -718,7 +730,8 @@
         }
       ],
       "impacto": false,
-      "contador": null
+      "contador": null,
+      "overlay": null
     },
     {
       "id": "l14",
@@ -763,7 +776,8 @@
         }
       ],
       "impacto": false,
-      "contador": null
+      "contador": null,
+      "overlay": null
     },
     {
       "id": "l15",
@@ -825,7 +839,8 @@
         }
       ],
       "impacto": false,
-      "contador": null
+      "contador": null,
+      "overlay": null
     },
     {
       "id": "l16",
@@ -895,7 +910,8 @@
         }
       ],
       "impacto": false,
-      "contador": null
+      "contador": null,
+      "overlay": null
     },
     {
       "id": "l17",
@@ -939,7 +955,38 @@
         }
       ],
       "impacto": false,
-      "contador": null
+      "contador": null,
+      "overlay": null
+    }
+  ],
+  "tramos": [
+    {
+      "desde": 0.0,
+      "hasta": 12.15,
+      "imagen": "content/2026-XX-XX-trauma-bonding-parte-1/imagenes/escena-1.jpg",
+      "escena": 1,
+      "whoosh": false
+    },
+    {
+      "desde": 12.15,
+      "hasta": 27.212,
+      "imagen": "content/2026-XX-XX-trauma-bonding-parte-1/imagenes/escena-2.jpg",
+      "escena": 2,
+      "whoosh": true
+    },
+    {
+      "desde": 27.212,
+      "hasta": 36.663,
+      "imagen": "content/2026-XX-XX-trauma-bonding-parte-1/imagenes/escena-3.jpg",
+      "escena": 3,
+      "whoosh": true
+    },
+    {
+      "desde": 36.663,
+      "hasta": 46.438,
+      "imagen": "content/2026-XX-XX-trauma-bonding-parte-1/imagenes/escena-4.jpg",
+      "escena": 4,
+      "whoosh": true
     }
   ]
 }

@@ -5,7 +5,7 @@
   "icono": "assets/personaje/knot-icono.png",
   "formato": "short",
   "audio": "content/2026-XX-XX-5-manipulation-tactics/audio/narracion.mp3",
-  "duracionTotal": 105.75,
+  "duracionTotal": 134.025,
   "segmentos": [
     {
       "id": "l01",
@@ -13,345 +13,434 @@
       "bloque": null,
       "escena": 1,
       "inicio": 0.1,
-      "duracion": 3.762,
-      "audio": null,
-      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-1.jpg",
-      "palabras": [
-        {
-          "texto": "If",
-          "inicio": 0.0,
-          "fin": 0.163,
-          "linea": 1
-        },
-        {
-          "texto": "someone's",
-          "inicio": 0.175,
-          "fin": 0.575,
-          "linea": 1
-        },
-        {
-          "texto": "done",
-          "inicio": 0.588,
-          "fin": 0.787,
-          "linea": 1
-        },
-        {
-          "texto": "this",
-          "inicio": 0.8,
-          "fin": 0.987,
-          "linea": 1
-        },
-        {
-          "texto": "to",
-          "inicio": 1.0,
-          "fin": 1.1,
-          "linea": 1
-        },
-        {
-          "texto": "you",
-          "inicio": 1.112,
-          "fin": 1.437,
-          "linea": 1
-        },
-        {
-          "texto": "it",
-          "inicio": 1.65,
-          "fin": 1.763,
-          "linea": 1
-        },
-        {
-          "texto": "wasn't",
-          "inicio": 1.775,
-          "fin": 2.112,
-          "linea": 1
-        },
-        {
-          "texto": "an",
-          "inicio": 2.125,
-          "fin": 2.225,
-          "linea": 1
-        },
-        {
-          "texto": "accident.",
-          "inicio": 2.237,
-          "fin": 2.9,
-          "linea": 1
-        }
-      ],
-      "destacada": 9,
-      "sonidos": [
-        {
-          "archivo": "assets/sonido/bloque.mp3",
-          "en": 2.237,
-          "volumen": 0.3
-        }
-      ],
-      "impacto": false,
-      "contador": null
-    },
-    {
-      "id": "l02",
-      "tipo": "linea",
-      "bloque": null,
-      "escena": 1,
-      "inicio": 3.862,
-      "duracion": 3.776,
-      "audio": null,
-      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-1.jpg",
-      "palabras": [
-        {
-          "texto": "It",
-          "inicio": 0.0,
-          "fin": 0.138,
-          "linea": 2
-        },
-        {
-          "texto": "has",
-          "inicio": 0.151,
-          "fin": 0.338,
-          "linea": 2
-        },
-        {
-          "texto": "a",
-          "inicio": 0.351,
-          "fin": 0.401,
-          "linea": 2
-        },
-        {
-          "texto": "name.",
-          "inicio": 0.413,
-          "fin": 0.851,
-          "linea": 2
-        },
-        {
-          "texto": "And",
-          "inicio": 1.713,
-          "fin": 1.875,
-          "linea": 2
-        },
-        {
-          "texto": "there",
-          "inicio": 1.888,
-          "fin": 2.026,
-          "linea": 2
-        },
-        {
-          "texto": "are",
-          "inicio": 2.038,
-          "fin": 2.138,
-          "linea": 2
-        },
-        {
-          "texto": "5",
-          "inicio": 2.151,
-          "fin": 2.45,
-          "linea": 2
-        },
-        {
-          "texto": "of",
-          "inicio": 2.463,
-          "fin": 2.551,
-          "linea": 2
-        },
-        {
-          "texto": "them.",
-          "inicio": 2.563,
-          "fin": 2.913,
-          "linea": 2
-        }
-      ],
-      "destacada": 3,
-      "sonidos": [
-        {
-          "archivo": "assets/sonido/bloque.mp3",
-          "en": 0.413,
-          "volumen": 0.3
-        }
-      ],
-      "impacto": false,
-      "contador": null
-    },
-    {
-      "id": "l03",
-      "tipo": "linea",
-      "bloque": null,
-      "escena": 2,
-      "inicio": 7.638,
-      "duracion": 5.312,
+      "duracion": 2.063,
       "audio": null,
       "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-2.jpg",
       "palabras": [
         {
-          "texto": "Therapists",
+          "texto": "You've",
           "inicio": 0.0,
-          "fin": 0.624,
-          "linea": 3
+          "fin": 0.238,
+          "linea": 1
         },
         {
-          "texto": "see",
-          "inicio": 0.637,
-          "fin": 0.8,
-          "linea": 3
+          "texto": "been",
+          "inicio": 0.25,
+          "fin": 0.412,
+          "linea": 1
         },
         {
-          "texto": "these",
-          "inicio": 0.812,
-          "fin": 1.024,
-          "linea": 3
-        },
-        {
-          "texto": "exact",
-          "inicio": 1.037,
-          "fin": 1.475,
-          "linea": 3
-        },
-        {
-          "texto": "5",
-          "inicio": 1.487,
-          "fin": 1.762,
-          "linea": 3
-        },
-        {
-          "texto": "patterns",
-          "inicio": 1.774,
-          "fin": 2.312,
-          "linea": 3
-        },
-        {
-          "texto": "in",
-          "inicio": 2.325,
-          "fin": 2.5,
-          "linea": 3
-        },
-        {
-          "texto": "almost",
-          "inicio": 2.512,
-          "fin": 2.887,
-          "linea": 3
-        },
-        {
-          "texto": "every",
-          "inicio": 2.899,
-          "fin": 3.124,
-          "linea": 3
-        },
-        {
-          "texto": "toxic",
-          "inicio": 3.137,
-          "fin": 3.587,
-          "linea": 3
-        },
-        {
-          "texto": "relationship.",
-          "inicio": 3.6,
-          "fin": 4.45,
-          "linea": 3
-        }
-      ],
-      "destacada": 5,
-      "sonidos": [
-        {
-          "archivo": "assets/sonido/transicion.mp3",
-          "en": -0.25
-        },
-        {
-          "archivo": "assets/sonido/bloque.mp3",
-          "en": 1.774,
-          "volumen": 0.3
-        }
-      ],
-      "impacto": false,
-      "contador": null
-    },
-    {
-      "id": "l04",
-      "tipo": "linea",
-      "bloque": null,
-      "escena": 2,
-      "inicio": 12.95,
-      "duracion": 3.95,
-      "audio": null,
-      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-2.jpg",
-      "palabras": [
-        {
-          "texto": "Recognize",
-          "inicio": 0.0,
-          "fin": 0.612,
-          "linea": 4
-        },
-        {
-          "texto": "even",
-          "inicio": 0.625,
-          "fin": 0.912,
-          "linea": 4
-        },
-        {
-          "texto": "ONE,",
-          "inicio": 0.925,
-          "fin": 1.288,
-          "linea": 4
-        },
-        {
-          "texto": "and",
-          "inicio": 1.5,
-          "fin": 1.612,
-          "linea": 4
-        },
-        {
-          "texto": "you'll",
-          "inicio": 1.625,
-          "fin": 1.775,
-          "linea": 4
-        },
-        {
-          "texto": "never",
-          "inicio": 1.788,
-          "fin": 2.05,
-          "linea": 4
-        },
-        {
-          "texto": "call",
-          "inicio": 2.062,
-          "fin": 2.3,
-          "linea": 4
-        },
-        {
-          "texto": "it",
-          "inicio": 2.312,
-          "fin": 2.425,
-          "linea": 4
-        },
-        {
-          "texto": "'love'",
-          "inicio": 2.437,
-          "fin": 2.6,
-          "linea": 4
-        },
-        {
-          "texto": "again.",
-          "inicio": 2.612,
-          "fin": 3.088,
-          "linea": 4
+          "texto": "manipulated.",
+          "inicio": 0.425,
+          "fin": 1.2,
+          "linea": 1
         }
       ],
       "destacada": 2,
       "sonidos": [
         {
           "archivo": "assets/sonido/bloque.mp3",
-          "en": 0.925,
+          "en": 0.425,
           "volumen": 0.3
         }
       ],
       "impacto": false,
-      "contador": null
+      "contador": null,
+      "overlay": null
+    },
+    {
+      "id": "l02",
+      "tipo": "linea",
+      "bloque": null,
+      "escena": 1,
+      "inicio": 2.163,
+      "duracion": 5.387,
+      "audio": null,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-2.jpg",
+      "palabras": [
+        {
+          "texto": "By",
+          "inicio": 0.0,
+          "fin": 0.174,
+          "linea": 2
+        },
+        {
+          "texto": "a",
+          "inicio": 0.187,
+          "fin": 0.262,
+          "linea": 2
+        },
+        {
+          "texto": "partner.",
+          "inicio": 0.275,
+          "fin": 0.862,
+          "linea": 2
+        },
+        {
+          "texto": "A",
+          "inicio": 1.725,
+          "fin": 1.862,
+          "linea": 2
+        },
+        {
+          "texto": "friend.",
+          "inicio": 1.874,
+          "fin": 2.399,
+          "linea": 2
+        },
+        {
+          "texto": "Even",
+          "inicio": 3.262,
+          "fin": 3.562,
+          "linea": 2
+        },
+        {
+          "texto": "your",
+          "inicio": 3.574,
+          "fin": 3.712,
+          "linea": 2
+        },
+        {
+          "texto": "own",
+          "inicio": 3.725,
+          "fin": 3.899,
+          "linea": 2
+        },
+        {
+          "texto": "family.",
+          "inicio": 3.912,
+          "fin": 4.525,
+          "linea": 2
+        }
+      ],
+      "destacada": 8,
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 3.912,
+          "volumen": 0.3
+        }
+      ],
+      "impacto": false,
+      "contador": null,
+      "overlay": null
+    },
+    {
+      "id": "l03",
+      "tipo": "linea",
+      "bloque": null,
+      "escena": 1,
+      "inicio": 7.55,
+      "duracion": 4.913,
+      "audio": null,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-2.jpg",
+      "palabras": [
+        {
+          "texto": "And",
+          "inicio": 0.0,
+          "fin": 0.175,
+          "linea": 3
+        },
+        {
+          "texto": "it",
+          "inicio": 0.187,
+          "fin": 0.262,
+          "linea": 3
+        },
+        {
+          "texto": "was",
+          "inicio": 0.275,
+          "fin": 0.437,
+          "linea": 3
+        },
+        {
+          "texto": "never",
+          "inicio": 0.45,
+          "fin": 0.712,
+          "linea": 3
+        },
+        {
+          "texto": "an",
+          "inicio": 0.725,
+          "fin": 0.813,
+          "linea": 3
+        },
+        {
+          "texto": "accident.",
+          "inicio": 0.825,
+          "fin": 1.487,
+          "linea": 3
+        },
+        {
+          "texto": "It",
+          "inicio": 2.35,
+          "fin": 2.487,
+          "linea": 3
+        },
+        {
+          "texto": "has",
+          "inicio": 2.5,
+          "fin": 2.675,
+          "linea": 3
+        },
+        {
+          "texto": "a",
+          "inicio": 2.688,
+          "fin": 2.738,
+          "linea": 3
+        },
+        {
+          "texto": "name —",
+          "inicio": 2.75,
+          "fin": 3.15,
+          "linea": 3
+        },
+        {
+          "texto": "5",
+          "inicio": 3.313,
+          "fin": 3.6,
+          "linea": 3
+        },
+        {
+          "texto": "of",
+          "inicio": 3.612,
+          "fin": 3.7,
+          "linea": 3
+        },
+        {
+          "texto": "them.",
+          "inicio": 3.712,
+          "fin": 4.05,
+          "linea": 3
+        }
+      ],
+      "destacada": 5,
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 0.825,
+          "volumen": 0.3
+        }
+      ],
+      "impacto": false,
+      "contador": null,
+      "overlay": null
+    },
+    {
+      "id": "l04",
+      "tipo": "linea",
+      "bloque": null,
+      "escena": 1,
+      "inicio": 12.463,
+      "duracion": 7.537,
+      "audio": null,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-2.jpg",
+      "palabras": [
+        {
+          "texto": "Therapists",
+          "inicio": 0.0,
+          "fin": 0.625,
+          "linea": 4
+        },
+        {
+          "texto": "see",
+          "inicio": 0.637,
+          "fin": 0.812,
+          "linea": 4
+        },
+        {
+          "texto": "these",
+          "inicio": 0.824,
+          "fin": 1.037,
+          "linea": 4
+        },
+        {
+          "texto": "same",
+          "inicio": 1.049,
+          "fin": 1.312,
+          "linea": 4
+        },
+        {
+          "texto": "5",
+          "inicio": 1.324,
+          "fin": 1.637,
+          "linea": 4
+        },
+        {
+          "texto": "patterns",
+          "inicio": 1.65,
+          "fin": 2.187,
+          "linea": 4
+        },
+        {
+          "texto": "in",
+          "inicio": 2.199,
+          "fin": 2.349,
+          "linea": 4
+        },
+        {
+          "texto": "almost",
+          "inicio": 2.362,
+          "fin": 2.749,
+          "linea": 4
+        },
+        {
+          "texto": "every",
+          "inicio": 2.762,
+          "fin": 3.012,
+          "linea": 4
+        },
+        {
+          "texto": "unhealthy",
+          "inicio": 3.025,
+          "fin": 3.5,
+          "linea": 4
+        },
+        {
+          "texto": "relationship —",
+          "inicio": 3.512,
+          "fin": 4.287,
+          "linea": 4
+        },
+        {
+          "texto": "romantic,",
+          "inicio": 4.462,
+          "fin": 5.099,
+          "linea": 4
+        },
+        {
+          "texto": "family,",
+          "inicio": 5.249,
+          "fin": 5.774,
+          "linea": 4
+        },
+        {
+          "texto": "even",
+          "inicio": 5.912,
+          "fin": 6.124,
+          "linea": 4
+        },
+        {
+          "texto": "at",
+          "inicio": 6.137,
+          "fin": 6.225,
+          "linea": 4
+        },
+        {
+          "texto": "work.",
+          "inicio": 6.237,
+          "fin": 6.674,
+          "linea": 4
+        }
+      ],
+      "destacada": 5,
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 1.65,
+          "volumen": 0.3
+        }
+      ],
+      "impacto": false,
+      "contador": null,
+      "overlay": null
     },
     {
       "id": "l05",
       "tipo": "linea",
       "bloque": null,
-      "escena": 3,
-      "inicio": 16.9,
-      "duracion": 2.538,
+      "escena": 1,
+      "inicio": 20.0,
+      "duracion": 5.113,
+      "audio": null,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-2.jpg",
+      "palabras": [
+        {
+          "texto": "Learn",
+          "inicio": 0.0,
+          "fin": 0.275,
+          "linea": 5
+        },
+        {
+          "texto": "just",
+          "inicio": 0.288,
+          "fin": 0.55,
+          "linea": 5
+        },
+        {
+          "texto": "ONE,",
+          "inicio": 0.562,
+          "fin": 0.925,
+          "linea": 5
+        },
+        {
+          "texto": "and",
+          "inicio": 1.137,
+          "fin": 1.238,
+          "linea": 5
+        },
+        {
+          "texto": "they",
+          "inicio": 1.25,
+          "fin": 1.375,
+          "linea": 5
+        },
+        {
+          "texto": "lose",
+          "inicio": 1.387,
+          "fin": 1.637,
+          "linea": 5
+        },
+        {
+          "texto": "their",
+          "inicio": 1.65,
+          "fin": 1.8,
+          "linea": 5
+        },
+        {
+          "texto": "power",
+          "inicio": 1.812,
+          "fin": 2.163,
+          "linea": 5
+        },
+        {
+          "texto": "over",
+          "inicio": 2.175,
+          "fin": 2.375,
+          "linea": 5
+        },
+        {
+          "texto": "you.",
+          "inicio": 2.387,
+          "fin": 2.712,
+          "linea": 5
+        },
+        {
+          "texto": "Forever.",
+          "inicio": 3.575,
+          "fin": 4.25,
+          "linea": 5
+        }
+      ],
+      "destacada": 2,
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 0.562,
+          "volumen": 0.3
+        }
+      ],
+      "impacto": false,
+      "contador": null,
+      "overlay": null
+    },
+    {
+      "id": "l06",
+      "tipo": "linea",
+      "bloque": null,
+      "escena": 2,
+      "inicio": 25.113,
+      "duracion": 2.537,
       "audio": null,
       "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-3.jpg",
       "palabras": [
@@ -359,19 +448,19 @@
           "texto": "Number",
           "inicio": 0.0,
           "fin": 0.375,
-          "linea": 5
+          "linea": 6
         },
         {
           "texto": "one:",
-          "inicio": 0.388,
-          "fin": 0.725,
-          "linea": 5
+          "inicio": 0.387,
+          "fin": 0.724,
+          "linea": 6
         },
         {
           "texto": "gaslighting.",
-          "inicio": 0.888,
+          "inicio": 0.887,
           "fin": 1.675,
-          "linea": 5
+          "linea": 6
         }
       ],
       "destacada": 2,
@@ -382,82 +471,83 @@
         },
         {
           "archivo": "assets/sonido/bloque.mp3",
-          "en": 0.888,
+          "en": 0.887,
           "volumen": 0.3
         }
       ],
       "impacto": true,
-      "contador": "1/5"
+      "contador": "1/5",
+      "overlay": null
     },
     {
-      "id": "l06",
+      "id": "l07",
       "tipo": "linea",
       "bloque": null,
-      "escena": 3,
-      "inicio": 19.438,
-      "duracion": 4.337,
+      "escena": 2,
+      "inicio": 27.65,
+      "duracion": 4.338,
       "audio": null,
-      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-3.jpg",
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-4.jpg",
       "palabras": [
         {
           "texto": "They",
           "inicio": 0.0,
-          "fin": 0.149,
-          "linea": 6
+          "fin": 0.15,
+          "linea": 7
         },
         {
           "texto": "make",
           "inicio": 0.162,
-          "fin": 0.374,
-          "linea": 6
+          "fin": 0.375,
+          "linea": 7
         },
         {
           "texto": "you",
-          "inicio": 0.387,
-          "fin": 0.487,
-          "linea": 6
+          "inicio": 0.388,
+          "fin": 0.488,
+          "linea": 7
         },
         {
           "texto": "doubt",
           "inicio": 0.5,
           "fin": 0.762,
-          "linea": 6
+          "linea": 7
         },
         {
           "texto": "your",
-          "inicio": 0.774,
-          "fin": 0.949,
-          "linea": 6
+          "inicio": 0.775,
+          "fin": 0.95,
+          "linea": 7
         },
         {
           "texto": "own",
-          "inicio": 0.962,
+          "inicio": 0.963,
           "fin": 1.112,
-          "linea": 6
+          "linea": 7
         },
         {
           "texto": "memory.",
-          "inicio": 1.124,
-          "fin": 1.649,
-          "linea": 6
+          "inicio": 1.125,
+          "fin": 1.65,
+          "linea": 7
         },
         {
           "texto": "Your",
-          "inicio": 2.512,
+          "inicio": 2.513,
           "fin": 2.75,
-          "linea": 6
+          "linea": 7
         },
         {
           "texto": "own",
-          "inicio": 2.762,
-          "fin": 2.937,
-          "linea": 6
+          "inicio": 2.763,
+          "fin": 2.938,
+          "linea": 7
         },
         {
           "texto": "eyes.",
-          "inicio": 2.949,
-          "fin": 3.474,
-          "linea": 6
+          "inicio": 2.95,
+          "fin": 3.475,
+          "linea": 7
         }
       ],
       "destacada": 3,
@@ -469,59 +559,60 @@
         }
       ],
       "impacto": false,
-      "contador": "1/5"
+      "contador": "1/5",
+      "overlay": null
     },
     {
-      "id": "l07",
+      "id": "l08",
       "tipo": "linea",
       "bloque": null,
-      "escena": 4,
-      "inicio": 23.775,
+      "escena": 2,
+      "inicio": 31.988,
       "duracion": 5.775,
       "audio": null,
-      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-4.jpg",
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-3.jpg",
       "palabras": [
         {
           "texto": "'That",
           "inicio": 0.0,
           "fin": 0.237,
-          "linea": 7
+          "linea": 8
         },
         {
           "texto": "never",
-          "inicio": 0.25,
-          "fin": 0.525,
-          "linea": 7
+          "inicio": 0.249,
+          "fin": 0.524,
+          "linea": 8
         },
         {
           "texto": "happened.'",
           "inicio": 0.537,
-          "fin": 1.088,
-          "linea": 7
+          "fin": 1.087,
+          "linea": 8
         },
         {
           "texto": "'You're",
           "inicio": 1.95,
           "fin": 2.2,
-          "linea": 7
+          "linea": 8
         },
         {
           "texto": "overreacting.'",
-          "inicio": 2.213,
+          "inicio": 2.212,
           "fin": 3.175,
-          "linea": 7
+          "linea": 8
         },
         {
           "texto": "'You're",
           "inicio": 4.037,
-          "fin": 4.263,
-          "linea": 7
+          "fin": 4.262,
+          "linea": 8
         },
         {
           "texto": "crazy.'",
           "inicio": 4.275,
-          "fin": 4.913,
-          "linea": 7
+          "fin": 4.912,
+          "linea": 8
         }
       ],
       "destacada": 6,
@@ -533,47 +624,48 @@
         }
       ],
       "impacto": false,
-      "contador": "1/5"
+      "contador": "1/5",
+      "overlay": null
     },
     {
-      "id": "l08",
+      "id": "l09",
       "tipo": "linea",
       "bloque": null,
-      "escena": 4,
-      "inicio": 29.55,
+      "escena": 2,
+      "inicio": 37.763,
       "duracion": 3.75,
       "audio": null,
-      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-4.jpg",
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-3.jpg",
       "palabras": [
         {
           "texto": "It's",
           "inicio": 0.0,
           "fin": 0.212,
-          "linea": 8
+          "linea": 9
         },
         {
           "texto": "not",
-          "inicio": 0.225,
+          "inicio": 0.224,
           "fin": 0.437,
-          "linea": 8
+          "linea": 9
         },
         {
           "texto": "confusion.",
-          "inicio": 0.45,
+          "inicio": 0.449,
           "fin": 1.175,
-          "linea": 8
+          "linea": 9
         },
         {
           "texto": "It's",
           "inicio": 2.037,
-          "fin": 2.25,
-          "linea": 8
+          "fin": 2.249,
+          "linea": 9
         },
         {
           "texto": "control.",
           "inicio": 2.262,
-          "fin": 2.888,
-          "linea": 8
+          "fin": 2.887,
+          "linea": 9
         }
       ],
       "destacada": 4,
@@ -584,14 +676,86 @@
         }
       ],
       "impacto": false,
-      "contador": "1/5"
+      "contador": "1/5",
+      "overlay": null
     },
     {
-      "id": "l09",
+      "id": "l10",
       "tipo": "linea",
       "bloque": null,
-      "escena": 5,
-      "inicio": 33.3,
+      "escena": 2,
+      "inicio": 41.513,
+      "duracion": 3.375,
+      "audio": null,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-3.jpg",
+      "palabras": [
+        {
+          "texto": "And",
+          "inicio": 0.0,
+          "fin": 0.187,
+          "linea": 10
+        },
+        {
+          "texto": "it",
+          "inicio": 0.199,
+          "fin": 0.287,
+          "linea": 10
+        },
+        {
+          "texto": "works —",
+          "inicio": 0.299,
+          "fin": 0.799,
+          "linea": 10
+        },
+        {
+          "texto": "because",
+          "inicio": 0.974,
+          "fin": 1.312,
+          "linea": 10
+        },
+        {
+          "texto": "you",
+          "inicio": 1.324,
+          "fin": 1.425,
+          "linea": 10
+        },
+        {
+          "texto": "start",
+          "inicio": 1.437,
+          "fin": 1.712,
+          "linea": 10
+        },
+        {
+          "texto": "believing",
+          "inicio": 1.724,
+          "fin": 2.162,
+          "linea": 10
+        },
+        {
+          "texto": "them.",
+          "inicio": 2.175,
+          "fin": 2.512,
+          "linea": 10
+        }
+      ],
+      "destacada": 2,
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 0.299,
+          "volumen": 0.3
+        }
+      ],
+      "impacto": false,
+      "contador": "1/5",
+      "overlay": null
+    },
+    {
+      "id": "l11",
+      "tipo": "linea",
+      "bloque": null,
+      "escena": 3,
+      "inicio": 44.888,
       "duracion": 2.525,
       "audio": null,
       "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-5.jpg",
@@ -600,25 +764,25 @@
           "texto": "Number",
           "inicio": 0.0,
           "fin": 0.362,
-          "linea": 9
+          "linea": 11
         },
         {
           "texto": "two:",
           "inicio": 0.375,
           "fin": 0.75,
-          "linea": 9
+          "linea": 11
         },
         {
           "texto": "love",
-          "inicio": 0.95,
-          "fin": 1.138,
-          "linea": 9
+          "inicio": 0.949,
+          "fin": 1.137,
+          "linea": 11
         },
         {
           "texto": "bombing.",
           "inicio": 1.15,
-          "fin": 1.663,
-          "linea": 9
+          "fin": 1.662,
+          "linea": 11
         }
       ],
       "destacada": 3,
@@ -634,236 +798,299 @@
         }
       ],
       "impacto": true,
-      "contador": "2/5"
+      "contador": "2/5",
+      "overlay": null
     },
     {
-      "id": "l10",
+      "id": "l12",
       "tipo": "linea",
       "bloque": null,
-      "escena": 5,
-      "inicio": 35.825,
-      "duracion": 6.213,
+      "escena": 3,
+      "inicio": 47.413,
+      "duracion": 6.212,
       "audio": null,
-      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-5.jpg",
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-6.jpg",
       "palabras": [
         {
           "texto": "Too",
           "inicio": 0.0,
           "fin": 0.2,
-          "linea": 10
+          "linea": 12
         },
         {
           "texto": "much,",
-          "inicio": 0.213,
-          "fin": 0.675,
-          "linea": 10
+          "inicio": 0.212,
+          "fin": 0.674,
+          "linea": 12
         },
         {
           "texto": "too",
-          "inicio": 0.838,
-          "fin": 1.038,
-          "linea": 10
+          "inicio": 0.837,
+          "fin": 1.037,
+          "linea": 12
         },
         {
           "texto": "fast.",
-          "inicio": 1.05,
-          "fin": 1.65,
-          "linea": 10
+          "inicio": 1.049,
+          "fin": 1.649,
+          "linea": 12
         },
         {
           "texto": "Gifts,",
           "inicio": 2.512,
           "fin": 2.987,
-          "linea": 10
+          "linea": 12
         },
         {
           "texto": "texts,",
-          "inicio": 3.15,
-          "fin": 3.688,
-          "linea": 10
+          "inicio": 3.149,
+          "fin": 3.687,
+          "linea": 12
         },
         {
-          "texto": "'soulmate'",
-          "inicio": 3.838,
+          "texto": "'soulmate' —",
+          "inicio": 3.837,
           "fin": 4.375,
-          "linea": 10
+          "linea": 12
         },
         {
           "texto": "in",
           "inicio": 4.537,
           "fin": 4.687,
-          "linea": 10
+          "linea": 12
         },
         {
           "texto": "week",
-          "inicio": 4.7,
+          "inicio": 4.699,
           "fin": 4.937,
-          "linea": 10
+          "linea": 12
         },
         {
           "texto": "one.",
-          "inicio": 4.95,
-          "fin": 5.35,
-          "linea": 10
+          "inicio": 4.949,
+          "fin": 5.349,
+          "linea": 12
         }
       ],
       "destacada": 3,
       "sonidos": [
         {
           "archivo": "assets/sonido/bloque.mp3",
-          "en": 1.05,
+          "en": 1.049,
           "volumen": 0.3
         }
       ],
       "impacto": false,
-      "contador": "2/5"
+      "contador": "2/5",
+      "overlay": null
     },
     {
-      "id": "l11",
+      "id": "l13",
       "tipo": "linea",
       "bloque": null,
-      "escena": 6,
-      "inicio": 42.038,
-      "duracion": 3.549,
+      "escena": 3,
+      "inicio": 53.625,
+      "duracion": 3.55,
       "audio": null,
-      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-6.jpg",
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-5.jpg",
       "palabras": [
         {
           "texto": "It's",
           "inicio": 0.0,
           "fin": 0.2,
-          "linea": 11
+          "linea": 13
         },
         {
           "texto": "not",
           "inicio": 0.212,
-          "fin": 0.424,
-          "linea": 11
+          "fin": 0.425,
+          "linea": 13
         },
         {
           "texto": "passion.",
           "inicio": 0.437,
-          "fin": 1.049,
-          "linea": 11
+          "fin": 1.05,
+          "linea": 13
         },
         {
           "texto": "It's",
-          "inicio": 1.912,
-          "fin": 2.112,
-          "linea": 11
+          "inicio": 1.913,
+          "fin": 2.113,
+          "linea": 13
         },
         {
           "texto": "a",
           "inicio": 2.125,
           "fin": 2.187,
-          "linea": 11
+          "linea": 13
         },
         {
           "texto": "hook.",
-          "inicio": 2.199,
+          "inicio": 2.2,
           "fin": 2.687,
-          "linea": 11
+          "linea": 13
         }
       ],
       "destacada": 5,
       "sonidos": [
         {
           "archivo": "assets/sonido/revelacion.mp3",
-          "en": 2.199
+          "en": 2.2
         }
       ],
       "impacto": false,
-      "contador": "2/5"
+      "contador": "2/5",
+      "overlay": null
     },
     {
-      "id": "l12",
+      "id": "l14",
       "tipo": "linea",
       "bloque": null,
-      "escena": 6,
-      "inicio": 45.587,
-      "duracion": 3.563,
+      "escena": 3,
+      "inicio": 57.175,
+      "duracion": 3.562,
       "audio": null,
-      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-6.jpg",
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-5.jpg",
       "palabras": [
         {
           "texto": "The",
           "inicio": 0.0,
-          "fin": 0.138,
-          "linea": 12
+          "fin": 0.137,
+          "linea": 14
         },
         {
           "texto": "faster",
           "inicio": 0.15,
           "fin": 0.563,
-          "linea": 12
+          "linea": 14
         },
         {
           "texto": "it",
-          "inicio": 0.576,
-          "fin": 0.676,
-          "linea": 12
+          "inicio": 0.575,
+          "fin": 0.675,
+          "linea": 14
         },
         {
           "texto": "starts,",
-          "inicio": 0.688,
+          "inicio": 0.687,
           "fin": 1.225,
-          "linea": 12
+          "linea": 14
         },
         {
           "texto": "the",
           "inicio": 1.363,
-          "fin": 1.451,
-          "linea": 12
+          "fin": 1.45,
+          "linea": 14
         },
         {
           "texto": "harder",
           "inicio": 1.463,
           "fin": 1.788,
-          "linea": 12
+          "linea": 14
         },
         {
           "texto": "it",
-          "inicio": 1.801,
-          "fin": 1.888,
-          "linea": 12
+          "inicio": 1.8,
+          "fin": 1.887,
+          "linea": 14
         },
         {
           "texto": "can",
           "inicio": 1.9,
           "fin": 2.05,
-          "linea": 12
+          "linea": 14
         },
         {
           "texto": "trap",
-          "inicio": 2.063,
-          "fin": 2.351,
-          "linea": 12
+          "inicio": 2.062,
+          "fin": 2.35,
+          "linea": 14
         },
         {
           "texto": "you.",
           "inicio": 2.363,
-          "fin": 2.701,
-          "linea": 12
+          "fin": 2.7,
+          "linea": 14
         }
       ],
       "destacada": 8,
       "sonidos": [
         {
           "archivo": "assets/sonido/bloque.mp3",
-          "en": 2.063,
+          "en": 2.062,
           "volumen": 0.3
         }
       ],
       "impacto": false,
-      "contador": "2/5"
+      "contador": "2/5",
+      "overlay": null
     },
     {
-      "id": "l13",
+      "id": "l15",
       "tipo": "linea",
       "bloque": null,
-      "escena": 7,
-      "inicio": 49.15,
-      "duracion": 3.013,
+      "escena": 3,
+      "inicio": 60.737,
+      "duracion": 2.551,
+      "audio": null,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-5.jpg",
+      "palabras": [
+        {
+          "texto": "Real",
+          "inicio": 0.0,
+          "fin": 0.313,
+          "linea": 15
+        },
+        {
+          "texto": "love",
+          "inicio": 0.325,
+          "fin": 0.551,
+          "linea": 15
+        },
+        {
+          "texto": "doesn't",
+          "inicio": 0.563,
+          "fin": 0.888,
+          "linea": 15
+        },
+        {
+          "texto": "need",
+          "inicio": 0.901,
+          "fin": 1.063,
+          "linea": 15
+        },
+        {
+          "texto": "to",
+          "inicio": 1.075,
+          "fin": 1.176,
+          "linea": 15
+        },
+        {
+          "texto": "rush.",
+          "inicio": 1.188,
+          "fin": 1.688,
+          "linea": 15
+        }
+      ],
+      "destacada": 5,
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 1.188,
+          "volumen": 0.3
+        }
+      ],
+      "impacto": false,
+      "contador": "2/5",
+      "overlay": null
+    },
+    {
+      "id": "l16",
+      "tipo": "linea",
+      "bloque": null,
+      "escena": 4,
+      "inicio": 63.288,
+      "duracion": 3.012,
       "audio": null,
       "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-7.jpg",
       "palabras": [
@@ -871,31 +1098,31 @@
           "texto": "Number",
           "inicio": 0.0,
           "fin": 0.375,
-          "linea": 13
+          "linea": 16
         },
         {
           "texto": "three:",
-          "inicio": 0.388,
+          "inicio": 0.387,
           "fin": 0.812,
-          "linea": 13
+          "linea": 16
         },
         {
           "texto": "the",
-          "inicio": 1.0,
-          "fin": 1.1,
-          "linea": 13
+          "inicio": 0.999,
+          "fin": 1.099,
+          "linea": 16
         },
         {
           "texto": "silent",
-          "inicio": 1.113,
-          "fin": 1.513,
-          "linea": 13
+          "inicio": 1.112,
+          "fin": 1.512,
+          "linea": 16
         },
         {
           "texto": "treatment.",
-          "inicio": 1.525,
+          "inicio": 1.524,
           "fin": 2.15,
-          "linea": 13
+          "linea": 16
         }
       ],
       "destacada": 3,
@@ -906,46 +1133,47 @@
         },
         {
           "archivo": "assets/sonido/bloque.mp3",
-          "en": 1.113,
+          "en": 1.112,
           "volumen": 0.3
         }
       ],
       "impacto": true,
-      "contador": "3/5"
+      "contador": "3/5",
+      "overlay": null
     },
     {
-      "id": "l14",
+      "id": "l17",
       "tipo": "linea",
       "bloque": null,
-      "escena": 7,
-      "inicio": 52.163,
-      "duracion": 3.587,
+      "escena": 4,
+      "inicio": 66.3,
+      "duracion": 3.588,
       "audio": null,
-      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-7.jpg",
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-8.jpg",
       "palabras": [
         {
           "texto": "Not",
           "inicio": 0.0,
           "fin": 0.312,
-          "linea": 14
+          "linea": 17
         },
         {
           "texto": "space.",
-          "inicio": 0.324,
+          "inicio": 0.325,
           "fin": 0.937,
-          "linea": 14
+          "linea": 17
         },
         {
           "texto": "A",
-          "inicio": 1.799,
-          "fin": 1.924,
-          "linea": 14
+          "inicio": 1.8,
+          "fin": 1.925,
+          "linea": 17
         },
         {
           "texto": "punishment.",
           "inicio": 1.937,
           "fin": 2.725,
-          "linea": 14
+          "linea": 17
         }
       ],
       "destacada": 3,
@@ -957,117 +1185,119 @@
         }
       ],
       "impacto": false,
-      "contador": "3/5"
+      "contador": "3/5",
+      "overlay": null
     },
     {
-      "id": "l15",
+      "id": "l18",
       "tipo": "linea",
       "bloque": null,
-      "escena": 8,
-      "inicio": 55.75,
+      "escena": 4,
+      "inicio": 69.888,
       "duracion": 4.337,
       "audio": null,
-      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-8.jpg",
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-7.jpg",
       "palabras": [
         {
           "texto": "They",
           "inicio": 0.0,
-          "fin": 0.163,
-          "linea": 15
+          "fin": 0.162,
+          "linea": 18
         },
         {
           "texto": "go",
-          "inicio": 0.175,
-          "fin": 0.35,
-          "linea": 15
+          "inicio": 0.174,
+          "fin": 0.349,
+          "linea": 18
         },
         {
           "texto": "cold",
           "inicio": 0.362,
           "fin": 0.625,
-          "linea": 15
+          "linea": 18
         },
         {
           "texto": "on",
-          "inicio": 0.638,
-          "fin": 0.738,
-          "linea": 15
+          "inicio": 0.637,
+          "fin": 0.737,
+          "linea": 18
         },
         {
-          "texto": "purpose",
+          "texto": "purpose —",
           "inicio": 0.75,
           "fin": 1.275,
-          "linea": 15
+          "linea": 18
         },
         {
           "texto": "until",
           "inicio": 1.462,
           "fin": 1.737,
-          "linea": 15
+          "linea": 18
         },
         {
           "texto": "you",
           "inicio": 1.75,
           "fin": 1.875,
-          "linea": 15
+          "linea": 18
         },
         {
           "texto": "apologize",
-          "inicio": 1.888,
+          "inicio": 1.887,
           "fin": 2.562,
-          "linea": 15
+          "linea": 18
         },
         {
           "texto": "for",
           "inicio": 2.575,
-          "fin": 2.688,
-          "linea": 15
+          "fin": 2.687,
+          "linea": 18
         },
         {
           "texto": "THEIR",
           "inicio": 2.7,
           "fin": 2.825,
-          "linea": 15
+          "linea": 18
         },
         {
           "texto": "mistake.",
           "inicio": 2.837,
-          "fin": 3.475,
-          "linea": 15
+          "fin": 3.474,
+          "linea": 18
         }
       ],
       "destacada": 7,
       "sonidos": [
         {
           "archivo": "assets/sonido/bloque.mp3",
-          "en": 1.888,
+          "en": 1.887,
           "volumen": 0.3
         }
       ],
       "impacto": false,
-      "contador": "3/5"
+      "contador": "3/5",
+      "overlay": null
     },
     {
-      "id": "l16",
+      "id": "l19",
       "tipo": "linea",
       "bloque": null,
-      "escena": 8,
-      "inicio": 60.087,
+      "escena": 4,
+      "inicio": 74.225,
       "duracion": 2.363,
       "audio": null,
-      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-8.jpg",
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-7.jpg",
       "palabras": [
         {
           "texto": "Silence,",
           "inicio": 0.0,
           "fin": 0.65,
-          "linea": 16
+          "linea": 19
         },
         {
           "texto": "weaponized.",
           "inicio": 0.738,
-          "fin": 1.501,
-          "linea": 16
+          "fin": 1.5,
+          "linea": 19
         }
       ],
       "destacada": 1,
@@ -1078,15 +1308,99 @@
         }
       ],
       "impacto": false,
-      "contador": "3/5"
+      "contador": "3/5",
+      "overlay": null
     },
     {
-      "id": "l17",
+      "id": "l20",
       "tipo": "linea",
       "bloque": null,
-      "escena": 9,
-      "inicio": 62.45,
-      "duracion": 2.662,
+      "escena": 4,
+      "inicio": 76.588,
+      "duracion": 3.449,
+      "audio": null,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-7.jpg",
+      "palabras": [
+        {
+          "texto": "If",
+          "inicio": 0.0,
+          "fin": 0.15,
+          "linea": 20
+        },
+        {
+          "texto": "this",
+          "inicio": 0.162,
+          "fin": 0.337,
+          "linea": 20
+        },
+        {
+          "texto": "happened",
+          "inicio": 0.35,
+          "fin": 0.675,
+          "linea": 20
+        },
+        {
+          "texto": "to",
+          "inicio": 0.687,
+          "fin": 0.775,
+          "linea": 20
+        },
+        {
+          "texto": "you —",
+          "inicio": 0.787,
+          "fin": 1.1,
+          "linea": 20
+        },
+        {
+          "texto": "like",
+          "inicio": 1.274,
+          "fin": 1.449,
+          "linea": 20
+        },
+        {
+          "texto": "this",
+          "inicio": 1.462,
+          "fin": 1.662,
+          "linea": 20
+        },
+        {
+          "texto": "video",
+          "inicio": 1.675,
+          "fin": 2.0,
+          "linea": 20
+        },
+        {
+          "texto": "right",
+          "inicio": 2.012,
+          "fin": 2.224,
+          "linea": 20
+        },
+        {
+          "texto": "now.",
+          "inicio": 2.237,
+          "fin": 2.587,
+          "linea": 20
+        }
+      ],
+      "destacada": 5,
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 1.274,
+          "volumen": 0.3
+        }
+      ],
+      "impacto": false,
+      "contador": "3/5",
+      "overlay": "like"
+    },
+    {
+      "id": "l21",
+      "tipo": "linea",
+      "bloque": null,
+      "escena": 5,
+      "inicio": 80.037,
+      "duracion": 2.663,
       "audio": null,
       "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-9.jpg",
       "palabras": [
@@ -1094,19 +1408,19 @@
           "texto": "Number",
           "inicio": 0.0,
           "fin": 0.375,
-          "linea": 17
+          "linea": 21
         },
         {
           "texto": "four:",
-          "inicio": 0.387,
-          "fin": 0.9,
-          "linea": 17
+          "inicio": 0.388,
+          "fin": 0.901,
+          "linea": 21
         },
         {
           "texto": "guilt-tripping.",
-          "inicio": 1.05,
-          "fin": 1.8,
-          "linea": 17
+          "inicio": 1.051,
+          "fin": 1.801,
+          "linea": 21
         }
       ],
       "destacada": 2,
@@ -1117,116 +1431,118 @@
         },
         {
           "archivo": "assets/sonido/bloque.mp3",
-          "en": 1.05,
+          "en": 1.051,
           "volumen": 0.3
         }
       ],
       "impacto": true,
-      "contador": "4/5"
+      "contador": "4/5",
+      "overlay": null
     },
     {
-      "id": "l18",
+      "id": "l22",
       "tipo": "linea",
       "bloque": null,
-      "escena": 9,
-      "inicio": 65.112,
-      "duracion": 2.538,
+      "escena": 5,
+      "inicio": 82.7,
+      "duracion": 2.537,
       "audio": null,
-      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-9.jpg",
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-10.jpg",
       "palabras": [
         {
           "texto": "'After",
           "inicio": 0.0,
           "fin": 0.338,
-          "linea": 18
+          "linea": 22
         },
         {
           "texto": "everything",
-          "inicio": 0.351,
-          "fin": 0.801,
-          "linea": 18
+          "inicio": 0.35,
+          "fin": 0.8,
+          "linea": 22
         },
         {
           "texto": "I've",
           "inicio": 0.813,
           "fin": 0.938,
-          "linea": 18
+          "linea": 22
         },
         {
           "texto": "done",
           "inicio": 0.95,
           "fin": 1.175,
-          "linea": 18
+          "linea": 22
         },
         {
           "texto": "for",
           "inicio": 1.188,
-          "fin": 1.363,
-          "linea": 18
+          "fin": 1.362,
+          "linea": 22
         },
         {
           "texto": "you...'",
           "inicio": 1.375,
           "fin": 1.675,
-          "linea": 18
+          "linea": 22
         }
       ],
       "destacada": 1,
       "sonidos": [
         {
           "archivo": "assets/sonido/bloque.mp3",
-          "en": 0.351,
+          "en": 0.35,
           "volumen": 0.3
         }
       ],
       "impacto": false,
-      "contador": "4/5"
+      "contador": "4/5",
+      "overlay": null
     },
     {
-      "id": "l19",
+      "id": "l23",
       "tipo": "linea",
       "bloque": null,
-      "escena": 10,
-      "inicio": 67.65,
+      "escena": 5,
+      "inicio": 85.237,
       "duracion": 2.488,
       "audio": null,
-      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-10.jpg",
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-9.jpg",
       "palabras": [
         {
           "texto": "Turning",
           "inicio": 0.0,
           "fin": 0.313,
-          "linea": 19
+          "linea": 23
         },
         {
           "texto": "your",
           "inicio": 0.325,
-          "fin": 0.45,
-          "linea": 19
+          "fin": 0.451,
+          "linea": 23
         },
         {
           "texto": "needs",
-          "inicio": 0.462,
+          "inicio": 0.463,
           "fin": 0.75,
-          "linea": 19
+          "linea": 23
         },
         {
           "texto": "into",
-          "inicio": 0.762,
-          "fin": 0.962,
-          "linea": 19
+          "inicio": 0.763,
+          "fin": 0.963,
+          "linea": 23
         },
         {
           "texto": "your",
-          "inicio": 0.975,
-          "fin": 1.1,
-          "linea": 19
+          "inicio": 0.976,
+          "fin": 1.101,
+          "linea": 23
         },
         {
           "texto": "fault.",
           "inicio": 1.113,
           "fin": 1.625,
-          "linea": 19
+          "linea": 23
         }
       ],
       "destacada": 5,
@@ -1238,101 +1554,162 @@
         }
       ],
       "impacto": false,
-      "contador": "4/5"
+      "contador": "4/5",
+      "overlay": null
     },
     {
-      "id": "l20",
+      "id": "l24",
       "tipo": "linea",
       "bloque": null,
-      "escena": 10,
-      "inicio": 70.138,
-      "duracion": 4.274,
+      "escena": 5,
+      "inicio": 87.725,
+      "duracion": 4.275,
       "audio": null,
-      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-10.jpg",
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-9.jpg",
       "palabras": [
         {
           "texto": "If",
           "inicio": 0.0,
           "fin": 0.162,
-          "linea": 20
+          "linea": 24
         },
         {
           "texto": "you",
-          "inicio": 0.174,
+          "inicio": 0.175,
           "fin": 0.3,
-          "linea": 20
+          "linea": 24
         },
         {
           "texto": "feel",
           "inicio": 0.312,
           "fin": 0.537,
-          "linea": 20
+          "linea": 24
         },
         {
           "texto": "guilty",
           "inicio": 0.55,
-          "fin": 0.912,
-          "linea": 20
+          "fin": 0.913,
+          "linea": 24
         },
         {
           "texto": "for",
-          "inicio": 0.924,
+          "inicio": 0.925,
           "fin": 1.075,
-          "linea": 20
+          "linea": 24
         },
         {
           "texto": "having",
           "inicio": 1.087,
-          "fin": 1.399,
-          "linea": 20
+          "fin": 1.4,
+          "linea": 24
         },
         {
-          "texto": "limits",
-          "inicio": 1.412,
-          "fin": 1.937,
-          "linea": 20
+          "texto": "limits —",
+          "inicio": 1.413,
+          "fin": 1.938,
+          "linea": 24
         },
         {
           "texto": "that's",
           "inicio": 2.087,
-          "fin": 2.349,
-          "linea": 20
+          "fin": 2.35,
+          "linea": 24
         },
         {
           "texto": "the",
-          "inicio": 2.362,
+          "inicio": 2.363,
           "fin": 2.45,
-          "linea": 20
+          "linea": 24
         },
         {
           "texto": "tactic",
-          "inicio": 2.462,
-          "fin": 2.874,
-          "linea": 20
+          "inicio": 2.463,
+          "fin": 2.875,
+          "linea": 24
         },
         {
           "texto": "working.",
           "inicio": 2.887,
-          "fin": 3.412,
-          "linea": 20
+          "fin": 3.413,
+          "linea": 24
         }
       ],
       "destacada": 9,
       "sonidos": [
         {
-          "archivo": "assets/sonido/revelacion.mp3",
-          "en": 2.462
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 2.463,
+          "volumen": 0.3
         }
       ],
       "impacto": false,
-      "contador": "4/5"
+      "contador": "4/5",
+      "overlay": null
     },
     {
-      "id": "l21",
+      "id": "l25",
       "tipo": "linea",
       "bloque": null,
-      "escena": 11,
-      "inicio": 74.412,
+      "escena": 5,
+      "inicio": 92.0,
+      "duracion": 3.75,
+      "audio": null,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-9.jpg",
+      "palabras": [
+        {
+          "texto": "Guilt",
+          "inicio": 0.0,
+          "fin": 0.287,
+          "linea": 25
+        },
+        {
+          "texto": "is",
+          "inicio": 0.3,
+          "fin": 0.412,
+          "linea": 25
+        },
+        {
+          "texto": "not",
+          "inicio": 0.425,
+          "fin": 0.662,
+          "linea": 25
+        },
+        {
+          "texto": "love.",
+          "inicio": 0.675,
+          "fin": 1.112,
+          "linea": 25
+        },
+        {
+          "texto": "It's",
+          "inicio": 1.975,
+          "fin": 2.188,
+          "linea": 25
+        },
+        {
+          "texto": "leverage.",
+          "inicio": 2.2,
+          "fin": 2.888,
+          "linea": 25
+        }
+      ],
+      "destacada": 5,
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/revelacion.mp3",
+          "en": 2.2
+        }
+      ],
+      "impacto": false,
+      "contador": "4/5",
+      "overlay": null
+    },
+    {
+      "id": "l26",
+      "tipo": "linea",
+      "bloque": null,
+      "escena": 6,
+      "inicio": 95.75,
       "duracion": 3.125,
       "audio": null,
       "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-11.jpg",
@@ -1340,32 +1717,32 @@
         {
           "texto": "Number",
           "inicio": 0.0,
-          "fin": 0.363,
-          "linea": 21
+          "fin": 0.362,
+          "linea": 26
         },
         {
           "texto": "five:",
           "inicio": 0.375,
-          "fin": 0.863,
-          "linea": 21
+          "fin": 0.862,
+          "linea": 26
         },
         {
           "texto": "moving",
-          "inicio": 1.026,
-          "fin": 1.301,
-          "linea": 21
+          "inicio": 1.025,
+          "fin": 1.3,
+          "linea": 26
         },
         {
           "texto": "the",
-          "inicio": 1.313,
+          "inicio": 1.312,
           "fin": 1.4,
-          "linea": 21
+          "linea": 26
         },
         {
           "texto": "goalposts.",
-          "inicio": 1.413,
-          "fin": 2.263,
-          "linea": 21
+          "inicio": 1.412,
+          "fin": 2.262,
+          "linea": 26
         }
       ],
       "destacada": 4,
@@ -1376,82 +1753,83 @@
         },
         {
           "archivo": "assets/sonido/bloque.mp3",
-          "en": 1.413,
+          "en": 1.412,
           "volumen": 0.3
         }
       ],
       "impacto": true,
-      "contador": "5/5"
+      "contador": "5/5",
+      "overlay": null
     },
     {
-      "id": "l22",
+      "id": "l27",
       "tipo": "linea",
       "bloque": null,
-      "escena": 11,
-      "inicio": 77.537,
-      "duracion": 5.113,
+      "escena": 6,
+      "inicio": 98.875,
+      "duracion": 5.112,
       "audio": null,
-      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-11.jpg",
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-12.jpg",
       "palabras": [
         {
           "texto": "You",
           "inicio": 0.0,
-          "fin": 0.188,
-          "linea": 22
+          "fin": 0.187,
+          "linea": 27
         },
         {
           "texto": "finally",
           "inicio": 0.2,
-          "fin": 0.651,
-          "linea": 22
+          "fin": 0.65,
+          "linea": 27
         },
         {
           "texto": "do",
-          "inicio": 0.663,
+          "inicio": 0.662,
           "fin": 0.813,
-          "linea": 22
+          "linea": 27
         },
         {
           "texto": "what",
           "inicio": 0.825,
-          "fin": 0.976,
-          "linea": 22
+          "fin": 0.975,
+          "linea": 27
         },
         {
           "texto": "they",
-          "inicio": 0.988,
-          "fin": 1.113,
-          "linea": 22
+          "inicio": 0.987,
+          "fin": 1.112,
+          "linea": 27
         },
         {
           "texto": "asked.",
           "inicio": 1.125,
           "fin": 1.713,
-          "linea": 22
+          "linea": 27
         },
         {
           "texto": "Suddenly,",
           "inicio": 2.575,
           "fin": 3.213,
-          "linea": 22
+          "linea": 27
         },
         {
           "texto": "it's",
           "inicio": 3.325,
           "fin": 3.463,
-          "linea": 22
+          "linea": 27
         },
         {
           "texto": "not",
-          "inicio": 3.476,
-          "fin": 3.688,
-          "linea": 22
+          "inicio": 3.475,
+          "fin": 3.687,
+          "linea": 27
         },
         {
           "texto": "enough.",
           "inicio": 3.7,
           "fin": 4.25,
-          "linea": 22
+          "linea": 27
         }
       ],
       "destacada": 9,
@@ -1463,160 +1841,264 @@
         }
       ],
       "impacto": false,
-      "contador": "5/5"
+      "contador": "5/5",
+      "overlay": null
     },
     {
-      "id": "l23",
+      "id": "l28",
       "tipo": "linea",
       "bloque": null,
-      "escena": 12,
-      "inicio": 82.65,
-      "duracion": 3.462,
+      "escena": 6,
+      "inicio": 103.987,
+      "duracion": 3.463,
       "audio": null,
-      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-12.jpg",
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-11.jpg",
       "palabras": [
         {
           "texto": "The",
           "inicio": 0.0,
           "fin": 0.138,
-          "linea": 23
+          "linea": 28
         },
         {
           "texto": "target",
-          "inicio": 0.15,
+          "inicio": 0.151,
           "fin": 0.538,
-          "linea": 23
+          "linea": 28
         },
         {
           "texto": "keeps",
           "inicio": 0.55,
           "fin": 0.825,
-          "linea": 23
+          "linea": 28
         },
         {
-          "texto": "moving",
-          "inicio": 0.837,
+          "texto": "moving —",
+          "inicio": 0.838,
           "fin": 1.288,
-          "linea": 23
+          "linea": 28
         },
         {
           "texto": "so",
-          "inicio": 1.45,
-          "fin": 1.6,
-          "linea": 23
+          "inicio": 1.451,
+          "fin": 1.601,
+          "linea": 28
         },
         {
           "texto": "you",
           "inicio": 1.613,
           "fin": 1.75,
-          "linea": 23
+          "linea": 28
         },
         {
           "texto": "can",
-          "inicio": 1.762,
+          "inicio": 1.763,
           "fin": 1.925,
-          "linea": 23
+          "linea": 28
         },
         {
           "texto": "never",
           "inicio": 1.938,
-          "fin": 2.2,
-          "linea": 23
+          "fin": 2.201,
+          "linea": 28
         },
         {
           "texto": "win.",
-          "inicio": 2.212,
-          "fin": 2.6,
-          "linea": 23
+          "inicio": 2.213,
+          "fin": 2.601,
+          "linea": 28
         }
       ],
       "destacada": 3,
       "sonidos": [
         {
           "archivo": "assets/sonido/bloque.mp3",
-          "en": 0.837,
+          "en": 0.838,
           "volumen": 0.3
         }
       ],
       "impacto": false,
-      "contador": "5/5"
+      "contador": "5/5",
+      "overlay": null
     },
     {
-      "id": "l24",
+      "id": "l29",
       "tipo": "linea",
       "bloque": null,
-      "escena": 12,
-      "inicio": 86.112,
+      "escena": 6,
+      "inicio": 107.45,
       "duracion": 4.063,
       "audio": null,
-      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-12.jpg",
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-11.jpg",
       "palabras": [
         {
           "texto": "That's",
           "inicio": 0.0,
           "fin": 0.313,
-          "linea": 24
+          "linea": 29
         },
         {
           "texto": "the",
-          "inicio": 0.326,
+          "inicio": 0.325,
           "fin": 0.425,
-          "linea": 24
+          "linea": 29
         },
         {
           "texto": "point.",
           "inicio": 0.438,
           "fin": 1.0,
-          "linea": 24
+          "linea": 29
         },
         {
           "texto": "You're",
-          "inicio": 1.863,
+          "inicio": 1.862,
           "fin": 2.05,
-          "linea": 24
+          "linea": 29
         },
         {
           "texto": "not",
           "inicio": 2.063,
-          "fin": 2.276,
-          "linea": 24
+          "fin": 2.275,
+          "linea": 29
         },
         {
           "texto": "supposed",
-          "inicio": 2.288,
-          "fin": 2.676,
-          "linea": 24
+          "inicio": 2.287,
+          "fin": 2.675,
+          "linea": 29
         },
         {
           "texto": "to",
           "inicio": 2.688,
-          "fin": 2.776,
-          "linea": 24
+          "fin": 2.775,
+          "linea": 29
         },
         {
           "texto": "win.",
-          "inicio": 2.788,
+          "inicio": 2.787,
           "fin": 3.2,
-          "linea": 24
+          "linea": 29
         }
       ],
       "destacada": 7,
       "sonidos": [
         {
           "archivo": "assets/sonido/bloque.mp3",
-          "en": 2.788,
+          "en": 2.787,
           "volumen": 0.3
         }
       ],
       "impacto": false,
-      "contador": "5/5"
+      "contador": "5/5",
+      "overlay": null
     },
     {
-      "id": "l25",
+      "id": "l30",
       "tipo": "linea",
       "bloque": null,
-      "escena": 13,
-      "inicio": 90.175,
+      "escena": 6,
+      "inicio": 111.513,
+      "duracion": 3.487,
+      "audio": null,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-11.jpg",
+      "palabras": [
+        {
+          "texto": "There",
+          "inicio": 0.0,
+          "fin": 0.187,
+          "linea": 30
+        },
+        {
+          "texto": "is",
+          "inicio": 0.2,
+          "fin": 0.325,
+          "linea": 30
+        },
+        {
+          "texto": "no",
+          "inicio": 0.337,
+          "fin": 0.499,
+          "linea": 30
+        },
+        {
+          "texto": "version",
+          "inicio": 0.512,
+          "fin": 0.875,
+          "linea": 30
+        },
+        {
+          "texto": "of",
+          "inicio": 0.887,
+          "fin": 0.975,
+          "linea": 30
+        },
+        {
+          "texto": "you",
+          "inicio": 0.987,
+          "fin": 1.149,
+          "linea": 30
+        },
+        {
+          "texto": "that",
+          "inicio": 1.162,
+          "fin": 1.312,
+          "linea": 30
+        },
+        {
+          "texto": "would",
+          "inicio": 1.325,
+          "fin": 1.487,
+          "linea": 30
+        },
+        {
+          "texto": "ever",
+          "inicio": 1.5,
+          "fin": 1.7,
+          "linea": 30
+        },
+        {
+          "texto": "be",
+          "inicio": 1.712,
+          "fin": 1.849,
+          "linea": 30
+        },
+        {
+          "texto": "enough",
+          "inicio": 1.862,
+          "fin": 2.112,
+          "linea": 30
+        },
+        {
+          "texto": "for",
+          "inicio": 2.125,
+          "fin": 2.275,
+          "linea": 30
+        },
+        {
+          "texto": "them.",
+          "inicio": 2.287,
+          "fin": 2.625,
+          "linea": 30
+        }
+      ],
+      "destacada": 10,
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 1.862,
+          "volumen": 0.3
+        }
+      ],
+      "impacto": false,
+      "contador": "5/5",
+      "overlay": null
+    },
+    {
+      "id": "l31",
+      "tipo": "linea",
+      "bloque": null,
+      "escena": 7,
+      "inicio": 115.0,
       "duracion": 1.225,
       "audio": null,
       "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-13.jpg",
@@ -1625,31 +2107,31 @@
           "texto": "Once",
           "inicio": 0.0,
           "fin": 0.3,
-          "linea": 25
+          "linea": 31
         },
         {
           "texto": "you",
           "inicio": 0.312,
           "fin": 0.4,
-          "linea": 25
+          "linea": 31
         },
         {
           "texto": "can",
-          "inicio": 0.413,
-          "fin": 0.588,
-          "linea": 25
+          "inicio": 0.412,
+          "fin": 0.587,
+          "linea": 31
         },
         {
           "texto": "name",
           "inicio": 0.6,
           "fin": 0.825,
-          "linea": 25
+          "linea": 31
         },
         {
           "texto": "it...",
           "inicio": 0.838,
           "fin": 1.025,
-          "linea": 25
+          "linea": 31
         }
       ],
       "destacada": 3,
@@ -1665,14 +2147,15 @@
         }
       ],
       "impacto": false,
-      "contador": null
+      "contador": null,
+      "overlay": null
     },
     {
-      "id": "l26",
+      "id": "l32",
       "tipo": "linea",
       "bloque": null,
-      "escena": 13,
-      "inicio": 91.4,
+      "escena": 7,
+      "inicio": 116.225,
       "duracion": 2.4,
       "audio": null,
       "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-13.jpg",
@@ -1681,37 +2164,37 @@
           "texto": "...it",
           "inicio": 0.0,
           "fin": 0.1,
-          "linea": 26
+          "linea": 32
         },
         {
           "texto": "loses",
           "inicio": 0.113,
           "fin": 0.438,
-          "linea": 26
+          "linea": 32
         },
         {
           "texto": "its",
           "inicio": 0.45,
           "fin": 0.6,
-          "linea": 26
+          "linea": 32
         },
         {
           "texto": "power",
           "inicio": 0.613,
           "fin": 0.975,
-          "linea": 26
+          "linea": 32
         },
         {
           "texto": "over",
           "inicio": 0.988,
-          "fin": 1.212,
-          "linea": 26
+          "fin": 1.213,
+          "linea": 32
         },
         {
           "texto": "you.",
           "inicio": 1.225,
           "fin": 1.538,
-          "linea": 26
+          "linea": 32
         }
       ],
       "destacada": 3,
@@ -1723,14 +2206,15 @@
         }
       ],
       "impacto": false,
-      "contador": null
+      "contador": null,
+      "overlay": null
     },
     {
-      "id": "l27",
+      "id": "l33",
       "tipo": "linea",
       "bloque": null,
-      "escena": 14,
-      "inicio": 93.8,
+      "escena": 7,
+      "inicio": 118.625,
       "duracion": 3.6,
       "audio": null,
       "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-14.jpg",
@@ -1739,150 +2223,148 @@
           "texto": "This",
           "inicio": 0.0,
           "fin": 0.25,
-          "linea": 27
+          "linea": 33
         },
         {
           "texto": "isn't",
-          "inicio": 0.262,
+          "inicio": 0.263,
           "fin": 0.538,
-          "linea": 27
+          "linea": 33
         },
         {
           "texto": "love.",
           "inicio": 0.55,
           "fin": 0.975,
-          "linea": 27
+          "linea": 33
         },
         {
           "texto": "It's",
           "inicio": 1.838,
           "fin": 2.025,
-          "linea": 27
+          "linea": 33
         },
         {
           "texto": "a",
-          "inicio": 2.038,
+          "inicio": 2.037,
           "fin": 2.1,
-          "linea": 27
+          "linea": 33
         },
         {
           "texto": "playbook.",
           "inicio": 2.112,
           "fin": 2.737,
-          "linea": 27
+          "linea": 33
         }
       ],
       "destacada": 5,
       "sonidos": [
-        {
-          "archivo": "assets/sonido/transicion.mp3",
-          "en": -0.25
-        },
         {
           "archivo": "assets/sonido/revelacion.mp3",
           "en": 2.112
         }
       ],
       "impacto": false,
-      "contador": null
+      "contador": null,
+      "overlay": null
     },
     {
-      "id": "l28",
+      "id": "l34",
       "tipo": "linea",
       "bloque": null,
-      "escena": 14,
-      "inicio": 97.4,
-      "duracion": 1.912,
+      "escena": 7,
+      "inicio": 122.225,
+      "duracion": 1.913,
       "audio": null,
-      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-14.jpg",
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-13.jpg",
       "palabras": [
         {
           "texto": "And",
           "inicio": 0.0,
           "fin": 0.175,
-          "linea": 28
+          "linea": 34
         },
         {
           "texto": "now",
-          "inicio": 0.188,
+          "inicio": 0.187,
           "fin": 0.35,
-          "linea": 28
+          "linea": 34
         },
         {
           "texto": "you've",
           "inicio": 0.363,
           "fin": 0.55,
-          "linea": 28
+          "linea": 34
         },
         {
           "texto": "read",
-          "inicio": 0.563,
+          "inicio": 0.562,
           "fin": 0.75,
-          "linea": 28
+          "linea": 34
         },
         {
           "texto": "it.",
           "inicio": 0.762,
           "fin": 1.05,
-          "linea": 28
+          "linea": 34
         }
       ],
       "destacada": 3,
       "sonidos": [
         {
           "archivo": "assets/sonido/bloque.mp3",
-          "en": 0.563,
+          "en": 0.562,
           "volumen": 0.3
         }
       ],
       "impacto": false,
-      "contador": null
+      "contador": null,
+      "overlay": null
     },
     {
-      "id": "l29",
+      "id": "l35",
       "tipo": "linea",
       "bloque": null,
-      "escena": 14,
-      "inicio": 99.312,
-      "duracion": 2.663,
+      "escena": 7,
+      "inicio": 124.138,
+      "duracion": 2.662,
       "audio": null,
-      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-14.jpg",
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-13.jpg",
       "palabras": [
         {
           "texto": "Comment",
           "inicio": 0.0,
-          "fin": 0.401,
-          "linea": 29
+          "fin": 0.4,
+          "linea": 35
         },
         {
           "texto": "the",
-          "inicio": 0.413,
-          "fin": 0.488,
-          "linea": 29
+          "inicio": 0.412,
+          "fin": 0.487,
+          "linea": 35
         },
         {
           "texto": "NUMBER",
           "inicio": 0.5,
           "fin": 0.8,
-          "linea": 29
+          "linea": 35
         },
         {
           "texto": "that",
-          "inicio": 0.813,
-          "fin": 0.963,
-          "linea": 29
+          "inicio": 0.812,
+          "fin": 0.962,
+          "linea": 35
         },
         {
           "texto": "hit",
-          "inicio": 0.975,
-          "fin": 1.138,
-          "linea": 29
+          "inicio": 0.974,
+          "fin": 1.137,
+          "linea": 35
         },
         {
           "texto": "hardest.",
-          "inicio": 1.151,
-          "fin": 1.801,
-          "linea": 29
+          "inicio": 1.149,
+          "fin": 1.8,
+          "linea": 35
         }
       ],
       "destacada": 2,
@@ -1894,93 +2376,630 @@
         }
       ],
       "impacto": false,
-      "contador": null
+      "contador": null,
+      "overlay": null
     },
     {
-      "id": "l30",
+      "id": "l36",
       "tipo": "linea",
       "bloque": null,
-      "escena": 14,
-      "inicio": 101.975,
-      "duracion": 3.775,
+      "escena": 7,
+      "inicio": 126.8,
+      "duracion": 2.987,
       "audio": null,
-      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-14.jpg",
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-13.jpg",
+      "palabras": [
+        {
+          "texto": "Send",
+          "inicio": 0.0,
+          "fin": 0.312,
+          "linea": 36
+        },
+        {
+          "texto": "this",
+          "inicio": 0.325,
+          "fin": 0.487,
+          "linea": 36
+        },
+        {
+          "texto": "to",
+          "inicio": 0.5,
+          "fin": 0.6,
+          "linea": 36
+        },
+        {
+          "texto": "someone",
+          "inicio": 0.612,
+          "fin": 0.95,
+          "linea": 36
+        },
+        {
+          "texto": "stuck",
+          "inicio": 0.963,
+          "fin": 1.262,
+          "linea": 36
+        },
+        {
+          "texto": "in",
+          "inicio": 1.275,
+          "fin": 1.375,
+          "linea": 36
+        },
+        {
+          "texto": "one",
+          "inicio": 1.388,
+          "fin": 1.538,
+          "linea": 36
+        },
+        {
+          "texto": "of",
+          "inicio": 1.55,
+          "fin": 1.625,
+          "linea": 36
+        },
+        {
+          "texto": "these.",
+          "inicio": 1.638,
+          "fin": 2.125,
+          "linea": 36
+        }
+      ],
+      "destacada": 0,
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 0.0,
+          "volumen": 0.3
+        }
+      ],
+      "impacto": false,
+      "contador": null,
+      "overlay": null
+    },
+    {
+      "id": "l37",
+      "tipo": "linea",
+      "bloque": null,
+      "escena": 7,
+      "inicio": 129.787,
+      "duracion": 4.238,
+      "audio": null,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-13.jpg",
       "palabras": [
         {
           "texto": "And",
           "inicio": 0.0,
-          "fin": 0.187,
-          "linea": 30
+          "fin": 0.176,
+          "linea": 37
         },
         {
-          "texto": "send",
-          "inicio": 0.2,
-          "fin": 0.437,
-          "linea": 30
+          "texto": "follow",
+          "inicio": 0.188,
+          "fin": 0.551,
+          "linea": 37
         },
         {
-          "texto": "this",
-          "inicio": 0.45,
-          "fin": 0.612,
-          "linea": 30
+          "texto": "for",
+          "inicio": 0.563,
+          "fin": 0.7,
+          "linea": 37
         },
         {
-          "texto": "to",
-          "inicio": 0.625,
-          "fin": 0.725,
-          "linea": 30
+          "texto": "the",
+          "inicio": 0.713,
+          "fin": 0.801,
+          "linea": 37
         },
         {
-          "texto": "someone",
-          "inicio": 0.738,
-          "fin": 1.087,
-          "linea": 30
+          "texto": "next",
+          "inicio": 0.813,
+          "fin": 1.163,
+          "linea": 37
         },
         {
-          "texto": "stuck",
-          "inicio": 1.1,
-          "fin": 1.387,
-          "linea": 30
+          "texto": "5 —",
+          "inicio": 1.176,
+          "fin": 1.613,
+          "linea": 37
         },
         {
-          "texto": "in",
-          "inicio": 1.4,
-          "fin": 1.5,
-          "linea": 30
+          "texto": "because",
+          "inicio": 1.738,
+          "fin": 2.063,
+          "linea": 37
         },
         {
-          "texto": "one",
-          "inicio": 1.512,
-          "fin": 1.675,
-          "linea": 30
+          "texto": "there's",
+          "inicio": 2.076,
+          "fin": 2.288,
+          "linea": 37
         },
         {
-          "texto": "of",
-          "inicio": 1.687,
-          "fin": 1.762,
-          "linea": 30
-        },
-        {
-          "texto": "these.",
-          "inicio": 1.775,
-          "fin": 2.275,
-          "linea": 30
+          "texto": "more.",
+          "inicio": 2.301,
+          "fin": 2.738,
+          "linea": 37
         }
       ],
       "destacada": 1,
       "sonidos": [
         {
           "archivo": "assets/sonido/bloque.mp3",
-          "en": 0.2,
+          "en": 0.188,
           "volumen": 0.3
         },
         {
           "archivo": "assets/sonido/cierre.mp3",
-          "en": 2.275
+          "en": 2.738
         }
       ],
       "impacto": false,
-      "contador": null
+      "contador": null,
+      "overlay": "follow"
+    }
+  ],
+  "tramos": [
+    {
+      "desde": 0.0,
+      "hasta": 2.163,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-2.jpg",
+      "escena": 1,
+      "whoosh": false
+    },
+    {
+      "desde": 2.163,
+      "hasta": 4.037,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-2.jpg",
+      "escena": 1,
+      "whoosh": false
+    },
+    {
+      "desde": 4.037,
+      "hasta": 6.075,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-2.jpg",
+      "escena": 1,
+      "whoosh": false
+    },
+    {
+      "desde": 6.075,
+      "hasta": 8.375,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-2.jpg",
+      "escena": 1,
+      "whoosh": false
+    },
+    {
+      "desde": 8.375,
+      "hasta": 10.3,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-2.jpg",
+      "escena": 1,
+      "whoosh": false
+    },
+    {
+      "desde": 10.3,
+      "hasta": 12.463,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-2.jpg",
+      "escena": 1,
+      "whoosh": false
+    },
+    {
+      "desde": 12.463,
+      "hasta": 14.662,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-2.jpg",
+      "escena": 1,
+      "whoosh": false
+    },
+    {
+      "desde": 14.662,
+      "hasta": 16.925,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-2.jpg",
+      "escena": 1,
+      "whoosh": false
+    },
+    {
+      "desde": 16.925,
+      "hasta": 18.7,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-2.jpg",
+      "escena": 1,
+      "whoosh": false
+    },
+    {
+      "desde": 18.7,
+      "hasta": 21.137,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-2.jpg",
+      "escena": 1,
+      "whoosh": false
+    },
+    {
+      "desde": 21.137,
+      "hasta": 23.575,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-2.jpg",
+      "escena": 1,
+      "whoosh": false
+    },
+    {
+      "desde": 23.575,
+      "hasta": 25.113,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-2.jpg",
+      "escena": 1,
+      "whoosh": false
+    },
+    {
+      "desde": 25.113,
+      "hasta": 27.65,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-3.jpg",
+      "escena": 2,
+      "whoosh": true
+    },
+    {
+      "desde": 27.65,
+      "hasta": 28.775,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-4.jpg",
+      "escena": 2,
+      "whoosh": false
+    },
+    {
+      "desde": 28.775,
+      "hasta": 30.6,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-3.jpg",
+      "escena": 2,
+      "whoosh": false
+    },
+    {
+      "desde": 30.6,
+      "hasta": 32.525,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-3.jpg",
+      "escena": 2,
+      "whoosh": false
+    },
+    {
+      "desde": 32.525,
+      "hasta": 35.001,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-3.jpg",
+      "escena": 2,
+      "whoosh": false
+    },
+    {
+      "desde": 35.001,
+      "hasta": 36.978,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-3.jpg",
+      "escena": 2,
+      "whoosh": false
+    },
+    {
+      "desde": 36.978,
+      "hasta": 38.956,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-3.jpg",
+      "escena": 2,
+      "whoosh": false
+    },
+    {
+      "desde": 38.956,
+      "hasta": 41.513,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-3.jpg",
+      "escena": 2,
+      "whoosh": false
+    },
+    {
+      "desde": 41.513,
+      "hasta": 42.95,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-3.jpg",
+      "escena": 2,
+      "whoosh": false
+    },
+    {
+      "desde": 42.95,
+      "hasta": 44.888,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-3.jpg",
+      "escena": 2,
+      "whoosh": false
+    },
+    {
+      "desde": 44.888,
+      "hasta": 47.413,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-5.jpg",
+      "escena": 3,
+      "whoosh": true
+    },
+    {
+      "desde": 47.413,
+      "hasta": 48.462,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-6.jpg",
+      "escena": 3,
+      "whoosh": false
+    },
+    {
+      "desde": 48.462,
+      "hasta": 51.25,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-5.jpg",
+      "escena": 3,
+      "whoosh": false
+    },
+    {
+      "desde": 51.25,
+      "hasta": 53.625,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-5.jpg",
+      "escena": 3,
+      "whoosh": false
+    },
+    {
+      "desde": 53.625,
+      "hasta": 55.538,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-5.jpg",
+      "escena": 3,
+      "whoosh": false
+    },
+    {
+      "desde": 55.538,
+      "hasta": 57.175,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-5.jpg",
+      "escena": 3,
+      "whoosh": false
+    },
+    {
+      "desde": 57.175,
+      "hasta": 59.237,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-5.jpg",
+      "escena": 3,
+      "whoosh": false
+    },
+    {
+      "desde": 59.237,
+      "hasta": 61.3,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-5.jpg",
+      "escena": 3,
+      "whoosh": false
+    },
+    {
+      "desde": 61.3,
+      "hasta": 63.288,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-5.jpg",
+      "escena": 3,
+      "whoosh": false
+    },
+    {
+      "desde": 63.288,
+      "hasta": 64.812,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-7.jpg",
+      "escena": 4,
+      "whoosh": true
+    },
+    {
+      "desde": 64.812,
+      "hasta": 66.625,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-8.jpg",
+      "escena": 4,
+      "whoosh": false
+    },
+    {
+      "desde": 66.625,
+      "hasta": 68.988,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-7.jpg",
+      "escena": 4,
+      "whoosh": false
+    },
+    {
+      "desde": 68.988,
+      "hasta": 70.638,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-7.jpg",
+      "escena": 4,
+      "whoosh": false
+    },
+    {
+      "desde": 70.638,
+      "hasta": 72.725,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-7.jpg",
+      "escena": 4,
+      "whoosh": false
+    },
+    {
+      "desde": 72.725,
+      "hasta": 74.963,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-7.jpg",
+      "escena": 4,
+      "whoosh": false
+    },
+    {
+      "desde": 74.963,
+      "hasta": 76.588,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-7.jpg",
+      "escena": 4,
+      "whoosh": false
+    },
+    {
+      "desde": 76.588,
+      "hasta": 80.037,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-7.jpg",
+      "escena": 4,
+      "whoosh": false
+    },
+    {
+      "desde": 80.037,
+      "hasta": 82.001,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-9.jpg",
+      "escena": 5,
+      "whoosh": true
+    },
+    {
+      "desde": 82.001,
+      "hasta": 83.888,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-10.jpg",
+      "escena": 5,
+      "whoosh": false
+    },
+    {
+      "desde": 83.888,
+      "hasta": 86.0,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-9.jpg",
+      "escena": 5,
+      "whoosh": false
+    },
+    {
+      "desde": 86.0,
+      "hasta": 87.9,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-9.jpg",
+      "escena": 5,
+      "whoosh": false
+    },
+    {
+      "desde": 87.9,
+      "hasta": 89.812,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-9.jpg",
+      "escena": 5,
+      "whoosh": false
+    },
+    {
+      "desde": 89.812,
+      "hasta": 92.0,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-9.jpg",
+      "escena": 5,
+      "whoosh": false
+    },
+    {
+      "desde": 92.0,
+      "hasta": 93.975,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-9.jpg",
+      "escena": 5,
+      "whoosh": false
+    },
+    {
+      "desde": 93.975,
+      "hasta": 95.75,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-9.jpg",
+      "escena": 5,
+      "whoosh": false
+    },
+    {
+      "desde": 95.75,
+      "hasta": 97.162,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-11.jpg",
+      "escena": 6,
+      "whoosh": true
+    },
+    {
+      "desde": 97.162,
+      "hasta": 99.537,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-12.jpg",
+      "escena": 6,
+      "whoosh": false
+    },
+    {
+      "desde": 99.537,
+      "hasta": 101.45,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-11.jpg",
+      "escena": 6,
+      "whoosh": false
+    },
+    {
+      "desde": 101.45,
+      "hasta": 103.987,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-11.jpg",
+      "escena": 6,
+      "whoosh": false
+    },
+    {
+      "desde": 103.987,
+      "hasta": 105.438,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-11.jpg",
+      "escena": 6,
+      "whoosh": false
+    },
+    {
+      "desde": 105.438,
+      "hasta": 107.45,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-11.jpg",
+      "escena": 6,
+      "whoosh": false
+    },
+    {
+      "desde": 107.45,
+      "hasta": 109.312,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-11.jpg",
+      "escena": 6,
+      "whoosh": false
+    },
+    {
+      "desde": 109.312,
+      "hasta": 111.513,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-11.jpg",
+      "escena": 6,
+      "whoosh": false
+    },
+    {
+      "desde": 111.513,
+      "hasta": 113.013,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-11.jpg",
+      "escena": 6,
+      "whoosh": false
+    },
+    {
+      "desde": 113.013,
+      "hasta": 115.0,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-11.jpg",
+      "escena": 6,
+      "whoosh": false
+    },
+    {
+      "desde": 115.0,
+      "hasta": 117.213,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-13.jpg",
+      "escena": 7,
+      "whoosh": true
+    },
+    {
+      "desde": 117.213,
+      "hasta": 119.175,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-14.jpg",
+      "escena": 7,
+      "whoosh": false
+    },
+    {
+      "desde": 119.175,
+      "hasta": 121.342,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-13.jpg",
+      "escena": 7,
+      "whoosh": false
+    },
+    {
+      "desde": 121.342,
+      "hasta": 122.987,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-13.jpg",
+      "escena": 7,
+      "whoosh": false
+    },
+    {
+      "desde": 122.987,
+      "hasta": 125.287,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-13.jpg",
+      "escena": 7,
+      "whoosh": false
+    },
+    {
+      "desde": 125.287,
+      "hasta": 127.763,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-13.jpg",
+      "escena": 7,
+      "whoosh": false
+    },
+    {
+      "desde": 127.763,
+      "hasta": 129.787,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-13.jpg",
+      "escena": 7,
+      "whoosh": false
+    },
+    {
+      "desde": 129.787,
+      "hasta": 131.863,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-13.jpg",
+      "escena": 7,
+      "whoosh": false
+    },
+    {
+      "desde": 131.863,
+      "hasta": 134.025,
+      "imagen": "content/2026-XX-XX-5-manipulation-tactics/imagenes/escena-13.jpg",
+      "escena": 7,
+      "whoosh": false
     }
   ]
 }
