@@ -38,6 +38,7 @@ VARIANTES = {
     "calida": VARIANTE_POR_TIPO["pago"],    # Pago: cálido y abierto
 }
 COLA_FINAL = 1.5      # segundos después de la última palabra para el sting
+VOLUMEN_CLICK = 0.3   # click suave en cada palabra resaltada (sin ding)
 ADELANTO_WHOOSH = 0.25  # el whoosh arranca un poco antes del corte de escena
 MAX_SEGUNDOS = 60     # RULES.md, sección Shorts
 
@@ -184,8 +185,12 @@ async def main_async(args):
         sonidos = []
         if linea["escena"] != escena_anterior and escena_de[linea["escena"]]["whoosh"]:
             sonidos.append({"archivo": SONIDOS["whoosh"], "en": -ADELANTO_WHOOSH})
-        if linea["ding"] and destacada is not None:
-            sonidos.append({"archivo": SONIDOS["ding"], "en": propias[destacada]["inicio"]})
+        if destacada is not None:
+            if linea["ding"]:
+                sonidos.append({"archivo": SONIDOS["ding"], "en": propias[destacada]["inicio"]})
+            else:
+                sonidos.append({"archivo": SONIDOS["click"], "en": propias[destacada]["inicio"],
+                                "volumen": VOLUMEN_CLICK})
         if n == len(lineas) - 1:
             sonidos.append({"archivo": SONIDOS["sting"], "en": round(fin_narracion - inicio, 3)})
         segmentos.append({

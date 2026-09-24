@@ -181,8 +181,8 @@ export const Video: React.FC<Props> = ({ timeline }) => {
 
       {segmentos.flatMap((s) =>
         s.sonidos.map((sonido) => (
-          <Sequence key={`${s.id}-${sonido.archivo}`} from={f(s.inicio + sonido.en)} name={`sonido ${sonido.archivo.split("/").pop()}`}>
-            <Audio src={staticFile(sonido.archivo)} volume={VOLUMEN_SONIDOS} />
+          <Sequence key={`${s.id}-${sonido.archivo}-${sonido.en}`} from={f(s.inicio + sonido.en)} name={`sonido ${sonido.archivo.split("/").pop()}`}>
+            <Audio src={staticFile(sonido.archivo)} volume={sonido.volumen ?? VOLUMEN_SONIDOS} />
           </Sequence>
         )),
       )}

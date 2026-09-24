@@ -3,7 +3,7 @@
 
 export type Palabra = { texto: string; inicio: number; fin: number };
 
-export type Sonido = { archivo: string; en: number };
+export type Sonido = { archivo: string; en: number; volumen?: number };
 
 export type Segmento = {
   id: string;

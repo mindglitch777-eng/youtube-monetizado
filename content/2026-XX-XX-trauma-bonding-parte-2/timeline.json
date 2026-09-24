@@ -55,7 +55,13 @@
         }
       ],
       "destacada": 3,
-      "sonidos": []
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 0.787,
+          "volumen": 0.3
+        }
+      ]
     },
     {
       "id": "l02",
@@ -99,7 +105,13 @@
         }
       ],
       "destacada": 4,
-      "sonidos": []
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 0.95,
+          "volumen": 0.3
+        }
+      ]
     },
     {
       "id": "l03",
@@ -131,7 +143,13 @@
         }
       ],
       "destacada": 2,
-      "sonidos": []
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 0.8,
+          "volumen": 0.3
+        }
+      ]
     },
     {
       "id": "l04",
@@ -163,7 +181,13 @@
         }
       ],
       "destacada": 2,
-      "sonidos": []
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 0.725,
+          "volumen": 0.3
+        }
+      ]
     },
     {
       "id": "l05",
@@ -213,7 +237,13 @@
         }
       ],
       "destacada": 3,
-      "sonidos": []
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 0.538,
+          "volumen": 0.3
+        }
+      ]
     },
     {
       "id": "l06",
@@ -267,6 +297,11 @@
         {
           "archivo": "assets/sonido/transicion.mp3",
           "en": -0.25
+        },
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 1.437,
+          "volumen": 0.3
         }
       ]
     },
@@ -330,7 +365,13 @@
         }
       ],
       "destacada": 4,
-      "sonidos": []
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 0.799,
+          "volumen": 0.3
+        }
+      ]
     },
     {
       "id": "l08",
@@ -386,7 +427,13 @@
         }
       ],
       "destacada": 3,
-      "sonidos": []
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 0.701,
+          "volumen": 0.3
+        }
+      ]
     },
     {
       "id": "l09",
@@ -442,7 +489,13 @@
         }
       ],
       "destacada": 6,
-      "sonidos": []
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 1.3,
+          "volumen": 0.3
+        }
+      ]
     },
     {
       "id": "l10",
@@ -504,7 +557,17 @@
         }
       ],
       "destacada": 5,
-      "sonidos": []
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/transicion.mp3",
+          "en": -0.25
+        },
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 1.2,
+          "volumen": 0.3
+        }
+      ]
     },
     {
       "id": "l11",
@@ -530,7 +593,13 @@
         }
       ],
       "destacada": 1,
-      "sonidos": []
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 0.237,
+          "volumen": 0.3
+        }
+      ]
     },
     {
       "id": "l12",
@@ -562,7 +631,13 @@
         }
       ],
       "destacada": 2,
-      "sonidos": []
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 0.412,
+          "volumen": 0.3
+        }
+      ]
     },
     {
       "id": "l13",
@@ -600,7 +675,12 @@
         }
       ],
       "destacada": 3,
-      "sonidos": []
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/revelacion.mp3",
+          "en": 0.862
+        }
+      ]
     },
     {
       "id": "l14",
@@ -650,7 +730,13 @@
         }
       ],
       "destacada": 5,
-      "sonidos": []
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 0.95,
+          "volumen": 0.3
+        }
+      ]
     },
     {
       "id": "l15",
@@ -712,7 +798,13 @@
         }
       ],
       "destacada": 3,
-      "sonidos": []
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 0.75,
+          "volumen": 0.3
+        }
+      ]
     },
     {
       "id": "l16",
@@ -787,6 +879,11 @@
       ],
       "destacada": 1,
       "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 0.2,
+          "volumen": 0.3
+        },
         {
           "archivo": "assets/sonido/cierre.mp3",
           "en": 2.025

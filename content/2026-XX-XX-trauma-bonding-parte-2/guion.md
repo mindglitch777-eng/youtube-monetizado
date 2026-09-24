@@ -10,8 +10,10 @@ validar_guion.py). Lo procesa scripts/generar_short.py.
   El comentario "imagen:" es la descripción de la escena para Cloudflare y
   "variante:" la variante de color de PROMPTS.md (media = sin variante extra;
   fria = Cuerpo; calida = Pago).
-- "sonido: whoosh" al principio de una escena = whoosh en el corte.
-  "sonido: ding" en una línea = ding en su palabra en negrita.
+- "sonido: whoosh" al principio de una escena = whoosh en el corte (todas
+  las escenas menos la primera).
+  "sonido: ding" en una línea = ding en su palabra en negrita; en el resto
+  de las líneas suena un click suave cuando aparece la palabra en negrita.
   El sting de cierre se agrega solo al final.
 -->
 
@@ -38,11 +40,12 @@ And that strength is your way **out**.
 # Escena 7
 <!-- variante: calida -->
 <!-- imagen: A small figure walking toward a bright warm sunrise, a broken red thread left on the ground behind them, peaceful, free and relieved. -->
+<!-- sonido: whoosh -->
 
 Next time you can't stop **thinking** about them...
 ...say **this**:
 It's not **love**.
-It's your brain, **drugged**.
+It's your brain, **drugged**. <!-- sonido: ding -->
 And a drug can be **quit**.
 Comment 'THIS IS **REAL**' if you recognized yourself.
 And **send** it to someone who needs to hear it.

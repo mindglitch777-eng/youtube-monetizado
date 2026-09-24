@@ -10,8 +10,10 @@ validar_guion.py). Lo procesa scripts/generar_short.py.
   El comentario "imagen:" es la descripción de la escena para Cloudflare y
   "variante:" la variante de color de PROMPTS.md (media = sin variante extra;
   fria = Cuerpo; calida = Pago).
-- "sonido: whoosh" al principio de una escena = whoosh en el corte.
-  "sonido: ding" en una línea = ding en su palabra en negrita.
+- "sonido: whoosh" al principio de una escena = whoosh en el corte (todas
+  las escenas menos la primera).
+  "sonido: ding" en una línea = ding en su palabra en negrita; en el resto
+  de las líneas suena un click suave cuando aparece la palabra en negrita.
   El sting de cierre se agrega solo al final.
 -->
 
@@ -38,6 +40,7 @@ You're **hooked** — and you don't even know it.
 # Escena 3
 <!-- variante: fria -->
 <!-- imagen: Two simple figures tied together by a tight red thread, one trying to walk away, the thread pulling them back, sad and tense, empty background. -->
+<!-- sonido: whoosh -->
 
 And the **worse** they treated you...
 ...the **stronger** the pull.
@@ -48,6 +51,7 @@ It's called trauma **bonding**. <!-- sonido: ding -->
 # Escena 4
 <!-- variante: fria -->
 <!-- imagen: A small figure lying awake in bed at 3 AM holding a glowing phone, big dark empty room, deep loneliness, simple shapes. -->
+<!-- sonido: whoosh -->
 
 That's why you forgive the **unforgivable**.
 That's why you check their **profile** at 3 AM.

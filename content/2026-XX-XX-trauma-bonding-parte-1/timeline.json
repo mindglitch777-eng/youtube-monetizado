@@ -61,7 +61,13 @@
         }
       ],
       "destacada": 2,
-      "sonidos": []
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 0.425,
+          "volumen": 0.3
+        }
+      ]
     },
     {
       "id": "l02",
@@ -105,7 +111,13 @@
         }
       ],
       "destacada": 3,
-      "sonidos": []
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 0.487,
+          "volumen": 0.3
+        }
+      ]
     },
     {
       "id": "l03",
@@ -149,7 +161,13 @@
         }
       ],
       "destacada": 4,
-      "sonidos": []
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 1.163,
+          "volumen": 0.3
+        }
+      ]
     },
     {
       "id": "l04",
@@ -193,7 +211,13 @@
         }
       ],
       "destacada": 4,
-      "sonidos": []
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 2.05,
+          "volumen": 0.3
+        }
+      ]
     },
     {
       "id": "l05",
@@ -241,6 +265,11 @@
         {
           "archivo": "assets/sonido/transicion.mp3",
           "en": -0.25
+        },
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 1.838,
+          "volumen": 0.3
         }
       ]
     },
@@ -292,7 +321,13 @@
         }
       ],
       "destacada": 2,
-      "sonidos": []
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 0.475,
+          "volumen": 0.3
+        }
+      ]
     },
     {
       "id": "l07",
@@ -397,7 +432,13 @@
         }
       ],
       "destacada": 3,
-      "sonidos": []
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 2.2,
+          "volumen": 0.3
+        }
+      ]
     },
     {
       "id": "l09",
@@ -459,7 +500,13 @@
         }
       ],
       "destacada": 1,
-      "sonidos": []
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 0.213,
+          "volumen": 0.3
+        }
+      ]
     },
     {
       "id": "l10",
@@ -509,7 +556,17 @@
         }
       ],
       "destacada": 2,
-      "sonidos": []
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/transicion.mp3",
+          "en": -0.25
+        },
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 0.276,
+          "volumen": 0.3
+        }
+      ]
     },
     {
       "id": "l11",
@@ -547,7 +604,13 @@
         }
       ],
       "destacada": 1,
-      "sonidos": []
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 0.113,
+          "volumen": 0.3
+        }
+      ]
     },
     {
       "id": "l12",
@@ -585,7 +648,13 @@
         }
       ],
       "destacada": 1,
-      "sonidos": []
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 0.275,
+          "volumen": 0.3
+        }
+      ]
     },
     {
       "id": "l13",
@@ -617,7 +686,13 @@
         }
       ],
       "destacada": 0,
-      "sonidos": []
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 0.0,
+          "volumen": 0.3
+        }
+      ]
     },
     {
       "id": "l14",
@@ -710,7 +785,17 @@
         }
       ],
       "destacada": 5,
-      "sonidos": []
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/transicion.mp3",
+          "en": -0.25
+        },
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 1.062,
+          "volumen": 0.3
+        }
+      ]
     },
     {
       "id": "l16",
@@ -772,7 +857,13 @@
         }
       ],
       "destacada": 5,
-      "sonidos": []
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 1.013,
+          "volumen": 0.3
+        }
+      ]
     },
     {
       "id": "l17",
@@ -805,6 +896,11 @@
       ],
       "destacada": 0,
       "sonidos": [
+        {
+          "archivo": "assets/sonido/bloque.mp3",
+          "en": 0.0,
+          "volumen": 0.3
+        },
         {
           "archivo": "assets/sonido/cierre.mp3",
           "en": 2.15
