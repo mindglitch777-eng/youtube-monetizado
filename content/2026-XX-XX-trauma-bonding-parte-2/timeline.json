@@ -1,0 +1,797 @@
+{
+  "titulo": "",
+  "video": "content/2026-XX-XX-trauma-bonding-parte-2",
+  "voz": "en-US-JennyNeural",
+  "icono": "assets/personaje/knot-icono.png",
+  "formato": "short",
+  "audio": "content/2026-XX-XX-trauma-bonding-parte-2/audio/narracion.mp3",
+  "duracionTotal": 39.887,
+  "segmentos": [
+    {
+      "id": "l01",
+      "tipo": "linea",
+      "bloque": null,
+      "escena": 5,
+      "inicio": 0.1,
+      "duracion": 2.512,
+      "audio": null,
+      "imagen": null,
+      "palabras": [
+        {
+          "texto": "That's",
+          "inicio": 0.0,
+          "fin": 0.287,
+          "linea": 1
+        },
+        {
+          "texto": "why",
+          "inicio": 0.3,
+          "fin": 0.438,
+          "linea": 1
+        },
+        {
+          "texto": "someone",
+          "inicio": 0.45,
+          "fin": 0.775,
+          "linea": 1
+        },
+        {
+          "texto": "GOOD",
+          "inicio": 0.787,
+          "fin": 0.975,
+          "linea": 1
+        },
+        {
+          "texto": "bores",
+          "inicio": 0.987,
+          "fin": 1.325,
+          "linea": 1
+        },
+        {
+          "texto": "you.",
+          "inicio": 1.338,
+          "fin": 1.65,
+          "linea": 1
+        }
+      ],
+      "destacada": 3,
+      "sonidos": []
+    },
+    {
+      "id": "l02",
+      "tipo": "linea",
+      "bloque": null,
+      "escena": 5,
+      "inicio": 2.612,
+      "duracion": 2.625,
+      "audio": null,
+      "imagen": null,
+      "palabras": [
+        {
+          "texto": "Your",
+          "inicio": 0.0,
+          "fin": 0.213,
+          "linea": 2
+        },
+        {
+          "texto": "brain",
+          "inicio": 0.225,
+          "fin": 0.551,
+          "linea": 2
+        },
+        {
+          "texto": "calls",
+          "inicio": 0.563,
+          "fin": 0.826,
+          "linea": 2
+        },
+        {
+          "texto": "it",
+          "inicio": 0.838,
+          "fin": 0.938,
+          "linea": 2
+        },
+        {
+          "texto": "'suspicious'.",
+          "inicio": 0.95,
+          "fin": 1.763,
+          "linea": 2
+        }
+      ],
+      "destacada": 4,
+      "sonidos": []
+    },
+    {
+      "id": "l03",
+      "tipo": "linea",
+      "bloque": null,
+      "escena": 5,
+      "inicio": 5.237,
+      "duracion": 2.288,
+      "audio": null,
+      "imagen": null,
+      "palabras": [
+        {
+          "texto": "Toxic",
+          "inicio": 0.0,
+          "fin": 0.463,
+          "linea": 3
+        },
+        {
+          "texto": "feels",
+          "inicio": 0.476,
+          "fin": 0.788,
+          "linea": 3
+        },
+        {
+          "texto": "'familiar'.",
+          "inicio": 0.8,
+          "fin": 1.425,
+          "linea": 3
+        }
+      ],
+      "destacada": 2,
+      "sonidos": []
+    },
+    {
+      "id": "l04",
+      "tipo": "linea",
+      "bloque": null,
+      "escena": 5,
+      "inicio": 7.525,
+      "duracion": 2.025,
+      "audio": null,
+      "imagen": null,
+      "palabras": [
+        {
+          "texto": "Healthy",
+          "inicio": 0.0,
+          "fin": 0.363,
+          "linea": 4
+        },
+        {
+          "texto": "feels",
+          "inicio": 0.375,
+          "fin": 0.713,
+          "linea": 4
+        },
+        {
+          "texto": "'wrong'.",
+          "inicio": 0.725,
+          "fin": 1.163,
+          "linea": 4
+        }
+      ],
+      "destacada": 2,
+      "sonidos": []
+    },
+    {
+      "id": "l05",
+      "tipo": "linea",
+      "bloque": null,
+      "escena": 5,
+      "inicio": 9.55,
+      "duracion": 2.563,
+      "audio": null,
+      "imagen": null,
+      "palabras": [
+        {
+          "texto": "That's",
+          "inicio": 0.0,
+          "fin": 0.3,
+          "linea": 5
+        },
+        {
+          "texto": "what",
+          "inicio": 0.313,
+          "fin": 0.45,
+          "linea": 5
+        },
+        {
+          "texto": "the",
+          "inicio": 0.462,
+          "fin": 0.525,
+          "linea": 5
+        },
+        {
+          "texto": "hijack",
+          "inicio": 0.538,
+          "fin": 1.038,
+          "linea": 5
+        },
+        {
+          "texto": "looks",
+          "inicio": 1.05,
+          "fin": 1.275,
+          "linea": 5
+        },
+        {
+          "texto": "like.",
+          "inicio": 1.288,
+          "fin": 1.7,
+          "linea": 5
+        }
+      ],
+      "destacada": 3,
+      "sonidos": []
+    },
+    {
+      "id": "l06",
+      "tipo": "linea",
+      "bloque": null,
+      "escena": 6,
+      "inicio": 12.113,
+      "duracion": 2.725,
+      "audio": null,
+      "imagen": null,
+      "palabras": [
+        {
+          "texto": "This",
+          "inicio": 0.0,
+          "fin": 0.225,
+          "linea": 6
+        },
+        {
+          "texto": "doesn't",
+          "inicio": 0.237,
+          "fin": 0.549,
+          "linea": 6
+        },
+        {
+          "texto": "happen",
+          "inicio": 0.562,
+          "fin": 0.949,
+          "linea": 6
+        },
+        {
+          "texto": "because",
+          "inicio": 0.962,
+          "fin": 1.287,
+          "linea": 6
+        },
+        {
+          "texto": "you're",
+          "inicio": 1.299,
+          "fin": 1.424,
+          "linea": 6
+        },
+        {
+          "texto": "weak.",
+          "inicio": 1.437,
+          "fin": 1.862,
+          "linea": 6
+        }
+      ],
+      "destacada": 5,
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/transicion.mp3",
+          "en": -0.25
+        }
+      ]
+    },
+    {
+      "id": "l07",
+      "tipo": "linea",
+      "bloque": null,
+      "escena": 6,
+      "inicio": 14.838,
+      "duracion": 2.999,
+      "audio": null,
+      "imagen": null,
+      "palabras": [
+        {
+          "texto": "It",
+          "inicio": 0.0,
+          "fin": 0.15,
+          "linea": 7
+        },
+        {
+          "texto": "happens",
+          "inicio": 0.162,
+          "fin": 0.574,
+          "linea": 7
+        },
+        {
+          "texto": "to",
+          "inicio": 0.587,
+          "fin": 0.675,
+          "linea": 7
+        },
+        {
+          "texto": "the",
+          "inicio": 0.687,
+          "fin": 0.787,
+          "linea": 7
+        },
+        {
+          "texto": "strongest",
+          "inicio": 0.799,
+          "fin": 1.337,
+          "linea": 7
+        },
+        {
+          "texto": "people",
+          "inicio": 1.35,
+          "fin": 1.637,
+          "linea": 7
+        },
+        {
+          "texto": "you",
+          "inicio": 1.65,
+          "fin": 1.762,
+          "linea": 7
+        },
+        {
+          "texto": "know.",
+          "inicio": 1.775,
+          "fin": 2.137,
+          "linea": 7
+        }
+      ],
+      "destacada": 4,
+      "sonidos": []
+    },
+    {
+      "id": "l08",
+      "tipo": "linea",
+      "bloque": null,
+      "escena": 6,
+      "inicio": 17.837,
+      "duracion": 3.163,
+      "audio": null,
+      "imagen": null,
+      "palabras": [
+        {
+          "texto": "Because",
+          "inicio": 0.0,
+          "fin": 0.338,
+          "linea": 8
+        },
+        {
+          "texto": "it",
+          "inicio": 0.351,
+          "fin": 0.438,
+          "linea": 8
+        },
+        {
+          "texto": "takes",
+          "inicio": 0.451,
+          "fin": 0.688,
+          "linea": 8
+        },
+        {
+          "texto": "strength",
+          "inicio": 0.701,
+          "fin": 1.113,
+          "linea": 8
+        },
+        {
+          "texto": "to",
+          "inicio": 1.125,
+          "fin": 1.225,
+          "linea": 8
+        },
+        {
+          "texto": "survive",
+          "inicio": 1.238,
+          "fin": 1.638,
+          "linea": 8
+        },
+        {
+          "texto": "chaos.",
+          "inicio": 1.651,
+          "fin": 2.3,
+          "linea": 8
+        }
+      ],
+      "destacada": 3,
+      "sonidos": []
+    },
+    {
+      "id": "l09",
+      "tipo": "linea",
+      "bloque": null,
+      "escena": 6,
+      "inicio": 21.0,
+      "duracion": 2.55,
+      "audio": null,
+      "imagen": null,
+      "palabras": [
+        {
+          "texto": "And",
+          "inicio": 0.0,
+          "fin": 0.175,
+          "linea": 9
+        },
+        {
+          "texto": "that",
+          "inicio": 0.188,
+          "fin": 0.425,
+          "linea": 9
+        },
+        {
+          "texto": "strength",
+          "inicio": 0.438,
+          "fin": 0.812,
+          "linea": 9
+        },
+        {
+          "texto": "is",
+          "inicio": 0.825,
+          "fin": 0.938,
+          "linea": 9
+        },
+        {
+          "texto": "your",
+          "inicio": 0.95,
+          "fin": 1.075,
+          "linea": 9
+        },
+        {
+          "texto": "way",
+          "inicio": 1.087,
+          "fin": 1.287,
+          "linea": 9
+        },
+        {
+          "texto": "out.",
+          "inicio": 1.3,
+          "fin": 1.688,
+          "linea": 9
+        }
+      ],
+      "destacada": 6,
+      "sonidos": []
+    },
+    {
+      "id": "l10",
+      "tipo": "linea",
+      "bloque": null,
+      "escena": 7,
+      "inicio": 23.55,
+      "duracion": 2.35,
+      "audio": null,
+      "imagen": null,
+      "palabras": [
+        {
+          "texto": "Next",
+          "inicio": 0.0,
+          "fin": 0.35,
+          "linea": 10
+        },
+        {
+          "texto": "time",
+          "inicio": 0.363,
+          "fin": 0.55,
+          "linea": 10
+        },
+        {
+          "texto": "you",
+          "inicio": 0.563,
+          "fin": 0.675,
+          "linea": 10
+        },
+        {
+          "texto": "can't",
+          "inicio": 0.688,
+          "fin": 0.95,
+          "linea": 10
+        },
+        {
+          "texto": "stop",
+          "inicio": 0.962,
+          "fin": 1.188,
+          "linea": 10
+        },
+        {
+          "texto": "thinking",
+          "inicio": 1.2,
+          "fin": 1.575,
+          "linea": 10
+        },
+        {
+          "texto": "about",
+          "inicio": 1.587,
+          "fin": 1.85,
+          "linea": 10
+        },
+        {
+          "texto": "them...",
+          "inicio": 1.863,
+          "fin": 2.163,
+          "linea": 10
+        }
+      ],
+      "destacada": 5,
+      "sonidos": []
+    },
+    {
+      "id": "l11",
+      "tipo": "linea",
+      "bloque": null,
+      "escena": 7,
+      "inicio": 25.9,
+      "duracion": 0.825,
+      "audio": null,
+      "imagen": null,
+      "palabras": [
+        {
+          "texto": "...say",
+          "inicio": 0.0,
+          "fin": 0.225,
+          "linea": 11
+        },
+        {
+          "texto": "this:",
+          "inicio": 0.237,
+          "fin": 0.625,
+          "linea": 11
+        }
+      ],
+      "destacada": 1,
+      "sonidos": []
+    },
+    {
+      "id": "l12",
+      "tipo": "linea",
+      "bloque": null,
+      "escena": 7,
+      "inicio": 26.725,
+      "duracion": 1.725,
+      "audio": null,
+      "imagen": null,
+      "palabras": [
+        {
+          "texto": "It's",
+          "inicio": 0.0,
+          "fin": 0.15,
+          "linea": 12
+        },
+        {
+          "texto": "not",
+          "inicio": 0.162,
+          "fin": 0.4,
+          "linea": 12
+        },
+        {
+          "texto": "love.",
+          "inicio": 0.412,
+          "fin": 0.862,
+          "linea": 12
+        }
+      ],
+      "destacada": 2,
+      "sonidos": []
+    },
+    {
+      "id": "l13",
+      "tipo": "linea",
+      "bloque": null,
+      "escena": 7,
+      "inicio": 28.45,
+      "duracion": 2.213,
+      "audio": null,
+      "imagen": null,
+      "palabras": [
+        {
+          "texto": "It's",
+          "inicio": 0.0,
+          "fin": 0.187,
+          "linea": 13
+        },
+        {
+          "texto": "your",
+          "inicio": 0.2,
+          "fin": 0.325,
+          "linea": 13
+        },
+        {
+          "texto": "brain,",
+          "inicio": 0.338,
+          "fin": 0.713,
+          "linea": 13
+        },
+        {
+          "texto": "drugged.",
+          "inicio": 0.862,
+          "fin": 1.35,
+          "linea": 13
+        }
+      ],
+      "destacada": 3,
+      "sonidos": []
+    },
+    {
+      "id": "l14",
+      "tipo": "linea",
+      "bloque": null,
+      "escena": 7,
+      "inicio": 30.663,
+      "duracion": 2.312,
+      "audio": null,
+      "imagen": null,
+      "palabras": [
+        {
+          "texto": "And",
+          "inicio": 0.0,
+          "fin": 0.187,
+          "linea": 14
+        },
+        {
+          "texto": "a",
+          "inicio": 0.2,
+          "fin": 0.262,
+          "linea": 14
+        },
+        {
+          "texto": "drug",
+          "inicio": 0.275,
+          "fin": 0.625,
+          "linea": 14
+        },
+        {
+          "texto": "can",
+          "inicio": 0.637,
+          "fin": 0.8,
+          "linea": 14
+        },
+        {
+          "texto": "be",
+          "inicio": 0.812,
+          "fin": 0.937,
+          "linea": 14
+        },
+        {
+          "texto": "quit.",
+          "inicio": 0.95,
+          "fin": 1.449,
+          "linea": 14
+        }
+      ],
+      "destacada": 5,
+      "sonidos": []
+    },
+    {
+      "id": "l15",
+      "tipo": "linea",
+      "bloque": null,
+      "escena": 7,
+      "inicio": 32.975,
+      "duracion": 3.387,
+      "audio": null,
+      "imagen": null,
+      "palabras": [
+        {
+          "texto": "Comment",
+          "inicio": 0.0,
+          "fin": 0.388,
+          "linea": 15
+        },
+        {
+          "texto": "'THIS",
+          "inicio": 0.4,
+          "fin": 0.575,
+          "linea": 15
+        },
+        {
+          "texto": "IS",
+          "inicio": 0.587,
+          "fin": 0.737,
+          "linea": 15
+        },
+        {
+          "texto": "REAL'",
+          "inicio": 0.75,
+          "fin": 1.05,
+          "linea": 15
+        },
+        {
+          "texto": "if",
+          "inicio": 1.063,
+          "fin": 1.175,
+          "linea": 15
+        },
+        {
+          "texto": "you",
+          "inicio": 1.188,
+          "fin": 1.313,
+          "linea": 15
+        },
+        {
+          "texto": "recognized",
+          "inicio": 1.325,
+          "fin": 1.887,
+          "linea": 15
+        },
+        {
+          "texto": "yourself.",
+          "inicio": 1.9,
+          "fin": 2.525,
+          "linea": 15
+        }
+      ],
+      "destacada": 3,
+      "sonidos": []
+    },
+    {
+      "id": "l16",
+      "tipo": "linea",
+      "bloque": null,
+      "escena": 7,
+      "inicio": 36.362,
+      "duracion": 3.525,
+      "audio": null,
+      "imagen": null,
+      "palabras": [
+        {
+          "texto": "And",
+          "inicio": 0.0,
+          "fin": 0.188,
+          "linea": 16
+        },
+        {
+          "texto": "send",
+          "inicio": 0.2,
+          "fin": 0.438,
+          "linea": 16
+        },
+        {
+          "texto": "it",
+          "inicio": 0.45,
+          "fin": 0.538,
+          "linea": 16
+        },
+        {
+          "texto": "to",
+          "inicio": 0.551,
+          "fin": 0.638,
+          "linea": 16
+        },
+        {
+          "texto": "someone",
+          "inicio": 0.651,
+          "fin": 0.988,
+          "linea": 16
+        },
+        {
+          "texto": "who",
+          "inicio": 1.0,
+          "fin": 1.113,
+          "linea": 16
+        },
+        {
+          "texto": "needs",
+          "inicio": 1.125,
+          "fin": 1.4,
+          "linea": 16
+        },
+        {
+          "texto": "to",
+          "inicio": 1.413,
+          "fin": 1.5,
+          "linea": 16
+        },
+        {
+          "texto": "hear",
+          "inicio": 1.513,
+          "fin": 1.738,
+          "linea": 16
+        },
+        {
+          "texto": "it.",
+          "inicio": 1.75,
+          "fin": 2.025,
+          "linea": 16
+        }
+      ],
+      "destacada": 1,
+      "sonidos": [
+        {
+          "archivo": "assets/sonido/cierre.mp3",
+          "en": 2.025
+        }
+      ]
+    }
+  ]
+}
