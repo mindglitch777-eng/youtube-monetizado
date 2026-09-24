@@ -93,6 +93,12 @@ def existente(carpeta, base):
     return next(iter(sorted(carpeta.glob(base + ".*"))), None)
 
 
+class CuotaAgotada(Exception):
+    """Se acabó la cuota diaria gratis de Workers AI. Reintentar no sirve de nada
+    (el límite es por día, no por minuto): hay que parar en el acto, no seguir
+    insistiendo imagen por imagen y quemar minutos de CI para nada."""
+
+
 def generar(cuenta, token, prompt):
     """POST a Workers AI. Devuelve los bytes de la imagen (la API la manda en base64)."""
     url = f"https://api.cloudflare.com/client/v4/accounts/{cuenta}/ai/run/{MODELO}"
@@ -109,6 +115,12 @@ def generar(cuenta, token, prompt):
             return base64.b64decode(imagen)
         except urllib.error.HTTPError as error:
             detalle = error.read().decode(errors="replace")[:300]
+            if error.code == 429 and "daily free allocation" in detalle.lower():
+                raise CuotaAgotada(
+                    "Se agotó la cuota diaria gratis de Cloudflare Workers AI (10.000 "
+                    "neurons/día). No se soluciona reintentando: hay que esperar al "
+                    "reseteo diario (00:00 UTC) o pasar a un plan pago de Workers AI."
+                ) from error
             if error.code not in (429, 500, 502, 503, 504) or intento == 2:
                 raise RuntimeError(f"HTTP {error.code}: {detalle}") from error
             print(f"    HTTP {error.code}, reintentando en 15s", flush=True)
@@ -165,6 +177,14 @@ def main():
         print(f"  {base} ...", flush=True)
         try:
             datos = generar(cuenta, token, prompts[base])
+        except CuotaAgotada as error:
+            # Reintentar imagen por imagen no sirve: el límite es diario. Cortar acá
+            # y dejar lo ya generado guardado, en vez de quemar CI insistiendo con
+            # las que faltan (cada una tarda ~45s en fallar 3 veces).
+            print(f"::warning::{error}")
+            print(f"! Quedan {len(pendientes) - pendientes.index(s)} imágenes sin generar; "
+                  f"correr de nuevo este mismo comando cuando se reponga la cuota.")
+            break
         except Exception as error:  # noqa: BLE001 - una imagen que falla no frena el resto del lote
             print(f"    ! falló, sigo con la siguiente: {error}")
             fallidas.append(base)

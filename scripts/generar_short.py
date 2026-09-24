@@ -47,7 +47,7 @@ import sys
 from pathlib import Path
 
 from generar_audio import KNOT_ICONO, SONIDOS, normalizar_palabra, sintetizar
-from generar_imagenes import ESTILO, ESTILO_EXAGERADO, VARIANTE_POR_TIPO, generar
+from generar_imagenes import ESTILO, ESTILO_EXAGERADO, VARIANTE_POR_TIPO, CuotaAgotada, generar
 from segmentos import RAIZ, cargar_env, checkpoint
 
 VARIANTES = {
@@ -342,9 +342,16 @@ async def main_async(args):
     pendientes = [n for n in prompts if args.forzar or not list(carpeta_img.glob(n + ".*"))]
     if pendientes and cuenta and token and not args.sin_imagenes:
         print(f"Generando {len(pendientes)} imágenes ...", flush=True)
-        for nombre in pendientes:
+        for k, nombre in enumerate(pendientes):
             try:
                 imagen = generar(cuenta, token, prompts[nombre])
+            except CuotaAgotada as error:
+                # El límite es diario: insistir con las que faltan solo quema CI.
+                # Se corta acá; lo ya generado queda guardado por los checkpoints.
+                print(f"::warning::{error}")
+                print(f"! Quedan {len(pendientes) - k} imágenes sin generar; "
+                      f"correr de nuevo este mismo comando cuando se reponga la cuota.")
+                break
             except Exception as error:  # noqa: BLE001 - una imagen que falla no frena el resto
                 print(f"  ! {nombre}: {error}")
                 continue
