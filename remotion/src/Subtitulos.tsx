@@ -13,21 +13,33 @@ loadFont({ family: fontFamily, url: staticFile("fuentes/Montserrat.woff2"), weig
 
 type Franja = { palabras: { palabra: Palabra; indice: number }[]; desde: number; hasta: number };
 
-// Corta la narración en franjas cortas: máximo 5 palabras, y corta antes
-// si termina una frase (o en una coma, si la franja ya tiene 3 palabras).
+// Corta la narración en franjas cortas. Primero en las pausas naturales
+// (fin de frase, guion largo, dos puntos, punto y coma, y comas cuando el tramo
+// ya tiene 3 palabras); después, si un tramo pasa de 5 palabras, lo divide en
+// partes parejas en vez de cortar en seco en la quinta (así no queda
+// "…done this to" / "you it wasn't…").
 export function armarFranjas(palabras: Palabra[], finSegmento: number): Franja[] {
-  const franjas: Franja[] = [];
+  const tramos: Franja["palabras"][] = [];
   let actual: Franja["palabras"] = [];
   palabras.forEach((palabra, indice) => {
     actual.push({ palabra, indice });
-    const fin = /[.!?]["”']?$/.test(palabra.texto);
-    const coma = /[,;:—]["”']?$/.test(palabra.texto) && actual.length >= 3;
-    if (actual.length >= MAX_PALABRAS || fin || coma) {
-      franjas.push({ palabras: actual, desde: 0, hasta: 0 });
+    const pausa = /[.!?—:;]["”']?$/.test(palabra.texto);
+    const coma = /,["”']?$/.test(palabra.texto) && actual.length >= 3;
+    if (pausa || coma) {
+      tramos.push(actual);
       actual = [];
     }
   });
-  if (actual.length) franjas.push({ palabras: actual, desde: 0, hasta: 0 });
+  if (actual.length) tramos.push(actual);
+
+  const franjas: Franja[] = [];
+  for (const tramo of tramos) {
+    const partes = Math.ceil(tramo.length / MAX_PALABRAS);
+    const tamano = Math.ceil(tramo.length / partes);
+    for (let k = 0; k < tramo.length; k += tamano) {
+      franjas.push({ palabras: tramo.slice(k, k + tamano), desde: 0, hasta: 0 });
+    }
+  }
 
   franjas.forEach((franja, n) => {
     franja.desde = franja.palabras[0].palabra.inicio;
