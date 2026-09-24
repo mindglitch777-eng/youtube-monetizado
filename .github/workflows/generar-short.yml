@@ -23,7 +23,7 @@ concurrency:
 jobs:
   short:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 90
     env:
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -51,15 +51,17 @@ jobs:
             echo "::endgroup::"
           done
 
+      # Corre aunque el paso anterior falle, para no perder las imágenes ya generadas.
       - name: Commitear resultados
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A content/*/audio content/*/imagenes content/*/timeline*.json
+          git add -A content/
           if git diff --cached --quiet; then
             echo "Sin cambios."
             exit 0
           fi
           git commit -m "Generar short (voz + escenas + timeline) desde GitHub Actions"
-          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"

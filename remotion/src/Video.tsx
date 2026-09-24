@@ -11,7 +11,7 @@ import {
   useVideoConfig,
 } from "remotion";
 import { Subtitulos } from "./Subtitulos";
-import type { Props, Segmento } from "./tipos";
+import type { CorteImagen, Props, Segmento } from "./tipos";
 
 const FONDO = "#2B2118";
 const VOLUMEN_SONIDOS = 0.6;
@@ -31,6 +31,18 @@ const MOVIMIENTOS = [
   { zoom: [1, 1.08], x: [1, -1] },
   { zoom: [1.08, 1], x: [-1, 1] },
 ];
+
+// Si el timeline trae sus propios cortes de imagen (una imagen cada ~2 s), se
+// usan esos; los pulsos de zoom caen en las líneas que empiezan dentro de cada corte.
+function tramosDeCortes(cortes: CorteImagen[], segmentos: Segmento[]): Tramo[] {
+  return cortes.map((c) => ({
+    imagen: c.imagen,
+    desde: c.desde,
+    hasta: c.hasta,
+    whoosh: c.whoosh,
+    lineas: segmentos.filter((s) => s.inicio > c.desde + 0.05 && s.inicio < c.hasta).map((s) => s.inicio - c.desde),
+  }));
+}
 
 // Une segmentos seguidos con la misma imagen (la transición mantiene la escena
 // anterior) y estira cada imagen hasta el comienzo de la siguiente.
@@ -70,7 +82,9 @@ const Escena: React.FC<{ tramo: Tramo; frames: number; indice: number; entrada: 
   let paneo = 0;
   let destello = 0;
   if (vertical) {
-    const punch = indice === 0 ? 0 : 0.14 * (1 - spring({ frame, fps, config: { damping: 18, stiffness: 120 } }));
+    // Con cortes cada ~2 s el golpe de entrada es más chico para no marear.
+    const fuerza = frames < fps * 3 ? 0.07 : 0.14;
+    const punch = indice === 0 ? 0 : fuerza * (1 - spring({ frame, fps, config: { damping: 18, stiffness: 120 } }));
     const pulsos = tramo.lineas.reduce((total, inicio) => {
       const t = frame / fps - inicio;
       return t < 0 ? total : total + 0.035 * Math.exp(-t / 0.18);
@@ -151,6 +165,66 @@ function efectoImpacto(t: number, impactos: number[]) {
   return { dx, dy, flash };
 }
 
+// Overlays de llamada a la acción: una placa blanca que entra con un salto y
+// late mientras dura la línea. Like = corazón; follow = campana.
+const Overlay: React.FC<{ tipo: "like" | "follow"; desde: number }> = ({ tipo, desde }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const entrada = spring({ frame: frame - desde, fps, config: { damping: 10, stiffness: 150 } });
+  const latido = 1 + 0.07 * Math.max(0, Math.sin(((frame - desde) / fps) * Math.PI * 2.4));
+  const rojo = "#FF3B5C";
+  const icono =
+    tipo === "like" ? (
+      <svg width="110" height="100" viewBox="0 0 24 22">
+        <path
+          fill={rojo}
+          d="M12 21.6 10.3 20C4.2 14.5.2 10.9.2 6.4.2 2.8 3 0 6.6 0c2 0 4 1 5.4 2.5C13.4 1 15.4 0 17.4 0 21 0 23.8 2.8 23.8 6.4c0 4.5-4 8.1-10.1 13.6L12 21.6z"
+        />
+      </svg>
+    ) : (
+      <svg width="96" height="100" viewBox="0 0 24 25">
+        <path
+          fill={rojo}
+          d="M12 25a2.8 2.8 0 0 0 2.8-2.8H9.2A2.8 2.8 0 0 0 12 25zm8.4-7V11c0-4.3-2.3-7.9-6.3-8.8V1.3a2.1 2.1 0 0 0-4.2 0v.9C5.9 3.1 3.6 6.7 3.6 11v7L.8 20.8v1.4h22.4v-1.4L20.4 18z"
+        />
+      </svg>
+    );
+  return (
+    <div
+      style={{
+        position: "absolute",
+        top: "58%",
+        left: 0,
+        right: 0,
+        display: "flex",
+        justifyContent: "center",
+        transform: `scale(${(0.5 + 0.5 * entrada) * latido})`,
+        opacity: Math.min(1, entrada * 2),
+      }}
+    >
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          gap: 28,
+          backgroundColor: "white",
+          borderRadius: 999,
+          padding: "26px 56px",
+          boxShadow: "0 16px 40px rgba(0, 0, 0, 0.55)",
+          fontFamily: "Montserrat",
+          fontWeight: 900,
+          fontSize: 92,
+          color: "#1B140F",
+          letterSpacing: 2,
+        }}
+      >
+        {icono}
+        {tipo === "like" ? "LIKE" : "FOLLOW"}
+      </div>
+    </div>
+  );
+};
+
 // Viñeta: oscurece los bordes para dar clima y que los subtítulos resalten.
 const Vineta: React.FC = () => (
   <AbsoluteFill style={{ background: "radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.55) 100%)" }} />
@@ -203,9 +277,11 @@ export const Video: React.FC<Props> = ({ timeline }) => {
   return (
     <AbsoluteFill style={{ backgroundColor: FONDO }}>
       <AbsoluteFill style={{ transform: `translate(${impacto.dx}px, ${impacto.dy}px) scale(${impacto.dx || impacto.dy ? 1.03 : 1})` }}>
-      {armarTramos(segmentos, duracionTotal).map((tramo, indice) => {
-        // En los shorts cada escena arranca un poco antes y se funde sobre la anterior.
-        const adelanto = vertical && indice > 0 ? f(SOLAPE) : 0;
+      {(timeline.tramos ? tramosDeCortes(timeline.tramos, segmentos) : armarTramos(segmentos, duracionTotal)).map((tramo, indice) => {
+        // En los shorts cada escena arranca un poco antes y se funde sobre la anterior
+        // (fundido más corto cuando los cortes son de ~2 s).
+        const solape = Math.min(SOLAPE, (tramo.hasta - tramo.desde) * 0.15);
+        const adelanto = vertical && indice > 0 ? f(solape) : 0;
         const desde = f(tramo.desde) - adelanto;
         const frames = Math.max(1, f(tramo.hasta) - desde);
         return (
@@ -222,6 +298,8 @@ export const Video: React.FC<Props> = ({ timeline }) => {
       {impacto.flash > 0 ? <AbsoluteFill style={{ backgroundColor: "white", opacity: impacto.flash }} /> : null}
 
       {contador ? <Contador key={contador} valor={contador} desde={contadorDesde} /> : null}
+
+      {actual?.overlay ? <Overlay key={actual.id} tipo={actual.overlay} desde={f(actual.inicio)} /> : null}
 
       {timeline.musica ? (
         <Audio

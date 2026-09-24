@@ -21,7 +21,12 @@ export type Segmento = {
   // Shorts: shake + flash de cámara al empezar la línea, y contador en pantalla ("2/5").
   impacto?: boolean;
   contador?: string | null;
+  // Shorts: overlay animado durante la línea (botón de like o de follow).
+  overlay?: "like" | "follow" | null;
 };
+
+// Corte de imagen (shorts con "Ritmo"): qué imagen se ve entre desde y hasta.
+export type CorteImagen = { desde: number; hasta: number; imagen: string | null; whoosh: boolean };
 
 export type Timeline = {
   titulo: string;
@@ -37,6 +42,8 @@ export type Timeline = {
   musica?: string | null;
   // Parte de un short dividido: segundos del audio completo donde empieza.
   audioDesde?: number;
+  // Cortes de imagen independientes de las líneas (generar_short.py con "Ritmo").
+  tramos?: CorteImagen[];
 };
 
 export type Props = { timeline: Timeline | null };
