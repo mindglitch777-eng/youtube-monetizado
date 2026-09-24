@@ -1,0 +1,1291 @@
+{
+  "duracion": 105.12,
+  "palabras": [
+    {
+      "texto": "If",
+      "inicio": 0.1,
+      "fin": 0.263,
+      "linea": 1
+    },
+    {
+      "texto": "someone's",
+      "inicio": 0.275,
+      "fin": 0.675,
+      "linea": 1
+    },
+    {
+      "texto": "done",
+      "inicio": 0.688,
+      "fin": 0.887,
+      "linea": 1
+    },
+    {
+      "texto": "this",
+      "inicio": 0.9,
+      "fin": 1.087,
+      "linea": 1
+    },
+    {
+      "texto": "to",
+      "inicio": 1.1,
+      "fin": 1.2,
+      "linea": 1
+    },
+    {
+      "texto": "you",
+      "inicio": 1.212,
+      "fin": 1.537,
+      "linea": 1
+    },
+    {
+      "texto": "it",
+      "inicio": 1.75,
+      "fin": 1.863,
+      "linea": 1
+    },
+    {
+      "texto": "wasn't",
+      "inicio": 1.875,
+      "fin": 2.212,
+      "linea": 1
+    },
+    {
+      "texto": "an",
+      "inicio": 2.225,
+      "fin": 2.325,
+      "linea": 1
+    },
+    {
+      "texto": "accident.",
+      "inicio": 2.337,
+      "fin": 3.0,
+      "linea": 1
+    },
+    {
+      "texto": "It",
+      "inicio": 3.862,
+      "fin": 4.0,
+      "linea": 2
+    },
+    {
+      "texto": "has",
+      "inicio": 4.013,
+      "fin": 4.2,
+      "linea": 2
+    },
+    {
+      "texto": "a",
+      "inicio": 4.213,
+      "fin": 4.263,
+      "linea": 2
+    },
+    {
+      "texto": "name.",
+      "inicio": 4.275,
+      "fin": 4.713,
+      "linea": 2
+    },
+    {
+      "texto": "And",
+      "inicio": 5.575,
+      "fin": 5.737,
+      "linea": 2
+    },
+    {
+      "texto": "there",
+      "inicio": 5.75,
+      "fin": 5.888,
+      "linea": 2
+    },
+    {
+      "texto": "are",
+      "inicio": 5.9,
+      "fin": 6.0,
+      "linea": 2
+    },
+    {
+      "texto": "5",
+      "inicio": 6.013,
+      "fin": 6.312,
+      "linea": 2
+    },
+    {
+      "texto": "of",
+      "inicio": 6.325,
+      "fin": 6.413,
+      "linea": 2
+    },
+    {
+      "texto": "them.",
+      "inicio": 6.425,
+      "fin": 6.775,
+      "linea": 2
+    },
+    {
+      "texto": "Therapists",
+      "inicio": 7.638,
+      "fin": 8.262,
+      "linea": 3
+    },
+    {
+      "texto": "see",
+      "inicio": 8.275,
+      "fin": 8.438,
+      "linea": 3
+    },
+    {
+      "texto": "these",
+      "inicio": 8.45,
+      "fin": 8.662,
+      "linea": 3
+    },
+    {
+      "texto": "exact",
+      "inicio": 8.675,
+      "fin": 9.113,
+      "linea": 3
+    },
+    {
+      "texto": "5",
+      "inicio": 9.125,
+      "fin": 9.4,
+      "linea": 3
+    },
+    {
+      "texto": "patterns",
+      "inicio": 9.412,
+      "fin": 9.95,
+      "linea": 3
+    },
+    {
+      "texto": "in",
+      "inicio": 9.963,
+      "fin": 10.138,
+      "linea": 3
+    },
+    {
+      "texto": "almost",
+      "inicio": 10.15,
+      "fin": 10.525,
+      "linea": 3
+    },
+    {
+      "texto": "every",
+      "inicio": 10.537,
+      "fin": 10.762,
+      "linea": 3
+    },
+    {
+      "texto": "toxic",
+      "inicio": 10.775,
+      "fin": 11.225,
+      "linea": 3
+    },
+    {
+      "texto": "relationship.",
+      "inicio": 11.238,
+      "fin": 12.088,
+      "linea": 3
+    },
+    {
+      "texto": "Recognize",
+      "inicio": 12.95,
+      "fin": 13.562,
+      "linea": 4
+    },
+    {
+      "texto": "even",
+      "inicio": 13.575,
+      "fin": 13.862,
+      "linea": 4
+    },
+    {
+      "texto": "ONE,",
+      "inicio": 13.875,
+      "fin": 14.238,
+      "linea": 4
+    },
+    {
+      "texto": "and",
+      "inicio": 14.45,
+      "fin": 14.562,
+      "linea": 4
+    },
+    {
+      "texto": "you'll",
+      "inicio": 14.575,
+      "fin": 14.725,
+      "linea": 4
+    },
+    {
+      "texto": "never",
+      "inicio": 14.738,
+      "fin": 15.0,
+      "linea": 4
+    },
+    {
+      "texto": "call",
+      "inicio": 15.012,
+      "fin": 15.25,
+      "linea": 4
+    },
+    {
+      "texto": "it",
+      "inicio": 15.262,
+      "fin": 15.375,
+      "linea": 4
+    },
+    {
+      "texto": "'love'",
+      "inicio": 15.387,
+      "fin": 15.55,
+      "linea": 4
+    },
+    {
+      "texto": "again.",
+      "inicio": 15.562,
+      "fin": 16.038,
+      "linea": 4
+    },
+    {
+      "texto": "Number",
+      "inicio": 16.9,
+      "fin": 17.275,
+      "linea": 5
+    },
+    {
+      "texto": "one:",
+      "inicio": 17.288,
+      "fin": 17.625,
+      "linea": 5
+    },
+    {
+      "texto": "gaslighting.",
+      "inicio": 17.788,
+      "fin": 18.575,
+      "linea": 5
+    },
+    {
+      "texto": "They",
+      "inicio": 19.438,
+      "fin": 19.587,
+      "linea": 6
+    },
+    {
+      "texto": "make",
+      "inicio": 19.6,
+      "fin": 19.812,
+      "linea": 6
+    },
+    {
+      "texto": "you",
+      "inicio": 19.825,
+      "fin": 19.925,
+      "linea": 6
+    },
+    {
+      "texto": "doubt",
+      "inicio": 19.938,
+      "fin": 20.2,
+      "linea": 6
+    },
+    {
+      "texto": "your",
+      "inicio": 20.212,
+      "fin": 20.387,
+      "linea": 6
+    },
+    {
+      "texto": "own",
+      "inicio": 20.4,
+      "fin": 20.55,
+      "linea": 6
+    },
+    {
+      "texto": "memory.",
+      "inicio": 20.562,
+      "fin": 21.087,
+      "linea": 6
+    },
+    {
+      "texto": "Your",
+      "inicio": 21.95,
+      "fin": 22.188,
+      "linea": 6
+    },
+    {
+      "texto": "own",
+      "inicio": 22.2,
+      "fin": 22.375,
+      "linea": 6
+    },
+    {
+      "texto": "eyes.",
+      "inicio": 22.387,
+      "fin": 22.912,
+      "linea": 6
+    },
+    {
+      "texto": "'That",
+      "inicio": 23.775,
+      "fin": 24.012,
+      "linea": 7
+    },
+    {
+      "texto": "never",
+      "inicio": 24.025,
+      "fin": 24.3,
+      "linea": 7
+    },
+    {
+      "texto": "happened.'",
+      "inicio": 24.312,
+      "fin": 24.863,
+      "linea": 7
+    },
+    {
+      "texto": "'You're",
+      "inicio": 25.725,
+      "fin": 25.975,
+      "linea": 7
+    },
+    {
+      "texto": "overreacting.'",
+      "inicio": 25.988,
+      "fin": 26.95,
+      "linea": 7
+    },
+    {
+      "texto": "'You're",
+      "inicio": 27.812,
+      "fin": 28.038,
+      "linea": 7
+    },
+    {
+      "texto": "crazy.'",
+      "inicio": 28.05,
+      "fin": 28.688,
+      "linea": 7
+    },
+    {
+      "texto": "It's",
+      "inicio": 29.55,
+      "fin": 29.762,
+      "linea": 8
+    },
+    {
+      "texto": "not",
+      "inicio": 29.775,
+      "fin": 29.987,
+      "linea": 8
+    },
+    {
+      "texto": "confusion.",
+      "inicio": 30.0,
+      "fin": 30.725,
+      "linea": 8
+    },
+    {
+      "texto": "It's",
+      "inicio": 31.587,
+      "fin": 31.8,
+      "linea": 8
+    },
+    {
+      "texto": "control.",
+      "inicio": 31.812,
+      "fin": 32.438,
+      "linea": 8
+    },
+    {
+      "texto": "Number",
+      "inicio": 33.3,
+      "fin": 33.662,
+      "linea": 9
+    },
+    {
+      "texto": "two:",
+      "inicio": 33.675,
+      "fin": 34.05,
+      "linea": 9
+    },
+    {
+      "texto": "love",
+      "inicio": 34.25,
+      "fin": 34.438,
+      "linea": 9
+    },
+    {
+      "texto": "bombing.",
+      "inicio": 34.45,
+      "fin": 34.963,
+      "linea": 9
+    },
+    {
+      "texto": "Too",
+      "inicio": 35.825,
+      "fin": 36.025,
+      "linea": 10
+    },
+    {
+      "texto": "much,",
+      "inicio": 36.038,
+      "fin": 36.5,
+      "linea": 10
+    },
+    {
+      "texto": "too",
+      "inicio": 36.663,
+      "fin": 36.863,
+      "linea": 10
+    },
+    {
+      "texto": "fast.",
+      "inicio": 36.875,
+      "fin": 37.475,
+      "linea": 10
+    },
+    {
+      "texto": "Gifts,",
+      "inicio": 38.337,
+      "fin": 38.812,
+      "linea": 10
+    },
+    {
+      "texto": "texts,",
+      "inicio": 38.975,
+      "fin": 39.513,
+      "linea": 10
+    },
+    {
+      "texto": "'soulmate'",
+      "inicio": 39.663,
+      "fin": 40.2,
+      "linea": 10
+    },
+    {
+      "texto": "in",
+      "inicio": 40.362,
+      "fin": 40.512,
+      "linea": 10
+    },
+    {
+      "texto": "week",
+      "inicio": 40.525,
+      "fin": 40.762,
+      "linea": 10
+    },
+    {
+      "texto": "one.",
+      "inicio": 40.775,
+      "fin": 41.175,
+      "linea": 10
+    },
+    {
+      "texto": "It's",
+      "inicio": 42.038,
+      "fin": 42.238,
+      "linea": 11
+    },
+    {
+      "texto": "not",
+      "inicio": 42.25,
+      "fin": 42.462,
+      "linea": 11
+    },
+    {
+      "texto": "passion.",
+      "inicio": 42.475,
+      "fin": 43.087,
+      "linea": 11
+    },
+    {
+      "texto": "It's",
+      "inicio": 43.95,
+      "fin": 44.15,
+      "linea": 11
+    },
+    {
+      "texto": "a",
+      "inicio": 44.163,
+      "fin": 44.225,
+      "linea": 11
+    },
+    {
+      "texto": "hook.",
+      "inicio": 44.237,
+      "fin": 44.725,
+      "linea": 11
+    },
+    {
+      "texto": "The",
+      "inicio": 45.587,
+      "fin": 45.725,
+      "linea": 12
+    },
+    {
+      "texto": "faster",
+      "inicio": 45.737,
+      "fin": 46.15,
+      "linea": 12
+    },
+    {
+      "texto": "it",
+      "inicio": 46.163,
+      "fin": 46.263,
+      "linea": 12
+    },
+    {
+      "texto": "starts,",
+      "inicio": 46.275,
+      "fin": 46.812,
+      "linea": 12
+    },
+    {
+      "texto": "the",
+      "inicio": 46.95,
+      "fin": 47.038,
+      "linea": 12
+    },
+    {
+      "texto": "harder",
+      "inicio": 47.05,
+      "fin": 47.375,
+      "linea": 12
+    },
+    {
+      "texto": "it",
+      "inicio": 47.388,
+      "fin": 47.475,
+      "linea": 12
+    },
+    {
+      "texto": "can",
+      "inicio": 47.487,
+      "fin": 47.637,
+      "linea": 12
+    },
+    {
+      "texto": "trap",
+      "inicio": 47.65,
+      "fin": 47.938,
+      "linea": 12
+    },
+    {
+      "texto": "you.",
+      "inicio": 47.95,
+      "fin": 48.288,
+      "linea": 12
+    },
+    {
+      "texto": "Number",
+      "inicio": 49.15,
+      "fin": 49.525,
+      "linea": 13
+    },
+    {
+      "texto": "three:",
+      "inicio": 49.538,
+      "fin": 49.962,
+      "linea": 13
+    },
+    {
+      "texto": "the",
+      "inicio": 50.15,
+      "fin": 50.25,
+      "linea": 13
+    },
+    {
+      "texto": "silent",
+      "inicio": 50.263,
+      "fin": 50.663,
+      "linea": 13
+    },
+    {
+      "texto": "treatment.",
+      "inicio": 50.675,
+      "fin": 51.3,
+      "linea": 13
+    },
+    {
+      "texto": "Not",
+      "inicio": 52.163,
+      "fin": 52.475,
+      "linea": 14
+    },
+    {
+      "texto": "space.",
+      "inicio": 52.487,
+      "fin": 53.1,
+      "linea": 14
+    },
+    {
+      "texto": "A",
+      "inicio": 53.962,
+      "fin": 54.087,
+      "linea": 14
+    },
+    {
+      "texto": "punishment.",
+      "inicio": 54.1,
+      "fin": 54.888,
+      "linea": 14
+    },
+    {
+      "texto": "They",
+      "inicio": 55.75,
+      "fin": 55.913,
+      "linea": 15
+    },
+    {
+      "texto": "go",
+      "inicio": 55.925,
+      "fin": 56.1,
+      "linea": 15
+    },
+    {
+      "texto": "cold",
+      "inicio": 56.112,
+      "fin": 56.375,
+      "linea": 15
+    },
+    {
+      "texto": "on",
+      "inicio": 56.388,
+      "fin": 56.488,
+      "linea": 15
+    },
+    {
+      "texto": "purpose",
+      "inicio": 56.5,
+      "fin": 57.025,
+      "linea": 15
+    },
+    {
+      "texto": "until",
+      "inicio": 57.212,
+      "fin": 57.487,
+      "linea": 15
+    },
+    {
+      "texto": "you",
+      "inicio": 57.5,
+      "fin": 57.625,
+      "linea": 15
+    },
+    {
+      "texto": "apologize",
+      "inicio": 57.638,
+      "fin": 58.312,
+      "linea": 15
+    },
+    {
+      "texto": "for",
+      "inicio": 58.325,
+      "fin": 58.438,
+      "linea": 15
+    },
+    {
+      "texto": "THEIR",
+      "inicio": 58.45,
+      "fin": 58.575,
+      "linea": 15
+    },
+    {
+      "texto": "mistake.",
+      "inicio": 58.587,
+      "fin": 59.225,
+      "linea": 15
+    },
+    {
+      "texto": "Silence,",
+      "inicio": 60.087,
+      "fin": 60.737,
+      "linea": 16
+    },
+    {
+      "texto": "weaponized.",
+      "inicio": 60.825,
+      "fin": 61.588,
+      "linea": 16
+    },
+    {
+      "texto": "Number",
+      "inicio": 62.45,
+      "fin": 62.825,
+      "linea": 17
+    },
+    {
+      "texto": "four:",
+      "inicio": 62.837,
+      "fin": 63.35,
+      "linea": 17
+    },
+    {
+      "texto": "guilt-tripping.",
+      "inicio": 63.5,
+      "fin": 64.25,
+      "linea": 17
+    },
+    {
+      "texto": "'After",
+      "inicio": 65.112,
+      "fin": 65.45,
+      "linea": 18
+    },
+    {
+      "texto": "everything",
+      "inicio": 65.463,
+      "fin": 65.913,
+      "linea": 18
+    },
+    {
+      "texto": "I've",
+      "inicio": 65.925,
+      "fin": 66.05,
+      "linea": 18
+    },
+    {
+      "texto": "done",
+      "inicio": 66.062,
+      "fin": 66.287,
+      "linea": 18
+    },
+    {
+      "texto": "for",
+      "inicio": 66.3,
+      "fin": 66.475,
+      "linea": 18
+    },
+    {
+      "texto": "you...'",
+      "inicio": 66.487,
+      "fin": 66.787,
+      "linea": 18
+    },
+    {
+      "texto": "Turning",
+      "inicio": 67.65,
+      "fin": 67.963,
+      "linea": 19
+    },
+    {
+      "texto": "your",
+      "inicio": 67.975,
+      "fin": 68.1,
+      "linea": 19
+    },
+    {
+      "texto": "needs",
+      "inicio": 68.112,
+      "fin": 68.4,
+      "linea": 19
+    },
+    {
+      "texto": "into",
+      "inicio": 68.412,
+      "fin": 68.612,
+      "linea": 19
+    },
+    {
+      "texto": "your",
+      "inicio": 68.625,
+      "fin": 68.75,
+      "linea": 19
+    },
+    {
+      "texto": "fault.",
+      "inicio": 68.763,
+      "fin": 69.275,
+      "linea": 19
+    },
+    {
+      "texto": "If",
+      "inicio": 70.138,
+      "fin": 70.3,
+      "linea": 20
+    },
+    {
+      "texto": "you",
+      "inicio": 70.312,
+      "fin": 70.438,
+      "linea": 20
+    },
+    {
+      "texto": "feel",
+      "inicio": 70.45,
+      "fin": 70.675,
+      "linea": 20
+    },
+    {
+      "texto": "guilty",
+      "inicio": 70.688,
+      "fin": 71.05,
+      "linea": 20
+    },
+    {
+      "texto": "for",
+      "inicio": 71.062,
+      "fin": 71.213,
+      "linea": 20
+    },
+    {
+      "texto": "having",
+      "inicio": 71.225,
+      "fin": 71.537,
+      "linea": 20
+    },
+    {
+      "texto": "limits",
+      "inicio": 71.55,
+      "fin": 72.075,
+      "linea": 20
+    },
+    {
+      "texto": "that's",
+      "inicio": 72.225,
+      "fin": 72.487,
+      "linea": 20
+    },
+    {
+      "texto": "the",
+      "inicio": 72.5,
+      "fin": 72.588,
+      "linea": 20
+    },
+    {
+      "texto": "tactic",
+      "inicio": 72.6,
+      "fin": 73.012,
+      "linea": 20
+    },
+    {
+      "texto": "working.",
+      "inicio": 73.025,
+      "fin": 73.55,
+      "linea": 20
+    },
+    {
+      "texto": "Number",
+      "inicio": 74.412,
+      "fin": 74.775,
+      "linea": 21
+    },
+    {
+      "texto": "five:",
+      "inicio": 74.787,
+      "fin": 75.275,
+      "linea": 21
+    },
+    {
+      "texto": "moving",
+      "inicio": 75.438,
+      "fin": 75.713,
+      "linea": 21
+    },
+    {
+      "texto": "the",
+      "inicio": 75.725,
+      "fin": 75.812,
+      "linea": 21
+    },
+    {
+      "texto": "goalposts.",
+      "inicio": 75.825,
+      "fin": 76.675,
+      "linea": 21
+    },
+    {
+      "texto": "You",
+      "inicio": 77.537,
+      "fin": 77.725,
+      "linea": 22
+    },
+    {
+      "texto": "finally",
+      "inicio": 77.737,
+      "fin": 78.188,
+      "linea": 22
+    },
+    {
+      "texto": "do",
+      "inicio": 78.2,
+      "fin": 78.35,
+      "linea": 22
+    },
+    {
+      "texto": "what",
+      "inicio": 78.362,
+      "fin": 78.513,
+      "linea": 22
+    },
+    {
+      "texto": "they",
+      "inicio": 78.525,
+      "fin": 78.65,
+      "linea": 22
+    },
+    {
+      "texto": "asked.",
+      "inicio": 78.662,
+      "fin": 79.25,
+      "linea": 22
+    },
+    {
+      "texto": "Suddenly,",
+      "inicio": 80.112,
+      "fin": 80.75,
+      "linea": 22
+    },
+    {
+      "texto": "it's",
+      "inicio": 80.862,
+      "fin": 81.0,
+      "linea": 22
+    },
+    {
+      "texto": "not",
+      "inicio": 81.013,
+      "fin": 81.225,
+      "linea": 22
+    },
+    {
+      "texto": "enough.",
+      "inicio": 81.237,
+      "fin": 81.787,
+      "linea": 22
+    },
+    {
+      "texto": "The",
+      "inicio": 82.65,
+      "fin": 82.788,
+      "linea": 23
+    },
+    {
+      "texto": "target",
+      "inicio": 82.8,
+      "fin": 83.188,
+      "linea": 23
+    },
+    {
+      "texto": "keeps",
+      "inicio": 83.2,
+      "fin": 83.475,
+      "linea": 23
+    },
+    {
+      "texto": "moving",
+      "inicio": 83.487,
+      "fin": 83.938,
+      "linea": 23
+    },
+    {
+      "texto": "so",
+      "inicio": 84.1,
+      "fin": 84.25,
+      "linea": 23
+    },
+    {
+      "texto": "you",
+      "inicio": 84.263,
+      "fin": 84.4,
+      "linea": 23
+    },
+    {
+      "texto": "can",
+      "inicio": 84.412,
+      "fin": 84.575,
+      "linea": 23
+    },
+    {
+      "texto": "never",
+      "inicio": 84.588,
+      "fin": 84.85,
+      "linea": 23
+    },
+    {
+      "texto": "win.",
+      "inicio": 84.862,
+      "fin": 85.25,
+      "linea": 23
+    },
+    {
+      "texto": "That's",
+      "inicio": 86.112,
+      "fin": 86.425,
+      "linea": 24
+    },
+    {
+      "texto": "the",
+      "inicio": 86.438,
+      "fin": 86.537,
+      "linea": 24
+    },
+    {
+      "texto": "point.",
+      "inicio": 86.55,
+      "fin": 87.112,
+      "linea": 24
+    },
+    {
+      "texto": "You're",
+      "inicio": 87.975,
+      "fin": 88.162,
+      "linea": 24
+    },
+    {
+      "texto": "not",
+      "inicio": 88.175,
+      "fin": 88.388,
+      "linea": 24
+    },
+    {
+      "texto": "supposed",
+      "inicio": 88.4,
+      "fin": 88.788,
+      "linea": 24
+    },
+    {
+      "texto": "to",
+      "inicio": 88.8,
+      "fin": 88.888,
+      "linea": 24
+    },
+    {
+      "texto": "win.",
+      "inicio": 88.9,
+      "fin": 89.312,
+      "linea": 24
+    },
+    {
+      "texto": "Once",
+      "inicio": 90.175,
+      "fin": 90.475,
+      "linea": 25
+    },
+    {
+      "texto": "you",
+      "inicio": 90.487,
+      "fin": 90.575,
+      "linea": 25
+    },
+    {
+      "texto": "can",
+      "inicio": 90.588,
+      "fin": 90.763,
+      "linea": 25
+    },
+    {
+      "texto": "name",
+      "inicio": 90.775,
+      "fin": 91.0,
+      "linea": 25
+    },
+    {
+      "texto": "it...",
+      "inicio": 91.013,
+      "fin": 91.2,
+      "linea": 25
+    },
+    {
+      "texto": "...it",
+      "inicio": 91.4,
+      "fin": 91.5,
+      "linea": 26
+    },
+    {
+      "texto": "loses",
+      "inicio": 91.513,
+      "fin": 91.838,
+      "linea": 26
+    },
+    {
+      "texto": "its",
+      "inicio": 91.85,
+      "fin": 92.0,
+      "linea": 26
+    },
+    {
+      "texto": "power",
+      "inicio": 92.013,
+      "fin": 92.375,
+      "linea": 26
+    },
+    {
+      "texto": "over",
+      "inicio": 92.388,
+      "fin": 92.612,
+      "linea": 26
+    },
+    {
+      "texto": "you.",
+      "inicio": 92.625,
+      "fin": 92.938,
+      "linea": 26
+    },
+    {
+      "texto": "This",
+      "inicio": 93.8,
+      "fin": 94.05,
+      "linea": 27
+    },
+    {
+      "texto": "isn't",
+      "inicio": 94.062,
+      "fin": 94.338,
+      "linea": 27
+    },
+    {
+      "texto": "love.",
+      "inicio": 94.35,
+      "fin": 94.775,
+      "linea": 27
+    },
+    {
+      "texto": "It's",
+      "inicio": 95.638,
+      "fin": 95.825,
+      "linea": 27
+    },
+    {
+      "texto": "a",
+      "inicio": 95.838,
+      "fin": 95.9,
+      "linea": 27
+    },
+    {
+      "texto": "playbook.",
+      "inicio": 95.912,
+      "fin": 96.537,
+      "linea": 27
+    },
+    {
+      "texto": "And",
+      "inicio": 97.4,
+      "fin": 97.575,
+      "linea": 28
+    },
+    {
+      "texto": "now",
+      "inicio": 97.588,
+      "fin": 97.75,
+      "linea": 28
+    },
+    {
+      "texto": "you've",
+      "inicio": 97.763,
+      "fin": 97.95,
+      "linea": 28
+    },
+    {
+      "texto": "read",
+      "inicio": 97.963,
+      "fin": 98.15,
+      "linea": 28
+    },
+    {
+      "texto": "it.",
+      "inicio": 98.162,
+      "fin": 98.45,
+      "linea": 28
+    },
+    {
+      "texto": "Comment",
+      "inicio": 99.312,
+      "fin": 99.713,
+      "linea": 29
+    },
+    {
+      "texto": "the",
+      "inicio": 99.725,
+      "fin": 99.8,
+      "linea": 29
+    },
+    {
+      "texto": "NUMBER",
+      "inicio": 99.812,
+      "fin": 100.112,
+      "linea": 29
+    },
+    {
+      "texto": "that",
+      "inicio": 100.125,
+      "fin": 100.275,
+      "linea": 29
+    },
+    {
+      "texto": "hit",
+      "inicio": 100.287,
+      "fin": 100.45,
+      "linea": 29
+    },
+    {
+      "texto": "hardest.",
+      "inicio": 100.463,
+      "fin": 101.113,
+      "linea": 29
+    },
+    {
+      "texto": "And",
+      "inicio": 101.975,
+      "fin": 102.162,
+      "linea": 30
+    },
+    {
+      "texto": "send",
+      "inicio": 102.175,
+      "fin": 102.412,
+      "linea": 30
+    },
+    {
+      "texto": "this",
+      "inicio": 102.425,
+      "fin": 102.587,
+      "linea": 30
+    },
+    {
+      "texto": "to",
+      "inicio": 102.6,
+      "fin": 102.7,
+      "linea": 30
+    },
+    {
+      "texto": "someone",
+      "inicio": 102.713,
+      "fin": 103.062,
+      "linea": 30
+    },
+    {
+      "texto": "stuck",
+      "inicio": 103.075,
+      "fin": 103.362,
+      "linea": 30
+    },
+    {
+      "texto": "in",
+      "inicio": 103.375,
+      "fin": 103.475,
+      "linea": 30
+    },
+    {
+      "texto": "one",
+      "inicio": 103.487,
+      "fin": 103.65,
+      "linea": 30
+    },
+    {
+      "texto": "of",
+      "inicio": 103.662,
+      "fin": 103.737,
+      "linea": 30
+    },
+    {
+      "texto": "these.",
+      "inicio": 103.75,
+      "fin": 104.25,
+      "linea": 30
+    }
+  ],
+  "texto": "If someone's done this to you — it wasn't an accident. It has a name. And there are 5 of them. Therapists see these exact 5 patterns in almost every toxic relationship. Recognize even ONE, and you'll never call it 'love' again. Number one: gaslighting. They make you doubt your own memory. Your own eyes. 'That never happened.' 'You're overreacting.' 'You're crazy.' It's not confusion. It's control. Number two: love bombing. Too much, too fast. Gifts, texts, 'soulmate' — in week one. It's not passion. It's a hook. The faster it starts, the harder it can trap you. Number three: the silent treatment. Not space. A punishment. They go cold on purpose — until you apologize for THEIR mistake. Silence, weaponized. Number four: guilt-tripping. 'After everything I've done for you...' Turning your needs into your fault. If you feel guilty for having limits — that's the tactic working. Number five: moving the goalposts. You finally do what they asked. Suddenly, it's not enough. The target keeps moving — so you can never win. That's the point. You're not supposed to win. Once you can name it... ...it loses its power over you. This isn't love. It's a playbook. And now you've read it. Comment the NUMBER that hit hardest. And send this to someone stuck in one of these.",
+  "voz": "en-US-JennyNeural"
+}

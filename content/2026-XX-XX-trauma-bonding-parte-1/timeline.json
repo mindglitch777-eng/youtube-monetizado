@@ -67,7 +67,9 @@
           "en": 0.425,
           "volumen": 0.3
         }
-      ]
+      ],
+      "impacto": false,
+      "contador": null
     },
     {
       "id": "l02",
@@ -117,7 +119,9 @@
           "en": 0.487,
           "volumen": 0.3
         }
-      ]
+      ],
+      "impacto": false,
+      "contador": null
     },
     {
       "id": "l03",
@@ -167,7 +171,9 @@
           "en": 1.163,
           "volumen": 0.3
         }
-      ]
+      ],
+      "impacto": false,
+      "contador": null
     },
     {
       "id": "l04",
@@ -217,7 +223,9 @@
           "en": 2.05,
           "volumen": 0.3
         }
-      ]
+      ],
+      "impacto": false,
+      "contador": null
     },
     {
       "id": "l05",
@@ -271,7 +279,9 @@
           "en": 1.838,
           "volumen": 0.3
         }
-      ]
+      ],
+      "impacto": false,
+      "contador": null
     },
     {
       "id": "l06",
@@ -327,7 +337,9 @@
           "en": 0.475,
           "volumen": 0.3
         }
-      ]
+      ],
+      "impacto": false,
+      "contador": null
     },
     {
       "id": "l07",
@@ -394,7 +406,9 @@
           "archivo": "assets/sonido/revelacion.mp3",
           "en": 0.274
         }
-      ]
+      ],
+      "impacto": false,
+      "contador": null
     },
     {
       "id": "l08",
@@ -438,7 +452,9 @@
           "en": 2.2,
           "volumen": 0.3
         }
-      ]
+      ],
+      "impacto": false,
+      "contador": null
     },
     {
       "id": "l09",
@@ -506,7 +522,9 @@
           "en": 0.213,
           "volumen": 0.3
         }
-      ]
+      ],
+      "impacto": false,
+      "contador": null
     },
     {
       "id": "l10",
@@ -566,7 +584,9 @@
           "en": 0.276,
           "volumen": 0.3
         }
-      ]
+      ],
+      "impacto": false,
+      "contador": null
     },
     {
       "id": "l11",
@@ -610,7 +630,9 @@
           "en": 0.113,
           "volumen": 0.3
         }
-      ]
+      ],
+      "impacto": false,
+      "contador": null
     },
     {
       "id": "l12",
@@ -654,7 +676,9 @@
           "en": 0.275,
           "volumen": 0.3
         }
-      ]
+      ],
+      "impacto": false,
+      "contador": null
     },
     {
       "id": "l13",
@@ -692,7 +716,9 @@
           "en": 0.0,
           "volumen": 0.3
         }
-      ]
+      ],
+      "impacto": false,
+      "contador": null
     },
     {
       "id": "l14",
@@ -735,7 +761,9 @@
           "archivo": "assets/sonido/revelacion.mp3",
           "en": 0.8
         }
-      ]
+      ],
+      "impacto": false,
+      "contador": null
     },
     {
       "id": "l15",
@@ -795,7 +823,9 @@
           "en": 1.062,
           "volumen": 0.3
         }
-      ]
+      ],
+      "impacto": false,
+      "contador": null
     },
     {
       "id": "l16",
@@ -863,7 +893,9 @@
           "en": 1.013,
           "volumen": 0.3
         }
-      ]
+      ],
+      "impacto": false,
+      "contador": null
     },
     {
       "id": "l17",
@@ -905,7 +937,9 @@
           "archivo": "assets/sonido/cierre.mp3",
           "en": 2.15
         }
-      ]
+      ],
+      "impacto": false,
+      "contador": null
     }
   ]
 }
