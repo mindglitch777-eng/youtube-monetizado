@@ -15,3 +15,10 @@ Licencia: https://mixkit.co/license/#sfxFree
 Los descarga el workflow `.github/workflows/descargar-sonidos.yml` a partir de
 `fuentes.tsv`. Para cambiar un sonido: editar su ID y nombre en `fuentes.tsv`,
 borrar el mp3 viejo y hacer push; el workflow baja el nuevo y lo commitea.
+
+## Música de fondo
+
+`assets/musica/fondo.mp3` es la pista 614 de Mixkit
+(https://assets.mixkit.co/music/614/614.mp3, sacada de la página "mood: sad"),
+bajo la **Mixkit Stock Music Free License**: uso gratuito en videos, incluido
+YouTube. La baja el mismo workflow a partir de `assets/musica/fuente.txt`.
