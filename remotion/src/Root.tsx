@@ -1,5 +1,8 @@
 import React from "react";
 import { CalculateMetadataFunction, Composition, staticFile } from "remotion";
+import { EscenaFase0 } from "./fase0/EscenaFase0";
+import { Personaje2D } from "./fase0/Personaje2D";
+import { Personaje3D } from "./fase0/Personaje3D";
 import { prepararShort } from "./shorts";
 import type { Props, PropsShort, Timeline } from "./tipos";
 import { Video } from "./Video";
@@ -50,6 +53,33 @@ export const Root: React.FC = () => (
       durationInFrames={FPS * 5}
       defaultProps={{ timeline: null, bloque: 1 } as PropsShort}
       calculateMetadata={calcularMetadataShort}
+    />
+    {/* Fase 0 — pruebas temporales de comparación 3D vs 2D. Borrar tras decidir. */}
+    <Composition
+      id="Fase0-Personaje3D"
+      component={Personaje3D}
+      width={1080}
+      height={1920}
+      fps={FPS}
+      durationInFrames={FPS * 8}
+      defaultProps={{ cambioEnFrame: FPS * 3 }}
+    />
+    <Composition
+      id="Fase0-Personaje2D"
+      component={Personaje2D}
+      width={1080}
+      height={1920}
+      fps={FPS}
+      durationInFrames={FPS * 8}
+      defaultProps={{ cambioEnFrame: FPS * 3 }}
+    />
+    <Composition
+      id="Fase0-Escena"
+      component={EscenaFase0}
+      width={1080}
+      height={1920}
+      fps={FPS}
+      durationInFrames={FPS * 7}
     />
   </>
 );

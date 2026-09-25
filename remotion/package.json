@@ -11,9 +11,13 @@
   "dependencies": {
     "@remotion/cli": "4.0.527",
     "@remotion/fonts": "4.0.527",
+    "@remotion/motion-blur": "4.0.527",
+    "@remotion/three": "4.0.527",
+    "@types/three": "0.160.0",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
-    "remotion": "4.0.527"
+    "remotion": "4.0.527",
+    "three": "0.160.0"
   },
   "devDependencies": {
     "@types/react": "^19.3.0",
