@@ -1,33 +1,33 @@
 {
   "video": "content/2026-09-25-manipulation-tactics-part-1",
-  "voz": "en-US-JennyNeural",
+  "voz": "en-US-GuyNeural",
   "formato": "standalone-animado",
   "audio": "content/2026-09-25-manipulation-tactics-part-1/audio/narracion.mp3",
-  "duracionNarracion": 70.387,
-  "duracionTotal": 71.887,
+  "duracionNarracion": 69.975,
+  "duracionTotal": 71.475,
   "segmentos": [
     {
       "n": 1,
       "texto": "You've been manipulated.",
       "inicio": 0.1,
-      "duracion": 2.063,
+      "duracion": 2.3,
       "palabras": [
         {
           "texto": "You've",
           "inicio": 0.0,
-          "fin": 0.238,
+          "fin": 0.3,
           "linea": 1
         },
         {
           "texto": "been",
-          "inicio": 0.25,
-          "fin": 0.412,
+          "inicio": 0.325,
+          "fin": 0.525,
           "linea": 1
         },
         {
           "texto": "manipulated.",
-          "inicio": 0.425,
-          "fin": 1.2,
+          "inicio": 0.55,
+          "fin": 1.438,
           "linea": 1
         }
       ],
@@ -36,61 +36,61 @@
     {
       "n": 2,
       "texto": "By a partner. A friend. Even your own family.",
-      "inicio": 2.163,
-      "duracion": 5.387,
+      "inicio": 2.4,
+      "duracion": 5.65,
       "palabras": [
         {
           "texto": "By",
           "inicio": 0.0,
-          "fin": 0.174,
+          "fin": 0.225,
           "linea": 2
         },
         {
           "texto": "a",
-          "inicio": 0.187,
-          "fin": 0.262,
+          "inicio": 0.25,
+          "fin": 0.337,
           "linea": 2
         },
         {
           "texto": "partner.",
-          "inicio": 0.275,
-          "fin": 0.862,
+          "inicio": 0.363,
+          "fin": 0.988,
           "linea": 2
         },
         {
           "texto": "A",
-          "inicio": 1.725,
-          "fin": 1.862,
+          "inicio": 1.85,
+          "fin": 1.988,
           "linea": 2
         },
         {
           "texto": "friend.",
-          "inicio": 1.874,
-          "fin": 2.399,
+          "inicio": 2.012,
+          "fin": 2.587,
           "linea": 2
         },
         {
           "texto": "Even",
-          "inicio": 3.262,
-          "fin": 3.562,
+          "inicio": 3.462,
+          "fin": 3.8,
           "linea": 2
         },
         {
           "texto": "your",
-          "inicio": 3.574,
-          "fin": 3.712,
+          "inicio": 3.825,
+          "fin": 4.025,
           "linea": 2
         },
         {
           "texto": "own",
-          "inicio": 3.725,
-          "fin": 3.899,
+          "inicio": 4.05,
+          "fin": 4.2,
           "linea": 2
         },
         {
           "texto": "family.",
-          "inicio": 3.912,
-          "fin": 4.525,
+          "inicio": 4.225,
+          "fin": 4.775,
           "linea": 2
         }
       ],
@@ -99,43 +99,43 @@
     {
       "n": 3,
       "texto": "And it was never an accident.",
-      "inicio": 7.55,
-      "duracion": 2.35,
+      "inicio": 8.05,
+      "duracion": 2.438,
       "palabras": [
         {
           "texto": "And",
           "inicio": 0.0,
-          "fin": 0.175,
+          "fin": 0.2,
           "linea": 3
         },
         {
           "texto": "it",
-          "inicio": 0.187,
-          "fin": 0.262,
+          "inicio": 0.225,
+          "fin": 0.325,
           "linea": 3
         },
         {
           "texto": "was",
-          "inicio": 0.275,
-          "fin": 0.437,
+          "inicio": 0.35,
+          "fin": 0.538,
           "linea": 3
         },
         {
           "texto": "never",
-          "inicio": 0.45,
-          "fin": 0.712,
+          "inicio": 0.55,
+          "fin": 0.888,
           "linea": 3
         },
         {
           "texto": "an",
-          "inicio": 0.725,
-          "fin": 0.813,
+          "inicio": 0.9,
+          "fin": 0.975,
           "linea": 3
         },
         {
           "texto": "accident.",
-          "inicio": 0.825,
-          "fin": 1.487,
+          "inicio": 1.0,
+          "fin": 1.575,
           "linea": 3
         }
       ],
@@ -144,43 +144,43 @@
     {
       "n": 4,
       "texto": "There are 5 tactics behind it.",
-      "inicio": 9.9,
-      "duracion": 2.713,
+      "inicio": 10.488,
+      "duracion": 2.687,
       "palabras": [
         {
           "texto": "There",
           "inicio": 0.0,
-          "fin": 0.175,
+          "fin": 0.225,
           "linea": 4
         },
         {
           "texto": "are",
-          "inicio": 0.188,
-          "fin": 0.275,
+          "inicio": 0.25,
+          "fin": 0.362,
           "linea": 4
         },
         {
           "texto": "5",
-          "inicio": 0.288,
-          "fin": 0.6,
+          "inicio": 0.387,
+          "fin": 0.712,
           "linea": 4
         },
         {
           "texto": "tactics",
-          "inicio": 0.612,
-          "fin": 1.125,
+          "inicio": 0.737,
+          "fin": 1.187,
           "linea": 4
         },
         {
           "texto": "behind",
-          "inicio": 1.137,
-          "fin": 1.563,
+          "inicio": 1.212,
+          "fin": 1.612,
           "linea": 4
         },
         {
           "texto": "it.",
-          "inicio": 1.575,
-          "fin": 1.85,
+          "inicio": 1.625,
+          "fin": 1.812,
           "linea": 4
         }
       ],
@@ -189,91 +189,91 @@
     {
       "n": 5,
       "texto": "This is Part 1 of 3 — and by the end, you'll never miss it again.",
-      "inicio": 12.613,
-      "duracion": 4.587,
+      "inicio": 13.175,
+      "duracion": 4.438,
       "palabras": [
         {
           "texto": "This",
           "inicio": 0.0,
-          "fin": 0.25,
+          "fin": 0.238,
           "linea": 5
         },
         {
           "texto": "is",
-          "inicio": 0.262,
+          "inicio": 0.263,
           "fin": 0.375,
           "linea": 5
         },
         {
           "texto": "Part 1",
-          "inicio": 0.387,
-          "fin": 0.799,
+          "inicio": 0.4,
+          "fin": 0.837,
           "linea": 5
         },
         {
           "texto": "of",
-          "inicio": 0.812,
-          "fin": 0.887,
+          "inicio": 0.85,
+          "fin": 0.938,
           "linea": 5
         },
         {
           "texto": "3 —",
-          "inicio": 0.899,
-          "fin": 1.325,
+          "inicio": 0.962,
+          "fin": 1.312,
           "linea": 5
         },
         {
           "texto": "and",
-          "inicio": 1.549,
-          "fin": 1.687,
+          "inicio": 1.425,
+          "fin": 1.538,
           "linea": 5
         },
         {
           "texto": "by",
-          "inicio": 1.699,
-          "fin": 1.85,
+          "inicio": 1.563,
+          "fin": 1.7,
           "linea": 5
         },
         {
           "texto": "the",
-          "inicio": 1.862,
-          "fin": 1.987,
+          "inicio": 1.712,
+          "fin": 1.825,
           "linea": 5
         },
         {
           "texto": "end,",
-          "inicio": 2.0,
-          "fin": 2.337,
+          "inicio": 1.85,
+          "fin": 2.15,
           "linea": 5
         },
         {
           "texto": "you'll",
-          "inicio": 2.475,
-          "fin": 2.65,
+          "inicio": 2.4,
+          "fin": 2.537,
           "linea": 5
         },
         {
           "texto": "never",
-          "inicio": 2.662,
-          "fin": 2.9,
+          "inicio": 2.563,
+          "fin": 2.825,
           "linea": 5
         },
         {
           "texto": "miss",
-          "inicio": 2.912,
-          "fin": 3.137,
+          "inicio": 2.85,
+          "fin": 3.05,
           "linea": 5
         },
         {
           "texto": "it",
-          "inicio": 3.149,
-          "fin": 3.237,
+          "inicio": 3.075,
+          "fin": 3.162,
           "linea": 5
         },
         {
           "texto": "again.",
-          "inicio": 3.25,
-          "fin": 3.725,
+          "inicio": 3.188,
+          "fin": 3.55,
           "linea": 5
         }
       ],
@@ -282,67 +282,67 @@
     {
       "n": 6,
       "texto": "Therapists see these same patterns in almost every unhealthy relationship.",
-      "inicio": 17.2,
-      "duracion": 4.825,
+      "inicio": 17.613,
+      "duracion": 4.662,
       "palabras": [
         {
           "texto": "Therapists",
           "inicio": 0.0,
-          "fin": 0.612,
+          "fin": 0.662,
           "linea": 6
         },
         {
           "texto": "see",
-          "inicio": 0.625,
-          "fin": 0.775,
+          "inicio": 0.687,
+          "fin": 0.812,
           "linea": 6
         },
         {
           "texto": "these",
-          "inicio": 0.788,
-          "fin": 1.0,
+          "inicio": 0.825,
+          "fin": 1.012,
           "linea": 6
         },
         {
           "texto": "same",
-          "inicio": 1.012,
-          "fin": 1.262,
+          "inicio": 1.037,
+          "fin": 1.274,
           "linea": 6
         },
         {
           "texto": "patterns",
-          "inicio": 1.275,
-          "fin": 1.8,
+          "inicio": 1.3,
+          "fin": 1.775,
           "linea": 6
         },
         {
           "texto": "in",
-          "inicio": 1.812,
-          "fin": 1.937,
+          "inicio": 1.787,
+          "fin": 1.862,
           "linea": 6
         },
         {
           "texto": "almost",
-          "inicio": 1.95,
-          "fin": 2.325,
+          "inicio": 1.887,
+          "fin": 2.262,
           "linea": 6
         },
         {
           "texto": "every",
-          "inicio": 2.338,
-          "fin": 2.588,
+          "inicio": 2.274,
+          "fin": 2.512,
           "linea": 6
         },
         {
           "texto": "unhealthy",
-          "inicio": 2.6,
-          "fin": 3.062,
+          "inicio": 2.537,
+          "fin": 2.987,
           "linea": 6
         },
         {
           "texto": "relationship.",
-          "inicio": 3.075,
-          "fin": 3.962,
+          "inicio": 3.0,
+          "fin": 3.787,
           "linea": 6
         }
       ],
@@ -351,121 +351,121 @@
     {
       "n": 7,
       "texto": "Tactic one is bad. Tactic three is the one that gets people the worst — stay till you hear it.",
-      "inicio": 22.025,
-      "duracion": 6.875,
+      "inicio": 22.275,
+      "duracion": 6.65,
       "palabras": [
         {
           "texto": "Tactic",
           "inicio": 0.0,
-          "fin": 0.45,
+          "fin": 0.462,
           "linea": 7
         },
         {
           "texto": "one",
-          "inicio": 0.463,
-          "fin": 0.638,
+          "inicio": 0.487,
+          "fin": 0.7,
           "linea": 7
         },
         {
           "texto": "is",
-          "inicio": 0.65,
-          "fin": 0.775,
+          "inicio": 0.725,
+          "fin": 0.85,
           "linea": 7
         },
         {
           "texto": "bad.",
-          "inicio": 0.787,
-          "fin": 1.237,
+          "inicio": 0.875,
+          "fin": 1.287,
           "linea": 7
         },
         {
           "texto": "Tactic",
-          "inicio": 2.1,
-          "fin": 2.55,
+          "inicio": 2.175,
+          "fin": 2.625,
           "linea": 7
         },
         {
           "texto": "three",
-          "inicio": 2.562,
-          "fin": 2.9,
+          "inicio": 2.65,
+          "fin": 2.925,
           "linea": 7
         },
         {
           "texto": "is",
-          "inicio": 2.913,
-          "fin": 3.05,
+          "inicio": 2.937,
+          "fin": 3.062,
           "linea": 7
         },
         {
           "texto": "the",
-          "inicio": 3.062,
-          "fin": 3.163,
+          "inicio": 3.088,
+          "fin": 3.2,
           "linea": 7
         },
         {
           "texto": "one",
-          "inicio": 3.175,
-          "fin": 3.425,
+          "inicio": 3.225,
+          "fin": 3.413,
           "linea": 7
         },
         {
           "texto": "that",
           "inicio": 3.437,
-          "fin": 3.587,
+          "fin": 3.575,
           "linea": 7
         },
         {
           "texto": "gets",
           "inicio": 3.6,
-          "fin": 3.825,
+          "fin": 3.812,
           "linea": 7
         },
         {
           "texto": "people",
           "inicio": 3.838,
-          "fin": 4.112,
+          "fin": 4.125,
           "linea": 7
         },
         {
           "texto": "the",
-          "inicio": 4.125,
-          "fin": 4.212,
+          "inicio": 4.138,
+          "fin": 4.25,
           "linea": 7
         },
         {
           "texto": "worst —",
-          "inicio": 4.225,
-          "fin": 4.713,
+          "inicio": 4.275,
+          "fin": 4.6,
           "linea": 7
         },
         {
           "texto": "stay",
-          "inicio": 4.888,
-          "fin": 5.138,
+          "inicio": 4.7,
+          "fin": 4.963,
           "linea": 7
         },
         {
           "texto": "till",
-          "inicio": 5.15,
-          "fin": 5.338,
+          "inicio": 4.975,
+          "fin": 5.175,
           "linea": 7
         },
         {
           "texto": "you",
-          "inicio": 5.35,
-          "fin": 5.463,
+          "inicio": 5.187,
+          "fin": 5.312,
           "linea": 7
         },
         {
           "texto": "hear",
-          "inicio": 5.475,
-          "fin": 5.725,
+          "inicio": 5.338,
+          "fin": 5.55,
           "linea": 7
         },
         {
           "texto": "it.",
-          "inicio": 5.737,
-          "fin": 6.012,
+          "inicio": 5.575,
+          "fin": 5.763,
           "linea": 7
         }
       ],
@@ -474,25 +474,25 @@
     {
       "n": 8,
       "texto": "Number one: gaslighting.",
-      "inicio": 28.9,
-      "duracion": 2.538,
+      "inicio": 28.925,
+      "duracion": 2.537,
       "palabras": [
         {
           "texto": "Number",
           "inicio": 0.0,
-          "fin": 0.375,
+          "fin": 0.438,
           "linea": 8
         },
         {
           "texto": "one:",
-          "inicio": 0.388,
-          "fin": 0.725,
+          "inicio": 0.462,
+          "fin": 0.763,
           "linea": 8
         },
         {
           "texto": "gaslighting.",
-          "inicio": 0.888,
-          "fin": 1.675,
+          "inicio": 0.95,
+          "fin": 1.65,
           "linea": 8
         }
       ],
@@ -501,67 +501,67 @@
     {
       "n": 9,
       "texto": "They make you doubt your own memory. Your own eyes.",
-      "inicio": 31.438,
-      "duracion": 4.337,
+      "inicio": 31.462,
+      "duracion": 4.476,
       "palabras": [
         {
           "texto": "They",
           "inicio": 0.0,
-          "fin": 0.149,
+          "fin": 0.163,
           "linea": 9
         },
         {
           "texto": "make",
-          "inicio": 0.162,
-          "fin": 0.374,
+          "inicio": 0.188,
+          "fin": 0.413,
           "linea": 9
         },
         {
           "texto": "you",
-          "inicio": 0.387,
-          "fin": 0.487,
+          "inicio": 0.438,
+          "fin": 0.563,
           "linea": 9
         },
         {
           "texto": "doubt",
-          "inicio": 0.5,
-          "fin": 0.762,
+          "inicio": 0.588,
+          "fin": 0.875,
           "linea": 9
         },
         {
           "texto": "your",
-          "inicio": 0.774,
-          "fin": 0.949,
+          "inicio": 0.9,
+          "fin": 1.088,
           "linea": 9
         },
         {
           "texto": "own",
-          "inicio": 0.962,
-          "fin": 1.112,
+          "inicio": 1.113,
+          "fin": 1.251,
           "linea": 9
         },
         {
           "texto": "memory.",
-          "inicio": 1.124,
-          "fin": 1.649,
+          "inicio": 1.275,
+          "fin": 1.788,
           "linea": 9
         },
         {
           "texto": "Your",
-          "inicio": 2.512,
-          "fin": 2.75,
+          "inicio": 2.663,
+          "fin": 2.926,
           "linea": 9
         },
         {
           "texto": "own",
-          "inicio": 2.762,
-          "fin": 2.937,
+          "inicio": 2.951,
+          "fin": 3.113,
           "linea": 9
         },
         {
           "texto": "eyes.",
-          "inicio": 2.95,
-          "fin": 3.475,
+          "inicio": 3.138,
+          "fin": 3.6,
           "linea": 9
         }
       ],
@@ -570,49 +570,49 @@
     {
       "n": 10,
       "texto": "'That never happened.' 'You're overreacting.' 'You're crazy.'",
-      "inicio": 35.775,
-      "duracion": 5.775,
+      "inicio": 35.938,
+      "duracion": 5.874,
       "palabras": [
         {
           "texto": "'That",
           "inicio": 0.0,
-          "fin": 0.237,
+          "fin": 0.312,
           "linea": 10
         },
         {
           "texto": "never",
-          "inicio": 0.25,
-          "fin": 0.525,
+          "inicio": 0.325,
+          "fin": 0.662,
           "linea": 10
         },
         {
           "texto": "happened.'",
-          "inicio": 0.537,
-          "fin": 1.087,
+          "inicio": 0.687,
+          "fin": 1.2,
           "linea": 10
         },
         {
           "texto": "'You're",
-          "inicio": 1.95,
-          "fin": 2.2,
+          "inicio": 2.062,
+          "fin": 2.362,
           "linea": 10
         },
         {
           "texto": "overreacting.'",
-          "inicio": 2.212,
-          "fin": 3.175,
+          "inicio": 2.387,
+          "fin": 3.3,
           "linea": 10
         },
         {
           "texto": "'You're",
-          "inicio": 4.037,
-          "fin": 4.263,
+          "inicio": 4.162,
+          "fin": 4.412,
           "linea": 10
         },
         {
           "texto": "crazy.'",
-          "inicio": 4.275,
-          "fin": 4.913,
+          "inicio": 4.437,
+          "fin": 5.0,
           "linea": 10
         }
       ],
@@ -621,61 +621,61 @@
     {
       "n": 11,
       "texto": "It's not confusion. It's control. It's control. It's control.",
-      "inicio": 41.55,
-      "duracion": 7.175,
+      "inicio": 41.812,
+      "duracion": 7.688,
       "palabras": [
         {
           "texto": "It's",
           "inicio": 0.0,
-          "fin": 0.212,
+          "fin": 0.238,
           "linea": 11
         },
         {
           "texto": "not",
-          "inicio": 0.225,
-          "fin": 0.437,
+          "inicio": 0.25,
+          "fin": 0.5,
           "linea": 11
         },
         {
           "texto": "confusion.",
-          "inicio": 0.45,
-          "fin": 1.175,
+          "inicio": 0.525,
+          "fin": 1.188,
           "linea": 11
         },
         {
           "texto": "It's",
-          "inicio": 2.037,
-          "fin": 2.25,
+          "inicio": 2.063,
+          "fin": 2.313,
           "linea": 11
         },
         {
           "texto": "control.",
-          "inicio": 2.262,
-          "fin": 2.888,
+          "inicio": 2.338,
+          "fin": 3.063,
           "linea": 11
         },
         {
           "texto": "It's",
-          "inicio": 3.75,
-          "fin": 3.962,
+          "inicio": 3.938,
+          "fin": 4.188,
           "linea": 11
         },
         {
           "texto": "control.",
-          "inicio": 3.975,
-          "fin": 4.6,
+          "inicio": 4.213,
+          "fin": 4.938,
           "linea": 11
         },
         {
           "texto": "It's",
-          "inicio": 5.463,
-          "fin": 5.675,
+          "inicio": 5.813,
+          "fin": 6.063,
           "linea": 11
         },
         {
           "texto": "control.",
-          "inicio": 5.687,
-          "fin": 6.312,
+          "inicio": 6.088,
+          "fin": 6.813,
           "linea": 11
         }
       ],
@@ -684,31 +684,31 @@
     {
       "n": 12,
       "texto": "Number two: love bombing.",
-      "inicio": 48.725,
-      "duracion": 2.525,
+      "inicio": 49.5,
+      "duracion": 2.587,
       "palabras": [
         {
           "texto": "Number",
           "inicio": 0.0,
-          "fin": 0.362,
+          "fin": 0.388,
           "linea": 12
         },
         {
           "texto": "two:",
-          "inicio": 0.375,
-          "fin": 0.75,
+          "inicio": 0.413,
+          "fin": 0.712,
           "linea": 12
         },
         {
           "texto": "love",
-          "inicio": 0.95,
-          "fin": 1.137,
+          "inicio": 0.962,
+          "fin": 1.237,
           "linea": 12
         },
         {
           "texto": "bombing.",
-          "inicio": 1.15,
-          "fin": 1.663,
+          "inicio": 1.263,
+          "fin": 1.725,
           "linea": 12
         }
       ],
@@ -717,67 +717,67 @@
     {
       "n": 13,
       "texto": "Too much, too fast — gifts, texts, 'soulmate,' in week one.",
-      "inicio": 51.25,
-      "duracion": 5.425,
+      "inicio": 52.087,
+      "duracion": 4.601,
       "palabras": [
         {
           "texto": "Too",
           "inicio": 0.0,
-          "fin": 0.212,
+          "fin": 0.175,
           "linea": 13
         },
         {
           "texto": "much,",
-          "inicio": 0.225,
-          "fin": 0.675,
+          "inicio": 0.188,
+          "fin": 0.5,
           "linea": 13
         },
         {
           "texto": "too",
-          "inicio": 0.85,
-          "fin": 1.05,
+          "inicio": 0.65,
+          "fin": 0.825,
           "linea": 13
         },
         {
           "texto": "fast —",
-          "inicio": 1.062,
-          "fin": 1.562,
+          "inicio": 0.851,
+          "fin": 1.213,
           "linea": 13
         },
         {
           "texto": "gifts,",
-          "inicio": 1.725,
-          "fin": 2.2,
+          "inicio": 1.313,
+          "fin": 1.65,
           "linea": 13
         },
         {
           "texto": "texts,",
-          "inicio": 2.35,
-          "fin": 2.888,
+          "inicio": 1.801,
+          "fin": 2.213,
           "linea": 13
         },
         {
           "texto": "'soulmate,'",
-          "inicio": 3.05,
-          "fin": 3.587,
+          "inicio": 2.363,
+          "fin": 2.826,
           "linea": 13
         },
         {
           "texto": "in",
-          "inicio": 3.75,
-          "fin": 3.888,
+          "inicio": 2.988,
+          "fin": 3.138,
           "linea": 13
         },
         {
           "texto": "week",
-          "inicio": 3.9,
-          "fin": 4.137,
+          "inicio": 3.163,
+          "fin": 3.351,
           "linea": 13
         },
         {
           "texto": "one.",
-          "inicio": 4.15,
-          "fin": 4.562,
+          "inicio": 3.375,
+          "fin": 3.713,
           "linea": 13
         }
       ],
@@ -786,43 +786,43 @@
     {
       "n": 14,
       "texto": "It's not passion. It's a hook.",
-      "inicio": 56.675,
-      "duracion": 3.55,
+      "inicio": 56.688,
+      "duracion": 3.524,
       "palabras": [
         {
           "texto": "It's",
           "inicio": 0.0,
-          "fin": 0.2,
+          "fin": 0.225,
           "linea": 14
         },
         {
           "texto": "not",
-          "inicio": 0.213,
-          "fin": 0.425,
+          "inicio": 0.237,
+          "fin": 0.487,
           "linea": 14
         },
         {
           "texto": "passion.",
-          "inicio": 0.437,
-          "fin": 1.05,
+          "inicio": 0.512,
+          "fin": 1.012,
           "linea": 14
         },
         {
           "texto": "It's",
-          "inicio": 1.912,
-          "fin": 2.113,
+          "inicio": 1.887,
+          "fin": 2.124,
           "linea": 14
         },
         {
           "texto": "a",
-          "inicio": 2.125,
-          "fin": 2.187,
+          "inicio": 2.149,
+          "fin": 2.225,
           "linea": 14
         },
         {
           "texto": "hook.",
-          "inicio": 2.2,
-          "fin": 2.687,
+          "inicio": 2.237,
+          "fin": 2.662,
           "linea": 14
         }
       ],
@@ -831,67 +831,67 @@
     {
       "n": 15,
       "texto": "The faster it starts, the harder it can trap you.",
-      "inicio": 60.225,
-      "duracion": 3.563,
+      "inicio": 60.212,
+      "duracion": 3.551,
       "palabras": [
         {
           "texto": "The",
           "inicio": 0.0,
-          "fin": 0.138,
+          "fin": 0.15,
           "linea": 15
         },
         {
           "texto": "faster",
-          "inicio": 0.15,
-          "fin": 0.563,
+          "inicio": 0.176,
+          "fin": 0.613,
           "linea": 15
         },
         {
           "texto": "it",
-          "inicio": 0.575,
-          "fin": 0.675,
+          "inicio": 0.638,
+          "fin": 0.713,
           "linea": 15
         },
         {
           "texto": "starts,",
-          "inicio": 0.688,
-          "fin": 1.225,
+          "inicio": 0.738,
+          "fin": 1.163,
           "linea": 15
         },
         {
           "texto": "the",
-          "inicio": 1.362,
-          "fin": 1.45,
+          "inicio": 1.338,
+          "fin": 1.438,
           "linea": 15
         },
         {
           "texto": "harder",
-          "inicio": 1.463,
-          "fin": 1.788,
+          "inicio": 1.451,
+          "fin": 1.813,
           "linea": 15
         },
         {
           "texto": "it",
-          "inicio": 1.8,
-          "fin": 1.887,
+          "inicio": 1.838,
+          "fin": 1.913,
           "linea": 15
         },
         {
           "texto": "can",
-          "inicio": 1.9,
-          "fin": 2.05,
+          "inicio": 1.938,
+          "fin": 2.076,
           "linea": 15
         },
         {
           "texto": "trap",
-          "inicio": 2.063,
-          "fin": 2.35,
+          "inicio": 2.1,
+          "fin": 2.426,
           "linea": 15
         },
         {
           "texto": "you.",
-          "inicio": 2.362,
-          "fin": 2.7,
+          "inicio": 2.451,
+          "fin": 2.676,
           "linea": 15
         }
       ],
@@ -900,91 +900,91 @@
     {
       "n": 16,
       "texto": "Tactic three is the one almost nobody notices — until it's already working on them.",
-      "inicio": 63.788,
-      "duracion": 5.587,
+      "inicio": 63.763,
+      "duracion": 5.224,
       "palabras": [
         {
           "texto": "Tactic",
           "inicio": 0.0,
-          "fin": 0.449,
+          "fin": 0.437,
           "linea": 16
         },
         {
           "texto": "three",
           "inicio": 0.462,
-          "fin": 0.824,
+          "fin": 0.699,
           "linea": 16
         },
         {
           "texto": "is",
-          "inicio": 0.837,
-          "fin": 0.987,
+          "inicio": 0.712,
+          "fin": 0.837,
           "linea": 16
         },
         {
           "texto": "the",
-          "inicio": 0.999,
-          "fin": 1.099,
+          "inicio": 0.862,
+          "fin": 0.974,
           "linea": 16
         },
         {
           "texto": "one",
-          "inicio": 1.112,
-          "fin": 1.375,
+          "inicio": 1.0,
+          "fin": 1.2,
           "linea": 16
         },
         {
           "texto": "almost",
-          "inicio": 1.387,
-          "fin": 1.737,
+          "inicio": 1.224,
+          "fin": 1.587,
           "linea": 16
         },
         {
           "texto": "nobody",
-          "inicio": 1.749,
-          "fin": 2.087,
+          "inicio": 1.612,
+          "fin": 1.987,
           "linea": 16
         },
         {
           "texto": "notices —",
-          "inicio": 2.1,
-          "fin": 2.824,
+          "inicio": 2.012,
+          "fin": 2.6,
           "linea": 16
         },
         {
           "texto": "until",
-          "inicio": 3.037,
-          "fin": 3.324,
+          "inicio": 2.712,
+          "fin": 2.987,
           "linea": 16
         },
         {
           "texto": "it's",
-          "inicio": 3.337,
-          "fin": 3.475,
+          "inicio": 3.0,
+          "fin": 3.137,
           "linea": 16
         },
         {
           "texto": "already",
-          "inicio": 3.487,
-          "fin": 3.825,
+          "inicio": 3.149,
+          "fin": 3.549,
           "linea": 16
         },
         {
           "texto": "working",
-          "inicio": 3.837,
-          "fin": 4.237,
+          "inicio": 3.575,
+          "fin": 3.962,
           "linea": 16
         },
         {
           "texto": "on",
-          "inicio": 4.249,
-          "fin": 4.387,
+          "inicio": 3.974,
+          "fin": 4.099,
           "linea": 16
         },
         {
           "texto": "them.",
-          "inicio": 4.4,
-          "fin": 4.725,
+          "inicio": 4.125,
+          "fin": 4.337,
           "linea": 16
         }
       ],
@@ -993,19 +993,19 @@
     {
       "n": 17,
       "texto": "That's Part 2.",
-      "inicio": 69.375,
-      "duracion": 2.512,
+      "inicio": 68.987,
+      "duracion": 2.488,
       "palabras": [
         {
           "texto": "That's",
           "inicio": 0.0,
-          "fin": 0.275,
+          "fin": 0.3,
           "linea": 17
         },
         {
           "texto": "Part 2",
-          "inicio": 0.287,
-          "fin": 1.012,
+          "inicio": 0.313,
+          "fin": 0.988,
           "linea": 17
         }
       ],
