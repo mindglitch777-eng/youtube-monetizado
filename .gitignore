@@ -6,6 +6,7 @@ __pycache__/
 !assets/sonido/*.mp3
 !content/*/audio/*.mp3
 !assets/musica/*.mp3
+!content/*/clips/*.mp4
 /content/*/output.mp4
 content/zz-prueba/
 remotion/public/
