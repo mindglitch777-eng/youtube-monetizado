@@ -1,13 +1,14 @@
 import type { Timeline } from "./tipos";
 
-// RULES.md, sección Shorts: 1 por bloque, menos de 60 s, vertical 9:16, con las
-// mismas imágenes, subtítulos, sonidos e ícono del video largo.
-export const MAX_SEGUNDOS = 60;
+// RULES.md, sección Shorts: 1 por bloque, hasta 180 s (límite real de YouTube
+// Shorts desde oct. 2024), vertical 9:16, con las mismas imágenes, subtítulos,
+// sonidos e ícono del video largo.
+export const MAX_SEGUNDOS = 180;
 const COLA = 1.5; // segundos después del Pago para que suene el sting
 const STING = "assets/sonido/cierre.mp3";
 
 // Arma el timeline de un short: un short standalone se usa entero; un video
-// largo se recorta al bloque pedido. En los dos casos, debe durar menos de 60 s.
+// largo se recorta al bloque pedido. En los dos casos, debe durar menos de 180 s.
 export function prepararShort(timeline: Timeline, bloque: number): Timeline {
   const short = timeline.formato === "short" ? timeline : recortarBloque(timeline, bloque);
   if (short.duracionTotal >= MAX_SEGUNDOS) {

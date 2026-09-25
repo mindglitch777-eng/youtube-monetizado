@@ -69,7 +69,7 @@ VOLUMEN_CLICK = 0.3     # click suave en cada palabra resaltada (sin ding)
 ADELANTO_WHOOSH = 0.25  # el whoosh arranca un poco antes del corte de escena
 ADELANTO_PARTE = 0.15   # margen antes de la primera palabra de cada parte
 AJUSTE_CORTE = 0.6      # un corte de imagen se corre hasta a la palabra más cercana
-MAX_SEGUNDOS = 60       # RULES.md, sección Shorts
+MAX_SEGUNDOS = 180      # RULES.md, sección Shorts
 
 COMENTARIO = re.compile(r"<!--(.*?)-->", re.DOTALL)
 ESCENA = re.compile(r"^#\s+escena\s+(\d+)\s*$", re.IGNORECASE)

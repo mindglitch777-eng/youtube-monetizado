@@ -9,7 +9,7 @@ reglas ahí son obligatorias.
 
 ## Calendario
 - 2 videos largos por semana.
-- 6 shorts reciclados por video (1 por bloque), vertical 9:16, menos de 60 s.
+- 6 shorts reciclados por video (1 por bloque), vertical 9:16, hasta 180 s.
 
 ## Pipeline
 1. El guion se escribe en el chat con Claude Code a partir de un tema, siguiendo RULES.md: 6 bloques (Hook, Gancho2, Cuerpo, Pago), sin intro, con solo el sonido de transición (whoosh) entre bloques, y un único CTA al final del último bloque. Se guarda en content/<nombre-video>/guion.md y se valida con `python scripts/validar_guion.py content/<nombre-video>/guion.md` — solo se sigue al paso 2 si termina en "LISTO PARA GENERAR IMÁGENES"

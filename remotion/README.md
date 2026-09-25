@@ -18,7 +18,7 @@ El render se hace a mano (no corre en GitHub Actions).
 - `Video`: 1920×1080, 30 fps. La duración sale del timeline.
 - `Short`: 1080×1920 (9:16), un bloque del video largo con las mismas imágenes
   recortadas al centro, sin generar imágenes nuevas. Deja afuera el CTA y
-  cierra con el sting al terminar el Pago. Si el bloque dura 60 s o más, el
+  cierra con el sting al terminar el Pago. Si el bloque dura 180 s o más, el
   render se detiene con un error (RULES.md, sección Shorts).
 - Subtítulos: franjas de máximo 5 palabras, Montserrat 900 blanca con contorno
   oscuro, en el tercio superior-medio. La palabra en **negrita** de cada
