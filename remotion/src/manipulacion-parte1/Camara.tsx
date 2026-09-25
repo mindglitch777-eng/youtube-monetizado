@@ -11,9 +11,9 @@ export function useCamara(framesDeGolpe: number[]) {
   const { fps, durationInFrames } = useVideoConfig();
 
   const avance = frame / durationInFrames;
-  const panX = interpolate(avance, [0, 1], [-22, 22]);
-  const panY = interpolate(avance, [0, 1], [8, -8]);
-  const zoom = interpolate(avance, [0, 1], [1, 1.09]);
+  const panX = interpolate(avance, [0, 1], [-38, 38]);
+  const panY = interpolate(avance, [0, 1], [14, -14]);
+  const zoom = interpolate(avance, [0, 1], [1, 1.16]);
 
   let shakeX = 0;
   let shakeRot = 0;

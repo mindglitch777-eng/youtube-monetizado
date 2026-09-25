@@ -8,14 +8,15 @@ import {
   BannerSuperior,
   CitasSecuenciales,
   Contador,
+  DosNiveles,
   NombreTactica,
   PalabrasConGlow,
   ReglaDeTresControl,
   RefuerzoSobreClip,
+  TAMANOS,
   TextoConContraccion,
   TextoCorteSeco,
   TextoGanchoRetencion,
-  TextoHook,
   TextoLento,
   framePalabra,
   indiceDePalabra,
@@ -53,7 +54,7 @@ export const ManipulacionParte1: React.FC<{ timeline: TimelineStandalone }> = ({
 
     return {
       golpesCamara: [frameAccidente, frameFlashLinea7, ...framesControl],
-      hitsSonido: [desdeFrameDe(1), frameFlashLinea7, desdeFrameDe(10), ...framesControl],
+      hitsSonido: [desdeFrameDe(1), frameAccidente, frameFlashLinea7, desdeFrameDe(10), ...framesControl],
       whooshes: lineas.slice(1).map((l) => f(l.inicio)), // todas menos la línea 1 (no hay corte "antes" del video)
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -101,16 +102,22 @@ export const ManipulacionParte1: React.FC<{ timeline: TimelineStandalone }> = ({
         <AbsoluteFill style={{ transform: camara.transform }}>
           <Escena1 lineas={lineas} f={f} />
           <Escena2 lineas={lineas} f={f} />
-          <EscenaIconoYCaption n={3} lineas={lineas} f={f} icono={<Grieta desdeFrame={0} intensidad={1} />} />
+          <EscenaIconoYCaption
+            n={3}
+            lineas={lineas}
+            f={f}
+            icono={<Grieta desdeFrame={0} intensidad={1} />}
+            extra={<DosNiveles contexto="IT WAS NEVER" keyword="AN ACCIDENT" desdeFrame={0} color="#FF3B3B" rotacion={-13} entrada="rotacion" />}
+          />
           <EscenaNumero5 lineas={lineas} f={f} />
           <EscenaFigura n={6} lineas={lineas} f={f} icono={<FiguraAutoridad desdeFrame={0} />} />
           <Escena7 lineas={lineas} f={f} />
           <EscenaTactica n={8} contador={1} color="#FF3B3B" lineas={lineas} f={f} />
-          <EscenaClip n={9} archivo="content/2026-09-25-manipulation-tactics-part-1/clips/clip-a-gaslighting.mp4" color="#FF3B3B" lineas={lineas} f={f} />
+          <EscenaClip n={9} archivo="content/2026-09-25-manipulation-tactics-part-1/clips/clip-a-gaslighting.mp4" color="#FF3B3B" frase="DOUBT YOUR OWN MEMORY" lineas={lineas} f={f} />
           <Escena10 lineas={lineas} f={f} />
           <Escena11 lineas={lineas} f={f} />
           <EscenaTactica n={12} contador={2} color="#FF9B3B" lineas={lineas} f={f} />
-          <EscenaClip n={13} archivo="content/2026-09-25-manipulation-tactics-part-1/clips/clip-b-love-bombing.mp4" color="#FF9B3B" lineas={lineas} f={f} />
+          <EscenaClip n={13} archivo="content/2026-09-25-manipulation-tactics-part-1/clips/clip-b-love-bombing.mp4" color="#FF9B3B" frase="TOO MUCH, TOO FAST" lineas={lineas} f={f} />
           <EscenaFigura n={14} lineas={lineas} f={f} icono={<Anzuelo desdeFrame={0} />} />
           <EscenaIconoYCaption n={15} lineas={lineas} f={f} icono={<Grieta desdeFrame={0} intensidad={2} />} extra={<TextoConContraccion linea={lineas[14]} desdeFrameLinea={0} />} />
           <Escena16 lineas={lineas} f={f} />
@@ -133,18 +140,28 @@ export const ManipulacionParte1: React.FC<{ timeline: TimelineStandalone }> = ({
 
 type Props = { lineas: TimelineStandalone["segmentos"]; f: (s: number) => number };
 
+// Zoom local por plano (Ken Burns suave), además del paneo/zoom global de
+// Camara.tsx — en las referencias, CADA plano tiene su propio movimiento,
+// no solo un drift general de toda la cámara.
+const ZoomLocal: React.FC<{ duracionFrames: number; children: React.ReactNode }> = ({ duracionFrames, children }) => {
+  const frame = useCurrentFrame();
+  const zoom = interpolate(frame, [0, duracionFrames], [1, 1.07], { extrapolateRight: "clamp" });
+  return <AbsoluteFill style={{ transform: `scale(${zoom})`, alignItems: "center", justifyContent: "center" }}>{children}</AbsoluteFill>;
+};
+
 const Contenedor: React.FC<{ n: number; f: Props["f"]; lineas: Props["lineas"]; children: React.ReactNode }> = ({ n, f, lineas, children }) => {
   const linea = lineas[n - 1];
+  const duracionFrames = f(linea.duracion);
   return (
-    <Sequence from={f(linea.inicio)} durationInFrames={f(linea.duracion)} layout="none">
-      <AbsoluteFill style={{ alignItems: "center", justifyContent: "center" }}>{children}</AbsoluteFill>
+    <Sequence from={f(linea.inicio)} durationInFrames={duracionFrames} layout="none">
+      <ZoomLocal duracionFrames={duracionFrames}>{children}</ZoomLocal>
     </Sequence>
   );
 };
 
 const Escena1: React.FC<Props> = ({ lineas, f }) => (
   <Contenedor n={1} f={f} lineas={lineas}>
-    <TextoHook texto={lineas[0].texto} desdeFrame={0} />
+    <DosNiveles contexto="YOU'VE BEEN" keyword="MANIPULATED." desdeFrame={0} tamanoKeyword={TAMANOS.HOOK} glitch />
   </Contenedor>
 );
 
@@ -181,7 +198,7 @@ const EscenaFigura: React.FC<Props & { n: number; icono: React.ReactNode }> = ({
 
 const Escena7: React.FC<Props> = ({ lineas, f }) => (
   <Contenedor n={7} f={f} lineas={lineas}>
-    <TextoGanchoRetencion texto={lineas[6].texto} desdeFrame={0} />
+    <TextoGanchoRetencion contexto="TACTIC THREE IS THE ONE" keyword="THAT GETS PEOPLE WORST" desdeFrame={0} />
   </Contenedor>
 );
 
@@ -196,12 +213,12 @@ const EscenaTactica: React.FC<Props & { n: number; contador: number; color: stri
   );
 };
 
-const EscenaClip: React.FC<Props & { n: number; archivo: string; color: string }> = ({ n, archivo, color, lineas, f }) => {
+const EscenaClip: React.FC<Props & { n: number; archivo: string; color: string; frase: string }> = ({ n, archivo, color, frase, lineas, f }) => {
   const linea = lineas[n - 1];
   return (
     <Sequence from={f(linea.inicio)} durationInFrames={f(linea.duracion)} layout="none">
       <ClipReal archivo={archivo} desdeFrame={0} duracionFrames={f(linea.duracion)} />
-      <RefuerzoSobreClip texto={linea.texto.split(".")[0]} desdeFrame={6} color={color} />
+      <RefuerzoSobreClip texto={frase} desdeFrame={6} color={color} />
     </Sequence>
   );
 };
@@ -225,7 +242,7 @@ const Escena11: React.FC<Props> = ({ lineas, f }) => (
 
 const Escena16: React.FC<Props> = ({ lineas, f }) => (
   <Contenedor n={16} f={f} lineas={lineas}>
-    <TextoLento texto={lineas[15].texto} desdeFrame={0} />
+    <TextoLento texto="ALMOST NOBODY NOTICES" desdeFrame={0} />
   </Contenedor>
 );
 

@@ -29,12 +29,19 @@ export const Numero5: React.FC<{ desdeFrame: number; color?: string }> = ({ desd
 };
 
 // Línea 6: silueta mínima de una figura de autoridad (terapeuta), chica y
-// decorativa — no una escena ilustrada completa.
+// decorativa — no una escena ilustrada completa. Nunca queda estática: leve
+// rotación/balanceo continuo, igual que los íconos de los videos de
+// referencia (nada se queda quieto del todo).
 export const FiguraAutoridad: React.FC<{ desdeFrame: number; color?: string }> = ({ desdeFrame, color = "#3BA7FF" }) => {
+  const frame = useCurrentFrame();
   const t = useEntrada(desdeFrame);
   const y = interpolate(t, [0, 1], [30, 0]);
+  const idle = Math.sin(frame / 20) * 3;
   return (
-    <svg width={140} height={170} viewBox="0 0 70 85" style={{ opacity: t, transform: `translateY(${y}px)` }}>
+    <svg
+      width={190} height={230} viewBox="0 0 70 85"
+      style={{ opacity: t, transform: `translateY(${y}px) rotate(${idle}deg)`, filter: `drop-shadow(0 0 22px ${color}88)` }}
+    >
       <circle cx="35" cy="22" r="14" fill={color} />
       <path d="M12 85 C12 55 20 44 35 44 C50 44 58 55 58 85 Z" fill={color} />
       <rect x="20" y="50" width="30" height="6" rx="3" fill="#000" opacity="0.35" />
@@ -42,20 +49,30 @@ export const FiguraAutoridad: React.FC<{ desdeFrame: number; color?: string }> =
   );
 };
 
-// Línea 14: anzuelo simple — "no es pasión, es un anzuelo".
+// Línea 14: anzuelo — forma clásica de gancho de pesca (vara recta + curva
+// en J + púa), no ambigua a tamaño chico. "No es pasión, es un anzuelo".
+// Balanceo continuo (idle) además del balanceo de entrada.
 export const Anzuelo: React.FC<{ desdeFrame: number; color?: string }> = ({ desdeFrame, color = "#FF9B3B" }) => {
+  const frame = useCurrentFrame();
   const t = useEntrada(desdeFrame, { damping: 9, stiffness: 160 });
-  const balanceo = Math.sin(useCurrentFrame() / 6) * 4 * t;
+  const balanceo = Math.sin(frame / 6) * 4 * t + Math.sin(frame / 25) * 3;
   return (
     <svg
-      width={150} height={220} viewBox="0 0 75 110"
-      style={{ opacity: t, transform: `translateY(${interpolate(t, [0, 1], [-40, 0])}px) rotate(${balanceo}deg)`, transformOrigin: "37px 0px" }}
+      width={170} height={260} viewBox="0 0 100 150"
+      style={{
+        opacity: t, transform: `translateY(${interpolate(t, [0, 1], [-40, 0])}px) rotate(${balanceo}deg)`,
+        transformOrigin: "50px 0px", filter: `drop-shadow(0 0 22px ${color}aa)`,
+      }}
     >
-      <line x1="37" y1="0" x2="37" y2="55" stroke={color} strokeWidth="4" />
+      {/* Vara recta colgando */}
+      <line x1="50" y1="0" x2="50" y2="72" stroke={color} strokeWidth="9" strokeLinecap="round" />
+      {/* Curva en J del anzuelo */}
       <path
-        d="M37 55 C37 85 15 92 15 72 C15 60 28 58 32 68"
-        fill="none" stroke={color} strokeWidth="6" strokeLinecap="round"
+        d="M50 72 C50 104 26 112 20 92 C16 78 28 74 34 84"
+        fill="none" stroke={color} strokeWidth="9" strokeLinecap="round"
       />
+      {/* Púa (la puntita que engancha) */}
+      <path d="M34 84 L44 80" fill="none" stroke={color} strokeWidth="7" strokeLinecap="round" />
     </svg>
   );
 };
@@ -67,20 +84,25 @@ export const Grieta: React.FC<{ desdeFrame: number; intensidad: number }> = ({ d
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = spring({ frame: frame - desdeFrame, fps, config: { damping: 20, stiffness: 60 } });
-  const largo = interpolate(t, [0, 1], [0, 1]) * intensidad;
+  const pulso = 1 + Math.sin(frame / 10) * 0.04;
+  const largo = interpolate(t, [0, 1], [0, 1]) * intensidad * pulso;
   return (
     <svg
-      width={220} height={340} viewBox="0 0 110 170"
-      style={{ position: "absolute", top: 0, right: 0, opacity: interpolate(t, [0, 0.3, 1], [0, 0.9, 0.75]) }}
+      width={340} height={460} viewBox="0 0 110 170"
+      style={{ position: "absolute", top: 0, right: 0, opacity: interpolate(t, [0, 0.3, 1], [0, 1, 0.92]) }}
     >
       <path
         d={`M110 0 L${110 - 38 * largo} ${58 * largo} L${110 - 20 * largo} ${95 * largo} L${110 - 55 * largo} ${150 * largo}`}
-        fill="none" stroke="#FFFFFF" strokeWidth="2.5" strokeLinecap="round"
-        style={{ filter: "drop-shadow(0 0 6px rgba(255,255,255,0.7))" }}
+        fill="none" stroke="#FFFFFF" strokeWidth="4" strokeLinecap="round"
+        style={{ filter: "drop-shadow(0 0 14px rgba(255,255,255,0.95))" }}
       />
       <path
         d={`M${110 - 38 * largo} ${58 * largo} L${110 - 14 * largo} ${70 * largo}`}
-        fill="none" stroke="#FFFFFF" strokeWidth="1.8" strokeLinecap="round" opacity={0.8}
+        fill="none" stroke="#FFFFFF" strokeWidth="2.6" strokeLinecap="round" opacity={0.85}
+      />
+      <path
+        d={`M${110 - 20 * largo} ${95 * largo} L${110 + 4 * largo} ${112 * largo}`}
+        fill="none" stroke="#FFFFFF" strokeWidth="2.2" strokeLinecap="round" opacity={0.7}
       />
     </svg>
   );
