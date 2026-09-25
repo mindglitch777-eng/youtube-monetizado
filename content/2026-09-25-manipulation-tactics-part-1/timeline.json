@@ -1,0 +1,1015 @@
+{
+  "video": "content/2026-09-25-manipulation-tactics-part-1",
+  "voz": "en-US-JennyNeural",
+  "formato": "standalone-animado",
+  "audio": "content/2026-09-25-manipulation-tactics-part-1/audio/narracion.mp3",
+  "duracionNarracion": 70.387,
+  "duracionTotal": 71.887,
+  "segmentos": [
+    {
+      "n": 1,
+      "texto": "You've been manipulated.",
+      "inicio": 0.1,
+      "duracion": 2.063,
+      "palabras": [
+        {
+          "texto": "You've",
+          "inicio": 0.0,
+          "fin": 0.238,
+          "linea": 1
+        },
+        {
+          "texto": "been",
+          "inicio": 0.25,
+          "fin": 0.412,
+          "linea": 1
+        },
+        {
+          "texto": "manipulated.",
+          "inicio": 0.425,
+          "fin": 1.2,
+          "linea": 1
+        }
+      ],
+      "destacada": 2
+    },
+    {
+      "n": 2,
+      "texto": "By a partner. A friend. Even your own family.",
+      "inicio": 2.163,
+      "duracion": 5.387,
+      "palabras": [
+        {
+          "texto": "By",
+          "inicio": 0.0,
+          "fin": 0.174,
+          "linea": 2
+        },
+        {
+          "texto": "a",
+          "inicio": 0.187,
+          "fin": 0.262,
+          "linea": 2
+        },
+        {
+          "texto": "partner.",
+          "inicio": 0.275,
+          "fin": 0.862,
+          "linea": 2
+        },
+        {
+          "texto": "A",
+          "inicio": 1.725,
+          "fin": 1.862,
+          "linea": 2
+        },
+        {
+          "texto": "friend.",
+          "inicio": 1.874,
+          "fin": 2.399,
+          "linea": 2
+        },
+        {
+          "texto": "Even",
+          "inicio": 3.262,
+          "fin": 3.562,
+          "linea": 2
+        },
+        {
+          "texto": "your",
+          "inicio": 3.574,
+          "fin": 3.712,
+          "linea": 2
+        },
+        {
+          "texto": "own",
+          "inicio": 3.725,
+          "fin": 3.899,
+          "linea": 2
+        },
+        {
+          "texto": "family.",
+          "inicio": 3.912,
+          "fin": 4.525,
+          "linea": 2
+        }
+      ],
+      "destacada": null
+    },
+    {
+      "n": 3,
+      "texto": "And it was never an accident.",
+      "inicio": 7.55,
+      "duracion": 2.35,
+      "palabras": [
+        {
+          "texto": "And",
+          "inicio": 0.0,
+          "fin": 0.175,
+          "linea": 3
+        },
+        {
+          "texto": "it",
+          "inicio": 0.187,
+          "fin": 0.262,
+          "linea": 3
+        },
+        {
+          "texto": "was",
+          "inicio": 0.275,
+          "fin": 0.437,
+          "linea": 3
+        },
+        {
+          "texto": "never",
+          "inicio": 0.45,
+          "fin": 0.712,
+          "linea": 3
+        },
+        {
+          "texto": "an",
+          "inicio": 0.725,
+          "fin": 0.813,
+          "linea": 3
+        },
+        {
+          "texto": "accident.",
+          "inicio": 0.825,
+          "fin": 1.487,
+          "linea": 3
+        }
+      ],
+      "destacada": 5
+    },
+    {
+      "n": 4,
+      "texto": "There are 5 tactics behind it.",
+      "inicio": 9.9,
+      "duracion": 2.713,
+      "palabras": [
+        {
+          "texto": "There",
+          "inicio": 0.0,
+          "fin": 0.175,
+          "linea": 4
+        },
+        {
+          "texto": "are",
+          "inicio": 0.188,
+          "fin": 0.275,
+          "linea": 4
+        },
+        {
+          "texto": "5",
+          "inicio": 0.288,
+          "fin": 0.6,
+          "linea": 4
+        },
+        {
+          "texto": "tactics",
+          "inicio": 0.612,
+          "fin": 1.125,
+          "linea": 4
+        },
+        {
+          "texto": "behind",
+          "inicio": 1.137,
+          "fin": 1.563,
+          "linea": 4
+        },
+        {
+          "texto": "it.",
+          "inicio": 1.575,
+          "fin": 1.85,
+          "linea": 4
+        }
+      ],
+      "destacada": 2
+    },
+    {
+      "n": 5,
+      "texto": "This is Part 1 of 3 — and by the end, you'll never miss it again.",
+      "inicio": 12.613,
+      "duracion": 4.587,
+      "palabras": [
+        {
+          "texto": "This",
+          "inicio": 0.0,
+          "fin": 0.25,
+          "linea": 5
+        },
+        {
+          "texto": "is",
+          "inicio": 0.262,
+          "fin": 0.375,
+          "linea": 5
+        },
+        {
+          "texto": "Part 1",
+          "inicio": 0.387,
+          "fin": 0.799,
+          "linea": 5
+        },
+        {
+          "texto": "of",
+          "inicio": 0.812,
+          "fin": 0.887,
+          "linea": 5
+        },
+        {
+          "texto": "3 —",
+          "inicio": 0.899,
+          "fin": 1.325,
+          "linea": 5
+        },
+        {
+          "texto": "and",
+          "inicio": 1.549,
+          "fin": 1.687,
+          "linea": 5
+        },
+        {
+          "texto": "by",
+          "inicio": 1.699,
+          "fin": 1.85,
+          "linea": 5
+        },
+        {
+          "texto": "the",
+          "inicio": 1.862,
+          "fin": 1.987,
+          "linea": 5
+        },
+        {
+          "texto": "end,",
+          "inicio": 2.0,
+          "fin": 2.337,
+          "linea": 5
+        },
+        {
+          "texto": "you'll",
+          "inicio": 2.475,
+          "fin": 2.65,
+          "linea": 5
+        },
+        {
+          "texto": "never",
+          "inicio": 2.662,
+          "fin": 2.9,
+          "linea": 5
+        },
+        {
+          "texto": "miss",
+          "inicio": 2.912,
+          "fin": 3.137,
+          "linea": 5
+        },
+        {
+          "texto": "it",
+          "inicio": 3.149,
+          "fin": 3.237,
+          "linea": 5
+        },
+        {
+          "texto": "again.",
+          "inicio": 3.25,
+          "fin": 3.725,
+          "linea": 5
+        }
+      ],
+      "destacada": null
+    },
+    {
+      "n": 6,
+      "texto": "Therapists see these same patterns in almost every unhealthy relationship.",
+      "inicio": 17.2,
+      "duracion": 4.825,
+      "palabras": [
+        {
+          "texto": "Therapists",
+          "inicio": 0.0,
+          "fin": 0.612,
+          "linea": 6
+        },
+        {
+          "texto": "see",
+          "inicio": 0.625,
+          "fin": 0.775,
+          "linea": 6
+        },
+        {
+          "texto": "these",
+          "inicio": 0.788,
+          "fin": 1.0,
+          "linea": 6
+        },
+        {
+          "texto": "same",
+          "inicio": 1.012,
+          "fin": 1.262,
+          "linea": 6
+        },
+        {
+          "texto": "patterns",
+          "inicio": 1.275,
+          "fin": 1.8,
+          "linea": 6
+        },
+        {
+          "texto": "in",
+          "inicio": 1.812,
+          "fin": 1.937,
+          "linea": 6
+        },
+        {
+          "texto": "almost",
+          "inicio": 1.95,
+          "fin": 2.325,
+          "linea": 6
+        },
+        {
+          "texto": "every",
+          "inicio": 2.338,
+          "fin": 2.588,
+          "linea": 6
+        },
+        {
+          "texto": "unhealthy",
+          "inicio": 2.6,
+          "fin": 3.062,
+          "linea": 6
+        },
+        {
+          "texto": "relationship.",
+          "inicio": 3.075,
+          "fin": 3.962,
+          "linea": 6
+        }
+      ],
+      "destacada": null
+    },
+    {
+      "n": 7,
+      "texto": "Tactic one is bad. Tactic three is the one that gets people the worst — stay till you hear it.",
+      "inicio": 22.025,
+      "duracion": 6.875,
+      "palabras": [
+        {
+          "texto": "Tactic",
+          "inicio": 0.0,
+          "fin": 0.45,
+          "linea": 7
+        },
+        {
+          "texto": "one",
+          "inicio": 0.463,
+          "fin": 0.638,
+          "linea": 7
+        },
+        {
+          "texto": "is",
+          "inicio": 0.65,
+          "fin": 0.775,
+          "linea": 7
+        },
+        {
+          "texto": "bad.",
+          "inicio": 0.787,
+          "fin": 1.237,
+          "linea": 7
+        },
+        {
+          "texto": "Tactic",
+          "inicio": 2.1,
+          "fin": 2.55,
+          "linea": 7
+        },
+        {
+          "texto": "three",
+          "inicio": 2.562,
+          "fin": 2.9,
+          "linea": 7
+        },
+        {
+          "texto": "is",
+          "inicio": 2.913,
+          "fin": 3.05,
+          "linea": 7
+        },
+        {
+          "texto": "the",
+          "inicio": 3.062,
+          "fin": 3.163,
+          "linea": 7
+        },
+        {
+          "texto": "one",
+          "inicio": 3.175,
+          "fin": 3.425,
+          "linea": 7
+        },
+        {
+          "texto": "that",
+          "inicio": 3.437,
+          "fin": 3.587,
+          "linea": 7
+        },
+        {
+          "texto": "gets",
+          "inicio": 3.6,
+          "fin": 3.825,
+          "linea": 7
+        },
+        {
+          "texto": "people",
+          "inicio": 3.838,
+          "fin": 4.112,
+          "linea": 7
+        },
+        {
+          "texto": "the",
+          "inicio": 4.125,
+          "fin": 4.212,
+          "linea": 7
+        },
+        {
+          "texto": "worst —",
+          "inicio": 4.225,
+          "fin": 4.713,
+          "linea": 7
+        },
+        {
+          "texto": "stay",
+          "inicio": 4.888,
+          "fin": 5.138,
+          "linea": 7
+        },
+        {
+          "texto": "till",
+          "inicio": 5.15,
+          "fin": 5.338,
+          "linea": 7
+        },
+        {
+          "texto": "you",
+          "inicio": 5.35,
+          "fin": 5.463,
+          "linea": 7
+        },
+        {
+          "texto": "hear",
+          "inicio": 5.475,
+          "fin": 5.725,
+          "linea": 7
+        },
+        {
+          "texto": "it.",
+          "inicio": 5.737,
+          "fin": 6.012,
+          "linea": 7
+        }
+      ],
+      "destacada": 13
+    },
+    {
+      "n": 8,
+      "texto": "Number one: gaslighting.",
+      "inicio": 28.9,
+      "duracion": 2.538,
+      "palabras": [
+        {
+          "texto": "Number",
+          "inicio": 0.0,
+          "fin": 0.375,
+          "linea": 8
+        },
+        {
+          "texto": "one:",
+          "inicio": 0.388,
+          "fin": 0.725,
+          "linea": 8
+        },
+        {
+          "texto": "gaslighting.",
+          "inicio": 0.888,
+          "fin": 1.675,
+          "linea": 8
+        }
+      ],
+      "destacada": 2
+    },
+    {
+      "n": 9,
+      "texto": "They make you doubt your own memory. Your own eyes.",
+      "inicio": 31.438,
+      "duracion": 4.337,
+      "palabras": [
+        {
+          "texto": "They",
+          "inicio": 0.0,
+          "fin": 0.149,
+          "linea": 9
+        },
+        {
+          "texto": "make",
+          "inicio": 0.162,
+          "fin": 0.374,
+          "linea": 9
+        },
+        {
+          "texto": "you",
+          "inicio": 0.387,
+          "fin": 0.487,
+          "linea": 9
+        },
+        {
+          "texto": "doubt",
+          "inicio": 0.5,
+          "fin": 0.762,
+          "linea": 9
+        },
+        {
+          "texto": "your",
+          "inicio": 0.774,
+          "fin": 0.949,
+          "linea": 9
+        },
+        {
+          "texto": "own",
+          "inicio": 0.962,
+          "fin": 1.112,
+          "linea": 9
+        },
+        {
+          "texto": "memory.",
+          "inicio": 1.124,
+          "fin": 1.649,
+          "linea": 9
+        },
+        {
+          "texto": "Your",
+          "inicio": 2.512,
+          "fin": 2.75,
+          "linea": 9
+        },
+        {
+          "texto": "own",
+          "inicio": 2.762,
+          "fin": 2.937,
+          "linea": 9
+        },
+        {
+          "texto": "eyes.",
+          "inicio": 2.95,
+          "fin": 3.475,
+          "linea": 9
+        }
+      ],
+      "destacada": null
+    },
+    {
+      "n": 10,
+      "texto": "'That never happened.' 'You're overreacting.' 'You're crazy.'",
+      "inicio": 35.775,
+      "duracion": 5.775,
+      "palabras": [
+        {
+          "texto": "'That",
+          "inicio": 0.0,
+          "fin": 0.237,
+          "linea": 10
+        },
+        {
+          "texto": "never",
+          "inicio": 0.25,
+          "fin": 0.525,
+          "linea": 10
+        },
+        {
+          "texto": "happened.'",
+          "inicio": 0.537,
+          "fin": 1.087,
+          "linea": 10
+        },
+        {
+          "texto": "'You're",
+          "inicio": 1.95,
+          "fin": 2.2,
+          "linea": 10
+        },
+        {
+          "texto": "overreacting.'",
+          "inicio": 2.212,
+          "fin": 3.175,
+          "linea": 10
+        },
+        {
+          "texto": "'You're",
+          "inicio": 4.037,
+          "fin": 4.263,
+          "linea": 10
+        },
+        {
+          "texto": "crazy.'",
+          "inicio": 4.275,
+          "fin": 4.913,
+          "linea": 10
+        }
+      ],
+      "destacada": null
+    },
+    {
+      "n": 11,
+      "texto": "It's not confusion. It's control. It's control. It's control.",
+      "inicio": 41.55,
+      "duracion": 7.175,
+      "palabras": [
+        {
+          "texto": "It's",
+          "inicio": 0.0,
+          "fin": 0.212,
+          "linea": 11
+        },
+        {
+          "texto": "not",
+          "inicio": 0.225,
+          "fin": 0.437,
+          "linea": 11
+        },
+        {
+          "texto": "confusion.",
+          "inicio": 0.45,
+          "fin": 1.175,
+          "linea": 11
+        },
+        {
+          "texto": "It's",
+          "inicio": 2.037,
+          "fin": 2.25,
+          "linea": 11
+        },
+        {
+          "texto": "control.",
+          "inicio": 2.262,
+          "fin": 2.888,
+          "linea": 11
+        },
+        {
+          "texto": "It's",
+          "inicio": 3.75,
+          "fin": 3.962,
+          "linea": 11
+        },
+        {
+          "texto": "control.",
+          "inicio": 3.975,
+          "fin": 4.6,
+          "linea": 11
+        },
+        {
+          "texto": "It's",
+          "inicio": 5.463,
+          "fin": 5.675,
+          "linea": 11
+        },
+        {
+          "texto": "control.",
+          "inicio": 5.687,
+          "fin": 6.312,
+          "linea": 11
+        }
+      ],
+      "destacada": 4
+    },
+    {
+      "n": 12,
+      "texto": "Number two: love bombing.",
+      "inicio": 48.725,
+      "duracion": 2.525,
+      "palabras": [
+        {
+          "texto": "Number",
+          "inicio": 0.0,
+          "fin": 0.362,
+          "linea": 12
+        },
+        {
+          "texto": "two:",
+          "inicio": 0.375,
+          "fin": 0.75,
+          "linea": 12
+        },
+        {
+          "texto": "love",
+          "inicio": 0.95,
+          "fin": 1.137,
+          "linea": 12
+        },
+        {
+          "texto": "bombing.",
+          "inicio": 1.15,
+          "fin": 1.663,
+          "linea": 12
+        }
+      ],
+      "destacada": 2
+    },
+    {
+      "n": 13,
+      "texto": "Too much, too fast — gifts, texts, 'soulmate,' in week one.",
+      "inicio": 51.25,
+      "duracion": 5.425,
+      "palabras": [
+        {
+          "texto": "Too",
+          "inicio": 0.0,
+          "fin": 0.212,
+          "linea": 13
+        },
+        {
+          "texto": "much,",
+          "inicio": 0.225,
+          "fin": 0.675,
+          "linea": 13
+        },
+        {
+          "texto": "too",
+          "inicio": 0.85,
+          "fin": 1.05,
+          "linea": 13
+        },
+        {
+          "texto": "fast —",
+          "inicio": 1.062,
+          "fin": 1.562,
+          "linea": 13
+        },
+        {
+          "texto": "gifts,",
+          "inicio": 1.725,
+          "fin": 2.2,
+          "linea": 13
+        },
+        {
+          "texto": "texts,",
+          "inicio": 2.35,
+          "fin": 2.888,
+          "linea": 13
+        },
+        {
+          "texto": "'soulmate,'",
+          "inicio": 3.05,
+          "fin": 3.587,
+          "linea": 13
+        },
+        {
+          "texto": "in",
+          "inicio": 3.75,
+          "fin": 3.888,
+          "linea": 13
+        },
+        {
+          "texto": "week",
+          "inicio": 3.9,
+          "fin": 4.137,
+          "linea": 13
+        },
+        {
+          "texto": "one.",
+          "inicio": 4.15,
+          "fin": 4.562,
+          "linea": 13
+        }
+      ],
+      "destacada": null
+    },
+    {
+      "n": 14,
+      "texto": "It's not passion. It's a hook.",
+      "inicio": 56.675,
+      "duracion": 3.55,
+      "palabras": [
+        {
+          "texto": "It's",
+          "inicio": 0.0,
+          "fin": 0.2,
+          "linea": 14
+        },
+        {
+          "texto": "not",
+          "inicio": 0.213,
+          "fin": 0.425,
+          "linea": 14
+        },
+        {
+          "texto": "passion.",
+          "inicio": 0.437,
+          "fin": 1.05,
+          "linea": 14
+        },
+        {
+          "texto": "It's",
+          "inicio": 1.912,
+          "fin": 2.113,
+          "linea": 14
+        },
+        {
+          "texto": "a",
+          "inicio": 2.125,
+          "fin": 2.187,
+          "linea": 14
+        },
+        {
+          "texto": "hook.",
+          "inicio": 2.2,
+          "fin": 2.687,
+          "linea": 14
+        }
+      ],
+      "destacada": 5
+    },
+    {
+      "n": 15,
+      "texto": "The faster it starts, the harder it can trap you.",
+      "inicio": 60.225,
+      "duracion": 3.563,
+      "palabras": [
+        {
+          "texto": "The",
+          "inicio": 0.0,
+          "fin": 0.138,
+          "linea": 15
+        },
+        {
+          "texto": "faster",
+          "inicio": 0.15,
+          "fin": 0.563,
+          "linea": 15
+        },
+        {
+          "texto": "it",
+          "inicio": 0.575,
+          "fin": 0.675,
+          "linea": 15
+        },
+        {
+          "texto": "starts,",
+          "inicio": 0.688,
+          "fin": 1.225,
+          "linea": 15
+        },
+        {
+          "texto": "the",
+          "inicio": 1.362,
+          "fin": 1.45,
+          "linea": 15
+        },
+        {
+          "texto": "harder",
+          "inicio": 1.463,
+          "fin": 1.788,
+          "linea": 15
+        },
+        {
+          "texto": "it",
+          "inicio": 1.8,
+          "fin": 1.887,
+          "linea": 15
+        },
+        {
+          "texto": "can",
+          "inicio": 1.9,
+          "fin": 2.05,
+          "linea": 15
+        },
+        {
+          "texto": "trap",
+          "inicio": 2.063,
+          "fin": 2.35,
+          "linea": 15
+        },
+        {
+          "texto": "you.",
+          "inicio": 2.362,
+          "fin": 2.7,
+          "linea": 15
+        }
+      ],
+      "destacada": 8
+    },
+    {
+      "n": 16,
+      "texto": "Tactic three is the one almost nobody notices — until it's already working on them.",
+      "inicio": 63.788,
+      "duracion": 5.587,
+      "palabras": [
+        {
+          "texto": "Tactic",
+          "inicio": 0.0,
+          "fin": 0.449,
+          "linea": 16
+        },
+        {
+          "texto": "three",
+          "inicio": 0.462,
+          "fin": 0.824,
+          "linea": 16
+        },
+        {
+          "texto": "is",
+          "inicio": 0.837,
+          "fin": 0.987,
+          "linea": 16
+        },
+        {
+          "texto": "the",
+          "inicio": 0.999,
+          "fin": 1.099,
+          "linea": 16
+        },
+        {
+          "texto": "one",
+          "inicio": 1.112,
+          "fin": 1.375,
+          "linea": 16
+        },
+        {
+          "texto": "almost",
+          "inicio": 1.387,
+          "fin": 1.737,
+          "linea": 16
+        },
+        {
+          "texto": "nobody",
+          "inicio": 1.749,
+          "fin": 2.087,
+          "linea": 16
+        },
+        {
+          "texto": "notices —",
+          "inicio": 2.1,
+          "fin": 2.824,
+          "linea": 16
+        },
+        {
+          "texto": "until",
+          "inicio": 3.037,
+          "fin": 3.324,
+          "linea": 16
+        },
+        {
+          "texto": "it's",
+          "inicio": 3.337,
+          "fin": 3.475,
+          "linea": 16
+        },
+        {
+          "texto": "already",
+          "inicio": 3.487,
+          "fin": 3.825,
+          "linea": 16
+        },
+        {
+          "texto": "working",
+          "inicio": 3.837,
+          "fin": 4.237,
+          "linea": 16
+        },
+        {
+          "texto": "on",
+          "inicio": 4.249,
+          "fin": 4.387,
+          "linea": 16
+        },
+        {
+          "texto": "them.",
+          "inicio": 4.4,
+          "fin": 4.725,
+          "linea": 16
+        }
+      ],
+      "destacada": null
+    },
+    {
+      "n": 17,
+      "texto": "That's Part 2.",
+      "inicio": 69.375,
+      "duracion": 2.512,
+      "palabras": [
+        {
+          "texto": "That's",
+          "inicio": 0.0,
+          "fin": 0.275,
+          "linea": 17
+        },
+        {
+          "texto": "Part 2",
+          "inicio": 0.287,
+          "fin": 1.012,
+          "linea": 17
+        }
+      ],
+      "destacada": null
+    }
+  ]
+}
