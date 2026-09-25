@@ -18,6 +18,19 @@ const COLOR_FONDO = "#100C08";
 
 const CAMBIO_POSE_FRAME = 75; // ~2.5s a 30fps: momento en que el personaje pasa a señalar
 
+// Bounding box vertical del personaje de pie, en coordenadas locales
+// (origen en el centro vertical del cuerpo): de -ALTO_MITAD a +ALTO_MITAD.
+// Ajustado en el encuadre para que el grupo completo (Escena, más abajo)
+// ocupe del 35% al 75% de la altura del video, no solo la mitad superior.
+export const ALTO_PERSONAJE = 600;
+const ALTO_MITAD = ALTO_PERSONAJE / 2;
+
+// Torso: path en vez de óvalo/rect simétrico — ensancha en los hombros
+// (±68) y se angosta hacia la cintura (±40) antes de volver a abrir un
+// poco en la cadera (±52), como una silueta humana real, no geometría
+// genérica. Cabeza más chica en relación al cuerpo (r=42 sobre ~600 de
+// alto total, ~1/7 — proporción humana, no la cabeza sobredimensionada
+// de la versión anterior).
 const Personaje: React.FC<{ frame: number; fps: number }> = ({ frame, fps }) => {
   const t = spring({ frame: frame - CAMBIO_POSE_FRAME, fps, config: { damping: 11, stiffness: 90, mass: 1.1 } });
   const anguloHombro = interpolate(t, [0, 1], [8, -95]);
@@ -26,13 +39,41 @@ const Personaje: React.FC<{ frame: number; fps: number }> = ({ frame, fps }) => 
 
   return (
     <g transform={`rotate(${inclinacionTorso})`}>
-      <rect x={-92} y={-30} width={30} height={150} rx={15} fill="url(#luzCuerpo)" transform="rotate(7 -77 -30)" />
-      <rect x={-60} y={-90} width={120} height={210} rx={60} fill="url(#luzCuerpo)" />
-      <circle cx={0} cy={-150} r={58} fill="url(#luzCuerpo)" />
-      <g transform={`translate(85, -30) rotate(${anguloHombro})`}>
-        <rect x={-15} y={0} width={30} height={130} rx={15} fill="url(#luzCuerpo)" />
-        <g transform={`translate(0, 130) rotate(${anguloCodo})`}>
-          <rect x={-13} y={0} width={26} height={105} rx={13} fill="url(#luzCuerpo)" />
+      {/* Pierna izquierda: cadera -> rodilla (joint independiente) -> tobillo,
+          mismo patrón de huesos que el brazo (segmento + grupo rotado). */}
+      <g transform="translate(-24, 40) rotate(4)">
+        <rect x={-17} y={0} width={34} height={140} rx={17} fill="url(#luzCuerpo)" />
+        <g transform="translate(0, 140) rotate(6)">
+          <rect x={-14} y={0} width={28} height={118} rx={14} fill="url(#luzCuerpo)" />
+          <rect x={-19} y={112} width={42} height={18} rx={8} fill="url(#luzCuerpo)" />
+        </g>
+      </g>
+      {/* Pierna derecha */}
+      <g transform="translate(24, 40) rotate(-3)">
+        <rect x={-17} y={0} width={34} height={140} rx={17} fill="url(#luzCuerpo)" />
+        <g transform="translate(0, 140) rotate(-5)">
+          <rect x={-14} y={0} width={28} height={118} rx={14} fill="url(#luzCuerpo)" />
+          <rect x={-19} y={112} width={42} height={18} rx={8} fill="url(#luzCuerpo)" />
+        </g>
+      </g>
+      {/* Brazo izquierdo: queda quieto, apoyado */}
+      <g transform="translate(-64, -150) rotate(7)">
+        <rect x={-15} y={0} width={30} height={105} rx={15} fill="url(#luzCuerpo)" />
+      </g>
+      {/* Torso: hombros anchos -> cintura angosta -> cadera con leve vuelo */}
+      <path
+        d="M -68,-222 C -78,-210 -78,-195 -74,-180 C -64,-120 -50,-60 -40,-30
+           C -55,-10 -58,20 -52,40 Q -52,52 -40,54 L 40,54 Q 52,52 52,40
+           C 58,20 55,-10 40,-30 C 50,-60 64,-120 74,-180 C 78,-195 78,-210 68,-222 Z"
+        fill="url(#luzCuerpo)"
+      />
+      {/* Cabeza, sin rasgos (RULES.md), proporción real respecto al cuerpo */}
+      <circle cx={0} cy={-258} r={42} fill="url(#luzCuerpo)" />
+      {/* Brazo derecho: el que anima la pose (hombro + codo articulados) */}
+      <g transform={`translate(64, -150) rotate(${anguloHombro})`}>
+        <rect x={-15} y={0} width={30} height={105} rx={15} fill="url(#luzCuerpo)" />
+        <g transform={`translate(0, 105) rotate(${anguloCodo})`}>
+          <rect x={-13} y={0} width={26} height={90} rx={13} fill="url(#luzCuerpo)" />
         </g>
       </g>
     </g>
@@ -86,7 +127,15 @@ const Escena: React.FC = () => {
   const escalaCamara = interpolate(avance, [0, 1], [1, 1.18]);
 
   const cx = width / 2;
-  const cy = height / 2;
+
+  // Encuadre: el personaje de pie (ALTO_PERSONAJE en coordenadas locales,
+  // centrado en su propio origen) tiene que ocupar del 35% al 75% de la
+  // altura del video, no solo la mitad superior. escalaBase lo estira a ese
+  // tamaño en pantalla; centroY ubica el centro vertical del cuerpo en el
+  // punto medio de esa franja (55% de la altura).
+  const escalaBase = (height * 0.4) / ALTO_PERSONAJE; // 0.75 - 0.35 = 0.4 de la altura
+  const centroY = height * 0.55;
+  const pisoY = centroY + (ALTO_PERSONAJE / 2) * escalaBase;
 
   return (
     <AbsoluteFill style={{ backgroundColor: COLOR_FONDO }}>
@@ -101,9 +150,9 @@ const Escena: React.FC = () => {
             <stop offset="100%" stopColor="#000000" stopOpacity="0" />
           </radialGradient>
         </defs>
-        <ellipse cx={cx} cy={cy + 245} rx={150} ry={34} fill="url(#sombraPiso)" />
-        <rect x={0} y={cy + 250} width={width} height={height - (cy + 250)} fill={COLOR_PISO} opacity={0.5} />
-        <g transform={`translate(${cx + panX}, ${cy}) scale(${escalaCamara})`}>
+        <ellipse cx={cx + panX} cy={pisoY + 12} rx={170} ry={36} fill="url(#sombraPiso)" />
+        <rect x={0} y={pisoY + 18} width={width} height={height - (pisoY + 18)} fill={COLOR_PISO} opacity={0.5} />
+        <g transform={`translate(${cx + panX}, ${centroY}) scale(${escalaBase * escalaCamara})`}>
           <Personaje frame={frame} fps={fps} />
         </g>
       </svg>
