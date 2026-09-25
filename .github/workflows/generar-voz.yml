@@ -34,7 +34,7 @@ jobs:
 
       - name: Generar audio de cada guion
         env:
-          EDGE_TTS_VOICE: en-US-JennyNeural
+          EDGE_TTS_VOICE: en-US-GuyNeural
         run: |
           set -euo pipefail
           for guion in content/*/guion.md; do

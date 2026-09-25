@@ -23,7 +23,7 @@ jobs:
   voz:
     runs-on: ubuntu-latest
     env:
-      EDGE_TTS_VOICE: en-US-JennyNeural
+      EDGE_TTS_VOICE: en-US-GuyNeural
     steps:
       - uses: actions/checkout@v4
 
