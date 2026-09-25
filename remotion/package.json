@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "preparar": "node scripts/preparar.mjs",
+    "preparar:standalone": "node scripts/prepararStandalone.mjs",
     "studio": "remotion studio",
     "render": "remotion render Video",
     "typecheck": "tsc --noEmit"

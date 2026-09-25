@@ -3,6 +3,9 @@ import { CalculateMetadataFunction, Composition, staticFile } from "remotion";
 import { EscenaFase0 } from "./fase0/EscenaFase0";
 import { Personaje2D } from "./fase0/Personaje2D";
 import { Personaje3D } from "./fase0/Personaje3D";
+import { ManipulacionParte1 } from "./manipulacion-parte1/ManipulacionParte1";
+import { Miniatura } from "./manipulacion-parte1/Miniatura";
+import type { TimelineStandalone } from "./manipulacion-parte1/tipos";
 import { prepararShort } from "./shorts";
 import type { Props, PropsShort, Timeline } from "./tipos";
 import { Video } from "./Video";
@@ -81,5 +84,20 @@ export const Root: React.FC = () => (
       fps={FPS}
       durationInFrames={FPS * 7}
     />
+    <Composition
+      id="ManipulacionParte1"
+      component={ManipulacionParte1}
+      width={1080}
+      height={1920}
+      fps={FPS}
+      durationInFrames={FPS * 5}
+      defaultProps={{ timeline: null as unknown as TimelineStandalone }}
+      calculateMetadata={async () => {
+        const respuesta = await fetch(staticFile("timeline.json"));
+        const timeline = (await respuesta.json()) as TimelineStandalone;
+        return { props: { timeline }, durationInFrames: Math.ceil(timeline.duracionTotal * FPS) };
+      }}
+    />
+    <Composition id="ManipulacionParte1-Miniatura" component={Miniatura} width={1080} height={1920} fps={FPS} durationInFrames={1} />
   </>
 );
