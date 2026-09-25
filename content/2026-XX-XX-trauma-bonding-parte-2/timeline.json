@@ -1,11 +1,11 @@
 {
   "titulo": "",
   "video": "content/2026-XX-XX-trauma-bonding-parte-2",
-  "voz": "en-US-JennyNeural",
+  "voz": "en-US-GuyNeural",
   "icono": "assets/personaje/knot-icono.png",
   "formato": "short",
   "audio": "content/2026-XX-XX-trauma-bonding-parte-2/audio/narracion.mp3",
-  "duracionTotal": 39.887,
+  "duracionTotal": 40.062,
   "segmentos": [
     {
       "id": "l01",
@@ -13,7 +13,7 @@
       "bloque": null,
       "escena": 5,
       "inicio": 0.1,
-      "duracion": 2.512,
+      "duracion": 2.563,
       "audio": null,
       "imagen": "content/2026-XX-XX-trauma-bonding-parte-2/imagenes/escena-5.jpg",
       "palabras": [
@@ -26,31 +26,31 @@
         {
           "texto": "why",
           "inicio": 0.3,
-          "fin": 0.438,
+          "fin": 0.45,
           "linea": 1
         },
         {
           "texto": "someone",
-          "inicio": 0.45,
-          "fin": 0.775,
+          "inicio": 0.475,
+          "fin": 0.862,
           "linea": 1
         },
         {
           "texto": "GOOD",
-          "inicio": 0.787,
-          "fin": 0.975,
+          "inicio": 0.888,
+          "fin": 1.1,
           "linea": 1
         },
         {
           "texto": "bores",
-          "inicio": 0.987,
-          "fin": 1.325,
+          "inicio": 1.125,
+          "fin": 1.425,
           "linea": 1
         },
         {
           "texto": "you.",
-          "inicio": 1.338,
-          "fin": 1.65,
+          "inicio": 1.45,
+          "fin": 1.688,
           "linea": 1
         }
       ],
@@ -58,7 +58,7 @@
       "sonidos": [
         {
           "archivo": "assets/sonido/bloque.mp3",
-          "en": 0.787,
+          "en": 0.888,
           "volumen": 0.3
         }
       ],
@@ -71,39 +71,39 @@
       "tipo": "linea",
       "bloque": null,
       "escena": 5,
-      "inicio": 2.612,
-      "duracion": 2.625,
+      "inicio": 2.663,
+      "duracion": 2.675,
       "audio": null,
       "imagen": "content/2026-XX-XX-trauma-bonding-parte-2/imagenes/escena-5.jpg",
       "palabras": [
         {
           "texto": "Your",
           "inicio": 0.0,
-          "fin": 0.213,
+          "fin": 0.25,
           "linea": 2
         },
         {
           "texto": "brain",
-          "inicio": 0.225,
-          "fin": 0.551,
+          "inicio": 0.275,
+          "fin": 0.612,
           "linea": 2
         },
         {
           "texto": "calls",
-          "inicio": 0.563,
-          "fin": 0.826,
+          "inicio": 0.637,
+          "fin": 0.924,
           "linea": 2
         },
         {
           "texto": "it",
-          "inicio": 0.838,
-          "fin": 0.938,
+          "inicio": 0.949,
+          "fin": 1.049,
           "linea": 2
         },
         {
           "texto": "'suspicious'.",
-          "inicio": 0.95,
-          "fin": 1.763,
+          "inicio": 1.074,
+          "fin": 1.812,
           "linea": 2
         }
       ],
@@ -111,7 +111,7 @@
       "sonidos": [
         {
           "archivo": "assets/sonido/bloque.mp3",
-          "en": 0.95,
+          "en": 1.074,
           "volumen": 0.3
         }
       ],
@@ -124,27 +124,27 @@
       "tipo": "linea",
       "bloque": null,
       "escena": 5,
-      "inicio": 5.237,
-      "duracion": 2.288,
+      "inicio": 5.338,
+      "duracion": 2.399,
       "audio": null,
       "imagen": "content/2026-XX-XX-trauma-bonding-parte-2/imagenes/escena-5.jpg",
       "palabras": [
         {
           "texto": "Toxic",
           "inicio": 0.0,
-          "fin": 0.463,
+          "fin": 0.5,
           "linea": 3
         },
         {
           "texto": "feels",
-          "inicio": 0.476,
-          "fin": 0.788,
+          "inicio": 0.524,
+          "fin": 0.887,
           "linea": 3
         },
         {
           "texto": "'familiar'.",
-          "inicio": 0.8,
-          "fin": 1.425,
+          "inicio": 0.912,
+          "fin": 1.524,
           "linea": 3
         }
       ],
@@ -152,7 +152,7 @@
       "sonidos": [
         {
           "archivo": "assets/sonido/bloque.mp3",
-          "en": 0.8,
+          "en": 0.912,
           "volumen": 0.3
         }
       ],
@@ -165,27 +165,27 @@
       "tipo": "linea",
       "bloque": null,
       "escena": 5,
-      "inicio": 7.525,
-      "duracion": 2.025,
+      "inicio": 7.737,
+      "duracion": 2.101,
       "audio": null,
       "imagen": "content/2026-XX-XX-trauma-bonding-parte-2/imagenes/escena-5.jpg",
       "palabras": [
         {
           "texto": "Healthy",
           "inicio": 0.0,
-          "fin": 0.363,
+          "fin": 0.4,
           "linea": 4
         },
         {
           "texto": "feels",
-          "inicio": 0.375,
-          "fin": 0.713,
+          "inicio": 0.425,
+          "fin": 0.8,
           "linea": 4
         },
         {
           "texto": "'wrong'.",
-          "inicio": 0.725,
-          "fin": 1.163,
+          "inicio": 0.825,
+          "fin": 1.226,
           "linea": 4
         }
       ],
@@ -193,7 +193,7 @@
       "sonidos": [
         {
           "archivo": "assets/sonido/bloque.mp3",
-          "en": 0.725,
+          "en": 0.825,
           "volumen": 0.3
         }
       ],
@@ -206,8 +206,8 @@
       "tipo": "linea",
       "bloque": null,
       "escena": 5,
-      "inicio": 9.55,
-      "duracion": 2.563,
+      "inicio": 9.838,
+      "duracion": 2.637,
       "audio": null,
       "imagen": "content/2026-XX-XX-trauma-bonding-parte-2/imagenes/escena-5.jpg",
       "palabras": [
@@ -219,32 +219,32 @@
         },
         {
           "texto": "what",
-          "inicio": 0.313,
-          "fin": 0.45,
+          "inicio": 0.324,
+          "fin": 0.474,
           "linea": 5
         },
         {
           "texto": "the",
-          "inicio": 0.462,
-          "fin": 0.525,
+          "inicio": 0.5,
+          "fin": 0.6,
           "linea": 5
         },
         {
           "texto": "hijack",
-          "inicio": 0.538,
-          "fin": 1.038,
+          "inicio": 0.612,
+          "fin": 1.149,
           "linea": 5
         },
         {
           "texto": "looks",
-          "inicio": 1.05,
-          "fin": 1.275,
+          "inicio": 1.162,
+          "fin": 1.4,
           "linea": 5
         },
         {
           "texto": "like.",
-          "inicio": 1.288,
-          "fin": 1.7,
+          "inicio": 1.412,
+          "fin": 1.75,
           "linea": 5
         }
       ],
@@ -252,7 +252,7 @@
       "sonidos": [
         {
           "archivo": "assets/sonido/bloque.mp3",
-          "en": 0.538,
+          "en": 0.612,
           "volumen": 0.3
         }
       ],
@@ -265,7 +265,7 @@
       "tipo": "linea",
       "bloque": null,
       "escena": 6,
-      "inicio": 12.113,
+      "inicio": 12.475,
       "duracion": 2.725,
       "audio": null,
       "imagen": "content/2026-XX-XX-trauma-bonding-parte-2/imagenes/escena-6.jpg",
@@ -273,37 +273,37 @@
         {
           "texto": "This",
           "inicio": 0.0,
-          "fin": 0.225,
+          "fin": 0.238,
           "linea": 6
         },
         {
           "texto": "doesn't",
-          "inicio": 0.237,
-          "fin": 0.549,
+          "inicio": 0.25,
+          "fin": 0.575,
           "linea": 6
         },
         {
           "texto": "happen",
-          "inicio": 0.562,
-          "fin": 0.949,
+          "inicio": 0.6,
+          "fin": 0.95,
           "linea": 6
         },
         {
           "texto": "because",
-          "inicio": 0.962,
+          "inicio": 0.963,
           "fin": 1.287,
           "linea": 6
         },
         {
           "texto": "you're",
-          "inicio": 1.299,
-          "fin": 1.424,
+          "inicio": 1.3,
+          "fin": 1.463,
           "linea": 6
         },
         {
           "texto": "weak.",
-          "inicio": 1.437,
-          "fin": 1.862,
+          "inicio": 1.475,
+          "fin": 1.837,
           "linea": 6
         }
       ],
@@ -315,7 +315,7 @@
         },
         {
           "archivo": "assets/sonido/bloque.mp3",
-          "en": 1.437,
+          "en": 1.475,
           "volumen": 0.3
         }
       ],
@@ -328,57 +328,57 @@
       "tipo": "linea",
       "bloque": null,
       "escena": 6,
-      "inicio": 14.838,
-      "duracion": 2.999,
+      "inicio": 15.2,
+      "duracion": 3.112,
       "audio": null,
       "imagen": "content/2026-XX-XX-trauma-bonding-parte-2/imagenes/escena-6.jpg",
       "palabras": [
         {
           "texto": "It",
           "inicio": 0.0,
-          "fin": 0.15,
+          "fin": 0.162,
           "linea": 7
         },
         {
           "texto": "happens",
-          "inicio": 0.162,
-          "fin": 0.574,
+          "inicio": 0.187,
+          "fin": 0.6,
           "linea": 7
         },
         {
           "texto": "to",
-          "inicio": 0.587,
-          "fin": 0.675,
+          "inicio": 0.625,
+          "fin": 0.712,
           "linea": 7
         },
         {
           "texto": "the",
-          "inicio": 0.687,
-          "fin": 0.787,
+          "inicio": 0.725,
+          "fin": 0.838,
           "linea": 7
         },
         {
           "texto": "strongest",
-          "inicio": 0.799,
-          "fin": 1.337,
+          "inicio": 0.862,
+          "fin": 1.4,
           "linea": 7
         },
         {
           "texto": "people",
-          "inicio": 1.35,
-          "fin": 1.637,
+          "inicio": 1.425,
+          "fin": 1.75,
           "linea": 7
         },
         {
           "texto": "you",
-          "inicio": 1.65,
-          "fin": 1.762,
+          "inicio": 1.775,
+          "fin": 1.888,
           "linea": 7
         },
         {
           "texto": "know.",
-          "inicio": 1.775,
-          "fin": 2.137,
+          "inicio": 1.9,
+          "fin": 2.225,
           "linea": 7
         }
       ],
@@ -386,7 +386,7 @@
       "sonidos": [
         {
           "archivo": "assets/sonido/bloque.mp3",
-          "en": 0.799,
+          "en": 0.862,
           "volumen": 0.3
         }
       ],
@@ -399,8 +399,8 @@
       "tipo": "linea",
       "bloque": null,
       "escena": 6,
-      "inicio": 17.837,
-      "duracion": 3.163,
+      "inicio": 18.312,
+      "duracion": 3.2,
       "audio": null,
       "imagen": "content/2026-XX-XX-trauma-bonding-parte-2/imagenes/escena-6.jpg",
       "palabras": [
@@ -412,38 +412,38 @@
         },
         {
           "texto": "it",
-          "inicio": 0.351,
-          "fin": 0.438,
+          "inicio": 0.363,
+          "fin": 0.45,
           "linea": 8
         },
         {
           "texto": "takes",
-          "inicio": 0.451,
-          "fin": 0.688,
+          "inicio": 0.476,
+          "fin": 0.713,
           "linea": 8
         },
         {
           "texto": "strength",
-          "inicio": 0.701,
-          "fin": 1.113,
+          "inicio": 0.738,
+          "fin": 1.101,
           "linea": 8
         },
         {
           "texto": "to",
-          "inicio": 1.125,
-          "fin": 1.225,
+          "inicio": 1.126,
+          "fin": 1.226,
           "linea": 8
         },
         {
           "texto": "survive",
-          "inicio": 1.238,
-          "fin": 1.638,
+          "inicio": 1.25,
+          "fin": 1.713,
           "linea": 8
         },
         {
           "texto": "chaos.",
-          "inicio": 1.651,
-          "fin": 2.3,
+          "inicio": 1.726,
+          "fin": 2.313,
           "linea": 8
         }
       ],
@@ -451,7 +451,7 @@
       "sonidos": [
         {
           "archivo": "assets/sonido/bloque.mp3",
-          "en": 0.701,
+          "en": 0.738,
           "volumen": 0.3
         }
       ],
@@ -464,51 +464,51 @@
       "tipo": "linea",
       "bloque": null,
       "escena": 6,
-      "inicio": 21.0,
-      "duracion": 2.55,
+      "inicio": 21.512,
+      "duracion": 2.538,
       "audio": null,
       "imagen": "content/2026-XX-XX-trauma-bonding-parte-2/imagenes/escena-6.jpg",
       "palabras": [
         {
           "texto": "And",
           "inicio": 0.0,
-          "fin": 0.175,
+          "fin": 0.163,
           "linea": 9
         },
         {
           "texto": "that",
           "inicio": 0.188,
-          "fin": 0.425,
+          "fin": 0.363,
           "linea": 9
         },
         {
           "texto": "strength",
-          "inicio": 0.438,
-          "fin": 0.812,
+          "inicio": 0.375,
+          "fin": 0.775,
           "linea": 9
         },
         {
           "texto": "is",
-          "inicio": 0.825,
-          "fin": 0.938,
+          "inicio": 0.8,
+          "fin": 0.926,
           "linea": 9
         },
         {
           "texto": "your",
           "inicio": 0.95,
-          "fin": 1.075,
+          "fin": 1.113,
           "linea": 9
         },
         {
           "texto": "way",
-          "inicio": 1.087,
-          "fin": 1.287,
+          "inicio": 1.138,
+          "fin": 1.313,
           "linea": 9
         },
         {
           "texto": "out.",
-          "inicio": 1.3,
-          "fin": 1.688,
+          "inicio": 1.338,
+          "fin": 1.663,
           "linea": 9
         }
       ],
@@ -516,7 +516,7 @@
       "sonidos": [
         {
           "archivo": "assets/sonido/bloque.mp3",
-          "en": 1.3,
+          "en": 1.338,
           "volumen": 0.3
         }
       ],
@@ -529,57 +529,57 @@
       "tipo": "linea",
       "bloque": null,
       "escena": 7,
-      "inicio": 23.55,
-      "duracion": 2.35,
+      "inicio": 24.05,
+      "duracion": 2.075,
       "audio": null,
       "imagen": "content/2026-XX-XX-trauma-bonding-parte-2/imagenes/escena-7.jpg",
       "palabras": [
         {
           "texto": "Next",
           "inicio": 0.0,
-          "fin": 0.35,
+          "fin": 0.275,
           "linea": 10
         },
         {
           "texto": "time",
-          "inicio": 0.363,
-          "fin": 0.55,
+          "inicio": 0.287,
+          "fin": 0.437,
           "linea": 10
         },
         {
           "texto": "you",
-          "inicio": 0.563,
-          "fin": 0.675,
+          "inicio": 0.45,
+          "fin": 0.55,
           "linea": 10
         },
         {
           "texto": "can't",
-          "inicio": 0.688,
-          "fin": 0.95,
+          "inicio": 0.563,
+          "fin": 0.775,
           "linea": 10
         },
         {
           "texto": "stop",
-          "inicio": 0.962,
-          "fin": 1.188,
+          "inicio": 0.787,
+          "fin": 1.037,
           "linea": 10
         },
         {
           "texto": "thinking",
-          "inicio": 1.2,
-          "fin": 1.575,
+          "inicio": 1.063,
+          "fin": 1.4,
           "linea": 10
         },
         {
           "texto": "about",
-          "inicio": 1.587,
-          "fin": 1.85,
+          "inicio": 1.412,
+          "fin": 1.662,
           "linea": 10
         },
         {
           "texto": "them...",
-          "inicio": 1.863,
-          "fin": 2.163,
+          "inicio": 1.688,
+          "fin": 1.85,
           "linea": 10
         }
       ],
@@ -591,7 +591,7 @@
         },
         {
           "archivo": "assets/sonido/bloque.mp3",
-          "en": 1.2,
+          "en": 1.063,
           "volumen": 0.3
         }
       ],
@@ -604,21 +604,21 @@
       "tipo": "linea",
       "bloque": null,
       "escena": 7,
-      "inicio": 25.9,
-      "duracion": 0.825,
+      "inicio": 26.125,
+      "duracion": 0.675,
       "audio": null,
       "imagen": "content/2026-XX-XX-trauma-bonding-parte-2/imagenes/escena-7.jpg",
       "palabras": [
         {
           "texto": "...say",
           "inicio": 0.0,
-          "fin": 0.225,
+          "fin": 0.2,
           "linea": 11
         },
         {
           "texto": "this:",
-          "inicio": 0.237,
-          "fin": 0.625,
+          "inicio": 0.212,
+          "fin": 0.475,
           "linea": 11
         }
       ],
@@ -626,7 +626,7 @@
       "sonidos": [
         {
           "archivo": "assets/sonido/bloque.mp3",
-          "en": 0.237,
+          "en": 0.212,
           "volumen": 0.3
         }
       ],
@@ -639,27 +639,27 @@
       "tipo": "linea",
       "bloque": null,
       "escena": 7,
-      "inicio": 26.725,
-      "duracion": 1.725,
+      "inicio": 26.8,
+      "duracion": 1.6,
       "audio": null,
       "imagen": "content/2026-XX-XX-trauma-bonding-parte-2/imagenes/escena-7.jpg",
       "palabras": [
         {
           "texto": "It's",
           "inicio": 0.0,
-          "fin": 0.15,
+          "fin": 0.125,
           "linea": 12
         },
         {
           "texto": "not",
-          "inicio": 0.162,
-          "fin": 0.4,
+          "inicio": 0.15,
+          "fin": 0.337,
           "linea": 12
         },
         {
           "texto": "love.",
-          "inicio": 0.412,
-          "fin": 0.862,
+          "inicio": 0.363,
+          "fin": 0.725,
           "linea": 12
         }
       ],
@@ -667,7 +667,7 @@
       "sonidos": [
         {
           "archivo": "assets/sonido/bloque.mp3",
-          "en": 0.412,
+          "en": 0.363,
           "volumen": 0.3
         }
       ],
@@ -680,33 +680,33 @@
       "tipo": "linea",
       "bloque": null,
       "escena": 7,
-      "inicio": 28.45,
-      "duracion": 2.213,
+      "inicio": 28.4,
+      "duracion": 2.325,
       "audio": null,
       "imagen": "content/2026-XX-XX-trauma-bonding-parte-2/imagenes/escena-7.jpg",
       "palabras": [
         {
           "texto": "It's",
           "inicio": 0.0,
-          "fin": 0.187,
+          "fin": 0.2,
           "linea": 13
         },
         {
           "texto": "your",
-          "inicio": 0.2,
-          "fin": 0.325,
+          "inicio": 0.225,
+          "fin": 0.4,
           "linea": 13
         },
         {
           "texto": "brain,",
-          "inicio": 0.338,
-          "fin": 0.713,
+          "inicio": 0.425,
+          "fin": 0.8,
           "linea": 13
         },
         {
           "texto": "drugged.",
-          "inicio": 0.862,
-          "fin": 1.35,
+          "inicio": 0.975,
+          "fin": 1.45,
           "linea": 13
         }
       ],
@@ -714,7 +714,7 @@
       "sonidos": [
         {
           "archivo": "assets/sonido/revelacion.mp3",
-          "en": 0.862
+          "en": 0.975
         }
       ],
       "impacto": false,
@@ -726,45 +726,45 @@
       "tipo": "linea",
       "bloque": null,
       "escena": 7,
-      "inicio": 30.663,
-      "duracion": 2.312,
+      "inicio": 30.725,
+      "duracion": 2.2,
       "audio": null,
       "imagen": "content/2026-XX-XX-trauma-bonding-parte-2/imagenes/escena-7.jpg",
       "palabras": [
         {
           "texto": "And",
           "inicio": 0.0,
-          "fin": 0.187,
+          "fin": 0.2,
           "linea": 14
         },
         {
           "texto": "a",
-          "inicio": 0.2,
-          "fin": 0.262,
+          "inicio": 0.225,
+          "fin": 0.287,
           "linea": 14
         },
         {
           "texto": "drug",
-          "inicio": 0.275,
-          "fin": 0.625,
+          "inicio": 0.3,
+          "fin": 0.612,
           "linea": 14
         },
         {
           "texto": "can",
-          "inicio": 0.637,
-          "fin": 0.8,
+          "inicio": 0.638,
+          "fin": 0.787,
           "linea": 14
         },
         {
           "texto": "be",
-          "inicio": 0.812,
-          "fin": 0.937,
+          "inicio": 0.8,
+          "fin": 0.912,
           "linea": 14
         },
         {
           "texto": "quit.",
-          "inicio": 0.95,
-          "fin": 1.449,
+          "inicio": 0.925,
+          "fin": 1.337,
           "linea": 14
         }
       ],
@@ -772,7 +772,7 @@
       "sonidos": [
         {
           "archivo": "assets/sonido/bloque.mp3",
-          "en": 0.95,
+          "en": 0.925,
           "volumen": 0.3
         }
       ],
@@ -785,57 +785,57 @@
       "tipo": "linea",
       "bloque": null,
       "escena": 7,
-      "inicio": 32.975,
-      "duracion": 3.387,
+      "inicio": 32.925,
+      "duracion": 3.562,
       "audio": null,
       "imagen": "content/2026-XX-XX-trauma-bonding-parte-2/imagenes/escena-7.jpg",
       "palabras": [
         {
           "texto": "Comment",
           "inicio": 0.0,
-          "fin": 0.388,
+          "fin": 0.425,
           "linea": 15
         },
         {
           "texto": "'THIS",
-          "inicio": 0.4,
-          "fin": 0.575,
+          "inicio": 0.45,
+          "fin": 0.625,
           "linea": 15
         },
         {
           "texto": "IS",
-          "inicio": 0.587,
-          "fin": 0.737,
+          "inicio": 0.637,
+          "fin": 0.775,
           "linea": 15
         },
         {
           "texto": "REAL'",
-          "inicio": 0.75,
-          "fin": 1.05,
+          "inicio": 0.8,
+          "fin": 1.113,
           "linea": 15
         },
         {
           "texto": "if",
-          "inicio": 1.063,
-          "fin": 1.175,
+          "inicio": 1.137,
+          "fin": 1.25,
           "linea": 15
         },
         {
           "texto": "you",
-          "inicio": 1.188,
-          "fin": 1.313,
+          "inicio": 1.275,
+          "fin": 1.413,
           "linea": 15
         },
         {
           "texto": "recognized",
-          "inicio": 1.325,
-          "fin": 1.887,
+          "inicio": 1.437,
+          "fin": 2.037,
           "linea": 15
         },
         {
           "texto": "yourself.",
-          "inicio": 1.9,
-          "fin": 2.525,
+          "inicio": 2.062,
+          "fin": 2.675,
           "linea": 15
         }
       ],
@@ -843,7 +843,7 @@
       "sonidos": [
         {
           "archivo": "assets/sonido/bloque.mp3",
-          "en": 0.75,
+          "en": 0.8,
           "volumen": 0.3
         }
       ],
@@ -856,69 +856,69 @@
       "tipo": "linea",
       "bloque": null,
       "escena": 7,
-      "inicio": 36.362,
-      "duracion": 3.525,
+      "inicio": 36.487,
+      "duracion": 3.575,
       "audio": null,
       "imagen": "content/2026-XX-XX-trauma-bonding-parte-2/imagenes/escena-7.jpg",
       "palabras": [
         {
           "texto": "And",
           "inicio": 0.0,
-          "fin": 0.188,
+          "fin": 0.175,
           "linea": 16
         },
         {
           "texto": "send",
-          "inicio": 0.2,
-          "fin": 0.438,
+          "inicio": 0.201,
+          "fin": 0.451,
           "linea": 16
         },
         {
           "texto": "it",
-          "inicio": 0.45,
+          "inicio": 0.463,
           "fin": 0.538,
           "linea": 16
         },
         {
           "texto": "to",
-          "inicio": 0.551,
-          "fin": 0.638,
+          "inicio": 0.563,
+          "fin": 0.663,
           "linea": 16
         },
         {
           "texto": "someone",
-          "inicio": 0.651,
-          "fin": 0.988,
+          "inicio": 0.676,
+          "fin": 1.088,
           "linea": 16
         },
         {
           "texto": "who",
-          "inicio": 1.0,
-          "fin": 1.113,
+          "inicio": 1.113,
+          "fin": 1.238,
           "linea": 16
         },
         {
           "texto": "needs",
-          "inicio": 1.125,
-          "fin": 1.4,
+          "inicio": 1.263,
+          "fin": 1.526,
           "linea": 16
         },
         {
           "texto": "to",
-          "inicio": 1.413,
-          "fin": 1.5,
+          "inicio": 1.551,
+          "fin": 1.638,
           "linea": 16
         },
         {
           "texto": "hear",
-          "inicio": 1.513,
-          "fin": 1.738,
+          "inicio": 1.651,
+          "fin": 1.876,
           "linea": 16
         },
         {
           "texto": "it.",
-          "inicio": 1.75,
-          "fin": 2.025,
+          "inicio": 1.888,
+          "fin": 2.075,
           "linea": 16
         }
       ],
@@ -926,12 +926,12 @@
       "sonidos": [
         {
           "archivo": "assets/sonido/bloque.mp3",
-          "en": 0.2,
+          "en": 0.201,
           "volumen": 0.3
         },
         {
           "archivo": "assets/sonido/cierre.mp3",
-          "en": 2.025
+          "en": 2.075
         }
       ],
       "impacto": false,
@@ -942,21 +942,21 @@
   "tramos": [
     {
       "desde": 0.0,
-      "hasta": 12.113,
+      "hasta": 12.475,
       "imagen": "content/2026-XX-XX-trauma-bonding-parte-2/imagenes/escena-5.jpg",
       "escena": 5,
       "whoosh": false
     },
     {
-      "desde": 12.113,
-      "hasta": 23.55,
+      "desde": 12.475,
+      "hasta": 24.05,
       "imagen": "content/2026-XX-XX-trauma-bonding-parte-2/imagenes/escena-6.jpg",
       "escena": 6,
       "whoosh": true
     },
     {
-      "desde": 23.55,
-      "hasta": 39.887,
+      "desde": 24.05,
+      "hasta": 40.062,
       "imagen": "content/2026-XX-XX-trauma-bonding-parte-2/imagenes/escena-7.jpg",
       "escena": 7,
       "whoosh": true
