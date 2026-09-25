@@ -1,0 +1,9 @@
+# Clips reales de Pexels para este short (licencia Pexels: uso comercial libre,
+# sin atribución obligatoria — igual se guarda el autor en creditos.md).
+# Descargados por .github/workflows/descargar-assets-standalone.yml: prueba la
+# URL principal, si falla prueba el respaldo (autor y página propios). No se
+# regenera lo que ya existe.
+#
+# archivo	principal_url	principal_autor	principal_pagina	respaldo_url	respaldo_autor	respaldo_pagina
+clip-a-gaslighting.mp4	https://videos.pexels.com/video-files/7279738/7279738-hd_1080_1920_25fps.mp4	MART PRODUCTION	https://www.pexels.com/video/a-problematic-man-looking-at-his-phone-7279738/	https://videos.pexels.com/video-files/7277930/7277930-hd_1080_1920_25fps.mp4	MART PRODUCTION	https://www.pexels.com/video/depressed-woman-using-her-phone-7277930/
+clip-b-love-bombing.mp4	https://videos.pexels.com/video-files/8551777/8551777-hd_1080_1920_24fps.mp4	Liliana Drew	https://www.pexels.com/video/person-holding-flowers-8551777/	https://videos.pexels.com/video-files/15689204/15689204-hd_1080_1920_24fps.mp4	Ali Alcántara	https://www.pexels.com/video/close-up-view-of-a-man-carrying-a-bunch-of-pink-roses-15689204/

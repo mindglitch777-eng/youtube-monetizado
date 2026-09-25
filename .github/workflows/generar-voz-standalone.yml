@@ -1,0 +1,64 @@
+# Genera la narración (edge-tts) de los shorts 100% animados en Remotion
+# ("Formato: standalone-animado" en guion.md — sin imágenes IA: tipografía
+# cinética, íconos SVG y clips reales). Corre en GitHub Actions porque
+# Microsoft bloquea edge-tts desde el entorno de Claude Code. Commitea
+# audio/narracion.mp3 y timeline.json en la misma rama.
+name: Generar voz standalone
+
+on:
+  push:
+    paths:
+      - content/*/guion.md
+      - scripts/generar_voz_standalone.py
+      - .github/workflows/generar-voz-standalone.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generar-voz-standalone-${{ github.ref }}
+
+jobs:
+  voz:
+    runs-on: ubuntu-latest
+    env:
+      EDGE_TTS_VOICE: en-US-JennyNeural
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Configurar git (para los checkpoints durante la generación)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Generar narración de cada guion standalone-animado
+        run: |
+          set -euo pipefail
+          for guion in content/*/guion.md; do
+            head -1 "$guion" | grep -qiE '^formato:[[:space:]]*standalone-animado' || continue
+            echo "::group::$guion"
+            python scripts/generar_voz_standalone.py "$guion"
+            echo "::endgroup::"
+          done
+
+      - name: Commitear audio y timeline
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- content
+          if git diff --cached --quiet; then
+            echo "Sin cambios."
+            exit 0
+          fi
+          git commit -m "Generar voz standalone (edge-tts) desde GitHub Actions"
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

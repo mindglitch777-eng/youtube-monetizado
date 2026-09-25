@@ -1,0 +1,120 @@
+# Descarga, para los shorts "standalone-animado" (sin imágenes IA):
+# 1) los clips reales de Pexels listados en content/*/clips/pedido.tsv
+#    (prueba la URL principal, si falla prueba el respaldo) y arma
+#    creditos.md con el autor de la que efectivamente se usó.
+# 2) dos sonidos nuevos de Mixkit para tono oscuro/tenso — un golpe/impacto
+#    y un sting duro de cierre — que no estaban en la librería de marca
+#    (assets/sonido/fuentes.tsv trae whoosh/ding/click/sting "positivos",
+#    pensados para el tono cálido del canal, no para este tono tenso).
+#    Si no encuentra ningún sonido que matchee las palabras clave, no falla:
+#    reusa el sonido de marca más parecido (bloque.mp3 / cierre.mp3) y lo
+#    dice en el log, para no bloquear el resto del short por esto.
+name: Descargar assets standalone
+
+on:
+  push:
+    paths:
+      - content/*/clips/pedido.tsv
+      - .github/workflows/descargar-assets-standalone.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: descargar-assets-standalone-${{ github.ref }}
+
+jobs:
+  assets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Descargar clips de Pexels
+        run: |
+          set -euo pipefail
+          for pedido in content/*/clips/pedido.tsv; do
+            [ -f "$pedido" ] || continue
+            carpeta=$(dirname "$pedido")
+            creditos="$carpeta/creditos.md"
+            echo "# Créditos de clips reales (Pexels)" > "$creditos"
+            echo "" >> "$creditos"
+            grep -v '^#' "$pedido" | grep -v '^[[:space:]]*$' | while IFS=$'\t' read -r archivo p_url p_autor p_pagina r_url r_autor r_pagina; do
+              destino="$carpeta/$archivo"
+              if [ -f "$destino" ]; then
+                echo "✓ $archivo ya existe"
+                continue
+              fi
+              usado=""
+              if curl -fsSL -A "Mozilla/5.0" -o "$destino" "$p_url" && file -b --mime-type "$destino" | grep -qE '^video/'; then
+                echo "✓ $archivo ← principal ($p_url)"
+                echo "- **$archivo**: $p_autor — $p_pagina" >> "$creditos"
+                usado=1
+              else
+                rm -f "$destino"
+                echo "  principal falló, pruebo respaldo ..."
+                if curl -fsSL -A "Mozilla/5.0" -o "$destino" "$r_url" && file -b --mime-type "$destino" | grep -qE '^video/'; then
+                  echo "✓ $archivo ← respaldo ($r_url)"
+                  echo "- **$archivo**: $r_autor — $r_pagina (respaldo)" >> "$creditos"
+                  usado=1
+                fi
+              fi
+              if [ -z "$usado" ]; then
+                rm -f "$destino"
+                echo "::warning::No se pudo descargar $archivo (ni principal ni respaldo)"
+              fi
+            done
+          done
+
+      - name: Buscar sonidos nuevos de tono oscuro/tenso (Mixkit, best-effort)
+        run: |
+          set -euo pipefail
+          cd assets/sonido
+          buscar_y_bajar() {
+            destino="$1"; shift
+            patron="$1"; shift
+            if [ -f "$destino" ]; then
+              echo "✓ $destino ya existe"
+              return 0
+            fi
+            for pagina in "$@"; do
+              html=$(curl -fsSL -A "Mozilla/5.0" "$pagina" 2>/dev/null || true)
+              [ -z "$html" ] && continue
+              url=$(echo "$html" | grep -oE 'https://assets\.mixkit\.co/(active_storage/sfx|sfx/preview)/[^"]+\.(mp3|wav)' \
+                    | grep -iE "$patron" | head -1 || true)
+              if [ -n "$url" ] && curl -fsSL -A "Mozilla/5.0" -o "$destino" "$url" \
+                 && file -b --mime-type "$destino" | grep -qE '^audio/'; then
+                echo "✓ $destino ← $url"
+                echo "$url" >> fuentes-standalone.txt
+                return 0
+              fi
+              rm -f "$destino"
+            done
+            return 1
+          }
+
+          buscar_y_bajar "impacto.mp3" "hit|punch|impact|thud|knock" \
+            "https://mixkit.co/free-sound-effects/impact/" \
+            "https://mixkit.co/free-sound-effects/game/" \
+            "https://mixkit.co/free-sound-effects/cinematic/" \
+            || { echo "::warning::No encontré un golpe/impacto nuevo; reuso bloque.mp3 como impacto.mp3"; cp bloque.mp3 impacto.mp3; }
+
+          buscar_y_bajar "cierre-duro.mp3" "horror|glitch|dark|riser|drone|tension|impact" \
+            "https://mixkit.co/free-sound-effects/horror/" \
+            "https://mixkit.co/free-sound-effects/cinematic/" \
+            "https://mixkit.co/free-sound-effects/impact/" \
+            || { echo "::warning::No encontré un sting duro nuevo; reuso cierre.mp3 como cierre-duro.mp3"; cp cierre.mp3 cierre-duro.mp3; }
+
+      - name: Commitear assets nuevos
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- content assets/sonido
+          if git diff --cached --quiet; then
+            echo "Sin assets nuevos."
+            exit 0
+          fi
+          git commit -m "Descargar clips de Pexels y sonidos tensos nuevos desde GitHub Actions"
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
