@@ -1,49 +1,49 @@
 {
-  "duracion": 8.304,
+  "duracion": 8.136,
   "palabras": [
     {
       "texto": "A",
       "inicio": 0.1,
-      "fin": 0.213
+      "fin": 0.238
     },
     {
       "texto": "home",
-      "inicio": 0.225,
-      "fin": 0.475
+      "inicio": 0.25,
+      "fin": 0.512
     },
     {
       "texto": "where",
-      "inicio": 0.487,
-      "fin": 0.65
+      "inicio": 0.537,
+      "fin": 0.738
     },
     {
       "texto": "arguments",
-      "inicio": 0.662,
-      "fin": 1.163
+      "inicio": 0.75,
+      "fin": 1.275
     },
     {
       "texto": "were",
-      "inicio": 1.175,
-      "fin": 1.312
+      "inicio": 1.288,
+      "fin": 1.425
     },
     {
       "texto": "loud.",
-      "inicio": 1.325,
-      "fin": 1.8
+      "inicio": 1.45,
+      "fin": 1.862
     },
     {
       "texto": "When",
-      "inicio": 2.663,
-      "fin": 2.875
+      "inicio": 2.75,
+      "fin": 2.925
     },
     {
       "texto": "every",
-      "inicio": 2.888,
-      "fin": 3.113
+      "inicio": 2.95,
+      "fin": 3.175
     },
     {
       "texto": "disagreement",
-      "inicio": 3.125,
+      "inicio": 3.2,
       "fin": 3.825
     },
     {
@@ -53,55 +53,55 @@
     },
     {
       "texto": "into",
-      "inicio": 4.1,
-      "fin": 4.3
+      "inicio": 4.112,
+      "fin": 4.263
     },
     {
       "texto": "shouting,",
-      "inicio": 4.312,
-      "fin": 4.862
+      "inicio": 4.275,
+      "fin": 4.725
     },
     {
       "texto": "staying",
-      "inicio": 5.013,
-      "fin": 5.338
+      "inicio": 4.938,
+      "fin": 5.237
     },
     {
       "texto": "quiet",
-      "inicio": 5.35,
-      "fin": 5.75
+      "inicio": 5.25,
+      "fin": 5.612
     },
     {
       "texto": "was",
-      "inicio": 5.763,
-      "fin": 5.888
+      "inicio": 5.638,
+      "fin": 5.788
     },
     {
       "texto": "the",
-      "inicio": 5.9,
-      "fin": 6.0
+      "inicio": 5.812,
+      "fin": 5.925
     },
     {
       "texto": "safest",
-      "inicio": 6.013,
-      "fin": 6.487
+      "inicio": 5.95,
+      "fin": 6.375
     },
     {
       "texto": "place",
-      "inicio": 6.5,
-      "fin": 6.75
+      "inicio": 6.4,
+      "fin": 6.625
     },
     {
       "texto": "to",
-      "inicio": 6.763,
-      "fin": 6.862
+      "inicio": 6.65,
+      "fin": 6.738
     },
     {
       "texto": "stand.",
-      "inicio": 6.875,
-      "fin": 7.425
+      "inicio": 6.75,
+      "fin": 7.237
     }
   ],
   "texto": "A home where arguments were loud. When every disagreement turned into shouting, staying quiet was the safest place to stand.",
-  "voz": "en-US-JennyNeural"
+  "voz": "en-US-GuyNeural"
 }

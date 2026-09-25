@@ -1,117 +1,117 @@
 {
-  "duracion": 7.584,
+  "duracion": 6.792,
   "palabras": [
     {
       "texto": "There's",
       "inicio": 0.1,
-      "fin": 0.338
+      "fin": 0.3
     },
     {
       "texto": "a",
-      "inicio": 0.35,
-      "fin": 0.412
+      "inicio": 0.325,
+      "fin": 0.388
     },
     {
       "texto": "pattern",
-      "inicio": 0.425,
-      "fin": 0.875
+      "inicio": 0.412,
+      "fin": 0.75
     },
     {
       "texto": "that",
-      "inicio": 0.887,
-      "fin": 1.05
+      "inicio": 0.775,
+      "fin": 0.9
     },
     {
       "texto": "shows",
-      "inicio": 1.062,
-      "fin": 1.35
+      "inicio": 0.912,
+      "fin": 1.212
     },
     {
       "texto": "up",
-      "inicio": 1.363,
-      "fin": 1.5
+      "inicio": 1.238,
+      "fin": 1.363
     },
     {
       "texto": "in",
-      "inicio": 1.512,
-      "fin": 1.6
+      "inicio": 1.375,
+      "fin": 1.462
     },
     {
       "texto": "a",
-      "inicio": 1.613,
-      "fin": 1.663
+      "inicio": 1.488,
+      "fin": 1.538
     },
     {
       "texto": "lot",
-      "inicio": 1.675,
-      "fin": 1.913
+      "inicio": 1.55,
+      "fin": 1.725
     },
     {
       "texto": "of",
-      "inicio": 1.925,
-      "fin": 2.013
+      "inicio": 1.738,
+      "fin": 1.825
     },
     {
       "texto": "couples:",
-      "inicio": 2.025,
-      "fin": 2.625
+      "inicio": 1.85,
+      "fin": 2.288
     },
     {
       "texto": "one",
-      "inicio": 2.8,
-      "fin": 3.025
+      "inicio": 2.562,
+      "fin": 2.788
     },
     {
       "texto": "person",
-      "inicio": 3.038,
-      "fin": 3.438
+      "inicio": 2.8,
+      "fin": 3.162
     },
     {
       "texto": "reaches,",
-      "inicio": 3.45,
-      "fin": 4.038
+      "inicio": 3.188,
+      "fin": 3.55
     },
     {
       "texto": "the",
-      "inicio": 4.188,
-      "fin": 4.287
+      "inicio": 3.663,
+      "fin": 3.775
     },
     {
       "texto": "other",
-      "inicio": 4.3,
-      "fin": 4.537
+      "inicio": 3.8,
+      "fin": 4.013
     },
     {
       "texto": "retreats,",
-      "inicio": 4.55,
-      "fin": 5.138
+      "inicio": 4.025,
+      "fin": 4.5
     },
     {
       "texto": "and",
-      "inicio": 5.325,
-      "fin": 5.463
+      "inicio": 4.688,
+      "fin": 4.812
     },
     {
       "texto": "both",
-      "inicio": 5.475,
-      "fin": 5.75
+      "inicio": 4.838,
+      "fin": 5.075
     },
     {
       "texto": "get",
-      "inicio": 5.763,
-      "fin": 5.925
+      "inicio": 5.088,
+      "fin": 5.263
     },
     {
       "texto": "more",
-      "inicio": 5.938,
-      "fin": 6.15
+      "inicio": 5.287,
+      "fin": 5.462
     },
     {
       "texto": "stuck.",
-      "inicio": 6.162,
-      "fin": 6.7
+      "inicio": 5.487,
+      "fin": 5.888
     }
   ],
   "texto": "There's a pattern that shows up in a lot of couples: one person reaches, the other retreats, and both get more stuck.",
-  "voz": "en-US-JennyNeural"
+  "voz": "en-US-GuyNeural"
 }

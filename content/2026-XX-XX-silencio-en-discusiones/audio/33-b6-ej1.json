@@ -1,107 +1,107 @@
 {
-  "duracion": 7.584,
+  "duracion": 7.68,
   "palabras": [
     {
       "texto": "They",
       "inicio": 0.1,
-      "fin": 0.263
+      "fin": 0.275
     },
     {
       "texto": "agree",
-      "inicio": 0.275,
-      "fin": 0.562
+      "inicio": 0.3,
+      "fin": 0.637
     },
     {
       "texto": "on",
-      "inicio": 0.575,
-      "fin": 0.675
+      "inicio": 0.662,
+      "fin": 0.775
     },
     {
       "texto": "a",
-      "inicio": 0.688,
-      "fin": 0.738
+      "inicio": 0.8,
+      "fin": 0.863
     },
     {
       "texto": "signal",
-      "inicio": 0.75,
-      "fin": 1.15
+      "inicio": 0.887,
+      "fin": 1.312
     },
     {
       "texto": "before",
-      "inicio": 1.163,
-      "fin": 1.475
+      "inicio": 1.337,
+      "fin": 1.662
     },
     {
       "texto": "the",
-      "inicio": 1.488,
-      "fin": 1.562
+      "inicio": 1.675,
+      "fin": 1.75
     },
     {
       "texto": "next",
-      "inicio": 1.575,
-      "fin": 1.913
+      "inicio": 1.762,
+      "fin": 2.025
     },
     {
       "texto": "fight.",
-      "inicio": 1.925,
-      "fin": 2.362
+      "inicio": 2.038,
+      "fin": 2.425
     },
     {
       "texto": "A",
-      "inicio": 3.225,
-      "fin": 3.35
+      "inicio": 3.3,
+      "fin": 3.412
     },
     {
       "texto": "simple",
-      "inicio": 3.362,
-      "fin": 3.7
+      "inicio": 3.438,
+      "fin": 3.825
     },
     {
       "texto": "word",
-      "inicio": 3.712,
-      "fin": 3.938
+      "inicio": 3.85,
+      "fin": 4.088
     },
     {
       "texto": "or",
-      "inicio": 3.95,
-      "fin": 4.062
+      "inicio": 4.112,
+      "fin": 4.2
     },
     {
       "texto": "gesture",
-      "inicio": 4.075,
-      "fin": 4.513
+      "inicio": 4.213,
+      "fin": 4.663
     },
     {
       "texto": "that",
-      "inicio": 4.525,
-      "fin": 4.688
+      "inicio": 4.688,
+      "fin": 4.825
     },
     {
       "texto": "means",
-      "inicio": 4.7,
-      "fin": 5.013
+      "inicio": 4.838,
+      "fin": 5.1
     },
     {
       "texto": "\"I'm",
-      "inicio": 5.062,
-      "fin": 5.2
+      "inicio": 5.162,
+      "fin": 5.325
     },
     {
       "texto": "overwhelmed,",
-      "inicio": 5.213,
-      "fin": 5.838
+      "inicio": 5.35,
+      "fin": 5.987
     },
     {
       "texto": "not",
-      "inicio": 5.95,
-      "fin": 6.213
+      "inicio": 6.15,
+      "fin": 6.388
     },
     {
       "texto": "leaving.\"",
-      "inicio": 6.225,
-      "fin": 6.7
+      "inicio": 6.4,
+      "fin": 6.788
     }
   ],
   "texto": "They agree on a signal before the next fight. A simple word or gesture that means \"I'm overwhelmed, not leaving.\"",
-  "voz": "en-US-JennyNeural"
+  "voz": "en-US-GuyNeural"
 }

@@ -1,117 +1,117 @@
 {
-  "duracion": 6.528,
+  "duracion": 5.976,
   "palabras": [
     {
       "texto": "There's",
       "inicio": 0.1,
-      "fin": 0.338
+      "fin": 0.3
     },
     {
       "texto": "a",
-      "inicio": 0.35,
-      "fin": 0.412
+      "inicio": 0.312,
+      "fin": 0.375
     },
     {
       "texto": "big",
-      "inicio": 0.425,
-      "fin": 0.637
+      "inicio": 0.388,
+      "fin": 0.6
     },
     {
       "texto": "difference",
-      "inicio": 0.65,
-      "fin": 1.087
+      "inicio": 0.625,
+      "fin": 1.025
     },
     {
       "texto": "between",
-      "inicio": 1.1,
-      "fin": 1.425
+      "inicio": 1.05,
+      "fin": 1.363
     },
     {
       "texto": "a",
-      "inicio": 1.438,
-      "fin": 1.488
+      "inicio": 1.387,
+      "fin": 1.45
     },
     {
       "texto": "wall",
-      "inicio": 1.5,
-      "fin": 1.812
+      "inicio": 1.475,
+      "fin": 1.75
     },
     {
       "texto": "and",
-      "inicio": 1.825,
+      "inicio": 1.762,
+      "fin": 1.837
+    },
+    {
+      "texto": "a",
+      "inicio": 1.863,
       "fin": 1.925
     },
     {
-      "texto": "a",
-      "inicio": 1.938,
-      "fin": 1.988
-    },
-    {
       "texto": "pause,",
-      "inicio": 2.0,
-      "fin": 2.525
+      "inicio": 1.95,
+      "fin": 2.375
     },
     {
       "texto": "and",
-      "inicio": 2.725,
-      "fin": 2.863
+      "inicio": 2.538,
+      "fin": 2.65
     },
     {
       "texto": "it",
-      "inicio": 2.875,
-      "fin": 2.975
+      "inicio": 2.675,
+      "fin": 2.75
     },
     {
       "texto": "comes",
-      "inicio": 2.987,
-      "fin": 3.262
+      "inicio": 2.775,
+      "fin": 3.0
     },
     {
       "texto": "down",
-      "inicio": 3.275,
-      "fin": 3.5
+      "inicio": 3.013,
+      "fin": 3.2
     },
     {
       "texto": "to",
-      "inicio": 3.513,
-      "fin": 3.613
+      "inicio": 3.212,
+      "fin": 3.288
     },
     {
       "texto": "one",
-      "inicio": 3.625,
-      "fin": 3.875
+      "inicio": 3.312,
+      "fin": 3.525
     },
     {
       "texto": "thing:",
-      "inicio": 3.888,
-      "fin": 4.237
+      "inicio": 3.538,
+      "fin": 3.775
     },
     {
       "texto": "whether",
-      "inicio": 4.463,
-      "fin": 4.7
+      "inicio": 3.962,
+      "fin": 4.2
     },
     {
       "texto": "there's",
-      "inicio": 4.713,
-      "fin": 4.913
+      "inicio": 4.225,
+      "fin": 4.425
     },
     {
       "texto": "a",
-      "inicio": 4.925,
-      "fin": 4.975
+      "inicio": 4.45,
+      "fin": 4.513
     },
     {
       "texto": "way",
-      "inicio": 4.987,
-      "fin": 5.162
+      "inicio": 4.537,
+      "fin": 4.675
     },
     {
       "texto": "back.",
-      "inicio": 5.175,
-      "fin": 5.65
+      "inicio": 4.7,
+      "fin": 5.088
     }
   ],
   "texto": "There's a big difference between a wall and a pause, and it comes down to one thing: whether there's a way back.",
-  "voz": "en-US-JennyNeural"
+  "voz": "en-US-GuyNeural"
 }

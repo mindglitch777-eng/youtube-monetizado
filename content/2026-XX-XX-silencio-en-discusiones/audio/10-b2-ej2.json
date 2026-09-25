@@ -1,142 +1,142 @@
 {
-  "duracion": 9.864,
+  "duracion": 9.384,
   "palabras": [
     {
       "texto": "A",
       "inicio": 0.1,
-      "fin": 0.213
+      "fin": 0.238
     },
     {
       "texto": "home",
-      "inicio": 0.225,
-      "fin": 0.45
+      "inicio": 0.25,
+      "fin": 0.5
     },
     {
       "texto": "where",
-      "inicio": 0.463,
-      "fin": 0.6
+      "inicio": 0.525,
+      "fin": 0.688
     },
     {
       "texto": "feelings",
-      "inicio": 0.613,
-      "fin": 1.087
+      "inicio": 0.713,
+      "fin": 1.175
     },
     {
       "texto": "were",
-      "inicio": 1.1,
-      "fin": 1.213
+      "inicio": 1.2,
+      "fin": 1.35
     },
     {
       "texto": "brushed",
-      "inicio": 1.225,
-      "fin": 1.575
+      "inicio": 1.375,
+      "fin": 1.688
     },
     {
       "texto": "aside.",
-      "inicio": 1.587,
-      "fin": 2.125
+      "inicio": 1.712,
+      "fin": 2.212
     },
     {
       "texto": "If",
-      "inicio": 2.987,
-      "fin": 3.15
+      "inicio": 3.087,
+      "fin": 3.25
     },
     {
       "texto": "\"stop",
-      "inicio": 3.163,
-      "fin": 3.45
+      "inicio": 3.275,
+      "fin": 3.538
     },
     {
       "texto": "crying\"",
-      "inicio": 3.462,
-      "fin": 3.913
+      "inicio": 3.55,
+      "fin": 3.875
     },
     {
       "texto": "or",
-      "inicio": 3.925,
-      "fin": 4.087
+      "inicio": 3.888,
+      "fin": 4.0
     },
     {
       "texto": "\"don't",
-      "inicio": 4.138,
-      "fin": 4.325
+      "inicio": 4.062,
+      "fin": 4.263
     },
     {
       "texto": "be",
-      "inicio": 4.338,
-      "fin": 4.45
+      "inicio": 4.275,
+      "fin": 4.375
     },
     {
       "texto": "dramatic\"",
-      "inicio": 4.463,
-      "fin": 5.088
+      "inicio": 4.388,
+      "fin": 4.913
     },
     {
       "texto": "was",
-      "inicio": 5.138,
-      "fin": 5.3
+      "inicio": 4.975,
+      "fin": 5.137
     },
     {
       "texto": "the",
-      "inicio": 5.312,
-      "fin": 5.412
+      "inicio": 5.162,
+      "fin": 5.25
     },
     {
       "texto": "answer,",
-      "inicio": 5.425,
-      "fin": 5.962
+      "inicio": 5.275,
+      "fin": 5.65
     },
     {
       "texto": "he",
-      "inicio": 6.213,
-      "fin": 6.3
+      "inicio": 5.838,
+      "fin": 5.925
     },
     {
       "texto": "may",
-      "inicio": 6.312,
-      "fin": 6.45
+      "inicio": 5.938,
+      "fin": 6.075
     },
     {
       "texto": "have",
-      "inicio": 6.463,
-      "fin": 6.625
+      "inicio": 6.1,
+      "fin": 6.225
     },
     {
       "texto": "learned",
-      "inicio": 6.638,
-      "fin": 6.913
+      "inicio": 6.25,
+      "fin": 6.5
     },
     {
       "texto": "that",
-      "inicio": 6.925,
-      "fin": 7.075
+      "inicio": 6.525,
+      "fin": 6.663
     },
     {
       "texto": "talking",
-      "inicio": 7.088,
-      "fin": 7.463
+      "inicio": 6.675,
+      "fin": 7.037
     },
     {
       "texto": "about",
-      "inicio": 7.475,
-      "fin": 7.725
+      "inicio": 7.05,
+      "fin": 7.275
     },
     {
       "texto": "feelings",
-      "inicio": 7.737,
-      "fin": 8.213
+      "inicio": 7.3,
+      "fin": 7.737
     },
     {
       "texto": "leads",
-      "inicio": 8.225,
-      "fin": 8.45
+      "inicio": 7.763,
+      "fin": 7.987
     },
     {
       "texto": "nowhere.",
-      "inicio": 8.463,
-      "fin": 8.988
+      "inicio": 8.0,
+      "fin": 8.488
     }
   ],
   "texto": "A home where feelings were brushed aside. If \"stop crying\" or \"don't be dramatic\" was the answer, he may have learned that talking about feelings leads nowhere.",
-  "voz": "en-US-JennyNeural"
+  "voz": "en-US-GuyNeural"
 }

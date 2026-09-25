@@ -1,87 +1,87 @@
 {
-  "duracion": 5.664,
+  "duracion": 5.88,
   "palabras": [
     {
       "texto": "You've",
       "inicio": 0.1,
-      "fin": 0.3
+      "fin": 0.312
     },
     {
       "texto": "probably",
-      "inicio": 0.312,
-      "fin": 0.787
+      "inicio": 0.338,
+      "fin": 0.788
     },
     {
       "texto": "heard",
-      "inicio": 0.8,
-      "fin": 1.038
+      "inicio": 0.812,
+      "fin": 1.05
     },
     {
       "texto": "that",
-      "inicio": 1.05,
-      "fin": 1.188
+      "inicio": 1.075,
+      "fin": 1.2
     },
     {
       "texto": "all",
-      "inicio": 1.2,
-      "fin": 1.35
+      "inicio": 1.225,
+      "fin": 1.388
     },
     {
       "texto": "silence",
-      "inicio": 1.363,
-      "fin": 1.837
+      "inicio": 1.413,
+      "fin": 1.888
     },
     {
       "texto": "in",
-      "inicio": 1.85,
-      "fin": 1.938
-    },
-    {
-      "texto": "a",
-      "inicio": 1.95,
+      "inicio": 1.913,
       "fin": 2.0
     },
     {
+      "texto": "a",
+      "inicio": 2.025,
+      "fin": 2.087
+    },
+    {
       "texto": "fight",
-      "inicio": 2.013,
-      "fin": 2.263
+      "inicio": 2.112,
+      "fin": 2.362
     },
     {
       "texto": "is",
-      "inicio": 2.275,
-      "fin": 2.387
+      "inicio": 2.388,
+      "fin": 2.513
     },
     {
       "texto": "bad.",
-      "inicio": 2.4,
-      "fin": 2.825
+      "inicio": 2.538,
+      "fin": 2.9
     },
     {
       "texto": "Not",
-      "inicio": 3.688,
-      "fin": 3.975
+      "inicio": 3.788,
+      "fin": 4.1
     },
     {
       "texto": "all",
-      "inicio": 3.987,
-      "fin": 4.162
+      "inicio": 4.125,
+      "fin": 4.325
     },
     {
       "texto": "of",
-      "inicio": 4.175,
-      "fin": 4.263
+      "inicio": 4.338,
+      "fin": 4.438
     },
     {
       "texto": "it",
-      "inicio": 4.275,
-      "fin": 4.363
+      "inicio": 4.463,
+      "fin": 4.562
     },
     {
       "texto": "is.",
-      "inicio": 4.375,
-      "fin": 4.8
+      "inicio": 4.588,
+      "fin": 4.988
     }
   ],
   "texto": "You've probably heard that all silence in a fight is bad. Not all of it is.",
-  "voz": "en-US-JennyNeural"
+  "voz": "en-US-GuyNeural"
 }

@@ -1,132 +1,132 @@
 {
-  "duracion": 9.336,
+  "duracion": 9.48,
   "palabras": [
     {
       "texto": "He",
       "inicio": 0.1,
-      "fin": 0.263
+      "fin": 0.238
     },
     {
       "texto": "goes",
-      "inicio": 0.275,
-      "fin": 0.488
+      "inicio": 0.263,
+      "fin": 0.538
     },
     {
       "texto": "quieter,",
-      "inicio": 0.5,
-      "fin": 1.038
+      "inicio": 0.55,
+      "fin": 1.025
     },
     {
       "texto": "the",
-      "inicio": 1.188,
-      "fin": 1.288
+      "inicio": 1.238,
+      "fin": 1.35
     },
     {
       "texto": "other",
-      "inicio": 1.3,
-      "fin": 1.55
+      "inicio": 1.375,
+      "fin": 1.65
     },
     {
       "texto": "person",
-      "inicio": 1.562,
-      "fin": 1.95
+      "inicio": 1.675,
+      "fin": 2.062
     },
     {
       "texto": "gets",
-      "inicio": 1.962,
-      "fin": 2.188
+      "inicio": 2.087,
+      "fin": 2.3
     },
     {
       "texto": "louder.",
-      "inicio": 2.2,
-      "fin": 2.713
+      "inicio": 2.312,
+      "fin": 2.8
     },
     {
       "texto": "Each",
-      "inicio": 3.575,
-      "fin": 3.838
+      "inicio": 3.675,
+      "fin": 3.912
     },
     {
       "texto": "reaction",
-      "inicio": 3.85,
-      "fin": 4.375
+      "inicio": 3.925,
+      "fin": 4.462
     },
     {
       "texto": "feeds",
-      "inicio": 4.388,
-      "fin": 4.675
+      "inicio": 4.487,
+      "fin": 4.763
     },
     {
       "texto": "the",
-      "inicio": 4.688,
-      "fin": 4.787
+      "inicio": 4.787,
+      "fin": 4.887
     },
     {
       "texto": "other,",
-      "inicio": 4.8,
-      "fin": 5.162
+      "inicio": 4.9,
+      "fin": 5.188
     },
     {
       "texto": "until",
-      "inicio": 5.4,
-      "fin": 5.638
+      "inicio": 5.45,
+      "fin": 5.675
     },
     {
       "texto": "the",
-      "inicio": 5.65,
-      "fin": 5.75
+      "inicio": 5.688,
+      "fin": 5.8
     },
     {
       "texto": "fight",
-      "inicio": 5.763,
-      "fin": 6.025
+      "inicio": 5.825,
+      "fin": 6.088
     },
     {
       "texto": "is",
-      "inicio": 6.037,
-      "fin": 6.162
+      "inicio": 6.1,
+      "fin": 6.225
     },
     {
       "texto": "no",
-      "inicio": 6.175,
-      "fin": 6.362
+      "inicio": 6.237,
+      "fin": 6.412
     },
     {
       "texto": "longer",
-      "inicio": 6.375,
-      "fin": 6.75
+      "inicio": 6.425,
+      "fin": 6.8
     },
     {
       "texto": "about",
-      "inicio": 6.763,
-      "fin": 6.987
-    },
-    {
-      "texto": "the",
-      "inicio": 7.0,
+      "inicio": 6.825,
       "fin": 7.075
     },
     {
-      "texto": "original",
+      "texto": "the",
       "inicio": 7.088,
-      "fin": 7.538
+      "fin": 7.188
+    },
+    {
+      "texto": "original",
+      "inicio": 7.2,
+      "fin": 7.7
     },
     {
       "texto": "topic",
-      "inicio": 7.55,
-      "fin": 7.987
-    },
-    {
-      "texto": "at",
-      "inicio": 8.0,
+      "inicio": 7.725,
       "fin": 8.1
     },
     {
+      "texto": "at",
+      "inicio": 8.125,
+      "fin": 8.213
+    },
+    {
       "texto": "all.",
-      "inicio": 8.113,
-      "fin": 8.475
+      "inicio": 8.238,
+      "fin": 8.588
     }
   ],
   "texto": "He goes quieter, the other person gets louder. Each reaction feeds the other, until the fight is no longer about the original topic at all.",
-  "voz": "en-US-JennyNeural"
+  "voz": "en-US-GuyNeural"
 }

@@ -1,122 +1,122 @@
 {
-  "duracion": 9.096,
+  "duracion": 8.832,
   "palabras": [
     {
       "texto": "Saying",
       "inicio": 0.1,
-      "fin": 0.525
+      "fin": 0.575
     },
     {
       "texto": "\"just",
-      "inicio": 0.575,
-      "fin": 0.825
+      "inicio": 0.625,
+      "fin": 0.838
     },
     {
       "texto": "say",
-      "inicio": 0.838,
-      "fin": 1.025
+      "inicio": 0.85,
+      "fin": 1.0
     },
     {
       "texto": "something!\"",
-      "inicio": 1.038,
-      "fin": 1.588
+      "inicio": 1.025,
+      "fin": 1.462
     },
     {
       "texto": "It's",
-      "inicio": 2.45,
-      "fin": 2.638
+      "inicio": 2.337,
+      "fin": 2.525
     },
     {
       "texto": "a",
-      "inicio": 2.65,
-      "fin": 2.712
+      "inicio": 2.538,
+      "fin": 2.6
     },
     {
       "texto": "completely",
-      "inicio": 2.725,
-      "fin": 3.312
+      "inicio": 2.625,
+      "fin": 3.163
     },
     {
       "texto": "understandable",
-      "inicio": 3.325,
-      "fin": 4.0
+      "inicio": 3.188,
+      "fin": 3.913
     },
     {
       "texto": "request,",
-      "inicio": 4.013,
-      "fin": 4.663
+      "inicio": 3.938,
+      "fin": 4.438
     },
     {
       "texto": "and",
-      "inicio": 4.862,
-      "fin": 4.975
+      "inicio": 4.638,
+      "fin": 4.713
     },
     {
       "texto": "it",
-      "inicio": 4.987,
-      "fin": 5.075
+      "inicio": 4.737,
+      "fin": 4.812
     },
     {
       "texto": "can",
-      "inicio": 5.088,
-      "fin": 5.263
+      "inicio": 4.838,
+      "fin": 4.988
     },
     {
       "texto": "land",
-      "inicio": 5.275,
-      "fin": 5.538
+      "inicio": 5.0,
+      "fin": 5.237
     },
     {
       "texto": "as",
-      "inicio": 5.55,
-      "fin": 5.638
+      "inicio": 5.263,
+      "fin": 5.362
     },
     {
       "texto": "pressure",
-      "inicio": 5.65,
-      "fin": 6.038
+      "inicio": 5.375,
+      "fin": 5.775
     },
     {
       "texto": "on",
-      "inicio": 6.05,
-      "fin": 6.175
+      "inicio": 5.8,
+      "fin": 5.925
     },
     {
       "texto": "someone",
-      "inicio": 6.188,
-      "fin": 6.537
+      "inicio": 5.95,
+      "fin": 6.263
     },
     {
       "texto": "who",
-      "inicio": 6.55,
-      "fin": 6.65
+      "inicio": 6.287,
+      "fin": 6.387
     },
     {
       "texto": "has",
-      "inicio": 6.662,
-      "fin": 6.837
+      "inicio": 6.412,
+      "fin": 6.6
     },
     {
       "texto": "no",
-      "inicio": 6.85,
-      "fin": 7.025
+      "inicio": 6.625,
+      "fin": 6.8
     },
     {
       "texto": "words",
-      "inicio": 7.037,
-      "fin": 7.3
+      "inicio": 6.812,
+      "fin": 7.088
     },
     {
       "texto": "available",
-      "inicio": 7.312,
-      "fin": 7.775
+      "inicio": 7.112,
+      "fin": 7.612
     },
     {
       "texto": "yet.",
-      "inicio": 7.787,
-      "fin": 8.225
+      "inicio": 7.625,
+      "fin": 7.925
     }
   ],
   "texto": "Saying \"just say something!\" It's a completely understandable request, and it can land as pressure on someone who has no words available yet.",
-  "voz": "en-US-JennyNeural"
+  "voz": "en-US-GuyNeural"
 }

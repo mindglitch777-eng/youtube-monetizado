@@ -1,5 +1,5 @@
 {
-  "duracion": 5.232,
+  "duracion": 5.376,
   "palabras": [
     {
       "texto": "You",
@@ -8,55 +8,55 @@
     },
     {
       "texto": "think",
-      "inicio": 0.287,
-      "fin": 0.5
+      "inicio": 0.3,
+      "fin": 0.525
     },
     {
       "texto": "there's",
-      "inicio": 0.512,
-      "fin": 0.712
+      "inicio": 0.55,
+      "fin": 0.75
     },
     {
       "texto": "nothing",
-      "inicio": 0.725,
-      "fin": 1.062
+      "inicio": 0.775,
+      "fin": 1.125
     },
     {
       "texto": "behind",
-      "inicio": 1.075,
-      "fin": 1.425
+      "inicio": 1.15,
+      "fin": 1.55
     },
     {
       "texto": "his",
-      "inicio": 1.438,
-      "fin": 1.562
+      "inicio": 1.562,
+      "fin": 1.7
     },
     {
       "texto": "silence.",
-      "inicio": 1.575,
-      "fin": 2.237
+      "inicio": 1.725,
+      "fin": 2.312
     },
     {
       "texto": "There's",
-      "inicio": 3.1,
-      "fin": 3.337
+      "inicio": 3.2,
+      "fin": 3.5
     },
     {
       "texto": "usually",
-      "inicio": 3.35,
-      "fin": 3.775
+      "inicio": 3.525,
+      "fin": 3.975
     },
     {
       "texto": "a",
-      "inicio": 3.788,
-      "fin": 3.85
+      "inicio": 4.0,
+      "fin": 4.062
     },
     {
       "texto": "lot.",
-      "inicio": 3.862,
-      "fin": 4.35
+      "inicio": 4.088,
+      "fin": 4.513
     }
   ],
   "texto": "You think there's nothing behind his silence. There's usually a lot.",
-  "voz": "en-US-JennyNeural"
+  "voz": "en-US-GuyNeural"
 }

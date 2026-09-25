@@ -1,157 +1,157 @@
 {
-  "duracion": 10.008,
+  "duracion": 10.128,
   "palabras": [
     {
       "texto": "None",
       "inicio": 0.1,
-      "fin": 0.338
+      "fin": 0.363
     },
     {
       "texto": "of",
-      "inicio": 0.35,
-      "fin": 0.438
+      "inicio": 0.375,
+      "fin": 0.463
     },
     {
       "texto": "this",
-      "inicio": 0.45,
-      "fin": 0.65
+      "inicio": 0.487,
+      "fin": 0.662
     },
     {
       "texto": "makes",
-      "inicio": 0.662,
-      "fin": 0.912
+      "inicio": 0.675,
+      "fin": 0.925
     },
     {
       "texto": "the",
-      "inicio": 0.925,
-      "fin": 1.025
+      "inicio": 0.95,
+      "fin": 1.075
     },
     {
       "texto": "silence",
-      "inicio": 1.038,
-      "fin": 1.475
+      "inicio": 1.087,
+      "fin": 1.575
     },
     {
       "texto": "easier",
-      "inicio": 1.488,
-      "fin": 1.837
+      "inicio": 1.587,
+      "fin": 1.987
     },
     {
       "texto": "to",
-      "inicio": 1.85,
-      "fin": 1.975
+      "inicio": 2.013,
+      "fin": 2.125
     },
     {
       "texto": "live",
-      "inicio": 1.988,
-      "fin": 2.188
+      "inicio": 2.15,
+      "fin": 2.35
     },
     {
       "texto": "with.",
-      "inicio": 2.2,
-      "fin": 2.562
+      "inicio": 2.362,
+      "fin": 2.65
     },
     {
       "texto": "But",
-      "inicio": 3.425,
-      "fin": 3.562
+      "inicio": 3.525,
+      "fin": 3.688
     },
     {
       "texto": "it",
-      "inicio": 3.575,
-      "fin": 3.663
+      "inicio": 3.712,
+      "fin": 3.788
     },
     {
       "texto": "can",
-      "inicio": 3.675,
-      "fin": 3.812
+      "inicio": 3.812,
+      "fin": 3.975
     },
     {
       "texto": "make",
-      "inicio": 3.825,
-      "fin": 4.025
+      "inicio": 4.0,
+      "fin": 4.213
     },
     {
       "texto": "it",
-      "inicio": 4.037,
-      "fin": 4.15
+      "inicio": 4.237,
+      "fin": 4.362
     },
     {
       "texto": "less",
-      "inicio": 4.162,
-      "fin": 4.375
+      "inicio": 4.375,
+      "fin": 4.575
     },
     {
       "texto": "personal.",
-      "inicio": 4.388,
-      "fin": 5.038
+      "inicio": 4.6,
+      "fin": 5.2
     },
     {
       "texto": "What",
-      "inicio": 5.9,
-      "fin": 6.1
-    },
-    {
-      "texto": "you're",
-      "inicio": 6.112,
+      "inicio": 6.062,
       "fin": 6.25
     },
     {
+      "texto": "you're",
+      "inicio": 6.275,
+      "fin": 6.425
+    },
+    {
       "texto": "seeing",
-      "inicio": 6.263,
-      "fin": 6.588
+      "inicio": 6.438,
+      "fin": 6.763
     },
     {
       "texto": "is",
-      "inicio": 6.6,
-      "fin": 6.725
+      "inicio": 6.775,
+      "fin": 6.9
     },
     {
       "texto": "often",
-      "inicio": 6.737,
-      "fin": 7.05
+      "inicio": 6.925,
+      "fin": 7.225
     },
     {
       "texto": "an",
-      "inicio": 7.062,
-      "fin": 7.162
-    },
-    {
-      "texto": "old",
-      "inicio": 7.175,
+      "inicio": 7.25,
       "fin": 7.35
     },
     {
+      "texto": "old",
+      "inicio": 7.375,
+      "fin": 7.562
+    },
+    {
       "texto": "habit,",
-      "inicio": 7.362,
-      "fin": 7.837
+      "inicio": 7.588,
+      "fin": 7.925
     },
     {
       "texto": "not",
-      "inicio": 8.0,
-      "fin": 8.225
+      "inicio": 8.162,
+      "fin": 8.362
     },
     {
       "texto": "a",
-      "inicio": 8.238,
-      "fin": 8.288
+      "inicio": 8.375,
+      "fin": 8.425
     },
     {
       "texto": "verdict",
-      "inicio": 8.3,
-      "fin": 8.675
+      "inicio": 8.45,
+      "fin": 8.837
     },
     {
       "texto": "on",
-      "inicio": 8.688,
-      "fin": 8.825
+      "inicio": 8.863,
+      "fin": 9.013
     },
     {
       "texto": "you.",
-      "inicio": 8.838,
-      "fin": 9.125
+      "inicio": 9.037,
+      "fin": 9.25
     }
   ],
   "texto": "None of this makes the silence easier to live with. But it can make it less personal. What you're seeing is often an old habit, not a verdict on you.",
-  "voz": "en-US-JennyNeural"
+  "voz": "en-US-GuyNeural"
 }

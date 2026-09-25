@@ -1,132 +1,132 @@
 {
-  "duracion": 7.848,
+  "duracion": 7.704,
   "palabras": [
     {
       "texto": "So",
       "inicio": 0.1,
-      "fin": 0.312
+      "fin": 0.3
     },
     {
       "texto": "why",
       "inicio": 0.325,
-      "fin": 0.525
+      "fin": 0.488
     },
     {
       "texto": "does",
-      "inicio": 0.537,
-      "fin": 0.688
+      "inicio": 0.5,
+      "fin": 0.662
     },
     {
       "texto": "he",
-      "inicio": 0.7,
+      "inicio": 0.688,
       "fin": 0.775
     },
     {
       "texto": "go",
-      "inicio": 0.787,
-      "fin": 0.962
+      "inicio": 0.8,
+      "fin": 0.938
     },
     {
       "texto": "quiet",
-      "inicio": 0.975,
-      "fin": 1.363
+      "inicio": 0.95,
+      "fin": 1.3
     },
     {
       "texto": "during",
-      "inicio": 1.375,
-      "fin": 1.625
+      "inicio": 1.325,
+      "fin": 1.587
     },
     {
       "texto": "a",
-      "inicio": 1.637,
-      "fin": 1.688
+      "inicio": 1.6,
+      "fin": 1.663
     },
     {
       "texto": "fight,",
-      "inicio": 1.7,
-      "fin": 2.138
+      "inicio": 1.688,
+      "fin": 2.0
     },
     {
       "texto": "right",
-      "inicio": 2.35,
-      "fin": 2.55
+      "inicio": 2.2,
+      "fin": 2.4
     },
     {
       "texto": "when",
-      "inicio": 2.562,
-      "fin": 2.675
+      "inicio": 2.425,
+      "fin": 2.562
     },
     {
       "texto": "you",
-      "inicio": 2.688,
-      "fin": 2.775
+      "inicio": 2.587,
+      "fin": 2.688
     },
     {
       "texto": "need",
-      "inicio": 2.788,
-      "fin": 2.95
+      "inicio": 2.712,
+      "fin": 2.862
     },
     {
       "texto": "him",
-      "inicio": 2.962,
-      "fin": 3.075
+      "inicio": 2.875,
+      "fin": 2.975
     },
     {
       "texto": "to",
-      "inicio": 3.087,
-      "fin": 3.163
+      "inicio": 2.987,
+      "fin": 3.05
     },
     {
       "texto": "talk?",
-      "inicio": 3.175,
-      "fin": 3.712
+      "inicio": 3.075,
+      "fin": 3.475
     },
     {
       "texto": "The",
-      "inicio": 4.575,
-      "fin": 4.713
+      "inicio": 4.35,
+      "fin": 4.487
     },
     {
       "texto": "answer",
-      "inicio": 4.725,
-      "fin": 5.075
+      "inicio": 4.513,
+      "fin": 4.862
     },
     {
       "texto": "starts",
-      "inicio": 5.088,
-      "fin": 5.413
+      "inicio": 4.888,
+      "fin": 5.213
     },
     {
       "texto": "in",
-      "inicio": 5.425,
-      "fin": 5.513
+      "inicio": 5.237,
+      "fin": 5.312
     },
     {
       "texto": "the",
-      "inicio": 5.525,
-      "fin": 5.6
+      "inicio": 5.338,
+      "fin": 5.45
     },
     {
       "texto": "body,",
-      "inicio": 5.612,
-      "fin": 6.05
+      "inicio": 5.463,
+      "fin": 5.838
     },
     {
       "texto": "not",
-      "inicio": 6.162,
-      "fin": 6.362
+      "inicio": 6.037,
+      "fin": 6.237
     },
     {
       "texto": "the",
-      "inicio": 6.375,
-      "fin": 6.45
+      "inicio": 6.263,
+      "fin": 6.35
     },
     {
       "texto": "mind.",
-      "inicio": 6.463,
-      "fin": 6.975
+      "inicio": 6.362,
+      "fin": 6.812
     }
   ],
   "texto": "So why does he go quiet during a fight, right when you need him to talk? The answer starts in the body, not the mind.",
-  "voz": "en-US-JennyNeural"
+  "voz": "en-US-GuyNeural"
 }

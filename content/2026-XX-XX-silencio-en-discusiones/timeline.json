@@ -1,23 +1,23 @@
 {
   "titulo": "Why Does He Go Quiet During a Fight? (It's Not What You Think)",
   "video": "content/2026-XX-XX-silencio-en-discusiones",
-  "voz": "en-US-JennyNeural",
+  "voz": "en-US-GuyNeural",
   "icono": "assets/personaje/knot-icono.png",
-  "duracionTotal": 337.858,
+  "duracionTotal": 333.058,
   "segmentos": [
     {
       "id": "b1-hook",
       "tipo": "hook",
       "bloque": 1,
       "inicio": 0.0,
-      "duracion": 6.264,
+      "duracion": 6.336,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/01-b1-hook.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "You",
           "inicio": 0.1,
-          "fin": 0.3
+          "fin": 0.287
         },
         {
           "texto": "think",
@@ -26,63 +26,63 @@
         },
         {
           "texto": "his",
-          "inicio": 0.537,
-          "fin": 0.662
+          "inicio": 0.55,
+          "fin": 0.7
         },
         {
           "texto": "silence",
-          "inicio": 0.675,
-          "fin": 1.15
+          "inicio": 0.725,
+          "fin": 1.188
         },
         {
           "texto": "means",
-          "inicio": 1.163,
-          "fin": 1.413
+          "inicio": 1.2,
+          "fin": 1.487
         },
         {
           "texto": "he",
-          "inicio": 1.425,
-          "fin": 1.512
+          "inicio": 1.512,
+          "fin": 1.637
         },
         {
           "texto": "doesn't",
-          "inicio": 1.525,
-          "fin": 1.862
+          "inicio": 1.663,
+          "fin": 2.0
         },
         {
           "texto": "care.",
-          "inicio": 1.875,
-          "fin": 2.35
+          "inicio": 2.025,
+          "fin": 2.462
         },
         {
           "texto": "Very",
-          "inicio": 3.212,
-          "fin": 3.562
+          "inicio": 3.35,
+          "fin": 3.712
         },
         {
           "texto": "often,",
-          "inicio": 3.575,
-          "fin": 4.062
+          "inicio": 3.737,
+          "fin": 4.087
         },
         {
           "texto": "it",
-          "inicio": 4.237,
-          "fin": 4.312
+          "inicio": 4.325,
+          "fin": 4.425
         },
         {
           "texto": "means",
-          "inicio": 4.325,
-          "fin": 4.575
+          "inicio": 4.45,
+          "fin": 4.725
         },
         {
           "texto": "the",
-          "inicio": 4.588,
-          "fin": 4.688
+          "inicio": 4.75,
+          "fin": 4.862
         },
         {
           "texto": "opposite.",
-          "inicio": 4.7,
-          "fin": 5.388
+          "inicio": 4.875,
+          "fin": 5.438
         }
       ],
       "destacada": null,
@@ -92,135 +92,135 @@
       "id": "b1-gancho2",
       "tipo": "gancho2",
       "bloque": 1,
-      "inicio": 6.614,
-      "duracion": 7.848,
+      "inicio": 6.686,
+      "duracion": 7.704,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/02-b1-gancho2.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "So",
           "inicio": 0.1,
-          "fin": 0.312
+          "fin": 0.3
         },
         {
           "texto": "why",
           "inicio": 0.325,
-          "fin": 0.525
+          "fin": 0.488
         },
         {
           "texto": "does",
-          "inicio": 0.537,
-          "fin": 0.688
+          "inicio": 0.5,
+          "fin": 0.662
         },
         {
           "texto": "he",
-          "inicio": 0.7,
+          "inicio": 0.688,
           "fin": 0.775
         },
         {
           "texto": "go",
-          "inicio": 0.787,
-          "fin": 0.962
+          "inicio": 0.8,
+          "fin": 0.938
         },
         {
           "texto": "quiet",
-          "inicio": 0.975,
-          "fin": 1.363
+          "inicio": 0.95,
+          "fin": 1.3
         },
         {
           "texto": "during",
-          "inicio": 1.375,
-          "fin": 1.625
+          "inicio": 1.325,
+          "fin": 1.587
         },
         {
           "texto": "a",
-          "inicio": 1.637,
-          "fin": 1.688
+          "inicio": 1.6,
+          "fin": 1.663
         },
         {
           "texto": "fight,",
-          "inicio": 1.7,
-          "fin": 2.138
+          "inicio": 1.688,
+          "fin": 2.0
         },
         {
           "texto": "right",
-          "inicio": 2.35,
-          "fin": 2.55
+          "inicio": 2.2,
+          "fin": 2.4
         },
         {
           "texto": "when",
-          "inicio": 2.562,
-          "fin": 2.675
+          "inicio": 2.425,
+          "fin": 2.562
         },
         {
           "texto": "you",
-          "inicio": 2.688,
-          "fin": 2.775
+          "inicio": 2.587,
+          "fin": 2.688
         },
         {
           "texto": "need",
-          "inicio": 2.788,
-          "fin": 2.95
+          "inicio": 2.712,
+          "fin": 2.862
         },
         {
           "texto": "him",
-          "inicio": 2.962,
-          "fin": 3.075
+          "inicio": 2.875,
+          "fin": 2.975
         },
         {
           "texto": "to",
-          "inicio": 3.087,
-          "fin": 3.163
+          "inicio": 2.987,
+          "fin": 3.05
         },
         {
           "texto": "talk?",
-          "inicio": 3.175,
-          "fin": 3.712
+          "inicio": 3.075,
+          "fin": 3.475
         },
         {
           "texto": "The",
-          "inicio": 4.575,
-          "fin": 4.713
+          "inicio": 4.35,
+          "fin": 4.487
         },
         {
           "texto": "answer",
-          "inicio": 4.725,
-          "fin": 5.075
+          "inicio": 4.513,
+          "fin": 4.862
         },
         {
           "texto": "starts",
-          "inicio": 5.088,
-          "fin": 5.413
+          "inicio": 4.888,
+          "fin": 5.213
         },
         {
           "texto": "in",
-          "inicio": 5.425,
-          "fin": 5.513
+          "inicio": 5.237,
+          "fin": 5.312
         },
         {
           "texto": "the",
-          "inicio": 5.525,
-          "fin": 5.6
+          "inicio": 5.338,
+          "fin": 5.45
         },
         {
           "texto": "body,",
-          "inicio": 5.612,
-          "fin": 6.05
+          "inicio": 5.463,
+          "fin": 5.838
         },
         {
           "texto": "not",
-          "inicio": 6.162,
-          "fin": 6.362
+          "inicio": 6.037,
+          "fin": 6.237
         },
         {
           "texto": "the",
-          "inicio": 6.375,
-          "fin": 6.45
+          "inicio": 6.263,
+          "fin": 6.35
         },
         {
           "texto": "mind.",
-          "inicio": 6.463,
-          "fin": 6.975
+          "inicio": 6.362,
+          "fin": 6.812
         }
       ],
       "destacada": null,
@@ -230,197 +230,197 @@
       "id": "b1-ej1",
       "tipo": "ejemplo",
       "bloque": 1,
-      "inicio": 14.812,
-      "duracion": 12.384,
+      "inicio": 14.74,
+      "duracion": 11.664,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/03-b1-ej1.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "His",
           "inicio": 0.1,
-          "fin": 0.312
+          "fin": 0.338
         },
         {
           "texto": "heart",
-          "inicio": 0.325,
-          "fin": 0.575
+          "inicio": 0.362,
+          "fin": 0.625
         },
         {
           "texto": "is",
-          "inicio": 0.588,
-          "fin": 0.725
+          "inicio": 0.637,
+          "fin": 0.762
         },
         {
           "texto": "racing.",
-          "inicio": 0.738,
-          "fin": 1.3
+          "inicio": 0.775,
+          "fin": 1.288
         },
         {
           "texto": "Researchers",
           "inicio": 2.163,
-          "fin": 2.8
+          "fin": 2.788
         },
         {
           "texto": "who've",
           "inicio": 2.812,
-          "fin": 2.95
+          "fin": 2.962
         },
         {
           "texto": "watched",
-          "inicio": 2.962,
-          "fin": 3.312
+          "inicio": 2.987,
+          "fin": 3.287
         },
         {
           "texto": "thousands",
-          "inicio": 3.325,
-          "fin": 3.775
+          "inicio": 3.312,
+          "fin": 3.725
         },
         {
           "texto": "of",
-          "inicio": 3.788,
-          "fin": 3.863
+          "inicio": 3.75,
+          "fin": 3.825
         },
         {
           "texto": "couples",
-          "inicio": 3.875,
-          "fin": 4.25
+          "inicio": 3.85,
+          "fin": 4.213
         },
         {
           "texto": "argue",
-          "inicio": 4.263,
-          "fin": 4.6
+          "inicio": 4.237,
+          "fin": 4.55
         },
         {
           "texto": "noticed",
-          "inicio": 4.612,
-          "fin": 5.15
+          "inicio": 4.575,
+          "fin": 4.938
         },
         {
           "texto": "that",
-          "inicio": 5.162,
-          "fin": 5.3
+          "inicio": 4.963,
+          "fin": 5.1
         },
         {
           "texto": "when",
-          "inicio": 5.312,
-          "fin": 5.438
+          "inicio": 5.125,
+          "fin": 5.237
         },
         {
           "texto": "the",
-          "inicio": 5.45,
-          "fin": 5.513
+          "inicio": 5.263,
+          "fin": 5.35
         },
         {
           "texto": "heart",
-          "inicio": 5.525,
-          "fin": 5.812
+          "inicio": 5.375,
+          "fin": 5.612
         },
         {
           "texto": "rate",
-          "inicio": 5.825,
-          "fin": 6.062
+          "inicio": 5.638,
+          "fin": 5.812
         },
         {
           "texto": "jumps",
-          "inicio": 6.075,
-          "fin": 6.45
+          "inicio": 5.825,
+          "fin": 6.112
         },
         {
           "texto": "well",
-          "inicio": 6.463,
-          "fin": 6.688
+          "inicio": 6.138,
+          "fin": 6.338
         },
         {
           "texto": "past",
-          "inicio": 6.7,
-          "fin": 7.075
+          "inicio": 6.362,
+          "fin": 6.662
         },
         {
           "texto": "its",
-          "inicio": 7.088,
-          "fin": 7.225
+          "inicio": 6.688,
+          "fin": 6.8
         },
         {
           "texto": "normal",
-          "inicio": 7.237,
-          "fin": 7.562
+          "inicio": 6.812,
+          "fin": 7.15
         },
         {
           "texto": "pace,",
-          "inicio": 7.575,
-          "fin": 8.075
+          "inicio": 7.162,
+          "fin": 7.5
         },
         {
           "texto": "the",
-          "inicio": 8.3,
-          "fin": 8.4
+          "inicio": 7.713,
+          "fin": 7.825
         },
         {
           "texto": "part",
-          "inicio": 8.412,
-          "fin": 8.637
+          "inicio": 7.85,
+          "fin": 8.062
         },
         {
           "texto": "of",
-          "inicio": 8.65,
-          "fin": 8.725
+          "inicio": 8.075,
+          "fin": 8.15
         },
         {
           "texto": "us",
-          "inicio": 8.738,
-          "fin": 8.888
+          "inicio": 8.162,
+          "fin": 8.287
         },
         {
           "texto": "that",
-          "inicio": 8.9,
-          "fin": 9.075
+          "inicio": 8.312,
+          "fin": 8.45
         },
         {
           "texto": "listens",
-          "inicio": 9.088,
-          "fin": 9.475
+          "inicio": 8.475,
+          "fin": 8.85
         },
         {
           "texto": "and",
-          "inicio": 9.488,
-          "fin": 9.588
+          "inicio": 8.863,
+          "fin": 8.95
         },
         {
           "texto": "finds",
-          "inicio": 9.6,
-          "fin": 9.938
+          "inicio": 8.975,
+          "fin": 9.275
         },
         {
           "texto": "words",
-          "inicio": 9.95,
-          "fin": 10.262
+          "inicio": 9.3,
+          "fin": 9.575
         },
         {
           "texto": "starts",
-          "inicio": 10.275,
-          "fin": 10.613
+          "inicio": 9.6,
+          "fin": 9.9
         },
         {
           "texto": "to",
-          "inicio": 10.625,
-          "fin": 10.725
+          "inicio": 9.925,
+          "fin": 10.025
         },
         {
           "texto": "go",
-          "inicio": 10.738,
-          "fin": 10.9
+          "inicio": 10.05,
+          "fin": 10.225
         },
         {
           "texto": "offline.",
-          "inicio": 10.912,
-          "fin": 11.512
+          "inicio": 10.25,
+          "fin": 10.762
         }
       ],
       "destacada": 35,
       "sonidos": [
         {
           "archivo": "assets/sonido/revelacion.mp3",
-          "en": 10.912
+          "en": 10.25
         }
       ]
     },
@@ -428,135 +428,135 @@
       "id": "b1-ej2",
       "tipo": "ejemplo",
       "bloque": 1,
-      "inicio": 27.546,
-      "duracion": 8.76,
+      "inicio": 26.754,
+      "duracion": 8.544,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/04-b1-ej2.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "The",
           "inicio": 0.1,
-          "fin": 0.225
+          "fin": 0.238
         },
         {
           "texto": "words",
-          "inicio": 0.237,
-          "fin": 0.537
+          "inicio": 0.263,
+          "fin": 0.588
         },
         {
           "texto": "just",
-          "inicio": 0.55,
-          "fin": 0.8
+          "inicio": 0.613,
+          "fin": 0.875
         },
         {
           "texto": "disappear.",
-          "inicio": 0.812,
-          "fin": 1.55
+          "inicio": 0.9,
+          "fin": 1.638
         },
         {
           "texto": "He",
-          "inicio": 2.413,
-          "fin": 2.575
+          "inicio": 2.513,
+          "fin": 2.663
         },
         {
           "texto": "might",
-          "inicio": 2.587,
-          "fin": 2.812
+          "inicio": 2.675,
+          "fin": 2.9
         },
         {
           "texto": "know",
-          "inicio": 2.825,
-          "fin": 3.013
+          "inicio": 2.925,
+          "fin": 3.075
         },
         {
           "texto": "exactly",
-          "inicio": 3.025,
-          "fin": 3.537
+          "inicio": 3.087,
+          "fin": 3.587
         },
         {
           "texto": "what",
-          "inicio": 3.55,
-          "fin": 3.7
+          "inicio": 3.612,
+          "fin": 3.737
         },
         {
           "texto": "he",
-          "inicio": 3.712,
-          "fin": 3.812
+          "inicio": 3.75,
+          "fin": 3.85
         },
         {
           "texto": "feels,",
-          "inicio": 3.825,
-          "fin": 4.362
+          "inicio": 3.875,
+          "fin": 4.287
         },
         {
           "texto": "and",
-          "inicio": 4.55,
-          "fin": 4.712
+          "inicio": 4.475,
+          "fin": 4.587
         },
         {
           "texto": "still",
-          "inicio": 4.725,
-          "fin": 4.95
+          "inicio": 4.612,
+          "fin": 4.862
         },
         {
           "texto": "be",
-          "inicio": 4.963,
-          "fin": 5.113
+          "inicio": 4.875,
+          "fin": 5.025
         },
         {
           "texto": "unable",
-          "inicio": 5.125,
-          "fin": 5.5
+          "inicio": 5.037,
+          "fin": 5.4
         },
         {
           "texto": "to",
-          "inicio": 5.513,
-          "fin": 5.6
+          "inicio": 5.412,
+          "fin": 5.487
         },
         {
           "texto": "find",
-          "inicio": 5.612,
-          "fin": 5.875
+          "inicio": 5.5,
+          "fin": 5.763
         },
         {
           "texto": "a",
-          "inicio": 5.888,
-          "fin": 5.938
+          "inicio": 5.787,
+          "fin": 5.837
         },
         {
           "texto": "single",
-          "inicio": 5.95,
-          "fin": 6.288
+          "inicio": 5.85,
+          "fin": 6.188
         },
         {
           "texto": "sentence",
-          "inicio": 6.3,
-          "fin": 6.787
+          "inicio": 6.213,
+          "fin": 6.638
         },
         {
           "texto": "for",
-          "inicio": 6.8,
-          "fin": 6.95
+          "inicio": 6.662,
+          "fin": 6.837
         },
         {
           "texto": "it",
-          "inicio": 6.963,
-          "fin": 7.05
+          "inicio": 6.85,
+          "fin": 6.925
         },
         {
           "texto": "in",
-          "inicio": 7.062,
-          "fin": 7.162
+          "inicio": 6.95,
+          "fin": 7.013
         },
         {
           "texto": "that",
-          "inicio": 7.175,
-          "fin": 7.362
+          "inicio": 7.037,
+          "fin": 7.188
         },
         {
           "texto": "moment.",
-          "inicio": 7.375,
-          "fin": 7.888
+          "inicio": 7.2,
+          "fin": 7.65
         }
       ],
       "destacada": null,
@@ -571,135 +571,135 @@
       "id": "b1-ej3",
       "tipo": "ejemplo",
       "bloque": 1,
-      "inicio": 36.656,
-      "duracion": 9.888,
+      "inicio": 35.648,
+      "duracion": 9.936,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/05-b1-ej3.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "He",
           "inicio": 0.1,
-          "fin": 0.275
+          "fin": 0.25
         },
         {
           "texto": "stares",
-          "inicio": 0.287,
-          "fin": 0.65
+          "inicio": 0.275,
+          "fin": 0.675
         },
         {
           "texto": "at",
-          "inicio": 0.662,
-          "fin": 0.762
+          "inicio": 0.7,
+          "fin": 0.8
         },
         {
           "texto": "one",
-          "inicio": 0.775,
-          "fin": 0.988
+          "inicio": 0.825,
+          "fin": 1.037
         },
         {
           "texto": "spot",
-          "inicio": 1.0,
-          "fin": 1.3
+          "inicio": 1.062,
+          "fin": 1.375
         },
         {
           "texto": "on",
-          "inicio": 1.312,
-          "fin": 1.425
+          "inicio": 1.4,
+          "fin": 1.5
         },
         {
           "texto": "the",
-          "inicio": 1.438,
-          "fin": 1.525
+          "inicio": 1.525,
+          "fin": 1.612
         },
         {
           "texto": "wall.",
-          "inicio": 1.538,
-          "fin": 1.988
+          "inicio": 1.637,
+          "fin": 2.05
         },
         {
           "texto": "From",
-          "inicio": 2.85,
-          "fin": 3.062
+          "inicio": 2.925,
+          "fin": 3.15
         },
         {
           "texto": "the",
-          "inicio": 3.075,
-          "fin": 3.175
+          "inicio": 3.175,
+          "fin": 3.275
         },
         {
           "texto": "outside",
-          "inicio": 3.188,
-          "fin": 3.638
+          "inicio": 3.3,
+          "fin": 3.787
         },
         {
           "texto": "it",
-          "inicio": 3.65,
-          "fin": 3.75
+          "inicio": 3.8,
+          "fin": 3.912
         },
         {
           "texto": "looks",
-          "inicio": 3.763,
-          "fin": 4.0
+          "inicio": 3.925,
+          "fin": 4.15
         },
         {
           "texto": "cold.",
-          "inicio": 4.013,
-          "fin": 4.463
+          "inicio": 4.162,
+          "fin": 4.625
         },
         {
           "texto": "From",
-          "inicio": 5.325,
-          "fin": 5.55
+          "inicio": 5.487,
+          "fin": 5.725
         },
         {
           "texto": "the",
-          "inicio": 5.562,
-          "fin": 5.65
+          "inicio": 5.75,
+          "fin": 5.838
         },
         {
           "texto": "inside,",
-          "inicio": 5.662,
-          "fin": 6.262
+          "inicio": 5.862,
+          "fin": 6.35
         },
         {
           "texto": "it's",
-          "inicio": 6.463,
-          "fin": 6.6
+          "inicio": 6.575,
+          "fin": 6.737
         },
         {
           "texto": "often",
-          "inicio": 6.612,
-          "fin": 6.938
+          "inicio": 6.75,
+          "fin": 7.075
         },
         {
           "texto": "an",
-          "inicio": 6.95,
-          "fin": 7.038
+          "inicio": 7.1,
+          "fin": 7.2
         },
         {
           "texto": "attempt",
-          "inicio": 7.05,
-          "fin": 7.525
+          "inicio": 7.213,
+          "fin": 7.562
         },
         {
           "texto": "to",
-          "inicio": 7.537,
-          "fin": 7.625
+          "inicio": 7.588,
+          "fin": 7.675
         },
         {
           "texto": "stop",
-          "inicio": 7.638,
-          "fin": 7.925
+          "inicio": 7.7,
+          "fin": 8.012
         },
         {
           "texto": "feeling",
-          "inicio": 7.938,
-          "fin": 8.287
+          "inicio": 8.037,
+          "fin": 8.375
         },
         {
           "texto": "overwhelmed.",
-          "inicio": 8.3,
-          "fin": 9.013
+          "inicio": 8.4,
+          "fin": 9.062
         }
       ],
       "destacada": null,
@@ -714,185 +714,185 @@
       "id": "b1-pago",
       "tipo": "pago",
       "bloque": 1,
-      "inicio": 46.894,
-      "duracion": 9.696,
+      "inicio": 45.934,
+      "duracion": 9.576,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/06-b1-pago.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "So",
           "inicio": 0.1,
-          "fin": 0.325
+          "fin": 0.312
         },
         {
           "texto": "if",
           "inicio": 0.338,
-          "fin": 0.438
+          "fin": 0.413
         },
         {
           "texto": "his",
-          "inicio": 0.45,
-          "fin": 0.6
+          "inicio": 0.425,
+          "fin": 0.562
         },
         {
           "texto": "silence",
-          "inicio": 0.613,
-          "fin": 1.05
+          "inicio": 0.588,
+          "fin": 0.988
         },
         {
           "texto": "has",
-          "inicio": 1.062,
-          "fin": 1.262
+          "inicio": 1.012,
+          "fin": 1.2
         },
         {
           "texto": "ever",
-          "inicio": 1.275,
-          "fin": 1.487
+          "inicio": 1.225,
+          "fin": 1.425
         },
         {
           "texto": "felt",
-          "inicio": 1.5,
-          "fin": 1.775
+          "inicio": 1.438,
+          "fin": 1.663
         },
         {
           "texto": "like",
-          "inicio": 1.788,
-          "fin": 1.95
+          "inicio": 1.688,
+          "fin": 1.85
         },
         {
           "texto": "a",
-          "inicio": 1.962,
-          "fin": 2.038
+          "inicio": 1.875,
+          "fin": 1.962
         },
         {
           "texto": "door",
-          "inicio": 2.05,
-          "fin": 2.3
+          "inicio": 1.988,
+          "fin": 2.2
         },
         {
           "texto": "slammed",
-          "inicio": 2.312,
-          "fin": 2.7
+          "inicio": 2.225,
+          "fin": 2.55
         },
         {
           "texto": "in",
-          "inicio": 2.712,
-          "fin": 2.788
+          "inicio": 2.575,
+          "fin": 2.65
         },
         {
           "texto": "your",
-          "inicio": 2.8,
-          "fin": 2.912
+          "inicio": 2.675,
+          "fin": 2.812
         },
         {
           "texto": "face,",
-          "inicio": 2.925,
-          "fin": 3.45
+          "inicio": 2.837,
+          "fin": 3.212
         },
         {
           "texto": "it",
-          "inicio": 3.675,
-          "fin": 3.75
+          "inicio": 3.425,
+          "fin": 3.525
         },
         {
           "texto": "may",
-          "inicio": 3.763,
-          "fin": 3.888
+          "inicio": 3.55,
+          "fin": 3.675
         },
         {
           "texto": "not",
-          "inicio": 3.9,
+          "inicio": 3.688,
+          "fin": 3.837
+        },
+        {
+          "texto": "have",
+          "inicio": 3.85,
+          "fin": 3.95
+        },
+        {
+          "texto": "been",
+          "inicio": 3.975,
           "fin": 4.125
         },
         {
-          "texto": "have",
-          "inicio": 4.138,
-          "fin": 4.237
-        },
-        {
-          "texto": "been",
-          "inicio": 4.25,
-          "fin": 4.4
-        },
-        {
           "texto": "a",
-          "inicio": 4.412,
-          "fin": 4.475
+          "inicio": 4.15,
+          "fin": 4.213
         },
         {
           "texto": "door",
-          "inicio": 4.487,
-          "fin": 4.712
+          "inicio": 4.237,
+          "fin": 4.45
         },
         {
           "texto": "at",
-          "inicio": 4.725,
-          "fin": 4.812
+          "inicio": 4.463,
+          "fin": 4.538
         },
         {
           "texto": "all.",
-          "inicio": 4.825,
-          "fin": 5.188
+          "inicio": 4.562,
+          "fin": 4.888
         },
         {
           "texto": "It",
-          "inicio": 6.05,
-          "fin": 6.188
+          "inicio": 5.775,
+          "fin": 5.963
         },
         {
           "texto": "may",
-          "inicio": 6.2,
-          "fin": 6.35
+          "inicio": 5.975,
+          "fin": 6.112
         },
         {
           "texto": "have",
-          "inicio": 6.362,
-          "fin": 6.5
+          "inicio": 6.138,
+          "fin": 6.263
         },
         {
           "texto": "been",
-          "inicio": 6.513,
-          "fin": 6.713
+          "inicio": 6.287,
+          "fin": 6.462
         },
         {
           "texto": "someone",
-          "inicio": 6.725,
-          "fin": 7.037
+          "inicio": 6.475,
+          "fin": 6.825
         },
         {
           "texto": "trying",
-          "inicio": 7.05,
-          "fin": 7.35
+          "inicio": 6.85,
+          "fin": 7.137
         },
         {
           "texto": "to",
-          "inicio": 7.362,
-          "fin": 7.45
+          "inicio": 7.15,
+          "fin": 7.238
         },
         {
           "texto": "keep",
-          "inicio": 7.463,
-          "fin": 7.7
+          "inicio": 7.263,
+          "fin": 7.487
         },
         {
           "texto": "their",
-          "inicio": 7.713,
-          "fin": 7.85
+          "inicio": 7.513,
+          "fin": 7.688
         },
         {
           "texto": "head",
-          "inicio": 7.862,
-          "fin": 8.05
+          "inicio": 7.713,
+          "fin": 7.875
         },
         {
           "texto": "above",
-          "inicio": 8.062,
-          "fin": 8.338
+          "inicio": 7.9,
+          "fin": 8.2
         },
         {
           "texto": "water.",
-          "inicio": 8.35,
-          "fin": 8.825
+          "inicio": 8.225,
+          "fin": 8.675
         }
       ],
       "destacada": null,
@@ -902,8 +902,8 @@
       "id": "b2-hook",
       "tipo": "hook",
       "bloque": 2,
-      "inicio": 57.79,
-      "duracion": 6.288,
+      "inicio": 56.71,
+      "duracion": 6.24,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/07-b2-hook.mp3",
       "imagen": null,
       "palabras": [
@@ -915,57 +915,57 @@
         {
           "texto": "might",
           "inicio": 0.263,
-          "fin": 0.5
+          "fin": 0.488
         },
         {
           "texto": "think",
           "inicio": 0.512,
-          "fin": 0.7
+          "fin": 0.712
         },
         {
           "texto": "he",
-          "inicio": 0.713,
-          "fin": 0.8
+          "inicio": 0.725,
+          "fin": 0.838
         },
         {
           "texto": "chose",
-          "inicio": 0.812,
-          "fin": 1.113
+          "inicio": 0.85,
+          "fin": 1.175
         },
         {
           "texto": "to",
-          "inicio": 1.125,
-          "fin": 1.212
+          "inicio": 1.2,
+          "fin": 1.3
         },
         {
           "texto": "shut",
-          "inicio": 1.225,
-          "fin": 1.5
+          "inicio": 1.312,
+          "fin": 1.587
         },
         {
           "texto": "down.",
-          "inicio": 1.512,
-          "fin": 1.962
+          "inicio": 1.6,
+          "fin": 1.988
         },
         {
           "texto": "Usually,",
-          "inicio": 2.825,
-          "fin": 3.488
+          "inicio": 2.862,
+          "fin": 3.4
         },
         {
           "texto": "he",
-          "inicio": 3.638,
-          "fin": 3.738
+          "inicio": 3.6,
+          "fin": 3.7
         },
         {
           "texto": "learned",
-          "inicio": 3.75,
-          "fin": 3.987
+          "inicio": 3.725,
+          "fin": 3.975
         },
         {
           "texto": "it",
           "inicio": 4.0,
-          "fin": 4.112
+          "fin": 4.1
         },
         {
           "texto": "long",
@@ -974,12 +974,12 @@
         },
         {
           "texto": "before",
-          "inicio": 4.412,
-          "fin": 4.762
+          "inicio": 4.425,
+          "fin": 4.737
         },
         {
           "texto": "he",
-          "inicio": 4.775,
+          "inicio": 4.763,
           "fin": 4.875
         },
         {
@@ -990,7 +990,7 @@
         {
           "texto": "you.",
           "inicio": 5.112,
-          "fin": 5.412
+          "fin": 5.337
         }
       ],
       "destacada": null,
@@ -1005,100 +1005,100 @@
       "id": "b2-gancho2",
       "tipo": "gancho2",
       "bloque": 2,
-      "inicio": 64.428,
-      "duracion": 7.392,
+      "inicio": 63.3,
+      "duracion": 7.512,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/08-b2-gancho2.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "Silence",
           "inicio": 0.1,
-          "fin": 0.588
+          "fin": 0.637
         },
         {
           "texto": "during",
-          "inicio": 0.6,
-          "fin": 0.85
+          "inicio": 0.662,
+          "fin": 0.938
         },
         {
           "texto": "conflict",
-          "inicio": 0.863,
-          "fin": 1.45
+          "inicio": 0.95,
+          "fin": 1.5
         },
         {
           "texto": "is",
-          "inicio": 1.462,
-          "fin": 1.625
+          "inicio": 1.512,
+          "fin": 1.65
         },
         {
           "texto": "rarely",
-          "inicio": 1.637,
-          "fin": 1.975
+          "inicio": 1.663,
+          "fin": 2.013
         },
         {
           "texto": "invented",
-          "inicio": 1.988,
-          "fin": 2.4
+          "inicio": 2.038,
+          "fin": 2.5
         },
         {
           "texto": "on",
-          "inicio": 2.413,
-          "fin": 2.513
+          "inicio": 2.525,
+          "fin": 2.625
         },
         {
           "texto": "the",
-          "inicio": 2.525,
-          "fin": 2.6
+          "inicio": 2.65,
+          "fin": 2.725
         },
         {
           "texto": "spot.",
-          "inicio": 2.612,
-          "fin": 3.137
+          "inicio": 2.75,
+          "fin": 3.175
         },
         {
           "texto": "It's",
-          "inicio": 4.0,
-          "fin": 4.2
+          "inicio": 4.062,
+          "fin": 4.275
         },
         {
           "texto": "something",
-          "inicio": 4.213,
-          "fin": 4.562
+          "inicio": 4.3,
+          "fin": 4.65
         },
         {
           "texto": "a",
-          "inicio": 4.575,
-          "fin": 4.638
+          "inicio": 4.675,
+          "fin": 4.737
         },
         {
           "texto": "lot",
-          "inicio": 4.65,
-          "fin": 4.888
-        },
-        {
-          "texto": "of",
-          "inicio": 4.9,
+          "inicio": 4.75,
           "fin": 4.975
         },
         {
-          "texto": "people",
+          "texto": "of",
           "inicio": 4.987,
-          "fin": 5.3
+          "fin": 5.1
+        },
+        {
+          "texto": "people",
+          "inicio": 5.125,
+          "fin": 5.425
         },
         {
           "texto": "practiced",
-          "inicio": 5.312,
-          "fin": 5.812
+          "inicio": 5.45,
+          "fin": 5.925
         },
         {
           "texto": "for",
-          "inicio": 5.825,
-          "fin": 5.975
+          "inicio": 5.95,
+          "fin": 6.112
         },
         {
           "texto": "years.",
-          "inicio": 5.987,
-          "fin": 6.525
+          "inicio": 6.138,
+          "fin": 6.612
         }
       ],
       "destacada": null,
@@ -1108,54 +1108,54 @@
       "id": "b2-ej1",
       "tipo": "ejemplo",
       "bloque": 2,
-      "inicio": 72.17,
-      "duracion": 8.304,
+      "inicio": 71.162,
+      "duracion": 8.136,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/09-b2-ej1.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "A",
           "inicio": 0.1,
-          "fin": 0.213
+          "fin": 0.238
         },
         {
           "texto": "home",
-          "inicio": 0.225,
-          "fin": 0.475
+          "inicio": 0.25,
+          "fin": 0.512
         },
         {
           "texto": "where",
-          "inicio": 0.487,
-          "fin": 0.65
+          "inicio": 0.537,
+          "fin": 0.738
         },
         {
           "texto": "arguments",
-          "inicio": 0.662,
-          "fin": 1.163
+          "inicio": 0.75,
+          "fin": 1.275
         },
         {
           "texto": "were",
-          "inicio": 1.175,
-          "fin": 1.312
+          "inicio": 1.288,
+          "fin": 1.425
         },
         {
           "texto": "loud.",
-          "inicio": 1.325,
-          "fin": 1.8
+          "inicio": 1.45,
+          "fin": 1.862
         },
         {
           "texto": "When",
-          "inicio": 2.663,
-          "fin": 2.875
+          "inicio": 2.75,
+          "fin": 2.925
         },
         {
           "texto": "every",
-          "inicio": 2.888,
-          "fin": 3.113
+          "inicio": 2.95,
+          "fin": 3.175
         },
         {
           "texto": "disagreement",
-          "inicio": 3.125,
+          "inicio": 3.2,
           "fin": 3.825
         },
         {
@@ -1165,53 +1165,53 @@
         },
         {
           "texto": "into",
-          "inicio": 4.1,
-          "fin": 4.3
+          "inicio": 4.112,
+          "fin": 4.263
         },
         {
           "texto": "shouting,",
-          "inicio": 4.312,
-          "fin": 4.862
+          "inicio": 4.275,
+          "fin": 4.725
         },
         {
           "texto": "staying",
-          "inicio": 5.013,
-          "fin": 5.338
+          "inicio": 4.938,
+          "fin": 5.237
         },
         {
           "texto": "quiet",
-          "inicio": 5.35,
-          "fin": 5.75
+          "inicio": 5.25,
+          "fin": 5.612
         },
         {
           "texto": "was",
-          "inicio": 5.763,
-          "fin": 5.888
+          "inicio": 5.638,
+          "fin": 5.788
         },
         {
           "texto": "the",
-          "inicio": 5.9,
-          "fin": 6.0
+          "inicio": 5.812,
+          "fin": 5.925
         },
         {
           "texto": "safest",
-          "inicio": 6.013,
-          "fin": 6.487
+          "inicio": 5.95,
+          "fin": 6.375
         },
         {
           "texto": "place",
-          "inicio": 6.5,
-          "fin": 6.75
+          "inicio": 6.4,
+          "fin": 6.625
         },
         {
           "texto": "to",
-          "inicio": 6.763,
-          "fin": 6.862
+          "inicio": 6.65,
+          "fin": 6.738
         },
         {
           "texto": "stand.",
-          "inicio": 6.875,
-          "fin": 7.425
+          "inicio": 6.75,
+          "fin": 7.237
         }
       ],
       "destacada": null,
@@ -1221,145 +1221,145 @@
       "id": "b2-ej2",
       "tipo": "ejemplo",
       "bloque": 2,
-      "inicio": 80.824,
-      "duracion": 9.864,
+      "inicio": 79.648,
+      "duracion": 9.384,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/10-b2-ej2.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "A",
           "inicio": 0.1,
-          "fin": 0.213
+          "fin": 0.238
         },
         {
           "texto": "home",
-          "inicio": 0.225,
-          "fin": 0.45
+          "inicio": 0.25,
+          "fin": 0.5
         },
         {
           "texto": "where",
-          "inicio": 0.463,
-          "fin": 0.6
+          "inicio": 0.525,
+          "fin": 0.688
         },
         {
           "texto": "feelings",
-          "inicio": 0.613,
-          "fin": 1.087
+          "inicio": 0.713,
+          "fin": 1.175
         },
         {
           "texto": "were",
-          "inicio": 1.1,
-          "fin": 1.213
+          "inicio": 1.2,
+          "fin": 1.35
         },
         {
           "texto": "brushed",
-          "inicio": 1.225,
-          "fin": 1.575
+          "inicio": 1.375,
+          "fin": 1.688
         },
         {
           "texto": "aside.",
-          "inicio": 1.587,
-          "fin": 2.125
+          "inicio": 1.712,
+          "fin": 2.212
         },
         {
           "texto": "If",
-          "inicio": 2.987,
-          "fin": 3.15
+          "inicio": 3.087,
+          "fin": 3.25
         },
         {
           "texto": "\"stop",
-          "inicio": 3.163,
-          "fin": 3.45
+          "inicio": 3.275,
+          "fin": 3.538
         },
         {
           "texto": "crying\"",
-          "inicio": 3.462,
-          "fin": 3.913
+          "inicio": 3.55,
+          "fin": 3.875
         },
         {
           "texto": "or",
-          "inicio": 3.925,
-          "fin": 4.087
+          "inicio": 3.888,
+          "fin": 4.0
         },
         {
           "texto": "\"don't",
-          "inicio": 4.138,
-          "fin": 4.325
+          "inicio": 4.062,
+          "fin": 4.263
         },
         {
           "texto": "be",
-          "inicio": 4.338,
-          "fin": 4.45
+          "inicio": 4.275,
+          "fin": 4.375
         },
         {
           "texto": "dramatic\"",
-          "inicio": 4.463,
-          "fin": 5.088
+          "inicio": 4.388,
+          "fin": 4.913
         },
         {
           "texto": "was",
-          "inicio": 5.138,
-          "fin": 5.3
+          "inicio": 4.975,
+          "fin": 5.137
         },
         {
           "texto": "the",
-          "inicio": 5.312,
-          "fin": 5.412
+          "inicio": 5.162,
+          "fin": 5.25
         },
         {
           "texto": "answer,",
-          "inicio": 5.425,
-          "fin": 5.962
+          "inicio": 5.275,
+          "fin": 5.65
         },
         {
           "texto": "he",
-          "inicio": 6.213,
-          "fin": 6.3
+          "inicio": 5.838,
+          "fin": 5.925
         },
         {
           "texto": "may",
-          "inicio": 6.312,
-          "fin": 6.45
+          "inicio": 5.938,
+          "fin": 6.075
         },
         {
           "texto": "have",
-          "inicio": 6.463,
-          "fin": 6.625
+          "inicio": 6.1,
+          "fin": 6.225
         },
         {
           "texto": "learned",
-          "inicio": 6.638,
-          "fin": 6.913
+          "inicio": 6.25,
+          "fin": 6.5
         },
         {
           "texto": "that",
-          "inicio": 6.925,
-          "fin": 7.075
+          "inicio": 6.525,
+          "fin": 6.663
         },
         {
           "texto": "talking",
-          "inicio": 7.088,
-          "fin": 7.463
+          "inicio": 6.675,
+          "fin": 7.037
         },
         {
           "texto": "about",
-          "inicio": 7.475,
-          "fin": 7.725
+          "inicio": 7.05,
+          "fin": 7.275
         },
         {
           "texto": "feelings",
-          "inicio": 7.737,
-          "fin": 8.213
+          "inicio": 7.3,
+          "fin": 7.737
         },
         {
           "texto": "leads",
-          "inicio": 8.225,
-          "fin": 8.45
+          "inicio": 7.763,
+          "fin": 7.987
         },
         {
           "texto": "nowhere.",
-          "inicio": 8.463,
-          "fin": 8.988
+          "inicio": 8.0,
+          "fin": 8.488
         }
       ],
       "destacada": null,
@@ -1374,150 +1374,150 @@
       "id": "b2-ej3",
       "tipo": "ejemplo",
       "bloque": 2,
-      "inicio": 91.038,
-      "duracion": 9.816,
+      "inicio": 89.382,
+      "duracion": 9.288,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/11-b2-ej3.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "A",
           "inicio": 0.1,
-          "fin": 0.213
+          "fin": 0.238
         },
         {
           "texto": "home",
-          "inicio": 0.225,
-          "fin": 0.463
+          "inicio": 0.25,
+          "fin": 0.5
         },
         {
           "texto": "where",
-          "inicio": 0.475,
-          "fin": 0.613
+          "inicio": 0.525,
+          "fin": 0.7
         },
         {
           "texto": "quiet",
-          "inicio": 0.625,
-          "fin": 0.988
+          "inicio": 0.725,
+          "fin": 1.087
         },
         {
           "texto": "kept",
-          "inicio": 1.0,
-          "fin": 1.238
-        },
-        {
-          "texto": "the",
-          "inicio": 1.25,
+          "inicio": 1.113,
           "fin": 1.325
         },
         {
+          "texto": "the",
+          "inicio": 1.35,
+          "fin": 1.45
+        },
+        {
           "texto": "peace.",
-          "inicio": 1.337,
+          "inicio": 1.475,
           "fin": 1.925
         },
         {
           "texto": "Some",
-          "inicio": 2.788,
-          "fin": 3.113
+          "inicio": 2.8,
+          "fin": 3.087
         },
         {
           "texto": "kids",
-          "inicio": 3.125,
-          "fin": 3.4
+          "inicio": 3.112,
+          "fin": 3.375
         },
         {
           "texto": "learn",
-          "inicio": 3.413,
-          "fin": 3.675
+          "inicio": 3.388,
+          "fin": 3.575
         },
         {
           "texto": "that",
-          "inicio": 3.688,
-          "fin": 3.812
+          "inicio": 3.6,
+          "fin": 3.725
         },
         {
           "texto": "the",
-          "inicio": 3.825,
-          "fin": 3.925
+          "inicio": 3.75,
+          "fin": 3.85
         },
         {
           "texto": "less",
-          "inicio": 3.938,
-          "fin": 4.2
+          "inicio": 3.875,
+          "fin": 4.075
         },
         {
           "texto": "they",
-          "inicio": 4.213,
-          "fin": 4.338
+          "inicio": 4.1,
+          "fin": 4.212
         },
         {
           "texto": "say,",
-          "inicio": 4.35,
-          "fin": 4.762
+          "inicio": 4.237,
+          "fin": 4.55
         },
         {
           "texto": "the",
-          "inicio": 4.912,
-          "fin": 5.012
+          "inicio": 4.688,
+          "fin": 4.8
         },
         {
           "texto": "faster",
-          "inicio": 5.025,
-          "fin": 5.413
+          "inicio": 4.825,
+          "fin": 5.2
         },
         {
           "texto": "the",
-          "inicio": 5.425,
-          "fin": 5.525
+          "inicio": 5.225,
+          "fin": 5.325
         },
         {
           "texto": "storm",
-          "inicio": 5.537,
-          "fin": 5.862
+          "inicio": 5.35,
+          "fin": 5.65
         },
         {
           "texto": "passes,",
-          "inicio": 5.875,
-          "fin": 6.537
+          "inicio": 5.662,
+          "fin": 6.1
         },
         {
           "texto": "and",
-          "inicio": 6.75,
-          "fin": 6.875
+          "inicio": 6.325,
+          "fin": 6.438
         },
         {
           "texto": "that",
-          "inicio": 6.888,
-          "fin": 7.062
+          "inicio": 6.45,
+          "fin": 6.6
         },
         {
           "texto": "lesson",
-          "inicio": 7.075,
-          "fin": 7.413
+          "inicio": 6.612,
+          "fin": 6.925
         },
         {
           "texto": "doesn't",
-          "inicio": 7.425,
-          "fin": 7.737
+          "inicio": 6.95,
+          "fin": 7.25
         },
         {
           "texto": "switch",
-          "inicio": 7.75,
-          "fin": 8.012
+          "inicio": 7.263,
+          "fin": 7.562
         },
         {
           "texto": "off",
-          "inicio": 8.025,
-          "fin": 8.213
+          "inicio": 7.575,
+          "fin": 7.737
         },
         {
           "texto": "in",
-          "inicio": 8.225,
-          "fin": 8.312
+          "inicio": 7.763,
+          "fin": 7.85
         },
         {
           "texto": "adulthood.",
-          "inicio": 8.325,
-          "fin": 8.938
+          "inicio": 7.875,
+          "fin": 8.412
         }
       ],
       "destacada": null,
@@ -1532,160 +1532,160 @@
       "id": "b2-pago",
       "tipo": "pago",
       "bloque": 2,
-      "inicio": 101.204,
-      "duracion": 10.008,
+      "inicio": 99.02,
+      "duracion": 10.128,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/12-b2-pago.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "None",
           "inicio": 0.1,
-          "fin": 0.338
+          "fin": 0.363
         },
         {
           "texto": "of",
-          "inicio": 0.35,
-          "fin": 0.438
+          "inicio": 0.375,
+          "fin": 0.463
         },
         {
           "texto": "this",
-          "inicio": 0.45,
-          "fin": 0.65
+          "inicio": 0.487,
+          "fin": 0.662
         },
         {
           "texto": "makes",
-          "inicio": 0.662,
-          "fin": 0.912
+          "inicio": 0.675,
+          "fin": 0.925
         },
         {
           "texto": "the",
-          "inicio": 0.925,
-          "fin": 1.025
+          "inicio": 0.95,
+          "fin": 1.075
         },
         {
           "texto": "silence",
-          "inicio": 1.038,
-          "fin": 1.475
+          "inicio": 1.087,
+          "fin": 1.575
         },
         {
           "texto": "easier",
-          "inicio": 1.488,
-          "fin": 1.837
+          "inicio": 1.587,
+          "fin": 1.987
         },
         {
           "texto": "to",
-          "inicio": 1.85,
-          "fin": 1.975
+          "inicio": 2.013,
+          "fin": 2.125
         },
         {
           "texto": "live",
-          "inicio": 1.988,
-          "fin": 2.188
+          "inicio": 2.15,
+          "fin": 2.35
         },
         {
           "texto": "with.",
-          "inicio": 2.2,
-          "fin": 2.562
+          "inicio": 2.362,
+          "fin": 2.65
         },
         {
           "texto": "But",
-          "inicio": 3.425,
-          "fin": 3.562
+          "inicio": 3.525,
+          "fin": 3.688
         },
         {
           "texto": "it",
-          "inicio": 3.575,
-          "fin": 3.663
+          "inicio": 3.712,
+          "fin": 3.788
         },
         {
           "texto": "can",
-          "inicio": 3.675,
-          "fin": 3.812
+          "inicio": 3.812,
+          "fin": 3.975
         },
         {
           "texto": "make",
-          "inicio": 3.825,
-          "fin": 4.025
+          "inicio": 4.0,
+          "fin": 4.213
         },
         {
           "texto": "it",
-          "inicio": 4.037,
-          "fin": 4.15
+          "inicio": 4.237,
+          "fin": 4.362
         },
         {
           "texto": "less",
-          "inicio": 4.162,
-          "fin": 4.375
+          "inicio": 4.375,
+          "fin": 4.575
         },
         {
           "texto": "personal.",
-          "inicio": 4.388,
-          "fin": 5.038
+          "inicio": 4.6,
+          "fin": 5.2
         },
         {
           "texto": "What",
-          "inicio": 5.9,
-          "fin": 6.1
-        },
-        {
-          "texto": "you're",
-          "inicio": 6.112,
+          "inicio": 6.062,
           "fin": 6.25
         },
         {
+          "texto": "you're",
+          "inicio": 6.275,
+          "fin": 6.425
+        },
+        {
           "texto": "seeing",
-          "inicio": 6.263,
-          "fin": 6.588
+          "inicio": 6.438,
+          "fin": 6.763
         },
         {
           "texto": "is",
-          "inicio": 6.6,
-          "fin": 6.725
+          "inicio": 6.775,
+          "fin": 6.9
         },
         {
           "texto": "often",
-          "inicio": 6.737,
-          "fin": 7.05
+          "inicio": 6.925,
+          "fin": 7.225
         },
         {
           "texto": "an",
-          "inicio": 7.062,
-          "fin": 7.162
-        },
-        {
-          "texto": "old",
-          "inicio": 7.175,
+          "inicio": 7.25,
           "fin": 7.35
         },
         {
+          "texto": "old",
+          "inicio": 7.375,
+          "fin": 7.562
+        },
+        {
           "texto": "habit,",
-          "inicio": 7.362,
-          "fin": 7.837
+          "inicio": 7.588,
+          "fin": 7.925
         },
         {
           "texto": "not",
-          "inicio": 8.0,
-          "fin": 8.225
+          "inicio": 8.162,
+          "fin": 8.362
         },
         {
           "texto": "a",
-          "inicio": 8.238,
-          "fin": 8.288
+          "inicio": 8.375,
+          "fin": 8.425
         },
         {
           "texto": "verdict",
-          "inicio": 8.3,
-          "fin": 8.675
+          "inicio": 8.45,
+          "fin": 8.837
         },
         {
           "texto": "on",
-          "inicio": 8.688,
-          "fin": 8.825
+          "inicio": 8.863,
+          "fin": 9.013
         },
         {
           "texto": "you.",
-          "inicio": 8.838,
-          "fin": 9.125
+          "inicio": 9.037,
+          "fin": 9.25
         }
       ],
       "destacada": null,
@@ -1695,8 +1695,8 @@
       "id": "b3-hook",
       "tipo": "hook",
       "bloque": 3,
-      "inicio": 112.412,
-      "duracion": 6.72,
+      "inicio": 110.348,
+      "duracion": 6.888,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/13-b3-hook.mp3",
       "imagen": null,
       "palabras": [
@@ -1707,93 +1707,93 @@
         },
         {
           "texto": "instinct",
-          "inicio": 0.338,
-          "fin": 0.788
+          "inicio": 0.35,
+          "fin": 0.812
         },
         {
           "texto": "when",
-          "inicio": 0.8,
-          "fin": 0.9
+          "inicio": 0.825,
+          "fin": 0.938
         },
         {
           "texto": "he",
-          "inicio": 0.912,
-          "fin": 1.0
+          "inicio": 0.95,
+          "fin": 1.037
         },
         {
           "texto": "goes",
-          "inicio": 1.012,
-          "fin": 1.25
+          "inicio": 1.062,
+          "fin": 1.312
         },
         {
           "texto": "quiet",
-          "inicio": 1.262,
-          "fin": 1.65
+          "inicio": 1.325,
+          "fin": 1.688
         },
         {
           "texto": "is",
-          "inicio": 1.663,
-          "fin": 1.788
+          "inicio": 1.7,
+          "fin": 1.837
         },
         {
           "texto": "to",
-          "inicio": 1.8,
-          "fin": 1.9
+          "inicio": 1.863,
+          "fin": 1.975
         },
         {
           "texto": "push",
-          "inicio": 1.913,
-          "fin": 2.15
+          "inicio": 1.988,
+          "fin": 2.237
         },
         {
           "texto": "harder.",
-          "inicio": 2.163,
-          "fin": 2.663
+          "inicio": 2.263,
+          "fin": 2.713
         },
         {
           "texto": "That",
-          "inicio": 3.525,
-          "fin": 3.775
+          "inicio": 3.587,
+          "fin": 3.862
         },
         {
           "texto": "push",
-          "inicio": 3.788,
-          "fin": 4.037
+          "inicio": 3.888,
+          "fin": 4.138
         },
         {
           "texto": "is",
-          "inicio": 4.05,
-          "fin": 4.2
+          "inicio": 4.162,
+          "fin": 4.312
         },
         {
           "texto": "often",
-          "inicio": 4.213,
-          "fin": 4.55
+          "inicio": 4.338,
+          "fin": 4.688
         },
         {
           "texto": "what",
-          "inicio": 4.562,
-          "fin": 4.7
+          "inicio": 4.713,
+          "fin": 4.9
         },
         {
           "texto": "makes",
-          "inicio": 4.713,
-          "fin": 4.95
+          "inicio": 4.912,
+          "fin": 5.162
         },
         {
           "texto": "the",
-          "inicio": 4.963,
-          "fin": 5.05
-        },
-        {
-          "texto": "wall",
-          "inicio": 5.062,
+          "inicio": 5.188,
           "fin": 5.3
         },
         {
+          "texto": "wall",
+          "inicio": 5.325,
+          "fin": 5.538
+        },
+        {
           "texto": "taller.",
-          "inicio": 5.312,
-          "fin": 5.85
+          "inicio": 5.55,
+          "fin": 6.013
         }
       ],
       "destacada": null,
@@ -1808,120 +1808,120 @@
       "id": "b3-gancho2",
       "tipo": "gancho2",
       "bloque": 3,
-      "inicio": 119.482,
-      "duracion": 7.584,
+      "inicio": 117.586,
+      "duracion": 6.792,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/14-b3-gancho2.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "There's",
           "inicio": 0.1,
-          "fin": 0.338
+          "fin": 0.3
         },
         {
           "texto": "a",
-          "inicio": 0.35,
-          "fin": 0.412
+          "inicio": 0.325,
+          "fin": 0.388
         },
         {
           "texto": "pattern",
-          "inicio": 0.425,
-          "fin": 0.875
+          "inicio": 0.412,
+          "fin": 0.75
         },
         {
           "texto": "that",
-          "inicio": 0.887,
-          "fin": 1.05
+          "inicio": 0.775,
+          "fin": 0.9
         },
         {
           "texto": "shows",
-          "inicio": 1.062,
-          "fin": 1.35
+          "inicio": 0.912,
+          "fin": 1.212
         },
         {
           "texto": "up",
-          "inicio": 1.363,
-          "fin": 1.5
+          "inicio": 1.238,
+          "fin": 1.363
         },
         {
           "texto": "in",
-          "inicio": 1.512,
-          "fin": 1.6
+          "inicio": 1.375,
+          "fin": 1.462
         },
         {
           "texto": "a",
-          "inicio": 1.613,
-          "fin": 1.663
+          "inicio": 1.488,
+          "fin": 1.538
         },
         {
           "texto": "lot",
-          "inicio": 1.675,
-          "fin": 1.913
+          "inicio": 1.55,
+          "fin": 1.725
         },
         {
           "texto": "of",
-          "inicio": 1.925,
-          "fin": 2.013
+          "inicio": 1.738,
+          "fin": 1.825
         },
         {
           "texto": "couples:",
-          "inicio": 2.025,
-          "fin": 2.625
+          "inicio": 1.85,
+          "fin": 2.288
         },
         {
           "texto": "one",
-          "inicio": 2.8,
-          "fin": 3.025
+          "inicio": 2.562,
+          "fin": 2.788
         },
         {
           "texto": "person",
-          "inicio": 3.038,
-          "fin": 3.438
+          "inicio": 2.8,
+          "fin": 3.162
         },
         {
           "texto": "reaches,",
-          "inicio": 3.45,
-          "fin": 4.038
+          "inicio": 3.188,
+          "fin": 3.55
         },
         {
           "texto": "the",
-          "inicio": 4.188,
-          "fin": 4.287
+          "inicio": 3.663,
+          "fin": 3.775
         },
         {
           "texto": "other",
-          "inicio": 4.3,
-          "fin": 4.537
+          "inicio": 3.8,
+          "fin": 4.013
         },
         {
           "texto": "retreats,",
-          "inicio": 4.55,
-          "fin": 5.138
+          "inicio": 4.025,
+          "fin": 4.5
         },
         {
           "texto": "and",
-          "inicio": 5.325,
-          "fin": 5.463
+          "inicio": 4.688,
+          "fin": 4.812
         },
         {
           "texto": "both",
-          "inicio": 5.475,
-          "fin": 5.75
+          "inicio": 4.838,
+          "fin": 5.075
         },
         {
           "texto": "get",
-          "inicio": 5.763,
-          "fin": 5.925
+          "inicio": 5.088,
+          "fin": 5.263
         },
         {
           "texto": "more",
-          "inicio": 5.938,
-          "fin": 6.15
+          "inicio": 5.287,
+          "fin": 5.462
         },
         {
           "texto": "stuck.",
-          "inicio": 6.162,
-          "fin": 6.7
+          "inicio": 5.487,
+          "fin": 5.888
         }
       ],
       "destacada": null,
@@ -1931,135 +1931,135 @@
       "id": "b3-ej1",
       "tipo": "ejemplo",
       "bloque": 3,
-      "inicio": 127.416,
-      "duracion": 9.0,
+      "inicio": 124.728,
+      "duracion": 8.952,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/15-b3-ej1.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "Following",
           "inicio": 0.1,
-          "fin": 0.55
+          "fin": 0.65
         },
         {
           "texto": "him",
-          "inicio": 0.562,
-          "fin": 0.688
+          "inicio": 0.662,
+          "fin": 0.837
         },
         {
           "texto": "into",
-          "inicio": 0.7,
-          "fin": 0.875
+          "inicio": 0.863,
+          "fin": 1.075
         },
         {
           "texto": "the",
-          "inicio": 0.887,
-          "fin": 0.975
+          "inicio": 1.1,
+          "fin": 1.2
         },
         {
           "texto": "next",
-          "inicio": 0.988,
-          "fin": 1.337
+          "inicio": 1.212,
+          "fin": 1.5
         },
         {
           "texto": "room.",
-          "inicio": 1.35,
-          "fin": 1.725
+          "inicio": 1.525,
+          "fin": 1.825
         },
         {
           "texto": "It",
-          "inicio": 2.587,
-          "fin": 2.75
+          "inicio": 2.712,
+          "fin": 2.887
         },
         {
           "texto": "comes",
-          "inicio": 2.763,
-          "fin": 3.0
+          "inicio": 2.913,
+          "fin": 3.175
         },
         {
           "texto": "from",
-          "inicio": 3.013,
-          "fin": 3.163
+          "inicio": 3.2,
+          "fin": 3.35
         },
         {
           "texto": "wanting",
-          "inicio": 3.175,
-          "fin": 3.487
+          "inicio": 3.375,
+          "fin": 3.663
         },
         {
           "texto": "to",
-          "inicio": 3.5,
-          "fin": 3.6
+          "inicio": 3.688,
+          "fin": 3.763
         },
         {
           "texto": "fix",
-          "inicio": 3.612,
-          "fin": 3.912
+          "inicio": 3.788,
+          "fin": 4.062
         },
         {
           "texto": "things,",
-          "inicio": 3.925,
-          "fin": 4.412
+          "inicio": 4.088,
+          "fin": 4.438
         },
         {
           "texto": "but",
-          "inicio": 4.537,
-          "fin": 4.688
+          "inicio": 4.662,
+          "fin": 4.8
         },
         {
           "texto": "to",
-          "inicio": 4.7,
-          "fin": 4.788
+          "inicio": 4.825,
+          "fin": 4.913
         },
         {
           "texto": "someone",
-          "inicio": 4.8,
-          "fin": 5.125
+          "inicio": 4.925,
+          "fin": 5.263
         },
         {
           "texto": "already",
-          "inicio": 5.138,
-          "fin": 5.538
+          "inicio": 5.287,
+          "fin": 5.712
         },
         {
           "texto": "overwhelmed,",
-          "inicio": 5.55,
-          "fin": 6.162
+          "inicio": 5.737,
+          "fin": 6.287
         },
         {
           "texto": "it",
-          "inicio": 6.375,
-          "fin": 6.463
+          "inicio": 6.463,
+          "fin": 6.538
         },
         {
           "texto": "can",
-          "inicio": 6.475,
-          "fin": 6.625
+          "inicio": 6.562,
+          "fin": 6.713
         },
         {
           "texto": "feel",
-          "inicio": 6.638,
-          "fin": 6.875
+          "inicio": 6.737,
+          "fin": 6.962
         },
         {
           "texto": "like",
-          "inicio": 6.888,
-          "fin": 7.088
+          "inicio": 6.987,
+          "fin": 7.162
         },
         {
           "texto": "there's",
-          "inicio": 7.1,
-          "fin": 7.325
+          "inicio": 7.188,
+          "fin": 7.4
         },
         {
           "texto": "no",
-          "inicio": 7.338,
-          "fin": 7.5
+          "inicio": 7.425,
+          "fin": 7.612
         },
         {
           "texto": "exit.",
-          "inicio": 7.513,
-          "fin": 8.137
+          "inicio": 7.625,
+          "fin": 8.05
         }
       ],
       "destacada": null,
@@ -2069,125 +2069,125 @@
       "id": "b3-ej2",
       "tipo": "ejemplo",
       "bloque": 3,
-      "inicio": 136.766,
-      "duracion": 9.096,
+      "inicio": 134.03,
+      "duracion": 8.832,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/16-b3-ej2.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "Saying",
           "inicio": 0.1,
-          "fin": 0.525
+          "fin": 0.575
         },
         {
           "texto": "\"just",
-          "inicio": 0.575,
-          "fin": 0.825
+          "inicio": 0.625,
+          "fin": 0.838
         },
         {
           "texto": "say",
-          "inicio": 0.838,
-          "fin": 1.025
+          "inicio": 0.85,
+          "fin": 1.0
         },
         {
           "texto": "something!\"",
-          "inicio": 1.038,
-          "fin": 1.588
+          "inicio": 1.025,
+          "fin": 1.462
         },
         {
           "texto": "It's",
-          "inicio": 2.45,
-          "fin": 2.638
+          "inicio": 2.337,
+          "fin": 2.525
         },
         {
           "texto": "a",
-          "inicio": 2.65,
-          "fin": 2.712
+          "inicio": 2.538,
+          "fin": 2.6
         },
         {
           "texto": "completely",
-          "inicio": 2.725,
-          "fin": 3.312
+          "inicio": 2.625,
+          "fin": 3.163
         },
         {
           "texto": "understandable",
-          "inicio": 3.325,
-          "fin": 4.0
+          "inicio": 3.188,
+          "fin": 3.913
         },
         {
           "texto": "request,",
-          "inicio": 4.013,
-          "fin": 4.663
+          "inicio": 3.938,
+          "fin": 4.438
         },
         {
           "texto": "and",
-          "inicio": 4.862,
-          "fin": 4.975
+          "inicio": 4.638,
+          "fin": 4.713
         },
         {
           "texto": "it",
-          "inicio": 4.987,
-          "fin": 5.075
+          "inicio": 4.737,
+          "fin": 4.812
         },
         {
           "texto": "can",
-          "inicio": 5.088,
-          "fin": 5.263
+          "inicio": 4.838,
+          "fin": 4.988
         },
         {
           "texto": "land",
-          "inicio": 5.275,
-          "fin": 5.538
+          "inicio": 5.0,
+          "fin": 5.237
         },
         {
           "texto": "as",
-          "inicio": 5.55,
-          "fin": 5.638
+          "inicio": 5.263,
+          "fin": 5.362
         },
         {
           "texto": "pressure",
-          "inicio": 5.65,
-          "fin": 6.038
+          "inicio": 5.375,
+          "fin": 5.775
         },
         {
           "texto": "on",
-          "inicio": 6.05,
-          "fin": 6.175
+          "inicio": 5.8,
+          "fin": 5.925
         },
         {
           "texto": "someone",
-          "inicio": 6.188,
-          "fin": 6.537
+          "inicio": 5.95,
+          "fin": 6.263
         },
         {
           "texto": "who",
-          "inicio": 6.55,
-          "fin": 6.65
+          "inicio": 6.287,
+          "fin": 6.387
         },
         {
           "texto": "has",
-          "inicio": 6.662,
-          "fin": 6.837
+          "inicio": 6.412,
+          "fin": 6.6
         },
         {
           "texto": "no",
-          "inicio": 6.85,
-          "fin": 7.025
+          "inicio": 6.625,
+          "fin": 6.8
         },
         {
           "texto": "words",
-          "inicio": 7.037,
-          "fin": 7.3
+          "inicio": 6.812,
+          "fin": 7.088
         },
         {
           "texto": "available",
-          "inicio": 7.312,
-          "fin": 7.775
+          "inicio": 7.112,
+          "fin": 7.612
         },
         {
           "texto": "yet.",
-          "inicio": 7.787,
-          "fin": 8.225
+          "inicio": 7.625,
+          "fin": 7.925
         }
       ],
       "destacada": null,
@@ -2202,135 +2202,135 @@
       "id": "b3-ej3",
       "tipo": "ejemplo",
       "bloque": 3,
-      "inicio": 146.212,
-      "duracion": 9.336,
+      "inicio": 143.212,
+      "duracion": 9.48,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/17-b3-ej3.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "He",
           "inicio": 0.1,
-          "fin": 0.263
+          "fin": 0.238
         },
         {
           "texto": "goes",
-          "inicio": 0.275,
-          "fin": 0.488
+          "inicio": 0.263,
+          "fin": 0.538
         },
         {
           "texto": "quieter,",
-          "inicio": 0.5,
-          "fin": 1.038
+          "inicio": 0.55,
+          "fin": 1.025
         },
         {
           "texto": "the",
-          "inicio": 1.188,
-          "fin": 1.288
+          "inicio": 1.238,
+          "fin": 1.35
         },
         {
           "texto": "other",
-          "inicio": 1.3,
-          "fin": 1.55
+          "inicio": 1.375,
+          "fin": 1.65
         },
         {
           "texto": "person",
-          "inicio": 1.562,
-          "fin": 1.95
+          "inicio": 1.675,
+          "fin": 2.062
         },
         {
           "texto": "gets",
-          "inicio": 1.962,
-          "fin": 2.188
+          "inicio": 2.087,
+          "fin": 2.3
         },
         {
           "texto": "louder.",
-          "inicio": 2.2,
-          "fin": 2.713
+          "inicio": 2.312,
+          "fin": 2.8
         },
         {
           "texto": "Each",
-          "inicio": 3.575,
-          "fin": 3.838
+          "inicio": 3.675,
+          "fin": 3.912
         },
         {
           "texto": "reaction",
-          "inicio": 3.85,
-          "fin": 4.375
+          "inicio": 3.925,
+          "fin": 4.462
         },
         {
           "texto": "feeds",
-          "inicio": 4.388,
-          "fin": 4.675
+          "inicio": 4.487,
+          "fin": 4.763
         },
         {
           "texto": "the",
-          "inicio": 4.688,
-          "fin": 4.787
+          "inicio": 4.787,
+          "fin": 4.887
         },
         {
           "texto": "other,",
-          "inicio": 4.8,
-          "fin": 5.162
+          "inicio": 4.9,
+          "fin": 5.188
         },
         {
           "texto": "until",
-          "inicio": 5.4,
-          "fin": 5.638
+          "inicio": 5.45,
+          "fin": 5.675
         },
         {
           "texto": "the",
-          "inicio": 5.65,
-          "fin": 5.75
+          "inicio": 5.688,
+          "fin": 5.8
         },
         {
           "texto": "fight",
-          "inicio": 5.763,
-          "fin": 6.025
+          "inicio": 5.825,
+          "fin": 6.088
         },
         {
           "texto": "is",
-          "inicio": 6.037,
-          "fin": 6.162
+          "inicio": 6.1,
+          "fin": 6.225
         },
         {
           "texto": "no",
-          "inicio": 6.175,
-          "fin": 6.362
+          "inicio": 6.237,
+          "fin": 6.412
         },
         {
           "texto": "longer",
-          "inicio": 6.375,
-          "fin": 6.75
+          "inicio": 6.425,
+          "fin": 6.8
         },
         {
           "texto": "about",
-          "inicio": 6.763,
-          "fin": 6.987
-        },
-        {
-          "texto": "the",
-          "inicio": 7.0,
+          "inicio": 6.825,
           "fin": 7.075
         },
         {
-          "texto": "original",
+          "texto": "the",
           "inicio": 7.088,
-          "fin": 7.538
+          "fin": 7.188
+        },
+        {
+          "texto": "original",
+          "inicio": 7.2,
+          "fin": 7.7
         },
         {
           "texto": "topic",
-          "inicio": 7.55,
-          "fin": 7.987
-        },
-        {
-          "texto": "at",
-          "inicio": 8.0,
+          "inicio": 7.725,
           "fin": 8.1
         },
         {
+          "texto": "at",
+          "inicio": 8.125,
+          "fin": 8.213
+        },
+        {
           "texto": "all.",
-          "inicio": 8.113,
-          "fin": 8.475
+          "inicio": 8.238,
+          "fin": 8.588
         }
       ],
       "destacada": null,
@@ -2345,7 +2345,7 @@
       "id": "b3-pago",
       "tipo": "pago",
       "bloque": 3,
-      "inicio": 155.898,
+      "inicio": 153.042,
       "duracion": 10.536,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/18-b3-pago.mp3",
       "imagen": null,
@@ -2353,131 +2353,131 @@
         {
           "texto": "If",
           "inicio": 0.1,
-          "fin": 0.263
+          "fin": 0.275
         },
         {
           "texto": "you've",
-          "inicio": 0.275,
-          "fin": 0.425
+          "inicio": 0.3,
+          "fin": 0.463
         },
         {
           "texto": "been",
-          "inicio": 0.438,
-          "fin": 0.588
+          "inicio": 0.487,
+          "fin": 0.637
         },
         {
           "texto": "the",
-          "inicio": 0.6,
-          "fin": 0.688
+          "inicio": 0.662,
+          "fin": 0.762
         },
         {
           "texto": "one",
-          "inicio": 0.7,
-          "fin": 0.938
+          "inicio": 0.787,
+          "fin": 1.0
         },
         {
           "texto": "reaching,",
-          "inicio": 0.95,
-          "fin": 1.413
+          "inicio": 1.025,
+          "fin": 1.425
         },
         {
           "texto": "that",
           "inicio": 1.587,
-          "fin": 1.787
+          "fin": 1.75
         },
         {
           "texto": "doesn't",
-          "inicio": 1.8,
-          "fin": 2.087
+          "inicio": 1.762,
+          "fin": 2.062
         },
         {
           "texto": "make",
-          "inicio": 2.1,
+          "inicio": 2.075,
           "fin": 2.288
         },
         {
           "texto": "you",
-          "inicio": 2.3,
-          "fin": 2.387
+          "inicio": 2.312,
+          "fin": 2.413
         },
         {
           "texto": "the",
-          "inicio": 2.4,
-          "fin": 2.5
+          "inicio": 2.438,
+          "fin": 2.538
         },
         {
           "texto": "problem.",
-          "inicio": 2.513,
-          "fin": 3.088
+          "inicio": 2.55,
+          "fin": 3.037
         },
         {
           "texto": "Reaching",
-          "inicio": 3.95,
-          "fin": 4.35
+          "inicio": 3.913,
+          "fin": 4.362
         },
         {
           "texto": "is",
-          "inicio": 4.362,
-          "fin": 4.475
+          "inicio": 4.388,
+          "fin": 4.513
         },
         {
           "texto": "what",
-          "inicio": 4.487,
-          "fin": 4.638
+          "inicio": 4.537,
+          "fin": 4.712
         },
         {
           "texto": "caring",
-          "inicio": 4.65,
-          "fin": 4.988
+          "inicio": 4.737,
+          "fin": 5.087
         },
         {
           "texto": "looks",
-          "inicio": 5.0,
-          "fin": 5.237
+          "inicio": 5.112,
+          "fin": 5.337
         },
         {
           "texto": "like.",
-          "inicio": 5.25,
-          "fin": 5.662
+          "inicio": 5.35,
+          "fin": 5.688
         },
         {
           "texto": "Seeing",
-          "inicio": 6.525,
-          "fin": 6.863
+          "inicio": 6.562,
+          "fin": 6.975
         },
         {
           "texto": "the",
-          "inicio": 6.875,
-          "fin": 6.987
+          "inicio": 7.0,
+          "fin": 7.1
         },
         {
           "texto": "loop",
-          "inicio": 7.0,
-          "fin": 7.3
+          "inicio": 7.125,
+          "fin": 7.362
         },
         {
           "texto": "is",
-          "inicio": 7.312,
-          "fin": 7.425
+          "inicio": 7.375,
+          "fin": 7.5
         },
         {
           "texto": "the",
-          "inicio": 7.438,
-          "fin": 7.537
+          "inicio": 7.525,
+          "fin": 7.638
         },
         {
           "texto": "first",
-          "inicio": 7.55,
-          "fin": 7.888
+          "inicio": 7.65,
+          "fin": 7.938
         },
         {
           "texto": "step",
-          "inicio": 7.9,
+          "inicio": 7.963,
           "fin": 8.213
         },
         {
           "texto": "to",
-          "inicio": 8.225,
+          "inicio": 8.238,
           "fin": 8.312
         },
         {
@@ -2487,23 +2487,23 @@
         },
         {
           "texto": "out",
-          "inicio": 8.75,
-          "fin": 8.875
+          "inicio": 8.762,
+          "fin": 8.887
         },
         {
           "texto": "of",
-          "inicio": 8.887,
-          "fin": 8.962
+          "inicio": 8.9,
+          "fin": 8.975
         },
         {
           "texto": "it",
-          "inicio": 8.975,
+          "inicio": 8.988,
           "fin": 9.075
         },
         {
           "texto": "together.",
-          "inicio": 9.088,
-          "fin": 9.675
+          "inicio": 9.1,
+          "fin": 9.637
         }
       ],
       "destacada": null,
@@ -2513,8 +2513,8 @@
       "id": "b4-hook",
       "tipo": "hook",
       "bloque": 4,
-      "inicio": 167.634,
-      "duracion": 5.232,
+      "inicio": 164.778,
+      "duracion": 5.376,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/19-b4-hook.mp3",
       "imagen": null,
       "palabras": [
@@ -2525,53 +2525,53 @@
         },
         {
           "texto": "think",
-          "inicio": 0.287,
-          "fin": 0.5
+          "inicio": 0.3,
+          "fin": 0.525
         },
         {
           "texto": "there's",
-          "inicio": 0.512,
-          "fin": 0.712
+          "inicio": 0.55,
+          "fin": 0.75
         },
         {
           "texto": "nothing",
-          "inicio": 0.725,
-          "fin": 1.062
+          "inicio": 0.775,
+          "fin": 1.125
         },
         {
           "texto": "behind",
-          "inicio": 1.075,
-          "fin": 1.425
+          "inicio": 1.15,
+          "fin": 1.55
         },
         {
           "texto": "his",
-          "inicio": 1.438,
-          "fin": 1.562
+          "inicio": 1.562,
+          "fin": 1.7
         },
         {
           "texto": "silence.",
-          "inicio": 1.575,
-          "fin": 2.237
+          "inicio": 1.725,
+          "fin": 2.312
         },
         {
           "texto": "There's",
-          "inicio": 3.1,
-          "fin": 3.337
+          "inicio": 3.2,
+          "fin": 3.5
         },
         {
           "texto": "usually",
-          "inicio": 3.35,
-          "fin": 3.775
+          "inicio": 3.525,
+          "fin": 3.975
         },
         {
           "texto": "a",
-          "inicio": 3.788,
-          "fin": 3.85
+          "inicio": 4.0,
+          "fin": 4.062
         },
         {
           "texto": "lot.",
-          "inicio": 3.862,
-          "fin": 4.35
+          "inicio": 4.088,
+          "fin": 4.513
         }
       ],
       "destacada": null,
@@ -2586,75 +2586,75 @@
       "id": "b4-gancho2",
       "tipo": "gancho2",
       "bloque": 4,
-      "inicio": 173.216,
-      "duracion": 5.016,
+      "inicio": 170.504,
+      "duracion": 4.92,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/20-b4-gancho2.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "When",
           "inicio": 0.1,
-          "fin": 0.3
+          "fin": 0.275
         },
         {
           "texto": "someone",
-          "inicio": 0.312,
-          "fin": 0.613
+          "inicio": 0.3,
+          "fin": 0.625
         },
         {
           "texto": "goes",
-          "inicio": 0.625,
-          "fin": 0.85
+          "inicio": 0.65,
+          "fin": 0.863
         },
         {
           "texto": "quiet",
-          "inicio": 0.863,
-          "fin": 1.2
+          "inicio": 0.875,
+          "fin": 1.212
         },
         {
           "texto": "in",
-          "inicio": 1.212,
-          "fin": 1.3
+          "inicio": 1.238,
+          "fin": 1.338
         },
         {
           "texto": "a",
-          "inicio": 1.312,
-          "fin": 1.363
+          "inicio": 1.363,
+          "fin": 1.413
         },
         {
           "texto": "fight,",
-          "inicio": 1.375,
-          "fin": 1.775
+          "inicio": 1.425,
+          "fin": 1.712
         },
         {
           "texto": "the",
           "inicio": 1.95,
-          "fin": 2.05
+          "fin": 2.075
         },
         {
           "texto": "silence",
-          "inicio": 2.062,
-          "fin": 2.55
+          "inicio": 2.1,
+          "fin": 2.562
         },
         {
           "texto": "is",
-          "inicio": 2.562,
-          "fin": 2.7
+          "inicio": 2.575,
+          "fin": 2.713
         },
         {
           "texto": "often",
-          "inicio": 2.712,
-          "fin": 3.038
+          "inicio": 2.737,
+          "fin": 3.05
         },
         {
           "texto": "protecting",
-          "inicio": 3.05,
+          "inicio": 3.062,
           "fin": 3.575
         },
         {
           "texto": "something.",
-          "inicio": 3.587,
-          "fin": 4.15
+          "inicio": 3.6,
+          "fin": 4.025
         }
       ],
       "destacada": null,
@@ -2664,145 +2664,145 @@
       "id": "b4-ej1",
       "tipo": "ejemplo",
       "bloque": 4,
-      "inicio": 178.582,
-      "duracion": 9.048,
+      "inicio": 175.774,
+      "duracion": 8.856,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/21-b4-ej1.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "Protecting",
           "inicio": 0.1,
-          "fin": 0.65
+          "fin": 0.7
         },
         {
           "texto": "you",
-          "inicio": 0.662,
-          "fin": 0.8
+          "inicio": 0.725,
+          "fin": 0.863
         },
         {
           "texto": "from",
-          "inicio": 0.812,
-          "fin": 1.0
+          "inicio": 0.887,
+          "fin": 1.113
         },
         {
           "texto": "words",
-          "inicio": 1.012,
-          "fin": 1.325
+          "inicio": 1.137,
+          "fin": 1.45
         },
         {
           "texto": "he'd",
-          "inicio": 1.337,
-          "fin": 1.5
+          "inicio": 1.475,
+          "fin": 1.663
         },
         {
           "texto": "regret.",
-          "inicio": 1.512,
-          "fin": 2.1
+          "inicio": 1.688,
+          "fin": 2.212
         },
         {
           "texto": "Some",
-          "inicio": 2.962,
-          "fin": 3.237
+          "inicio": 3.075,
+          "fin": 3.338
         },
         {
           "texto": "people",
-          "inicio": 3.25,
-          "fin": 3.538
+          "inicio": 3.35,
+          "fin": 3.625
         },
         {
           "texto": "go",
-          "inicio": 3.55,
-          "fin": 3.712
+          "inicio": 3.65,
+          "fin": 3.775
         },
         {
           "texto": "silent",
-          "inicio": 3.725,
-          "fin": 4.287
+          "inicio": 3.788,
+          "fin": 4.213
         },
         {
           "texto": "because",
-          "inicio": 4.3,
-          "fin": 4.612
+          "inicio": 4.237,
+          "fin": 4.513
         },
         {
           "texto": "they're",
-          "inicio": 4.625,
-          "fin": 4.775
+          "inicio": 4.537,
+          "fin": 4.7
         },
         {
           "texto": "afraid",
-          "inicio": 4.787,
-          "fin": 5.112
+          "inicio": 4.725,
+          "fin": 5.062
         },
         {
           "texto": "of",
-          "inicio": 5.125,
-          "fin": 5.2
+          "inicio": 5.075,
+          "fin": 5.163
         },
         {
           "texto": "what",
-          "inicio": 5.213,
-          "fin": 5.363
+          "inicio": 5.188,
+          "fin": 5.338
         },
         {
           "texto": "might",
-          "inicio": 5.375,
-          "fin": 5.6
+          "inicio": 5.362,
+          "fin": 5.562
         },
         {
           "texto": "come",
-          "inicio": 5.612,
-          "fin": 5.812
+          "inicio": 5.588,
+          "fin": 5.763
         },
         {
           "texto": "out",
-          "inicio": 5.825,
-          "fin": 6.013
+          "inicio": 5.787,
+          "fin": 5.95
         },
         {
           "texto": "if",
-          "inicio": 6.025,
-          "fin": 6.113
+          "inicio": 5.963,
+          "fin": 6.05
         },
         {
           "texto": "they",
-          "inicio": 6.125,
-          "fin": 6.237
+          "inicio": 6.075,
+          "fin": 6.213
         },
         {
           "texto": "open",
-          "inicio": 6.25,
-          "fin": 6.5
+          "inicio": 6.237,
+          "fin": 6.475
         },
         {
           "texto": "their",
-          "inicio": 6.513,
-          "fin": 6.65
+          "inicio": 6.5,
+          "fin": 6.625
         },
         {
           "texto": "mouth",
-          "inicio": 6.662,
-          "fin": 7.062
+          "inicio": 6.65,
+          "fin": 6.95
         },
         {
           "texto": "while",
-          "inicio": 7.075,
-          "fin": 7.213
+          "inicio": 6.975,
+          "fin": 7.125
         },
         {
           "texto": "they're",
-          "inicio": 7.225,
-          "fin": 7.375
+          "inicio": 7.138,
+          "fin": 7.3
         },
         {
           "texto": "this",
-          "inicio": 7.388,
-          "fin": 7.575
+          "inicio": 7.325,
+          "fin": 7.5
         },
         {
           "texto": "upset.",
-          "inicio": 7.588,
-          "fin": 8.188
+          "inicio": 7.525,
+          "fin": 7.95
         }
       ],
       "destacada": null,
@@ -2812,130 +2812,130 @@
       "id": "b4-ej2",
       "tipo": "ejemplo",
       "bloque": 4,
-      "inicio": 187.98,
-      "duracion": 8.784,
+      "inicio": 184.98,
+      "duracion": 8.448,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/22-b4-ej2.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "Protecting",
           "inicio": 0.1,
-          "fin": 0.65
+          "fin": 0.688
         },
         {
           "texto": "himself",
-          "inicio": 0.662,
-          "fin": 1.062
+          "inicio": 0.713,
+          "fin": 1.125
         },
         {
           "texto": "from",
-          "inicio": 1.075,
-          "fin": 1.275
+          "inicio": 1.15,
+          "fin": 1.337
         },
         {
           "texto": "losing.",
-          "inicio": 1.288,
-          "fin": 1.825
+          "inicio": 1.363,
+          "fin": 1.775
         },
         {
           "texto": "If",
-          "inicio": 2.688,
-          "fin": 2.85
+          "inicio": 2.65,
+          "fin": 2.825
         },
         {
           "texto": "he",
-          "inicio": 2.862,
-          "fin": 2.962
+          "inicio": 2.85,
+          "fin": 2.95
         },
         {
           "texto": "feels",
           "inicio": 2.975,
-          "fin": 3.3
+          "fin": 3.263
         },
         {
           "texto": "he",
-          "inicio": 3.312,
-          "fin": 3.4
+          "inicio": 3.288,
+          "fin": 3.375
         },
         {
           "texto": "can't",
-          "inicio": 3.413,
-          "fin": 3.688
+          "inicio": 3.4,
+          "fin": 3.637
         },
         {
           "texto": "keep",
-          "inicio": 3.7,
-          "fin": 3.888
+          "inicio": 3.663,
+          "fin": 3.863
         },
         {
           "texto": "up",
-          "inicio": 3.9,
-          "fin": 4.037
+          "inicio": 3.888,
+          "fin": 4.038
         },
         {
           "texto": "in",
-          "inicio": 4.05,
-          "fin": 4.138
+          "inicio": 4.062,
+          "fin": 4.15
         },
         {
           "texto": "an",
-          "inicio": 4.15,
+          "inicio": 4.162,
           "fin": 4.25
         },
         {
           "texto": "argument,",
-          "inicio": 4.263,
-          "fin": 4.838
+          "inicio": 4.275,
+          "fin": 4.713
         },
         {
           "texto": "saying",
-          "inicio": 5.05,
-          "fin": 5.388
+          "inicio": 4.963,
+          "fin": 5.225
         },
         {
           "texto": "nothing",
-          "inicio": 5.4,
-          "fin": 5.8
+          "inicio": 5.25,
+          "fin": 5.562
         },
         {
           "texto": "can",
-          "inicio": 5.812,
-          "fin": 5.975
+          "inicio": 5.575,
+          "fin": 5.725
         },
         {
           "texto": "feel",
-          "inicio": 5.987,
-          "fin": 6.225
+          "inicio": 5.75,
+          "fin": 5.963
         },
         {
           "texto": "safer",
-          "inicio": 6.237,
-          "fin": 6.625
+          "inicio": 5.987,
+          "fin": 6.375
         },
         {
           "texto": "than",
-          "inicio": 6.638,
-          "fin": 6.8
+          "inicio": 6.4,
+          "fin": 6.55
         },
         {
           "texto": "saying",
-          "inicio": 6.812,
-          "fin": 7.088
+          "inicio": 6.575,
+          "fin": 6.875
         },
         {
           "texto": "the",
-          "inicio": 7.1,
-          "fin": 7.188
+          "inicio": 6.888,
+          "fin": 6.987
         },
         {
           "texto": "wrong",
-          "inicio": 7.2,
-          "fin": 7.45
+          "inicio": 7.0,
+          "fin": 7.225
         },
         {
           "texto": "thing.",
-          "inicio": 7.463,
-          "fin": 7.913
+          "inicio": 7.25,
+          "fin": 7.562
         }
       ],
       "destacada": null,
@@ -2950,125 +2950,125 @@
       "id": "b4-ej3",
       "tipo": "ejemplo",
       "bloque": 4,
-      "inicio": 197.114,
-      "duracion": 9.0,
+      "inicio": 193.778,
+      "duracion": 8.64,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/23-b4-ej3.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "Protecting",
           "inicio": 0.1,
-          "fin": 0.637
+          "fin": 0.713
         },
         {
           "texto": "the",
-          "inicio": 0.65,
-          "fin": 0.738
+          "inicio": 0.738,
+          "fin": 0.838
         },
         {
           "texto": "relationship.",
-          "inicio": 0.75,
-          "fin": 1.637
+          "inicio": 0.85,
+          "fin": 1.675
         },
         {
           "texto": "Strange",
-          "inicio": 2.5,
-          "fin": 2.925
+          "inicio": 2.538,
+          "fin": 2.975
         },
         {
           "texto": "as",
-          "inicio": 2.938,
-          "fin": 3.038
+          "inicio": 2.987,
+          "fin": 3.1
         },
         {
           "texto": "it",
-          "inicio": 3.05,
-          "fin": 3.175
+          "inicio": 3.125,
+          "fin": 3.2
         },
         {
           "texto": "sounds,",
-          "inicio": 3.188,
-          "fin": 3.7
+          "inicio": 3.225,
+          "fin": 3.663
         },
         {
           "texto": "some",
-          "inicio": 3.837,
-          "fin": 4.075
+          "inicio": 3.85,
+          "fin": 4.037
         },
         {
           "texto": "people",
-          "inicio": 4.088,
-          "fin": 4.375
+          "inicio": 4.05,
+          "fin": 4.337
         },
         {
           "texto": "stay",
-          "inicio": 4.388,
-          "fin": 4.6
+          "inicio": 4.362,
+          "fin": 4.55
         },
         {
           "texto": "quiet",
-          "inicio": 4.612,
-          "fin": 5.087
+          "inicio": 4.562,
+          "fin": 4.912
         },
         {
           "texto": "because",
-          "inicio": 5.1,
-          "fin": 5.4
+          "inicio": 4.925,
+          "fin": 5.225
         },
         {
           "texto": "they",
-          "inicio": 5.412,
-          "fin": 5.525
+          "inicio": 5.25,
+          "fin": 5.362
         },
         {
           "texto": "believe",
-          "inicio": 5.537,
-          "fin": 5.875
+          "inicio": 5.388,
+          "fin": 5.75
         },
         {
           "texto": "that's",
-          "inicio": 5.888,
-          "fin": 6.1
+          "inicio": 5.775,
+          "fin": 5.938
         },
         {
           "texto": "how",
-          "inicio": 6.112,
-          "fin": 6.2
+          "inicio": 5.963,
+          "fin": 6.062
         },
         {
           "texto": "you",
-          "inicio": 6.213,
-          "fin": 6.363
+          "inicio": 6.088,
+          "fin": 6.225
         },
         {
           "texto": "keep",
-          "inicio": 6.375,
-          "fin": 6.6
+          "inicio": 6.25,
+          "fin": 6.425
         },
         {
           "texto": "a",
-          "inicio": 6.612,
-          "fin": 6.688
+          "inicio": 6.438,
+          "fin": 6.5
         },
         {
           "texto": "fight",
-          "inicio": 6.7,
-          "fin": 7.013
+          "inicio": 6.513,
+          "fin": 6.75
         },
         {
           "texto": "from",
-          "inicio": 7.025,
-          "fin": 7.188
+          "inicio": 6.763,
+          "fin": 6.925
         },
         {
           "texto": "breaking",
-          "inicio": 7.2,
-          "fin": 7.575
+          "inicio": 6.938,
+          "fin": 7.312
         },
         {
           "texto": "something.",
-          "inicio": 7.588,
-          "fin": 8.125
+          "inicio": 7.338,
+          "fin": 7.75
         }
       ],
       "destacada": null,
@@ -3083,130 +3083,130 @@
       "id": "b4-pago",
       "tipo": "pago",
       "bloque": 4,
-      "inicio": 206.464,
-      "duracion": 7.584,
+      "inicio": 202.768,
+      "duracion": 7.656,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/24-b4-pago.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "That",
           "inicio": 0.1,
-          "fin": 0.363
+          "fin": 0.338
         },
         {
           "texto": "doesn't",
-          "inicio": 0.375,
-          "fin": 0.662
+          "inicio": 0.362,
+          "fin": 0.675
         },
         {
           "texto": "mean",
-          "inicio": 0.675,
-          "fin": 0.85
+          "inicio": 0.7,
+          "fin": 0.887
         },
         {
           "texto": "the",
-          "inicio": 0.863,
-          "fin": 0.95
+          "inicio": 0.912,
+          "fin": 1.025
         },
         {
           "texto": "silence",
-          "inicio": 0.963,
-          "fin": 1.413
+          "inicio": 1.038,
+          "fin": 1.488
         },
         {
           "texto": "works.",
-          "inicio": 1.425,
-          "fin": 1.975
+          "inicio": 1.512,
+          "fin": 2.0
         },
         {
           "texto": "But",
-          "inicio": 2.837,
-          "fin": 3.012
+          "inicio": 2.888,
+          "fin": 3.088
         },
         {
           "texto": "knowing",
-          "inicio": 3.025,
-          "fin": 3.312
+          "inicio": 3.1,
+          "fin": 3.388
         },
         {
           "texto": "what",
-          "inicio": 3.325,
-          "fin": 3.45
+          "inicio": 3.413,
+          "fin": 3.538
         },
         {
           "texto": "it's",
-          "inicio": 3.462,
-          "fin": 3.612
+          "inicio": 3.55,
+          "fin": 3.712
         },
         {
           "texto": "guarding",
-          "inicio": 3.625,
-          "fin": 4.025
+          "inicio": 3.737,
+          "fin": 4.112
         },
         {
           "texto": "can",
-          "inicio": 4.037,
-          "fin": 4.212
+          "inicio": 4.138,
+          "fin": 4.288
         },
         {
           "texto": "soften",
-          "inicio": 4.225,
-          "fin": 4.688
+          "inicio": 4.312,
+          "fin": 4.737
         },
         {
           "texto": "how",
-          "inicio": 4.7,
-          "fin": 4.862
+          "inicio": 4.763,
+          "fin": 4.913
         },
         {
           "texto": "it",
-          "inicio": 4.875,
-          "fin": 4.963
+          "inicio": 4.925,
+          "fin": 5.0
         },
         {
           "texto": "feels",
-          "inicio": 4.975,
-          "fin": 5.3
+          "inicio": 5.025,
+          "fin": 5.375
         },
         {
           "texto": "to",
-          "inicio": 5.312,
-          "fin": 5.4
+          "inicio": 5.4,
+          "fin": 5.488
         },
         {
           "texto": "be",
-          "inicio": 5.412,
-          "fin": 5.562
+          "inicio": 5.5,
+          "fin": 5.675
         },
         {
           "texto": "on",
-          "inicio": 5.575,
-          "fin": 5.688
+          "inicio": 5.7,
+          "fin": 5.8
         },
         {
           "texto": "the",
-          "inicio": 5.7,
-          "fin": 5.788
+          "inicio": 5.825,
+          "fin": 5.925
         },
         {
           "texto": "other",
-          "inicio": 5.8,
-          "fin": 6.025
+          "inicio": 5.95,
+          "fin": 6.175
         },
         {
           "texto": "side",
-          "inicio": 6.037,
-          "fin": 6.3
+          "inicio": 6.188,
+          "fin": 6.45
         },
         {
           "texto": "of",
-          "inicio": 6.312,
-          "fin": 6.4
+          "inicio": 6.463,
+          "fin": 6.562
         },
         {
           "texto": "it.",
-          "inicio": 6.412,
-          "fin": 6.7
+          "inicio": 6.575,
+          "fin": 6.75
         }
       ],
       "destacada": null,
@@ -3216,90 +3216,90 @@
       "id": "b5-hook",
       "tipo": "hook",
       "bloque": 5,
-      "inicio": 215.248,
-      "duracion": 5.664,
+      "inicio": 211.624,
+      "duracion": 5.88,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/25-b5-hook.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "You've",
           "inicio": 0.1,
-          "fin": 0.3
+          "fin": 0.312
         },
         {
           "texto": "probably",
-          "inicio": 0.312,
-          "fin": 0.787
+          "inicio": 0.338,
+          "fin": 0.788
         },
         {
           "texto": "heard",
-          "inicio": 0.8,
-          "fin": 1.038
+          "inicio": 0.812,
+          "fin": 1.05
         },
         {
           "texto": "that",
-          "inicio": 1.05,
-          "fin": 1.188
+          "inicio": 1.075,
+          "fin": 1.2
         },
         {
           "texto": "all",
-          "inicio": 1.2,
-          "fin": 1.35
+          "inicio": 1.225,
+          "fin": 1.388
         },
         {
           "texto": "silence",
-          "inicio": 1.363,
-          "fin": 1.837
+          "inicio": 1.413,
+          "fin": 1.888
         },
         {
           "texto": "in",
-          "inicio": 1.85,
-          "fin": 1.938
-        },
-        {
-          "texto": "a",
-          "inicio": 1.95,
+          "inicio": 1.913,
           "fin": 2.0
         },
         {
+          "texto": "a",
+          "inicio": 2.025,
+          "fin": 2.087
+        },
+        {
           "texto": "fight",
-          "inicio": 2.013,
-          "fin": 2.263
+          "inicio": 2.112,
+          "fin": 2.362
         },
         {
           "texto": "is",
-          "inicio": 2.275,
-          "fin": 2.387
+          "inicio": 2.388,
+          "fin": 2.513
         },
         {
           "texto": "bad.",
-          "inicio": 2.4,
-          "fin": 2.825
+          "inicio": 2.538,
+          "fin": 2.9
         },
         {
           "texto": "Not",
-          "inicio": 3.688,
-          "fin": 3.975
+          "inicio": 3.788,
+          "fin": 4.1
         },
         {
           "texto": "all",
-          "inicio": 3.987,
-          "fin": 4.162
+          "inicio": 4.125,
+          "fin": 4.325
         },
         {
           "texto": "of",
-          "inicio": 4.175,
-          "fin": 4.263
+          "inicio": 4.338,
+          "fin": 4.438
         },
         {
           "texto": "it",
-          "inicio": 4.275,
-          "fin": 4.363
+          "inicio": 4.463,
+          "fin": 4.562
         },
         {
           "texto": "is.",
-          "inicio": 4.375,
-          "fin": 4.8
+          "inicio": 4.588,
+          "fin": 4.988
         }
       ],
       "destacada": null,
@@ -3314,120 +3314,120 @@
       "id": "b5-gancho2",
       "tipo": "gancho2",
       "bloque": 5,
-      "inicio": 221.262,
-      "duracion": 6.528,
+      "inicio": 217.854,
+      "duracion": 5.976,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/26-b5-gancho2.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "There's",
           "inicio": 0.1,
-          "fin": 0.338
+          "fin": 0.3
         },
         {
           "texto": "a",
-          "inicio": 0.35,
-          "fin": 0.412
+          "inicio": 0.312,
+          "fin": 0.375
         },
         {
           "texto": "big",
-          "inicio": 0.425,
-          "fin": 0.637
+          "inicio": 0.388,
+          "fin": 0.6
         },
         {
           "texto": "difference",
-          "inicio": 0.65,
-          "fin": 1.087
+          "inicio": 0.625,
+          "fin": 1.025
         },
         {
           "texto": "between",
-          "inicio": 1.1,
-          "fin": 1.425
+          "inicio": 1.05,
+          "fin": 1.363
         },
         {
           "texto": "a",
-          "inicio": 1.438,
-          "fin": 1.488
+          "inicio": 1.387,
+          "fin": 1.45
         },
         {
           "texto": "wall",
-          "inicio": 1.5,
-          "fin": 1.812
+          "inicio": 1.475,
+          "fin": 1.75
         },
         {
           "texto": "and",
-          "inicio": 1.825,
+          "inicio": 1.762,
+          "fin": 1.837
+        },
+        {
+          "texto": "a",
+          "inicio": 1.863,
           "fin": 1.925
         },
         {
-          "texto": "a",
-          "inicio": 1.938,
-          "fin": 1.988
-        },
-        {
           "texto": "pause,",
-          "inicio": 2.0,
-          "fin": 2.525
+          "inicio": 1.95,
+          "fin": 2.375
         },
         {
           "texto": "and",
-          "inicio": 2.725,
-          "fin": 2.863
+          "inicio": 2.538,
+          "fin": 2.65
         },
         {
           "texto": "it",
-          "inicio": 2.875,
-          "fin": 2.975
+          "inicio": 2.675,
+          "fin": 2.75
         },
         {
           "texto": "comes",
-          "inicio": 2.987,
-          "fin": 3.262
+          "inicio": 2.775,
+          "fin": 3.0
         },
         {
           "texto": "down",
-          "inicio": 3.275,
-          "fin": 3.5
+          "inicio": 3.013,
+          "fin": 3.2
         },
         {
           "texto": "to",
-          "inicio": 3.513,
-          "fin": 3.613
+          "inicio": 3.212,
+          "fin": 3.288
         },
         {
           "texto": "one",
-          "inicio": 3.625,
-          "fin": 3.875
+          "inicio": 3.312,
+          "fin": 3.525
         },
         {
           "texto": "thing:",
-          "inicio": 3.888,
-          "fin": 4.237
+          "inicio": 3.538,
+          "fin": 3.775
         },
         {
           "texto": "whether",
-          "inicio": 4.463,
-          "fin": 4.7
+          "inicio": 3.962,
+          "fin": 4.2
         },
         {
           "texto": "there's",
-          "inicio": 4.713,
-          "fin": 4.913
+          "inicio": 4.225,
+          "fin": 4.425
         },
         {
           "texto": "a",
-          "inicio": 4.925,
-          "fin": 4.975
+          "inicio": 4.45,
+          "fin": 4.513
         },
         {
           "texto": "way",
-          "inicio": 4.987,
-          "fin": 5.162
+          "inicio": 4.537,
+          "fin": 4.675
         },
         {
           "texto": "back.",
-          "inicio": 5.175,
-          "fin": 5.65
+          "inicio": 4.7,
+          "fin": 5.088
         }
       ],
       "destacada": null,
@@ -3437,162 +3437,162 @@
       "id": "b5-ej1",
       "tipo": "ejemplo",
       "bloque": 5,
-      "inicio": 228.14,
-      "duracion": 10.536,
+      "inicio": 224.18,
+      "duracion": 10.32,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/27-b5-ej1.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "A",
           "inicio": 0.1,
-          "fin": 0.225
+          "fin": 0.238
         },
         {
           "texto": "pause",
-          "inicio": 0.237,
-          "fin": 0.525
+          "inicio": 0.263,
+          "fin": 0.562
         },
         {
           "texto": "sounds",
-          "inicio": 0.537,
-          "fin": 0.825
+          "inicio": 0.588,
+          "fin": 0.875
         },
         {
           "texto": "like",
-          "inicio": 0.838,
-          "fin": 1.025
+          "inicio": 0.9,
+          "fin": 1.1
         },
         {
           "texto": "\"I",
-          "inicio": 1.075,
-          "fin": 1.113
+          "inicio": 1.163,
+          "fin": 1.213
         },
         {
           "texto": "need",
-          "inicio": 1.125,
-          "fin": 1.312
+          "inicio": 1.238,
+          "fin": 1.45
         },
         {
           "texto": "a",
-          "inicio": 1.325,
-          "fin": 1.375
+          "inicio": 1.475,
+          "fin": 1.525
         },
         {
           "texto": "few",
-          "inicio": 1.387,
-          "fin": 1.575
+          "inicio": 1.55,
+          "fin": 1.725
         },
         {
           "texto": "minutes,",
-          "inicio": 1.587,
-          "fin": 2.075
+          "inicio": 1.738,
+          "fin": 2.1
         },
         {
           "texto": "I'll",
-          "inicio": 2.225,
-          "fin": 2.337
+          "inicio": 2.35,
+          "fin": 2.45
         },
         {
           "texto": "come",
-          "inicio": 2.35,
-          "fin": 2.562
+          "inicio": 2.475,
+          "fin": 2.65
         },
         {
           "texto": "back.\"",
-          "inicio": 2.575,
+          "inicio": 2.663,
           "fin": 3.038
         },
         {
           "texto": "Relationship",
-          "inicio": 3.9,
-          "fin": 4.612
+          "inicio": 3.913,
+          "fin": 4.575
         },
         {
           "texto": "researchers",
-          "inicio": 4.625,
-          "fin": 5.2
+          "inicio": 4.588,
+          "fin": 5.175
         },
         {
           "texto": "have",
-          "inicio": 5.213,
+          "inicio": 5.2,
           "fin": 5.338
         },
         {
           "texto": "suggested",
-          "inicio": 5.35,
-          "fin": 5.912
+          "inicio": 5.362,
+          "fin": 5.888
         },
         {
           "texto": "the",
-          "inicio": 5.925,
-          "fin": 6.013
+          "inicio": 5.912,
+          "fin": 6.012
         },
         {
           "texto": "body",
-          "inicio": 6.025,
-          "fin": 6.4
+          "inicio": 6.037,
+          "fin": 6.375
         },
         {
           "texto": "often",
-          "inicio": 6.412,
-          "fin": 6.762
+          "inicio": 6.388,
+          "fin": 6.713
         },
         {
           "texto": "needs",
-          "inicio": 6.775,
-          "fin": 7.025
+          "inicio": 6.737,
+          "fin": 6.95
         },
         {
           "texto": "around",
-          "inicio": 7.037,
-          "fin": 7.35
+          "inicio": 6.975,
+          "fin": 7.25
         },
         {
           "texto": "twenty",
-          "inicio": 7.362,
-          "fin": 7.662
+          "inicio": 7.263,
+          "fin": 7.562
         },
         {
           "texto": "minutes",
-          "inicio": 7.675,
-          "fin": 8.05
+          "inicio": 7.588,
+          "fin": 7.95
         },
         {
           "texto": "or",
-          "inicio": 8.062,
-          "fin": 8.2
+          "inicio": 7.963,
+          "fin": 8.075
         },
         {
           "texto": "more",
-          "inicio": 8.213,
-          "fin": 8.45
+          "inicio": 8.1,
+          "fin": 8.287
         },
         {
           "texto": "to",
-          "inicio": 8.463,
-          "fin": 8.55
+          "inicio": 8.312,
+          "fin": 8.4
         },
         {
           "texto": "truly",
-          "inicio": 8.562,
-          "fin": 8.925
+          "inicio": 8.412,
+          "fin": 8.75
         },
         {
           "texto": "calm",
-          "inicio": 8.938,
-          "fin": 9.2
+          "inicio": 8.775,
+          "fin": 9.025
         },
         {
           "texto": "down.",
-          "inicio": 9.213,
-          "fin": 9.662
+          "inicio": 9.05,
+          "fin": 9.425
         }
       ],
       "destacada": 21,
       "sonidos": [
         {
           "archivo": "assets/sonido/revelacion.mp3",
-          "en": 7.362
+          "en": 7.263
         }
       ]
     },
@@ -3600,114 +3600,114 @@
       "id": "b5-ej2",
       "tipo": "ejemplo",
       "bloque": 5,
-      "inicio": 239.026,
-      "duracion": 8.784,
+      "inicio": 234.85,
+      "duracion": 8.712,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/28-b5-ej2.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "A",
           "inicio": 0.1,
-          "fin": 0.225
+          "fin": 0.25
         },
         {
           "texto": "wall",
-          "inicio": 0.237,
-          "fin": 0.512
+          "inicio": 0.263,
+          "fin": 0.538
         },
         {
           "texto": "sounds",
-          "inicio": 0.525,
-          "fin": 0.825
+          "inicio": 0.562,
+          "fin": 0.887
         },
         {
           "texto": "like",
-          "inicio": 0.838,
-          "fin": 1.012
+          "inicio": 0.9,
+          "fin": 1.087
         },
         {
           "texto": "nothing",
-          "inicio": 1.025,
-          "fin": 1.412
+          "inicio": 1.1,
+          "fin": 1.45
         },
         {
           "texto": "at",
-          "inicio": 1.425,
-          "fin": 1.512
+          "inicio": 1.475,
+          "fin": 1.55
         },
         {
           "texto": "all.",
-          "inicio": 1.525,
-          "fin": 1.9
+          "inicio": 1.575,
+          "fin": 1.95
         },
         {
           "texto": "Walking",
-          "inicio": 2.763,
-          "fin": 3.2
+          "inicio": 2.825,
+          "fin": 3.225
         },
         {
           "texto": "away",
-          "inicio": 3.212,
-          "fin": 3.462
+          "inicio": 3.237,
+          "fin": 3.45
         },
         {
           "texto": "without",
           "inicio": 3.475,
-          "fin": 3.788
+          "fin": 3.812
         },
         {
           "texto": "a",
-          "inicio": 3.8,
-          "fin": 3.85
+          "inicio": 3.837,
+          "fin": 3.9
         },
         {
           "texto": "word,",
-          "inicio": 3.862,
-          "fin": 4.237
+          "inicio": 3.925,
+          "fin": 4.212
         },
         {
           "texto": "with",
-          "inicio": 4.4,
-          "fin": 4.55
+          "inicio": 4.438,
+          "fin": 4.6
         },
         {
           "texto": "no",
-          "inicio": 4.562,
-          "fin": 4.75
+          "inicio": 4.625,
+          "fin": 4.787
         },
         {
           "texto": "sign",
-          "inicio": 4.763,
-          "fin": 5.025
+          "inicio": 4.812,
+          "fin": 5.1
         },
         {
           "texto": "of",
-          "inicio": 5.037,
-          "fin": 5.137
+          "inicio": 5.125,
+          "fin": 5.225
         },
         {
           "texto": "when,",
-          "inicio": 5.15,
-          "fin": 5.5
+          "inicio": 5.25,
+          "fin": 5.525
         },
         {
           "texto": "or",
-          "inicio": 5.725,
-          "fin": 5.875
+          "inicio": 5.713,
+          "fin": 5.85
         },
         {
           "texto": "if,",
-          "inicio": 5.888,
-          "fin": 6.138
+          "inicio": 5.875,
+          "fin": 6.062
         },
         {
           "texto": "the",
           "inicio": 6.263,
-          "fin": 6.362
+          "fin": 6.375
         },
         {
           "texto": "conversation",
-          "inicio": 6.375,
+          "inicio": 6.4,
           "fin": 7.1
         },
         {
@@ -3717,8 +3717,8 @@
         },
         {
           "texto": "continue.",
-          "inicio": 7.25,
-          "fin": 7.9
+          "inicio": 7.263,
+          "fin": 7.838
         }
       ],
       "destacada": null,
@@ -3733,145 +3733,145 @@
       "id": "b5-ej3",
       "tipo": "ejemplo",
       "bloque": 5,
-      "inicio": 248.16,
-      "duracion": 10.416,
+      "inicio": 243.912,
+      "duracion": 10.536,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/29-b5-ej3.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "The",
           "inicio": 0.1,
-          "fin": 0.238
+          "fin": 0.25
         },
         {
           "texto": "silent",
-          "inicio": 0.25,
-          "fin": 0.613
+          "inicio": 0.275,
+          "fin": 0.7
         },
         {
           "texto": "treatment",
-          "inicio": 0.625,
-          "fin": 1.025
-        },
-        {
-          "texto": "is",
-          "inicio": 1.038,
+          "inicio": 0.725,
           "fin": 1.15
         },
         {
-          "texto": "something",
+          "texto": "is",
           "inicio": 1.163,
-          "fin": 1.5
+          "fin": 1.288
+        },
+        {
+          "texto": "something",
+          "inicio": 1.312,
+          "fin": 1.663
         },
         {
           "texto": "else",
-          "inicio": 1.512,
-          "fin": 1.7
+          "inicio": 1.688,
+          "fin": 1.887
         },
         {
           "texto": "entirely.",
-          "inicio": 1.712,
-          "fin": 2.475
+          "inicio": 1.913,
+          "fin": 2.588
         },
         {
           "texto": "Using",
-          "inicio": 3.337,
-          "fin": 3.712
+          "inicio": 3.475,
+          "fin": 3.863
         },
         {
           "texto": "silence",
-          "inicio": 3.725,
-          "fin": 4.175
+          "inicio": 3.888,
+          "fin": 4.338
         },
         {
           "texto": "to",
-          "inicio": 4.188,
-          "fin": 4.287
+          "inicio": 4.362,
+          "fin": 4.475
         },
         {
           "texto": "punish",
-          "inicio": 4.3,
-          "fin": 4.688
+          "inicio": 4.5,
+          "fin": 4.862
         },
         {
           "texto": "or",
-          "inicio": 4.7,
-          "fin": 4.812
+          "inicio": 4.888,
+          "fin": 5.013
         },
         {
           "texto": "control",
-          "inicio": 4.825,
-          "fin": 5.237
+          "inicio": 5.037,
+          "fin": 5.438
         },
         {
           "texto": "someone",
-          "inicio": 5.25,
-          "fin": 5.575
+          "inicio": 5.463,
+          "fin": 5.775
         },
         {
           "texto": "for",
-          "inicio": 5.588,
-          "fin": 5.75
+          "inicio": 5.8,
+          "fin": 5.95
         },
         {
           "texto": "days",
-          "inicio": 5.763,
-          "fin": 6.088
+          "inicio": 5.963,
+          "fin": 6.238
         },
         {
           "texto": "isn't",
-          "inicio": 6.1,
-          "fin": 6.375
+          "inicio": 6.263,
+          "fin": 6.538
         },
         {
           "texto": "overwhelm,",
-          "inicio": 6.388,
-          "fin": 6.987
+          "inicio": 6.562,
+          "fin": 7.112
         },
         {
           "texto": "and",
-          "inicio": 7.213,
-          "fin": 7.3
+          "inicio": 7.412,
+          "fin": 7.487
         },
         {
           "texto": "it's",
-          "inicio": 7.312,
-          "fin": 7.463
+          "inicio": 7.5,
+          "fin": 7.65
         },
         {
           "texto": "worth",
-          "inicio": 7.475,
-          "fin": 7.737
+          "inicio": 7.662,
+          "fin": 7.925
         },
         {
           "texto": "recognizing",
-          "inicio": 7.75,
-          "fin": 8.438
+          "inicio": 7.95,
+          "fin": 8.625
         },
         {
           "texto": "that",
-          "inicio": 8.45,
-          "fin": 8.587
+          "inicio": 8.65,
+          "fin": 8.775
         },
         {
           "texto": "it's",
-          "inicio": 8.6,
-          "fin": 8.737
+          "inicio": 8.787,
+          "fin": 8.9
         },
         {
           "texto": "a",
-          "inicio": 8.75,
-          "fin": 8.8
+          "inicio": 8.925,
+          "fin": 8.988
         },
         {
           "texto": "different",
-          "inicio": 8.812,
-          "fin": 9.15
+          "inicio": 9.0,
+          "fin": 9.338
         },
         {
           "texto": "thing.",
-          "inicio": 9.162,
-          "fin": 9.55
+          "inicio": 9.35,
+          "fin": 9.65
         }
       ],
       "destacada": null,
@@ -3886,135 +3886,135 @@
       "id": "b5-pago",
       "tipo": "pago",
       "bloque": 5,
-      "inicio": 258.926,
-      "duracion": 10.464,
+      "inicio": 254.798,
+      "duracion": 10.752,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/30-b5-pago.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "So",
           "inicio": 0.1,
-          "fin": 0.325
+          "fin": 0.312
         },
         {
           "texto": "silence",
           "inicio": 0.338,
-          "fin": 0.762
+          "fin": 0.812
         },
         {
           "texto": "itself",
-          "inicio": 0.775,
-          "fin": 1.163
+          "inicio": 0.838,
+          "fin": 1.25
         },
         {
           "texto": "isn't",
-          "inicio": 1.175,
-          "fin": 1.413
+          "inicio": 1.262,
+          "fin": 1.538
         },
         {
           "texto": "always",
-          "inicio": 1.425,
-          "fin": 1.75
+          "inicio": 1.55,
+          "fin": 1.95
         },
         {
           "texto": "the",
-          "inicio": 1.762,
-          "fin": 1.85
+          "inicio": 1.975,
+          "fin": 2.062
         },
         {
           "texto": "enemy.",
-          "inicio": 1.863,
-          "fin": 2.35
+          "inicio": 2.087,
+          "fin": 2.562
         },
         {
           "texto": "A",
-          "inicio": 3.212,
-          "fin": 3.337
+          "inicio": 3.45,
+          "fin": 3.588
         },
         {
           "texto": "pause",
-          "inicio": 3.35,
-          "fin": 3.638
+          "inicio": 3.612,
+          "fin": 3.938
         },
         {
           "texto": "that",
-          "inicio": 3.65,
-          "fin": 3.8
+          "inicio": 3.962,
+          "fin": 4.1
         },
         {
           "texto": "comes",
-          "inicio": 3.812,
-          "fin": 4.088
+          "inicio": 4.125,
+          "fin": 4.4
         },
         {
           "texto": "back",
-          "inicio": 4.1,
-          "fin": 4.462
+          "inicio": 4.425,
+          "fin": 4.688
         },
         {
           "texto": "can",
-          "inicio": 4.475,
-          "fin": 4.65
+          "inicio": 4.713,
+          "fin": 4.863
         },
         {
           "texto": "actually",
-          "inicio": 4.662,
-          "fin": 5.062
+          "inicio": 4.888,
+          "fin": 5.325
         },
         {
           "texto": "protect",
-          "inicio": 5.075,
-          "fin": 5.5
+          "inicio": 5.338,
+          "fin": 5.775
         },
         {
           "texto": "a",
-          "inicio": 5.513,
-          "fin": 5.562
+          "inicio": 5.8,
+          "fin": 5.862
         },
         {
           "texto": "conversation.",
-          "inicio": 5.575,
-          "fin": 6.513
+          "inicio": 5.875,
+          "fin": 6.675
         },
         {
           "texto": "It's",
-          "inicio": 7.375,
-          "fin": 7.575
+          "inicio": 7.562,
+          "fin": 7.8
         },
         {
           "texto": "the",
-          "inicio": 7.588,
-          "fin": 7.688
+          "inicio": 7.825,
+          "fin": 7.95
         },
         {
           "texto": "silence",
-          "inicio": 7.7,
-          "fin": 8.137
+          "inicio": 7.975,
+          "fin": 8.45
         },
         {
           "texto": "with",
-          "inicio": 8.15,
-          "fin": 8.287
+          "inicio": 8.463,
+          "fin": 8.625
         },
         {
           "texto": "no",
-          "inicio": 8.3,
-          "fin": 8.5
+          "inicio": 8.65,
+          "fin": 8.85
         },
         {
           "texto": "return",
-          "inicio": 8.512,
-          "fin": 8.887
+          "inicio": 8.863,
+          "fin": 9.238
         },
         {
           "texto": "that",
-          "inicio": 8.9,
-          "fin": 9.062
+          "inicio": 9.262,
+          "fin": 9.412
         },
         {
           "texto": "hurts.",
-          "inicio": 9.075,
-          "fin": 9.587
+          "inicio": 9.425,
+          "fin": 9.863
         }
       ],
       "destacada": null,
@@ -4024,120 +4024,120 @@
       "id": "b6-hook",
       "tipo": "hook",
       "bloque": 6,
-      "inicio": 270.59,
-      "duracion": 7.488,
+      "inicio": 266.75,
+      "duracion": 7.224,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/31-b6-hook.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "You",
           "inicio": 0.1,
-          "fin": 0.275
+          "fin": 0.263
         },
         {
           "texto": "think",
           "inicio": 0.287,
-          "fin": 0.5
+          "fin": 0.487
         },
         {
           "texto": "a",
-          "inicio": 0.512,
-          "fin": 0.575
+          "inicio": 0.5,
+          "fin": 0.562
         },
         {
           "texto": "quiet",
-          "inicio": 0.588,
-          "fin": 0.938
+          "inicio": 0.575,
+          "fin": 0.925
         },
         {
           "texto": "fight",
           "inicio": 0.95,
-          "fin": 1.288
+          "fin": 1.237
         },
         {
           "texto": "is",
-          "inicio": 1.3,
-          "fin": 1.413
+          "inicio": 1.25,
+          "fin": 1.375
         },
         {
           "texto": "a",
-          "inicio": 1.425,
-          "fin": 1.488
+          "inicio": 1.4,
+          "fin": 1.462
         },
         {
           "texto": "fight",
-          "inicio": 1.5,
-          "fin": 1.775
+          "inicio": 1.475,
+          "fin": 1.738
         },
         {
           "texto": "nobody",
-          "inicio": 1.788,
-          "fin": 2.15
+          "inicio": 1.762,
+          "fin": 2.175
         },
         {
           "texto": "can",
-          "inicio": 2.163,
-          "fin": 2.35
+          "inicio": 2.2,
+          "fin": 2.363
         },
         {
           "texto": "win.",
-          "inicio": 2.362,
-          "fin": 2.725
+          "inicio": 2.388,
+          "fin": 2.688
         },
         {
           "texto": "For",
-          "inicio": 3.587,
-          "fin": 3.788
+          "inicio": 3.55,
+          "fin": 3.725
         },
         {
           "texto": "a",
-          "inicio": 3.8,
-          "fin": 3.862
+          "inicio": 3.75,
+          "fin": 3.8
         },
         {
           "texto": "lot",
-          "inicio": 3.875,
-          "fin": 4.1
+          "inicio": 3.825,
+          "fin": 4.025
         },
         {
           "texto": "of",
-          "inicio": 4.112,
-          "fin": 4.2
+          "inicio": 4.037,
+          "fin": 4.125
         },
         {
           "texto": "couples,",
-          "inicio": 4.213,
-          "fin": 4.788
+          "inicio": 4.15,
+          "fin": 4.613
         },
         {
           "texto": "it's",
-          "inicio": 4.975,
-          "fin": 5.125
+          "inicio": 4.812,
+          "fin": 4.963
         },
         {
           "texto": "where",
-          "inicio": 5.138,
-          "fin": 5.288
+          "inicio": 4.987,
+          "fin": 5.175
         },
         {
           "texto": "things",
-          "inicio": 5.3,
-          "fin": 5.587
+          "inicio": 5.2,
+          "fin": 5.425
         },
         {
           "texto": "start",
-          "inicio": 5.6,
-          "fin": 5.85
+          "inicio": 5.45,
+          "fin": 5.725
         },
         {
           "texto": "to",
-          "inicio": 5.862,
-          "fin": 5.95
+          "inicio": 5.75,
+          "fin": 5.825
         },
         {
           "texto": "change.",
-          "inicio": 5.963,
-          "fin": 6.625
+          "inicio": 5.85,
+          "fin": 6.35
         }
       ],
       "destacada": null,
@@ -4152,125 +4152,125 @@
       "id": "b6-gancho2",
       "tipo": "gancho2",
       "bloque": 6,
-      "inicio": 278.428,
-      "duracion": 7.344,
+      "inicio": 274.324,
+      "duracion": 6.912,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/32-b6-gancho2.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "Couples",
           "inicio": 0.1,
-          "fin": 0.463
+          "fin": 0.475
         },
         {
           "texto": "who",
-          "inicio": 0.475,
-          "fin": 0.562
+          "inicio": 0.5,
+          "fin": 0.588
         },
         {
           "texto": "get",
-          "inicio": 0.575,
-          "fin": 0.762
+          "inicio": 0.613,
+          "fin": 0.763
         },
         {
           "texto": "through",
-          "inicio": 0.775,
-          "fin": 0.913
+          "inicio": 0.787,
+          "fin": 0.962
         },
         {
           "texto": "this",
-          "inicio": 0.925,
-          "fin": 1.125
+          "inicio": 0.988,
+          "fin": 1.163
         },
         {
           "texto": "pattern",
-          "inicio": 1.137,
-          "fin": 1.637
+          "inicio": 1.175,
+          "fin": 1.575
         },
         {
           "texto": "tend",
-          "inicio": 1.65,
+          "inicio": 1.6,
+          "fin": 1.812
+        },
+        {
+          "texto": "to",
+          "inicio": 1.837,
           "fin": 1.912
         },
         {
-          "texto": "to",
-          "inicio": 1.925,
-          "fin": 2.0
-        },
-        {
           "texto": "do",
-          "inicio": 2.013,
-          "fin": 2.163
+          "inicio": 1.938,
+          "fin": 2.075
         },
         {
           "texto": "a",
-          "inicio": 2.175,
-          "fin": 2.237
+          "inicio": 2.087,
+          "fin": 2.15
         },
         {
           "texto": "few",
-          "inicio": 2.25,
-          "fin": 2.487
+          "inicio": 2.175,
+          "fin": 2.375
         },
         {
           "texto": "small",
-          "inicio": 2.5,
-          "fin": 2.812
+          "inicio": 2.4,
+          "fin": 2.7
         },
         {
           "texto": "things",
-          "inicio": 2.825,
-          "fin": 3.113
+          "inicio": 2.725,
+          "fin": 3.038
         },
         {
           "texto": "differently,",
-          "inicio": 3.125,
-          "fin": 3.712
+          "inicio": 3.062,
+          "fin": 3.587
         },
         {
           "texto": "and",
-          "inicio": 3.962,
-          "fin": 4.112
+          "inicio": 3.837,
+          "fin": 3.975
         },
         {
           "texto": "none",
-          "inicio": 4.125,
-          "fin": 4.312
+          "inicio": 4.0,
+          "fin": 4.175
         },
         {
           "texto": "of",
-          "inicio": 4.325,
-          "fin": 4.388
+          "inicio": 4.188,
+          "fin": 4.25
         },
         {
           "texto": "them",
-          "inicio": 4.4,
-          "fin": 4.562
+          "inicio": 4.263,
+          "fin": 4.4
         },
         {
           "texto": "involve",
-          "inicio": 4.575,
-          "fin": 4.963
+          "inicio": 4.412,
+          "fin": 4.737
         },
         {
           "texto": "forcing",
-          "inicio": 4.975,
-          "fin": 5.487
+          "inicio": 4.75,
+          "fin": 5.15
         },
         {
           "texto": "anyone",
-          "inicio": 5.5,
-          "fin": 5.85
+          "inicio": 5.162,
+          "fin": 5.512
         },
         {
           "texto": "to",
-          "inicio": 5.862,
-          "fin": 5.938
+          "inicio": 5.537,
+          "fin": 5.6
         },
         {
           "texto": "talk.",
-          "inicio": 5.95,
-          "fin": 6.475
+          "inicio": 5.625,
+          "fin": 6.025
         }
       ],
       "destacada": null,
@@ -4280,110 +4280,110 @@
       "id": "b6-ej1",
       "tipo": "ejemplo",
       "bloque": 6,
-      "inicio": 286.122,
-      "duracion": 7.584,
+      "inicio": 281.586,
+      "duracion": 7.68,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/33-b6-ej1.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "They",
           "inicio": 0.1,
-          "fin": 0.263
+          "fin": 0.275
         },
         {
           "texto": "agree",
-          "inicio": 0.275,
-          "fin": 0.562
+          "inicio": 0.3,
+          "fin": 0.637
         },
         {
           "texto": "on",
-          "inicio": 0.575,
-          "fin": 0.675
+          "inicio": 0.662,
+          "fin": 0.775
         },
         {
           "texto": "a",
-          "inicio": 0.688,
-          "fin": 0.738
+          "inicio": 0.8,
+          "fin": 0.863
         },
         {
           "texto": "signal",
-          "inicio": 0.75,
-          "fin": 1.15
+          "inicio": 0.887,
+          "fin": 1.312
         },
         {
           "texto": "before",
-          "inicio": 1.163,
-          "fin": 1.475
+          "inicio": 1.337,
+          "fin": 1.662
         },
         {
           "texto": "the",
-          "inicio": 1.488,
-          "fin": 1.562
+          "inicio": 1.675,
+          "fin": 1.75
         },
         {
           "texto": "next",
-          "inicio": 1.575,
-          "fin": 1.913
+          "inicio": 1.762,
+          "fin": 2.025
         },
         {
           "texto": "fight.",
-          "inicio": 1.925,
-          "fin": 2.362
+          "inicio": 2.038,
+          "fin": 2.425
         },
         {
           "texto": "A",
-          "inicio": 3.225,
-          "fin": 3.35
+          "inicio": 3.3,
+          "fin": 3.412
         },
         {
           "texto": "simple",
-          "inicio": 3.362,
-          "fin": 3.7
+          "inicio": 3.438,
+          "fin": 3.825
         },
         {
           "texto": "word",
-          "inicio": 3.712,
-          "fin": 3.938
+          "inicio": 3.85,
+          "fin": 4.088
         },
         {
           "texto": "or",
-          "inicio": 3.95,
-          "fin": 4.062
+          "inicio": 4.112,
+          "fin": 4.2
         },
         {
           "texto": "gesture",
-          "inicio": 4.075,
-          "fin": 4.513
+          "inicio": 4.213,
+          "fin": 4.663
         },
         {
           "texto": "that",
-          "inicio": 4.525,
-          "fin": 4.688
+          "inicio": 4.688,
+          "fin": 4.825
         },
         {
           "texto": "means",
-          "inicio": 4.7,
-          "fin": 5.013
+          "inicio": 4.838,
+          "fin": 5.1
         },
         {
           "texto": "\"I'm",
-          "inicio": 5.062,
-          "fin": 5.2
+          "inicio": 5.162,
+          "fin": 5.325
         },
         {
           "texto": "overwhelmed,",
-          "inicio": 5.213,
-          "fin": 5.838
+          "inicio": 5.35,
+          "fin": 5.987
         },
         {
           "texto": "not",
-          "inicio": 5.95,
-          "fin": 6.213
+          "inicio": 6.15,
+          "fin": 6.388
         },
         {
           "texto": "leaving.\"",
-          "inicio": 6.225,
-          "fin": 6.7
+          "inicio": 6.4,
+          "fin": 6.788
         }
       ],
       "destacada": null,
@@ -4393,20 +4393,20 @@
       "id": "b6-ej2",
       "tipo": "ejemplo",
       "bloque": 6,
-      "inicio": 294.056,
-      "duracion": 8.496,
+      "inicio": 289.616,
+      "duracion": 8.256,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/34-b6-ej2.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "The",
           "inicio": 0.1,
-          "fin": 0.225
+          "fin": 0.238
         },
         {
           "texto": "one",
-          "inicio": 0.237,
-          "fin": 0.438
+          "inicio": 0.263,
+          "fin": 0.425
         },
         {
           "texto": "who",
@@ -4415,113 +4415,113 @@
         },
         {
           "texto": "steps",
-          "inicio": 0.588,
-          "fin": 0.9
+          "inicio": 0.6,
+          "fin": 0.938
         },
         {
           "texto": "away",
-          "inicio": 0.912,
-          "fin": 1.137
+          "inicio": 0.963,
+          "fin": 1.275
         },
         {
           "texto": "comes",
-          "inicio": 1.15,
-          "fin": 1.438
+          "inicio": 1.3,
+          "fin": 1.6
         },
         {
           "texto": "back.",
-          "inicio": 1.45,
-          "fin": 1.925
+          "inicio": 1.625,
+          "fin": 2.013
         },
         {
           "texto": "The",
-          "inicio": 2.788,
-          "fin": 2.9
+          "inicio": 2.875,
+          "fin": 3.0
         },
         {
           "texto": "return",
-          "inicio": 2.913,
-          "fin": 3.363
+          "inicio": 3.025,
+          "fin": 3.387
         },
         {
           "texto": "is",
-          "inicio": 3.375,
-          "fin": 3.5
+          "inicio": 3.4,
+          "fin": 3.525
         },
         {
           "texto": "what",
-          "inicio": 3.513,
-          "fin": 3.663
+          "inicio": 3.538,
+          "fin": 3.712
         },
         {
           "texto": "turns",
-          "inicio": 3.675,
-          "fin": 3.95
-        },
-        {
-          "texto": "a",
-          "inicio": 3.962,
+          "inicio": 3.737,
           "fin": 4.013
         },
         {
+          "texto": "a",
+          "inicio": 4.037,
+          "fin": 4.1
+        },
+        {
           "texto": "wall",
-          "inicio": 4.025,
-          "fin": 4.288
+          "inicio": 4.125,
+          "fin": 4.388
         },
         {
           "texto": "into",
-          "inicio": 4.3,
-          "fin": 4.513
+          "inicio": 4.412,
+          "fin": 4.625
         },
         {
           "texto": "a",
-          "inicio": 4.525,
-          "fin": 4.588
+          "inicio": 4.65,
+          "fin": 4.713
         },
         {
           "texto": "pause,",
-          "inicio": 4.6,
-          "fin": 5.137
+          "inicio": 4.737,
+          "fin": 5.15
         },
         {
           "texto": "and",
-          "inicio": 5.35,
-          "fin": 5.487
+          "inicio": 5.325,
+          "fin": 5.438
         },
         {
           "texto": "it",
-          "inicio": 5.5,
-          "fin": 5.6
+          "inicio": 5.463,
+          "fin": 5.562
         },
         {
           "texto": "builds",
-          "inicio": 5.612,
-          "fin": 5.9
+          "inicio": 5.588,
+          "fin": 5.875
         },
         {
           "texto": "trust",
-          "inicio": 5.912,
-          "fin": 6.35
+          "inicio": 5.9,
+          "fin": 6.238
         },
         {
           "texto": "every",
-          "inicio": 6.362,
-          "fin": 6.575
+          "inicio": 6.263,
+          "fin": 6.475
         },
         {
           "texto": "time",
-          "inicio": 6.588,
-          "fin": 6.85
+          "inicio": 6.5,
+          "fin": 6.737
         },
         {
           "texto": "it",
-          "inicio": 6.862,
-          "fin": 6.938
+          "inicio": 6.763,
+          "fin": 6.825
         },
         {
           "texto": "happens.",
-          "inicio": 6.95,
-          "fin": 7.612
+          "inicio": 6.85,
+          "fin": 7.375
         }
       ],
       "destacada": null,
@@ -4536,110 +4536,110 @@
       "id": "b6-ej3",
       "tipo": "ejemplo",
       "bloque": 6,
-      "inicio": 302.902,
-      "duracion": 8.448,
+      "inicio": 298.222,
+      "duracion": 8.424,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/35-b6-ej3.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "They",
           "inicio": 0.1,
-          "fin": 0.238
+          "fin": 0.25
         },
         {
           "texto": "talk",
-          "inicio": 0.25,
-          "fin": 0.525
+          "inicio": 0.275,
+          "fin": 0.538
         },
         {
           "texto": "about",
-          "inicio": 0.537,
-          "fin": 0.775
+          "inicio": 0.55,
+          "fin": 0.825
         },
         {
           "texto": "the",
-          "inicio": 0.787,
-          "fin": 0.875
+          "inicio": 0.85,
+          "fin": 0.963
         },
         {
           "texto": "fight",
-          "inicio": 0.887,
-          "fin": 1.237
+          "inicio": 0.975,
+          "fin": 1.275
         },
         {
           "texto": "after",
-          "inicio": 1.25,
-          "fin": 1.5
+          "inicio": 1.3,
+          "fin": 1.6
         },
         {
           "texto": "it's",
-          "inicio": 1.512,
-          "fin": 1.662
+          "inicio": 1.625,
+          "fin": 1.762
         },
         {
           "texto": "over.",
-          "inicio": 1.675,
-          "fin": 2.125
+          "inicio": 1.775,
+          "fin": 2.188
         },
         {
           "texto": "Once",
-          "inicio": 2.987,
-          "fin": 3.3
+          "inicio": 3.062,
+          "fin": 3.388
         },
         {
           "texto": "both",
-          "inicio": 3.312,
-          "fin": 3.513
+          "inicio": 3.4,
+          "fin": 3.663
         },
         {
           "texto": "people",
-          "inicio": 3.525,
-          "fin": 3.85
+          "inicio": 3.688,
+          "fin": 4.0
         },
         {
           "texto": "are",
-          "inicio": 3.862,
-          "fin": 3.987
+          "inicio": 4.025,
+          "fin": 4.125
         },
         {
           "texto": "calm,",
-          "inicio": 4.0,
-          "fin": 4.45
+          "inicio": 4.15,
+          "fin": 4.488
         },
         {
           "texto": "the",
-          "inicio": 4.638,
-          "fin": 4.737
+          "inicio": 4.65,
+          "fin": 4.763
         },
         {
           "texto": "same",
-          "inicio": 4.75,
-          "fin": 5.025
+          "inicio": 4.787,
+          "fin": 5.062
         },
         {
           "texto": "conversation",
-          "inicio": 5.037,
-          "fin": 5.812
+          "inicio": 5.075,
+          "fin": 5.775
         },
         {
           "texto": "often",
-          "inicio": 5.825,
-          "fin": 6.15
+          "inicio": 5.787,
+          "fin": 6.112
         },
         {
           "texto": "goes",
-          "inicio": 6.162,
-          "fin": 6.375
+          "inicio": 6.125,
+          "fin": 6.362
         },
         {
           "texto": "completely",
-          "inicio": 6.388,
-          "fin": 6.913
+          "inicio": 6.375,
+          "fin": 6.9
         },
         {
           "texto": "differently.",
           "inicio": 6.925,
-          "fin": 7.587
+          "fin": 7.55
         }
       ],
       "destacada": null,
@@ -4654,245 +4654,245 @@
       "id": "b6-pago",
       "tipo": "pago",
       "bloque": 6,
-      "inicio": 311.7,
-      "duracion": 16.2,
+      "inicio": 306.996,
+      "duracion": 16.008,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/36-b6-pago.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "So",
           "inicio": 0.1,
-          "fin": 0.312
+          "fin": 0.325
         },
         {
           "texto": "why",
-          "inicio": 0.325,
-          "fin": 0.525
+          "inicio": 0.35,
+          "fin": 0.537
         },
         {
           "texto": "does",
-          "inicio": 0.537,
-          "fin": 0.688
+          "inicio": 0.562,
+          "fin": 0.738
         },
         {
           "texto": "he",
-          "inicio": 0.7,
-          "fin": 0.775
+          "inicio": 0.762,
+          "fin": 0.862
         },
         {
           "texto": "go",
-          "inicio": 0.787,
-          "fin": 0.962
+          "inicio": 0.887,
+          "fin": 1.037
         },
         {
           "texto": "quiet?",
-          "inicio": 0.975,
-          "fin": 1.575
+          "inicio": 1.05,
+          "fin": 1.562
         },
         {
           "texto": "Often,",
-          "inicio": 2.438,
-          "fin": 2.925
+          "inicio": 2.425,
+          "fin": 2.825
         },
         {
           "texto": "because",
-          "inicio": 3.05,
-          "fin": 3.362
+          "inicio": 2.975,
+          "fin": 3.275
         },
         {
           "texto": "he's",
-          "inicio": 3.375,
-          "fin": 3.562
+          "inicio": 3.3,
+          "fin": 3.475
         },
         {
           "texto": "overwhelmed,",
-          "inicio": 3.575,
-          "fin": 4.2
+          "inicio": 3.5,
+          "fin": 4.112
         },
         {
           "texto": "not",
-          "inicio": 4.312,
-          "fin": 4.562
+          "inicio": 4.25,
+          "fin": 4.463
         },
         {
           "texto": "because",
-          "inicio": 4.575,
-          "fin": 4.888
+          "inicio": 4.475,
+          "fin": 4.775
         },
         {
           "texto": "he's",
-          "inicio": 4.9,
-          "fin": 5.062
+          "inicio": 4.8,
+          "fin": 4.975
         },
         {
           "texto": "gone.",
-          "inicio": 5.075,
-          "fin": 5.513
+          "inicio": 5.0,
+          "fin": 5.375
         },
         {
           "texto": "And",
-          "inicio": 6.375,
-          "fin": 6.55
+          "inicio": 6.263,
+          "fin": 6.438
         },
         {
           "texto": "if",
-          "inicio": 6.562,
-          "fin": 6.65
+          "inicio": 6.45,
+          "fin": 6.55
         },
         {
           "texto": "you've",
-          "inicio": 6.662,
-          "fin": 6.812
+          "inicio": 6.575,
+          "fin": 6.713
         },
         {
           "texto": "spent",
-          "inicio": 6.825,
-          "fin": 7.1
+          "inicio": 6.737,
+          "fin": 7.0
         },
         {
           "texto": "nights",
-          "inicio": 7.112,
-          "fin": 7.438
+          "inicio": 7.013,
+          "fin": 7.275
         },
         {
           "texto": "wondering",
-          "inicio": 7.45,
-          "fin": 7.875
+          "inicio": 7.3,
+          "fin": 7.712
         },
         {
           "texto": "whether",
-          "inicio": 7.888,
-          "fin": 8.162
+          "inicio": 7.725,
+          "fin": 7.975
         },
         {
           "texto": "his",
-          "inicio": 8.175,
-          "fin": 8.312
+          "inicio": 8.0,
+          "fin": 8.125
         },
         {
           "texto": "silence",
-          "inicio": 8.325,
-          "fin": 8.775
+          "inicio": 8.15,
+          "fin": 8.562
         },
         {
           "texto": "meant",
-          "inicio": 8.787,
-          "fin": 8.987
+          "inicio": 8.575,
+          "fin": 8.762
         },
         {
           "texto": "you",
-          "inicio": 9.0,
-          "fin": 9.1
+          "inicio": 8.775,
+          "fin": 8.863
         },
         {
           "texto": "didn't",
-          "inicio": 9.113,
-          "fin": 9.338
+          "inicio": 8.887,
+          "fin": 9.162
         },
         {
           "texto": "matter,",
-          "inicio": 9.35,
-          "fin": 9.787
+          "inicio": 9.175,
+          "fin": 9.525
         },
         {
           "texto": "it",
-          "inicio": 10.062,
-          "fin": 10.137
+          "inicio": 9.775,
+          "fin": 9.863
         },
         {
           "texto": "may",
-          "inicio": 10.15,
-          "fin": 10.312
+          "inicio": 9.887,
+          "fin": 10.0
         },
         {
           "texto": "simply",
-          "inicio": 10.325,
-          "fin": 10.688
+          "inicio": 10.025,
+          "fin": 10.4
         },
         {
           "texto": "have",
-          "inicio": 10.7,
-          "fin": 10.85
+          "inicio": 10.425,
+          "fin": 10.562
         },
         {
           "texto": "meant",
-          "inicio": 10.863,
-          "fin": 11.075
+          "inicio": 10.575,
+          "fin": 10.762
         },
         {
           "texto": "he",
-          "inicio": 11.088,
-          "fin": 11.188
+          "inicio": 10.775,
+          "fin": 10.863
         },
         {
           "texto": "didn't",
-          "inicio": 11.2,
-          "fin": 11.438
+          "inicio": 10.887,
+          "fin": 11.15
         },
         {
           "texto": "know",
-          "inicio": 11.45,
-          "fin": 11.587
+          "inicio": 11.162,
+          "fin": 11.287
         },
         {
           "texto": "how",
-          "inicio": 11.6,
-          "fin": 11.737
+          "inicio": 11.3,
+          "fin": 11.438
         },
         {
           "texto": "to",
-          "inicio": 11.75,
-          "fin": 11.85
+          "inicio": 11.463,
+          "fin": 11.562
         },
         {
           "texto": "stay",
-          "inicio": 11.863,
-          "fin": 12.1
+          "inicio": 11.588,
+          "fin": 11.812
         },
         {
           "texto": "in",
-          "inicio": 12.113,
-          "fin": 12.2
+          "inicio": 11.838,
+          "fin": 11.912
         },
         {
           "texto": "the",
-          "inicio": 12.213,
-          "fin": 12.3
+          "inicio": 11.938,
+          "fin": 12.037
         },
         {
           "texto": "room",
-          "inicio": 12.312,
-          "fin": 12.512
+          "inicio": 12.05,
+          "fin": 12.238
         },
         {
           "texto": "yet.",
-          "inicio": 12.525,
-          "fin": 12.9
+          "inicio": 12.262,
+          "fin": 12.537
         },
         {
           "texto": "That's",
-          "inicio": 13.762,
-          "fin": 14.05
+          "inicio": 13.412,
+          "fin": 13.7
         },
         {
           "texto": "something",
-          "inicio": 14.062,
-          "fin": 14.4
+          "inicio": 13.713,
+          "fin": 14.075
         },
         {
           "texto": "people",
-          "inicio": 14.412,
-          "fin": 14.725
+          "inicio": 14.1,
+          "fin": 14.463
         },
         {
           "texto": "can",
-          "inicio": 14.738,
-          "fin": 14.938
+          "inicio": 14.488,
+          "fin": 14.663
         },
         {
           "texto": "learn.",
-          "inicio": 14.95,
-          "fin": 15.325
+          "inicio": 14.688,
+          "fin": 15.113
         }
       ],
       "destacada": null,
@@ -4902,107 +4902,107 @@
       "id": "b6-cta",
       "tipo": "cta",
       "bloque": 6,
-      "inicio": 328.6,
-      "duracion": 6.408,
+      "inicio": 323.704,
+      "duracion": 6.504,
       "audio": "content/2026-XX-XX-silencio-en-discusiones/audio/37-b6-cta.mp3",
       "imagen": null,
       "palabras": [
         {
           "texto": "If",
           "inicio": 0.1,
-          "fin": 0.263
+          "fin": 0.287
         },
         {
           "texto": "you've",
-          "inicio": 0.275,
-          "fin": 0.425
+          "inicio": 0.312,
+          "fin": 0.475
         },
         {
           "texto": "been",
-          "inicio": 0.438,
-          "fin": 0.6
+          "inicio": 0.5,
+          "fin": 0.662
         },
         {
           "texto": "on",
-          "inicio": 0.613,
-          "fin": 0.738
+          "inicio": 0.688,
+          "fin": 0.812
         },
         {
           "texto": "either",
-          "inicio": 0.75,
-          "fin": 1.025
+          "inicio": 0.825,
+          "fin": 1.087
         },
         {
           "texto": "side",
-          "inicio": 1.038,
-          "fin": 1.3
+          "inicio": 1.113,
+          "fin": 1.363
         },
         {
           "texto": "of",
-          "inicio": 1.312,
-          "fin": 1.375
+          "inicio": 1.375,
+          "fin": 1.438
         },
         {
           "texto": "this",
-          "inicio": 1.387,
-          "fin": 1.55
+          "inicio": 1.462,
+          "fin": 1.625
         },
         {
           "texto": "silence,",
-          "inicio": 1.562,
-          "fin": 2.15
+          "inicio": 1.65,
+          "fin": 2.112
         },
         {
           "texto": "comment",
-          "inicio": 2.312,
-          "fin": 2.675
+          "inicio": 2.3,
+          "fin": 2.7
         },
         {
           "texto": "\"this",
-          "inicio": 2.688,
-          "fin": 2.862
+          "inicio": 2.725,
+          "fin": 2.9
         },
         {
           "texto": "is",
-          "inicio": 2.875,
-          "fin": 2.987
+          "inicio": 2.925,
+          "fin": 3.05
         },
         {
           "texto": "us\".",
-          "inicio": 3.0,
+          "inicio": 3.075,
           "fin": 3.413
         },
         {
           "texto": "You're",
-          "inicio": 4.275,
-          "fin": 4.45
+          "inicio": 4.3,
+          "fin": 4.537
         },
         {
           "texto": "not",
-          "inicio": 4.463,
-          "fin": 4.688
+          "inicio": 4.562,
+          "fin": 4.763
         },
         {
           "texto": "the",
-          "inicio": 4.7,
-          "fin": 4.812
+          "inicio": 4.787,
+          "fin": 4.9
         },
         {
           "texto": "only",
-          "inicio": 4.825,
-          "fin": 5.1
+          "inicio": 4.925,
+          "fin": 5.237
         },
         {
           "texto": "one.",
-          "inicio": 5.112,
-          "fin": 5.537
+          "inicio": 5.263,
+          "fin": 5.625
         }
       ],
       "destacada": null,
       "sonidos": [
         {
           "archivo": "assets/sonido/cierre.mp3",
-          "en": 6.408
+          "en": 6.504
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "duracion": 6.72,
+  "duracion": 6.888,
   "palabras": [
     {
       "texto": "Your",
@@ -8,95 +8,95 @@
     },
     {
       "texto": "instinct",
-      "inicio": 0.338,
-      "fin": 0.788
+      "inicio": 0.35,
+      "fin": 0.812
     },
     {
       "texto": "when",
-      "inicio": 0.8,
-      "fin": 0.9
+      "inicio": 0.825,
+      "fin": 0.938
     },
     {
       "texto": "he",
-      "inicio": 0.912,
-      "fin": 1.0
+      "inicio": 0.95,
+      "fin": 1.037
     },
     {
       "texto": "goes",
-      "inicio": 1.012,
-      "fin": 1.25
+      "inicio": 1.062,
+      "fin": 1.312
     },
     {
       "texto": "quiet",
-      "inicio": 1.262,
-      "fin": 1.65
+      "inicio": 1.325,
+      "fin": 1.688
     },
     {
       "texto": "is",
-      "inicio": 1.663,
-      "fin": 1.788
+      "inicio": 1.7,
+      "fin": 1.837
     },
     {
       "texto": "to",
-      "inicio": 1.8,
-      "fin": 1.9
+      "inicio": 1.863,
+      "fin": 1.975
     },
     {
       "texto": "push",
-      "inicio": 1.913,
-      "fin": 2.15
+      "inicio": 1.988,
+      "fin": 2.237
     },
     {
       "texto": "harder.",
-      "inicio": 2.163,
-      "fin": 2.663
+      "inicio": 2.263,
+      "fin": 2.713
     },
     {
       "texto": "That",
-      "inicio": 3.525,
-      "fin": 3.775
+      "inicio": 3.587,
+      "fin": 3.862
     },
     {
       "texto": "push",
-      "inicio": 3.788,
-      "fin": 4.037
+      "inicio": 3.888,
+      "fin": 4.138
     },
     {
       "texto": "is",
-      "inicio": 4.05,
-      "fin": 4.2
+      "inicio": 4.162,
+      "fin": 4.312
     },
     {
       "texto": "often",
-      "inicio": 4.213,
-      "fin": 4.55
+      "inicio": 4.338,
+      "fin": 4.688
     },
     {
       "texto": "what",
-      "inicio": 4.562,
-      "fin": 4.7
+      "inicio": 4.713,
+      "fin": 4.9
     },
     {
       "texto": "makes",
-      "inicio": 4.713,
-      "fin": 4.95
+      "inicio": 4.912,
+      "fin": 5.162
     },
     {
       "texto": "the",
-      "inicio": 4.963,
-      "fin": 5.05
-    },
-    {
-      "texto": "wall",
-      "inicio": 5.062,
+      "inicio": 5.188,
       "fin": 5.3
     },
     {
+      "texto": "wall",
+      "inicio": 5.325,
+      "fin": 5.538
+    },
+    {
       "texto": "taller.",
-      "inicio": 5.312,
-      "fin": 5.85
+      "inicio": 5.55,
+      "fin": 6.013
     }
   ],
   "texto": "Your instinct when he goes quiet is to push harder. That push is often what makes the wall taller.",
-  "voz": "en-US-JennyNeural"
+  "voz": "en-US-GuyNeural"
 }

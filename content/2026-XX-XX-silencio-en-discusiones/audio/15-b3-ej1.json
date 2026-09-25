@@ -1,132 +1,132 @@
 {
-  "duracion": 9.0,
+  "duracion": 8.952,
   "palabras": [
     {
       "texto": "Following",
       "inicio": 0.1,
-      "fin": 0.55
+      "fin": 0.65
     },
     {
       "texto": "him",
-      "inicio": 0.562,
-      "fin": 0.688
+      "inicio": 0.662,
+      "fin": 0.837
     },
     {
       "texto": "into",
-      "inicio": 0.7,
-      "fin": 0.875
+      "inicio": 0.863,
+      "fin": 1.075
     },
     {
       "texto": "the",
-      "inicio": 0.887,
-      "fin": 0.975
+      "inicio": 1.1,
+      "fin": 1.2
     },
     {
       "texto": "next",
-      "inicio": 0.988,
-      "fin": 1.337
+      "inicio": 1.212,
+      "fin": 1.5
     },
     {
       "texto": "room.",
-      "inicio": 1.35,
-      "fin": 1.725
+      "inicio": 1.525,
+      "fin": 1.825
     },
     {
       "texto": "It",
-      "inicio": 2.587,
-      "fin": 2.75
+      "inicio": 2.712,
+      "fin": 2.887
     },
     {
       "texto": "comes",
-      "inicio": 2.763,
-      "fin": 3.0
+      "inicio": 2.913,
+      "fin": 3.175
     },
     {
       "texto": "from",
-      "inicio": 3.013,
-      "fin": 3.163
+      "inicio": 3.2,
+      "fin": 3.35
     },
     {
       "texto": "wanting",
-      "inicio": 3.175,
-      "fin": 3.487
+      "inicio": 3.375,
+      "fin": 3.663
     },
     {
       "texto": "to",
-      "inicio": 3.5,
-      "fin": 3.6
+      "inicio": 3.688,
+      "fin": 3.763
     },
     {
       "texto": "fix",
-      "inicio": 3.612,
-      "fin": 3.912
+      "inicio": 3.788,
+      "fin": 4.062
     },
     {
       "texto": "things,",
-      "inicio": 3.925,
-      "fin": 4.412
+      "inicio": 4.088,
+      "fin": 4.438
     },
     {
       "texto": "but",
-      "inicio": 4.537,
-      "fin": 4.688
+      "inicio": 4.662,
+      "fin": 4.8
     },
     {
       "texto": "to",
-      "inicio": 4.7,
-      "fin": 4.788
+      "inicio": 4.825,
+      "fin": 4.913
     },
     {
       "texto": "someone",
-      "inicio": 4.8,
-      "fin": 5.125
+      "inicio": 4.925,
+      "fin": 5.263
     },
     {
       "texto": "already",
-      "inicio": 5.138,
-      "fin": 5.538
+      "inicio": 5.287,
+      "fin": 5.712
     },
     {
       "texto": "overwhelmed,",
-      "inicio": 5.55,
-      "fin": 6.162
+      "inicio": 5.737,
+      "fin": 6.287
     },
     {
       "texto": "it",
-      "inicio": 6.375,
-      "fin": 6.463
+      "inicio": 6.463,
+      "fin": 6.538
     },
     {
       "texto": "can",
-      "inicio": 6.475,
-      "fin": 6.625
+      "inicio": 6.562,
+      "fin": 6.713
     },
     {
       "texto": "feel",
-      "inicio": 6.638,
-      "fin": 6.875
+      "inicio": 6.737,
+      "fin": 6.962
     },
     {
       "texto": "like",
-      "inicio": 6.888,
-      "fin": 7.088
+      "inicio": 6.987,
+      "fin": 7.162
     },
     {
       "texto": "there's",
-      "inicio": 7.1,
-      "fin": 7.325
+      "inicio": 7.188,
+      "fin": 7.4
     },
     {
       "texto": "no",
-      "inicio": 7.338,
-      "fin": 7.5
+      "inicio": 7.425,
+      "fin": 7.612
     },
     {
       "texto": "exit.",
-      "inicio": 7.513,
-      "fin": 8.137
+      "inicio": 7.625,
+      "fin": 8.05
     }
   ],
   "texto": "Following him into the next room. It comes from wanting to fix things, but to someone already overwhelmed, it can feel like there's no exit.",
-  "voz": "en-US-JennyNeural"
+  "voz": "en-US-GuyNeural"
 }

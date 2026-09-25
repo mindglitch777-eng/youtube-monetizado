@@ -1,15 +1,15 @@
 {
-  "duracion": 8.496,
+  "duracion": 8.256,
   "palabras": [
     {
       "texto": "The",
       "inicio": 0.1,
-      "fin": 0.225
+      "fin": 0.238
     },
     {
       "texto": "one",
-      "inicio": 0.237,
-      "fin": 0.438
+      "inicio": 0.263,
+      "fin": 0.425
     },
     {
       "texto": "who",
@@ -18,115 +18,115 @@
     },
     {
       "texto": "steps",
-      "inicio": 0.588,
-      "fin": 0.9
+      "inicio": 0.6,
+      "fin": 0.938
     },
     {
       "texto": "away",
-      "inicio": 0.912,
-      "fin": 1.137
+      "inicio": 0.963,
+      "fin": 1.275
     },
     {
       "texto": "comes",
-      "inicio": 1.15,
-      "fin": 1.438
+      "inicio": 1.3,
+      "fin": 1.6
     },
     {
       "texto": "back.",
-      "inicio": 1.45,
-      "fin": 1.925
+      "inicio": 1.625,
+      "fin": 2.013
     },
     {
       "texto": "The",
-      "inicio": 2.788,
-      "fin": 2.9
+      "inicio": 2.875,
+      "fin": 3.0
     },
     {
       "texto": "return",
-      "inicio": 2.913,
-      "fin": 3.363
+      "inicio": 3.025,
+      "fin": 3.387
     },
     {
       "texto": "is",
-      "inicio": 3.375,
-      "fin": 3.5
+      "inicio": 3.4,
+      "fin": 3.525
     },
     {
       "texto": "what",
-      "inicio": 3.513,
-      "fin": 3.663
+      "inicio": 3.538,
+      "fin": 3.712
     },
     {
       "texto": "turns",
-      "inicio": 3.675,
-      "fin": 3.95
-    },
-    {
-      "texto": "a",
-      "inicio": 3.962,
+      "inicio": 3.737,
       "fin": 4.013
     },
     {
+      "texto": "a",
+      "inicio": 4.037,
+      "fin": 4.1
+    },
+    {
       "texto": "wall",
-      "inicio": 4.025,
-      "fin": 4.288
+      "inicio": 4.125,
+      "fin": 4.388
     },
     {
       "texto": "into",
-      "inicio": 4.3,
-      "fin": 4.513
+      "inicio": 4.412,
+      "fin": 4.625
     },
     {
       "texto": "a",
-      "inicio": 4.525,
-      "fin": 4.588
+      "inicio": 4.65,
+      "fin": 4.713
     },
     {
       "texto": "pause,",
-      "inicio": 4.6,
-      "fin": 5.137
+      "inicio": 4.737,
+      "fin": 5.15
     },
     {
       "texto": "and",
-      "inicio": 5.35,
-      "fin": 5.487
+      "inicio": 5.325,
+      "fin": 5.438
     },
     {
       "texto": "it",
-      "inicio": 5.5,
-      "fin": 5.6
+      "inicio": 5.463,
+      "fin": 5.562
     },
     {
       "texto": "builds",
-      "inicio": 5.612,
-      "fin": 5.9
+      "inicio": 5.588,
+      "fin": 5.875
     },
     {
       "texto": "trust",
-      "inicio": 5.912,
-      "fin": 6.35
+      "inicio": 5.9,
+      "fin": 6.238
     },
     {
       "texto": "every",
-      "inicio": 6.362,
-      "fin": 6.575
+      "inicio": 6.263,
+      "fin": 6.475
     },
     {
       "texto": "time",
-      "inicio": 6.588,
-      "fin": 6.85
+      "inicio": 6.5,
+      "fin": 6.737
     },
     {
       "texto": "it",
-      "inicio": 6.862,
-      "fin": 6.938
+      "inicio": 6.763,
+      "fin": 6.825
     },
     {
       "texto": "happens.",
-      "inicio": 6.95,
-      "fin": 7.612
+      "inicio": 6.85,
+      "fin": 7.375
     }
   ],
   "texto": "The one who steps away comes back. The return is what turns a wall into a pause, and it builds trust every time it happens.",
-  "voz": "en-US-JennyNeural"
+  "voz": "en-US-GuyNeural"
 }

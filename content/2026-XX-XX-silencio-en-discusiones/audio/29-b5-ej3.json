@@ -1,142 +1,142 @@
 {
-  "duracion": 10.416,
+  "duracion": 10.536,
   "palabras": [
     {
       "texto": "The",
       "inicio": 0.1,
-      "fin": 0.238
+      "fin": 0.25
     },
     {
       "texto": "silent",
-      "inicio": 0.25,
-      "fin": 0.613
+      "inicio": 0.275,
+      "fin": 0.7
     },
     {
       "texto": "treatment",
-      "inicio": 0.625,
-      "fin": 1.025
-    },
-    {
-      "texto": "is",
-      "inicio": 1.038,
+      "inicio": 0.725,
       "fin": 1.15
     },
     {
-      "texto": "something",
+      "texto": "is",
       "inicio": 1.163,
-      "fin": 1.5
+      "fin": 1.288
+    },
+    {
+      "texto": "something",
+      "inicio": 1.312,
+      "fin": 1.663
     },
     {
       "texto": "else",
-      "inicio": 1.512,
-      "fin": 1.7
+      "inicio": 1.688,
+      "fin": 1.887
     },
     {
       "texto": "entirely.",
-      "inicio": 1.712,
-      "fin": 2.475
+      "inicio": 1.913,
+      "fin": 2.588
     },
     {
       "texto": "Using",
-      "inicio": 3.337,
-      "fin": 3.712
+      "inicio": 3.475,
+      "fin": 3.863
     },
     {
       "texto": "silence",
-      "inicio": 3.725,
-      "fin": 4.175
+      "inicio": 3.888,
+      "fin": 4.338
     },
     {
       "texto": "to",
-      "inicio": 4.188,
-      "fin": 4.287
+      "inicio": 4.362,
+      "fin": 4.475
     },
     {
       "texto": "punish",
-      "inicio": 4.3,
-      "fin": 4.688
+      "inicio": 4.5,
+      "fin": 4.862
     },
     {
       "texto": "or",
-      "inicio": 4.7,
-      "fin": 4.812
+      "inicio": 4.888,
+      "fin": 5.013
     },
     {
       "texto": "control",
-      "inicio": 4.825,
-      "fin": 5.237
+      "inicio": 5.037,
+      "fin": 5.438
     },
     {
       "texto": "someone",
-      "inicio": 5.25,
-      "fin": 5.575
+      "inicio": 5.463,
+      "fin": 5.775
     },
     {
       "texto": "for",
-      "inicio": 5.588,
-      "fin": 5.75
+      "inicio": 5.8,
+      "fin": 5.95
     },
     {
       "texto": "days",
-      "inicio": 5.763,
-      "fin": 6.088
+      "inicio": 5.963,
+      "fin": 6.238
     },
     {
       "texto": "isn't",
-      "inicio": 6.1,
-      "fin": 6.375
+      "inicio": 6.263,
+      "fin": 6.538
     },
     {
       "texto": "overwhelm,",
-      "inicio": 6.388,
-      "fin": 6.987
+      "inicio": 6.562,
+      "fin": 7.112
     },
     {
       "texto": "and",
-      "inicio": 7.213,
-      "fin": 7.3
+      "inicio": 7.412,
+      "fin": 7.487
     },
     {
       "texto": "it's",
-      "inicio": 7.312,
-      "fin": 7.463
+      "inicio": 7.5,
+      "fin": 7.65
     },
     {
       "texto": "worth",
-      "inicio": 7.475,
-      "fin": 7.737
+      "inicio": 7.662,
+      "fin": 7.925
     },
     {
       "texto": "recognizing",
-      "inicio": 7.75,
-      "fin": 8.438
+      "inicio": 7.95,
+      "fin": 8.625
     },
     {
       "texto": "that",
-      "inicio": 8.45,
-      "fin": 8.587
+      "inicio": 8.65,
+      "fin": 8.775
     },
     {
       "texto": "it's",
-      "inicio": 8.6,
-      "fin": 8.737
+      "inicio": 8.787,
+      "fin": 8.9
     },
     {
       "texto": "a",
-      "inicio": 8.75,
-      "fin": 8.8
+      "inicio": 8.925,
+      "fin": 8.988
     },
     {
       "texto": "different",
-      "inicio": 8.812,
-      "fin": 9.15
+      "inicio": 9.0,
+      "fin": 9.338
     },
     {
       "texto": "thing.",
-      "inicio": 9.162,
-      "fin": 9.55
+      "inicio": 9.35,
+      "fin": 9.65
     }
   ],
   "texto": "The silent treatment is something else entirely. Using silence to punish or control someone for days isn't overwhelm, and it's worth recognizing that it's a different thing.",
-  "voz": "en-US-JennyNeural"
+  "voz": "en-US-GuyNeural"
 }

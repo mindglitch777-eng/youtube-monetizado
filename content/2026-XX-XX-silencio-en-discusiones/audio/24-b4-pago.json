@@ -1,127 +1,127 @@
 {
-  "duracion": 7.584,
+  "duracion": 7.656,
   "palabras": [
     {
       "texto": "That",
       "inicio": 0.1,
-      "fin": 0.363
+      "fin": 0.338
     },
     {
       "texto": "doesn't",
-      "inicio": 0.375,
-      "fin": 0.662
+      "inicio": 0.362,
+      "fin": 0.675
     },
     {
       "texto": "mean",
-      "inicio": 0.675,
-      "fin": 0.85
+      "inicio": 0.7,
+      "fin": 0.887
     },
     {
       "texto": "the",
-      "inicio": 0.863,
-      "fin": 0.95
+      "inicio": 0.912,
+      "fin": 1.025
     },
     {
       "texto": "silence",
-      "inicio": 0.963,
-      "fin": 1.413
+      "inicio": 1.038,
+      "fin": 1.488
     },
     {
       "texto": "works.",
-      "inicio": 1.425,
-      "fin": 1.975
+      "inicio": 1.512,
+      "fin": 2.0
     },
     {
       "texto": "But",
-      "inicio": 2.837,
-      "fin": 3.012
+      "inicio": 2.888,
+      "fin": 3.088
     },
     {
       "texto": "knowing",
-      "inicio": 3.025,
-      "fin": 3.312
+      "inicio": 3.1,
+      "fin": 3.388
     },
     {
       "texto": "what",
-      "inicio": 3.325,
-      "fin": 3.45
+      "inicio": 3.413,
+      "fin": 3.538
     },
     {
       "texto": "it's",
-      "inicio": 3.462,
-      "fin": 3.612
+      "inicio": 3.55,
+      "fin": 3.712
     },
     {
       "texto": "guarding",
-      "inicio": 3.625,
-      "fin": 4.025
+      "inicio": 3.737,
+      "fin": 4.112
     },
     {
       "texto": "can",
-      "inicio": 4.037,
-      "fin": 4.212
+      "inicio": 4.138,
+      "fin": 4.288
     },
     {
       "texto": "soften",
-      "inicio": 4.225,
-      "fin": 4.688
+      "inicio": 4.312,
+      "fin": 4.737
     },
     {
       "texto": "how",
-      "inicio": 4.7,
-      "fin": 4.862
+      "inicio": 4.763,
+      "fin": 4.913
     },
     {
       "texto": "it",
-      "inicio": 4.875,
-      "fin": 4.963
+      "inicio": 4.925,
+      "fin": 5.0
     },
     {
       "texto": "feels",
-      "inicio": 4.975,
-      "fin": 5.3
+      "inicio": 5.025,
+      "fin": 5.375
     },
     {
       "texto": "to",
-      "inicio": 5.312,
-      "fin": 5.4
+      "inicio": 5.4,
+      "fin": 5.488
     },
     {
       "texto": "be",
-      "inicio": 5.412,
-      "fin": 5.562
+      "inicio": 5.5,
+      "fin": 5.675
     },
     {
       "texto": "on",
-      "inicio": 5.575,
-      "fin": 5.688
+      "inicio": 5.7,
+      "fin": 5.8
     },
     {
       "texto": "the",
-      "inicio": 5.7,
-      "fin": 5.788
+      "inicio": 5.825,
+      "fin": 5.925
     },
     {
       "texto": "other",
-      "inicio": 5.8,
-      "fin": 6.025
+      "inicio": 5.95,
+      "fin": 6.175
     },
     {
       "texto": "side",
-      "inicio": 6.037,
-      "fin": 6.3
+      "inicio": 6.188,
+      "fin": 6.45
     },
     {
       "texto": "of",
-      "inicio": 6.312,
-      "fin": 6.4
+      "inicio": 6.463,
+      "fin": 6.562
     },
     {
       "texto": "it.",
-      "inicio": 6.412,
-      "fin": 6.7
+      "inicio": 6.575,
+      "fin": 6.75
     }
   ],
   "texto": "That doesn't mean the silence works. But knowing what it's guarding can soften how it feels to be on the other side of it.",
-  "voz": "en-US-JennyNeural"
+  "voz": "en-US-GuyNeural"
 }

@@ -1,142 +1,142 @@
 {
-  "duracion": 9.048,
+  "duracion": 8.856,
   "palabras": [
     {
       "texto": "Protecting",
       "inicio": 0.1,
-      "fin": 0.65
+      "fin": 0.7
     },
     {
       "texto": "you",
-      "inicio": 0.662,
-      "fin": 0.8
+      "inicio": 0.725,
+      "fin": 0.863
     },
     {
       "texto": "from",
-      "inicio": 0.812,
-      "fin": 1.0
+      "inicio": 0.887,
+      "fin": 1.113
     },
     {
       "texto": "words",
-      "inicio": 1.012,
-      "fin": 1.325
+      "inicio": 1.137,
+      "fin": 1.45
     },
     {
       "texto": "he'd",
-      "inicio": 1.337,
-      "fin": 1.5
+      "inicio": 1.475,
+      "fin": 1.663
     },
     {
       "texto": "regret.",
-      "inicio": 1.512,
-      "fin": 2.1
+      "inicio": 1.688,
+      "fin": 2.212
     },
     {
       "texto": "Some",
-      "inicio": 2.962,
-      "fin": 3.237
+      "inicio": 3.075,
+      "fin": 3.338
     },
     {
       "texto": "people",
-      "inicio": 3.25,
-      "fin": 3.538
+      "inicio": 3.35,
+      "fin": 3.625
     },
     {
       "texto": "go",
-      "inicio": 3.55,
-      "fin": 3.712
+      "inicio": 3.65,
+      "fin": 3.775
     },
     {
       "texto": "silent",
-      "inicio": 3.725,
-      "fin": 4.287
+      "inicio": 3.788,
+      "fin": 4.213
     },
     {
       "texto": "because",
-      "inicio": 4.3,
-      "fin": 4.612
+      "inicio": 4.237,
+      "fin": 4.513
     },
     {
       "texto": "they're",
-      "inicio": 4.625,
-      "fin": 4.775
+      "inicio": 4.537,
+      "fin": 4.7
     },
     {
       "texto": "afraid",
-      "inicio": 4.787,
-      "fin": 5.112
+      "inicio": 4.725,
+      "fin": 5.062
     },
     {
       "texto": "of",
-      "inicio": 5.125,
-      "fin": 5.2
+      "inicio": 5.075,
+      "fin": 5.163
     },
     {
       "texto": "what",
-      "inicio": 5.213,
-      "fin": 5.363
+      "inicio": 5.188,
+      "fin": 5.338
     },
     {
       "texto": "might",
-      "inicio": 5.375,
-      "fin": 5.6
+      "inicio": 5.362,
+      "fin": 5.562
     },
     {
       "texto": "come",
-      "inicio": 5.612,
-      "fin": 5.812
+      "inicio": 5.588,
+      "fin": 5.763
     },
     {
       "texto": "out",
-      "inicio": 5.825,
-      "fin": 6.013
+      "inicio": 5.787,
+      "fin": 5.95
     },
     {
       "texto": "if",
-      "inicio": 6.025,
-      "fin": 6.113
+      "inicio": 5.963,
+      "fin": 6.05
     },
     {
       "texto": "they",
-      "inicio": 6.125,
-      "fin": 6.237
+      "inicio": 6.075,
+      "fin": 6.213
     },
     {
       "texto": "open",
-      "inicio": 6.25,
-      "fin": 6.5
+      "inicio": 6.237,
+      "fin": 6.475
     },
     {
       "texto": "their",
-      "inicio": 6.513,
-      "fin": 6.65
+      "inicio": 6.5,
+      "fin": 6.625
     },
     {
       "texto": "mouth",
-      "inicio": 6.662,
-      "fin": 7.062
+      "inicio": 6.65,
+      "fin": 6.95
     },
     {
       "texto": "while",
-      "inicio": 7.075,
-      "fin": 7.213
+      "inicio": 6.975,
+      "fin": 7.125
     },
     {
       "texto": "they're",
-      "inicio": 7.225,
-      "fin": 7.375
+      "inicio": 7.138,
+      "fin": 7.3
     },
     {
       "texto": "this",
-      "inicio": 7.388,
-      "fin": 7.575
+      "inicio": 7.325,
+      "fin": 7.5
     },
     {
       "texto": "upset.",
-      "inicio": 7.588,
-      "fin": 8.188
+      "inicio": 7.525,
+      "fin": 7.95
     }
   ],
   "texto": "Protecting you from words he'd regret. Some people go silent because they're afraid of what might come out if they open their mouth while they're this upset.",
-  "voz": "en-US-JennyNeural"
+  "voz": "en-US-GuyNeural"
 }

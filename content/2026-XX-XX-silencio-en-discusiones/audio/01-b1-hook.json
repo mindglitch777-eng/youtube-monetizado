@@ -1,10 +1,10 @@
 {
-  "duracion": 6.264,
+  "duracion": 6.336,
   "palabras": [
     {
       "texto": "You",
       "inicio": 0.1,
-      "fin": 0.3
+      "fin": 0.287
     },
     {
       "texto": "think",
@@ -13,65 +13,65 @@
     },
     {
       "texto": "his",
-      "inicio": 0.537,
-      "fin": 0.662
+      "inicio": 0.55,
+      "fin": 0.7
     },
     {
       "texto": "silence",
-      "inicio": 0.675,
-      "fin": 1.15
+      "inicio": 0.725,
+      "fin": 1.188
     },
     {
       "texto": "means",
-      "inicio": 1.163,
-      "fin": 1.413
+      "inicio": 1.2,
+      "fin": 1.487
     },
     {
       "texto": "he",
-      "inicio": 1.425,
-      "fin": 1.512
+      "inicio": 1.512,
+      "fin": 1.637
     },
     {
       "texto": "doesn't",
-      "inicio": 1.525,
-      "fin": 1.862
+      "inicio": 1.663,
+      "fin": 2.0
     },
     {
       "texto": "care.",
-      "inicio": 1.875,
-      "fin": 2.35
+      "inicio": 2.025,
+      "fin": 2.462
     },
     {
       "texto": "Very",
-      "inicio": 3.212,
-      "fin": 3.562
+      "inicio": 3.35,
+      "fin": 3.712
     },
     {
       "texto": "often,",
-      "inicio": 3.575,
-      "fin": 4.062
+      "inicio": 3.737,
+      "fin": 4.087
     },
     {
       "texto": "it",
-      "inicio": 4.237,
-      "fin": 4.312
+      "inicio": 4.325,
+      "fin": 4.425
     },
     {
       "texto": "means",
-      "inicio": 4.325,
-      "fin": 4.575
+      "inicio": 4.45,
+      "fin": 4.725
     },
     {
       "texto": "the",
-      "inicio": 4.588,
-      "fin": 4.688
+      "inicio": 4.75,
+      "fin": 4.862
     },
     {
       "texto": "opposite.",
-      "inicio": 4.7,
-      "fin": 5.388
+      "inicio": 4.875,
+      "fin": 5.438
     }
   ],
   "texto": "You think his silence means he doesn't care. Very often, it means the opposite.",
-  "voz": "en-US-JennyNeural"
+  "voz": "en-US-GuyNeural"
 }

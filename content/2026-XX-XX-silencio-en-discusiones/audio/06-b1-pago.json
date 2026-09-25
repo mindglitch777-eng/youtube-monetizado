@@ -1,182 +1,182 @@
 {
-  "duracion": 9.696,
+  "duracion": 9.576,
   "palabras": [
     {
       "texto": "So",
       "inicio": 0.1,
-      "fin": 0.325
+      "fin": 0.312
     },
     {
       "texto": "if",
       "inicio": 0.338,
-      "fin": 0.438
+      "fin": 0.413
     },
     {
       "texto": "his",
-      "inicio": 0.45,
-      "fin": 0.6
+      "inicio": 0.425,
+      "fin": 0.562
     },
     {
       "texto": "silence",
-      "inicio": 0.613,
-      "fin": 1.05
+      "inicio": 0.588,
+      "fin": 0.988
     },
     {
       "texto": "has",
-      "inicio": 1.062,
-      "fin": 1.262
+      "inicio": 1.012,
+      "fin": 1.2
     },
     {
       "texto": "ever",
-      "inicio": 1.275,
-      "fin": 1.487
+      "inicio": 1.225,
+      "fin": 1.425
     },
     {
       "texto": "felt",
-      "inicio": 1.5,
-      "fin": 1.775
+      "inicio": 1.438,
+      "fin": 1.663
     },
     {
       "texto": "like",
-      "inicio": 1.788,
-      "fin": 1.95
+      "inicio": 1.688,
+      "fin": 1.85
     },
     {
       "texto": "a",
-      "inicio": 1.962,
-      "fin": 2.038
+      "inicio": 1.875,
+      "fin": 1.962
     },
     {
       "texto": "door",
-      "inicio": 2.05,
-      "fin": 2.3
+      "inicio": 1.988,
+      "fin": 2.2
     },
     {
       "texto": "slammed",
-      "inicio": 2.312,
-      "fin": 2.7
+      "inicio": 2.225,
+      "fin": 2.55
     },
     {
       "texto": "in",
-      "inicio": 2.712,
-      "fin": 2.788
+      "inicio": 2.575,
+      "fin": 2.65
     },
     {
       "texto": "your",
-      "inicio": 2.8,
-      "fin": 2.912
+      "inicio": 2.675,
+      "fin": 2.812
     },
     {
       "texto": "face,",
-      "inicio": 2.925,
-      "fin": 3.45
+      "inicio": 2.837,
+      "fin": 3.212
     },
     {
       "texto": "it",
-      "inicio": 3.675,
-      "fin": 3.75
+      "inicio": 3.425,
+      "fin": 3.525
     },
     {
       "texto": "may",
-      "inicio": 3.763,
-      "fin": 3.888
+      "inicio": 3.55,
+      "fin": 3.675
     },
     {
       "texto": "not",
-      "inicio": 3.9,
+      "inicio": 3.688,
+      "fin": 3.837
+    },
+    {
+      "texto": "have",
+      "inicio": 3.85,
+      "fin": 3.95
+    },
+    {
+      "texto": "been",
+      "inicio": 3.975,
       "fin": 4.125
     },
     {
-      "texto": "have",
-      "inicio": 4.138,
-      "fin": 4.237
-    },
-    {
-      "texto": "been",
-      "inicio": 4.25,
-      "fin": 4.4
-    },
-    {
       "texto": "a",
-      "inicio": 4.412,
-      "fin": 4.475
+      "inicio": 4.15,
+      "fin": 4.213
     },
     {
       "texto": "door",
-      "inicio": 4.487,
-      "fin": 4.712
+      "inicio": 4.237,
+      "fin": 4.45
     },
     {
       "texto": "at",
-      "inicio": 4.725,
-      "fin": 4.812
+      "inicio": 4.463,
+      "fin": 4.538
     },
     {
       "texto": "all.",
-      "inicio": 4.825,
-      "fin": 5.188
+      "inicio": 4.562,
+      "fin": 4.888
     },
     {
       "texto": "It",
-      "inicio": 6.05,
-      "fin": 6.188
+      "inicio": 5.775,
+      "fin": 5.963
     },
     {
       "texto": "may",
-      "inicio": 6.2,
-      "fin": 6.35
+      "inicio": 5.975,
+      "fin": 6.112
     },
     {
       "texto": "have",
-      "inicio": 6.362,
-      "fin": 6.5
+      "inicio": 6.138,
+      "fin": 6.263
     },
     {
       "texto": "been",
-      "inicio": 6.513,
-      "fin": 6.713
+      "inicio": 6.287,
+      "fin": 6.462
     },
     {
       "texto": "someone",
-      "inicio": 6.725,
-      "fin": 7.037
+      "inicio": 6.475,
+      "fin": 6.825
     },
     {
       "texto": "trying",
-      "inicio": 7.05,
-      "fin": 7.35
+      "inicio": 6.85,
+      "fin": 7.137
     },
     {
       "texto": "to",
-      "inicio": 7.362,
-      "fin": 7.45
+      "inicio": 7.15,
+      "fin": 7.238
     },
     {
       "texto": "keep",
-      "inicio": 7.463,
-      "fin": 7.7
+      "inicio": 7.263,
+      "fin": 7.487
     },
     {
       "texto": "their",
-      "inicio": 7.713,
-      "fin": 7.85
+      "inicio": 7.513,
+      "fin": 7.688
     },
     {
       "texto": "head",
-      "inicio": 7.862,
-      "fin": 8.05
+      "inicio": 7.713,
+      "fin": 7.875
     },
     {
       "texto": "above",
-      "inicio": 8.062,
-      "fin": 8.338
+      "inicio": 7.9,
+      "fin": 8.2
     },
     {
       "texto": "water.",
-      "inicio": 8.35,
-      "fin": 8.825
+      "inicio": 8.225,
+      "fin": 8.675
     }
   ],
   "texto": "So if his silence has ever felt like a door slammed in your face, it may not have been a door at all. It may have been someone trying to keep their head above water.",
-  "voz": "en-US-JennyNeural"
+  "voz": "en-US-GuyNeural"
 }

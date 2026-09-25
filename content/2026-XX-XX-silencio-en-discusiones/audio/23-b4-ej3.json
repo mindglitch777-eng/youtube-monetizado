@@ -1,122 +1,122 @@
 {
-  "duracion": 9.0,
+  "duracion": 8.64,
   "palabras": [
     {
       "texto": "Protecting",
       "inicio": 0.1,
-      "fin": 0.637
+      "fin": 0.713
     },
     {
       "texto": "the",
-      "inicio": 0.65,
-      "fin": 0.738
+      "inicio": 0.738,
+      "fin": 0.838
     },
     {
       "texto": "relationship.",
-      "inicio": 0.75,
-      "fin": 1.637
+      "inicio": 0.85,
+      "fin": 1.675
     },
     {
       "texto": "Strange",
-      "inicio": 2.5,
-      "fin": 2.925
+      "inicio": 2.538,
+      "fin": 2.975
     },
     {
       "texto": "as",
-      "inicio": 2.938,
-      "fin": 3.038
+      "inicio": 2.987,
+      "fin": 3.1
     },
     {
       "texto": "it",
-      "inicio": 3.05,
-      "fin": 3.175
+      "inicio": 3.125,
+      "fin": 3.2
     },
     {
       "texto": "sounds,",
-      "inicio": 3.188,
-      "fin": 3.7
+      "inicio": 3.225,
+      "fin": 3.663
     },
     {
       "texto": "some",
-      "inicio": 3.837,
-      "fin": 4.075
+      "inicio": 3.85,
+      "fin": 4.037
     },
     {
       "texto": "people",
-      "inicio": 4.088,
-      "fin": 4.375
+      "inicio": 4.05,
+      "fin": 4.337
     },
     {
       "texto": "stay",
-      "inicio": 4.388,
-      "fin": 4.6
+      "inicio": 4.362,
+      "fin": 4.55
     },
     {
       "texto": "quiet",
-      "inicio": 4.612,
-      "fin": 5.087
+      "inicio": 4.562,
+      "fin": 4.912
     },
     {
       "texto": "because",
-      "inicio": 5.1,
-      "fin": 5.4
+      "inicio": 4.925,
+      "fin": 5.225
     },
     {
       "texto": "they",
-      "inicio": 5.412,
-      "fin": 5.525
+      "inicio": 5.25,
+      "fin": 5.362
     },
     {
       "texto": "believe",
-      "inicio": 5.537,
-      "fin": 5.875
+      "inicio": 5.388,
+      "fin": 5.75
     },
     {
       "texto": "that's",
-      "inicio": 5.888,
-      "fin": 6.1
+      "inicio": 5.775,
+      "fin": 5.938
     },
     {
       "texto": "how",
-      "inicio": 6.112,
-      "fin": 6.2
+      "inicio": 5.963,
+      "fin": 6.062
     },
     {
       "texto": "you",
-      "inicio": 6.213,
-      "fin": 6.363
+      "inicio": 6.088,
+      "fin": 6.225
     },
     {
       "texto": "keep",
-      "inicio": 6.375,
-      "fin": 6.6
+      "inicio": 6.25,
+      "fin": 6.425
     },
     {
       "texto": "a",
-      "inicio": 6.612,
-      "fin": 6.688
+      "inicio": 6.438,
+      "fin": 6.5
     },
     {
       "texto": "fight",
-      "inicio": 6.7,
-      "fin": 7.013
+      "inicio": 6.513,
+      "fin": 6.75
     },
     {
       "texto": "from",
-      "inicio": 7.025,
-      "fin": 7.188
+      "inicio": 6.763,
+      "fin": 6.925
     },
     {
       "texto": "breaking",
-      "inicio": 7.2,
-      "fin": 7.575
+      "inicio": 6.938,
+      "fin": 7.312
     },
     {
       "texto": "something.",
-      "inicio": 7.588,
-      "fin": 8.125
+      "inicio": 7.338,
+      "fin": 7.75
     }
   ],
   "texto": "Protecting the relationship. Strange as it sounds, some people stay quiet because they believe that's how you keep a fight from breaking something.",
-  "voz": "en-US-JennyNeural"
+  "voz": "en-US-GuyNeural"
 }

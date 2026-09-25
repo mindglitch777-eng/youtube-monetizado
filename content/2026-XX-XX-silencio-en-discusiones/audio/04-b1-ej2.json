@@ -1,132 +1,132 @@
 {
-  "duracion": 8.76,
+  "duracion": 8.544,
   "palabras": [
     {
       "texto": "The",
       "inicio": 0.1,
-      "fin": 0.225
+      "fin": 0.238
     },
     {
       "texto": "words",
-      "inicio": 0.237,
-      "fin": 0.537
+      "inicio": 0.263,
+      "fin": 0.588
     },
     {
       "texto": "just",
-      "inicio": 0.55,
-      "fin": 0.8
+      "inicio": 0.613,
+      "fin": 0.875
     },
     {
       "texto": "disappear.",
-      "inicio": 0.812,
-      "fin": 1.55
+      "inicio": 0.9,
+      "fin": 1.638
     },
     {
       "texto": "He",
-      "inicio": 2.413,
-      "fin": 2.575
+      "inicio": 2.513,
+      "fin": 2.663
     },
     {
       "texto": "might",
-      "inicio": 2.587,
-      "fin": 2.812
+      "inicio": 2.675,
+      "fin": 2.9
     },
     {
       "texto": "know",
-      "inicio": 2.825,
-      "fin": 3.013
+      "inicio": 2.925,
+      "fin": 3.075
     },
     {
       "texto": "exactly",
-      "inicio": 3.025,
-      "fin": 3.537
+      "inicio": 3.087,
+      "fin": 3.587
     },
     {
       "texto": "what",
-      "inicio": 3.55,
-      "fin": 3.7
+      "inicio": 3.612,
+      "fin": 3.737
     },
     {
       "texto": "he",
-      "inicio": 3.712,
-      "fin": 3.812
+      "inicio": 3.75,
+      "fin": 3.85
     },
     {
       "texto": "feels,",
-      "inicio": 3.825,
-      "fin": 4.362
+      "inicio": 3.875,
+      "fin": 4.287
     },
     {
       "texto": "and",
-      "inicio": 4.55,
-      "fin": 4.712
+      "inicio": 4.475,
+      "fin": 4.587
     },
     {
       "texto": "still",
-      "inicio": 4.725,
-      "fin": 4.95
+      "inicio": 4.612,
+      "fin": 4.862
     },
     {
       "texto": "be",
-      "inicio": 4.963,
-      "fin": 5.113
+      "inicio": 4.875,
+      "fin": 5.025
     },
     {
       "texto": "unable",
-      "inicio": 5.125,
-      "fin": 5.5
+      "inicio": 5.037,
+      "fin": 5.4
     },
     {
       "texto": "to",
-      "inicio": 5.513,
-      "fin": 5.6
+      "inicio": 5.412,
+      "fin": 5.487
     },
     {
       "texto": "find",
-      "inicio": 5.612,
-      "fin": 5.875
+      "inicio": 5.5,
+      "fin": 5.763
     },
     {
       "texto": "a",
-      "inicio": 5.888,
-      "fin": 5.938
+      "inicio": 5.787,
+      "fin": 5.837
     },
     {
       "texto": "single",
-      "inicio": 5.95,
-      "fin": 6.288
+      "inicio": 5.85,
+      "fin": 6.188
     },
     {
       "texto": "sentence",
-      "inicio": 6.3,
-      "fin": 6.787
+      "inicio": 6.213,
+      "fin": 6.638
     },
     {
       "texto": "for",
-      "inicio": 6.8,
-      "fin": 6.95
+      "inicio": 6.662,
+      "fin": 6.837
     },
     {
       "texto": "it",
-      "inicio": 6.963,
-      "fin": 7.05
+      "inicio": 6.85,
+      "fin": 6.925
     },
     {
       "texto": "in",
-      "inicio": 7.062,
-      "fin": 7.162
+      "inicio": 6.95,
+      "fin": 7.013
     },
     {
       "texto": "that",
-      "inicio": 7.175,
-      "fin": 7.362
+      "inicio": 7.037,
+      "fin": 7.188
     },
     {
       "texto": "moment.",
-      "inicio": 7.375,
-      "fin": 7.888
+      "inicio": 7.2,
+      "fin": 7.65
     }
   ],
   "texto": "The words just disappear. He might know exactly what he feels, and still be unable to find a single sentence for it in that moment.",
-  "voz": "en-US-JennyNeural"
+  "voz": "en-US-GuyNeural"
 }

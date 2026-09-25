@@ -1,132 +1,132 @@
 {
-  "duracion": 10.464,
+  "duracion": 10.752,
   "palabras": [
     {
       "texto": "So",
       "inicio": 0.1,
-      "fin": 0.325
+      "fin": 0.312
     },
     {
       "texto": "silence",
       "inicio": 0.338,
-      "fin": 0.762
+      "fin": 0.812
     },
     {
       "texto": "itself",
-      "inicio": 0.775,
-      "fin": 1.163
+      "inicio": 0.838,
+      "fin": 1.25
     },
     {
       "texto": "isn't",
-      "inicio": 1.175,
-      "fin": 1.413
+      "inicio": 1.262,
+      "fin": 1.538
     },
     {
       "texto": "always",
-      "inicio": 1.425,
-      "fin": 1.75
+      "inicio": 1.55,
+      "fin": 1.95
     },
     {
       "texto": "the",
-      "inicio": 1.762,
-      "fin": 1.85
+      "inicio": 1.975,
+      "fin": 2.062
     },
     {
       "texto": "enemy.",
-      "inicio": 1.863,
-      "fin": 2.35
+      "inicio": 2.087,
+      "fin": 2.562
     },
     {
       "texto": "A",
-      "inicio": 3.212,
-      "fin": 3.337
+      "inicio": 3.45,
+      "fin": 3.588
     },
     {
       "texto": "pause",
-      "inicio": 3.35,
-      "fin": 3.638
+      "inicio": 3.612,
+      "fin": 3.938
     },
     {
       "texto": "that",
-      "inicio": 3.65,
-      "fin": 3.8
+      "inicio": 3.962,
+      "fin": 4.1
     },
     {
       "texto": "comes",
-      "inicio": 3.812,
-      "fin": 4.088
+      "inicio": 4.125,
+      "fin": 4.4
     },
     {
       "texto": "back",
-      "inicio": 4.1,
-      "fin": 4.462
+      "inicio": 4.425,
+      "fin": 4.688
     },
     {
       "texto": "can",
-      "inicio": 4.475,
-      "fin": 4.65
+      "inicio": 4.713,
+      "fin": 4.863
     },
     {
       "texto": "actually",
-      "inicio": 4.662,
-      "fin": 5.062
+      "inicio": 4.888,
+      "fin": 5.325
     },
     {
       "texto": "protect",
-      "inicio": 5.075,
-      "fin": 5.5
+      "inicio": 5.338,
+      "fin": 5.775
     },
     {
       "texto": "a",
-      "inicio": 5.513,
-      "fin": 5.562
+      "inicio": 5.8,
+      "fin": 5.862
     },
     {
       "texto": "conversation.",
-      "inicio": 5.575,
-      "fin": 6.513
+      "inicio": 5.875,
+      "fin": 6.675
     },
     {
       "texto": "It's",
-      "inicio": 7.375,
-      "fin": 7.575
+      "inicio": 7.562,
+      "fin": 7.8
     },
     {
       "texto": "the",
-      "inicio": 7.588,
-      "fin": 7.688
+      "inicio": 7.825,
+      "fin": 7.95
     },
     {
       "texto": "silence",
-      "inicio": 7.7,
-      "fin": 8.137
+      "inicio": 7.975,
+      "fin": 8.45
     },
     {
       "texto": "with",
-      "inicio": 8.15,
-      "fin": 8.287
+      "inicio": 8.463,
+      "fin": 8.625
     },
     {
       "texto": "no",
-      "inicio": 8.3,
-      "fin": 8.5
+      "inicio": 8.65,
+      "fin": 8.85
     },
     {
       "texto": "return",
-      "inicio": 8.512,
-      "fin": 8.887
+      "inicio": 8.863,
+      "fin": 9.238
     },
     {
       "texto": "that",
-      "inicio": 8.9,
-      "fin": 9.062
+      "inicio": 9.262,
+      "fin": 9.412
     },
     {
       "texto": "hurts.",
-      "inicio": 9.075,
-      "fin": 9.587
+      "inicio": 9.425,
+      "fin": 9.863
     }
   ],
   "texto": "So silence itself isn't always the enemy. A pause that comes back can actually protect a conversation. It's the silence with no return that hurts.",
-  "voz": "en-US-JennyNeural"
+  "voz": "en-US-GuyNeural"
 }

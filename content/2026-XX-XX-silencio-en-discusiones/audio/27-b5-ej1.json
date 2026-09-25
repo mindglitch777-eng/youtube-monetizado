@@ -1,152 +1,152 @@
 {
-  "duracion": 10.536,
+  "duracion": 10.32,
   "palabras": [
     {
       "texto": "A",
       "inicio": 0.1,
-      "fin": 0.225
+      "fin": 0.238
     },
     {
       "texto": "pause",
-      "inicio": 0.237,
-      "fin": 0.525
+      "inicio": 0.263,
+      "fin": 0.562
     },
     {
       "texto": "sounds",
-      "inicio": 0.537,
-      "fin": 0.825
+      "inicio": 0.588,
+      "fin": 0.875
     },
     {
       "texto": "like",
-      "inicio": 0.838,
-      "fin": 1.025
+      "inicio": 0.9,
+      "fin": 1.1
     },
     {
       "texto": "\"I",
-      "inicio": 1.075,
-      "fin": 1.113
+      "inicio": 1.163,
+      "fin": 1.213
     },
     {
       "texto": "need",
-      "inicio": 1.125,
-      "fin": 1.312
+      "inicio": 1.238,
+      "fin": 1.45
     },
     {
       "texto": "a",
-      "inicio": 1.325,
-      "fin": 1.375
+      "inicio": 1.475,
+      "fin": 1.525
     },
     {
       "texto": "few",
-      "inicio": 1.387,
-      "fin": 1.575
+      "inicio": 1.55,
+      "fin": 1.725
     },
     {
       "texto": "minutes,",
-      "inicio": 1.587,
-      "fin": 2.075
+      "inicio": 1.738,
+      "fin": 2.1
     },
     {
       "texto": "I'll",
-      "inicio": 2.225,
-      "fin": 2.337
+      "inicio": 2.35,
+      "fin": 2.45
     },
     {
       "texto": "come",
-      "inicio": 2.35,
-      "fin": 2.562
+      "inicio": 2.475,
+      "fin": 2.65
     },
     {
       "texto": "back.\"",
-      "inicio": 2.575,
+      "inicio": 2.663,
       "fin": 3.038
     },
     {
       "texto": "Relationship",
-      "inicio": 3.9,
-      "fin": 4.612
+      "inicio": 3.913,
+      "fin": 4.575
     },
     {
       "texto": "researchers",
-      "inicio": 4.625,
-      "fin": 5.2
+      "inicio": 4.588,
+      "fin": 5.175
     },
     {
       "texto": "have",
-      "inicio": 5.213,
+      "inicio": 5.2,
       "fin": 5.338
     },
     {
       "texto": "suggested",
-      "inicio": 5.35,
-      "fin": 5.912
+      "inicio": 5.362,
+      "fin": 5.888
     },
     {
       "texto": "the",
-      "inicio": 5.925,
-      "fin": 6.013
+      "inicio": 5.912,
+      "fin": 6.012
     },
     {
       "texto": "body",
-      "inicio": 6.025,
-      "fin": 6.4
+      "inicio": 6.037,
+      "fin": 6.375
     },
     {
       "texto": "often",
-      "inicio": 6.412,
-      "fin": 6.762
+      "inicio": 6.388,
+      "fin": 6.713
     },
     {
       "texto": "needs",
-      "inicio": 6.775,
-      "fin": 7.025
+      "inicio": 6.737,
+      "fin": 6.95
     },
     {
       "texto": "around",
-      "inicio": 7.037,
-      "fin": 7.35
+      "inicio": 6.975,
+      "fin": 7.25
     },
     {
       "texto": "twenty",
-      "inicio": 7.362,
-      "fin": 7.662
+      "inicio": 7.263,
+      "fin": 7.562
     },
     {
       "texto": "minutes",
-      "inicio": 7.675,
-      "fin": 8.05
+      "inicio": 7.588,
+      "fin": 7.95
     },
     {
       "texto": "or",
-      "inicio": 8.062,
-      "fin": 8.2
+      "inicio": 7.963,
+      "fin": 8.075
     },
     {
       "texto": "more",
-      "inicio": 8.213,
-      "fin": 8.45
+      "inicio": 8.1,
+      "fin": 8.287
     },
     {
       "texto": "to",
-      "inicio": 8.463,
-      "fin": 8.55
+      "inicio": 8.312,
+      "fin": 8.4
     },
     {
       "texto": "truly",
-      "inicio": 8.562,
-      "fin": 8.925
+      "inicio": 8.412,
+      "fin": 8.75
     },
     {
       "texto": "calm",
-      "inicio": 8.938,
-      "fin": 9.2
+      "inicio": 8.775,
+      "fin": 9.025
     },
     {
       "texto": "down.",
-      "inicio": 9.213,
-      "fin": 9.662
+      "inicio": 9.05,
+      "fin": 9.425
     }
   ],
   "texto": "A pause sounds like \"I need a few minutes, I'll come back.\" Relationship researchers have suggested the body often needs around twenty minutes or more to truly calm down.",
-  "voz": "en-US-JennyNeural"
+  "voz": "en-US-GuyNeural"
 }

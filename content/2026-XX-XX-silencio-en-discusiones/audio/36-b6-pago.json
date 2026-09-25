@@ -1,242 +1,242 @@
 {
-  "duracion": 16.2,
+  "duracion": 16.008,
   "palabras": [
     {
       "texto": "So",
       "inicio": 0.1,
-      "fin": 0.312
+      "fin": 0.325
     },
     {
       "texto": "why",
-      "inicio": 0.325,
-      "fin": 0.525
+      "inicio": 0.35,
+      "fin": 0.537
     },
     {
       "texto": "does",
-      "inicio": 0.537,
-      "fin": 0.688
+      "inicio": 0.562,
+      "fin": 0.738
     },
     {
       "texto": "he",
-      "inicio": 0.7,
-      "fin": 0.775
+      "inicio": 0.762,
+      "fin": 0.862
     },
     {
       "texto": "go",
-      "inicio": 0.787,
-      "fin": 0.962
+      "inicio": 0.887,
+      "fin": 1.037
     },
     {
       "texto": "quiet?",
-      "inicio": 0.975,
-      "fin": 1.575
+      "inicio": 1.05,
+      "fin": 1.562
     },
     {
       "texto": "Often,",
-      "inicio": 2.438,
-      "fin": 2.925
+      "inicio": 2.425,
+      "fin": 2.825
     },
     {
       "texto": "because",
-      "inicio": 3.05,
-      "fin": 3.362
+      "inicio": 2.975,
+      "fin": 3.275
     },
     {
       "texto": "he's",
-      "inicio": 3.375,
-      "fin": 3.562
+      "inicio": 3.3,
+      "fin": 3.475
     },
     {
       "texto": "overwhelmed,",
-      "inicio": 3.575,
-      "fin": 4.2
+      "inicio": 3.5,
+      "fin": 4.112
     },
     {
       "texto": "not",
-      "inicio": 4.312,
-      "fin": 4.562
+      "inicio": 4.25,
+      "fin": 4.463
     },
     {
       "texto": "because",
-      "inicio": 4.575,
-      "fin": 4.888
+      "inicio": 4.475,
+      "fin": 4.775
     },
     {
       "texto": "he's",
-      "inicio": 4.9,
-      "fin": 5.062
+      "inicio": 4.8,
+      "fin": 4.975
     },
     {
       "texto": "gone.",
-      "inicio": 5.075,
-      "fin": 5.513
+      "inicio": 5.0,
+      "fin": 5.375
     },
     {
       "texto": "And",
-      "inicio": 6.375,
-      "fin": 6.55
+      "inicio": 6.263,
+      "fin": 6.438
     },
     {
       "texto": "if",
-      "inicio": 6.562,
-      "fin": 6.65
+      "inicio": 6.45,
+      "fin": 6.55
     },
     {
       "texto": "you've",
-      "inicio": 6.662,
-      "fin": 6.812
+      "inicio": 6.575,
+      "fin": 6.713
     },
     {
       "texto": "spent",
-      "inicio": 6.825,
-      "fin": 7.1
+      "inicio": 6.737,
+      "fin": 7.0
     },
     {
       "texto": "nights",
-      "inicio": 7.112,
-      "fin": 7.438
+      "inicio": 7.013,
+      "fin": 7.275
     },
     {
       "texto": "wondering",
-      "inicio": 7.45,
-      "fin": 7.875
+      "inicio": 7.3,
+      "fin": 7.712
     },
     {
       "texto": "whether",
-      "inicio": 7.888,
-      "fin": 8.162
+      "inicio": 7.725,
+      "fin": 7.975
     },
     {
       "texto": "his",
-      "inicio": 8.175,
-      "fin": 8.312
+      "inicio": 8.0,
+      "fin": 8.125
     },
     {
       "texto": "silence",
-      "inicio": 8.325,
-      "fin": 8.775
+      "inicio": 8.15,
+      "fin": 8.562
     },
     {
       "texto": "meant",
-      "inicio": 8.787,
-      "fin": 8.987
+      "inicio": 8.575,
+      "fin": 8.762
     },
     {
       "texto": "you",
-      "inicio": 9.0,
-      "fin": 9.1
+      "inicio": 8.775,
+      "fin": 8.863
     },
     {
       "texto": "didn't",
-      "inicio": 9.113,
-      "fin": 9.338
+      "inicio": 8.887,
+      "fin": 9.162
     },
     {
       "texto": "matter,",
-      "inicio": 9.35,
-      "fin": 9.787
+      "inicio": 9.175,
+      "fin": 9.525
     },
     {
       "texto": "it",
-      "inicio": 10.062,
-      "fin": 10.137
+      "inicio": 9.775,
+      "fin": 9.863
     },
     {
       "texto": "may",
-      "inicio": 10.15,
-      "fin": 10.312
+      "inicio": 9.887,
+      "fin": 10.0
     },
     {
       "texto": "simply",
-      "inicio": 10.325,
-      "fin": 10.688
+      "inicio": 10.025,
+      "fin": 10.4
     },
     {
       "texto": "have",
-      "inicio": 10.7,
-      "fin": 10.85
+      "inicio": 10.425,
+      "fin": 10.562
     },
     {
       "texto": "meant",
-      "inicio": 10.863,
-      "fin": 11.075
+      "inicio": 10.575,
+      "fin": 10.762
     },
     {
       "texto": "he",
-      "inicio": 11.088,
-      "fin": 11.188
+      "inicio": 10.775,
+      "fin": 10.863
     },
     {
       "texto": "didn't",
-      "inicio": 11.2,
-      "fin": 11.438
+      "inicio": 10.887,
+      "fin": 11.15
     },
     {
       "texto": "know",
-      "inicio": 11.45,
-      "fin": 11.587
+      "inicio": 11.162,
+      "fin": 11.287
     },
     {
       "texto": "how",
-      "inicio": 11.6,
-      "fin": 11.737
+      "inicio": 11.3,
+      "fin": 11.438
     },
     {
       "texto": "to",
-      "inicio": 11.75,
-      "fin": 11.85
+      "inicio": 11.463,
+      "fin": 11.562
     },
     {
       "texto": "stay",
-      "inicio": 11.863,
-      "fin": 12.1
+      "inicio": 11.588,
+      "fin": 11.812
     },
     {
       "texto": "in",
-      "inicio": 12.113,
-      "fin": 12.2
+      "inicio": 11.838,
+      "fin": 11.912
     },
     {
       "texto": "the",
-      "inicio": 12.213,
-      "fin": 12.3
+      "inicio": 11.938,
+      "fin": 12.037
     },
     {
       "texto": "room",
-      "inicio": 12.312,
-      "fin": 12.512
+      "inicio": 12.05,
+      "fin": 12.238
     },
     {
       "texto": "yet.",
-      "inicio": 12.525,
-      "fin": 12.9
+      "inicio": 12.262,
+      "fin": 12.537
     },
     {
       "texto": "That's",
-      "inicio": 13.762,
-      "fin": 14.05
+      "inicio": 13.412,
+      "fin": 13.7
     },
     {
       "texto": "something",
-      "inicio": 14.062,
-      "fin": 14.4
+      "inicio": 13.713,
+      "fin": 14.075
     },
     {
       "texto": "people",
-      "inicio": 14.412,
-      "fin": 14.725
+      "inicio": 14.1,
+      "fin": 14.463
     },
     {
       "texto": "can",
-      "inicio": 14.738,
-      "fin": 14.938
+      "inicio": 14.488,
+      "fin": 14.663
     },
     {
       "texto": "learn.",
-      "inicio": 14.95,
-      "fin": 15.325
+      "inicio": 14.688,
+      "fin": 15.113
     }
   ],
   "texto": "So why does he go quiet? Often, because he's overwhelmed, not because he's gone. And if you've spent nights wondering whether his silence meant you didn't matter, it may simply have meant he didn't know how to stay in the room yet. That's something people can learn.",
-  "voz": "en-US-JennyNeural"
+  "voz": "en-US-GuyNeural"
 }
