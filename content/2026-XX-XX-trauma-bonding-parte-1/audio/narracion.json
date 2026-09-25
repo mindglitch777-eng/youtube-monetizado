@@ -1,553 +1,553 @@
 {
-  "duracion": 45.816,
+  "duracion": 46.44,
   "palabras": [
     {
       "texto": "This",
       "inicio": 0.1,
-      "fin": 0.363,
+      "fin": 0.45,
       "linea": 1
     },
     {
       "texto": "will",
-      "inicio": 0.375,
-      "fin": 0.512,
+      "inicio": 0.463,
+      "fin": 0.713,
       "linea": 1
     },
     {
       "texto": "hurt.",
-      "inicio": 0.525,
-      "fin": 0.975,
+      "inicio": 0.738,
+      "fin": 1.2,
       "linea": 1
     },
     {
       "texto": "Because",
-      "inicio": 1.837,
-      "fin": 2.188,
+      "inicio": 2.075,
+      "fin": 2.438,
       "linea": 1
     },
     {
       "texto": "it's",
-      "inicio": 2.2,
-      "fin": 2.35,
+      "inicio": 2.462,
+      "fin": 2.6,
       "linea": 1
     },
     {
       "texto": "about",
-      "inicio": 2.362,
-      "fin": 2.65,
+      "inicio": 2.612,
+      "fin": 2.938,
       "linea": 1
     },
     {
       "texto": "you.",
-      "inicio": 2.663,
-      "fin": 3.013,
+      "inicio": 2.962,
+      "fin": 3.275,
       "linea": 1
     },
     {
       "texto": "You",
-      "inicio": 3.875,
-      "fin": 4.037,
-      "linea": 2
-    },
-    {
-      "texto": "know",
-      "inicio": 4.05,
-      "fin": 4.188,
-      "linea": 2
-    },
-    {
-      "texto": "it's",
-      "inicio": 4.2,
+      "inicio": 4.15,
       "fin": 4.35,
       "linea": 2
     },
     {
-      "texto": "destroying",
+      "texto": "know",
       "inicio": 4.362,
-      "fin": 4.862,
+      "fin": 4.587,
+      "linea": 2
+    },
+    {
+      "texto": "it's",
+      "inicio": 4.6,
+      "fin": 4.762,
+      "linea": 2
+    },
+    {
+      "texto": "destroying",
+      "inicio": 4.775,
+      "fin": 5.35,
       "linea": 2
     },
     {
       "texto": "you.",
-      "inicio": 4.875,
-      "fin": 5.188,
+      "inicio": 5.375,
+      "fin": 5.625,
       "linea": 2
     },
     {
       "texto": "And",
-      "inicio": 6.05,
-      "fin": 6.237,
+      "inicio": 6.487,
+      "fin": 6.675,
       "linea": 3
     },
     {
       "texto": "still,",
-      "inicio": 6.25,
-      "fin": 6.725,
+      "inicio": 6.688,
+      "fin": 7.112,
       "linea": 3
     },
     {
       "texto": "you",
-      "inicio": 6.825,
-      "fin": 6.925,
+      "inicio": 7.287,
+      "fin": 7.387,
       "linea": 3
     },
     {
       "texto": "can't",
-      "inicio": 6.938,
-      "fin": 7.2,
+      "inicio": 7.412,
+      "fin": 7.662,
       "linea": 3
     },
     {
       "texto": "stop.",
-      "inicio": 7.213,
-      "fin": 7.688,
+      "inicio": 7.688,
+      "fin": 8.137,
       "linea": 3
     },
     {
       "texto": "This",
-      "inicio": 8.55,
-      "fin": 8.8,
+      "inicio": 9.0,
+      "fin": 9.287,
       "linea": 4
     },
     {
       "texto": "isn't",
-      "inicio": 8.812,
-      "fin": 9.088,
+      "inicio": 9.3,
+      "fin": 9.625,
       "linea": 4
     },
     {
       "texto": "love.",
-      "inicio": 9.1,
-      "fin": 9.525,
+      "inicio": 9.637,
+      "fin": 10.075,
       "linea": 4
     },
     {
       "texto": "It's",
-      "inicio": 10.387,
-      "fin": 10.587,
+      "inicio": 10.95,
+      "fin": 11.212,
       "linea": 4
     },
     {
       "texto": "addiction.",
-      "inicio": 10.6,
-      "fin": 11.287,
+      "inicio": 11.225,
+      "fin": 11.862,
       "linea": 4
     },
     {
       "texto": "Literally.",
-      "inicio": 12.15,
-      "fin": 12.9,
+      "inicio": 12.738,
+      "fin": 13.625,
       "linea": 5
     },
     {
       "texto": "Your",
-      "inicio": 13.762,
-      "fin": 13.975,
+      "inicio": 14.475,
+      "fin": 14.713,
       "linea": 5
     },
     {
       "texto": "brain",
-      "inicio": 13.988,
-      "fin": 14.275,
-      "linea": 5
-    },
-    {
-      "texto": "doesn't",
-      "inicio": 14.287,
-      "fin": 14.625,
-      "linea": 5
-    },
-    {
-      "texto": "lie.",
-      "inicio": 14.637,
+      "inicio": 14.725,
       "fin": 15.037,
       "linea": 5
     },
     {
+      "texto": "doesn't",
+      "inicio": 15.062,
+      "fin": 15.387,
+      "linea": 5
+    },
+    {
+      "texto": "lie.",
+      "inicio": 15.4,
+      "fin": 15.8,
+      "linea": 5
+    },
+    {
       "texto": "The",
-      "inicio": 15.9,
-      "fin": 16.05,
+      "inicio": 16.675,
+      "fin": 16.812,
       "linea": 6
     },
     {
       "texto": "same",
-      "inicio": 16.062,
-      "fin": 16.363,
+      "inicio": 16.825,
+      "fin": 17.1,
       "linea": 6
     },
     {
       "texto": "region",
-      "inicio": 16.375,
-      "fin": 16.725,
+      "inicio": 17.113,
+      "fin": 17.375,
       "linea": 6
     },
     {
       "texto": "that",
-      "inicio": 16.738,
-      "fin": 16.925,
+      "inicio": 17.387,
+      "fin": 17.55,
       "linea": 6
     },
     {
       "texto": "lights",
-      "inicio": 16.938,
-      "fin": 17.2,
+      "inicio": 17.575,
+      "fin": 17.837,
       "linea": 6
     },
     {
       "texto": "up...",
-      "inicio": 17.212,
-      "fin": 17.475,
+      "inicio": 17.85,
+      "fin": 18.038,
       "linea": 6
     },
     {
       "texto": "...in",
-      "inicio": 17.688,
-      "fin": 17.788,
+      "inicio": 18.25,
+      "fin": 18.35,
       "linea": 7
     },
     {
       "texto": "an",
-      "inicio": 17.8,
-      "fin": 17.95,
+      "inicio": 18.363,
+      "fin": 18.463,
       "linea": 7
     },
     {
       "texto": "addict",
-      "inicio": 17.962,
-      "fin": 18.337,
+      "inicio": 18.475,
+      "fin": 18.812,
       "linea": 7
     },
     {
       "texto": "waiting",
-      "inicio": 18.35,
-      "fin": 18.7,
+      "inicio": 18.825,
+      "fin": 19.15,
       "linea": 7
     },
     {
       "texto": "for",
-      "inicio": 18.712,
-      "fin": 18.837,
+      "inicio": 19.163,
+      "fin": 19.288,
       "linea": 7
     },
     {
       "texto": "their",
-      "inicio": 18.85,
-      "fin": 19.0,
+      "inicio": 19.3,
+      "fin": 19.425,
       "linea": 7
     },
     {
       "texto": "next",
-      "inicio": 19.012,
-      "fin": 19.35,
+      "inicio": 19.45,
+      "fin": 19.725,
       "linea": 7
     },
     {
       "texto": "hit.",
-      "inicio": 19.363,
-      "fin": 19.713,
+      "inicio": 19.75,
+      "fin": 20.05,
       "linea": 7
     },
     {
       "texto": "Same",
-      "inicio": 20.575,
-      "fin": 20.938,
+      "inicio": 20.938,
+      "fin": 21.35,
       "linea": 8
     },
     {
       "texto": "circuit.",
-      "inicio": 20.95,
-      "fin": 21.575,
+      "inicio": 21.375,
+      "fin": 21.938,
       "linea": 8
     },
     {
       "texto": "Same",
-      "inicio": 22.438,
-      "fin": 22.762,
+      "inicio": 22.8,
+      "fin": 23.15,
       "linea": 8
     },
     {
       "texto": "hijack.",
-      "inicio": 22.775,
-      "fin": 23.462,
+      "inicio": 23.175,
+      "fin": 23.85,
       "linea": 8
     },
     {
       "texto": "You're",
-      "inicio": 24.325,
-      "fin": 24.525,
-      "linea": 9
-    },
-    {
-      "texto": "hooked —",
-      "inicio": 24.538,
+      "inicio": 24.738,
       "fin": 24.975,
       "linea": 9
     },
     {
+      "texto": "hooked —",
+      "inicio": 25.0,
+      "fin": 25.35,
+      "linea": 9
+    },
+    {
       "texto": "and",
-      "inicio": 25.163,
-      "fin": 25.263,
+      "inicio": 25.462,
+      "fin": 25.55,
       "linea": 9
     },
     {
       "texto": "you",
-      "inicio": 25.275,
-      "fin": 25.362,
+      "inicio": 25.575,
+      "fin": 25.7,
       "linea": 9
     },
     {
       "texto": "don't",
-      "inicio": 25.375,
-      "fin": 25.587,
+      "inicio": 25.725,
+      "fin": 25.938,
       "linea": 9
     },
     {
       "texto": "even",
-      "inicio": 25.6,
-      "fin": 25.838,
+      "inicio": 25.962,
+      "fin": 26.175,
       "linea": 9
     },
     {
       "texto": "know",
-      "inicio": 25.85,
-      "fin": 26.05,
+      "inicio": 26.2,
+      "fin": 26.4,
       "linea": 9
     },
     {
       "texto": "it.",
-      "inicio": 26.062,
-      "fin": 26.35,
+      "inicio": 26.413,
+      "fin": 26.588,
       "linea": 9
     },
     {
       "texto": "And",
-      "inicio": 27.212,
-      "fin": 27.375,
+      "inicio": 27.475,
+      "fin": 27.65,
       "linea": 10
     },
     {
       "texto": "the",
-      "inicio": 27.387,
-      "fin": 27.475,
+      "inicio": 27.675,
+      "fin": 27.775,
       "linea": 10
     },
     {
       "texto": "worse",
-      "inicio": 27.488,
-      "fin": 27.75,
+      "inicio": 27.8,
+      "fin": 28.062,
       "linea": 10
     },
     {
       "texto": "they",
-      "inicio": 27.762,
-      "fin": 27.863,
+      "inicio": 28.087,
+      "fin": 28.212,
       "linea": 10
     },
     {
       "texto": "treated",
-      "inicio": 27.875,
-      "fin": 28.262,
+      "inicio": 28.238,
+      "fin": 28.663,
       "linea": 10
     },
     {
       "texto": "you...",
-      "inicio": 28.275,
-      "fin": 28.487,
+      "inicio": 28.675,
+      "fin": 28.812,
       "linea": 10
     },
     {
       "texto": "...the",
-      "inicio": 28.712,
-      "fin": 28.812,
+      "inicio": 29.012,
+      "fin": 29.125,
       "linea": 11
     },
     {
       "texto": "stronger",
-      "inicio": 28.825,
-      "fin": 29.212,
+      "inicio": 29.137,
+      "fin": 29.587,
       "linea": 11
     },
     {
       "texto": "the",
-      "inicio": 29.225,
-      "fin": 29.312,
+      "inicio": 29.6,
+      "fin": 29.7,
       "linea": 11
     },
     {
       "texto": "pull.",
-      "inicio": 29.325,
-      "fin": 29.787,
+      "inicio": 29.712,
+      "fin": 30.137,
       "linea": 11
     },
     {
       "texto": "Not",
-      "inicio": 30.65,
-      "fin": 30.912,
+      "inicio": 31.012,
+      "fin": 31.3,
       "linea": 12
     },
     {
       "texto": "despite",
-      "inicio": 30.925,
-      "fin": 31.312,
+      "inicio": 31.312,
+      "fin": 31.762,
       "linea": 12
     },
     {
       "texto": "the",
-      "inicio": 31.325,
-      "fin": 31.4,
-      "linea": 12
-    },
-    {
-      "texto": "pain.",
-      "inicio": 31.413,
+      "inicio": 31.788,
       "fin": 31.9,
       "linea": 12
     },
     {
+      "texto": "pain.",
+      "inicio": 31.925,
+      "fin": 32.312,
+      "linea": 12
+    },
+    {
       "texto": "Because",
-      "inicio": 32.763,
-      "fin": 33.175,
-      "linea": 13
-    },
-    {
-      "texto": "of",
       "inicio": 33.188,
-      "fin": 33.288,
-      "linea": 13
-    },
-    {
-      "texto": "it.",
-      "inicio": 33.3,
       "fin": 33.587,
       "linea": 13
     },
     {
+      "texto": "of",
+      "inicio": 33.612,
+      "fin": 33.725,
+      "linea": 13
+    },
+    {
+      "texto": "it.",
+      "inicio": 33.75,
+      "fin": 34.0,
+      "linea": 13
+    },
+    {
       "texto": "It's",
-      "inicio": 34.45,
-      "fin": 34.663,
+      "inicio": 34.875,
+      "fin": 35.112,
       "linea": 14
     },
     {
       "texto": "called",
-      "inicio": 34.675,
-      "fin": 34.9,
+      "inicio": 35.138,
+      "fin": 35.425,
       "linea": 14
     },
     {
       "texto": "trauma",
-      "inicio": 34.913,
-      "fin": 35.238,
+      "inicio": 35.45,
+      "fin": 35.825,
       "linea": 14
     },
     {
       "texto": "bonding.",
-      "inicio": 35.25,
-      "fin": 35.8,
+      "inicio": 35.85,
+      "fin": 36.337,
       "linea": 14
     },
     {
       "texto": "That's",
-      "inicio": 36.663,
-      "fin": 36.962,
+      "inicio": 37.2,
+      "fin": 37.5,
       "linea": 15
     },
     {
       "texto": "why",
-      "inicio": 36.975,
-      "fin": 37.087,
+      "inicio": 37.513,
+      "fin": 37.65,
       "linea": 15
     },
     {
       "texto": "you",
-      "inicio": 37.1,
-      "fin": 37.25,
+      "inicio": 37.675,
+      "fin": 37.85,
       "linea": 15
     },
     {
       "texto": "forgive",
-      "inicio": 37.263,
-      "fin": 37.6,
+      "inicio": 37.862,
+      "fin": 38.25,
       "linea": 15
     },
     {
       "texto": "the",
-      "inicio": 37.612,
-      "fin": 37.712,
+      "inicio": 38.275,
+      "fin": 38.375,
       "linea": 15
     },
     {
       "texto": "unforgivable.",
-      "inicio": 37.725,
-      "fin": 38.562,
+      "inicio": 38.4,
+      "fin": 39.225,
       "linea": 15
     },
     {
       "texto": "That's",
-      "inicio": 39.425,
-      "fin": 39.712,
+      "inicio": 40.1,
+      "fin": 40.363,
       "linea": 16
     },
     {
       "texto": "why",
-      "inicio": 39.725,
-      "fin": 39.837,
+      "inicio": 40.375,
+      "fin": 40.487,
       "linea": 16
     },
     {
       "texto": "you",
-      "inicio": 39.85,
-      "fin": 40.0,
+      "inicio": 40.513,
+      "fin": 40.638,
       "linea": 16
     },
     {
       "texto": "check",
-      "inicio": 40.013,
-      "fin": 40.275,
+      "inicio": 40.65,
+      "fin": 40.9,
       "linea": 16
     },
     {
       "texto": "their",
-      "inicio": 40.288,
-      "fin": 40.425,
+      "inicio": 40.925,
+      "fin": 41.087,
       "linea": 16
     },
     {
       "texto": "profile",
-      "inicio": 40.438,
-      "fin": 41.025,
+      "inicio": 41.112,
+      "fin": 41.587,
       "linea": 16
     },
     {
       "texto": "at",
-      "inicio": 41.038,
-      "fin": 41.15,
+      "inicio": 41.612,
+      "fin": 41.688,
       "linea": 16
     },
     {
       "texto": "3 AM",
-      "inicio": 41.163,
-      "fin": 41.925,
+      "inicio": 41.712,
+      "fin": 42.387,
       "linea": 16
     },
     {
       "texto": "Again.",
-      "inicio": 42.788,
-      "fin": 43.337,
+      "inicio": 43.275,
+      "fin": 43.913,
       "linea": 17
     },
     {
       "texto": "And",
-      "inicio": 44.2,
-      "fin": 44.413,
+      "inicio": 44.775,
+      "fin": 45.025,
       "linea": 17
     },
     {
       "texto": "again.",
-      "inicio": 44.425,
-      "fin": 44.938,
+      "inicio": 45.05,
+      "fin": 45.562,
       "linea": 17
     }
   ],
   "texto": "This will hurt. Because it's about you. You know it's destroying you. And still, you can't stop. This isn't love. It's addiction. Literally. Your brain doesn't lie. The same region that lights up... ...in an addict waiting for their next hit. Same circuit. Same hijack. You're hooked — and you don't even know it. And the worse they treated you... ...the stronger the pull. Not despite the pain. Because of it. It's called trauma bonding. That's why you forgive the unforgivable. That's why you check their profile at 3 AM. Again. And again.",
-  "voz": "en-US-JennyNeural"
+  "voz": "en-US-GuyNeural"
 }
