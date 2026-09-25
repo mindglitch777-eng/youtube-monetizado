@@ -1,5 +1,5 @@
 {
-  "duracion": 39.264,
+  "duracion": 39.456,
   "palabras": [
     {
       "texto": "That's",
@@ -10,445 +10,445 @@
     {
       "texto": "why",
       "inicio": 0.4,
-      "fin": 0.538,
+      "fin": 0.55,
       "linea": 1
     },
     {
       "texto": "someone",
-      "inicio": 0.55,
-      "fin": 0.875,
+      "inicio": 0.575,
+      "fin": 0.962,
       "linea": 1
     },
     {
       "texto": "GOOD",
-      "inicio": 0.887,
-      "fin": 1.075,
+      "inicio": 0.988,
+      "fin": 1.2,
       "linea": 1
     },
     {
       "texto": "bores",
-      "inicio": 1.087,
-      "fin": 1.425,
+      "inicio": 1.225,
+      "fin": 1.525,
       "linea": 1
     },
     {
       "texto": "you.",
-      "inicio": 1.438,
-      "fin": 1.75,
+      "inicio": 1.55,
+      "fin": 1.788,
       "linea": 1
     },
     {
       "texto": "Your",
-      "inicio": 2.612,
-      "fin": 2.825,
+      "inicio": 2.663,
+      "fin": 2.913,
       "linea": 2
     },
     {
       "texto": "brain",
-      "inicio": 2.837,
-      "fin": 3.163,
+      "inicio": 2.938,
+      "fin": 3.275,
       "linea": 2
     },
     {
       "texto": "calls",
-      "inicio": 3.175,
-      "fin": 3.438,
+      "inicio": 3.3,
+      "fin": 3.587,
       "linea": 2
     },
     {
       "texto": "it",
-      "inicio": 3.45,
-      "fin": 3.55,
+      "inicio": 3.612,
+      "fin": 3.712,
       "linea": 2
     },
     {
       "texto": "'suspicious'.",
-      "inicio": 3.562,
-      "fin": 4.375,
+      "inicio": 3.737,
+      "fin": 4.475,
       "linea": 2
     },
     {
       "texto": "Toxic",
-      "inicio": 5.237,
-      "fin": 5.7,
+      "inicio": 5.338,
+      "fin": 5.838,
       "linea": 3
     },
     {
       "texto": "feels",
-      "inicio": 5.713,
-      "fin": 6.025,
+      "inicio": 5.862,
+      "fin": 6.225,
       "linea": 3
     },
     {
       "texto": "'familiar'.",
-      "inicio": 6.037,
-      "fin": 6.662,
+      "inicio": 6.25,
+      "fin": 6.862,
       "linea": 3
     },
     {
       "texto": "Healthy",
-      "inicio": 7.525,
-      "fin": 7.888,
+      "inicio": 7.737,
+      "fin": 8.137,
       "linea": 4
     },
     {
       "texto": "feels",
-      "inicio": 7.9,
-      "fin": 8.238,
+      "inicio": 8.162,
+      "fin": 8.537,
       "linea": 4
     },
     {
       "texto": "'wrong'.",
-      "inicio": 8.25,
-      "fin": 8.688,
+      "inicio": 8.562,
+      "fin": 8.963,
       "linea": 4
     },
     {
       "texto": "That's",
-      "inicio": 9.55,
-      "fin": 9.85,
+      "inicio": 9.838,
+      "fin": 10.138,
       "linea": 5
     },
     {
       "texto": "what",
-      "inicio": 9.863,
-      "fin": 10.0,
+      "inicio": 10.162,
+      "fin": 10.312,
       "linea": 5
     },
     {
       "texto": "the",
-      "inicio": 10.012,
-      "fin": 10.075,
+      "inicio": 10.338,
+      "fin": 10.438,
       "linea": 5
     },
     {
       "texto": "hijack",
-      "inicio": 10.088,
-      "fin": 10.588,
+      "inicio": 10.45,
+      "fin": 10.987,
       "linea": 5
     },
     {
       "texto": "looks",
-      "inicio": 10.6,
-      "fin": 10.825,
+      "inicio": 11.0,
+      "fin": 11.238,
       "linea": 5
     },
     {
       "texto": "like.",
-      "inicio": 10.838,
-      "fin": 11.25,
+      "inicio": 11.25,
+      "fin": 11.588,
       "linea": 5
     },
     {
       "texto": "This",
-      "inicio": 12.113,
-      "fin": 12.338,
+      "inicio": 12.475,
+      "fin": 12.713,
       "linea": 6
     },
     {
       "texto": "doesn't",
-      "inicio": 12.35,
-      "fin": 12.662,
+      "inicio": 12.725,
+      "fin": 13.05,
       "linea": 6
     },
     {
       "texto": "happen",
-      "inicio": 12.675,
-      "fin": 13.062,
+      "inicio": 13.075,
+      "fin": 13.425,
       "linea": 6
     },
     {
       "texto": "because",
-      "inicio": 13.075,
-      "fin": 13.4,
+      "inicio": 13.438,
+      "fin": 13.762,
       "linea": 6
     },
     {
       "texto": "you're",
-      "inicio": 13.412,
-      "fin": 13.537,
+      "inicio": 13.775,
+      "fin": 13.938,
       "linea": 6
     },
     {
       "texto": "weak.",
-      "inicio": 13.55,
-      "fin": 13.975,
+      "inicio": 13.95,
+      "fin": 14.312,
       "linea": 6
     },
     {
       "texto": "It",
-      "inicio": 14.838,
-      "fin": 14.988,
+      "inicio": 15.2,
+      "fin": 15.362,
       "linea": 7
     },
     {
       "texto": "happens",
-      "inicio": 15.0,
-      "fin": 15.412,
+      "inicio": 15.387,
+      "fin": 15.8,
       "linea": 7
     },
     {
       "texto": "to",
-      "inicio": 15.425,
-      "fin": 15.513,
+      "inicio": 15.825,
+      "fin": 15.912,
       "linea": 7
     },
     {
       "texto": "the",
-      "inicio": 15.525,
-      "fin": 15.625,
+      "inicio": 15.925,
+      "fin": 16.038,
       "linea": 7
     },
     {
       "texto": "strongest",
-      "inicio": 15.637,
-      "fin": 16.175,
-      "linea": 7
-    },
-    {
-      "texto": "people",
-      "inicio": 16.188,
-      "fin": 16.475,
-      "linea": 7
-    },
-    {
-      "texto": "you",
-      "inicio": 16.488,
+      "inicio": 16.062,
       "fin": 16.6,
       "linea": 7
     },
     {
+      "texto": "people",
+      "inicio": 16.625,
+      "fin": 16.95,
+      "linea": 7
+    },
+    {
+      "texto": "you",
+      "inicio": 16.975,
+      "fin": 17.088,
+      "linea": 7
+    },
+    {
       "texto": "know.",
-      "inicio": 16.613,
-      "fin": 16.975,
+      "inicio": 17.1,
+      "fin": 17.425,
       "linea": 7
     },
     {
       "texto": "Because",
-      "inicio": 17.837,
-      "fin": 18.175,
+      "inicio": 18.312,
+      "fin": 18.65,
       "linea": 8
     },
     {
       "texto": "it",
-      "inicio": 18.188,
-      "fin": 18.275,
+      "inicio": 18.675,
+      "fin": 18.762,
       "linea": 8
     },
     {
       "texto": "takes",
-      "inicio": 18.288,
-      "fin": 18.525,
+      "inicio": 18.788,
+      "fin": 19.025,
       "linea": 8
     },
     {
       "texto": "strength",
-      "inicio": 18.538,
-      "fin": 18.95,
+      "inicio": 19.05,
+      "fin": 19.413,
       "linea": 8
     },
     {
       "texto": "to",
-      "inicio": 18.962,
-      "fin": 19.062,
+      "inicio": 19.438,
+      "fin": 19.538,
       "linea": 8
     },
     {
       "texto": "survive",
-      "inicio": 19.075,
-      "fin": 19.475,
+      "inicio": 19.562,
+      "fin": 20.025,
       "linea": 8
     },
     {
       "texto": "chaos.",
-      "inicio": 19.488,
-      "fin": 20.137,
+      "inicio": 20.038,
+      "fin": 20.625,
       "linea": 8
     },
     {
       "texto": "And",
-      "inicio": 21.0,
-      "fin": 21.175,
+      "inicio": 21.512,
+      "fin": 21.675,
       "linea": 9
     },
     {
       "texto": "that",
-      "inicio": 21.188,
-      "fin": 21.425,
+      "inicio": 21.7,
+      "fin": 21.875,
       "linea": 9
     },
     {
       "texto": "strength",
-      "inicio": 21.438,
-      "fin": 21.812,
-      "linea": 9
-    },
-    {
-      "texto": "is",
-      "inicio": 21.825,
-      "fin": 21.938,
-      "linea": 9
-    },
-    {
-      "texto": "your",
-      "inicio": 21.95,
-      "fin": 22.075,
-      "linea": 9
-    },
-    {
-      "texto": "way",
-      "inicio": 22.087,
+      "inicio": 21.887,
       "fin": 22.287,
       "linea": 9
     },
     {
+      "texto": "is",
+      "inicio": 22.312,
+      "fin": 22.438,
+      "linea": 9
+    },
+    {
+      "texto": "your",
+      "inicio": 22.462,
+      "fin": 22.625,
+      "linea": 9
+    },
+    {
+      "texto": "way",
+      "inicio": 22.65,
+      "fin": 22.825,
+      "linea": 9
+    },
+    {
       "texto": "out.",
-      "inicio": 22.3,
-      "fin": 22.688,
+      "inicio": 22.85,
+      "fin": 23.175,
       "linea": 9
     },
     {
       "texto": "Next",
-      "inicio": 23.55,
-      "fin": 23.9,
+      "inicio": 24.05,
+      "fin": 24.325,
       "linea": 10
     },
     {
       "texto": "time",
-      "inicio": 23.913,
-      "fin": 24.1,
+      "inicio": 24.337,
+      "fin": 24.487,
       "linea": 10
     },
     {
       "texto": "you",
-      "inicio": 24.113,
-      "fin": 24.225,
+      "inicio": 24.5,
+      "fin": 24.6,
       "linea": 10
     },
     {
       "texto": "can't",
-      "inicio": 24.238,
-      "fin": 24.5,
+      "inicio": 24.613,
+      "fin": 24.825,
       "linea": 10
     },
     {
       "texto": "stop",
-      "inicio": 24.512,
-      "fin": 24.738,
+      "inicio": 24.837,
+      "fin": 25.087,
       "linea": 10
     },
     {
       "texto": "thinking",
-      "inicio": 24.75,
-      "fin": 25.125,
+      "inicio": 25.113,
+      "fin": 25.45,
       "linea": 10
     },
     {
       "texto": "about",
-      "inicio": 25.137,
-      "fin": 25.4,
+      "inicio": 25.462,
+      "fin": 25.712,
       "linea": 10
     },
     {
       "texto": "them...",
-      "inicio": 25.413,
-      "fin": 25.713,
+      "inicio": 25.738,
+      "fin": 25.9,
       "linea": 10
     },
     {
       "texto": "...say",
-      "inicio": 25.9,
-      "fin": 26.125,
+      "inicio": 26.125,
+      "fin": 26.325,
       "linea": 11
     },
     {
       "texto": "this:",
-      "inicio": 26.137,
-      "fin": 26.525,
+      "inicio": 26.337,
+      "fin": 26.6,
       "linea": 11
     },
     {
       "texto": "It's",
-      "inicio": 26.725,
-      "fin": 26.875,
+      "inicio": 26.8,
+      "fin": 26.925,
       "linea": 12
     },
     {
       "texto": "not",
-      "inicio": 26.887,
-      "fin": 27.125,
+      "inicio": 26.95,
+      "fin": 27.137,
       "linea": 12
     },
     {
       "texto": "love.",
-      "inicio": 27.137,
-      "fin": 27.587,
+      "inicio": 27.163,
+      "fin": 27.525,
       "linea": 12
     },
     {
       "texto": "It's",
-      "inicio": 28.45,
-      "fin": 28.637,
+      "inicio": 28.4,
+      "fin": 28.6,
       "linea": 13
     },
     {
       "texto": "your",
-      "inicio": 28.65,
-      "fin": 28.775,
+      "inicio": 28.625,
+      "fin": 28.8,
       "linea": 13
     },
     {
       "texto": "brain,",
-      "inicio": 28.788,
-      "fin": 29.163,
+      "inicio": 28.825,
+      "fin": 29.2,
       "linea": 13
     },
     {
       "texto": "drugged.",
-      "inicio": 29.312,
-      "fin": 29.8,
+      "inicio": 29.375,
+      "fin": 29.85,
       "linea": 13
     },
     {
       "texto": "And",
-      "inicio": 30.663,
-      "fin": 30.85,
-      "linea": 14
-    },
-    {
-      "texto": "a",
-      "inicio": 30.863,
+      "inicio": 30.725,
       "fin": 30.925,
       "linea": 14
     },
     {
+      "texto": "a",
+      "inicio": 30.95,
+      "fin": 31.012,
+      "linea": 14
+    },
+    {
       "texto": "drug",
-      "inicio": 30.938,
-      "fin": 31.288,
+      "inicio": 31.025,
+      "fin": 31.337,
       "linea": 14
     },
     {
       "texto": "can",
-      "inicio": 31.3,
-      "fin": 31.463,
+      "inicio": 31.363,
+      "fin": 31.512,
       "linea": 14
     },
     {
       "texto": "be",
-      "inicio": 31.475,
-      "fin": 31.6,
+      "inicio": 31.525,
+      "fin": 31.637,
       "linea": 14
     },
     {
       "texto": "quit.",
-      "inicio": 31.613,
-      "fin": 32.112,
+      "inicio": 31.65,
+      "fin": 32.062,
       "linea": 14
     },
     {
       "texto": "Comment",
-      "inicio": 32.975,
-      "fin": 33.363,
+      "inicio": 32.925,
+      "fin": 33.35,
       "linea": 15
     },
     {
@@ -460,100 +460,100 @@
     {
       "texto": "IS",
       "inicio": 33.562,
-      "fin": 33.712,
+      "fin": 33.7,
       "linea": 15
     },
     {
       "texto": "REAL'",
       "inicio": 33.725,
-      "fin": 34.025,
+      "fin": 34.038,
       "linea": 15
     },
     {
       "texto": "if",
-      "inicio": 34.038,
-      "fin": 34.15,
+      "inicio": 34.062,
+      "fin": 34.175,
       "linea": 15
     },
     {
       "texto": "you",
-      "inicio": 34.163,
-      "fin": 34.288,
+      "inicio": 34.2,
+      "fin": 34.338,
       "linea": 15
     },
     {
       "texto": "recognized",
-      "inicio": 34.3,
-      "fin": 34.862,
+      "inicio": 34.362,
+      "fin": 34.962,
       "linea": 15
     },
     {
       "texto": "yourself.",
-      "inicio": 34.875,
-      "fin": 35.5,
+      "inicio": 34.987,
+      "fin": 35.6,
       "linea": 15
     },
     {
       "texto": "And",
-      "inicio": 36.362,
-      "fin": 36.55,
+      "inicio": 36.487,
+      "fin": 36.662,
       "linea": 16
     },
     {
       "texto": "send",
-      "inicio": 36.562,
-      "fin": 36.8,
+      "inicio": 36.688,
+      "fin": 36.938,
       "linea": 16
     },
     {
       "texto": "it",
-      "inicio": 36.812,
-      "fin": 36.9,
+      "inicio": 36.95,
+      "fin": 37.025,
       "linea": 16
     },
     {
       "texto": "to",
-      "inicio": 36.913,
-      "fin": 37.0,
+      "inicio": 37.05,
+      "fin": 37.15,
       "linea": 16
     },
     {
       "texto": "someone",
-      "inicio": 37.013,
-      "fin": 37.35,
+      "inicio": 37.163,
+      "fin": 37.575,
       "linea": 16
     },
     {
       "texto": "who",
-      "inicio": 37.362,
-      "fin": 37.475,
+      "inicio": 37.6,
+      "fin": 37.725,
       "linea": 16
     },
     {
       "texto": "needs",
-      "inicio": 37.487,
-      "fin": 37.762,
+      "inicio": 37.75,
+      "fin": 38.013,
       "linea": 16
     },
     {
       "texto": "to",
-      "inicio": 37.775,
-      "fin": 37.862,
+      "inicio": 38.038,
+      "fin": 38.125,
       "linea": 16
     },
     {
       "texto": "hear",
-      "inicio": 37.875,
-      "fin": 38.1,
+      "inicio": 38.138,
+      "fin": 38.363,
       "linea": 16
     },
     {
       "texto": "it.",
-      "inicio": 38.112,
-      "fin": 38.387,
+      "inicio": 38.375,
+      "fin": 38.562,
       "linea": 16
     }
   ],
   "texto": "That's why someone GOOD bores you. Your brain calls it 'suspicious'. Toxic feels 'familiar'. Healthy feels 'wrong'. That's what the hijack looks like. This doesn't happen because you're weak. It happens to the strongest people you know. Because it takes strength to survive chaos. And that strength is your way out. Next time you can't stop thinking about them... ...say this: It's not love. It's your brain, drugged. And a drug can be quit. Comment 'THIS IS REAL' if you recognized yourself. And send it to someone who needs to hear it.",
-  "voz": "en-US-JennyNeural"
+  "voz": "en-US-GuyNeural"
 }
