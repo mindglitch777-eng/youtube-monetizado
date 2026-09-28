@@ -53,6 +53,33 @@
   sigo a Paso 3 (lote completo), que corre en paralelo mientras se decide la
   duración (no depende de esa decisión).
 
+- Paso 3, lote completo (80/80 generadas) + revisión de muestra (10/78,
+  cada 8): PARADO ACÁ — ver AUDIT.md y la respuesta al usuario. Hallazgo:
+  el problema de S079 (contorno facial nítido por geometría de
+  contraluz-en-perfil) NO es un caso aislado. De 10 imágenes revisadas
+  (S001,S013,S023,S033,S044,S055,S064,S074,S079,S080,S093), 6 muestran
+  perfil facial claramente dibujado (nariz/labios/mentón) porque la
+  silueta está de perfil MIRANDO hacia una fuente de luz cercana (ventana,
+  lámpara, pantalla de celular) — el borde luz/sombra en esa geometría
+  dibuja el contorno facial sin importar el texto del prompt. Las que SÍ
+  pasan limpio son las que están de espaldas, con la cabeza inclinada
+  hacia abajo, o lejos/pequeñas en el encuadre (S064, S093, S001). Además
+  encontré 2 violaciones nuevas de "no texto/números": S033 (carteles de
+  local "UT PAK" y "476" legibles de fondo) y S044 (reloj de pared con
+  números 1-12 legibles). Por escala (~50-60% de la muestra), esto
+  probablemente afecta a una porción grande de las 78 — no lo resuelvo
+  reescribiendo el bloque de estilo una vez más (ya lo intenté con S079 y
+  el texto no alcanza contra la geometría); hace falta reformular la
+  DIRECCIÓN DE CÁMARA/POSE en cada escena afectada (de perfil-mirando-la-
+  luz a de-espaldas o cabeza-inclinada) y volver a generar. Cloudflare
+  además marcó cuota agotada en el intento de regenerar solo S079 (0
+  generadas, resetea a las 00:00 UTC). Consulto con el usuario antes de
+  decidir cuántas escenas reformular y disparar el lote de regeneración,
+  porque afecta tiempo (hay que esperar el reset de cuota) y alcance
+  (cuántas de las 78 tocar). Sigo mientras tanto con lo que no depende de
+  esto: preparar Remotion, hacer stills de verificación con las imágenes
+  que sí están bien, escribir metadata.md.
+
 - Paso 3, reintento dirigido de S079: reescribí la escena (de "dos siluetas
   de perfil enfrentadas a contraluz" a "abrazo visto desde atrás, ambas
   figuras de espaldas a cámara, sin perfiles hacia la luz en ningún punto")

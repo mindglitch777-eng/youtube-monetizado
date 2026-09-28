@@ -2,6 +2,7 @@ import React, { useMemo } from "react";
 import { AbsoluteFill, Sequence, useCurrentFrame, useVideoConfig } from "remotion";
 import { Captions } from "./Captions";
 import { Grano } from "./Estilos";
+import "./Fuentes";
 import { Plate } from "./Plate";
 import { Pullquote } from "./Pullquote";
 import { RedThread, type PuntoHilo } from "./RedThread";

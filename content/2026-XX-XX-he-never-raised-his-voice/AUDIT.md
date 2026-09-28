@@ -36,6 +36,28 @@ declara "listo" mientras algún R quede incumplido sin explicación.
    S023 pasaron limpio con el ajuste; S079 sigue mostrando el contorno
    porque es la COMPOSICIÓN de la escena (no el estilo) la que lo genera.
    Marcada para reintento dirigido en la revisión del lote completo.
+8. **[NUEVO, PENDIENTE DE CONFIRMAR CON EL USUARIO] Violación sistémica de
+   N4 en una porción del lote de 78 imágenes**: revisando una muestra de
+   10 (cada 8ª imagen), 6 muestran contorno facial nítido (nariz/labios/
+   mentón) — NO es un caso aislado de S079. Causa: cualquier silueta DE
+   PERFIL mirando hacia una fuente de luz cercana (ventana, lámpara,
+   pantalla) dibuja el contorno por la geometría del borde luz/sombra, sin
+   importar el texto del prompt — ya se intentó reforzar el bloque de
+   estilo (desvío 6) y no alcanza contra la geometría. Las tomas de
+   espaldas, con cabeza inclinada hacia abajo, o pequeñas/lejanas en el
+   encuadre SÍ pasan limpio. Encontradas además 2 violaciones nuevas de
+   "sin texto/números": S033 (carteles "UT PAK"/"476" de fondo legibles) y
+   S044 (reloj de pared con números 1-12 legibles). Solución: no es un
+   ajuste de texto del prompt sino reformular la DIRECCIÓN DE CÁMARA/POSE
+   de cada escena afectada (perfil-mirando-la-luz → de espaldas o cabeza
+   inclinada) y agregar "sin señalética/carteles/relojes con números
+   legibles" al bloque de estilo. Requiere: (a) revisar los 78 uno por uno
+   (no solo la muestra) para dimensionar cuántas escenas tocar, (b)
+   reformular esas escenas, (c) regenerar — y Cloudflare ya marcó cuota
+   agotada (resetea 00:00 UTC), así que la regeneración no puede arrancar
+   hasta el reset. Consultado con el usuario — ver la respuesta en el chat
+   para el alcance acordado. [PENDIENTE DE CONFIRMAR — actualizar cuando
+   se decida].
 7. **.gitignore**: `content/*/music/*.mp3` y `content/*/clips/fit/*.mp4`
    quedaban fuera de las excepciones existentes (mismo tipo de bug que ya
    había pasado con `content/*/clips/*.mp4` en la sesión anterior) —

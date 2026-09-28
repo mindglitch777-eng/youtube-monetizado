@@ -5,6 +5,7 @@
   "scripts": {
     "preparar": "node scripts/preparar.mjs",
     "preparar:standalone": "node scripts/prepararStandalone.mjs",
+    "preparar:longform": "node scripts/prepararLongform.mjs",
     "studio": "remotion studio",
     "render": "remotion render Video",
     "typecheck": "tsc --noEmit"
