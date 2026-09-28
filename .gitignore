@@ -10,6 +10,8 @@ __pycache__/
 !content/*/clips/fit/*.mp4
 !content/*/music/*.mp3
 !content/*/out/*.mp4
+content/*/out/video_final.mp4
+content/*/out/video_silent.mp4
 content/*/out/partes/
 content/*/out/*.wav
 /content/*/output.mp4
