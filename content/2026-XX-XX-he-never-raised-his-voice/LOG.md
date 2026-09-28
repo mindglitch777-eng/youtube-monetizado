@@ -131,3 +131,12 @@
      toma en ese momento). Fix: Captions ahora recibe las palabras y el
      fin de toma en tiempo ABSOLUTO (activa.palabras, activa.endS)
      directamente desde timeline.json, sin la conversión intermedia.
+
+- Intento de regeneración de S002/S014/S028/S036/S079 (20:07 UTC):
+  Cloudflare sigue con cuota agotada (0 generadas). Resetea a las 00:00
+  UTC (~4h desde este punto). El bug de subtítulos ya está arreglado y
+  verificado en el código — falta re-renderizar el video completo con el
+  fix (afecta TODAS las tomas, no un rango puntual) y con las 5 imágenes
+  reales una vez que la cuota lo permita. Plan: esperar el reset,
+  regenerar las 5, revisarlas, re-renderizar TODO el video (el fix de
+  subtítulos es a nivel de composición global), re-mezclar, entregar.
