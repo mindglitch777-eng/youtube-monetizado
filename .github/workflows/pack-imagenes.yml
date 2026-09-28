@@ -1,24 +1,20 @@
 # Paso 2/3 de un PACK de video largo: genera las imágenes IA de shots.json
 # con Cloudflare Workers AI. Corre en GitHub Actions porque Cloudflare no es
-# accesible desde el entorno de Claude Code. Se dispara solo a mano
-# (workflow_dispatch) para poder correr primero el lote de prueba de 3 y
-# revisarlo antes del lote completo.
+# accesible desde el entorno de Claude Code.
+#
+# Se dispara escribiendo "test" o "full" en content/<pack>/PEDIDO_IMAGENES.txt
+# y pusheando (mismo patrón que imagenes/pedido.txt del resto del canal) —
+# workflow_dispatch no sirve acá porque el archivo del workflow todavía no
+# existe en la rama por defecto del repo. El paso final borra el pedido
+# para que la próxima corrida (test o full) se dispare con un push nuevo.
 name: Pack — imágenes
 
 on:
-  workflow_dispatch:
-    inputs:
-      carpeta:
-        description: "Carpeta del pack (ej. content/2026-XX-XX-he-never-raised-his-voice)"
-        required: true
-      modo:
-        description: "test (solo las 3 marcadas test_batch) o full (el resto + miniaturas)"
-        required: true
-        default: "test"
-        type: choice
-        options:
-          - test
-          - full
+  push:
+    paths:
+      - content/*/PEDIDO_IMAGENES.txt
+      - scripts/pack_imagenes.py
+      - .github/workflows/pack-imagenes.yml
 
 permissions:
   contents: write
@@ -48,14 +44,22 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Generar imágenes (test o lote completo)
+      - name: Generar imágenes (test o lote completo, según el pedido)
         run: |
           set -euo pipefail
-          if [ "${{ github.event.inputs.modo }}" = "test" ]; then
-            python scripts/pack_imagenes.py "${{ github.event.inputs.carpeta }}" --solo-test
-          else
-            python scripts/pack_imagenes.py "${{ github.event.inputs.carpeta }}"
-          fi
+          for pedido in content/*/PEDIDO_IMAGENES.txt; do
+            [ -f "$pedido" ] || continue
+            carpeta=$(dirname "$pedido")
+            modo=$(tr -d '[:space:]' < "$pedido")
+            echo "::group::$carpeta ($modo)"
+            if [ "$modo" = "test" ]; then
+              python scripts/pack_imagenes.py "$carpeta" --solo-test
+            else
+              python scripts/pack_imagenes.py "$carpeta"
+            fi
+            echo "::endgroup::"
+            rm -f "$pedido"
+          done
 
       - name: Commitear resultados
         if: always()
@@ -67,6 +71,6 @@ jobs:
             echo "Sin cambios."
             exit 0
           fi
-          git commit -m "Pack: generar imágenes (${{ github.event.inputs.modo }}) desde GitHub Actions"
+          git commit -m "Pack: generar imágenes desde GitHub Actions"
           git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"
