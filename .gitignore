@@ -10,6 +10,7 @@ __pycache__/
 !content/*/clips/fit/*.mp4
 !content/*/music/*.mp3
 !content/*/out/*.mp4
+content/*/out/partes/
 /content/*/output.mp4
 content/zz-prueba/
 remotion/public/
