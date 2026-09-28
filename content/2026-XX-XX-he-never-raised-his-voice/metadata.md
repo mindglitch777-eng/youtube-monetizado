@@ -1,4 +1,10 @@
-# METADATA — Video 01 (usar tal cual; reemplazar los tiempos por los REALES del timeline)
+# METADATA — Video 01
+
+Duración real: 7:23 (443.36s) — más corta que la estimación del PACK
+(9:30-10:45) porque la voz del canal habla más rápido de lo asumido
+(2.80 palabras/seg reales vs. 2.07 asumidas). El guion no se recortó;
+ver AUDIT.md, desvío 5, para el detalle y la decisión del usuario
+(aceptar la duración real tal cual).
 
 ## Título (elegir 1; el A es el recomendado)
 A) He Never Raised His Voice. She Lost Herself Anyway. (5 Moves)
@@ -11,14 +17,14 @@ This is a dramatized story about five manipulation moves that look harmless one 
 
 Which move would you have caught first? Comment 1-5. No judgment.
 
-CHAPTERS (tiempos ESTIMADOS: reemplazar por reales)
+CHAPTERS (tiempos reales, del timeline.json generado desde el audio)
 0:00 Zero bruises: the paradox
-0:54 Move 1: The perfect start (love bombing)
-2:28 Move 2: The world gets smaller (isolation)
-3:58 Move 3: The memory edit (gaslighting)
-5:29 Move 4: The debt she never owed (guilt + moving goalposts)
-7:01 Move 5: The switch (trauma bonding)
-8:24 The first crack, and how people get out
+0:41 Move 1: The perfect start (love bombing)
+1:48 Move 2: The world gets smaller (isolation)
+2:52 Move 3: The memory edit (gaslighting)
+3:58 Move 4: The debt she never owed (guilt + moving goalposts)
+5:04 Move 5: The switch (trauma bonding)
+6:09 The first crack, and how people get out
 
 ABOUT THIS VIDEO
 Maya and Daniel are fictional composite characters, built from patterns described by therapists. This is a dramatized story, not a documentary. Visuals are AI-generated illustrations plus licensed stock footage; narration is a synthetic voice. Educational purposes only, not a substitute for professional advice.

@@ -86,3 +86,15 @@
   para eliminar la composición que geométricamente forzaba el contorno
   facial. Borré img/S079.jpg y disparo un pedido "full" (idempotente: solo
   regenera esta, el resto ya existe).
+
+- Decisión del usuario: duración real (7:23) aceptada tal cual, sin tocar
+  el guion (metadata.md actualizado con tiempos reales de capítulo).
+  "Dale mecha, pásame el video final" — sigo sin esperar el reset de
+  cuota de Cloudflare (00:00 UTC, ~14h desde este punto). Para no dejar
+  la toma S079 sin imagen, genero LOCALMENTE (sin red, con PIL) un
+  placeholder de degradado (ámbar cálido + esquinas frías + acento rojo
+  fino) que respeta la paleta "amber-neon" de la escena y no tiene
+  ninguna figura humana — cero riesgo de N4. Marcado en AUDIT.md como
+  gap conocido y visible, no oculto: la escena real (abrazo de espaldas)
+  queda pendiente de generarse cuando resetee la cuota, y en ese momento
+  se puede volver a renderizar solo esa toma sin tocar el resto.
