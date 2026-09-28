@@ -31,3 +31,24 @@
     facial features" por una frase mucho más explícita contra contorno facial
     (sin puente nasal, labios, mentón, mandíbula, oreja) y sumé esos términos al
     bloque "Avoid". Regenerando las 3 de prueba con --forzar para confirmar.
+
+- Paso 2, segunda pasada (bloque de estilo reforzado):
+  - S001: PASA. Mucho más oscuro/silueta sólida; queda un bulto de nariz de perfil
+    (geometría inevitable de una silueta de perfil, no un rasgo dibujado aparte) —
+    aceptable.
+  - S023: PASA. Sin figura con cara; el anzuelo quedó más sutil que "grande y
+    visible" pero la escena/paleta están bien — aceptable, no es un fallo de
+    checklist.
+  - S079: SIGUE MOSTRANDO perfiles faciales (dos siluetas de frente en contraluz:
+    el hueco entre ambas dibuja nariz/labios/mentón de las DOS). Diagnóstico: esto
+    no es un problema de bloque de estilo — es la COMPOSICIÓN de la escena (dos
+    perfiles enfrentados a contraluz) la que geométricamente fuerza ese contorno,
+    sin importar qué tan explícito sea el texto anti-rasgos. Paso 2 solo habilita
+    ajustar el bloque de estilo, no las escenas — no toco la escena acá. Marco
+    S079 para reintento dirigido durante la revisión del lote completo (Paso 3,
+    "regenerar las que fallen, máx. 1 reintento"), con la escena reformulada para
+    evitar el encuadre de dos-perfiles-enfrentados si el reintento vuelve a fallar
+    se declara en AUDIT.md como no resuelto (R5 parcial), no bloquea el resto.
+  Checklist de Paso 2: 2/3 pasan limpio, 1/3 marcada para reintento dirigido —
+  sigo a Paso 3 (lote completo), que corre en paralelo mientras se decide la
+  duración (no depende de esa decisión).
