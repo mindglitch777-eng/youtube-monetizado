@@ -20,3 +20,14 @@
 - Toma más larga real: S092 (6.93s) — ninguna toma superó 9.5s, 0 divisiones por N2.
 - Paso 2 (test de 3 imágenes) disparado en paralelo (no depende de la decisión de
   duración): PEDIDO_IMAGENES.txt = "test".
+
+- Paso 2 (test de 3): revisadas contra el checklist.
+  - S001: pasa (sin cara, silueta desde atrás; pelo con algo de detalle, aceptable).
+  - S023: pasa (sin figura con cara; mano con detalle de dedos, aceptable, oscuro).
+  - S079: FALLA — perfil facial claramente dibujado (línea de nariz, labios, mentón
+    con rim light), viola "sin rasgos faciales". Ajustado el BLOQUE DE ESTILO
+    compartido (no las escenas) en shots.json (78 prompts) y assets.json
+    (miniaturas + image_style): reemplacé "solid featureless silhouettes with no
+    facial features" por una frase mucho más explícita contra contorno facial
+    (sin puente nasal, labios, mentón, mandíbula, oreja) y sumé esos términos al
+    bloque "Avoid". Regenerando las 3 de prueba con --forzar para confirmar.
