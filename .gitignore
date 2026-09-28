@@ -12,6 +12,7 @@ __pycache__/
 !content/*/out/*.mp4
 content/*/out/video_final.mp4
 content/*/out/video_silent.mp4
+content/*/out/video_final_preview.mp4
 content/*/out/partes/
 content/*/out/*.wav
 /content/*/output.mp4
