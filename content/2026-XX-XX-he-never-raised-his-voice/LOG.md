@@ -52,3 +52,10 @@
   Checklist de Paso 2: 2/3 pasan limpio, 1/3 marcada para reintento dirigido —
   sigo a Paso 3 (lote completo), que corre en paralelo mientras se decide la
   duración (no depende de esa decisión).
+
+- Paso 3, reintento dirigido de S079: reescribí la escena (de "dos siluetas
+  de perfil enfrentadas a contraluz" a "abrazo visto desde atrás, ambas
+  figuras de espaldas a cámara, sin perfiles hacia la luz en ningún punto")
+  para eliminar la composición que geométricamente forzaba el contorno
+  facial. Borré img/S079.jpg y disparo un pedido "full" (idempotente: solo
+  regenera esta, el resto ya existe).
