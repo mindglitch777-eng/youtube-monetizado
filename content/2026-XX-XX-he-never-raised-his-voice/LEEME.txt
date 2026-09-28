@@ -1,0 +1,7 @@
+PACK VIDEO 01 — "He Never Raised His Voice" (Knotwise)
+1) Copiar esta carpeta a: content/2026-XX-XX-he-never-raised-his-voice/ en el repo.
+2) Pedirle a Claude Code que lea PACK.md y lo ejecute completo (instrucción corta en el chat).
+3) Antes: confirmar que los secretos de Cloudflare estén cargados en el entorno de Claude Code.
+4) Opcional (mejora mucho el resultado): dejar en music/ dos pistas libres de derechos, sin voz:
+   tension.mp3 (oscura/ambiental) y warm.mp3 (piano suave). Si no están, usa las bases sintetizadas.
+Todo lo demás (guion, prompts, clips, sonidos, metadatos) ya viene dentro.

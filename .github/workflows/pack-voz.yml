@@ -1,0 +1,64 @@
+# Paso 1 de un PACK de video largo (carpetas content/*/ que traen guion.txt +
+# shots.json, formato "PACK.md" — distinto de guion.md del resto del canal):
+# sintetiza la narración por capítulo con edge-tts. Corre en GitHub Actions
+# porque Microsoft bloquea edge-tts desde el entorno de Claude Code.
+name: Pack — voz
+
+on:
+  push:
+    paths:
+      - content/*/guion.txt
+      - scripts/pack_voz.py
+      - .github/workflows/pack-voz.yml
+  workflow_dispatch:
+    inputs:
+      carpeta:
+        description: "Carpeta del pack (ej. content/2026-XX-XX-he-never-raised-his-voice)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pack-voz-${{ github.ref }}
+
+jobs:
+  voz:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Generar voz de cada pack (carpetas con guion.txt + shots.json)
+        run: |
+          set -euo pipefail
+          if [ -n "${{ github.event.inputs.carpeta }}" ]; then
+            python scripts/pack_voz.py "${{ github.event.inputs.carpeta }}"
+          else
+            for carpeta in content/*/; do
+              [ -f "$carpeta/guion.txt" ] && [ -f "$carpeta/shots.json" ] || continue
+              echo "::group::$carpeta"
+              python scripts/pack_voz.py "$carpeta"
+              echo "::endgroup::"
+            done
+          fi
+
+      - name: Commitear audio de voz
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- content
+          if git diff --cached --quiet; then
+            echo "Sin cambios."
+            exit 0
+          fi
+          git commit -m "Pack: generar voz por capítulo (edge-tts) desde GitHub Actions"
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
