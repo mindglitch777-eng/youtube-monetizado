@@ -9,7 +9,7 @@ import { RedThread, type PuntoHilo } from "./RedThread";
 import { ShotClip } from "./ShotClip";
 import { ShotImage } from "./ShotImage";
 import { Transicion } from "./Transiciones";
-import type { PalabraAbs, Shot, Timeline } from "./tipos";
+import type { Shot, Timeline } from "./tipos";
 
 const OVERLAP_S = 0.4;
 
@@ -38,9 +38,6 @@ export const LongForm: React.FC<{ shots: Shot[]; timeline: Timeline }> = ({ shot
     return null;
   }, [timeline, frame]);
   const shotActivo = activa ? shots.find((s) => s.id === activa.id) : undefined;
-
-  const palabrasLocal = (t: (typeof timeline.tomas)[number]): PalabraAbs[] =>
-    t.palabras.map((p) => ({ texto: p.texto, inicio: p.inicio - t.startS, fin: p.fin - t.startS }));
 
   return (
     <AbsoluteFill style={{ backgroundColor: "#000000" }}>
@@ -72,7 +69,7 @@ export const LongForm: React.FC<{ shots: Shot[]; timeline: Timeline }> = ({ shot
         <Pullquote texto={shotActivo.overlay.text} />
       )}
       {activa && shotActivo && shotActivo.captions && !shotActivo.overlay?.hide_captions_during && (
-        <Captions palabras={palabrasLocal(activa)} duracionSeg={activa.endS - activa.startS} />
+        <Captions palabras={activa.palabras} finTomaS={activa.endS} />
       )}
 
       <Grano />

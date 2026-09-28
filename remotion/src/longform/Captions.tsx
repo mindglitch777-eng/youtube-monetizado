@@ -43,11 +43,20 @@ function armarFranjas(palabras: PalabraAbs[], finToma: number): Franja[] {
 // Subtítulos abajo al centro (N9: nunca la misma oración completa que una
 // placa/cita al mismo tiempo — por eso este componente no se monta cuando
 // el shot tiene captions:false o un overlay con hide_captions_during).
-export const Captions: React.FC<{ palabras: PalabraAbs[]; duracionSeg: number }> = ({ palabras, duracionSeg }) => {
+//
+// `palabras` y `finTomaS` vienen en tiempo ABSOLUTO de la composición
+// (igual que timeline.json) — Captions no vive dentro de un Sequence (está
+// arriba de todas las tomas, en LongForm.tsx), así que useCurrentFrame()
+// acá SIEMPRE es el frame absoluto. Antes se le pasaban palabras
+// convertidas a tiempo relativo a cada toma, que solo por coincidencia
+// coincidía con el frame absoluto en la primera toma (arranca en 0) — en
+// cualquier otra toma la franja activa nunca se encontraba y no se veía
+// ningún subtítulo salvo en el primer shot del video.
+export const Captions: React.FC<{ palabras: PalabraAbs[]; finTomaS: number }> = ({ palabras, finTomaS }) => {
   const frame = useCurrentFrame();
   const { fps, height } = useVideoConfig();
   const t = frame / fps;
-  const franjas = React.useMemo(() => armarFranjas(palabras, duracionSeg), [palabras, duracionSeg]);
+  const franjas = React.useMemo(() => armarFranjas(palabras, finTomaS), [palabras, finTomaS]);
   const franja = franjas.find((f) => t >= f.desde && t < f.hasta);
   if (!franja) return null;
 

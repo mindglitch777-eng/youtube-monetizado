@@ -110,3 +110,24 @@
   de Google Fonts) con el texto de metadata.md: thumbnail_A.png ("ZERO
   BRUISES" + chip "5 MOVES") y thumbnail_B.png ("HE NEVER YELLED"). Ambas
   1280x720, bien por debajo de 2MB.
+
+- Arreglo puntual pedido por el usuario (2 puntos):
+  1) Reformulé las escenas de S002, S014, S028, S036 (mismo criterio que
+     S079: de espaldas/cabeza inclinada/objeto solo, nunca perfil mirando
+     la luz, sin carteles/calendarios/relojes/retratos con texto). Borré
+     los 5 placeholders locales (S002,S014,S028,S036,S079) y disparo
+     regeneración real con Cloudflare.
+  2) BUG REAL encontrado y corregido: los subtítulos NO aparecían en el
+     video exportado salvo en la toma S001. Causa: Captions.tsx compara
+     el tiempo de reproducción contra `frame/fps` (tiempo ABSOLUTO de toda
+     la composición, porque <Captions/> vive arriba de todos los
+     Sequence, no adentro de uno) pero LongForm.tsx le pasaba las palabras
+     ya convertidas a tiempo RELATIVO al inicio de cada toma
+     (`palabrasLocal`). Coincidían por casualidad solo en S001 porque esa
+     toma arranca en el frame 0 (relativo == absoluto ahí). Verificado con
+     `remotion still --frame=1200` (toma S010, ~40s) ANTES (sin subtítulo)
+     y DESPUÉS del fix (subtítulo correcto: "that therapists describe
+     again and again", que coincide exacto con las palabras reales de esa
+     toma en ese momento). Fix: Captions ahora recibe las palabras y el
+     fin de toma en tiempo ABSOLUTO (activa.palabras, activa.endS)
+     directamente desde timeline.json, sin la conversión intermedia.
