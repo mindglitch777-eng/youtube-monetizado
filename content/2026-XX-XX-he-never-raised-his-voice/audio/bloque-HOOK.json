@@ -1,0 +1,560 @@
+{
+  "duracion": 40.656,
+  "palabras": [
+    {
+      "texto": "Maya",
+      "inicio": 0.104,
+      "fin": 0.326
+    },
+    {
+      "texto": "never",
+      "inicio": 0.339,
+      "fin": 0.625
+    },
+    {
+      "texto": "had",
+      "inicio": 0.638,
+      "fin": 0.781
+    },
+    {
+      "texto": "a",
+      "inicio": 0.794,
+      "fin": 0.833
+    },
+    {
+      "texto": "single",
+      "inicio": 0.846,
+      "fin": 1.198
+    },
+    {
+      "texto": "bruise",
+      "inicio": 1.211,
+      "fin": 1.706
+    },
+    {
+      "texto": "Nobody",
+      "inicio": 2.135,
+      "fin": 2.526
+    },
+    {
+      "texto": "ever",
+      "inicio": 2.539,
+      "fin": 2.76
+    },
+    {
+      "texto": "heard",
+      "inicio": 2.773,
+      "fin": 2.982
+    },
+    {
+      "texto": "him",
+      "inicio": 2.995,
+      "fin": 3.164
+    },
+    {
+      "texto": "raise",
+      "inicio": 3.177,
+      "fin": 3.411
+    },
+    {
+      "texto": "his",
+      "inicio": 3.425,
+      "fin": 3.568
+    },
+    {
+      "texto": "voice",
+      "inicio": 3.581,
+      "fin": 4.141
+    },
+    {
+      "texto": "Not",
+      "inicio": 4.57,
+      "fin": 4.727
+    },
+    {
+      "texto": "once",
+      "inicio": 4.74,
+      "fin": 5.182
+    },
+    {
+      "texto": "Not",
+      "inicio": 5.612,
+      "fin": 5.768
+    },
+    {
+      "texto": "in",
+      "inicio": 5.781,
+      "fin": 5.872
+    },
+    {
+      "texto": "three",
+      "inicio": 5.885,
+      "fin": 6.094
+    },
+    {
+      "texto": "years",
+      "inicio": 6.107,
+      "fin": 6.589
+    },
+    {
+      "texto": "And",
+      "inicio": 7.018,
+      "fin": 7.109
+    },
+    {
+      "texto": "still",
+      "inicio": 7.122,
+      "fin": 7.565
+    },
+    {
+      "texto": "by",
+      "inicio": 7.982,
+      "fin": 8.112
+    },
+    {
+      "texto": "the",
+      "inicio": 8.125,
+      "fin": 8.255
+    },
+    {
+      "texto": "end",
+      "inicio": 8.268,
+      "fin": 8.672
+    },
+    {
+      "texto": "she",
+      "inicio": 9.062,
+      "fin": 9.245
+    },
+    {
+      "texto": "couldn't",
+      "inicio": 9.258,
+      "fin": 9.557
+    },
+    {
+      "texto": "order",
+      "inicio": 9.57,
+      "fin": 9.792
+    },
+    {
+      "texto": "dinner",
+      "inicio": 9.805,
+      "fin": 10.091
+    },
+    {
+      "texto": "without",
+      "inicio": 10.104,
+      "fin": 10.469
+    },
+    {
+      "texto": "checking",
+      "inicio": 10.482,
+      "fin": 10.846
+    },
+    {
+      "texto": "his",
+      "inicio": 10.859,
+      "fin": 11.003
+    },
+    {
+      "texto": "face",
+      "inicio": 11.016,
+      "fin": 11.289
+    },
+    {
+      "texto": "first",
+      "inicio": 11.302,
+      "fin": 11.836
+    },
+    {
+      "texto": "This",
+      "inicio": 12.266,
+      "fin": 12.435
+    },
+    {
+      "texto": "is",
+      "inicio": 12.448,
+      "fin": 12.552
+    },
+    {
+      "texto": "the",
+      "inicio": 12.565,
+      "fin": 12.669
+    },
+    {
+      "texto": "story",
+      "inicio": 12.682,
+      "fin": 13.112
+    },
+    {
+      "texto": "of",
+      "inicio": 13.125,
+      "fin": 13.203
+    },
+    {
+      "texto": "the",
+      "inicio": 13.216,
+      "fin": 13.307
+    },
+    {
+      "texto": "politest",
+      "inicio": 13.32,
+      "fin": 13.971
+    },
+    {
+      "texto": "abuser",
+      "inicio": 13.984,
+      "fin": 14.518
+    },
+    {
+      "texto": "you'll",
+      "inicio": 14.531,
+      "fin": 14.727
+    },
+    {
+      "texto": "ever",
+      "inicio": 14.805,
+      "fin": 14.974
+    },
+    {
+      "texto": "hear",
+      "inicio": 14.987,
+      "fin": 15.182
+    },
+    {
+      "texto": "about",
+      "inicio": 15.195,
+      "fin": 15.612
+    },
+    {
+      "texto": "Five",
+      "inicio": 16.081,
+      "fin": 16.276
+    },
+    {
+      "texto": "moves",
+      "inicio": 16.289,
+      "fin": 16.719
+    },
+    {
+      "texto": "Every",
+      "inicio": 17.148,
+      "fin": 17.37
+    },
+    {
+      "texto": "one",
+      "inicio": 17.383,
+      "fin": 17.526
+    },
+    {
+      "texto": "of",
+      "inicio": 17.539,
+      "fin": 17.604
+    },
+    {
+      "texto": "them",
+      "inicio": 17.617,
+      "fin": 17.799
+    },
+    {
+      "texto": "looks",
+      "inicio": 17.812,
+      "fin": 18.047
+    },
+    {
+      "texto": "harmless",
+      "inicio": 18.06,
+      "fin": 18.62
+    },
+    {
+      "texto": "on",
+      "inicio": 18.633,
+      "fin": 18.75
+    },
+    {
+      "texto": "its",
+      "inicio": 18.763,
+      "fin": 18.932
+    },
+    {
+      "texto": "own",
+      "inicio": 18.945,
+      "fin": 19.232
+    },
+    {
+      "texto": "Together",
+      "inicio": 19.661,
+      "fin": 20.065
+    },
+    {
+      "texto": "they",
+      "inicio": 20.443,
+      "fin": 20.56
+    },
+    {
+      "texto": "can",
+      "inicio": 20.573,
+      "fin": 20.69
+    },
+    {
+      "texto": "take",
+      "inicio": 20.703,
+      "fin": 20.911
+    },
+    {
+      "texto": "a",
+      "inicio": 20.924,
+      "fin": 20.977
+    },
+    {
+      "texto": "whole",
+      "inicio": 20.99,
+      "fin": 21.302
+    },
+    {
+      "texto": "person",
+      "inicio": 21.315,
+      "fin": 21.68
+    },
+    {
+      "texto": "apart",
+      "inicio": 21.693,
+      "fin": 22.109
+    },
+    {
+      "texto": "Quietly",
+      "inicio": 22.552,
+      "fin": 22.982
+    },
+    {
+      "texto": "Over",
+      "inicio": 23.411,
+      "fin": 23.607
+    },
+    {
+      "texto": "months",
+      "inicio": 23.62,
+      "fin": 24.128
+    },
+    {
+      "texto": "I'll",
+      "inicio": 24.557,
+      "fin": 24.661
+    },
+    {
+      "texto": "show",
+      "inicio": 24.674,
+      "fin": 24.857
+    },
+    {
+      "texto": "you",
+      "inicio": 24.87,
+      "fin": 25.0
+    },
+    {
+      "texto": "all",
+      "inicio": 25.013,
+      "fin": 25.143
+    },
+    {
+      "texto": "five",
+      "inicio": 25.156,
+      "fin": 25.573
+    },
+    {
+      "texto": "But",
+      "inicio": 26.016,
+      "fin": 26.133
+    },
+    {
+      "texto": "move",
+      "inicio": 26.146,
+      "fin": 26.419
+    },
+    {
+      "texto": "number",
+      "inicio": 26.432,
+      "fin": 26.706
+    },
+    {
+      "texto": "four",
+      "inicio": 26.719,
+      "fin": 27.188
+    },
+    {
+      "texto": "is",
+      "inicio": 27.266,
+      "fin": 27.383
+    },
+    {
+      "texto": "the",
+      "inicio": 27.396,
+      "fin": 27.513
+    },
+    {
+      "texto": "one",
+      "inicio": 27.526,
+      "fin": 27.878
+    },
+    {
+      "texto": "almost",
+      "inicio": 27.891,
+      "fin": 28.346
+    },
+    {
+      "texto": "nobody",
+      "inicio": 28.359,
+      "fin": 28.828
+    },
+    {
+      "texto": "recognizes",
+      "inicio": 28.841,
+      "fin": 29.661
+    },
+    {
+      "texto": "even",
+      "inicio": 30.039,
+      "fin": 30.221
+    },
+    {
+      "texto": "while",
+      "inicio": 30.234,
+      "fin": 30.404
+    },
+    {
+      "texto": "it's",
+      "inicio": 30.417,
+      "fin": 30.508
+    },
+    {
+      "texto": "happening",
+      "inicio": 30.521,
+      "fin": 30.937
+    },
+    {
+      "texto": "to",
+      "inicio": 30.951,
+      "fin": 31.055
+    },
+    {
+      "texto": "them",
+      "inicio": 31.068,
+      "fin": 31.276
+    },
+    {
+      "texto": "First",
+      "inicio": 31.758,
+      "fin": 32.031
+    },
+    {
+      "texto": "a",
+      "inicio": 32.122,
+      "fin": 32.161
+    },
+    {
+      "texto": "quick",
+      "inicio": 32.175,
+      "fin": 32.396
+    },
+    {
+      "texto": "note",
+      "inicio": 32.409,
+      "fin": 32.721
+    },
+    {
+      "texto": "Maya",
+      "inicio": 33.151,
+      "fin": 33.594
+    },
+    {
+      "texto": "and",
+      "inicio": 33.672,
+      "fin": 33.789
+    },
+    {
+      "texto": "Daniel",
+      "inicio": 33.802,
+      "fin": 34.219
+    },
+    {
+      "texto": "aren't",
+      "inicio": 34.232,
+      "fin": 34.479
+    },
+    {
+      "texto": "real",
+      "inicio": 34.492,
+      "fin": 34.674
+    },
+    {
+      "texto": "people",
+      "inicio": 34.688,
+      "fin": 35.091
+    },
+    {
+      "texto": "They're",
+      "inicio": 35.534,
+      "fin": 35.677
+    },
+    {
+      "texto": "a",
+      "inicio": 35.69,
+      "fin": 35.742
+    },
+    {
+      "texto": "composite",
+      "inicio": 35.755,
+      "fin": 36.471
+    },
+    {
+      "texto": "built",
+      "inicio": 36.797,
+      "fin": 37.044
+    },
+    {
+      "texto": "from",
+      "inicio": 37.057,
+      "fin": 37.253
+    },
+    {
+      "texto": "patterns",
+      "inicio": 37.266,
+      "fin": 37.812
+    },
+    {
+      "texto": "that",
+      "inicio": 37.826,
+      "fin": 37.995
+    },
+    {
+      "texto": "therapists",
+      "inicio": 38.008,
+      "fin": 38.633
+    },
+    {
+      "texto": "describe",
+      "inicio": 38.646,
+      "fin": 39.115
+    },
+    {
+      "texto": "again",
+      "inicio": 39.128,
+      "fin": 39.544
+    },
+    {
+      "texto": "and",
+      "inicio": 39.74,
+      "fin": 39.831
+    },
+    {
+      "texto": "again",
+      "inicio": 39.844,
+      "fin": 40.247
+    }
+  ],
+  "texto": "Maya never had a single bruise. Nobody ever heard him raise his voice. Not once. Not in three years. And still, by the end, she couldn't order dinner without checking his face first. This is the story of the politest abuser you'll ever hear about. Five moves. Every one of them looks harmless on its own. Together, they can take a whole person apart. Quietly. Over months. I'll show you all five. But move number four is the one almost nobody recognizes, even while it's happening to them. First, a quick note. Maya and Daniel aren't real people. They're a composite, built from patterns that therapists describe again and again.",
+  "voz": "en-US-AndrewNeural",
+  "rate": "-4%",
+  "capitulo": "HOOK",
+  "nombre": "The paradox"
+}
