@@ -47,19 +47,29 @@ async def sintetizar_bloque(texto, voz, rate, destino_mp3):
     import edge_tts
     from edge_tts.constants import MP3_BITRATE_BPS, TICKS_PER_SECOND
 
-    comunicador = edge_tts.Communicate(texto, voz, rate=rate, boundary="WordBoundary")
-    audio = bytearray()
-    palabras = []
-    async for parte in comunicador.stream():
-        if parte["type"] == "audio":
-            audio.extend(parte["data"])
-        elif parte["type"] == "WordBoundary":
-            inicio = parte["offset"] / TICKS_PER_SECOND
-            palabras.append({"texto": parte["text"], "inicio": round(inicio, 3),
-                             "fin": round(inicio + parte["duration"] / TICKS_PER_SECOND, 3)})
-    destino_mp3.write_bytes(audio)
-    duracion = len(audio) * 8 / MP3_BITRATE_BPS
-    return {"duracion": round(duracion, 3), "palabras": palabras}
+    for intento in range(4):
+        try:
+            comunicador = edge_tts.Communicate(texto, voz, rate=rate, boundary="WordBoundary")
+            audio = bytearray()
+            palabras = []
+            async for parte in comunicador.stream():
+                if parte["type"] == "audio":
+                    audio.extend(parte["data"])
+                elif parte["type"] == "WordBoundary":
+                    inicio = parte["offset"] / TICKS_PER_SECOND
+                    palabras.append({"texto": parte["text"], "inicio": round(inicio, 3),
+                                     "fin": round(inicio + parte["duration"] / TICKS_PER_SECOND, 3)})
+            if not audio:
+                raise RuntimeError("audio vacío")
+            destino_mp3.write_bytes(audio)
+            duracion = len(audio) * 8 / MP3_BITRATE_BPS
+            return {"duracion": round(duracion, 3), "palabras": palabras}
+        except Exception as error:  # noqa: BLE001 - edge-tts a veces corta la conexión sin motivo
+            if intento == 3:
+                raise
+            espera = 5 * (intento + 1)
+            print(f"    {error}, reintentando en {espera}s ({intento + 1}/3)", flush=True)
+            await asyncio.sleep(espera)
 
 
 async def main_async(args):
