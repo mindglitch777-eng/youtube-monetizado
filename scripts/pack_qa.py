@@ -45,13 +45,17 @@ def freezedetect(video):
 
 def ebur128(video):
     r = correr(["ffmpeg", "-i", str(video), "-af", "ebur128=peak=true", "-f", "null", "-"])
-    integrado = re.search(r"I:\s*(-?[\d.]+) LUFS", r.stderr)
-    rango = re.search(r"LRA:\s*([\d.]+) LU", r.stderr)
-    pico = re.search(r"Peak:\s*(-?[\d.]+) dBFS", r.stderr)
+    # ebur128 imprime una lectura por segundo ("t: ... I: ... LUFS ...") y al
+    # final un resumen ("Summary:\n  Integrated loudness:\n    I: ... LUFS").
+    # re.search agarraba la PRIMERA lectura (casi silencio, ~1s de audio) en
+    # vez del resumen final — hay que tomar el último match de cada uno.
+    integrado = re.findall(r"I:\s*(-?[\d.]+) LUFS", r.stderr)
+    rango = re.findall(r"LRA:\s*([\d.]+) LU", r.stderr)
+    pico = re.findall(r"Peak:\s*(-?[\d.]+) dBFS", r.stderr)
     return {
-        "integrado_lufs": float(integrado.group(1)) if integrado else None,
-        "lra": float(rango.group(1)) if rango else None,
-        "true_peak_dbfs": float(pico.group(1)) if pico else None,
+        "integrado_lufs": float(integrado[-1]) if integrado else None,
+        "lra": float(rango[-1]) if rango else None,
+        "true_peak_dbfs": float(pico[-1]) if pico else None,
     }
 
 
