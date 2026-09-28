@@ -11,12 +11,10 @@
      7.3s -> 12.3s (5s) — REVISAR (>0.5s)
      24.5667s -> 26s (1.43333s) — REVISAR (>0.5s)
      62.6s -> 67.0667s (4.46667s) — REVISAR (>0.5s)
-     103.767s -> 108.833s (5.06667s) — REVISAR (>0.5s)
-     139.8s -> 143.5s (3.7s) — REVISAR (>0.5s)
+     103.767s -> 106.767s (3s) — REVISAR (>0.5s)
+     108.333s -> 108.8s (0.466667s) — OK (dip)
      169.567s -> 172.833s (3.26667s) — REVISAR (>0.5s)
-   freezedetect (n=-60dB, d=2): 2 eventos — REVISAR
-     169.9
-     242.967
+   freezedetect (n=-60dB, d=2): 0 eventos — OK
 
 3) ebur128:
    Integrado: -15.0 LUFS (objetivo -14 ±1) — OK

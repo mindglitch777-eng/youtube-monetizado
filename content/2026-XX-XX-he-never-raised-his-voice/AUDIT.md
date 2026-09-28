@@ -1,9 +1,10 @@
 # AUDIT — "He Never Raised His Voice" (PACK video 01)
 
-Estado: **ENTREGADO** (Paso 9 completo). Quedan gaps conocidos y declarados
-(ver desvíos 8, 10 y R5) — no se ocultó nada, se entregó por decisión
-explícita del usuario ("dale mecha, mandame el video final") priorizando
-tener el video hoy sobre una corrección total del lote de imágenes.
+Estado: **ENTREGADO, 2ª ronda** (arreglo puntual pedido por el usuario:
+S002/S014/S028/S036/S079 ilustradas a mano + bug real de subtítulos
+corregido). Queda un gap conocido y declarado (desvío 8: contorno facial
+leve en parte del lote de imágenes de Cloudflare, no tocado en esta
+ronda) — no se ocultó nada.
 
 ## Desvíos y decisiones (nada se omite en silencio)
 
@@ -61,13 +62,13 @@ tener el video hoy sobre una corrección total del lote de imágenes.
    al bloque de estilo, y regenerar solo esas tomas cuando la cuota de
    Cloudflare resetee — no hace falta rehacer el video entero, alcanza con
    reemplazar esas imágenes y volver a renderizar (Remotion no cachea).
-9. **S079: sin imagen real** — Cloudflare agotó la cuota antes de poder
-   generar la escena reformulada (abrazo de espaldas). Para no dejar la
-   toma en negro, se generó LOCALMENTE (sin red, con PIL, sin ninguna
-   figura humana) un fondo de degradado ámbar/frío que respeta la paleta
-   de la escena. Es un placeholder visible, no una imagen del pack real.
-   Reemplazar cuando la cuota permita generar la escena real.
-10. **[GRAVE, CORREGIDO] S002 y S014 no eran siluetas — eran caras casi
+9. **[RESUELTO] S079** — Cloudflare agotó la cuota antes de poder generar
+   la escena reformulada (abrazo de espaldas). En vez de esperar el reset
+   (00:00 UTC), a pedido del usuario se ILUSTRÓ A MANO con PIL (sin IA,
+   sin red): una silueta doble de espaldas abrazándose, contraluz cálido,
+   mismo estilo gráfico-novela que el resto del video (ver desvío 10 para
+   el detalle técnico — mismo método que S002/S014/S028/S036).
+10. **[RESUELTO] S002 y S014 no eran siluetas — eran caras casi
     fotorrealistas** (piel, ojos, boca con detalle), ignorando por completo
     el bloque de estilo. Encontrado en una revisión más amplia (no la
     muestra de 10, sino una pasada manual de ~30/78 imágenes) hecha DESPUÉS
@@ -76,20 +77,33 @@ tener el video hoy sobre una corrección total del lote de imágenes.
     el video. También se encontraron 2 violaciones de texto legible no
     detectadas antes: **S028** (la palabra "friend" escrita + un retrato
     enmarcado con una cara dibujada con detalle) y **S036** (un calendario
-    con números y texto totalmente legibles). Las 4 (S002, S014, S028,
-    S036) se reemplazaron por fondos abstractos generados LOCALMENTE (PIL,
-    sin red, sin figuras humanas ni texto, con la paleta/grado de cada
-    escena) y se volvió a renderizar solo esos 4 tramos (chunks de
-    `pack_render_por_partes.sh`) antes de la mezcla final. La miniatura B
-    (`THUMB_B.jpg`) tenía el mismo problema (dos perfiles faciales nítidos)
-    — la miniatura final ya usa el fondo de hilo rojo sin figuras (ver
-    Paso 9 en LOG.md).
-    **Lo que SIGUE sin revisar exhaustivamente**: de las 78 imágenes, se
-    revisaron a mano ~30 (no las 78) buscando específicamente casos graves
-    como éste — no hay garantía de que no quede alguna otra imagen
-    fotorrealista o con texto entre las ~48 no revisadas. Lo que SÍ está
-    confirmado y aceptado (desvío 8) es el patrón más leve de contorno
-    facial en perfiles a contraluz (~40-50% de la muestra).
+    con números y texto totalmente legibles).
+    Primer intento: se reemplazaron por fondos abstractos (degradados sin
+    figura). El usuario pidió una solución con más "impacto visual" en vez
+    de esperar el reset de cuota de Cloudflare — se reformularon las 4
+    escenas (mismo criterio que S079: de espaldas, cabeza inclinada, u
+    objeto solo sin figura — nunca perfil mirando la luz, sin
+    carteles/calendarios/retratos con texto) y se ILUSTRARON A MANO con
+    PIL (`scripts/pack_ilustrar_a_mano.py`): siluetas humanas vistas de
+    espaldas dibujadas como un solo polígono con proporciones naturales
+    (cuello, hombros, cintura, piernas), con un borde fino de contraluz
+    (doble trazo: la misma silueta 2.5% más grande en el color de rim
+    light, desenfocada, y encima la silueta negra a tamaño normal) sobre
+    fondos con degradado radial — mismo lenguaje visual que el resto del
+    video (siluetas planas + luz de borde + degradado), sin depender de
+    ninguna IA de imágenes. La miniatura B (`THUMB_B.jpg`) tenía el mismo
+    problema (dos perfiles faciales nítidos) — la miniatura final ya usa
+    el fondo de hilo rojo sin figuras (ver Paso 9 en LOG.md).
+    Las 5 imágenes nuevas (S002, S014, S028, S036, S079) se revisaron a
+    mano contra el checklist (sin rasgos faciales, sin texto/números)
+    antes de re-renderizar — las 5 pasan limpio.
+    **Lo que SIGUE sin revisar exhaustivamente**: de las 78 imágenes IA de
+    Cloudflare, se revisaron a mano ~30 (no las 78) buscando
+    específicamente casos graves como éste — no hay garantía de que no
+    quede alguna otra imagen fotorrealista o con texto entre las ~48 no
+    revisadas. Lo que SÍ está confirmado y aceptado (desvío 8) es el
+    patrón más leve de contorno facial en perfiles a contraluz (~40-50% de
+    la muestra) — eso NO se corrigió, sigue como estaba.
 11. **Bug en pack_qa.py (ebur128)**: la primera corrida del QA reportó
     -70 LUFS (prácticamente silencio), que asustaba pero era un bug de
     MEDICIÓN, no del audio real: `re.search` tomaba la PRIMERA lectura de
@@ -106,6 +120,41 @@ tener el video hoy sobre una corrección total del lote de imágenes.
     qa_report.txt, AUDIT.md, credits.txt, metadata.md, timeline.json,
     shots.json, todo el código de `remotion/src/longform/`) sí están
     commiteados y pusheados.
+13. **[BUG REAL, CORREGIDO] Los subtítulos no aparecían en ningún punto del
+    video salvo en la primera toma (S001)**. El usuario lo detectó
+    revisando el `video_final.mp4` entregado a resolución completa en
+    varios timestamps — R8 decía ✅ pero estaba mal verificado (el still
+    que lo confirmó era justo de S001, el único caso que funcionaba por
+    casualidad). Causa raíz encontrada leyendo el código: `Captions.tsx`
+    vive arriba de todos los `<Sequence>` (no adentro de uno, porque tiene
+    que decidir qué toma está activa mirando el timeline completo), así
+    que su `useCurrentFrame()` es el frame ABSOLUTO de toda la
+    composición. Pero `LongForm.tsx` le pasaba las palabras de la toma
+    activa ya convertidas a tiempo RELATIVO al inicio de esa toma
+    (`palabrasLocal`, restando `t.startS`). Comparar tiempo relativo
+    contra frame absoluto solo coincide en la toma que arranca en el
+    frame 0 (S001) — en cualquier otra toma la ventana de subtítulo activa
+    nunca se encontraba (`franjas.find(...)` siempre `undefined`) y el
+    componente no renderizaba nada. Confirmado ANTES del fix con
+    `npx remotion still --frame=1200` (toma S010, ~40s): sin subtítulo, a
+    pesar de que shots.json/timeline.json sí tienen la toma con
+    `captions:true` y 12 palabras en ese rango. Fix: `Captions` ahora
+    recibe `palabras` y `finTomaS` en tiempo ABSOLUTO directamente desde
+    `timeline.json` (`activa.palabras`, `activa.endS`), sin la conversión
+    intermedia — `LongForm.tsx` y `Captions.tsx`. Verificado DESPUÉS del
+    fix con el mismo still (frame 1200): aparece "that therapists describe
+    again and again", que coincide exacto con la palabra real en ese
+    momento. Vuelto a verificar en el `video_final.mp4` YA EXPORTADO (no
+    un still de Remotion) con `ffmpeg -ss 40 ... -frames:v 1`: el
+    subtítulo se ve correctamente grabado en el video real.
+    Nota relacionada (NO corregida, fuera de lo que pidió el usuario):
+    `Pullquote.tsx` tiene el mismo patrón (`useCurrentFrame()` sin
+    Sequence) pero ahí el síntoma es distinto y menor — usa el frame
+    absoluto directo en un `spring()` de entrada, que converge a 1 en
+    pocos frames sea cual sea el valor de `frame`, así que la cita SÍ se
+    ve, pero pierde la animación de entrada (aparece de golpe en vez de
+    desenfocarse suavemente) en cualquier toma que no sea la primera con
+    pullquote. Queda documentado pero sin tocar.
 12. **blackdetect marca 7 tramos "sospechosos"**: se verificaron 2 al azar
     (9s y 64s) extrayendo el frame real del video_final.mp4 — son escenas
     genuinamente oscuras por diseño (siluetas a contraluz, la estética que
@@ -129,7 +178,7 @@ tener el video hoy sobre una corrección total del lote de imágenes.
 | R5 | Imágenes IA pasan el checklist | ⚠️ parcial, mejorado pero no completo | Casos graves (S002,S014,S028,S036) corregidos; contorno facial leve sigue presente en buena parte del lote (desvío 8), aceptado por el usuario |
 | R6 | 8 clips en sus tomas, con grade y credits.txt | ✅ | clips/fit/*.mp4, credits.txt, grade confirmado en still S006 |
 | R7 | 18 placas con entrada animada y fondo animado | ✅ verificado con stills | 8/8 tipos de placa revisados en still (title, note, chapter, concept, cta, list, question, end) |
-| R8 | Subtítulos por frase, sin solapar placas/citas | ✅ verificado con still | still S001: subtítulo + imagen, sin placa/cita simultánea |
+| R8 | Subtítulos por frase, sin solapar placas/citas | ✅ corregido y reverificado | Era ❌ real: bug de tiempo absoluto vs. relativo (desvío 13) hacía que NO se vieran subtítulos salvo en S001. Corregido en Captions.tsx/LongForm.tsx. Verificado en el mp4 exportado (no un still) con ffmpeg en t=40s (toma S010): subtítulo correcto en pantalla |
 | R9 | Hilo rojo por capítulo + corte en la grieta | ✅ presente en todos los stills; snap verificado parcialmente | still S091 (grieta) capturado en pleno flash, no en el frame exacto del corte — no genera dudas sobre la lógica (spec implementada), pero no es una confirmación pixel a pixel del corte |
 | R10 | Movimiento en toda toma IA/clip, sin repetir consecutivos | ✅ (por diseño de datos) | Movimiento.tsx (7 tipos) implementado; shots.json ya viene alternado — no se verificó frame a frame los 104 casos |
 | R11 | Transiciones según JSON, dip entre capítulos | ✅ verificado con stills | flash (S079/S104 area) y transición de capítulo visibles en stills |
