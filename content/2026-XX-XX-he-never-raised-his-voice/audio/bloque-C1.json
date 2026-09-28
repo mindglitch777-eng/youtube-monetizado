@@ -1,0 +1,960 @@
+{
+  "duracion": 67.296,
+  "palabras": [
+    {
+      "texto": "Move",
+      "inicio": 0.104,
+      "fin": 0.286
+    },
+    {
+      "texto": "one",
+      "inicio": 0.299,
+      "fin": 0.586
+    },
+    {
+      "texto": "The",
+      "inicio": 1.029,
+      "fin": 1.094
+    },
+    {
+      "texto": "perfect",
+      "inicio": 1.107,
+      "fin": 1.484
+    },
+    {
+      "texto": "start",
+      "inicio": 1.497,
+      "fin": 1.914
+    },
+    {
+      "texto": "They",
+      "inicio": 2.344,
+      "fin": 2.409
+    },
+    {
+      "texto": "met",
+      "inicio": 2.422,
+      "fin": 2.565
+    },
+    {
+      "texto": "at",
+      "inicio": 2.578,
+      "fin": 2.656
+    },
+    {
+      "texto": "a",
+      "inicio": 2.669,
+      "fin": 2.708
+    },
+    {
+      "texto": "friend's",
+      "inicio": 2.721,
+      "fin": 3.099
+    },
+    {
+      "texto": "birthday",
+      "inicio": 3.112,
+      "fin": 3.503
+    },
+    {
+      "texto": "party",
+      "inicio": 3.516,
+      "fin": 3.906
+    },
+    {
+      "texto": "By",
+      "inicio": 4.349,
+      "fin": 4.44
+    },
+    {
+      "texto": "midnight",
+      "inicio": 4.453,
+      "fin": 4.935
+    },
+    {
+      "texto": "he",
+      "inicio": 4.948,
+      "fin": 5.065
+    },
+    {
+      "texto": "knew",
+      "inicio": 5.078,
+      "fin": 5.273
+    },
+    {
+      "texto": "her",
+      "inicio": 5.286,
+      "fin": 5.417
+    },
+    {
+      "texto": "coffee",
+      "inicio": 5.43,
+      "fin": 5.859
+    },
+    {
+      "texto": "order",
+      "inicio": 5.872,
+      "fin": 6.198
+    },
+    {
+      "texto": "and",
+      "inicio": 6.576,
+      "fin": 6.628
+    },
+    {
+      "texto": "the",
+      "inicio": 6.641,
+      "fin": 6.732
+    },
+    {
+      "texto": "book",
+      "inicio": 6.745,
+      "fin": 7.018
+    },
+    {
+      "texto": "she'd",
+      "inicio": 7.031,
+      "fin": 7.253
+    },
+    {
+      "texto": "mentioned",
+      "inicio": 7.266,
+      "fin": 7.617
+    },
+    {
+      "texto": "once",
+      "inicio": 7.63,
+      "fin": 8.099
+    },
+    {
+      "texto": "The",
+      "inicio": 8.542,
+      "fin": 8.594
+    },
+    {
+      "texto": "next",
+      "inicio": 8.607,
+      "fin": 8.854
+    },
+    {
+      "texto": "morning",
+      "inicio": 8.867,
+      "fin": 9.258
+    },
+    {
+      "texto": "a",
+      "inicio": 9.466,
+      "fin": 9.492
+    },
+    {
+      "texto": "message",
+      "inicio": 9.505,
+      "fin": 10.091
+    },
+    {
+      "texto": "I",
+      "inicio": 10.573,
+      "fin": 10.599
+    },
+    {
+      "texto": "haven't",
+      "inicio": 10.599,
+      "fin": 10.859
+    },
+    {
+      "texto": "stopped",
+      "inicio": 10.872,
+      "fin": 11.211
+    },
+    {
+      "texto": "thinking",
+      "inicio": 11.224,
+      "fin": 11.562
+    },
+    {
+      "texto": "about",
+      "inicio": 11.576,
+      "fin": 11.862
+    },
+    {
+      "texto": "you",
+      "inicio": 11.875,
+      "fin": 12.057
+    },
+    {
+      "texto": "Flowers",
+      "inicio": 12.565,
+      "fin": 12.878
+    },
+    {
+      "texto": "at",
+      "inicio": 12.891,
+      "fin": 12.956
+    },
+    {
+      "texto": "her",
+      "inicio": 12.969,
+      "fin": 13.086
+    },
+    {
+      "texto": "office",
+      "inicio": 13.099,
+      "fin": 13.581
+    },
+    {
+      "texto": "A",
+      "inicio": 14.01,
+      "fin": 14.076
+    },
+    {
+      "texto": "playlist",
+      "inicio": 14.089,
+      "fin": 14.544
+    },
+    {
+      "texto": "made",
+      "inicio": 14.557,
+      "fin": 14.753
+    },
+    {
+      "texto": "just",
+      "inicio": 14.766,
+      "fin": 15.0
+    },
+    {
+      "texto": "for",
+      "inicio": 15.013,
+      "fin": 15.143
+    },
+    {
+      "texto": "her",
+      "inicio": 15.156,
+      "fin": 15.43
+    },
+    {
+      "texto": "A",
+      "inicio": 15.859,
+      "fin": 15.938
+    },
+    {
+      "texto": "weekend",
+      "inicio": 15.951,
+      "fin": 16.302
+    },
+    {
+      "texto": "trip",
+      "inicio": 16.315,
+      "fin": 16.641
+    },
+    {
+      "texto": "planned",
+      "inicio": 16.888,
+      "fin": 17.227
+    },
+    {
+      "texto": "in",
+      "inicio": 17.24,
+      "fin": 17.331
+    },
+    {
+      "texto": "secret",
+      "inicio": 17.344,
+      "fin": 17.839
+    },
+    {
+      "texto": "Week",
+      "inicio": 18.268,
+      "fin": 18.516
+    },
+    {
+      "texto": "three",
+      "inicio": 18.529,
+      "fin": 18.893
+    },
+    {
+      "texto": "I've",
+      "inicio": 19.401,
+      "fin": 19.453
+    },
+    {
+      "texto": "never",
+      "inicio": 19.453,
+      "fin": 19.701
+    },
+    {
+      "texto": "felt",
+      "inicio": 19.714,
+      "fin": 19.974
+    },
+    {
+      "texto": "like",
+      "inicio": 19.987,
+      "fin": 20.208
+    },
+    {
+      "texto": "this",
+      "inicio": 20.221,
+      "fin": 20.43
+    },
+    {
+      "texto": "about",
+      "inicio": 20.443,
+      "fin": 20.716
+    },
+    {
+      "texto": "anyone",
+      "inicio": 20.729,
+      "fin": 21.159
+    },
+    {
+      "texto": "Her",
+      "inicio": 21.628,
+      "fin": 21.706
+    },
+    {
+      "texto": "friends",
+      "inicio": 21.719,
+      "fin": 22.005
+    },
+    {
+      "texto": "were",
+      "inicio": 22.018,
+      "fin": 22.122
+    },
+    {
+      "texto": "thrilled",
+      "inicio": 22.135,
+      "fin": 22.63
+    },
+    {
+      "texto": "Maya",
+      "inicio": 23.06,
+      "fin": 23.32
+    },
+    {
+      "texto": "was",
+      "inicio": 23.333,
+      "fin": 23.516
+    },
+    {
+      "texto": "thrilled",
+      "inicio": 23.529,
+      "fin": 24.01
+    },
+    {
+      "texto": "It",
+      "inicio": 24.453,
+      "fin": 24.531
+    },
+    {
+      "texto": "felt",
+      "inicio": 24.544,
+      "fin": 24.792
+    },
+    {
+      "texto": "like",
+      "inicio": 24.805,
+      "fin": 24.974
+    },
+    {
+      "texto": "being",
+      "inicio": 24.987,
+      "fin": 25.208
+    },
+    {
+      "texto": "chosen",
+      "inicio": 25.221,
+      "fin": 25.677
+    },
+    {
+      "texto": "Within",
+      "inicio": 26.12,
+      "fin": 26.354
+    },
+    {
+      "texto": "a",
+      "inicio": 26.367,
+      "fin": 26.406
+    },
+    {
+      "texto": "month",
+      "inicio": 26.419,
+      "fin": 26.81
+    },
+    {
+      "texto": "they",
+      "inicio": 27.031,
+      "fin": 27.148
+    },
+    {
+      "texto": "were",
+      "inicio": 27.161,
+      "fin": 27.292
+    },
+    {
+      "texto": "saying",
+      "inicio": 27.305,
+      "fin": 27.721
+    },
+    {
+      "texto": "I",
+      "inicio": 27.747,
+      "fin": 27.839
+    },
+    {
+      "texto": "love",
+      "inicio": 27.852,
+      "fin": 28.164
+    },
+    {
+      "texto": "you",
+      "inicio": 28.177,
+      "fin": 28.372
+    },
+    {
+      "texto": "Within",
+      "inicio": 28.815,
+      "fin": 29.063
+    },
+    {
+      "texto": "two",
+      "inicio": 29.076,
+      "fin": 29.388
+    },
+    {
+      "texto": "he",
+      "inicio": 29.779,
+      "fin": 29.857
+    },
+    {
+      "texto": "suggested",
+      "inicio": 29.87,
+      "fin": 30.391
+    },
+    {
+      "texto": "she",
+      "inicio": 30.404,
+      "fin": 30.56
+    },
+    {
+      "texto": "move",
+      "inicio": 30.573,
+      "fin": 30.833
+    },
+    {
+      "texto": "in",
+      "inicio": 30.846,
+      "fin": 31.055
+    },
+    {
+      "texto": "There",
+      "inicio": 31.497,
+      "fin": 31.563
+    },
+    {
+      "texto": "was",
+      "inicio": 31.576,
+      "fin": 31.706
+    },
+    {
+      "texto": "one",
+      "inicio": 31.719,
+      "fin": 32.031
+    },
+    {
+      "texto": "small",
+      "inicio": 32.044,
+      "fin": 32.344
+    },
+    {
+      "texto": "moment",
+      "inicio": 32.357,
+      "fin": 32.695
+    },
+    {
+      "texto": "she",
+      "inicio": 32.708,
+      "fin": 32.839
+    },
+    {
+      "texto": "noticed",
+      "inicio": 32.852,
+      "fin": 33.372
+    },
+    {
+      "texto": "A",
+      "inicio": 33.802,
+      "fin": 33.867
+    },
+    {
+      "texto": "flash",
+      "inicio": 33.88,
+      "fin": 34.362
+    },
+    {
+      "texto": "of",
+      "inicio": 34.375,
+      "fin": 34.479
+    },
+    {
+      "texto": "cold",
+      "inicio": 34.492,
+      "fin": 34.805
+    },
+    {
+      "texto": "irritation",
+      "inicio": 34.818,
+      "fin": 35.521
+    },
+    {
+      "texto": "when",
+      "inicio": 35.69,
+      "fin": 35.794
+    },
+    {
+      "texto": "she",
+      "inicio": 35.807,
+      "fin": 35.951
+    },
+    {
+      "texto": "was",
+      "inicio": 35.964,
+      "fin": 36.12
+    },
+    {
+      "texto": "ten",
+      "inicio": 36.133,
+      "fin": 36.354
+    },
+    {
+      "texto": "minutes",
+      "inicio": 36.367,
+      "fin": 36.641
+    },
+    {
+      "texto": "late",
+      "inicio": 36.654,
+      "fin": 36.992
+    },
+    {
+      "texto": "She",
+      "inicio": 37.435,
+      "fin": 37.565
+    },
+    {
+      "texto": "told",
+      "inicio": 37.578,
+      "fin": 37.839
+    },
+    {
+      "texto": "herself",
+      "inicio": 37.852,
+      "fin": 38.216
+    },
+    {
+      "texto": "it",
+      "inicio": 38.229,
+      "fin": 38.294
+    },
+    {
+      "texto": "was",
+      "inicio": 38.307,
+      "fin": 38.437
+    },
+    {
+      "texto": "nothing",
+      "inicio": 38.451,
+      "fin": 38.854
+    },
+    {
+      "texto": "Everyone",
+      "inicio": 39.284,
+      "fin": 39.596
+    },
+    {
+      "texto": "has",
+      "inicio": 39.609,
+      "fin": 39.74
+    },
+    {
+      "texto": "bad",
+      "inicio": 39.753,
+      "fin": 40.013
+    },
+    {
+      "texto": "days",
+      "inicio": 40.026,
+      "fin": 40.417
+    },
+    {
+      "texto": "Here's",
+      "inicio": 40.872,
+      "fin": 41.029
+    },
+    {
+      "texto": "what",
+      "inicio": 41.042,
+      "fin": 41.133
+    },
+    {
+      "texto": "was",
+      "inicio": 41.146,
+      "fin": 41.289
+    },
+    {
+      "texto": "actually",
+      "inicio": 41.302,
+      "fin": 41.667
+    },
+    {
+      "texto": "happening",
+      "inicio": 41.68,
+      "fin": 42.188
+    },
+    {
+      "texto": "It",
+      "inicio": 42.617,
+      "fin": 42.682
+    },
+    {
+      "texto": "has",
+      "inicio": 42.695,
+      "fin": 42.904
+    },
+    {
+      "texto": "a",
+      "inicio": 42.917,
+      "fin": 42.956
+    },
+    {
+      "texto": "name",
+      "inicio": 42.969,
+      "fin": 43.372
+    },
+    {
+      "texto": "love",
+      "inicio": 43.763,
+      "fin": 43.971
+    },
+    {
+      "texto": "bombing",
+      "inicio": 43.984,
+      "fin": 44.349
+    },
+    {
+      "texto": "Overwhelming",
+      "inicio": 44.779,
+      "fin": 45.404
+    },
+    {
+      "texto": "attention",
+      "inicio": 45.417,
+      "fin": 45.924
+    },
+    {
+      "texto": "fast",
+      "inicio": 46.315,
+      "fin": 46.953
+    },
+    {
+      "texto": "before",
+      "inicio": 47.148,
+      "fin": 47.5
+    },
+    {
+      "texto": "you've",
+      "inicio": 47.513,
+      "fin": 47.656
+    },
+    {
+      "texto": "had",
+      "inicio": 47.669,
+      "fin": 47.852
+    },
+    {
+      "texto": "time",
+      "inicio": 47.865,
+      "fin": 48.125
+    },
+    {
+      "texto": "to",
+      "inicio": 48.138,
+      "fin": 48.229
+    },
+    {
+      "texto": "ask",
+      "inicio": 48.242,
+      "fin": 48.607
+    },
+    {
+      "texto": "who",
+      "inicio": 48.62,
+      "fin": 48.789
+    },
+    {
+      "texto": "this",
+      "inicio": 48.802,
+      "fin": 48.984
+    },
+    {
+      "texto": "person",
+      "inicio": 48.997,
+      "fin": 49.388
+    },
+    {
+      "texto": "really",
+      "inicio": 49.401,
+      "fin": 49.714
+    },
+    {
+      "texto": "is",
+      "inicio": 49.727,
+      "fin": 50.117
+    },
+    {
+      "texto": "It",
+      "inicio": 50.547,
+      "fin": 50.625
+    },
+    {
+      "texto": "isn't",
+      "inicio": 50.638,
+      "fin": 50.872
+    },
+    {
+      "texto": "romance",
+      "inicio": 50.885,
+      "fin": 51.51
+    },
+    {
+      "texto": "It's",
+      "inicio": 51.94,
+      "fin": 52.044
+    },
+    {
+      "texto": "a",
+      "inicio": 52.057,
+      "fin": 52.109
+    },
+    {
+      "texto": "hook",
+      "inicio": 52.122,
+      "fin": 52.448
+    },
+    {
+      "texto": "And",
+      "inicio": 52.878,
+      "fin": 52.943
+    },
+    {
+      "texto": "the",
+      "inicio": 52.956,
+      "fin": 53.034
+    },
+    {
+      "texto": "faster",
+      "inicio": 53.047,
+      "fin": 53.516
+    },
+    {
+      "texto": "it",
+      "inicio": 53.529,
+      "fin": 53.607
+    },
+    {
+      "texto": "sets",
+      "inicio": 53.62,
+      "fin": 54.167
+    },
+    {
+      "texto": "the",
+      "inicio": 54.388,
+      "fin": 54.518
+    },
+    {
+      "texto": "deeper",
+      "inicio": 54.531,
+      "fin": 54.857
+    },
+    {
+      "texto": "it",
+      "inicio": 54.87,
+      "fin": 54.948
+    },
+    {
+      "texto": "goes",
+      "inicio": 54.961,
+      "fin": 55.469
+    },
+    {
+      "texto": "Because",
+      "inicio": 55.911,
+      "fin": 56.146
+    },
+    {
+      "texto": "when",
+      "inicio": 56.159,
+      "fin": 56.289
+    },
+    {
+      "texto": "the",
+      "inicio": 56.302,
+      "fin": 56.393
+    },
+    {
+      "texto": "warmth",
+      "inicio": 56.406,
+      "fin": 56.784
+    },
+    {
+      "texto": "is",
+      "inicio": 56.797,
+      "fin": 56.914
+    },
+    {
+      "texto": "suddenly",
+      "inicio": 56.927,
+      "fin": 57.37
+    },
+    {
+      "texto": "taken",
+      "inicio": 57.383,
+      "fin": 57.708
+    },
+    {
+      "texto": "away",
+      "inicio": 57.721,
+      "fin": 58.099
+    },
+    {
+      "texto": "you'll",
+      "inicio": 58.49,
+      "fin": 58.594
+    },
+    {
+      "texto": "do",
+      "inicio": 58.607,
+      "fin": 58.815
+    },
+    {
+      "texto": "almost",
+      "inicio": 58.828,
+      "fin": 59.258
+    },
+    {
+      "texto": "anything",
+      "inicio": 59.427,
+      "fin": 59.844
+    },
+    {
+      "texto": "to",
+      "inicio": 59.857,
+      "fin": 59.948
+    },
+    {
+      "texto": "get",
+      "inicio": 59.961,
+      "fin": 60.104
+    },
+    {
+      "texto": "it",
+      "inicio": 60.117,
+      "fin": 60.208
+    },
+    {
+      "texto": "back",
+      "inicio": 60.221,
+      "fin": 60.677
+    },
+    {
+      "texto": "But",
+      "inicio": 61.12,
+      "fin": 61.224
+    },
+    {
+      "texto": "Daniel",
+      "inicio": 61.237,
+      "fin": 61.576
+    },
+    {
+      "texto": "wasn't",
+      "inicio": 61.589,
+      "fin": 61.862
+    },
+    {
+      "texto": "finished",
+      "inicio": 61.875,
+      "fin": 62.357
+    },
+    {
+      "texto": "The",
+      "inicio": 62.8,
+      "fin": 62.839
+    },
+    {
+      "texto": "next",
+      "inicio": 62.852,
+      "fin": 63.112
+    },
+    {
+      "texto": "move",
+      "inicio": 63.125,
+      "fin": 63.346
+    },
+    {
+      "texto": "didn't",
+      "inicio": 63.359,
+      "fin": 63.594
+    },
+    {
+      "texto": "target",
+      "inicio": 63.607,
+      "fin": 63.945
+    },
+    {
+      "texto": "Maya",
+      "inicio": 63.958,
+      "fin": 64.258
+    },
+    {
+      "texto": "at",
+      "inicio": 64.271,
+      "fin": 64.362
+    },
+    {
+      "texto": "all",
+      "inicio": 64.375,
+      "fin": 64.648
+    },
+    {
+      "texto": "It",
+      "inicio": 65.078,
+      "fin": 65.182
+    },
+    {
+      "texto": "targeted",
+      "inicio": 65.195,
+      "fin": 65.703
+    },
+    {
+      "texto": "everyone",
+      "inicio": 65.859,
+      "fin": 66.224
+    },
+    {
+      "texto": "around",
+      "inicio": 66.237,
+      "fin": 66.589
+    },
+    {
+      "texto": "her",
+      "inicio": 66.602,
+      "fin": 66.849
+    }
+  ],
+  "texto": "Move one. The perfect start. They met at a friend's birthday party. By midnight he knew her coffee order, and the book she'd mentioned once. The next morning, a message. 'I haven't stopped thinking about you.' Flowers at her office. A playlist made just for her. A weekend trip, planned in secret. Week three. 'I've never felt like this about anyone.' Her friends were thrilled. Maya was thrilled. It felt like being chosen. Within a month, they were saying 'I love you.' Within two, he suggested she move in. There was one small moment she noticed. A flash of cold irritation when she was ten minutes late. She told herself it was nothing. Everyone has bad days. Here's what was actually happening. It has a name: love bombing. Overwhelming attention, fast, before you've had time to ask who this person really is. It isn't romance. It's a hook. And the faster it sets, the deeper it goes. Because when the warmth is suddenly taken away, you'll do almost anything to get it back. But Daniel wasn't finished. The next move didn't target Maya at all. It targeted everyone around her.",
+  "voz": "en-US-AndrewNeural",
+  "rate": "-4%",
+  "capitulo": "C1",
+  "nombre": "Move 1 - The perfect start (love bombing)"
+}

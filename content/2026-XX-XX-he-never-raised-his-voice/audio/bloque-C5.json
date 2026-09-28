@@ -1,0 +1,855 @@
+{
+  "duracion": 64.416,
+  "palabras": [
+    {
+      "texto": "Move",
+      "inicio": 0.104,
+      "fin": 0.352
+    },
+    {
+      "texto": "five",
+      "inicio": 0.365,
+      "fin": 0.781
+    },
+    {
+      "texto": "The",
+      "inicio": 1.211,
+      "fin": 1.263
+    },
+    {
+      "texto": "switch",
+      "inicio": 1.276,
+      "fin": 1.758
+    },
+    {
+      "texto": "One",
+      "inicio": 2.201,
+      "fin": 2.331
+    },
+    {
+      "texto": "Friday",
+      "inicio": 2.344,
+      "fin": 2.747
+    },
+    {
+      "texto": "Maya",
+      "inicio": 2.773,
+      "fin": 3.034
+    },
+    {
+      "texto": "said",
+      "inicio": 3.047,
+      "fin": 3.255
+    },
+    {
+      "texto": "something",
+      "inicio": 3.268,
+      "fin": 3.568
+    },
+    {
+      "texto": "small",
+      "inicio": 3.581,
+      "fin": 3.997
+    },
+    {
+      "texto": "A",
+      "inicio": 4.427,
+      "fin": 4.492
+    },
+    {
+      "texto": "disagreement",
+      "inicio": 4.505,
+      "fin": 5.208
+    },
+    {
+      "texto": "about",
+      "inicio": 5.3,
+      "fin": 5.573
+    },
+    {
+      "texto": "weekend",
+      "inicio": 5.586,
+      "fin": 5.938
+    },
+    {
+      "texto": "plans",
+      "inicio": 5.951,
+      "fin": 6.471
+    },
+    {
+      "texto": "Daniel",
+      "inicio": 6.901,
+      "fin": 7.148
+    },
+    {
+      "texto": "didn't",
+      "inicio": 7.161,
+      "fin": 7.396
+    },
+    {
+      "texto": "yell",
+      "inicio": 7.409,
+      "fin": 7.695
+    },
+    {
+      "texto": "He",
+      "inicio": 8.151,
+      "fin": 8.19
+    },
+    {
+      "texto": "didn't",
+      "inicio": 8.203,
+      "fin": 8.411
+    },
+    {
+      "texto": "even",
+      "inicio": 8.425,
+      "fin": 8.633
+    },
+    {
+      "texto": "answer",
+      "inicio": 8.646,
+      "fin": 9.089
+    },
+    {
+      "texto": "He",
+      "inicio": 9.531,
+      "fin": 9.57
+    },
+    {
+      "texto": "just",
+      "inicio": 9.583,
+      "fin": 9.753
+    },
+    {
+      "texto": "went",
+      "inicio": 9.766,
+      "fin": 9.896
+    },
+    {
+      "texto": "silent",
+      "inicio": 9.909,
+      "fin": 10.378
+    },
+    {
+      "texto": "For",
+      "inicio": 10.846,
+      "fin": 10.925
+    },
+    {
+      "texto": "two",
+      "inicio": 10.938,
+      "fin": 11.12
+    },
+    {
+      "texto": "days",
+      "inicio": 11.133,
+      "fin": 11.563
+    },
+    {
+      "texto": "He",
+      "inicio": 12.005,
+      "fin": 12.083
+    },
+    {
+      "texto": "moved",
+      "inicio": 12.096,
+      "fin": 12.422
+    },
+    {
+      "texto": "through",
+      "inicio": 12.435,
+      "fin": 12.604
+    },
+    {
+      "texto": "the",
+      "inicio": 12.617,
+      "fin": 12.721
+    },
+    {
+      "texto": "apartment",
+      "inicio": 12.734,
+      "fin": 13.268
+    },
+    {
+      "texto": "like",
+      "inicio": 13.385,
+      "fin": 13.516
+    },
+    {
+      "texto": "she",
+      "inicio": 13.529,
+      "fin": 13.672
+    },
+    {
+      "texto": "wasn't",
+      "inicio": 13.685,
+      "fin": 14.036
+    },
+    {
+      "texto": "there",
+      "inicio": 14.05,
+      "fin": 14.323
+    },
+    {
+      "texto": "She",
+      "inicio": 14.753,
+      "fin": 14.883
+    },
+    {
+      "texto": "apologized",
+      "inicio": 14.896,
+      "fin": 15.651
+    },
+    {
+      "texto": "He",
+      "inicio": 16.094,
+      "fin": 16.146
+    },
+    {
+      "texto": "didn't",
+      "inicio": 16.159,
+      "fin": 16.354
+    },
+    {
+      "texto": "respond",
+      "inicio": 16.367,
+      "fin": 16.94
+    },
+    {
+      "texto": "She",
+      "inicio": 17.37,
+      "fin": 17.5
+    },
+    {
+      "texto": "apologized",
+      "inicio": 17.513,
+      "fin": 18.177
+    },
+    {
+      "texto": "again",
+      "inicio": 18.19,
+      "fin": 18.542
+    },
+    {
+      "texto": "Nothing",
+      "inicio": 18.984,
+      "fin": 19.31
+    },
+    {
+      "texto": "By",
+      "inicio": 19.753,
+      "fin": 19.844
+    },
+    {
+      "texto": "Sunday",
+      "inicio": 19.857,
+      "fin": 20.247
+    },
+    {
+      "texto": "night",
+      "inicio": 20.26,
+      "fin": 20.56
+    },
+    {
+      "texto": "she",
+      "inicio": 20.938,
+      "fin": 21.068
+    },
+    {
+      "texto": "was",
+      "inicio": 21.081,
+      "fin": 21.25
+    },
+    {
+      "texto": "begging",
+      "inicio": 21.263,
+      "fin": 21.615
+    },
+    {
+      "texto": "to",
+      "inicio": 21.628,
+      "fin": 21.706
+    },
+    {
+      "texto": "be",
+      "inicio": 21.719,
+      "fin": 21.849
+    },
+    {
+      "texto": "forgiven",
+      "inicio": 21.862,
+      "fin": 22.292
+    },
+    {
+      "texto": "for",
+      "inicio": 22.305,
+      "fin": 22.448
+    },
+    {
+      "texto": "something",
+      "inicio": 22.461,
+      "fin": 22.943
+    },
+    {
+      "texto": "she",
+      "inicio": 23.112,
+      "fin": 23.281
+    },
+    {
+      "texto": "couldn't",
+      "inicio": 23.294,
+      "fin": 23.672
+    },
+    {
+      "texto": "even",
+      "inicio": 23.685,
+      "fin": 23.984
+    },
+    {
+      "texto": "name",
+      "inicio": 23.997,
+      "fin": 24.362
+    },
+    {
+      "texto": "Then",
+      "inicio": 24.792,
+      "fin": 25.091
+    },
+    {
+      "texto": "suddenly",
+      "inicio": 25.326,
+      "fin": 25.794
+    },
+    {
+      "texto": "warmth",
+      "inicio": 25.82,
+      "fin": 26.328
+    },
+    {
+      "texto": "A",
+      "inicio": 26.758,
+      "fin": 26.81
+    },
+    {
+      "texto": "hug",
+      "inicio": 26.823,
+      "fin": 27.214
+    },
+    {
+      "texto": "I'm",
+      "inicio": 27.721,
+      "fin": 27.786
+    },
+    {
+      "texto": "sorry",
+      "inicio": 27.786,
+      "fin": 28.125
+    },
+    {
+      "texto": "I",
+      "inicio": 28.138,
+      "fin": 28.19
+    },
+    {
+      "texto": "got",
+      "inicio": 28.203,
+      "fin": 28.385
+    },
+    {
+      "texto": "so",
+      "inicio": 28.398,
+      "fin": 28.62
+    },
+    {
+      "texto": "upset",
+      "inicio": 28.633,
+      "fin": 29.128
+    },
+    {
+      "texto": "You",
+      "inicio": 29.674,
+      "fin": 29.701
+    },
+    {
+      "texto": "know",
+      "inicio": 29.701,
+      "fin": 29.831
+    },
+    {
+      "texto": "how",
+      "inicio": 29.844,
+      "fin": 30.0
+    },
+    {
+      "texto": "much",
+      "inicio": 30.013,
+      "fin": 30.247
+    },
+    {
+      "texto": "I",
+      "inicio": 30.26,
+      "fin": 30.339
+    },
+    {
+      "texto": "love",
+      "inicio": 30.352,
+      "fin": 30.638
+    },
+    {
+      "texto": "you",
+      "inicio": 30.651,
+      "fin": 30.833
+    },
+    {
+      "texto": "And",
+      "inicio": 31.302,
+      "fin": 31.406
+    },
+    {
+      "texto": "Maya",
+      "inicio": 31.419,
+      "fin": 31.732
+    },
+    {
+      "texto": "felt",
+      "inicio": 31.745,
+      "fin": 32.005
+    },
+    {
+      "texto": "something",
+      "inicio": 32.018,
+      "fin": 32.37
+    },
+    {
+      "texto": "like",
+      "inicio": 32.383,
+      "fin": 32.565
+    },
+    {
+      "texto": "relief",
+      "inicio": 32.578,
+      "fin": 33.086
+    },
+    {
+      "texto": "Almost",
+      "inicio": 33.516,
+      "fin": 33.776
+    },
+    {
+      "texto": "like",
+      "inicio": 33.789,
+      "fin": 33.932
+    },
+    {
+      "texto": "gratitude",
+      "inicio": 33.945,
+      "fin": 34.583
+    },
+    {
+      "texto": "Some",
+      "inicio": 35.026,
+      "fin": 35.221
+    },
+    {
+      "texto": "days",
+      "inicio": 35.234,
+      "fin": 35.69
+    },
+    {
+      "texto": "he",
+      "inicio": 36.068,
+      "fin": 36.12
+    },
+    {
+      "texto": "was",
+      "inicio": 36.133,
+      "fin": 36.263
+    },
+    {
+      "texto": "the",
+      "inicio": 36.276,
+      "fin": 36.354
+    },
+    {
+      "texto": "man",
+      "inicio": 36.367,
+      "fin": 36.693
+    },
+    {
+      "texto": "from",
+      "inicio": 36.706,
+      "fin": 36.849
+    },
+    {
+      "texto": "the",
+      "inicio": 36.862,
+      "fin": 36.94
+    },
+    {
+      "texto": "first",
+      "inicio": 36.953,
+      "fin": 37.305
+    },
+    {
+      "texto": "month",
+      "inicio": 37.318,
+      "fin": 37.513
+    },
+    {
+      "texto": "again",
+      "inicio": 37.526,
+      "fin": 37.865
+    },
+    {
+      "texto": "Attentive",
+      "inicio": 38.294,
+      "fin": 38.789
+    },
+    {
+      "texto": "Funny",
+      "inicio": 39.258,
+      "fin": 39.518
+    },
+    {
+      "texto": "Perfect",
+      "inicio": 39.961,
+      "fin": 40.391
+    },
+    {
+      "texto": "And",
+      "inicio": 40.82,
+      "fin": 40.924
+    },
+    {
+      "texto": "those",
+      "inicio": 40.938,
+      "fin": 41.198
+    },
+    {
+      "texto": "days",
+      "inicio": 41.211,
+      "fin": 41.471
+    },
+    {
+      "texto": "were",
+      "inicio": 41.484,
+      "fin": 41.628
+    },
+    {
+      "texto": "enough",
+      "inicio": 41.641,
+      "fin": 41.966
+    },
+    {
+      "texto": "to",
+      "inicio": 41.979,
+      "fin": 42.083
+    },
+    {
+      "texto": "make",
+      "inicio": 42.096,
+      "fin": 42.37
+    },
+    {
+      "texto": "her",
+      "inicio": 42.383,
+      "fin": 42.513
+    },
+    {
+      "texto": "forget",
+      "inicio": 42.526,
+      "fin": 42.891
+    },
+    {
+      "texto": "the",
+      "inicio": 42.904,
+      "fin": 43.021
+    },
+    {
+      "texto": "others",
+      "inicio": 43.034,
+      "fin": 43.49
+    },
+    {
+      "texto": "Almost",
+      "inicio": 43.919,
+      "fin": 44.362
+    },
+    {
+      "texto": "That's",
+      "inicio": 44.805,
+      "fin": 44.961
+    },
+    {
+      "texto": "the",
+      "inicio": 44.974,
+      "fin": 45.065
+    },
+    {
+      "texto": "switch",
+      "inicio": 45.078,
+      "fin": 45.547
+    },
+    {
+      "texto": "Cruelty",
+      "inicio": 45.977,
+      "fin": 46.51
+    },
+    {
+      "texto": "then",
+      "inicio": 46.836,
+      "fin": 47.031
+    },
+    {
+      "texto": "kindness",
+      "inicio": 47.044,
+      "fin": 47.721
+    },
+    {
+      "texto": "at",
+      "inicio": 47.93,
+      "fin": 48.073
+    },
+    {
+      "texto": "unpredictable",
+      "inicio": 48.086,
+      "fin": 48.802
+    },
+    {
+      "texto": "moments",
+      "inicio": 48.815,
+      "fin": 49.414
+    },
+    {
+      "texto": "It's",
+      "inicio": 49.844,
+      "fin": 49.974
+    },
+    {
+      "texto": "the",
+      "inicio": 49.987,
+      "fin": 50.104
+    },
+    {
+      "texto": "same",
+      "inicio": 50.117,
+      "fin": 50.456
+    },
+    {
+      "texto": "mechanism",
+      "inicio": 50.469,
+      "fin": 51.068
+    },
+    {
+      "texto": "that",
+      "inicio": 51.172,
+      "fin": 51.315
+    },
+    {
+      "texto": "keeps",
+      "inicio": 51.328,
+      "fin": 51.628
+    },
+    {
+      "texto": "people",
+      "inicio": 51.641,
+      "fin": 51.966
+    },
+    {
+      "texto": "pulling",
+      "inicio": 51.979,
+      "fin": 52.331
+    },
+    {
+      "texto": "the",
+      "inicio": 52.344,
+      "fin": 52.435
+    },
+    {
+      "texto": "lever",
+      "inicio": 52.448,
+      "fin": 52.786
+    },
+    {
+      "texto": "on",
+      "inicio": 52.8,
+      "fin": 52.891
+    },
+    {
+      "texto": "a",
+      "inicio": 52.904,
+      "fin": 52.943
+    },
+    {
+      "texto": "slot",
+      "inicio": 52.956,
+      "fin": 53.255
+    },
+    {
+      "texto": "machine",
+      "inicio": 53.268,
+      "fin": 53.685
+    },
+    {
+      "texto": "Your",
+      "inicio": 54.115,
+      "fin": 54.219
+    },
+    {
+      "texto": "brain",
+      "inicio": 54.232,
+      "fin": 54.635
+    },
+    {
+      "texto": "doesn't",
+      "inicio": 54.74,
+      "fin": 55.091
+    },
+    {
+      "texto": "bond",
+      "inicio": 55.104,
+      "fin": 55.378
+    },
+    {
+      "texto": "to",
+      "inicio": 55.391,
+      "fin": 55.443
+    },
+    {
+      "texto": "the",
+      "inicio": 55.456,
+      "fin": 55.547
+    },
+    {
+      "texto": "kindness",
+      "inicio": 55.56,
+      "fin": 56.211
+    },
+    {
+      "texto": "It",
+      "inicio": 56.641,
+      "fin": 56.823
+    },
+    {
+      "texto": "bonds",
+      "inicio": 56.836,
+      "fin": 57.24
+    },
+    {
+      "texto": "to",
+      "inicio": 57.253,
+      "fin": 57.357
+    },
+    {
+      "texto": "the",
+      "inicio": 57.37,
+      "fin": 57.474
+    },
+    {
+      "texto": "relief",
+      "inicio": 57.487,
+      "fin": 57.969
+    },
+    {
+      "texto": "after",
+      "inicio": 58.073,
+      "fin": 58.32
+    },
+    {
+      "texto": "the",
+      "inicio": 58.333,
+      "fin": 58.411
+    },
+    {
+      "texto": "pain",
+      "inicio": 58.425,
+      "fin": 58.776
+    },
+    {
+      "texto": "Researchers",
+      "inicio": 59.206,
+      "fin": 59.74
+    },
+    {
+      "texto": "call",
+      "inicio": 59.753,
+      "fin": 59.961
+    },
+    {
+      "texto": "it",
+      "inicio": 59.974,
+      "fin": 60.039
+    },
+    {
+      "texto": "trauma",
+      "inicio": 60.052,
+      "fin": 60.378
+    },
+    {
+      "texto": "bonding",
+      "inicio": 60.391,
+      "fin": 60.833
+    },
+    {
+      "texto": "And",
+      "inicio": 61.263,
+      "fin": 61.328
+    },
+    {
+      "texto": "it's",
+      "inicio": 61.341,
+      "fin": 61.445
+    },
+    {
+      "texto": "why",
+      "inicio": 61.458,
+      "fin": 61.628
+    },
+    {
+      "texto": "leaving",
+      "inicio": 61.641,
+      "fin": 61.992
+    },
+    {
+      "texto": "is",
+      "inicio": 62.005,
+      "fin": 62.122
+    },
+    {
+      "texto": "so",
+      "inicio": 62.135,
+      "fin": 62.435
+    },
+    {
+      "texto": "much",
+      "inicio": 62.448,
+      "fin": 62.682
+    },
+    {
+      "texto": "harder",
+      "inicio": 62.695,
+      "fin": 63.047
+    },
+    {
+      "texto": "than",
+      "inicio": 63.06,
+      "fin": 63.177
+    },
+    {
+      "texto": "people",
+      "inicio": 63.19,
+      "fin": 63.464
+    },
+    {
+      "texto": "think",
+      "inicio": 63.477,
+      "fin": 63.945
+    }
+  ],
+  "texto": "Move five. The switch. One Friday, Maya said something small. A disagreement about weekend plans. Daniel didn't yell. He didn't even answer. He just went silent. For two days. He moved through the apartment like she wasn't there. She apologized. He didn't respond. She apologized again. Nothing. By Sunday night, she was begging to be forgiven for something she couldn't even name. Then, suddenly, warmth. A hug. 'I'm sorry I got so upset.' 'You know how much I love you.' And Maya felt something like relief. Almost like gratitude. Some days, he was the man from the first month again. Attentive. Funny. Perfect. And those days were enough to make her forget the others. Almost. That's the switch. Cruelty, then kindness, at unpredictable moments. It's the same mechanism that keeps people pulling the lever on a slot machine. Your brain doesn't bond to the kindness. It bonds to the relief after the pain. Researchers call it trauma bonding. And it's why leaving is so much harder than people think.",
+  "voz": "en-US-AndrewNeural",
+  "rate": "-4%",
+  "capitulo": "C5",
+  "nombre": "Move 5 - The switch (trauma bonding)"
+}

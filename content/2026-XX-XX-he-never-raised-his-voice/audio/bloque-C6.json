@@ -1,0 +1,1075 @@
+{
+  "duracion": 73.776,
+  "palabras": [
+    {
+      "texto": "Three",
+      "inicio": 0.143,
+      "fin": 0.313
+    },
+    {
+      "texto": "years",
+      "inicio": 0.326,
+      "fin": 0.612
+    },
+    {
+      "texto": "in",
+      "inicio": 0.625,
+      "fin": 0.807
+    },
+    {
+      "texto": "Maya's",
+      "inicio": 1.224,
+      "fin": 1.549
+    },
+    {
+      "texto": "coworker",
+      "inicio": 1.562,
+      "fin": 2.096
+    },
+    {
+      "texto": "Jo",
+      "inicio": 2.109,
+      "fin": 2.422
+    },
+    {
+      "texto": "asked",
+      "inicio": 2.539,
+      "fin": 2.826
+    },
+    {
+      "texto": "her",
+      "inicio": 2.839,
+      "fin": 2.956
+    },
+    {
+      "texto": "a",
+      "inicio": 2.969,
+      "fin": 3.008
+    },
+    {
+      "texto": "question",
+      "inicio": 3.021,
+      "fin": 3.542
+    },
+    {
+      "texto": "It",
+      "inicio": 3.971,
+      "fin": 4.037
+    },
+    {
+      "texto": "was",
+      "inicio": 4.05,
+      "fin": 4.167
+    },
+    {
+      "texto": "a",
+      "inicio": 4.18,
+      "fin": 4.219
+    },
+    {
+      "texto": "simple",
+      "inicio": 4.232,
+      "fin": 4.583
+    },
+    {
+      "texto": "one",
+      "inicio": 4.596,
+      "fin": 4.818
+    },
+    {
+      "texto": "When",
+      "inicio": 5.339,
+      "fin": 5.391
+    },
+    {
+      "texto": "was",
+      "inicio": 5.391,
+      "fin": 5.508
+    },
+    {
+      "texto": "the",
+      "inicio": 5.521,
+      "fin": 5.625
+    },
+    {
+      "texto": "last",
+      "inicio": 5.638,
+      "fin": 5.964
+    },
+    {
+      "texto": "time",
+      "inicio": 5.977,
+      "fin": 6.185
+    },
+    {
+      "texto": "you",
+      "inicio": 6.198,
+      "fin": 6.289
+    },
+    {
+      "texto": "did",
+      "inicio": 6.302,
+      "fin": 6.484
+    },
+    {
+      "texto": "something",
+      "inicio": 6.497,
+      "fin": 6.927
+    },
+    {
+      "texto": "just",
+      "inicio": 7.057,
+      "fin": 7.318
+    },
+    {
+      "texto": "because",
+      "inicio": 7.331,
+      "fin": 7.708
+    },
+    {
+      "texto": "you",
+      "inicio": 7.721,
+      "fin": 7.813
+    },
+    {
+      "texto": "wanted",
+      "inicio": 7.826,
+      "fin": 8.177
+    },
+    {
+      "texto": "to",
+      "inicio": 8.19,
+      "fin": 8.412
+    },
+    {
+      "texto": "Maya",
+      "inicio": 9.023,
+      "fin": 9.375
+    },
+    {
+      "texto": "opened",
+      "inicio": 9.388,
+      "fin": 9.688
+    },
+    {
+      "texto": "her",
+      "inicio": 9.701,
+      "fin": 9.805
+    },
+    {
+      "texto": "mouth",
+      "inicio": 9.818,
+      "fin": 10.143
+    },
+    {
+      "texto": "to",
+      "inicio": 10.156,
+      "fin": 10.3
+    },
+    {
+      "texto": "answer",
+      "inicio": 10.312,
+      "fin": 10.781
+    },
+    {
+      "texto": "And",
+      "inicio": 11.211,
+      "fin": 11.289
+    },
+    {
+      "texto": "couldn't",
+      "inicio": 11.302,
+      "fin": 11.576
+    },
+    {
+      "texto": "think",
+      "inicio": 11.589,
+      "fin": 11.771
+    },
+    {
+      "texto": "of",
+      "inicio": 11.784,
+      "fin": 11.875
+    },
+    {
+      "texto": "one",
+      "inicio": 11.888,
+      "fin": 12.161
+    },
+    {
+      "texto": "That",
+      "inicio": 12.604,
+      "fin": 12.734
+    },
+    {
+      "texto": "silence",
+      "inicio": 12.747,
+      "fin": 13.177
+    },
+    {
+      "texto": "was",
+      "inicio": 13.19,
+      "fin": 13.32
+    },
+    {
+      "texto": "the",
+      "inicio": 13.333,
+      "fin": 13.424
+    },
+    {
+      "texto": "first",
+      "inicio": 13.438,
+      "fin": 13.776
+    },
+    {
+      "texto": "crack",
+      "inicio": 13.789,
+      "fin": 14.258
+    },
+    {
+      "texto": "Not",
+      "inicio": 14.688,
+      "fin": 14.831
+    },
+    {
+      "texto": "a",
+      "inicio": 14.844,
+      "fin": 14.883
+    },
+    {
+      "texto": "dramatic",
+      "inicio": 14.896,
+      "fin": 15.365
+    },
+    {
+      "texto": "escape",
+      "inicio": 15.378,
+      "fin": 15.859
+    },
+    {
+      "texto": "Just",
+      "inicio": 16.289,
+      "fin": 16.458
+    },
+    {
+      "texto": "a",
+      "inicio": 16.471,
+      "fin": 16.523
+    },
+    {
+      "texto": "question",
+      "inicio": 16.536,
+      "fin": 16.966
+    },
+    {
+      "texto": "she",
+      "inicio": 16.979,
+      "fin": 17.148
+    },
+    {
+      "texto": "couldn't",
+      "inicio": 17.161,
+      "fin": 17.435
+    },
+    {
+      "texto": "answer",
+      "inicio": 17.448,
+      "fin": 17.878
+    },
+    {
+      "texto": "It",
+      "inicio": 18.307,
+      "fin": 18.398
+    },
+    {
+      "texto": "took",
+      "inicio": 18.411,
+      "fin": 18.581
+    },
+    {
+      "texto": "months",
+      "inicio": 18.594,
+      "fin": 19.089
+    },
+    {
+      "texto": "Quiet",
+      "inicio": 19.531,
+      "fin": 19.779
+    },
+    {
+      "texto": "conversations",
+      "inicio": 19.792,
+      "fin": 20.703
+    },
+    {
+      "texto": "A",
+      "inicio": 21.133,
+      "fin": 21.185
+    },
+    {
+      "texto": "counselor",
+      "inicio": 21.198,
+      "fin": 21.771
+    },
+    {
+      "texto": "A",
+      "inicio": 22.201,
+      "fin": 22.253
+    },
+    {
+      "texto": "plan",
+      "inicio": 22.266,
+      "fin": 22.682
+    },
+    {
+      "texto": "Friends",
+      "inicio": 23.151,
+      "fin": 23.424
+    },
+    {
+      "texto": "she",
+      "inicio": 23.438,
+      "fin": 23.594
+    },
+    {
+      "texto": "slowly",
+      "inicio": 23.607,
+      "fin": 24.115
+    },
+    {
+      "texto": "found",
+      "inicio": 24.128,
+      "fin": 24.414
+    },
+    {
+      "texto": "again",
+      "inicio": 24.427,
+      "fin": 24.779
+    },
+    {
+      "texto": "Here's",
+      "inicio": 25.234,
+      "fin": 25.391
+    },
+    {
+      "texto": "what",
+      "inicio": 25.404,
+      "fin": 25.547
+    },
+    {
+      "texto": "movies",
+      "inicio": 25.56,
+      "fin": 25.924
+    },
+    {
+      "texto": "get",
+      "inicio": 25.938,
+      "fin": 26.12
+    },
+    {
+      "texto": "wrong",
+      "inicio": 26.133,
+      "fin": 26.445
+    },
+    {
+      "texto": "Leaving",
+      "inicio": 26.875,
+      "fin": 27.214
+    },
+    {
+      "texto": "isn't",
+      "inicio": 27.331,
+      "fin": 27.591
+    },
+    {
+      "texto": "one",
+      "inicio": 27.604,
+      "fin": 27.852
+    },
+    {
+      "texto": "brave",
+      "inicio": 27.865,
+      "fin": 28.229
+    },
+    {
+      "texto": "moment",
+      "inicio": 28.242,
+      "fin": 28.685
+    },
+    {
+      "texto": "It's",
+      "inicio": 29.115,
+      "fin": 29.232
+    },
+    {
+      "texto": "a",
+      "inicio": 29.245,
+      "fin": 29.297
+    },
+    {
+      "texto": "process",
+      "inicio": 29.31,
+      "fin": 30.026
+    },
+    {
+      "texto": "and",
+      "inicio": 30.234,
+      "fin": 30.365
+    },
+    {
+      "texto": "it",
+      "inicio": 30.378,
+      "fin": 30.469
+    },
+    {
+      "texto": "needs",
+      "inicio": 30.482,
+      "fin": 30.768
+    },
+    {
+      "texto": "support",
+      "inicio": 30.781,
+      "fin": 31.328
+    },
+    {
+      "texto": "because",
+      "inicio": 31.576,
+      "fin": 31.862
+    },
+    {
+      "texto": "the",
+      "inicio": 31.875,
+      "fin": 31.979
+    },
+    {
+      "texto": "exit",
+      "inicio": 32.044,
+      "fin": 32.435
+    },
+    {
+      "texto": "can",
+      "inicio": 32.448,
+      "fin": 32.604
+    },
+    {
+      "texto": "be",
+      "inicio": 32.617,
+      "fin": 32.76
+    },
+    {
+      "texto": "the",
+      "inicio": 32.773,
+      "fin": 32.878
+    },
+    {
+      "texto": "riskiest",
+      "inicio": 32.891,
+      "fin": 33.438
+    },
+    {
+      "texto": "part",
+      "inicio": 33.451,
+      "fin": 33.802
+    },
+    {
+      "texto": "Five",
+      "inicio": 34.271,
+      "fin": 34.466
+    },
+    {
+      "texto": "moves",
+      "inicio": 34.479,
+      "fin": 34.909
+    },
+    {
+      "texto": "Overwhelming",
+      "inicio": 35.339,
+      "fin": 35.872
+    },
+    {
+      "texto": "attention",
+      "inicio": 35.885,
+      "fin": 36.406
+    },
+    {
+      "texto": "Isolation",
+      "inicio": 36.836,
+      "fin": 37.487
+    },
+    {
+      "texto": "Rewriting",
+      "inicio": 37.917,
+      "fin": 38.424
+    },
+    {
+      "texto": "your",
+      "inicio": 38.438,
+      "fin": 38.542
+    },
+    {
+      "texto": "memory",
+      "inicio": 38.555,
+      "fin": 39.01
+    },
+    {
+      "texto": "A",
+      "inicio": 39.44,
+      "fin": 39.505
+    },
+    {
+      "texto": "debt",
+      "inicio": 39.518,
+      "fin": 39.688
+    },
+    {
+      "texto": "you",
+      "inicio": 39.701,
+      "fin": 39.805
+    },
+    {
+      "texto": "can",
+      "inicio": 39.818,
+      "fin": 39.961
+    },
+    {
+      "texto": "never",
+      "inicio": 39.974,
+      "fin": 40.208
+    },
+    {
+      "texto": "pay",
+      "inicio": 40.221,
+      "fin": 40.521
+    },
+    {
+      "texto": "And",
+      "inicio": 40.951,
+      "fin": 41.029
+    },
+    {
+      "texto": "the",
+      "inicio": 41.042,
+      "fin": 41.12
+    },
+    {
+      "texto": "switch",
+      "inicio": 41.133,
+      "fin": 41.471
+    },
+    {
+      "texto": "between",
+      "inicio": 41.484,
+      "fin": 41.862
+    },
+    {
+      "texto": "cruelty",
+      "inicio": 41.875,
+      "fin": 42.552
+    },
+    {
+      "texto": "and",
+      "inicio": 42.643,
+      "fin": 42.747
+    },
+    {
+      "texto": "kindness",
+      "inicio": 42.76,
+      "fin": 43.451
+    },
+    {
+      "texto": "Not",
+      "inicio": 43.88,
+      "fin": 44.036
+    },
+    {
+      "texto": "one",
+      "inicio": 44.05,
+      "fin": 44.18
+    },
+    {
+      "texto": "of",
+      "inicio": 44.193,
+      "fin": 44.258
+    },
+    {
+      "texto": "them",
+      "inicio": 44.271,
+      "fin": 44.453
+    },
+    {
+      "texto": "leaves",
+      "inicio": 44.466,
+      "fin": 44.714
+    },
+    {
+      "texto": "a",
+      "inicio": 44.727,
+      "fin": 44.779
+    },
+    {
+      "texto": "bruise",
+      "inicio": 44.792,
+      "fin": 45.312
+    },
+    {
+      "texto": "That's",
+      "inicio": 45.755,
+      "fin": 45.911
+    },
+    {
+      "texto": "exactly",
+      "inicio": 45.925,
+      "fin": 46.432
+    },
+    {
+      "texto": "why",
+      "inicio": 46.445,
+      "fin": 46.615
+    },
+    {
+      "texto": "they",
+      "inicio": 46.628,
+      "fin": 46.758
+    },
+    {
+      "texto": "work",
+      "inicio": 46.771,
+      "fin": 47.161
+    },
+    {
+      "texto": "If",
+      "inicio": 47.591,
+      "fin": 47.708
+    },
+    {
+      "texto": "you",
+      "inicio": 47.721,
+      "fin": 47.865
+    },
+    {
+      "texto": "recognized",
+      "inicio": 47.878,
+      "fin": 48.555
+    },
+    {
+      "texto": "even",
+      "inicio": 48.724,
+      "fin": 49.023
+    },
+    {
+      "texto": "one",
+      "inicio": 49.036,
+      "fin": 49.193
+    },
+    {
+      "texto": "of",
+      "inicio": 49.206,
+      "fin": 49.271
+    },
+    {
+      "texto": "these",
+      "inicio": 49.284,
+      "fin": 49.479
+    },
+    {
+      "texto": "in",
+      "inicio": 49.492,
+      "fin": 49.57
+    },
+    {
+      "texto": "your",
+      "inicio": 49.583,
+      "fin": 49.753
+    },
+    {
+      "texto": "own",
+      "inicio": 49.766,
+      "fin": 49.922
+    },
+    {
+      "texto": "life",
+      "inicio": 49.935,
+      "fin": 50.365
+    },
+    {
+      "texto": "that",
+      "inicio": 50.664,
+      "fin": 50.833
+    },
+    {
+      "texto": "doesn't",
+      "inicio": 50.846,
+      "fin": 51.133
+    },
+    {
+      "texto": "make",
+      "inicio": 51.146,
+      "fin": 51.354
+    },
+    {
+      "texto": "you",
+      "inicio": 51.367,
+      "fin": 51.497
+    },
+    {
+      "texto": "weak",
+      "inicio": 51.51,
+      "fin": 51.914
+    },
+    {
+      "texto": "It",
+      "inicio": 52.344,
+      "fin": 52.422
+    },
+    {
+      "texto": "means",
+      "inicio": 52.435,
+      "fin": 52.669
+    },
+    {
+      "texto": "it",
+      "inicio": 52.682,
+      "fin": 52.786
+    },
+    {
+      "texto": "worked",
+      "inicio": 52.8,
+      "fin": 53.099
+    },
+    {
+      "texto": "on",
+      "inicio": 53.112,
+      "fin": 53.229
+    },
+    {
+      "texto": "you",
+      "inicio": 53.242,
+      "fin": 53.359
+    },
+    {
+      "texto": "the",
+      "inicio": 53.372,
+      "fin": 53.464
+    },
+    {
+      "texto": "way",
+      "inicio": 53.477,
+      "fin": 53.711
+    },
+    {
+      "texto": "it's",
+      "inicio": 53.724,
+      "fin": 53.854
+    },
+    {
+      "texto": "designed",
+      "inicio": 53.867,
+      "fin": 54.349
+    },
+    {
+      "texto": "to",
+      "inicio": 54.362,
+      "fin": 54.427
+    },
+    {
+      "texto": "work",
+      "inicio": 54.44,
+      "fin": 54.74
+    },
+    {
+      "texto": "on",
+      "inicio": 54.753,
+      "fin": 54.896
+    },
+    {
+      "texto": "anyone",
+      "inicio": 55.026,
+      "fin": 55.482
+    },
+    {
+      "texto": "Talk",
+      "inicio": 55.925,
+      "fin": 56.12
+    },
+    {
+      "texto": "to",
+      "inicio": 56.133,
+      "fin": 56.211
+    },
+    {
+      "texto": "someone",
+      "inicio": 56.224,
+      "fin": 56.536
+    },
+    {
+      "texto": "you",
+      "inicio": 56.55,
+      "fin": 56.615
+    },
+    {
+      "texto": "trust",
+      "inicio": 56.628,
+      "fin": 57.122
+    },
+    {
+      "texto": "or",
+      "inicio": 57.513,
+      "fin": 57.643
+    },
+    {
+      "texto": "reach",
+      "inicio": 57.656,
+      "fin": 57.904
+    },
+    {
+      "texto": "out",
+      "inicio": 57.917,
+      "fin": 58.06
+    },
+    {
+      "texto": "to",
+      "inicio": 58.073,
+      "fin": 58.177
+    },
+    {
+      "texto": "a",
+      "inicio": 58.19,
+      "fin": 58.268
+    },
+    {
+      "texto": "professional",
+      "inicio": 58.281,
+      "fin": 58.971
+    },
+    {
+      "texto": "or",
+      "inicio": 59.219,
+      "fin": 59.284
+    },
+    {
+      "texto": "a",
+      "inicio": 59.297,
+      "fin": 59.336
+    },
+    {
+      "texto": "local",
+      "inicio": 59.349,
+      "fin": 59.687
+    },
+    {
+      "texto": "helpline",
+      "inicio": 59.701,
+      "fin": 60.182
+    },
+    {
+      "texto": "You",
+      "inicio": 60.612,
+      "fin": 60.69
+    },
+    {
+      "texto": "don't",
+      "inicio": 60.703,
+      "fin": 60.885
+    },
+    {
+      "texto": "have",
+      "inicio": 60.898,
+      "fin": 61.107
+    },
+    {
+      "texto": "to",
+      "inicio": 61.12,
+      "fin": 61.211
+    },
+    {
+      "texto": "sort",
+      "inicio": 61.224,
+      "fin": 61.51
+    },
+    {
+      "texto": "this",
+      "inicio": 61.523,
+      "fin": 61.719
+    },
+    {
+      "texto": "out",
+      "inicio": 61.732,
+      "fin": 61.849
+    },
+    {
+      "texto": "alone",
+      "inicio": 61.862,
+      "fin": 62.292
+    },
+    {
+      "texto": "Now",
+      "inicio": 62.721,
+      "fin": 62.839
+    },
+    {
+      "texto": "I",
+      "inicio": 62.852,
+      "fin": 62.891
+    },
+    {
+      "texto": "want",
+      "inicio": 62.904,
+      "fin": 63.034
+    },
+    {
+      "texto": "to",
+      "inicio": 63.047,
+      "fin": 63.086
+    },
+    {
+      "texto": "ask",
+      "inicio": 63.099,
+      "fin": 63.307
+    },
+    {
+      "texto": "you",
+      "inicio": 63.32,
+      "fin": 63.398
+    },
+    {
+      "texto": "something",
+      "inicio": 63.411,
+      "fin": 63.815
+    },
+    {
+      "texto": "Which",
+      "inicio": 64.258,
+      "fin": 64.414
+    },
+    {
+      "texto": "move",
+      "inicio": 64.427,
+      "fin": 64.648
+    },
+    {
+      "texto": "would",
+      "inicio": 64.661,
+      "fin": 64.779
+    },
+    {
+      "texto": "you",
+      "inicio": 64.792,
+      "fin": 64.844
+    },
+    {
+      "texto": "have",
+      "inicio": 64.857,
+      "fin": 64.948
+    },
+    {
+      "texto": "caught",
+      "inicio": 64.961,
+      "fin": 65.221
+    },
+    {
+      "texto": "first",
+      "inicio": 65.234,
+      "fin": 65.794
+    },
+    {
+      "texto": "Comment",
+      "inicio": 66.224,
+      "fin": 66.536
+    },
+    {
+      "texto": "the",
+      "inicio": 66.549,
+      "fin": 66.615
+    },
+    {
+      "texto": "number",
+      "inicio": 66.628,
+      "fin": 67.07
+    },
+    {
+      "texto": "one",
+      "inicio": 67.344,
+      "fin": 67.474
+    },
+    {
+      "texto": "to",
+      "inicio": 67.487,
+      "fin": 67.552
+    },
+    {
+      "texto": "five",
+      "inicio": 67.565,
+      "fin": 67.982
+    },
+    {
+      "texto": "No",
+      "inicio": 68.411,
+      "fin": 68.568
+    },
+    {
+      "texto": "judgment",
+      "inicio": 68.581,
+      "fin": 69.115
+    },
+    {
+      "texto": "That's",
+      "inicio": 69.557,
+      "fin": 69.714
+    },
+    {
+      "texto": "the",
+      "inicio": 69.727,
+      "fin": 69.818
+    },
+    {
+      "texto": "whole",
+      "inicio": 69.831,
+      "fin": 70.013
+    },
+    {
+      "texto": "point",
+      "inicio": 70.026,
+      "fin": 70.378
+    },
+    {
+      "texto": "Next",
+      "inicio": 70.807,
+      "fin": 71.029
+    },
+    {
+      "texto": "video",
+      "inicio": 71.042,
+      "fin": 71.458
+    },
+    {
+      "texto": "the",
+      "inicio": 71.862,
+      "fin": 71.94
+    },
+    {
+      "texto": "apology",
+      "inicio": 71.953,
+      "fin": 72.604
+    },
+    {
+      "texto": "that",
+      "inicio": 72.617,
+      "fin": 72.773
+    },
+    {
+      "texto": "isn't",
+      "inicio": 72.786,
+      "fin": 73.034
+    },
+    {
+      "texto": "one",
+      "inicio": 73.047,
+      "fin": 73.32
+    }
+  ],
+  "texto": "Three years in, Maya's coworker Jo asked her a question. It was a simple one. 'When was the last time you did something just because you wanted to?' Maya opened her mouth to answer. And couldn't think of one. That silence was the first crack. Not a dramatic escape. Just a question she couldn't answer. It took months. Quiet conversations. A counselor. A plan. Friends she slowly found again. Here's what movies get wrong. Leaving isn't one brave moment. It's a process, and it needs support, because the exit can be the riskiest part. Five moves. Overwhelming attention. Isolation. Rewriting your memory. A debt you can never pay. And the switch between cruelty and kindness. Not one of them leaves a bruise. That's exactly why they work. If you recognized even one of these in your own life, that doesn't make you weak. It means it worked on you the way it's designed to work on anyone. Talk to someone you trust, or reach out to a professional or a local helpline. You don't have to sort this out alone. Now I want to ask you something. Which move would you have caught first? Comment the number, one to five. No judgment. That's the whole point. Next video: the apology that isn't one.",
+  "voz": "en-US-AndrewNeural",
+  "rate": "-4%",
+  "capitulo": "C6",
+  "nombre": "The first crack, and how people get out"
+}

@@ -1,0 +1,940 @@
+{
+  "duracion": 65.928,
+  "palabras": [
+    {
+      "texto": "Move",
+      "inicio": 0.104,
+      "fin": 0.352
+    },
+    {
+      "texto": "four",
+      "inicio": 0.365,
+      "fin": 0.781
+    },
+    {
+      "texto": "The",
+      "inicio": 1.211,
+      "fin": 1.289
+    },
+    {
+      "texto": "debt",
+      "inicio": 1.302,
+      "fin": 1.549
+    },
+    {
+      "texto": "she",
+      "inicio": 1.562,
+      "fin": 1.719
+    },
+    {
+      "texto": "never",
+      "inicio": 1.732,
+      "fin": 2.044
+    },
+    {
+      "texto": "owed",
+      "inicio": 2.057,
+      "fin": 2.318
+    },
+    {
+      "texto": "After",
+      "inicio": 2.826,
+      "fin": 2.995
+    },
+    {
+      "texto": "everything",
+      "inicio": 3.073,
+      "fin": 3.477
+    },
+    {
+      "texto": "I've",
+      "inicio": 3.49,
+      "fin": 3.62
+    },
+    {
+      "texto": "done",
+      "inicio": 3.633,
+      "fin": 3.828
+    },
+    {
+      "texto": "for",
+      "inicio": 3.841,
+      "fin": 4.049
+    },
+    {
+      "texto": "you",
+      "inicio": 4.062,
+      "fin": 4.219
+    },
+    {
+      "texto": "He",
+      "inicio": 4.675,
+      "fin": 4.727
+    },
+    {
+      "texto": "said",
+      "inicio": 4.74,
+      "fin": 4.935
+    },
+    {
+      "texto": "it",
+      "inicio": 4.948,
+      "fin": 5.039
+    },
+    {
+      "texto": "after",
+      "inicio": 5.052,
+      "fin": 5.299
+    },
+    {
+      "texto": "the",
+      "inicio": 5.312,
+      "fin": 5.378
+    },
+    {
+      "texto": "trip",
+      "inicio": 5.391,
+      "fin": 5.742
+    },
+    {
+      "texto": "After",
+      "inicio": 6.172,
+      "fin": 6.406
+    },
+    {
+      "texto": "the",
+      "inicio": 6.419,
+      "fin": 6.51
+    },
+    {
+      "texto": "dinner",
+      "inicio": 6.523,
+      "fin": 6.875
+    },
+    {
+      "texto": "After",
+      "inicio": 7.305,
+      "fin": 7.539
+    },
+    {
+      "texto": "the",
+      "inicio": 7.552,
+      "fin": 7.617
+    },
+    {
+      "texto": "night",
+      "inicio": 7.63,
+      "fin": 7.982
+    },
+    {
+      "texto": "he",
+      "inicio": 8.125,
+      "fin": 8.229
+    },
+    {
+      "texto": "drove",
+      "inicio": 8.242,
+      "fin": 8.529
+    },
+    {
+      "texto": "her",
+      "inicio": 8.542,
+      "fin": 8.659
+    },
+    {
+      "texto": "home",
+      "inicio": 8.672,
+      "fin": 8.984
+    },
+    {
+      "texto": "Every",
+      "inicio": 9.414,
+      "fin": 9.688
+    },
+    {
+      "texto": "kindness",
+      "inicio": 9.701,
+      "fin": 10.273
+    },
+    {
+      "texto": "became",
+      "inicio": 10.286,
+      "fin": 10.651
+    },
+    {
+      "texto": "a",
+      "inicio": 10.664,
+      "fin": 10.703
+    },
+    {
+      "texto": "receipt",
+      "inicio": 10.716,
+      "fin": 11.276
+    },
+    {
+      "texto": "And",
+      "inicio": 11.706,
+      "fin": 11.797
+    },
+    {
+      "texto": "Maya",
+      "inicio": 11.81,
+      "fin": 12.07
+    },
+    {
+      "texto": "was",
+      "inicio": 12.083,
+      "fin": 12.24
+    },
+    {
+      "texto": "always",
+      "inicio": 12.253,
+      "fin": 12.578
+    },
+    {
+      "texto": "in",
+      "inicio": 12.591,
+      "fin": 12.682
+    },
+    {
+      "texto": "debt",
+      "inicio": 12.695,
+      "fin": 13.06
+    },
+    {
+      "texto": "Money",
+      "inicio": 13.49,
+      "fin": 13.685
+    },
+    {
+      "texto": "became",
+      "inicio": 13.698,
+      "fin": 14.062
+    },
+    {
+      "texto": "part",
+      "inicio": 14.076,
+      "fin": 14.297
+    },
+    {
+      "texto": "of",
+      "inicio": 14.31,
+      "fin": 14.375
+    },
+    {
+      "texto": "it",
+      "inicio": 14.388,
+      "fin": 14.492
+    },
+    {
+      "texto": "too",
+      "inicio": 14.505,
+      "fin": 14.844
+    },
+    {
+      "texto": "Small",
+      "inicio": 15.273,
+      "fin": 15.482
+    },
+    {
+      "texto": "things",
+      "inicio": 15.495,
+      "fin": 15.703
+    },
+    {
+      "texto": "first",
+      "inicio": 15.716,
+      "fin": 16.198
+    },
+    {
+      "texto": "Let",
+      "inicio": 16.693,
+      "fin": 16.719
+    },
+    {
+      "texto": "me",
+      "inicio": 16.719,
+      "fin": 16.81
+    },
+    {
+      "texto": "handle",
+      "inicio": 16.823,
+      "fin": 17.083
+    },
+    {
+      "texto": "the",
+      "inicio": 17.096,
+      "fin": 17.188
+    },
+    {
+      "texto": "bills",
+      "inicio": 17.201,
+      "fin": 17.656
+    },
+    {
+      "texto": "You'd",
+      "inicio": 18.086,
+      "fin": 18.216
+    },
+    {
+      "texto": "only",
+      "inicio": 18.229,
+      "fin": 18.464
+    },
+    {
+      "texto": "stress",
+      "inicio": 18.477,
+      "fin": 19.049
+    },
+    {
+      "texto": "Soon",
+      "inicio": 19.492,
+      "fin": 19.857
+    },
+    {
+      "texto": "she",
+      "inicio": 20.273,
+      "fin": 20.404
+    },
+    {
+      "texto": "needed",
+      "inicio": 20.417,
+      "fin": 20.69
+    },
+    {
+      "texto": "permission",
+      "inicio": 20.703,
+      "fin": 21.159
+    },
+    {
+      "texto": "to",
+      "inicio": 21.172,
+      "fin": 21.237
+    },
+    {
+      "texto": "spend",
+      "inicio": 21.25,
+      "fin": 21.536
+    },
+    {
+      "texto": "her",
+      "inicio": 21.549,
+      "fin": 21.68
+    },
+    {
+      "texto": "own",
+      "inicio": 21.693,
+      "fin": 21.823
+    },
+    {
+      "texto": "paycheck",
+      "inicio": 21.836,
+      "fin": 22.409
+    },
+    {
+      "texto": "And",
+      "inicio": 22.839,
+      "fin": 22.904
+    },
+    {
+      "texto": "it",
+      "inicio": 22.917,
+      "fin": 23.034
+    },
+    {
+      "texto": "never",
+      "inicio": 23.047,
+      "fin": 23.32
+    },
+    {
+      "texto": "once",
+      "inicio": 23.333,
+      "fin": 23.529
+    },
+    {
+      "texto": "looked",
+      "inicio": 23.542,
+      "fin": 23.75
+    },
+    {
+      "texto": "like",
+      "inicio": 23.763,
+      "fin": 23.919
+    },
+    {
+      "texto": "control",
+      "inicio": 23.932,
+      "fin": 24.479
+    },
+    {
+      "texto": "She",
+      "inicio": 24.922,
+      "fin": 25.026
+    },
+    {
+      "texto": "tried",
+      "inicio": 25.039,
+      "fin": 25.273
+    },
+    {
+      "texto": "to",
+      "inicio": 25.286,
+      "fin": 25.339
+    },
+    {
+      "texto": "pay",
+      "inicio": 25.352,
+      "fin": 25.508
+    },
+    {
+      "texto": "it",
+      "inicio": 25.521,
+      "fin": 25.599
+    },
+    {
+      "texto": "back",
+      "inicio": 25.612,
+      "fin": 26.003
+    },
+    {
+      "texto": "She",
+      "inicio": 26.432,
+      "fin": 26.576
+    },
+    {
+      "texto": "cooked",
+      "inicio": 26.589,
+      "fin": 27.005
+    },
+    {
+      "texto": "She",
+      "inicio": 27.435,
+      "fin": 27.565
+    },
+    {
+      "texto": "apologized",
+      "inicio": 27.578,
+      "fin": 28.333
+    },
+    {
+      "texto": "She",
+      "inicio": 28.776,
+      "fin": 28.893
+    },
+    {
+      "texto": "changed",
+      "inicio": 28.906,
+      "fin": 29.245
+    },
+    {
+      "texto": "how",
+      "inicio": 29.258,
+      "fin": 29.362
+    },
+    {
+      "texto": "she",
+      "inicio": 29.375,
+      "fin": 29.505
+    },
+    {
+      "texto": "dressed",
+      "inicio": 29.518,
+      "fin": 30.078
+    },
+    {
+      "texto": "And",
+      "inicio": 30.508,
+      "fin": 30.638
+    },
+    {
+      "texto": "every",
+      "inicio": 30.651,
+      "fin": 30.885
+    },
+    {
+      "texto": "time",
+      "inicio": 30.898,
+      "fin": 31.133
+    },
+    {
+      "texto": "she",
+      "inicio": 31.146,
+      "fin": 31.276
+    },
+    {
+      "texto": "got",
+      "inicio": 31.289,
+      "fin": 31.497
+    },
+    {
+      "texto": "close",
+      "inicio": 31.51,
+      "fin": 31.862
+    },
+    {
+      "texto": "to",
+      "inicio": 31.875,
+      "fin": 31.966
+    },
+    {
+      "texto": "being",
+      "inicio": 31.979,
+      "fin": 32.279
+    },
+    {
+      "texto": "good",
+      "inicio": 32.305,
+      "fin": 32.474
+    },
+    {
+      "texto": "enough",
+      "inicio": 32.487,
+      "fin": 32.93
+    },
+    {
+      "texto": "the",
+      "inicio": 33.216,
+      "fin": 33.32
+    },
+    {
+      "texto": "rules",
+      "inicio": 33.333,
+      "fin": 33.711
+    },
+    {
+      "texto": "quietly",
+      "inicio": 33.724,
+      "fin": 34.232
+    },
+    {
+      "texto": "changed",
+      "inicio": 34.245,
+      "fin": 34.844
+    },
+    {
+      "texto": "Yesterday",
+      "inicio": 35.273,
+      "fin": 35.794
+    },
+    {
+      "texto": "the",
+      "inicio": 36.055,
+      "fin": 36.146
+    },
+    {
+      "texto": "problem",
+      "inicio": 36.159,
+      "fin": 36.563
+    },
+    {
+      "texto": "was",
+      "inicio": 36.576,
+      "fin": 36.706
+    },
+    {
+      "texto": "that",
+      "inicio": 36.719,
+      "fin": 36.849
+    },
+    {
+      "texto": "she",
+      "inicio": 36.862,
+      "fin": 36.992
+    },
+    {
+      "texto": "was",
+      "inicio": 37.005,
+      "fin": 37.148
+    },
+    {
+      "texto": "too",
+      "inicio": 37.161,
+      "fin": 37.37
+    },
+    {
+      "texto": "quiet",
+      "inicio": 37.383,
+      "fin": 37.865
+    },
+    {
+      "texto": "Today",
+      "inicio": 38.294,
+      "fin": 38.581
+    },
+    {
+      "texto": "she",
+      "inicio": 38.841,
+      "fin": 38.971
+    },
+    {
+      "texto": "was",
+      "inicio": 38.984,
+      "fin": 39.128
+    },
+    {
+      "texto": "too",
+      "inicio": 39.141,
+      "fin": 39.323
+    },
+    {
+      "texto": "loud",
+      "inicio": 39.336,
+      "fin": 39.701
+    },
+    {
+      "texto": "There",
+      "inicio": 40.143,
+      "fin": 40.234
+    },
+    {
+      "texto": "was",
+      "inicio": 40.247,
+      "fin": 40.365
+    },
+    {
+      "texto": "no",
+      "inicio": 40.378,
+      "fin": 40.625
+    },
+    {
+      "texto": "version",
+      "inicio": 40.638,
+      "fin": 41.081
+    },
+    {
+      "texto": "of",
+      "inicio": 41.094,
+      "fin": 41.185
+    },
+    {
+      "texto": "Maya",
+      "inicio": 41.198,
+      "fin": 41.628
+    },
+    {
+      "texto": "that",
+      "inicio": 41.641,
+      "fin": 41.81
+    },
+    {
+      "texto": "could",
+      "inicio": 41.823,
+      "fin": 41.992
+    },
+    {
+      "texto": "win",
+      "inicio": 42.005,
+      "fin": 42.357
+    },
+    {
+      "texto": "because",
+      "inicio": 42.669,
+      "fin": 42.969
+    },
+    {
+      "texto": "winning",
+      "inicio": 42.982,
+      "fin": 43.307
+    },
+    {
+      "texto": "was",
+      "inicio": 43.32,
+      "fin": 43.49
+    },
+    {
+      "texto": "never",
+      "inicio": 43.503,
+      "fin": 43.815
+    },
+    {
+      "texto": "the",
+      "inicio": 43.828,
+      "fin": 43.906
+    },
+    {
+      "texto": "game",
+      "inicio": 43.919,
+      "fin": 44.258
+    },
+    {
+      "texto": "Guilt",
+      "inicio": 44.688,
+      "fin": 45.013
+    },
+    {
+      "texto": "turns",
+      "inicio": 45.091,
+      "fin": 45.443
+    },
+    {
+      "texto": "love",
+      "inicio": 45.456,
+      "fin": 45.898
+    },
+    {
+      "texto": "into",
+      "inicio": 46.029,
+      "fin": 46.224
+    },
+    {
+      "texto": "leverage",
+      "inicio": 46.237,
+      "fin": 46.836
+    },
+    {
+      "texto": "Moving",
+      "inicio": 47.266,
+      "fin": 47.565
+    },
+    {
+      "texto": "goalposts",
+      "inicio": 47.578,
+      "fin": 48.229
+    },
+    {
+      "texto": "means",
+      "inicio": 48.242,
+      "fin": 48.555
+    },
+    {
+      "texto": "you",
+      "inicio": 48.568,
+      "fin": 48.659
+    },
+    {
+      "texto": "never",
+      "inicio": 48.672,
+      "fin": 48.958
+    },
+    {
+      "texto": "finish",
+      "inicio": 48.971,
+      "fin": 49.284
+    },
+    {
+      "texto": "paying",
+      "inicio": 49.297,
+      "fin": 49.675
+    },
+    {
+      "texto": "Here's",
+      "inicio": 50.117,
+      "fin": 50.286
+    },
+    {
+      "texto": "the",
+      "inicio": 50.3,
+      "fin": 50.391
+    },
+    {
+      "texto": "part",
+      "inicio": 50.404,
+      "fin": 50.703
+    },
+    {
+      "texto": "nobody",
+      "inicio": 50.716,
+      "fin": 51.146
+    },
+    {
+      "texto": "sees",
+      "inicio": 51.159,
+      "fin": 51.693
+    },
+    {
+      "texto": "the",
+      "inicio": 51.953,
+      "fin": 52.057
+    },
+    {
+      "texto": "target",
+      "inicio": 52.07,
+      "fin": 52.513
+    },
+    {
+      "texto": "isn't",
+      "inicio": 52.656,
+      "fin": 52.904
+    },
+    {
+      "texto": "obedience",
+      "inicio": 52.917,
+      "fin": 53.737
+    },
+    {
+      "texto": "It's",
+      "inicio": 54.167,
+      "fin": 54.284
+    },
+    {
+      "texto": "exhaustion",
+      "inicio": 54.297,
+      "fin": 54.922
+    },
+    {
+      "texto": "A",
+      "inicio": 55.352,
+      "fin": 55.404
+    },
+    {
+      "texto": "tired",
+      "inicio": 55.417,
+      "fin": 55.807
+    },
+    {
+      "texto": "person",
+      "inicio": 55.82,
+      "fin": 56.237
+    },
+    {
+      "texto": "doesn't",
+      "inicio": 56.25,
+      "fin": 56.576
+    },
+    {
+      "texto": "argue",
+      "inicio": 56.589,
+      "fin": 56.979
+    },
+    {
+      "texto": "A",
+      "inicio": 57.409,
+      "fin": 57.461
+    },
+    {
+      "texto": "tired",
+      "inicio": 57.474,
+      "fin": 57.865
+    },
+    {
+      "texto": "person",
+      "inicio": 57.878,
+      "fin": 58.333
+    },
+    {
+      "texto": "just",
+      "inicio": 58.425,
+      "fin": 58.633
+    },
+    {
+      "texto": "tries",
+      "inicio": 58.646,
+      "fin": 58.932
+    },
+    {
+      "texto": "harder",
+      "inicio": 58.945,
+      "fin": 59.388
+    },
+    {
+      "texto": "But",
+      "inicio": 59.818,
+      "fin": 59.896
+    },
+    {
+      "texto": "the",
+      "inicio": 59.909,
+      "fin": 59.987
+    },
+    {
+      "texto": "fifth",
+      "inicio": 60.0,
+      "fin": 60.286
+    },
+    {
+      "texto": "move",
+      "inicio": 60.3,
+      "fin": 60.69
+    },
+    {
+      "texto": "is",
+      "inicio": 60.82,
+      "fin": 60.911
+    },
+    {
+      "texto": "the",
+      "inicio": 60.925,
+      "fin": 61.029
+    },
+    {
+      "texto": "one",
+      "inicio": 61.042,
+      "fin": 61.38
+    },
+    {
+      "texto": "that",
+      "inicio": 61.393,
+      "fin": 61.537
+    },
+    {
+      "texto": "keeps",
+      "inicio": 61.55,
+      "fin": 61.823
+    },
+    {
+      "texto": "people",
+      "inicio": 61.836,
+      "fin": 62.122
+    },
+    {
+      "texto": "for",
+      "inicio": 62.135,
+      "fin": 62.266
+    },
+    {
+      "texto": "years",
+      "inicio": 62.279,
+      "fin": 62.76
+    },
+    {
+      "texto": "Because",
+      "inicio": 63.203,
+      "fin": 63.438
+    },
+    {
+      "texto": "it's",
+      "inicio": 63.451,
+      "fin": 63.581
+    },
+    {
+      "texto": "the",
+      "inicio": 63.594,
+      "fin": 63.737
+    },
+    {
+      "texto": "only",
+      "inicio": 63.815,
+      "fin": 64.128
+    },
+    {
+      "texto": "one",
+      "inicio": 64.141,
+      "fin": 64.466
+    },
+    {
+      "texto": "that",
+      "inicio": 64.479,
+      "fin": 64.609
+    },
+    {
+      "texto": "feels",
+      "inicio": 64.622,
+      "fin": 64.948
+    },
+    {
+      "texto": "like",
+      "inicio": 64.961,
+      "fin": 65.117
+    },
+    {
+      "texto": "hope",
+      "inicio": 65.13,
+      "fin": 65.508
+    }
+  ],
+  "texto": "Move four. The debt she never owed. 'After everything I've done for you.' He said it after the trip. After the dinner. After the night he drove her home. Every kindness became a receipt. And Maya was always in debt. Money became part of it too. Small things first. 'Let me handle the bills. You'd only stress.' Soon, she needed permission to spend her own paycheck. And it never once looked like control. She tried to pay it back. She cooked. She apologized. She changed how she dressed. And every time she got close to being 'good enough,' the rules quietly changed. Yesterday, the problem was that she was too quiet. Today, she was too loud. There was no version of Maya that could win, because winning was never the game. Guilt turns love into leverage. Moving goalposts means you never finish paying. Here's the part nobody sees: the target isn't obedience. It's exhaustion. A tired person doesn't argue. A tired person just tries harder. But the fifth move is the one that keeps people for years. Because it's the only one that feels like hope.",
+  "voz": "en-US-AndrewNeural",
+  "rate": "-4%",
+  "capitulo": "C4",
+  "nombre": "Move 4 - The debt she never owed (guilt + moving goalposts)"
+}

@@ -1,0 +1,935 @@
+{
+  "duracion": 65.4,
+  "palabras": [
+    {
+      "texto": "Move",
+      "inicio": 0.104,
+      "fin": 0.378
+    },
+    {
+      "texto": "three",
+      "inicio": 0.391,
+      "fin": 0.755
+    },
+    {
+      "texto": "The",
+      "inicio": 1.198,
+      "fin": 1.25
+    },
+    {
+      "texto": "memory",
+      "inicio": 1.263,
+      "fin": 1.628
+    },
+    {
+      "texto": "edit",
+      "inicio": 1.641,
+      "fin": 1.953
+    },
+    {
+      "texto": "One",
+      "inicio": 2.383,
+      "fin": 2.643
+    },
+    {
+      "texto": "evening",
+      "inicio": 2.656,
+      "fin": 2.969
+    },
+    {
+      "texto": "she",
+      "inicio": 2.982,
+      "fin": 3.125
+    },
+    {
+      "texto": "said",
+      "inicio": 3.138,
+      "fin": 3.503
+    },
+    {
+      "texto": "You",
+      "inicio": 3.971,
+      "fin": 4.063
+    },
+    {
+      "texto": "told",
+      "inicio": 4.076,
+      "fin": 4.349
+    },
+    {
+      "texto": "me",
+      "inicio": 4.362,
+      "fin": 4.466
+    },
+    {
+      "texto": "you'd",
+      "inicio": 4.479,
+      "fin": 4.622
+    },
+    {
+      "texto": "be",
+      "inicio": 4.635,
+      "fin": 4.766
+    },
+    {
+      "texto": "home",
+      "inicio": 4.779,
+      "fin": 5.169
+    },
+    {
+      "texto": "by",
+      "inicio": 5.182,
+      "fin": 5.339
+    },
+    {
+      "texto": "seven",
+      "inicio": 5.352,
+      "fin": 5.768
+    },
+    {
+      "texto": "He",
+      "inicio": 6.341,
+      "fin": 6.406
+    },
+    {
+      "texto": "looked",
+      "inicio": 6.419,
+      "fin": 6.628
+    },
+    {
+      "texto": "at",
+      "inicio": 6.641,
+      "fin": 6.732
+    },
+    {
+      "texto": "her",
+      "inicio": 6.745,
+      "fin": 6.94
+    },
+    {
+      "texto": "calm",
+      "inicio": 7.318,
+      "fin": 7.734
+    },
+    {
+      "texto": "almost",
+      "inicio": 8.06,
+      "fin": 8.372
+    },
+    {
+      "texto": "kind",
+      "inicio": 8.385,
+      "fin": 8.841
+    },
+    {
+      "texto": "I",
+      "inicio": 9.31,
+      "fin": 9.336
+    },
+    {
+      "texto": "never",
+      "inicio": 9.336,
+      "fin": 9.583
+    },
+    {
+      "texto": "said",
+      "inicio": 9.596,
+      "fin": 9.857
+    },
+    {
+      "texto": "that",
+      "inicio": 9.87,
+      "fin": 10.143
+    },
+    {
+      "texto": "She",
+      "inicio": 10.586,
+      "fin": 10.716
+    },
+    {
+      "texto": "was",
+      "inicio": 10.729,
+      "fin": 10.859
+    },
+    {
+      "texto": "sure",
+      "inicio": 10.872,
+      "fin": 11.263
+    },
+    {
+      "texto": "She",
+      "inicio": 11.693,
+      "fin": 11.823
+    },
+    {
+      "texto": "could",
+      "inicio": 11.836,
+      "fin": 11.966
+    },
+    {
+      "texto": "almost",
+      "inicio": 11.979,
+      "fin": 12.331
+    },
+    {
+      "texto": "hear",
+      "inicio": 12.344,
+      "fin": 12.487
+    },
+    {
+      "texto": "his",
+      "inicio": 12.5,
+      "fin": 12.63
+    },
+    {
+      "texto": "voice",
+      "inicio": 12.643,
+      "fin": 12.93
+    },
+    {
+      "texto": "saying",
+      "inicio": 12.943,
+      "fin": 13.307
+    },
+    {
+      "texto": "it",
+      "inicio": 13.32,
+      "fin": 13.49
+    },
+    {
+      "texto": "You're",
+      "inicio": 13.984,
+      "fin": 14.01
+    },
+    {
+      "texto": "tired",
+      "inicio": 14.01,
+      "fin": 14.349
+    },
+    {
+      "texto": "Maya",
+      "inicio": 14.375,
+      "fin": 14.688
+    },
+    {
+      "texto": "You",
+      "inicio": 15.117,
+      "fin": 15.195
+    },
+    {
+      "texto": "get",
+      "inicio": 15.208,
+      "fin": 15.352
+    },
+    {
+      "texto": "confused",
+      "inicio": 15.365,
+      "fin": 16.016
+    },
+    {
+      "texto": "when",
+      "inicio": 16.029,
+      "fin": 16.133
+    },
+    {
+      "texto": "you're",
+      "inicio": 16.146,
+      "fin": 16.263
+    },
+    {
+      "texto": "stressed",
+      "inicio": 16.276,
+      "fin": 16.901
+    },
+    {
+      "texto": "He",
+      "inicio": 17.461,
+      "fin": 17.5
+    },
+    {
+      "texto": "was",
+      "inicio": 17.513,
+      "fin": 17.643
+    },
+    {
+      "texto": "never",
+      "inicio": 17.656,
+      "fin": 17.904
+    },
+    {
+      "texto": "cruel",
+      "inicio": 17.917,
+      "fin": 18.229
+    },
+    {
+      "texto": "about",
+      "inicio": 18.242,
+      "fin": 18.529
+    },
+    {
+      "texto": "it",
+      "inicio": 18.542,
+      "fin": 18.698
+    },
+    {
+      "texto": "That",
+      "inicio": 19.141,
+      "fin": 19.232
+    },
+    {
+      "texto": "was",
+      "inicio": 19.245,
+      "fin": 19.362
+    },
+    {
+      "texto": "the",
+      "inicio": 19.375,
+      "fin": 19.453
+    },
+    {
+      "texto": "trick",
+      "inicio": 19.466,
+      "fin": 19.883
+    },
+    {
+      "texto": "Patient",
+      "inicio": 20.326,
+      "fin": 20.755
+    },
+    {
+      "texto": "Gentle",
+      "inicio": 21.172,
+      "fin": 21.549
+    },
+    {
+      "texto": "Almost",
+      "inicio": 21.979,
+      "fin": 22.24
+    },
+    {
+      "texto": "sad",
+      "inicio": 22.253,
+      "fin": 22.513
+    },
+    {
+      "texto": "for",
+      "inicio": 22.526,
+      "fin": 22.669
+    },
+    {
+      "texto": "her",
+      "inicio": 22.682,
+      "fin": 22.93
+    },
+    {
+      "texto": "It",
+      "inicio": 23.359,
+      "fin": 23.438
+    },
+    {
+      "texto": "happened",
+      "inicio": 23.451,
+      "fin": 23.802
+    },
+    {
+      "texto": "again",
+      "inicio": 23.815,
+      "fin": 24.102
+    },
+    {
+      "texto": "the",
+      "inicio": 24.115,
+      "fin": 24.18
+    },
+    {
+      "texto": "next",
+      "inicio": 24.193,
+      "fin": 24.466
+    },
+    {
+      "texto": "week",
+      "inicio": 24.479,
+      "fin": 24.831
+    },
+    {
+      "texto": "And",
+      "inicio": 25.26,
+      "fin": 25.312
+    },
+    {
+      "texto": "the",
+      "inicio": 25.326,
+      "fin": 25.391
+    },
+    {
+      "texto": "next",
+      "inicio": 25.404,
+      "fin": 25.938
+    },
+    {
+      "texto": "A",
+      "inicio": 26.367,
+      "fin": 26.419
+    },
+    {
+      "texto": "comment",
+      "inicio": 26.432,
+      "fin": 26.797
+    },
+    {
+      "texto": "she",
+      "inicio": 26.81,
+      "fin": 26.966
+    },
+    {
+      "texto": "remembered",
+      "inicio": 26.979,
+      "fin": 27.461
+    },
+    {
+      "texto": "A",
+      "inicio": 27.891,
+      "fin": 27.956
+    },
+    {
+      "texto": "promise",
+      "inicio": 27.969,
+      "fin": 28.359
+    },
+    {
+      "texto": "he",
+      "inicio": 28.372,
+      "fin": 28.451
+    },
+    {
+      "texto": "never",
+      "inicio": 28.477,
+      "fin": 28.763
+    },
+    {
+      "texto": "made",
+      "inicio": 28.776,
+      "fin": 29.076
+    },
+    {
+      "texto": "A",
+      "inicio": 29.414,
+      "fin": 29.492
+    },
+    {
+      "texto": "fight",
+      "inicio": 29.505,
+      "fin": 29.766
+    },
+    {
+      "texto": "she",
+      "inicio": 29.779,
+      "fin": 29.935
+    },
+    {
+      "texto": "supposedly",
+      "inicio": 29.948,
+      "fin": 30.521
+    },
+    {
+      "texto": "started",
+      "inicio": 30.534,
+      "fin": 30.99
+    },
+    {
+      "texto": "When",
+      "inicio": 31.419,
+      "fin": 31.497
+    },
+    {
+      "texto": "she",
+      "inicio": 31.51,
+      "fin": 31.654
+    },
+    {
+      "texto": "told",
+      "inicio": 31.667,
+      "fin": 31.901
+    },
+    {
+      "texto": "a",
+      "inicio": 31.914,
+      "fin": 31.94
+    },
+    {
+      "texto": "friend",
+      "inicio": 31.953,
+      "fin": 32.357
+    },
+    {
+      "texto": "it",
+      "inicio": 32.669,
+      "fin": 32.734
+    },
+    {
+      "texto": "sounded",
+      "inicio": 32.747,
+      "fin": 33.138
+    },
+    {
+      "texto": "so",
+      "inicio": 33.151,
+      "fin": 33.424
+    },
+    {
+      "texto": "small",
+      "inicio": 33.438,
+      "fin": 33.815
+    },
+    {
+      "texto": "out",
+      "inicio": 33.828,
+      "fin": 33.997
+    },
+    {
+      "texto": "loud",
+      "inicio": 34.01,
+      "fin": 34.362
+    },
+    {
+      "texto": "He",
+      "inicio": 34.87,
+      "fin": 34.896
+    },
+    {
+      "texto": "just",
+      "inicio": 34.896,
+      "fin": 35.091
+    },
+    {
+      "texto": "says",
+      "inicio": 35.104,
+      "fin": 35.312
+    },
+    {
+      "texto": "I",
+      "inicio": 35.326,
+      "fin": 35.391
+    },
+    {
+      "texto": "remembered",
+      "inicio": 35.404,
+      "fin": 35.833
+    },
+    {
+      "texto": "it",
+      "inicio": 35.846,
+      "fin": 35.951
+    },
+    {
+      "texto": "wrong",
+      "inicio": 35.964,
+      "fin": 36.289
+    },
+    {
+      "texto": "Slowly",
+      "inicio": 36.849,
+      "fin": 37.279
+    },
+    {
+      "texto": "Maya",
+      "inicio": 37.747,
+      "fin": 37.995
+    },
+    {
+      "texto": "stopped",
+      "inicio": 38.008,
+      "fin": 38.333
+    },
+    {
+      "texto": "trusting",
+      "inicio": 38.346,
+      "fin": 38.776
+    },
+    {
+      "texto": "her",
+      "inicio": 38.789,
+      "fin": 38.945
+    },
+    {
+      "texto": "own",
+      "inicio": 39.023,
+      "fin": 39.154
+    },
+    {
+      "texto": "memory",
+      "inicio": 39.167,
+      "fin": 39.609
+    },
+    {
+      "texto": "She",
+      "inicio": 40.052,
+      "fin": 40.156
+    },
+    {
+      "texto": "started",
+      "inicio": 40.169,
+      "fin": 40.508
+    },
+    {
+      "texto": "writing",
+      "inicio": 40.521,
+      "fin": 40.807
+    },
+    {
+      "texto": "things",
+      "inicio": 40.82,
+      "fin": 41.12
+    },
+    {
+      "texto": "down",
+      "inicio": 41.133,
+      "fin": 41.497
+    },
+    {
+      "texto": "Then",
+      "inicio": 41.927,
+      "fin": 42.018
+    },
+    {
+      "texto": "he",
+      "inicio": 42.031,
+      "fin": 42.122
+    },
+    {
+      "texto": "found",
+      "inicio": 42.135,
+      "fin": 42.37
+    },
+    {
+      "texto": "the",
+      "inicio": 42.383,
+      "fin": 42.435
+    },
+    {
+      "texto": "notes",
+      "inicio": 42.448,
+      "fin": 42.969
+    },
+    {
+      "texto": "Why",
+      "inicio": 43.477,
+      "fin": 43.49
+    },
+    {
+      "texto": "are",
+      "inicio": 43.568,
+      "fin": 43.659
+    },
+    {
+      "texto": "you",
+      "inicio": 43.672,
+      "fin": 43.776
+    },
+    {
+      "texto": "keeping",
+      "inicio": 43.789,
+      "fin": 44.115
+    },
+    {
+      "texto": "records",
+      "inicio": 44.128,
+      "fin": 44.479
+    },
+    {
+      "texto": "on",
+      "inicio": 44.492,
+      "fin": 44.635
+    },
+    {
+      "texto": "me",
+      "inicio": 44.648,
+      "fin": 44.818
+    },
+    {
+      "texto": "That's",
+      "inicio": 45.26,
+      "fin": 45.417
+    },
+    {
+      "texto": "sick",
+      "inicio": 45.43,
+      "fin": 45.859
+    },
+    {
+      "texto": "This",
+      "inicio": 46.302,
+      "fin": 46.602
+    },
+    {
+      "texto": "is",
+      "inicio": 46.706,
+      "fin": 46.875
+    },
+    {
+      "texto": "gaslighting",
+      "inicio": 46.888,
+      "fin": 47.643
+    },
+    {
+      "texto": "making",
+      "inicio": 48.138,
+      "fin": 48.411
+    },
+    {
+      "texto": "someone",
+      "inicio": 48.425,
+      "fin": 48.737
+    },
+    {
+      "texto": "doubt",
+      "inicio": 48.75,
+      "fin": 49.05
+    },
+    {
+      "texto": "their",
+      "inicio": 49.062,
+      "fin": 49.193
+    },
+    {
+      "texto": "memory",
+      "inicio": 49.206,
+      "fin": 49.727
+    },
+    {
+      "texto": "their",
+      "inicio": 50.013,
+      "fin": 50.143
+    },
+    {
+      "texto": "perception",
+      "inicio": 50.156,
+      "fin": 50.859
+    },
+    {
+      "texto": "their",
+      "inicio": 51.133,
+      "fin": 51.263
+    },
+    {
+      "texto": "sanity",
+      "inicio": 51.276,
+      "fin": 51.836
+    },
+    {
+      "texto": "It",
+      "inicio": 52.266,
+      "fin": 52.409
+    },
+    {
+      "texto": "works",
+      "inicio": 52.422,
+      "fin": 52.695
+    },
+    {
+      "texto": "because",
+      "inicio": 52.708,
+      "fin": 53.008
+    },
+    {
+      "texto": "it",
+      "inicio": 53.021,
+      "fin": 53.125
+    },
+    {
+      "texto": "doesn't",
+      "inicio": 53.138,
+      "fin": 53.438
+    },
+    {
+      "texto": "feel",
+      "inicio": 53.451,
+      "fin": 53.698
+    },
+    {
+      "texto": "like",
+      "inicio": 53.711,
+      "fin": 53.867
+    },
+    {
+      "texto": "an",
+      "inicio": 53.88,
+      "fin": 53.958
+    },
+    {
+      "texto": "attack",
+      "inicio": 53.971,
+      "fin": 54.505
+    },
+    {
+      "texto": "It",
+      "inicio": 54.935,
+      "fin": 55.026
+    },
+    {
+      "texto": "feels",
+      "inicio": 55.039,
+      "fin": 55.273
+    },
+    {
+      "texto": "like",
+      "inicio": 55.286,
+      "fin": 55.43
+    },
+    {
+      "texto": "concern",
+      "inicio": 55.443,
+      "fin": 55.99
+    },
+    {
+      "texto": "And",
+      "inicio": 56.419,
+      "fin": 56.536
+    },
+    {
+      "texto": "once",
+      "inicio": 56.55,
+      "fin": 56.771
+    },
+    {
+      "texto": "you",
+      "inicio": 56.784,
+      "fin": 56.901
+    },
+    {
+      "texto": "can't",
+      "inicio": 56.914,
+      "fin": 57.188
+    },
+    {
+      "texto": "trust",
+      "inicio": 57.201,
+      "fin": 57.5
+    },
+    {
+      "texto": "your",
+      "inicio": 57.513,
+      "fin": 57.643
+    },
+    {
+      "texto": "own",
+      "inicio": 57.656,
+      "fin": 57.8
+    },
+    {
+      "texto": "mind",
+      "inicio": 57.812,
+      "fin": 58.19
+    },
+    {
+      "texto": "you",
+      "inicio": 58.594,
+      "fin": 58.672
+    },
+    {
+      "texto": "have",
+      "inicio": 58.685,
+      "fin": 58.906
+    },
+    {
+      "texto": "to",
+      "inicio": 58.919,
+      "fin": 59.01
+    },
+    {
+      "texto": "borrow",
+      "inicio": 59.023,
+      "fin": 59.388
+    },
+    {
+      "texto": "his",
+      "inicio": 59.401,
+      "fin": 59.883
+    },
+    {
+      "texto": "Which",
+      "inicio": 60.312,
+      "fin": 60.469
+    },
+    {
+      "texto": "brings",
+      "inicio": 60.482,
+      "fin": 60.755
+    },
+    {
+      "texto": "us",
+      "inicio": 60.768,
+      "fin": 60.885
+    },
+    {
+      "texto": "to",
+      "inicio": 60.898,
+      "fin": 60.99
+    },
+    {
+      "texto": "move",
+      "inicio": 61.003,
+      "fin": 61.237
+    },
+    {
+      "texto": "four",
+      "inicio": 61.25,
+      "fin": 61.68
+    },
+    {
+      "texto": "The",
+      "inicio": 62.122,
+      "fin": 62.188
+    },
+    {
+      "texto": "one",
+      "inicio": 62.201,
+      "fin": 62.344
+    },
+    {
+      "texto": "I",
+      "inicio": 62.357,
+      "fin": 62.422
+    },
+    {
+      "texto": "promised",
+      "inicio": 62.435,
+      "fin": 63.047
+    },
+    {
+      "texto": "The",
+      "inicio": 63.49,
+      "fin": 63.555
+    },
+    {
+      "texto": "one",
+      "inicio": 63.568,
+      "fin": 63.776
+    },
+    {
+      "texto": "almost",
+      "inicio": 63.789,
+      "fin": 64.128
+    },
+    {
+      "texto": "no",
+      "inicio": 64.141,
+      "fin": 64.271
+    },
+    {
+      "texto": "one",
+      "inicio": 64.284,
+      "fin": 64.44
+    },
+    {
+      "texto": "sees",
+      "inicio": 64.453,
+      "fin": 64.961
+    }
+  ],
+  "texto": "Move three. The memory edit. One evening she said, 'You told me you'd be home by seven.' He looked at her, calm, almost kind. 'I never said that.' She was sure. She could almost hear his voice saying it. 'You're tired, Maya. You get confused when you're stressed.' He was never cruel about it. That was the trick. Patient. Gentle. Almost sad for her. It happened again the next week. And the next. A comment she remembered. A promise he 'never made.' A fight she supposedly started. When she told a friend, it sounded so small out loud. 'He just says I remembered it wrong.' Slowly, Maya stopped trusting her own memory. She started writing things down. Then he found the notes. 'Why are you keeping records on me? That's sick.' This is gaslighting: making someone doubt their memory, their perception, their sanity. It works because it doesn't feel like an attack. It feels like concern. And once you can't trust your own mind, you have to borrow his. Which brings us to move four. The one I promised. The one almost no one sees.",
+  "voz": "en-US-AndrewNeural",
+  "rate": "-4%",
+  "capitulo": "C3",
+  "nombre": "Move 3 - The memory edit (gaslighting)"
+}

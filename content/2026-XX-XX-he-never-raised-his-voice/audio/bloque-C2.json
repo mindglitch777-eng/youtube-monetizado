@@ -1,0 +1,925 @@
+{
+  "duracion": 63.744,
+  "palabras": [
+    {
+      "texto": "Move",
+      "inicio": 0.104,
+      "fin": 0.326
+    },
+    {
+      "texto": "two",
+      "inicio": 0.339,
+      "fin": 0.651
+    },
+    {
+      "texto": "The",
+      "inicio": 1.081,
+      "fin": 1.146
+    },
+    {
+      "texto": "world",
+      "inicio": 1.159,
+      "fin": 1.51
+    },
+    {
+      "texto": "gets",
+      "inicio": 1.523,
+      "fin": 1.745
+    },
+    {
+      "texto": "smaller",
+      "inicio": 1.758,
+      "fin": 2.279
+    },
+    {
+      "texto": "It",
+      "inicio": 2.708,
+      "fin": 2.799
+    },
+    {
+      "texto": "started",
+      "inicio": 2.812,
+      "fin": 3.125
+    },
+    {
+      "texto": "with",
+      "inicio": 3.138,
+      "fin": 3.255
+    },
+    {
+      "texto": "small",
+      "inicio": 3.268,
+      "fin": 3.542
+    },
+    {
+      "texto": "comments",
+      "inicio": 3.555,
+      "fin": 4.18
+    },
+    {
+      "texto": "Your",
+      "inicio": 4.688,
+      "fin": 4.727
+    },
+    {
+      "texto": "friend",
+      "inicio": 4.727,
+      "fin": 5.026
+    },
+    {
+      "texto": "Priya",
+      "inicio": 5.039,
+      "fin": 5.352
+    },
+    {
+      "texto": "seems",
+      "inicio": 5.365,
+      "fin": 5.911
+    },
+    {
+      "texto": "jealous",
+      "inicio": 6.12,
+      "fin": 6.432
+    },
+    {
+      "texto": "of",
+      "inicio": 6.445,
+      "fin": 6.549
+    },
+    {
+      "texto": "us",
+      "inicio": 6.562,
+      "fin": 6.914
+    },
+    {
+      "texto": "Your",
+      "inicio": 7.539,
+      "fin": 7.539
+    },
+    {
+      "texto": "sister",
+      "inicio": 7.617,
+      "fin": 8.06
+    },
+    {
+      "texto": "always",
+      "inicio": 8.073,
+      "fin": 8.398
+    },
+    {
+      "texto": "makes",
+      "inicio": 8.411,
+      "fin": 8.646
+    },
+    {
+      "texto": "you",
+      "inicio": 8.659,
+      "fin": 8.75
+    },
+    {
+      "texto": "feel",
+      "inicio": 8.763,
+      "fin": 8.997
+    },
+    {
+      "texto": "guilty",
+      "inicio": 9.01,
+      "fin": 9.427
+    },
+    {
+      "texto": "Have",
+      "inicio": 9.857,
+      "fin": 9.961
+    },
+    {
+      "texto": "you",
+      "inicio": 9.974,
+      "fin": 10.052
+    },
+    {
+      "texto": "noticed",
+      "inicio": 10.065,
+      "fin": 10.586
+    },
+    {
+      "texto": "He",
+      "inicio": 11.042,
+      "fin": 11.081
+    },
+    {
+      "texto": "never",
+      "inicio": 11.094,
+      "fin": 11.328
+    },
+    {
+      "texto": "said",
+      "inicio": 11.341,
+      "fin": 11.602
+    },
+    {
+      "texto": "don't",
+      "inicio": 11.628,
+      "fin": 11.836
+    },
+    {
+      "texto": "see",
+      "inicio": 11.849,
+      "fin": 12.083
+    },
+    {
+      "texto": "them",
+      "inicio": 12.096,
+      "fin": 12.305
+    },
+    {
+      "texto": "He",
+      "inicio": 12.76,
+      "fin": 12.812
+    },
+    {
+      "texto": "was",
+      "inicio": 12.826,
+      "fin": 12.969
+    },
+    {
+      "texto": "much",
+      "inicio": 12.982,
+      "fin": 13.19
+    },
+    {
+      "texto": "smarter",
+      "inicio": 13.203,
+      "fin": 13.594
+    },
+    {
+      "texto": "than",
+      "inicio": 13.607,
+      "fin": 13.75
+    },
+    {
+      "texto": "that",
+      "inicio": 13.763,
+      "fin": 14.063
+    },
+    {
+      "texto": "He",
+      "inicio": 14.505,
+      "fin": 14.557
+    },
+    {
+      "texto": "just",
+      "inicio": 14.57,
+      "fin": 14.779
+    },
+    {
+      "texto": "made",
+      "inicio": 14.792,
+      "fin": 14.987
+    },
+    {
+      "texto": "every",
+      "inicio": 15.143,
+      "fin": 15.378
+    },
+    {
+      "texto": "night",
+      "inicio": 15.391,
+      "fin": 15.651
+    },
+    {
+      "texto": "with",
+      "inicio": 15.664,
+      "fin": 15.794
+    },
+    {
+      "texto": "friends",
+      "inicio": 15.807,
+      "fin": 16.185
+    },
+    {
+      "texto": "cost",
+      "inicio": 16.198,
+      "fin": 16.51
+    },
+    {
+      "texto": "her",
+      "inicio": 16.523,
+      "fin": 16.628
+    },
+    {
+      "texto": "something",
+      "inicio": 16.641,
+      "fin": 17.018
+    },
+    {
+      "texto": "A",
+      "inicio": 17.448,
+      "fin": 17.487
+    },
+    {
+      "texto": "sigh",
+      "inicio": 17.5,
+      "fin": 17.721
+    },
+    {
+      "texto": "at",
+      "inicio": 17.734,
+      "fin": 17.812
+    },
+    {
+      "texto": "the",
+      "inicio": 17.826,
+      "fin": 17.904
+    },
+    {
+      "texto": "door",
+      "inicio": 17.917,
+      "fin": 18.242
+    },
+    {
+      "texto": "A",
+      "inicio": 18.672,
+      "fin": 18.724
+    },
+    {
+      "texto": "cold",
+      "inicio": 18.737,
+      "fin": 19.01
+    },
+    {
+      "texto": "dinner",
+      "inicio": 19.023,
+      "fin": 19.323
+    },
+    {
+      "texto": "A",
+      "inicio": 19.74,
+      "fin": 19.792
+    },
+    {
+      "texto": "mood",
+      "inicio": 19.805,
+      "fin": 20.052
+    },
+    {
+      "texto": "that",
+      "inicio": 20.065,
+      "fin": 20.234
+    },
+    {
+      "texto": "lasted",
+      "inicio": 20.247,
+      "fin": 20.638
+    },
+    {
+      "texto": "until",
+      "inicio": 20.651,
+      "fin": 20.898
+    },
+    {
+      "texto": "Sunday",
+      "inicio": 20.911,
+      "fin": 21.406
+    },
+    {
+      "texto": "Then",
+      "inicio": 21.849,
+      "fin": 21.966
+    },
+    {
+      "texto": "came",
+      "inicio": 21.979,
+      "fin": 22.214
+    },
+    {
+      "texto": "the",
+      "inicio": 22.227,
+      "fin": 22.305
+    },
+    {
+      "texto": "rules",
+      "inicio": 22.318,
+      "fin": 22.682
+    },
+    {
+      "texto": "that",
+      "inicio": 22.695,
+      "fin": 22.813
+    },
+    {
+      "texto": "were",
+      "inicio": 22.826,
+      "fin": 22.93
+    },
+    {
+      "texto": "never",
+      "inicio": 22.943,
+      "fin": 23.216
+    },
+    {
+      "texto": "called",
+      "inicio": 23.229,
+      "fin": 23.49
+    },
+    {
+      "texto": "rules",
+      "inicio": 23.503,
+      "fin": 23.984
+    },
+    {
+      "texto": "Just",
+      "inicio": 24.492,
+      "fin": 24.557
+    },
+    {
+      "texto": "text",
+      "inicio": 24.635,
+      "fin": 24.909
+    },
+    {
+      "texto": "me",
+      "inicio": 24.922,
+      "fin": 25.0
+    },
+    {
+      "texto": "when",
+      "inicio": 25.013,
+      "fin": 25.13
+    },
+    {
+      "texto": "you",
+      "inicio": 25.143,
+      "fin": 25.234
+    },
+    {
+      "texto": "get",
+      "inicio": 25.247,
+      "fin": 25.469
+    },
+    {
+      "texto": "there",
+      "inicio": 25.482,
+      "fin": 25.755
+    },
+    {
+      "texto": "I",
+      "inicio": 26.185,
+      "fin": 26.263
+    },
+    {
+      "texto": "worry",
+      "inicio": 26.276,
+      "fin": 26.667
+    },
+    {
+      "texto": "Soon",
+      "inicio": 27.109,
+      "fin": 27.539
+    },
+    {
+      "texto": "I",
+      "inicio": 27.969,
+      "fin": 28.047
+    },
+    {
+      "texto": "worry",
+      "inicio": 28.06,
+      "fin": 28.385
+    },
+    {
+      "texto": "became",
+      "inicio": 28.411,
+      "fin": 28.815
+    },
+    {
+      "texto": "Who",
+      "inicio": 28.841,
+      "fin": 29.036
+    },
+    {
+      "texto": "were",
+      "inicio": 29.049,
+      "fin": 29.219
+    },
+    {
+      "texto": "you",
+      "inicio": 29.232,
+      "fin": 29.414
+    },
+    {
+      "texto": "with",
+      "inicio": 29.427,
+      "fin": 29.74
+    },
+    {
+      "texto": "And",
+      "inicio": 30.182,
+      "fin": 30.273
+    },
+    {
+      "texto": "she",
+      "inicio": 30.286,
+      "fin": 30.508
+    },
+    {
+      "texto": "answered",
+      "inicio": 30.521,
+      "fin": 30.924
+    },
+    {
+      "texto": "every",
+      "inicio": 31.081,
+      "fin": 31.406
+    },
+    {
+      "texto": "single",
+      "inicio": 31.419,
+      "fin": 31.797
+    },
+    {
+      "texto": "time",
+      "inicio": 31.81,
+      "fin": 32.24
+    },
+    {
+      "texto": "to",
+      "inicio": 32.617,
+      "fin": 32.76
+    },
+    {
+      "texto": "avoid",
+      "inicio": 32.773,
+      "fin": 33.151
+    },
+    {
+      "texto": "the",
+      "inicio": 33.164,
+      "fin": 33.242
+    },
+    {
+      "texto": "silence",
+      "inicio": 33.255,
+      "fin": 33.776
+    },
+    {
+      "texto": "that",
+      "inicio": 33.789,
+      "fin": 33.906
+    },
+    {
+      "texto": "would",
+      "inicio": 33.919,
+      "fin": 34.036
+    },
+    {
+      "texto": "follow",
+      "inicio": 34.05,
+      "fin": 34.505
+    },
+    {
+      "texto": "Six",
+      "inicio": 34.948,
+      "fin": 35.169
+    },
+    {
+      "texto": "months",
+      "inicio": 35.182,
+      "fin": 35.495
+    },
+    {
+      "texto": "in",
+      "inicio": 35.508,
+      "fin": 35.781
+    },
+    {
+      "texto": "Maya",
+      "inicio": 36.211,
+      "fin": 36.471
+    },
+    {
+      "texto": "started",
+      "inicio": 36.484,
+      "fin": 36.875
+    },
+    {
+      "texto": "canceling",
+      "inicio": 36.888,
+      "fin": 37.396
+    },
+    {
+      "texto": "plans",
+      "inicio": 37.409,
+      "fin": 37.8
+    },
+    {
+      "texto": "on",
+      "inicio": 37.812,
+      "fin": 37.917
+    },
+    {
+      "texto": "her",
+      "inicio": 37.93,
+      "fin": 38.125
+    },
+    {
+      "texto": "own",
+      "inicio": 38.138,
+      "fin": 38.464
+    },
+    {
+      "texto": "to",
+      "inicio": 38.763,
+      "fin": 38.854
+    },
+    {
+      "texto": "keep",
+      "inicio": 38.867,
+      "fin": 39.102
+    },
+    {
+      "texto": "the",
+      "inicio": 39.115,
+      "fin": 39.206
+    },
+    {
+      "texto": "peace",
+      "inicio": 39.219,
+      "fin": 39.766
+    },
+    {
+      "texto": "Her",
+      "inicio": 40.208,
+      "fin": 40.312
+    },
+    {
+      "texto": "calendar",
+      "inicio": 40.326,
+      "fin": 40.833
+    },
+    {
+      "texto": "emptied",
+      "inicio": 40.846,
+      "fin": 41.263
+    },
+    {
+      "texto": "Her",
+      "inicio": 41.706,
+      "fin": 41.849
+    },
+    {
+      "texto": "world",
+      "inicio": 41.862,
+      "fin": 42.135
+    },
+    {
+      "texto": "shrank",
+      "inicio": 42.148,
+      "fin": 42.669
+    },
+    {
+      "texto": "And",
+      "inicio": 43.099,
+      "fin": 43.164
+    },
+    {
+      "texto": "she",
+      "inicio": 43.177,
+      "fin": 43.307
+    },
+    {
+      "texto": "called",
+      "inicio": 43.32,
+      "fin": 43.555
+    },
+    {
+      "texto": "it",
+      "inicio": 43.568,
+      "fin": 43.633
+    },
+    {
+      "texto": "choosing",
+      "inicio": 43.646,
+      "fin": 44.01
+    },
+    {
+      "texto": "him",
+      "inicio": 44.023,
+      "fin": 44.219
+    },
+    {
+      "texto": "Psychologists",
+      "inicio": 44.661,
+      "fin": 45.404
+    },
+    {
+      "texto": "call",
+      "inicio": 45.417,
+      "fin": 45.677
+    },
+    {
+      "texto": "this",
+      "inicio": 45.69,
+      "fin": 45.859
+    },
+    {
+      "texto": "isolation",
+      "inicio": 45.872,
+      "fin": 46.51
+    },
+    {
+      "texto": "And",
+      "inicio": 46.94,
+      "fin": 47.005
+    },
+    {
+      "texto": "it's",
+      "inicio": 47.018,
+      "fin": 47.148
+    },
+    {
+      "texto": "not",
+      "inicio": 47.161,
+      "fin": 47.331
+    },
+    {
+      "texto": "about",
+      "inicio": 47.344,
+      "fin": 47.591
+    },
+    {
+      "texto": "loneliness",
+      "inicio": 47.604,
+      "fin": 48.307
+    },
+    {
+      "texto": "It's",
+      "inicio": 48.737,
+      "fin": 48.854
+    },
+    {
+      "texto": "about",
+      "inicio": 48.867,
+      "fin": 49.167
+    },
+    {
+      "texto": "removing",
+      "inicio": 49.18,
+      "fin": 49.766
+    },
+    {
+      "texto": "every",
+      "inicio": 49.896,
+      "fin": 50.234
+    },
+    {
+      "texto": "person",
+      "inicio": 50.247,
+      "fin": 50.703
+    },
+    {
+      "texto": "who",
+      "inicio": 50.716,
+      "fin": 50.833
+    },
+    {
+      "texto": "could",
+      "inicio": 50.846,
+      "fin": 50.99
+    },
+    {
+      "texto": "say",
+      "inicio": 51.003,
+      "fin": 51.315
+    },
+    {
+      "texto": "This",
+      "inicio": 51.953,
+      "fin": 52.161
+    },
+    {
+      "texto": "isn't",
+      "inicio": 52.279,
+      "fin": 52.513
+    },
+    {
+      "texto": "normal",
+      "inicio": 52.526,
+      "fin": 52.943
+    },
+    {
+      "texto": "If",
+      "inicio": 53.477,
+      "fin": 53.594
+    },
+    {
+      "texto": "this",
+      "inicio": 53.607,
+      "fin": 53.75
+    },
+    {
+      "texto": "is",
+      "inicio": 53.763,
+      "fin": 53.88
+    },
+    {
+      "texto": "landing",
+      "inicio": 53.893,
+      "fin": 54.362
+    },
+    {
+      "texto": "hit",
+      "inicio": 54.531,
+      "fin": 54.701
+    },
+    {
+      "texto": "like",
+      "inicio": 54.714,
+      "fin": 55.052
+    },
+    {
+      "texto": "It",
+      "inicio": 55.482,
+      "fin": 55.573
+    },
+    {
+      "texto": "helps",
+      "inicio": 55.586,
+      "fin": 55.898
+    },
+    {
+      "texto": "this",
+      "inicio": 55.911,
+      "fin": 56.107
+    },
+    {
+      "texto": "reach",
+      "inicio": 56.12,
+      "fin": 56.38
+    },
+    {
+      "texto": "someone",
+      "inicio": 56.393,
+      "fin": 56.732
+    },
+    {
+      "texto": "who",
+      "inicio": 56.745,
+      "fin": 56.862
+    },
+    {
+      "texto": "needs",
+      "inicio": 56.875,
+      "fin": 57.148
+    },
+    {
+      "texto": "to",
+      "inicio": 57.161,
+      "fin": 57.227
+    },
+    {
+      "texto": "hear",
+      "inicio": 57.24,
+      "fin": 57.513
+    },
+    {
+      "texto": "it",
+      "inicio": 57.526,
+      "fin": 57.682
+    },
+    {
+      "texto": "Now",
+      "inicio": 58.112,
+      "fin": 58.294
+    },
+    {
+      "texto": "Maya",
+      "inicio": 58.307,
+      "fin": 58.659
+    },
+    {
+      "texto": "had",
+      "inicio": 58.672,
+      "fin": 58.867
+    },
+    {
+      "texto": "no",
+      "inicio": 58.88,
+      "fin": 59.128
+    },
+    {
+      "texto": "one",
+      "inicio": 59.141,
+      "fin": 59.31
+    },
+    {
+      "texto": "left",
+      "inicio": 59.323,
+      "fin": 59.531
+    },
+    {
+      "texto": "to",
+      "inicio": 59.544,
+      "fin": 59.622
+    },
+    {
+      "texto": "compare",
+      "inicio": 59.635,
+      "fin": 59.987
+    },
+    {
+      "texto": "notes",
+      "inicio": 60.0,
+      "fin": 60.273
+    },
+    {
+      "texto": "with",
+      "inicio": 60.286,
+      "fin": 60.586
+    },
+    {
+      "texto": "And",
+      "inicio": 61.016,
+      "fin": 61.081
+    },
+    {
+      "texto": "that's",
+      "inicio": 61.094,
+      "fin": 61.302
+    },
+    {
+      "texto": "exactly",
+      "inicio": 61.315,
+      "fin": 61.914
+    },
+    {
+      "texto": "when",
+      "inicio": 61.927,
+      "fin": 62.057
+    },
+    {
+      "texto": "the",
+      "inicio": 62.07,
+      "fin": 62.148
+    },
+    {
+      "texto": "third",
+      "inicio": 62.161,
+      "fin": 62.578
+    },
+    {
+      "texto": "move",
+      "inicio": 62.591,
+      "fin": 62.826
+    },
+    {
+      "texto": "began",
+      "inicio": 62.839,
+      "fin": 63.307
+    }
+  ],
+  "texto": "Move two. The world gets smaller. It started with small comments. 'Your friend Priya seems... jealous of us.' 'Your sister always makes you feel guilty. Have you noticed?' He never said 'don't see them.' He was much smarter than that. He just made every night with friends cost her something. A sigh at the door. A cold dinner. A mood that lasted until Sunday. Then came the rules that were never called rules. 'Just text me when you get there. I worry.' Soon, 'I worry' became 'Who were you with?' And she answered every single time, to avoid the silence that would follow. Six months in, Maya started canceling plans on her own, to keep the peace. Her calendar emptied. Her world shrank. And she called it choosing him. Psychologists call this isolation. And it's not about loneliness. It's about removing every person who could say: 'This isn't normal.' If this is landing, hit like. It helps this reach someone who needs to hear it. Now Maya had no one left to compare notes with. And that's exactly when the third move began.",
+  "voz": "en-US-AndrewNeural",
+  "rate": "-4%",
+  "capitulo": "C2",
+  "nombre": "Move 2 - The world gets smaller (isolation)"
+}
