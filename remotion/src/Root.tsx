@@ -3,6 +3,8 @@ import { CalculateMetadataFunction, Composition, staticFile } from "remotion";
 import { EscenaFase0 } from "./fase0/EscenaFase0";
 import { Personaje2D } from "./fase0/Personaje2D";
 import { Personaje3D } from "./fase0/Personaje3D";
+import { LongForm } from "./longform/LongForm";
+import type { Shot, ShotsFile, Timeline as TimelineLF } from "./longform/tipos";
 import { ManipulacionParte1 } from "./manipulacion-parte1/ManipulacionParte1";
 import { Miniatura } from "./manipulacion-parte1/Miniatura";
 import type { TimelineStandalone } from "./manipulacion-parte1/tipos";
@@ -99,5 +101,23 @@ export const Root: React.FC = () => (
       }}
     />
     <Composition id="ManipulacionParte1-Miniatura" component={Miniatura} width={1080} height={1920} fps={FPS} durationInFrames={1} />
+    <Composition
+      id="LongForm"
+      component={LongForm}
+      width={1920}
+      height={1080}
+      fps={FPS}
+      durationInFrames={FPS * 5}
+      defaultProps={{ shots: [] as Shot[], timeline: null as unknown as TimelineLF }}
+      calculateMetadata={async () => {
+        const [respShots, respTimeline] = await Promise.all([
+          fetch(staticFile("shots.json")),
+          fetch(staticFile("timeline.json")),
+        ]);
+        const shotsFile = (await respShots.json()) as ShotsFile;
+        const timeline = (await respTimeline.json()) as TimelineLF;
+        return { props: { shots: shotsFile.shots, timeline }, durationInFrames: timeline.tomas.at(-1)?.endFrame ?? FPS * 5 };
+      }}
+    />
   </>
 );

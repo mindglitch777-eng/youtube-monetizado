@@ -1,0 +1,7128 @@
+{
+  "fps": 30,
+  "audio": "2026-XX-XX-he-never-raised-his-voice/audio/voice.wav",
+  "duracionTotal": 443.36,
+  "tomas": [
+    {
+      "id": "S001",
+      "startS": 0.104,
+      "endS": 2.135,
+      "palabras": [
+        {
+          "texto": "Maya",
+          "inicio": 0.104,
+          "fin": 0.326
+        },
+        {
+          "texto": "never",
+          "inicio": 0.339,
+          "fin": 0.625
+        },
+        {
+          "texto": "had",
+          "inicio": 0.638,
+          "fin": 0.781
+        },
+        {
+          "texto": "a",
+          "inicio": 0.794,
+          "fin": 0.833
+        },
+        {
+          "texto": "single",
+          "inicio": 0.846,
+          "fin": 1.198
+        },
+        {
+          "texto": "bruise",
+          "inicio": 1.211,
+          "fin": 1.706
+        }
+      ],
+      "startFrame": 3,
+      "endFrame": 64
+    },
+    {
+      "id": "S002",
+      "startS": 2.135,
+      "endS": 7.018,
+      "palabras": [
+        {
+          "texto": "Nobody",
+          "inicio": 2.135,
+          "fin": 2.526
+        },
+        {
+          "texto": "ever",
+          "inicio": 2.539,
+          "fin": 2.76
+        },
+        {
+          "texto": "heard",
+          "inicio": 2.773,
+          "fin": 2.982
+        },
+        {
+          "texto": "him",
+          "inicio": 2.995,
+          "fin": 3.164
+        },
+        {
+          "texto": "raise",
+          "inicio": 3.177,
+          "fin": 3.411
+        },
+        {
+          "texto": "his",
+          "inicio": 3.425,
+          "fin": 3.568
+        },
+        {
+          "texto": "voice",
+          "inicio": 3.581,
+          "fin": 4.141
+        },
+        {
+          "texto": "Not",
+          "inicio": 4.57,
+          "fin": 4.727
+        },
+        {
+          "texto": "once",
+          "inicio": 4.74,
+          "fin": 5.182
+        },
+        {
+          "texto": "Not",
+          "inicio": 5.612,
+          "fin": 5.768
+        },
+        {
+          "texto": "in",
+          "inicio": 5.781,
+          "fin": 5.872
+        },
+        {
+          "texto": "three",
+          "inicio": 5.885,
+          "fin": 6.094
+        },
+        {
+          "texto": "years",
+          "inicio": 6.107,
+          "fin": 6.589
+        }
+      ],
+      "startFrame": 64,
+      "endFrame": 211
+    },
+    {
+      "id": "S003",
+      "startS": 7.018,
+      "endS": 12.266,
+      "palabras": [
+        {
+          "texto": "And",
+          "inicio": 7.018,
+          "fin": 7.109
+        },
+        {
+          "texto": "still",
+          "inicio": 7.122,
+          "fin": 7.565
+        },
+        {
+          "texto": "by",
+          "inicio": 7.982,
+          "fin": 8.112
+        },
+        {
+          "texto": "the",
+          "inicio": 8.125,
+          "fin": 8.255
+        },
+        {
+          "texto": "end",
+          "inicio": 8.268,
+          "fin": 8.672
+        },
+        {
+          "texto": "she",
+          "inicio": 9.062,
+          "fin": 9.245
+        },
+        {
+          "texto": "couldn't",
+          "inicio": 9.258,
+          "fin": 9.557
+        },
+        {
+          "texto": "order",
+          "inicio": 9.57,
+          "fin": 9.792
+        },
+        {
+          "texto": "dinner",
+          "inicio": 9.805,
+          "fin": 10.091
+        },
+        {
+          "texto": "without",
+          "inicio": 10.104,
+          "fin": 10.469
+        },
+        {
+          "texto": "checking",
+          "inicio": 10.482,
+          "fin": 10.846
+        },
+        {
+          "texto": "his",
+          "inicio": 10.859,
+          "fin": 11.003
+        },
+        {
+          "texto": "face",
+          "inicio": 11.016,
+          "fin": 11.289
+        },
+        {
+          "texto": "first",
+          "inicio": 11.302,
+          "fin": 11.836
+        }
+      ],
+      "startFrame": 211,
+      "endFrame": 368
+    },
+    {
+      "id": "S004",
+      "startS": 12.266,
+      "endS": 16.081,
+      "palabras": [
+        {
+          "texto": "This",
+          "inicio": 12.266,
+          "fin": 12.435
+        },
+        {
+          "texto": "is",
+          "inicio": 12.448,
+          "fin": 12.552
+        },
+        {
+          "texto": "the",
+          "inicio": 12.565,
+          "fin": 12.669
+        },
+        {
+          "texto": "story",
+          "inicio": 12.682,
+          "fin": 13.112
+        },
+        {
+          "texto": "of",
+          "inicio": 13.125,
+          "fin": 13.203
+        },
+        {
+          "texto": "the",
+          "inicio": 13.216,
+          "fin": 13.307
+        },
+        {
+          "texto": "politest",
+          "inicio": 13.32,
+          "fin": 13.971
+        },
+        {
+          "texto": "abuser",
+          "inicio": 13.984,
+          "fin": 14.518
+        },
+        {
+          "texto": "you'll",
+          "inicio": 14.531,
+          "fin": 14.727
+        },
+        {
+          "texto": "ever",
+          "inicio": 14.805,
+          "fin": 14.974
+        },
+        {
+          "texto": "hear",
+          "inicio": 14.987,
+          "fin": 15.182
+        },
+        {
+          "texto": "about",
+          "inicio": 15.195,
+          "fin": 15.612
+        }
+      ],
+      "startFrame": 368,
+      "endFrame": 482
+    },
+    {
+      "id": "S005",
+      "startS": 16.081,
+      "endS": 19.661,
+      "palabras": [
+        {
+          "texto": "Five",
+          "inicio": 16.081,
+          "fin": 16.276
+        },
+        {
+          "texto": "moves",
+          "inicio": 16.289,
+          "fin": 16.719
+        },
+        {
+          "texto": "Every",
+          "inicio": 17.148,
+          "fin": 17.37
+        },
+        {
+          "texto": "one",
+          "inicio": 17.383,
+          "fin": 17.526
+        },
+        {
+          "texto": "of",
+          "inicio": 17.539,
+          "fin": 17.604
+        },
+        {
+          "texto": "them",
+          "inicio": 17.617,
+          "fin": 17.799
+        },
+        {
+          "texto": "looks",
+          "inicio": 17.812,
+          "fin": 18.047
+        },
+        {
+          "texto": "harmless",
+          "inicio": 18.06,
+          "fin": 18.62
+        },
+        {
+          "texto": "on",
+          "inicio": 18.633,
+          "fin": 18.75
+        },
+        {
+          "texto": "its",
+          "inicio": 18.763,
+          "fin": 18.932
+        },
+        {
+          "texto": "own",
+          "inicio": 18.945,
+          "fin": 19.232
+        }
+      ],
+      "startFrame": 482,
+      "endFrame": 590
+    },
+    {
+      "id": "S006",
+      "startS": 19.661,
+      "endS": 24.557,
+      "palabras": [
+        {
+          "texto": "Together",
+          "inicio": 19.661,
+          "fin": 20.065
+        },
+        {
+          "texto": "they",
+          "inicio": 20.443,
+          "fin": 20.56
+        },
+        {
+          "texto": "can",
+          "inicio": 20.573,
+          "fin": 20.69
+        },
+        {
+          "texto": "take",
+          "inicio": 20.703,
+          "fin": 20.911
+        },
+        {
+          "texto": "a",
+          "inicio": 20.924,
+          "fin": 20.977
+        },
+        {
+          "texto": "whole",
+          "inicio": 20.99,
+          "fin": 21.302
+        },
+        {
+          "texto": "person",
+          "inicio": 21.315,
+          "fin": 21.68
+        },
+        {
+          "texto": "apart",
+          "inicio": 21.693,
+          "fin": 22.109
+        },
+        {
+          "texto": "Quietly",
+          "inicio": 22.552,
+          "fin": 22.982
+        },
+        {
+          "texto": "Over",
+          "inicio": 23.411,
+          "fin": 23.607
+        },
+        {
+          "texto": "months",
+          "inicio": 23.62,
+          "fin": 24.128
+        }
+      ],
+      "startFrame": 590,
+      "endFrame": 737
+    },
+    {
+      "id": "S007",
+      "startS": 24.557,
+      "endS": 26.016,
+      "palabras": [
+        {
+          "texto": "I'll",
+          "inicio": 24.557,
+          "fin": 24.661
+        },
+        {
+          "texto": "show",
+          "inicio": 24.674,
+          "fin": 24.857
+        },
+        {
+          "texto": "you",
+          "inicio": 24.87,
+          "fin": 25.0
+        },
+        {
+          "texto": "all",
+          "inicio": 25.013,
+          "fin": 25.143
+        },
+        {
+          "texto": "five",
+          "inicio": 25.156,
+          "fin": 25.573
+        }
+      ],
+      "startFrame": 737,
+      "endFrame": 780
+    },
+    {
+      "id": "S008",
+      "startS": 26.016,
+      "endS": 31.758,
+      "palabras": [
+        {
+          "texto": "But",
+          "inicio": 26.016,
+          "fin": 26.133
+        },
+        {
+          "texto": "move",
+          "inicio": 26.146,
+          "fin": 26.419
+        },
+        {
+          "texto": "number",
+          "inicio": 26.432,
+          "fin": 26.706
+        },
+        {
+          "texto": "four",
+          "inicio": 26.719,
+          "fin": 27.188
+        },
+        {
+          "texto": "is",
+          "inicio": 27.266,
+          "fin": 27.383
+        },
+        {
+          "texto": "the",
+          "inicio": 27.396,
+          "fin": 27.513
+        },
+        {
+          "texto": "one",
+          "inicio": 27.526,
+          "fin": 27.878
+        },
+        {
+          "texto": "almost",
+          "inicio": 27.891,
+          "fin": 28.346
+        },
+        {
+          "texto": "nobody",
+          "inicio": 28.359,
+          "fin": 28.828
+        },
+        {
+          "texto": "recognizes",
+          "inicio": 28.841,
+          "fin": 29.661
+        },
+        {
+          "texto": "even",
+          "inicio": 30.039,
+          "fin": 30.221
+        },
+        {
+          "texto": "while",
+          "inicio": 30.234,
+          "fin": 30.404
+        },
+        {
+          "texto": "it's",
+          "inicio": 30.417,
+          "fin": 30.508
+        },
+        {
+          "texto": "happening",
+          "inicio": 30.521,
+          "fin": 30.937
+        },
+        {
+          "texto": "to",
+          "inicio": 30.951,
+          "fin": 31.055
+        },
+        {
+          "texto": "them",
+          "inicio": 31.068,
+          "fin": 31.276
+        }
+      ],
+      "startFrame": 780,
+      "endFrame": 953
+    },
+    {
+      "id": "S009",
+      "startS": 31.758,
+      "endS": 35.534,
+      "palabras": [
+        {
+          "texto": "First",
+          "inicio": 31.758,
+          "fin": 32.031
+        },
+        {
+          "texto": "a",
+          "inicio": 32.122,
+          "fin": 32.161
+        },
+        {
+          "texto": "quick",
+          "inicio": 32.175,
+          "fin": 32.396
+        },
+        {
+          "texto": "note",
+          "inicio": 32.409,
+          "fin": 32.721
+        },
+        {
+          "texto": "Maya",
+          "inicio": 33.151,
+          "fin": 33.594
+        },
+        {
+          "texto": "and",
+          "inicio": 33.672,
+          "fin": 33.789
+        },
+        {
+          "texto": "Daniel",
+          "inicio": 33.802,
+          "fin": 34.219
+        },
+        {
+          "texto": "aren't",
+          "inicio": 34.232,
+          "fin": 34.479
+        },
+        {
+          "texto": "real",
+          "inicio": 34.492,
+          "fin": 34.674
+        },
+        {
+          "texto": "people",
+          "inicio": 34.688,
+          "fin": 35.091
+        }
+      ],
+      "startFrame": 953,
+      "endFrame": 1066
+    },
+    {
+      "id": "S010",
+      "startS": 35.534,
+      "endS": 41.06,
+      "palabras": [
+        {
+          "texto": "They're",
+          "inicio": 35.534,
+          "fin": 35.677
+        },
+        {
+          "texto": "a",
+          "inicio": 35.69,
+          "fin": 35.742
+        },
+        {
+          "texto": "composite",
+          "inicio": 35.755,
+          "fin": 36.471
+        },
+        {
+          "texto": "built",
+          "inicio": 36.797,
+          "fin": 37.044
+        },
+        {
+          "texto": "from",
+          "inicio": 37.057,
+          "fin": 37.253
+        },
+        {
+          "texto": "patterns",
+          "inicio": 37.266,
+          "fin": 37.812
+        },
+        {
+          "texto": "that",
+          "inicio": 37.826,
+          "fin": 37.995
+        },
+        {
+          "texto": "therapists",
+          "inicio": 38.008,
+          "fin": 38.633
+        },
+        {
+          "texto": "describe",
+          "inicio": 38.646,
+          "fin": 39.115
+        },
+        {
+          "texto": "again",
+          "inicio": 39.128,
+          "fin": 39.544
+        },
+        {
+          "texto": "and",
+          "inicio": 39.74,
+          "fin": 39.831
+        },
+        {
+          "texto": "again",
+          "inicio": 39.844,
+          "fin": 40.247
+        }
+      ],
+      "startFrame": 1066,
+      "endFrame": 1232
+    },
+    {
+      "id": "S011",
+      "startS": 41.06,
+      "endS": 43.3,
+      "palabras": [
+        {
+          "texto": "Move",
+          "inicio": 41.06,
+          "fin": 41.242
+        },
+        {
+          "texto": "one",
+          "inicio": 41.255,
+          "fin": 41.542
+        },
+        {
+          "texto": "The",
+          "inicio": 41.985,
+          "fin": 42.05
+        },
+        {
+          "texto": "perfect",
+          "inicio": 42.063,
+          "fin": 42.44
+        },
+        {
+          "texto": "start",
+          "inicio": 42.453,
+          "fin": 42.87
+        }
+      ],
+      "startFrame": 1232,
+      "endFrame": 1299
+    },
+    {
+      "id": "S012",
+      "startS": 43.3,
+      "endS": 45.305,
+      "palabras": [
+        {
+          "texto": "They",
+          "inicio": 43.3,
+          "fin": 43.365
+        },
+        {
+          "texto": "met",
+          "inicio": 43.378,
+          "fin": 43.521
+        },
+        {
+          "texto": "at",
+          "inicio": 43.534,
+          "fin": 43.612
+        },
+        {
+          "texto": "a",
+          "inicio": 43.625,
+          "fin": 43.664
+        },
+        {
+          "texto": "friend's",
+          "inicio": 43.677,
+          "fin": 44.055
+        },
+        {
+          "texto": "birthday",
+          "inicio": 44.068,
+          "fin": 44.459
+        },
+        {
+          "texto": "party",
+          "inicio": 44.472,
+          "fin": 44.862
+        }
+      ],
+      "startFrame": 1299,
+      "endFrame": 1359
+    },
+    {
+      "id": "S013",
+      "startS": 45.305,
+      "endS": 49.498,
+      "palabras": [
+        {
+          "texto": "By",
+          "inicio": 45.305,
+          "fin": 45.396
+        },
+        {
+          "texto": "midnight",
+          "inicio": 45.409,
+          "fin": 45.891
+        },
+        {
+          "texto": "he",
+          "inicio": 45.904,
+          "fin": 46.021
+        },
+        {
+          "texto": "knew",
+          "inicio": 46.034,
+          "fin": 46.229
+        },
+        {
+          "texto": "her",
+          "inicio": 46.242,
+          "fin": 46.373
+        },
+        {
+          "texto": "coffee",
+          "inicio": 46.386,
+          "fin": 46.815
+        },
+        {
+          "texto": "order",
+          "inicio": 46.828,
+          "fin": 47.154
+        },
+        {
+          "texto": "and",
+          "inicio": 47.532,
+          "fin": 47.584
+        },
+        {
+          "texto": "the",
+          "inicio": 47.597,
+          "fin": 47.688
+        },
+        {
+          "texto": "book",
+          "inicio": 47.701,
+          "fin": 47.974
+        },
+        {
+          "texto": "she'd",
+          "inicio": 47.987,
+          "fin": 48.209
+        },
+        {
+          "texto": "mentioned",
+          "inicio": 48.222,
+          "fin": 48.573
+        },
+        {
+          "texto": "once",
+          "inicio": 48.586,
+          "fin": 49.055
+        }
+      ],
+      "startFrame": 1359,
+      "endFrame": 1485
+    },
+    {
+      "id": "S014",
+      "startS": 49.498,
+      "endS": 53.521,
+      "palabras": [
+        {
+          "texto": "The",
+          "inicio": 49.498,
+          "fin": 49.55
+        },
+        {
+          "texto": "next",
+          "inicio": 49.563,
+          "fin": 49.81
+        },
+        {
+          "texto": "morning",
+          "inicio": 49.823,
+          "fin": 50.214
+        },
+        {
+          "texto": "a",
+          "inicio": 50.422,
+          "fin": 50.448
+        },
+        {
+          "texto": "message",
+          "inicio": 50.461,
+          "fin": 51.047
+        },
+        {
+          "texto": "I",
+          "inicio": 51.529,
+          "fin": 51.555
+        },
+        {
+          "texto": "haven't",
+          "inicio": 51.555,
+          "fin": 51.815
+        },
+        {
+          "texto": "stopped",
+          "inicio": 51.828,
+          "fin": 52.167
+        },
+        {
+          "texto": "thinking",
+          "inicio": 52.18,
+          "fin": 52.518
+        },
+        {
+          "texto": "about",
+          "inicio": 52.532,
+          "fin": 52.818
+        },
+        {
+          "texto": "you",
+          "inicio": 52.831,
+          "fin": 53.013
+        }
+      ],
+      "startFrame": 1485,
+      "endFrame": 1606
+    },
+    {
+      "id": "S015",
+      "startS": 53.521,
+      "endS": 59.224,
+      "palabras": [
+        {
+          "texto": "Flowers",
+          "inicio": 53.521,
+          "fin": 53.834
+        },
+        {
+          "texto": "at",
+          "inicio": 53.847,
+          "fin": 53.912
+        },
+        {
+          "texto": "her",
+          "inicio": 53.925,
+          "fin": 54.042
+        },
+        {
+          "texto": "office",
+          "inicio": 54.055,
+          "fin": 54.537
+        },
+        {
+          "texto": "A",
+          "inicio": 54.966,
+          "fin": 55.032
+        },
+        {
+          "texto": "playlist",
+          "inicio": 55.045,
+          "fin": 55.5
+        },
+        {
+          "texto": "made",
+          "inicio": 55.513,
+          "fin": 55.709
+        },
+        {
+          "texto": "just",
+          "inicio": 55.722,
+          "fin": 55.956
+        },
+        {
+          "texto": "for",
+          "inicio": 55.969,
+          "fin": 56.099
+        },
+        {
+          "texto": "her",
+          "inicio": 56.112,
+          "fin": 56.386
+        },
+        {
+          "texto": "A",
+          "inicio": 56.815,
+          "fin": 56.894
+        },
+        {
+          "texto": "weekend",
+          "inicio": 56.907,
+          "fin": 57.258
+        },
+        {
+          "texto": "trip",
+          "inicio": 57.271,
+          "fin": 57.597
+        },
+        {
+          "texto": "planned",
+          "inicio": 57.844,
+          "fin": 58.183
+        },
+        {
+          "texto": "in",
+          "inicio": 58.196,
+          "fin": 58.287
+        },
+        {
+          "texto": "secret",
+          "inicio": 58.3,
+          "fin": 58.795
+        }
+      ],
+      "startFrame": 1606,
+      "endFrame": 1777
+    },
+    {
+      "id": "S016",
+      "startS": 59.224,
+      "endS": 62.584,
+      "palabras": [
+        {
+          "texto": "Week",
+          "inicio": 59.224,
+          "fin": 59.472
+        },
+        {
+          "texto": "three",
+          "inicio": 59.485,
+          "fin": 59.849
+        },
+        {
+          "texto": "I've",
+          "inicio": 60.357,
+          "fin": 60.409
+        },
+        {
+          "texto": "never",
+          "inicio": 60.409,
+          "fin": 60.657
+        },
+        {
+          "texto": "felt",
+          "inicio": 60.67,
+          "fin": 60.93
+        },
+        {
+          "texto": "like",
+          "inicio": 60.943,
+          "fin": 61.164
+        },
+        {
+          "texto": "this",
+          "inicio": 61.177,
+          "fin": 61.386
+        },
+        {
+          "texto": "about",
+          "inicio": 61.399,
+          "fin": 61.672
+        },
+        {
+          "texto": "anyone",
+          "inicio": 61.685,
+          "fin": 62.115
+        }
+      ],
+      "startFrame": 1777,
+      "endFrame": 1878
+    },
+    {
+      "id": "S017",
+      "startS": 62.584,
+      "endS": 67.076,
+      "palabras": [
+        {
+          "texto": "Her",
+          "inicio": 62.584,
+          "fin": 62.662
+        },
+        {
+          "texto": "friends",
+          "inicio": 62.675,
+          "fin": 62.961
+        },
+        {
+          "texto": "were",
+          "inicio": 62.974,
+          "fin": 63.078
+        },
+        {
+          "texto": "thrilled",
+          "inicio": 63.091,
+          "fin": 63.586
+        },
+        {
+          "texto": "Maya",
+          "inicio": 64.016,
+          "fin": 64.276
+        },
+        {
+          "texto": "was",
+          "inicio": 64.289,
+          "fin": 64.472
+        },
+        {
+          "texto": "thrilled",
+          "inicio": 64.485,
+          "fin": 64.966
+        },
+        {
+          "texto": "It",
+          "inicio": 65.409,
+          "fin": 65.487
+        },
+        {
+          "texto": "felt",
+          "inicio": 65.5,
+          "fin": 65.748
+        },
+        {
+          "texto": "like",
+          "inicio": 65.761,
+          "fin": 65.93
+        },
+        {
+          "texto": "being",
+          "inicio": 65.943,
+          "fin": 66.164
+        },
+        {
+          "texto": "chosen",
+          "inicio": 66.177,
+          "fin": 66.633
+        }
+      ],
+      "startFrame": 1878,
+      "endFrame": 2012
+    },
+    {
+      "id": "S018",
+      "startS": 67.076,
+      "endS": 72.453,
+      "palabras": [
+        {
+          "texto": "Within",
+          "inicio": 67.076,
+          "fin": 67.31
+        },
+        {
+          "texto": "a",
+          "inicio": 67.323,
+          "fin": 67.362
+        },
+        {
+          "texto": "month",
+          "inicio": 67.375,
+          "fin": 67.766
+        },
+        {
+          "texto": "they",
+          "inicio": 67.987,
+          "fin": 68.104
+        },
+        {
+          "texto": "were",
+          "inicio": 68.117,
+          "fin": 68.248
+        },
+        {
+          "texto": "saying",
+          "inicio": 68.261,
+          "fin": 68.677
+        },
+        {
+          "texto": "I",
+          "inicio": 68.703,
+          "fin": 68.795
+        },
+        {
+          "texto": "love",
+          "inicio": 68.808,
+          "fin": 69.12
+        },
+        {
+          "texto": "you",
+          "inicio": 69.133,
+          "fin": 69.328
+        },
+        {
+          "texto": "Within",
+          "inicio": 69.771,
+          "fin": 70.019
+        },
+        {
+          "texto": "two",
+          "inicio": 70.032,
+          "fin": 70.344
+        },
+        {
+          "texto": "he",
+          "inicio": 70.735,
+          "fin": 70.813
+        },
+        {
+          "texto": "suggested",
+          "inicio": 70.826,
+          "fin": 71.347
+        },
+        {
+          "texto": "she",
+          "inicio": 71.36,
+          "fin": 71.516
+        },
+        {
+          "texto": "move",
+          "inicio": 71.529,
+          "fin": 71.789
+        },
+        {
+          "texto": "in",
+          "inicio": 71.802,
+          "fin": 72.011
+        }
+      ],
+      "startFrame": 2012,
+      "endFrame": 2174
+    },
+    {
+      "id": "S019",
+      "startS": 72.453,
+      "endS": 78.391,
+      "palabras": [
+        {
+          "texto": "There",
+          "inicio": 72.453,
+          "fin": 72.519
+        },
+        {
+          "texto": "was",
+          "inicio": 72.532,
+          "fin": 72.662
+        },
+        {
+          "texto": "one",
+          "inicio": 72.675,
+          "fin": 72.987
+        },
+        {
+          "texto": "small",
+          "inicio": 73.0,
+          "fin": 73.3
+        },
+        {
+          "texto": "moment",
+          "inicio": 73.313,
+          "fin": 73.651
+        },
+        {
+          "texto": "she",
+          "inicio": 73.664,
+          "fin": 73.795
+        },
+        {
+          "texto": "noticed",
+          "inicio": 73.808,
+          "fin": 74.328
+        },
+        {
+          "texto": "A",
+          "inicio": 74.758,
+          "fin": 74.823
+        },
+        {
+          "texto": "flash",
+          "inicio": 74.836,
+          "fin": 75.318
+        },
+        {
+          "texto": "of",
+          "inicio": 75.331,
+          "fin": 75.435
+        },
+        {
+          "texto": "cold",
+          "inicio": 75.448,
+          "fin": 75.761
+        },
+        {
+          "texto": "irritation",
+          "inicio": 75.774,
+          "fin": 76.477
+        },
+        {
+          "texto": "when",
+          "inicio": 76.646,
+          "fin": 76.75
+        },
+        {
+          "texto": "she",
+          "inicio": 76.763,
+          "fin": 76.907
+        },
+        {
+          "texto": "was",
+          "inicio": 76.92,
+          "fin": 77.076
+        },
+        {
+          "texto": "ten",
+          "inicio": 77.089,
+          "fin": 77.31
+        },
+        {
+          "texto": "minutes",
+          "inicio": 77.323,
+          "fin": 77.597
+        },
+        {
+          "texto": "late",
+          "inicio": 77.61,
+          "fin": 77.948
+        }
+      ],
+      "startFrame": 2174,
+      "endFrame": 2352
+    },
+    {
+      "id": "S020",
+      "startS": 78.391,
+      "endS": 81.828,
+      "palabras": [
+        {
+          "texto": "She",
+          "inicio": 78.391,
+          "fin": 78.521
+        },
+        {
+          "texto": "told",
+          "inicio": 78.534,
+          "fin": 78.795
+        },
+        {
+          "texto": "herself",
+          "inicio": 78.808,
+          "fin": 79.172
+        },
+        {
+          "texto": "it",
+          "inicio": 79.185,
+          "fin": 79.25
+        },
+        {
+          "texto": "was",
+          "inicio": 79.263,
+          "fin": 79.393
+        },
+        {
+          "texto": "nothing",
+          "inicio": 79.407,
+          "fin": 79.81
+        },
+        {
+          "texto": "Everyone",
+          "inicio": 80.24,
+          "fin": 80.552
+        },
+        {
+          "texto": "has",
+          "inicio": 80.565,
+          "fin": 80.696
+        },
+        {
+          "texto": "bad",
+          "inicio": 80.709,
+          "fin": 80.969
+        },
+        {
+          "texto": "days",
+          "inicio": 80.982,
+          "fin": 81.373
+        }
+      ],
+      "startFrame": 2352,
+      "endFrame": 2455
+    },
+    {
+      "id": "S021",
+      "startS": 81.828,
+      "endS": 85.735,
+      "palabras": [
+        {
+          "texto": "Here's",
+          "inicio": 81.828,
+          "fin": 81.985
+        },
+        {
+          "texto": "what",
+          "inicio": 81.998,
+          "fin": 82.089
+        },
+        {
+          "texto": "was",
+          "inicio": 82.102,
+          "fin": 82.245
+        },
+        {
+          "texto": "actually",
+          "inicio": 82.258,
+          "fin": 82.623
+        },
+        {
+          "texto": "happening",
+          "inicio": 82.636,
+          "fin": 83.144
+        },
+        {
+          "texto": "It",
+          "inicio": 83.573,
+          "fin": 83.638
+        },
+        {
+          "texto": "has",
+          "inicio": 83.651,
+          "fin": 83.86
+        },
+        {
+          "texto": "a",
+          "inicio": 83.873,
+          "fin": 83.912
+        },
+        {
+          "texto": "name",
+          "inicio": 83.925,
+          "fin": 84.328
+        },
+        {
+          "texto": "love",
+          "inicio": 84.719,
+          "fin": 84.927
+        },
+        {
+          "texto": "bombing",
+          "inicio": 84.94,
+          "fin": 85.305
+        }
+      ],
+      "startFrame": 2455,
+      "endFrame": 2572
+    },
+    {
+      "id": "S022",
+      "startS": 85.735,
+      "endS": 91.503,
+      "palabras": [
+        {
+          "texto": "Overwhelming",
+          "inicio": 85.735,
+          "fin": 86.36
+        },
+        {
+          "texto": "attention",
+          "inicio": 86.373,
+          "fin": 86.88
+        },
+        {
+          "texto": "fast",
+          "inicio": 87.271,
+          "fin": 87.909
+        },
+        {
+          "texto": "before",
+          "inicio": 88.104,
+          "fin": 88.456
+        },
+        {
+          "texto": "you've",
+          "inicio": 88.469,
+          "fin": 88.612
+        },
+        {
+          "texto": "had",
+          "inicio": 88.625,
+          "fin": 88.808
+        },
+        {
+          "texto": "time",
+          "inicio": 88.821,
+          "fin": 89.081
+        },
+        {
+          "texto": "to",
+          "inicio": 89.094,
+          "fin": 89.185
+        },
+        {
+          "texto": "ask",
+          "inicio": 89.198,
+          "fin": 89.563
+        },
+        {
+          "texto": "who",
+          "inicio": 89.576,
+          "fin": 89.745
+        },
+        {
+          "texto": "this",
+          "inicio": 89.758,
+          "fin": 89.94
+        },
+        {
+          "texto": "person",
+          "inicio": 89.953,
+          "fin": 90.344
+        },
+        {
+          "texto": "really",
+          "inicio": 90.357,
+          "fin": 90.67
+        },
+        {
+          "texto": "is",
+          "inicio": 90.683,
+          "fin": 91.073
+        }
+      ],
+      "startFrame": 2572,
+      "endFrame": 2745
+    },
+    {
+      "id": "S023",
+      "startS": 91.503,
+      "endS": 96.867,
+      "palabras": [
+        {
+          "texto": "It",
+          "inicio": 91.503,
+          "fin": 91.581
+        },
+        {
+          "texto": "isn't",
+          "inicio": 91.594,
+          "fin": 91.828
+        },
+        {
+          "texto": "romance",
+          "inicio": 91.841,
+          "fin": 92.466
+        },
+        {
+          "texto": "It's",
+          "inicio": 92.896,
+          "fin": 93.0
+        },
+        {
+          "texto": "a",
+          "inicio": 93.013,
+          "fin": 93.065
+        },
+        {
+          "texto": "hook",
+          "inicio": 93.078,
+          "fin": 93.404
+        },
+        {
+          "texto": "And",
+          "inicio": 93.834,
+          "fin": 93.899
+        },
+        {
+          "texto": "the",
+          "inicio": 93.912,
+          "fin": 93.99
+        },
+        {
+          "texto": "faster",
+          "inicio": 94.003,
+          "fin": 94.472
+        },
+        {
+          "texto": "it",
+          "inicio": 94.485,
+          "fin": 94.563
+        },
+        {
+          "texto": "sets",
+          "inicio": 94.576,
+          "fin": 95.123
+        },
+        {
+          "texto": "the",
+          "inicio": 95.344,
+          "fin": 95.474
+        },
+        {
+          "texto": "deeper",
+          "inicio": 95.487,
+          "fin": 95.813
+        },
+        {
+          "texto": "it",
+          "inicio": 95.826,
+          "fin": 95.904
+        },
+        {
+          "texto": "goes",
+          "inicio": 95.917,
+          "fin": 96.425
+        }
+      ],
+      "startFrame": 2745,
+      "endFrame": 2906
+    },
+    {
+      "id": "S024",
+      "startS": 96.867,
+      "endS": 102.076,
+      "palabras": [
+        {
+          "texto": "Because",
+          "inicio": 96.867,
+          "fin": 97.102
+        },
+        {
+          "texto": "when",
+          "inicio": 97.115,
+          "fin": 97.245
+        },
+        {
+          "texto": "the",
+          "inicio": 97.258,
+          "fin": 97.349
+        },
+        {
+          "texto": "warmth",
+          "inicio": 97.362,
+          "fin": 97.74
+        },
+        {
+          "texto": "is",
+          "inicio": 97.753,
+          "fin": 97.87
+        },
+        {
+          "texto": "suddenly",
+          "inicio": 97.883,
+          "fin": 98.326
+        },
+        {
+          "texto": "taken",
+          "inicio": 98.339,
+          "fin": 98.664
+        },
+        {
+          "texto": "away",
+          "inicio": 98.677,
+          "fin": 99.055
+        },
+        {
+          "texto": "you'll",
+          "inicio": 99.446,
+          "fin": 99.55
+        },
+        {
+          "texto": "do",
+          "inicio": 99.563,
+          "fin": 99.771
+        },
+        {
+          "texto": "almost",
+          "inicio": 99.784,
+          "fin": 100.214
+        },
+        {
+          "texto": "anything",
+          "inicio": 100.383,
+          "fin": 100.8
+        },
+        {
+          "texto": "to",
+          "inicio": 100.813,
+          "fin": 100.904
+        },
+        {
+          "texto": "get",
+          "inicio": 100.917,
+          "fin": 101.06
+        },
+        {
+          "texto": "it",
+          "inicio": 101.073,
+          "fin": 101.164
+        },
+        {
+          "texto": "back",
+          "inicio": 101.177,
+          "fin": 101.633
+        }
+      ],
+      "startFrame": 2906,
+      "endFrame": 3062
+    },
+    {
+      "id": "S025",
+      "startS": 102.076,
+      "endS": 103.756,
+      "palabras": [
+        {
+          "texto": "But",
+          "inicio": 102.076,
+          "fin": 102.18
+        },
+        {
+          "texto": "Daniel",
+          "inicio": 102.193,
+          "fin": 102.532
+        },
+        {
+          "texto": "wasn't",
+          "inicio": 102.545,
+          "fin": 102.818
+        },
+        {
+          "texto": "finished",
+          "inicio": 102.831,
+          "fin": 103.313
+        }
+      ],
+      "startFrame": 3062,
+      "endFrame": 3113
+    },
+    {
+      "id": "S026",
+      "startS": 103.756,
+      "endS": 108.656,
+      "palabras": [
+        {
+          "texto": "The",
+          "inicio": 103.756,
+          "fin": 103.795
+        },
+        {
+          "texto": "next",
+          "inicio": 103.808,
+          "fin": 104.068
+        },
+        {
+          "texto": "move",
+          "inicio": 104.081,
+          "fin": 104.302
+        },
+        {
+          "texto": "didn't",
+          "inicio": 104.315,
+          "fin": 104.55
+        },
+        {
+          "texto": "target",
+          "inicio": 104.563,
+          "fin": 104.901
+        },
+        {
+          "texto": "Maya",
+          "inicio": 104.914,
+          "fin": 105.214
+        },
+        {
+          "texto": "at",
+          "inicio": 105.227,
+          "fin": 105.318
+        },
+        {
+          "texto": "all",
+          "inicio": 105.331,
+          "fin": 105.604
+        },
+        {
+          "texto": "It",
+          "inicio": 106.034,
+          "fin": 106.138
+        },
+        {
+          "texto": "targeted",
+          "inicio": 106.151,
+          "fin": 106.659
+        },
+        {
+          "texto": "everyone",
+          "inicio": 106.815,
+          "fin": 107.18
+        },
+        {
+          "texto": "around",
+          "inicio": 107.193,
+          "fin": 107.545
+        },
+        {
+          "texto": "her",
+          "inicio": 107.558,
+          "fin": 107.805
+        }
+      ],
+      "startFrame": 3113,
+      "endFrame": 3260
+    },
+    {
+      "id": "S027",
+      "startS": 108.656,
+      "endS": 111.26,
+      "palabras": [
+        {
+          "texto": "Move",
+          "inicio": 108.656,
+          "fin": 108.878
+        },
+        {
+          "texto": "two",
+          "inicio": 108.891,
+          "fin": 109.203
+        },
+        {
+          "texto": "The",
+          "inicio": 109.633,
+          "fin": 109.698
+        },
+        {
+          "texto": "world",
+          "inicio": 109.711,
+          "fin": 110.062
+        },
+        {
+          "texto": "gets",
+          "inicio": 110.075,
+          "fin": 110.297
+        },
+        {
+          "texto": "smaller",
+          "inicio": 110.31,
+          "fin": 110.831
+        }
+      ],
+      "startFrame": 3260,
+      "endFrame": 3338
+    },
+    {
+      "id": "S028",
+      "startS": 111.26,
+      "endS": 116.091,
+      "palabras": [
+        {
+          "texto": "It",
+          "inicio": 111.26,
+          "fin": 111.351
+        },
+        {
+          "texto": "started",
+          "inicio": 111.364,
+          "fin": 111.677
+        },
+        {
+          "texto": "with",
+          "inicio": 111.69,
+          "fin": 111.807
+        },
+        {
+          "texto": "small",
+          "inicio": 111.82,
+          "fin": 112.094
+        },
+        {
+          "texto": "comments",
+          "inicio": 112.107,
+          "fin": 112.732
+        },
+        {
+          "texto": "Your",
+          "inicio": 113.24,
+          "fin": 113.279
+        },
+        {
+          "texto": "friend",
+          "inicio": 113.279,
+          "fin": 113.578
+        },
+        {
+          "texto": "Priya",
+          "inicio": 113.591,
+          "fin": 113.904
+        },
+        {
+          "texto": "seems",
+          "inicio": 113.917,
+          "fin": 114.463
+        },
+        {
+          "texto": "jealous",
+          "inicio": 114.672,
+          "fin": 114.984
+        },
+        {
+          "texto": "of",
+          "inicio": 114.997,
+          "fin": 115.101
+        },
+        {
+          "texto": "us",
+          "inicio": 115.114,
+          "fin": 115.466
+        }
+      ],
+      "startFrame": 3338,
+      "endFrame": 3483
+    },
+    {
+      "id": "S029",
+      "startS": 116.091,
+      "endS": 119.594,
+      "palabras": [
+        {
+          "texto": "Your",
+          "inicio": 116.091,
+          "fin": 116.091
+        },
+        {
+          "texto": "sister",
+          "inicio": 116.169,
+          "fin": 116.612
+        },
+        {
+          "texto": "always",
+          "inicio": 116.625,
+          "fin": 116.95
+        },
+        {
+          "texto": "makes",
+          "inicio": 116.963,
+          "fin": 117.198
+        },
+        {
+          "texto": "you",
+          "inicio": 117.211,
+          "fin": 117.302
+        },
+        {
+          "texto": "feel",
+          "inicio": 117.315,
+          "fin": 117.549
+        },
+        {
+          "texto": "guilty",
+          "inicio": 117.562,
+          "fin": 117.979
+        },
+        {
+          "texto": "Have",
+          "inicio": 118.409,
+          "fin": 118.513
+        },
+        {
+          "texto": "you",
+          "inicio": 118.526,
+          "fin": 118.604
+        },
+        {
+          "texto": "noticed",
+          "inicio": 118.617,
+          "fin": 119.138
+        }
+      ],
+      "startFrame": 3483,
+      "endFrame": 3588
+    },
+    {
+      "id": "S030",
+      "startS": 119.594,
+      "endS": 123.057,
+      "palabras": [
+        {
+          "texto": "He",
+          "inicio": 119.594,
+          "fin": 119.633
+        },
+        {
+          "texto": "never",
+          "inicio": 119.646,
+          "fin": 119.88
+        },
+        {
+          "texto": "said",
+          "inicio": 119.893,
+          "fin": 120.154
+        },
+        {
+          "texto": "don't",
+          "inicio": 120.18,
+          "fin": 120.388
+        },
+        {
+          "texto": "see",
+          "inicio": 120.401,
+          "fin": 120.635
+        },
+        {
+          "texto": "them",
+          "inicio": 120.648,
+          "fin": 120.857
+        },
+        {
+          "texto": "He",
+          "inicio": 121.312,
+          "fin": 121.364
+        },
+        {
+          "texto": "was",
+          "inicio": 121.378,
+          "fin": 121.521
+        },
+        {
+          "texto": "much",
+          "inicio": 121.534,
+          "fin": 121.742
+        },
+        {
+          "texto": "smarter",
+          "inicio": 121.755,
+          "fin": 122.146
+        },
+        {
+          "texto": "than",
+          "inicio": 122.159,
+          "fin": 122.302
+        },
+        {
+          "texto": "that",
+          "inicio": 122.315,
+          "fin": 122.615
+        }
+      ],
+      "startFrame": 3588,
+      "endFrame": 3692
+    },
+    {
+      "id": "S031",
+      "startS": 123.057,
+      "endS": 126.0,
+      "palabras": [
+        {
+          "texto": "He",
+          "inicio": 123.057,
+          "fin": 123.109
+        },
+        {
+          "texto": "just",
+          "inicio": 123.122,
+          "fin": 123.331
+        },
+        {
+          "texto": "made",
+          "inicio": 123.344,
+          "fin": 123.539
+        },
+        {
+          "texto": "every",
+          "inicio": 123.695,
+          "fin": 123.93
+        },
+        {
+          "texto": "night",
+          "inicio": 123.943,
+          "fin": 124.203
+        },
+        {
+          "texto": "with",
+          "inicio": 124.216,
+          "fin": 124.346
+        },
+        {
+          "texto": "friends",
+          "inicio": 124.359,
+          "fin": 124.737
+        },
+        {
+          "texto": "cost",
+          "inicio": 124.75,
+          "fin": 125.062
+        },
+        {
+          "texto": "her",
+          "inicio": 125.075,
+          "fin": 125.18
+        },
+        {
+          "texto": "something",
+          "inicio": 125.193,
+          "fin": 125.57
+        }
+      ],
+      "startFrame": 3692,
+      "endFrame": 3780
+    },
+    {
+      "id": "S032",
+      "startS": 126.0,
+      "endS": 130.401,
+      "palabras": [
+        {
+          "texto": "A",
+          "inicio": 126.0,
+          "fin": 126.039
+        },
+        {
+          "texto": "sigh",
+          "inicio": 126.052,
+          "fin": 126.273
+        },
+        {
+          "texto": "at",
+          "inicio": 126.286,
+          "fin": 126.364
+        },
+        {
+          "texto": "the",
+          "inicio": 126.378,
+          "fin": 126.456
+        },
+        {
+          "texto": "door",
+          "inicio": 126.469,
+          "fin": 126.794
+        },
+        {
+          "texto": "A",
+          "inicio": 127.224,
+          "fin": 127.276
+        },
+        {
+          "texto": "cold",
+          "inicio": 127.289,
+          "fin": 127.562
+        },
+        {
+          "texto": "dinner",
+          "inicio": 127.575,
+          "fin": 127.875
+        },
+        {
+          "texto": "A",
+          "inicio": 128.292,
+          "fin": 128.344
+        },
+        {
+          "texto": "mood",
+          "inicio": 128.357,
+          "fin": 128.604
+        },
+        {
+          "texto": "that",
+          "inicio": 128.617,
+          "fin": 128.786
+        },
+        {
+          "texto": "lasted",
+          "inicio": 128.799,
+          "fin": 129.19
+        },
+        {
+          "texto": "until",
+          "inicio": 129.203,
+          "fin": 129.45
+        },
+        {
+          "texto": "Sunday",
+          "inicio": 129.463,
+          "fin": 129.958
+        }
+      ],
+      "startFrame": 3780,
+      "endFrame": 3912
+    },
+    {
+      "id": "S033",
+      "startS": 130.401,
+      "endS": 135.661,
+      "palabras": [
+        {
+          "texto": "Then",
+          "inicio": 130.401,
+          "fin": 130.518
+        },
+        {
+          "texto": "came",
+          "inicio": 130.531,
+          "fin": 130.766
+        },
+        {
+          "texto": "the",
+          "inicio": 130.779,
+          "fin": 130.857
+        },
+        {
+          "texto": "rules",
+          "inicio": 130.87,
+          "fin": 131.234
+        },
+        {
+          "texto": "that",
+          "inicio": 131.247,
+          "fin": 131.365
+        },
+        {
+          "texto": "were",
+          "inicio": 131.378,
+          "fin": 131.482
+        },
+        {
+          "texto": "never",
+          "inicio": 131.495,
+          "fin": 131.768
+        },
+        {
+          "texto": "called",
+          "inicio": 131.781,
+          "fin": 132.042
+        },
+        {
+          "texto": "rules",
+          "inicio": 132.055,
+          "fin": 132.536
+        },
+        {
+          "texto": "Just",
+          "inicio": 133.044,
+          "fin": 133.109
+        },
+        {
+          "texto": "text",
+          "inicio": 133.187,
+          "fin": 133.461
+        },
+        {
+          "texto": "me",
+          "inicio": 133.474,
+          "fin": 133.552
+        },
+        {
+          "texto": "when",
+          "inicio": 133.565,
+          "fin": 133.682
+        },
+        {
+          "texto": "you",
+          "inicio": 133.695,
+          "fin": 133.786
+        },
+        {
+          "texto": "get",
+          "inicio": 133.799,
+          "fin": 134.021
+        },
+        {
+          "texto": "there",
+          "inicio": 134.034,
+          "fin": 134.307
+        },
+        {
+          "texto": "I",
+          "inicio": 134.737,
+          "fin": 134.815
+        },
+        {
+          "texto": "worry",
+          "inicio": 134.828,
+          "fin": 135.219
+        }
+      ],
+      "startFrame": 3912,
+      "endFrame": 4070
+    },
+    {
+      "id": "S034",
+      "startS": 135.661,
+      "endS": 138.734,
+      "palabras": [
+        {
+          "texto": "Soon",
+          "inicio": 135.661,
+          "fin": 136.091
+        },
+        {
+          "texto": "I",
+          "inicio": 136.521,
+          "fin": 136.599
+        },
+        {
+          "texto": "worry",
+          "inicio": 136.612,
+          "fin": 136.937
+        },
+        {
+          "texto": "became",
+          "inicio": 136.963,
+          "fin": 137.367
+        },
+        {
+          "texto": "Who",
+          "inicio": 137.393,
+          "fin": 137.588
+        },
+        {
+          "texto": "were",
+          "inicio": 137.601,
+          "fin": 137.771
+        },
+        {
+          "texto": "you",
+          "inicio": 137.784,
+          "fin": 137.966
+        },
+        {
+          "texto": "with",
+          "inicio": 137.979,
+          "fin": 138.292
+        }
+      ],
+      "startFrame": 4070,
+      "endFrame": 4162
+    },
+    {
+      "id": "S035",
+      "startS": 138.734,
+      "endS": 143.5,
+      "palabras": [
+        {
+          "texto": "And",
+          "inicio": 138.734,
+          "fin": 138.825
+        },
+        {
+          "texto": "she",
+          "inicio": 138.838,
+          "fin": 139.06
+        },
+        {
+          "texto": "answered",
+          "inicio": 139.073,
+          "fin": 139.476
+        },
+        {
+          "texto": "every",
+          "inicio": 139.633,
+          "fin": 139.958
+        },
+        {
+          "texto": "single",
+          "inicio": 139.971,
+          "fin": 140.349
+        },
+        {
+          "texto": "time",
+          "inicio": 140.362,
+          "fin": 140.792
+        },
+        {
+          "texto": "to",
+          "inicio": 141.169,
+          "fin": 141.312
+        },
+        {
+          "texto": "avoid",
+          "inicio": 141.325,
+          "fin": 141.703
+        },
+        {
+          "texto": "the",
+          "inicio": 141.716,
+          "fin": 141.794
+        },
+        {
+          "texto": "silence",
+          "inicio": 141.807,
+          "fin": 142.328
+        },
+        {
+          "texto": "that",
+          "inicio": 142.341,
+          "fin": 142.458
+        },
+        {
+          "texto": "would",
+          "inicio": 142.471,
+          "fin": 142.588
+        },
+        {
+          "texto": "follow",
+          "inicio": 142.602,
+          "fin": 143.057
+        }
+      ],
+      "startFrame": 4162,
+      "endFrame": 4305
+    },
+    {
+      "id": "S036",
+      "startS": 143.5,
+      "endS": 148.76,
+      "palabras": [
+        {
+          "texto": "Six",
+          "inicio": 143.5,
+          "fin": 143.721
+        },
+        {
+          "texto": "months",
+          "inicio": 143.734,
+          "fin": 144.047
+        },
+        {
+          "texto": "in",
+          "inicio": 144.06,
+          "fin": 144.333
+        },
+        {
+          "texto": "Maya",
+          "inicio": 144.763,
+          "fin": 145.023
+        },
+        {
+          "texto": "started",
+          "inicio": 145.036,
+          "fin": 145.427
+        },
+        {
+          "texto": "canceling",
+          "inicio": 145.44,
+          "fin": 145.948
+        },
+        {
+          "texto": "plans",
+          "inicio": 145.961,
+          "fin": 146.352
+        },
+        {
+          "texto": "on",
+          "inicio": 146.364,
+          "fin": 146.469
+        },
+        {
+          "texto": "her",
+          "inicio": 146.482,
+          "fin": 146.677
+        },
+        {
+          "texto": "own",
+          "inicio": 146.69,
+          "fin": 147.016
+        },
+        {
+          "texto": "to",
+          "inicio": 147.315,
+          "fin": 147.406
+        },
+        {
+          "texto": "keep",
+          "inicio": 147.419,
+          "fin": 147.654
+        },
+        {
+          "texto": "the",
+          "inicio": 147.667,
+          "fin": 147.758
+        },
+        {
+          "texto": "peace",
+          "inicio": 147.771,
+          "fin": 148.318
+        }
+      ],
+      "startFrame": 4305,
+      "endFrame": 4463
+    },
+    {
+      "id": "S037",
+      "startS": 148.76,
+      "endS": 153.213,
+      "palabras": [
+        {
+          "texto": "Her",
+          "inicio": 148.76,
+          "fin": 148.864
+        },
+        {
+          "texto": "calendar",
+          "inicio": 148.878,
+          "fin": 149.385
+        },
+        {
+          "texto": "emptied",
+          "inicio": 149.398,
+          "fin": 149.815
+        },
+        {
+          "texto": "Her",
+          "inicio": 150.258,
+          "fin": 150.401
+        },
+        {
+          "texto": "world",
+          "inicio": 150.414,
+          "fin": 150.687
+        },
+        {
+          "texto": "shrank",
+          "inicio": 150.7,
+          "fin": 151.221
+        },
+        {
+          "texto": "And",
+          "inicio": 151.651,
+          "fin": 151.716
+        },
+        {
+          "texto": "she",
+          "inicio": 151.729,
+          "fin": 151.859
+        },
+        {
+          "texto": "called",
+          "inicio": 151.872,
+          "fin": 152.107
+        },
+        {
+          "texto": "it",
+          "inicio": 152.12,
+          "fin": 152.185
+        },
+        {
+          "texto": "choosing",
+          "inicio": 152.198,
+          "fin": 152.562
+        },
+        {
+          "texto": "him",
+          "inicio": 152.575,
+          "fin": 152.771
+        }
+      ],
+      "startFrame": 4463,
+      "endFrame": 4596
+    },
+    {
+      "id": "S038",
+      "startS": 153.213,
+      "endS": 157.289,
+      "palabras": [
+        {
+          "texto": "Psychologists",
+          "inicio": 153.213,
+          "fin": 153.956
+        },
+        {
+          "texto": "call",
+          "inicio": 153.969,
+          "fin": 154.229
+        },
+        {
+          "texto": "this",
+          "inicio": 154.242,
+          "fin": 154.411
+        },
+        {
+          "texto": "isolation",
+          "inicio": 154.424,
+          "fin": 155.062
+        },
+        {
+          "texto": "And",
+          "inicio": 155.492,
+          "fin": 155.557
+        },
+        {
+          "texto": "it's",
+          "inicio": 155.57,
+          "fin": 155.7
+        },
+        {
+          "texto": "not",
+          "inicio": 155.713,
+          "fin": 155.883
+        },
+        {
+          "texto": "about",
+          "inicio": 155.896,
+          "fin": 156.143
+        },
+        {
+          "texto": "loneliness",
+          "inicio": 156.156,
+          "fin": 156.859
+        }
+      ],
+      "startFrame": 4596,
+      "endFrame": 4719
+    },
+    {
+      "id": "S039",
+      "startS": 157.289,
+      "endS": 162.029,
+      "palabras": [
+        {
+          "texto": "It's",
+          "inicio": 157.289,
+          "fin": 157.406
+        },
+        {
+          "texto": "about",
+          "inicio": 157.419,
+          "fin": 157.719
+        },
+        {
+          "texto": "removing",
+          "inicio": 157.732,
+          "fin": 158.318
+        },
+        {
+          "texto": "every",
+          "inicio": 158.448,
+          "fin": 158.786
+        },
+        {
+          "texto": "person",
+          "inicio": 158.799,
+          "fin": 159.255
+        },
+        {
+          "texto": "who",
+          "inicio": 159.268,
+          "fin": 159.385
+        },
+        {
+          "texto": "could",
+          "inicio": 159.398,
+          "fin": 159.542
+        },
+        {
+          "texto": "say",
+          "inicio": 159.555,
+          "fin": 159.867
+        },
+        {
+          "texto": "This",
+          "inicio": 160.505,
+          "fin": 160.713
+        },
+        {
+          "texto": "isn't",
+          "inicio": 160.831,
+          "fin": 161.065
+        },
+        {
+          "texto": "normal",
+          "inicio": 161.078,
+          "fin": 161.495
+        }
+      ],
+      "startFrame": 4719,
+      "endFrame": 4861
+    },
+    {
+      "id": "S040",
+      "startS": 162.029,
+      "endS": 166.664,
+      "palabras": [
+        {
+          "texto": "If",
+          "inicio": 162.029,
+          "fin": 162.146
+        },
+        {
+          "texto": "this",
+          "inicio": 162.159,
+          "fin": 162.302
+        },
+        {
+          "texto": "is",
+          "inicio": 162.315,
+          "fin": 162.432
+        },
+        {
+          "texto": "landing",
+          "inicio": 162.445,
+          "fin": 162.914
+        },
+        {
+          "texto": "hit",
+          "inicio": 163.083,
+          "fin": 163.253
+        },
+        {
+          "texto": "like",
+          "inicio": 163.266,
+          "fin": 163.604
+        },
+        {
+          "texto": "It",
+          "inicio": 164.034,
+          "fin": 164.125
+        },
+        {
+          "texto": "helps",
+          "inicio": 164.138,
+          "fin": 164.45
+        },
+        {
+          "texto": "this",
+          "inicio": 164.463,
+          "fin": 164.659
+        },
+        {
+          "texto": "reach",
+          "inicio": 164.672,
+          "fin": 164.932
+        },
+        {
+          "texto": "someone",
+          "inicio": 164.945,
+          "fin": 165.284
+        },
+        {
+          "texto": "who",
+          "inicio": 165.297,
+          "fin": 165.414
+        },
+        {
+          "texto": "needs",
+          "inicio": 165.427,
+          "fin": 165.7
+        },
+        {
+          "texto": "to",
+          "inicio": 165.713,
+          "fin": 165.779
+        },
+        {
+          "texto": "hear",
+          "inicio": 165.792,
+          "fin": 166.065
+        },
+        {
+          "texto": "it",
+          "inicio": 166.078,
+          "fin": 166.234
+        }
+      ],
+      "startFrame": 4861,
+      "endFrame": 5000
+    },
+    {
+      "id": "S041",
+      "startS": 166.664,
+      "endS": 169.568,
+      "palabras": [
+        {
+          "texto": "Now",
+          "inicio": 166.664,
+          "fin": 166.846
+        },
+        {
+          "texto": "Maya",
+          "inicio": 166.859,
+          "fin": 167.211
+        },
+        {
+          "texto": "had",
+          "inicio": 167.224,
+          "fin": 167.419
+        },
+        {
+          "texto": "no",
+          "inicio": 167.432,
+          "fin": 167.68
+        },
+        {
+          "texto": "one",
+          "inicio": 167.693,
+          "fin": 167.862
+        },
+        {
+          "texto": "left",
+          "inicio": 167.875,
+          "fin": 168.083
+        },
+        {
+          "texto": "to",
+          "inicio": 168.096,
+          "fin": 168.174
+        },
+        {
+          "texto": "compare",
+          "inicio": 168.187,
+          "fin": 168.539
+        },
+        {
+          "texto": "notes",
+          "inicio": 168.552,
+          "fin": 168.825
+        },
+        {
+          "texto": "with",
+          "inicio": 168.838,
+          "fin": 169.138
+        }
+      ],
+      "startFrame": 5000,
+      "endFrame": 5087
+    },
+    {
+      "id": "S042",
+      "startS": 169.568,
+      "endS": 172.7,
+      "palabras": [
+        {
+          "texto": "And",
+          "inicio": 169.568,
+          "fin": 169.633
+        },
+        {
+          "texto": "that's",
+          "inicio": 169.646,
+          "fin": 169.854
+        },
+        {
+          "texto": "exactly",
+          "inicio": 169.867,
+          "fin": 170.466
+        },
+        {
+          "texto": "when",
+          "inicio": 170.479,
+          "fin": 170.609
+        },
+        {
+          "texto": "the",
+          "inicio": 170.622,
+          "fin": 170.7
+        },
+        {
+          "texto": "third",
+          "inicio": 170.713,
+          "fin": 171.13
+        },
+        {
+          "texto": "move",
+          "inicio": 171.143,
+          "fin": 171.378
+        },
+        {
+          "texto": "began",
+          "inicio": 171.391,
+          "fin": 171.859
+        }
+      ],
+      "startFrame": 5087,
+      "endFrame": 5181
+    },
+    {
+      "id": "S043",
+      "startS": 172.7,
+      "endS": 174.979,
+      "palabras": [
+        {
+          "texto": "Move",
+          "inicio": 172.7,
+          "fin": 172.974
+        },
+        {
+          "texto": "three",
+          "inicio": 172.987,
+          "fin": 173.351
+        },
+        {
+          "texto": "The",
+          "inicio": 173.794,
+          "fin": 173.846
+        },
+        {
+          "texto": "memory",
+          "inicio": 173.859,
+          "fin": 174.224
+        },
+        {
+          "texto": "edit",
+          "inicio": 174.237,
+          "fin": 174.549
+        }
+      ],
+      "startFrame": 5181,
+      "endFrame": 5249
+    },
+    {
+      "id": "S044",
+      "startS": 174.979,
+      "endS": 178.937,
+      "palabras": [
+        {
+          "texto": "One",
+          "inicio": 174.979,
+          "fin": 175.239
+        },
+        {
+          "texto": "evening",
+          "inicio": 175.252,
+          "fin": 175.565
+        },
+        {
+          "texto": "she",
+          "inicio": 175.578,
+          "fin": 175.721
+        },
+        {
+          "texto": "said",
+          "inicio": 175.734,
+          "fin": 176.099
+        },
+        {
+          "texto": "You",
+          "inicio": 176.567,
+          "fin": 176.659
+        },
+        {
+          "texto": "told",
+          "inicio": 176.672,
+          "fin": 176.945
+        },
+        {
+          "texto": "me",
+          "inicio": 176.958,
+          "fin": 177.062
+        },
+        {
+          "texto": "you'd",
+          "inicio": 177.075,
+          "fin": 177.218
+        },
+        {
+          "texto": "be",
+          "inicio": 177.231,
+          "fin": 177.362
+        },
+        {
+          "texto": "home",
+          "inicio": 177.375,
+          "fin": 177.765
+        },
+        {
+          "texto": "by",
+          "inicio": 177.778,
+          "fin": 177.935
+        },
+        {
+          "texto": "seven",
+          "inicio": 177.948,
+          "fin": 178.364
+        }
+      ],
+      "startFrame": 5249,
+      "endFrame": 5368
+    },
+    {
+      "id": "S045",
+      "startS": 178.937,
+      "endS": 183.182,
+      "palabras": [
+        {
+          "texto": "He",
+          "inicio": 178.937,
+          "fin": 179.002
+        },
+        {
+          "texto": "looked",
+          "inicio": 179.015,
+          "fin": 179.224
+        },
+        {
+          "texto": "at",
+          "inicio": 179.237,
+          "fin": 179.328
+        },
+        {
+          "texto": "her",
+          "inicio": 179.341,
+          "fin": 179.536
+        },
+        {
+          "texto": "calm",
+          "inicio": 179.914,
+          "fin": 180.33
+        },
+        {
+          "texto": "almost",
+          "inicio": 180.656,
+          "fin": 180.968
+        },
+        {
+          "texto": "kind",
+          "inicio": 180.981,
+          "fin": 181.437
+        },
+        {
+          "texto": "I",
+          "inicio": 181.906,
+          "fin": 181.932
+        },
+        {
+          "texto": "never",
+          "inicio": 181.932,
+          "fin": 182.179
+        },
+        {
+          "texto": "said",
+          "inicio": 182.192,
+          "fin": 182.453
+        },
+        {
+          "texto": "that",
+          "inicio": 182.466,
+          "fin": 182.739
+        }
+      ],
+      "startFrame": 5368,
+      "endFrame": 5495
+    },
+    {
+      "id": "S046",
+      "startS": 183.182,
+      "endS": 186.58,
+      "palabras": [
+        {
+          "texto": "She",
+          "inicio": 183.182,
+          "fin": 183.312
+        },
+        {
+          "texto": "was",
+          "inicio": 183.325,
+          "fin": 183.455
+        },
+        {
+          "texto": "sure",
+          "inicio": 183.468,
+          "fin": 183.859
+        },
+        {
+          "texto": "She",
+          "inicio": 184.289,
+          "fin": 184.419
+        },
+        {
+          "texto": "could",
+          "inicio": 184.432,
+          "fin": 184.562
+        },
+        {
+          "texto": "almost",
+          "inicio": 184.575,
+          "fin": 184.927
+        },
+        {
+          "texto": "hear",
+          "inicio": 184.94,
+          "fin": 185.083
+        },
+        {
+          "texto": "his",
+          "inicio": 185.096,
+          "fin": 185.226
+        },
+        {
+          "texto": "voice",
+          "inicio": 185.239,
+          "fin": 185.526
+        },
+        {
+          "texto": "saying",
+          "inicio": 185.539,
+          "fin": 185.903
+        },
+        {
+          "texto": "it",
+          "inicio": 185.916,
+          "fin": 186.086
+        }
+      ],
+      "startFrame": 5495,
+      "endFrame": 5597
+    },
+    {
+      "id": "S047",
+      "startS": 186.58,
+      "endS": 190.057,
+      "palabras": [
+        {
+          "texto": "You're",
+          "inicio": 186.58,
+          "fin": 186.606
+        },
+        {
+          "texto": "tired",
+          "inicio": 186.606,
+          "fin": 186.945
+        },
+        {
+          "texto": "Maya",
+          "inicio": 186.971,
+          "fin": 187.284
+        },
+        {
+          "texto": "You",
+          "inicio": 187.713,
+          "fin": 187.791
+        },
+        {
+          "texto": "get",
+          "inicio": 187.804,
+          "fin": 187.948
+        },
+        {
+          "texto": "confused",
+          "inicio": 187.961,
+          "fin": 188.612
+        },
+        {
+          "texto": "when",
+          "inicio": 188.625,
+          "fin": 188.729
+        },
+        {
+          "texto": "you're",
+          "inicio": 188.742,
+          "fin": 188.859
+        },
+        {
+          "texto": "stressed",
+          "inicio": 188.872,
+          "fin": 189.497
+        }
+      ],
+      "startFrame": 5597,
+      "endFrame": 5702
+    },
+    {
+      "id": "S048",
+      "startS": 190.057,
+      "endS": 195.955,
+      "palabras": [
+        {
+          "texto": "He",
+          "inicio": 190.057,
+          "fin": 190.096
+        },
+        {
+          "texto": "was",
+          "inicio": 190.109,
+          "fin": 190.239
+        },
+        {
+          "texto": "never",
+          "inicio": 190.252,
+          "fin": 190.5
+        },
+        {
+          "texto": "cruel",
+          "inicio": 190.513,
+          "fin": 190.825
+        },
+        {
+          "texto": "about",
+          "inicio": 190.838,
+          "fin": 191.125
+        },
+        {
+          "texto": "it",
+          "inicio": 191.138,
+          "fin": 191.294
+        },
+        {
+          "texto": "That",
+          "inicio": 191.737,
+          "fin": 191.828
+        },
+        {
+          "texto": "was",
+          "inicio": 191.841,
+          "fin": 191.958
+        },
+        {
+          "texto": "the",
+          "inicio": 191.971,
+          "fin": 192.049
+        },
+        {
+          "texto": "trick",
+          "inicio": 192.062,
+          "fin": 192.479
+        },
+        {
+          "texto": "Patient",
+          "inicio": 192.922,
+          "fin": 193.351
+        },
+        {
+          "texto": "Gentle",
+          "inicio": 193.768,
+          "fin": 194.145
+        },
+        {
+          "texto": "Almost",
+          "inicio": 194.575,
+          "fin": 194.836
+        },
+        {
+          "texto": "sad",
+          "inicio": 194.849,
+          "fin": 195.109
+        },
+        {
+          "texto": "for",
+          "inicio": 195.122,
+          "fin": 195.265
+        },
+        {
+          "texto": "her",
+          "inicio": 195.278,
+          "fin": 195.526
+        }
+      ],
+      "startFrame": 5702,
+      "endFrame": 5879
+    },
+    {
+      "id": "S049",
+      "startS": 195.955,
+      "endS": 198.963,
+      "palabras": [
+        {
+          "texto": "It",
+          "inicio": 195.955,
+          "fin": 196.034
+        },
+        {
+          "texto": "happened",
+          "inicio": 196.047,
+          "fin": 196.398
+        },
+        {
+          "texto": "again",
+          "inicio": 196.411,
+          "fin": 196.698
+        },
+        {
+          "texto": "the",
+          "inicio": 196.711,
+          "fin": 196.776
+        },
+        {
+          "texto": "next",
+          "inicio": 196.789,
+          "fin": 197.062
+        },
+        {
+          "texto": "week",
+          "inicio": 197.075,
+          "fin": 197.427
+        },
+        {
+          "texto": "And",
+          "inicio": 197.856,
+          "fin": 197.908
+        },
+        {
+          "texto": "the",
+          "inicio": 197.922,
+          "fin": 197.987
+        },
+        {
+          "texto": "next",
+          "inicio": 198.0,
+          "fin": 198.534
+        }
+      ],
+      "startFrame": 5879,
+      "endFrame": 5969
+    },
+    {
+      "id": "S050",
+      "startS": 198.963,
+      "endS": 204.015,
+      "palabras": [
+        {
+          "texto": "A",
+          "inicio": 198.963,
+          "fin": 199.015
+        },
+        {
+          "texto": "comment",
+          "inicio": 199.028,
+          "fin": 199.393
+        },
+        {
+          "texto": "she",
+          "inicio": 199.406,
+          "fin": 199.562
+        },
+        {
+          "texto": "remembered",
+          "inicio": 199.575,
+          "fin": 200.057
+        },
+        {
+          "texto": "A",
+          "inicio": 200.487,
+          "fin": 200.552
+        },
+        {
+          "texto": "promise",
+          "inicio": 200.565,
+          "fin": 200.955
+        },
+        {
+          "texto": "he",
+          "inicio": 200.968,
+          "fin": 201.047
+        },
+        {
+          "texto": "never",
+          "inicio": 201.073,
+          "fin": 201.359
+        },
+        {
+          "texto": "made",
+          "inicio": 201.372,
+          "fin": 201.672
+        },
+        {
+          "texto": "A",
+          "inicio": 202.01,
+          "fin": 202.088
+        },
+        {
+          "texto": "fight",
+          "inicio": 202.101,
+          "fin": 202.362
+        },
+        {
+          "texto": "she",
+          "inicio": 202.375,
+          "fin": 202.531
+        },
+        {
+          "texto": "supposedly",
+          "inicio": 202.544,
+          "fin": 203.117
+        },
+        {
+          "texto": "started",
+          "inicio": 203.13,
+          "fin": 203.586
+        }
+      ],
+      "startFrame": 5969,
+      "endFrame": 6120
+    },
+    {
+      "id": "S051",
+      "startS": 204.015,
+      "endS": 209.445,
+      "palabras": [
+        {
+          "texto": "When",
+          "inicio": 204.015,
+          "fin": 204.093
+        },
+        {
+          "texto": "she",
+          "inicio": 204.106,
+          "fin": 204.25
+        },
+        {
+          "texto": "told",
+          "inicio": 204.263,
+          "fin": 204.497
+        },
+        {
+          "texto": "a",
+          "inicio": 204.51,
+          "fin": 204.536
+        },
+        {
+          "texto": "friend",
+          "inicio": 204.549,
+          "fin": 204.953
+        },
+        {
+          "texto": "it",
+          "inicio": 205.265,
+          "fin": 205.33
+        },
+        {
+          "texto": "sounded",
+          "inicio": 205.343,
+          "fin": 205.734
+        },
+        {
+          "texto": "so",
+          "inicio": 205.747,
+          "fin": 206.02
+        },
+        {
+          "texto": "small",
+          "inicio": 206.034,
+          "fin": 206.411
+        },
+        {
+          "texto": "out",
+          "inicio": 206.424,
+          "fin": 206.593
+        },
+        {
+          "texto": "loud",
+          "inicio": 206.606,
+          "fin": 206.958
+        },
+        {
+          "texto": "He",
+          "inicio": 207.466,
+          "fin": 207.492
+        },
+        {
+          "texto": "just",
+          "inicio": 207.492,
+          "fin": 207.687
+        },
+        {
+          "texto": "says",
+          "inicio": 207.7,
+          "fin": 207.908
+        },
+        {
+          "texto": "I",
+          "inicio": 207.922,
+          "fin": 207.987
+        },
+        {
+          "texto": "remembered",
+          "inicio": 208.0,
+          "fin": 208.429
+        },
+        {
+          "texto": "it",
+          "inicio": 208.442,
+          "fin": 208.547
+        },
+        {
+          "texto": "wrong",
+          "inicio": 208.56,
+          "fin": 208.885
+        }
+      ],
+      "startFrame": 6120,
+      "endFrame": 6283
+    },
+    {
+      "id": "S052",
+      "startS": 209.445,
+      "endS": 214.523,
+      "palabras": [
+        {
+          "texto": "Slowly",
+          "inicio": 209.445,
+          "fin": 209.875
+        },
+        {
+          "texto": "Maya",
+          "inicio": 210.343,
+          "fin": 210.591
+        },
+        {
+          "texto": "stopped",
+          "inicio": 210.604,
+          "fin": 210.929
+        },
+        {
+          "texto": "trusting",
+          "inicio": 210.942,
+          "fin": 211.372
+        },
+        {
+          "texto": "her",
+          "inicio": 211.385,
+          "fin": 211.541
+        },
+        {
+          "texto": "own",
+          "inicio": 211.619,
+          "fin": 211.75
+        },
+        {
+          "texto": "memory",
+          "inicio": 211.763,
+          "fin": 212.205
+        },
+        {
+          "texto": "She",
+          "inicio": 212.648,
+          "fin": 212.752
+        },
+        {
+          "texto": "started",
+          "inicio": 212.765,
+          "fin": 213.104
+        },
+        {
+          "texto": "writing",
+          "inicio": 213.117,
+          "fin": 213.403
+        },
+        {
+          "texto": "things",
+          "inicio": 213.416,
+          "fin": 213.716
+        },
+        {
+          "texto": "down",
+          "inicio": 213.729,
+          "fin": 214.093
+        }
+      ],
+      "startFrame": 6283,
+      "endFrame": 6436
+    },
+    {
+      "id": "S053",
+      "startS": 214.523,
+      "endS": 218.898,
+      "palabras": [
+        {
+          "texto": "Then",
+          "inicio": 214.523,
+          "fin": 214.614
+        },
+        {
+          "texto": "he",
+          "inicio": 214.627,
+          "fin": 214.718
+        },
+        {
+          "texto": "found",
+          "inicio": 214.731,
+          "fin": 214.966
+        },
+        {
+          "texto": "the",
+          "inicio": 214.979,
+          "fin": 215.031
+        },
+        {
+          "texto": "notes",
+          "inicio": 215.044,
+          "fin": 215.565
+        },
+        {
+          "texto": "Why",
+          "inicio": 216.073,
+          "fin": 216.086
+        },
+        {
+          "texto": "are",
+          "inicio": 216.164,
+          "fin": 216.255
+        },
+        {
+          "texto": "you",
+          "inicio": 216.268,
+          "fin": 216.372
+        },
+        {
+          "texto": "keeping",
+          "inicio": 216.385,
+          "fin": 216.711
+        },
+        {
+          "texto": "records",
+          "inicio": 216.724,
+          "fin": 217.075
+        },
+        {
+          "texto": "on",
+          "inicio": 217.088,
+          "fin": 217.231
+        },
+        {
+          "texto": "me",
+          "inicio": 217.244,
+          "fin": 217.414
+        },
+        {
+          "texto": "That's",
+          "inicio": 217.856,
+          "fin": 218.013
+        },
+        {
+          "texto": "sick",
+          "inicio": 218.026,
+          "fin": 218.455
+        }
+      ],
+      "startFrame": 6436,
+      "endFrame": 6567
+    },
+    {
+      "id": "S054",
+      "startS": 218.898,
+      "endS": 224.862,
+      "palabras": [
+        {
+          "texto": "This",
+          "inicio": 218.898,
+          "fin": 219.198
+        },
+        {
+          "texto": "is",
+          "inicio": 219.302,
+          "fin": 219.471
+        },
+        {
+          "texto": "gaslighting",
+          "inicio": 219.484,
+          "fin": 220.239
+        },
+        {
+          "texto": "making",
+          "inicio": 220.734,
+          "fin": 221.007
+        },
+        {
+          "texto": "someone",
+          "inicio": 221.021,
+          "fin": 221.333
+        },
+        {
+          "texto": "doubt",
+          "inicio": 221.346,
+          "fin": 221.646
+        },
+        {
+          "texto": "their",
+          "inicio": 221.658,
+          "fin": 221.789
+        },
+        {
+          "texto": "memory",
+          "inicio": 221.802,
+          "fin": 222.323
+        },
+        {
+          "texto": "their",
+          "inicio": 222.609,
+          "fin": 222.739
+        },
+        {
+          "texto": "perception",
+          "inicio": 222.752,
+          "fin": 223.455
+        },
+        {
+          "texto": "their",
+          "inicio": 223.729,
+          "fin": 223.859
+        },
+        {
+          "texto": "sanity",
+          "inicio": 223.872,
+          "fin": 224.432
+        }
+      ],
+      "startFrame": 6567,
+      "endFrame": 6746
+    },
+    {
+      "id": "S055",
+      "startS": 224.862,
+      "endS": 229.015,
+      "palabras": [
+        {
+          "texto": "It",
+          "inicio": 224.862,
+          "fin": 225.005
+        },
+        {
+          "texto": "works",
+          "inicio": 225.018,
+          "fin": 225.291
+        },
+        {
+          "texto": "because",
+          "inicio": 225.304,
+          "fin": 225.604
+        },
+        {
+          "texto": "it",
+          "inicio": 225.617,
+          "fin": 225.721
+        },
+        {
+          "texto": "doesn't",
+          "inicio": 225.734,
+          "fin": 226.034
+        },
+        {
+          "texto": "feel",
+          "inicio": 226.047,
+          "fin": 226.294
+        },
+        {
+          "texto": "like",
+          "inicio": 226.307,
+          "fin": 226.463
+        },
+        {
+          "texto": "an",
+          "inicio": 226.476,
+          "fin": 226.554
+        },
+        {
+          "texto": "attack",
+          "inicio": 226.567,
+          "fin": 227.101
+        },
+        {
+          "texto": "It",
+          "inicio": 227.531,
+          "fin": 227.622
+        },
+        {
+          "texto": "feels",
+          "inicio": 227.635,
+          "fin": 227.869
+        },
+        {
+          "texto": "like",
+          "inicio": 227.882,
+          "fin": 228.026
+        },
+        {
+          "texto": "concern",
+          "inicio": 228.039,
+          "fin": 228.586
+        }
+      ],
+      "startFrame": 6746,
+      "endFrame": 6870
+    },
+    {
+      "id": "S056",
+      "startS": 229.015,
+      "endS": 232.908,
+      "palabras": [
+        {
+          "texto": "And",
+          "inicio": 229.015,
+          "fin": 229.132
+        },
+        {
+          "texto": "once",
+          "inicio": 229.146,
+          "fin": 229.367
+        },
+        {
+          "texto": "you",
+          "inicio": 229.38,
+          "fin": 229.497
+        },
+        {
+          "texto": "can't",
+          "inicio": 229.51,
+          "fin": 229.784
+        },
+        {
+          "texto": "trust",
+          "inicio": 229.797,
+          "fin": 230.096
+        },
+        {
+          "texto": "your",
+          "inicio": 230.109,
+          "fin": 230.239
+        },
+        {
+          "texto": "own",
+          "inicio": 230.252,
+          "fin": 230.396
+        },
+        {
+          "texto": "mind",
+          "inicio": 230.408,
+          "fin": 230.786
+        },
+        {
+          "texto": "you",
+          "inicio": 231.19,
+          "fin": 231.268
+        },
+        {
+          "texto": "have",
+          "inicio": 231.281,
+          "fin": 231.502
+        },
+        {
+          "texto": "to",
+          "inicio": 231.515,
+          "fin": 231.606
+        },
+        {
+          "texto": "borrow",
+          "inicio": 231.619,
+          "fin": 231.984
+        },
+        {
+          "texto": "his",
+          "inicio": 231.997,
+          "fin": 232.479
+        }
+      ],
+      "startFrame": 6870,
+      "endFrame": 6987
+    },
+    {
+      "id": "S057",
+      "startS": 232.908,
+      "endS": 238.4,
+      "palabras": [
+        {
+          "texto": "Which",
+          "inicio": 232.908,
+          "fin": 233.065
+        },
+        {
+          "texto": "brings",
+          "inicio": 233.078,
+          "fin": 233.351
+        },
+        {
+          "texto": "us",
+          "inicio": 233.364,
+          "fin": 233.481
+        },
+        {
+          "texto": "to",
+          "inicio": 233.494,
+          "fin": 233.586
+        },
+        {
+          "texto": "move",
+          "inicio": 233.599,
+          "fin": 233.833
+        },
+        {
+          "texto": "four",
+          "inicio": 233.846,
+          "fin": 234.276
+        },
+        {
+          "texto": "The",
+          "inicio": 234.718,
+          "fin": 234.784
+        },
+        {
+          "texto": "one",
+          "inicio": 234.797,
+          "fin": 234.94
+        },
+        {
+          "texto": "I",
+          "inicio": 234.953,
+          "fin": 235.018
+        },
+        {
+          "texto": "promised",
+          "inicio": 235.031,
+          "fin": 235.643
+        },
+        {
+          "texto": "The",
+          "inicio": 236.086,
+          "fin": 236.151
+        },
+        {
+          "texto": "one",
+          "inicio": 236.164,
+          "fin": 236.372
+        },
+        {
+          "texto": "almost",
+          "inicio": 236.385,
+          "fin": 236.724
+        },
+        {
+          "texto": "no",
+          "inicio": 236.737,
+          "fin": 236.867
+        },
+        {
+          "texto": "one",
+          "inicio": 236.88,
+          "fin": 237.036
+        },
+        {
+          "texto": "sees",
+          "inicio": 237.049,
+          "fin": 237.557
+        }
+      ],
+      "startFrame": 6987,
+      "endFrame": 7152
+    },
+    {
+      "id": "S058",
+      "startS": 238.4,
+      "endS": 241.122,
+      "palabras": [
+        {
+          "texto": "Move",
+          "inicio": 238.4,
+          "fin": 238.648
+        },
+        {
+          "texto": "four",
+          "inicio": 238.661,
+          "fin": 239.077
+        },
+        {
+          "texto": "The",
+          "inicio": 239.507,
+          "fin": 239.585
+        },
+        {
+          "texto": "debt",
+          "inicio": 239.598,
+          "fin": 239.845
+        },
+        {
+          "texto": "she",
+          "inicio": 239.858,
+          "fin": 240.015
+        },
+        {
+          "texto": "never",
+          "inicio": 240.028,
+          "fin": 240.34
+        },
+        {
+          "texto": "owed",
+          "inicio": 240.353,
+          "fin": 240.614
+        }
+      ],
+      "startFrame": 7152,
+      "endFrame": 7234
+    },
+    {
+      "id": "S059",
+      "startS": 241.122,
+      "endS": 242.971,
+      "palabras": [
+        {
+          "texto": "After",
+          "inicio": 241.122,
+          "fin": 241.291
+        },
+        {
+          "texto": "everything",
+          "inicio": 241.369,
+          "fin": 241.773
+        },
+        {
+          "texto": "I've",
+          "inicio": 241.786,
+          "fin": 241.916
+        },
+        {
+          "texto": "done",
+          "inicio": 241.929,
+          "fin": 242.124
+        },
+        {
+          "texto": "for",
+          "inicio": 242.137,
+          "fin": 242.345
+        },
+        {
+          "texto": "you",
+          "inicio": 242.358,
+          "fin": 242.515
+        }
+      ],
+      "startFrame": 7234,
+      "endFrame": 7289
+    },
+    {
+      "id": "S060",
+      "startS": 242.971,
+      "endS": 247.71,
+      "palabras": [
+        {
+          "texto": "He",
+          "inicio": 242.971,
+          "fin": 243.023
+        },
+        {
+          "texto": "said",
+          "inicio": 243.036,
+          "fin": 243.231
+        },
+        {
+          "texto": "it",
+          "inicio": 243.244,
+          "fin": 243.335
+        },
+        {
+          "texto": "after",
+          "inicio": 243.348,
+          "fin": 243.595
+        },
+        {
+          "texto": "the",
+          "inicio": 243.608,
+          "fin": 243.674
+        },
+        {
+          "texto": "trip",
+          "inicio": 243.687,
+          "fin": 244.038
+        },
+        {
+          "texto": "After",
+          "inicio": 244.468,
+          "fin": 244.702
+        },
+        {
+          "texto": "the",
+          "inicio": 244.715,
+          "fin": 244.806
+        },
+        {
+          "texto": "dinner",
+          "inicio": 244.819,
+          "fin": 245.171
+        },
+        {
+          "texto": "After",
+          "inicio": 245.601,
+          "fin": 245.835
+        },
+        {
+          "texto": "the",
+          "inicio": 245.848,
+          "fin": 245.913
+        },
+        {
+          "texto": "night",
+          "inicio": 245.926,
+          "fin": 246.278
+        },
+        {
+          "texto": "he",
+          "inicio": 246.421,
+          "fin": 246.525
+        },
+        {
+          "texto": "drove",
+          "inicio": 246.538,
+          "fin": 246.825
+        },
+        {
+          "texto": "her",
+          "inicio": 246.838,
+          "fin": 246.955
+        },
+        {
+          "texto": "home",
+          "inicio": 246.968,
+          "fin": 247.28
+        }
+      ],
+      "startFrame": 7289,
+      "endFrame": 7431
+    },
+    {
+      "id": "S061",
+      "startS": 247.71,
+      "endS": 251.786,
+      "palabras": [
+        {
+          "texto": "Every",
+          "inicio": 247.71,
+          "fin": 247.984
+        },
+        {
+          "texto": "kindness",
+          "inicio": 247.997,
+          "fin": 248.569
+        },
+        {
+          "texto": "became",
+          "inicio": 248.582,
+          "fin": 248.947
+        },
+        {
+          "texto": "a",
+          "inicio": 248.96,
+          "fin": 248.999
+        },
+        {
+          "texto": "receipt",
+          "inicio": 249.012,
+          "fin": 249.572
+        },
+        {
+          "texto": "And",
+          "inicio": 250.002,
+          "fin": 250.093
+        },
+        {
+          "texto": "Maya",
+          "inicio": 250.106,
+          "fin": 250.366
+        },
+        {
+          "texto": "was",
+          "inicio": 250.379,
+          "fin": 250.536
+        },
+        {
+          "texto": "always",
+          "inicio": 250.549,
+          "fin": 250.874
+        },
+        {
+          "texto": "in",
+          "inicio": 250.887,
+          "fin": 250.978
+        },
+        {
+          "texto": "debt",
+          "inicio": 250.991,
+          "fin": 251.356
+        }
+      ],
+      "startFrame": 7431,
+      "endFrame": 7554
+    },
+    {
+      "id": "S062",
+      "startS": 251.786,
+      "endS": 257.788,
+      "palabras": [
+        {
+          "texto": "Money",
+          "inicio": 251.786,
+          "fin": 251.981
+        },
+        {
+          "texto": "became",
+          "inicio": 251.994,
+          "fin": 252.358
+        },
+        {
+          "texto": "part",
+          "inicio": 252.372,
+          "fin": 252.593
+        },
+        {
+          "texto": "of",
+          "inicio": 252.606,
+          "fin": 252.671
+        },
+        {
+          "texto": "it",
+          "inicio": 252.684,
+          "fin": 252.788
+        },
+        {
+          "texto": "too",
+          "inicio": 252.801,
+          "fin": 253.14
+        },
+        {
+          "texto": "Small",
+          "inicio": 253.569,
+          "fin": 253.778
+        },
+        {
+          "texto": "things",
+          "inicio": 253.791,
+          "fin": 253.999
+        },
+        {
+          "texto": "first",
+          "inicio": 254.012,
+          "fin": 254.494
+        },
+        {
+          "texto": "Let",
+          "inicio": 254.989,
+          "fin": 255.015
+        },
+        {
+          "texto": "me",
+          "inicio": 255.015,
+          "fin": 255.106
+        },
+        {
+          "texto": "handle",
+          "inicio": 255.119,
+          "fin": 255.379
+        },
+        {
+          "texto": "the",
+          "inicio": 255.392,
+          "fin": 255.484
+        },
+        {
+          "texto": "bills",
+          "inicio": 255.497,
+          "fin": 255.952
+        },
+        {
+          "texto": "You'd",
+          "inicio": 256.382,
+          "fin": 256.512
+        },
+        {
+          "texto": "only",
+          "inicio": 256.525,
+          "fin": 256.76
+        },
+        {
+          "texto": "stress",
+          "inicio": 256.773,
+          "fin": 257.345
+        }
+      ],
+      "startFrame": 7554,
+      "endFrame": 7734
+    },
+    {
+      "id": "S063",
+      "startS": 257.788,
+      "endS": 263.218,
+      "palabras": [
+        {
+          "texto": "Soon",
+          "inicio": 257.788,
+          "fin": 258.153
+        },
+        {
+          "texto": "she",
+          "inicio": 258.569,
+          "fin": 258.7
+        },
+        {
+          "texto": "needed",
+          "inicio": 258.713,
+          "fin": 258.986
+        },
+        {
+          "texto": "permission",
+          "inicio": 258.999,
+          "fin": 259.455
+        },
+        {
+          "texto": "to",
+          "inicio": 259.468,
+          "fin": 259.533
+        },
+        {
+          "texto": "spend",
+          "inicio": 259.546,
+          "fin": 259.832
+        },
+        {
+          "texto": "her",
+          "inicio": 259.845,
+          "fin": 259.976
+        },
+        {
+          "texto": "own",
+          "inicio": 259.989,
+          "fin": 260.119
+        },
+        {
+          "texto": "paycheck",
+          "inicio": 260.132,
+          "fin": 260.705
+        },
+        {
+          "texto": "And",
+          "inicio": 261.135,
+          "fin": 261.2
+        },
+        {
+          "texto": "it",
+          "inicio": 261.213,
+          "fin": 261.33
+        },
+        {
+          "texto": "never",
+          "inicio": 261.343,
+          "fin": 261.616
+        },
+        {
+          "texto": "once",
+          "inicio": 261.629,
+          "fin": 261.825
+        },
+        {
+          "texto": "looked",
+          "inicio": 261.838,
+          "fin": 262.046
+        },
+        {
+          "texto": "like",
+          "inicio": 262.059,
+          "fin": 262.215
+        },
+        {
+          "texto": "control",
+          "inicio": 262.228,
+          "fin": 262.775
+        }
+      ],
+      "startFrame": 7734,
+      "endFrame": 7897
+    },
+    {
+      "id": "S064",
+      "startS": 263.218,
+      "endS": 268.804,
+      "palabras": [
+        {
+          "texto": "She",
+          "inicio": 263.218,
+          "fin": 263.322
+        },
+        {
+          "texto": "tried",
+          "inicio": 263.335,
+          "fin": 263.569
+        },
+        {
+          "texto": "to",
+          "inicio": 263.582,
+          "fin": 263.635
+        },
+        {
+          "texto": "pay",
+          "inicio": 263.648,
+          "fin": 263.804
+        },
+        {
+          "texto": "it",
+          "inicio": 263.817,
+          "fin": 263.895
+        },
+        {
+          "texto": "back",
+          "inicio": 263.908,
+          "fin": 264.299
+        },
+        {
+          "texto": "She",
+          "inicio": 264.728,
+          "fin": 264.872
+        },
+        {
+          "texto": "cooked",
+          "inicio": 264.885,
+          "fin": 265.301
+        },
+        {
+          "texto": "She",
+          "inicio": 265.731,
+          "fin": 265.861
+        },
+        {
+          "texto": "apologized",
+          "inicio": 265.874,
+          "fin": 266.629
+        },
+        {
+          "texto": "She",
+          "inicio": 267.072,
+          "fin": 267.189
+        },
+        {
+          "texto": "changed",
+          "inicio": 267.202,
+          "fin": 267.541
+        },
+        {
+          "texto": "how",
+          "inicio": 267.554,
+          "fin": 267.658
+        },
+        {
+          "texto": "she",
+          "inicio": 267.671,
+          "fin": 267.801
+        },
+        {
+          "texto": "dressed",
+          "inicio": 267.814,
+          "fin": 268.374
+        }
+      ],
+      "startFrame": 7897,
+      "endFrame": 8064
+    },
+    {
+      "id": "S065",
+      "startS": 268.804,
+      "endS": 273.569,
+      "palabras": [
+        {
+          "texto": "And",
+          "inicio": 268.804,
+          "fin": 268.934
+        },
+        {
+          "texto": "every",
+          "inicio": 268.947,
+          "fin": 269.181
+        },
+        {
+          "texto": "time",
+          "inicio": 269.194,
+          "fin": 269.429
+        },
+        {
+          "texto": "she",
+          "inicio": 269.442,
+          "fin": 269.572
+        },
+        {
+          "texto": "got",
+          "inicio": 269.585,
+          "fin": 269.793
+        },
+        {
+          "texto": "close",
+          "inicio": 269.806,
+          "fin": 270.158
+        },
+        {
+          "texto": "to",
+          "inicio": 270.171,
+          "fin": 270.262
+        },
+        {
+          "texto": "being",
+          "inicio": 270.275,
+          "fin": 270.575
+        },
+        {
+          "texto": "good",
+          "inicio": 270.601,
+          "fin": 270.77
+        },
+        {
+          "texto": "enough",
+          "inicio": 270.783,
+          "fin": 271.226
+        },
+        {
+          "texto": "the",
+          "inicio": 271.512,
+          "fin": 271.616
+        },
+        {
+          "texto": "rules",
+          "inicio": 271.629,
+          "fin": 272.007
+        },
+        {
+          "texto": "quietly",
+          "inicio": 272.02,
+          "fin": 272.528
+        },
+        {
+          "texto": "changed",
+          "inicio": 272.541,
+          "fin": 273.14
+        }
+      ],
+      "startFrame": 8064,
+      "endFrame": 8207
+    },
+    {
+      "id": "S066",
+      "startS": 273.569,
+      "endS": 278.439,
+      "palabras": [
+        {
+          "texto": "Yesterday",
+          "inicio": 273.569,
+          "fin": 274.09
+        },
+        {
+          "texto": "the",
+          "inicio": 274.351,
+          "fin": 274.442
+        },
+        {
+          "texto": "problem",
+          "inicio": 274.455,
+          "fin": 274.859
+        },
+        {
+          "texto": "was",
+          "inicio": 274.872,
+          "fin": 275.002
+        },
+        {
+          "texto": "that",
+          "inicio": 275.015,
+          "fin": 275.145
+        },
+        {
+          "texto": "she",
+          "inicio": 275.158,
+          "fin": 275.288
+        },
+        {
+          "texto": "was",
+          "inicio": 275.301,
+          "fin": 275.444
+        },
+        {
+          "texto": "too",
+          "inicio": 275.457,
+          "fin": 275.666
+        },
+        {
+          "texto": "quiet",
+          "inicio": 275.679,
+          "fin": 276.161
+        },
+        {
+          "texto": "Today",
+          "inicio": 276.59,
+          "fin": 276.877
+        },
+        {
+          "texto": "she",
+          "inicio": 277.137,
+          "fin": 277.267
+        },
+        {
+          "texto": "was",
+          "inicio": 277.28,
+          "fin": 277.424
+        },
+        {
+          "texto": "too",
+          "inicio": 277.437,
+          "fin": 277.619
+        },
+        {
+          "texto": "loud",
+          "inicio": 277.632,
+          "fin": 277.997
+        }
+      ],
+      "startFrame": 8207,
+      "endFrame": 8353
+    },
+    {
+      "id": "S067",
+      "startS": 278.439,
+      "endS": 282.984,
+      "palabras": [
+        {
+          "texto": "There",
+          "inicio": 278.439,
+          "fin": 278.53
+        },
+        {
+          "texto": "was",
+          "inicio": 278.543,
+          "fin": 278.661
+        },
+        {
+          "texto": "no",
+          "inicio": 278.674,
+          "fin": 278.921
+        },
+        {
+          "texto": "version",
+          "inicio": 278.934,
+          "fin": 279.377
+        },
+        {
+          "texto": "of",
+          "inicio": 279.39,
+          "fin": 279.481
+        },
+        {
+          "texto": "Maya",
+          "inicio": 279.494,
+          "fin": 279.924
+        },
+        {
+          "texto": "that",
+          "inicio": 279.937,
+          "fin": 280.106
+        },
+        {
+          "texto": "could",
+          "inicio": 280.119,
+          "fin": 280.288
+        },
+        {
+          "texto": "win",
+          "inicio": 280.301,
+          "fin": 280.653
+        },
+        {
+          "texto": "because",
+          "inicio": 280.965,
+          "fin": 281.265
+        },
+        {
+          "texto": "winning",
+          "inicio": 281.278,
+          "fin": 281.603
+        },
+        {
+          "texto": "was",
+          "inicio": 281.616,
+          "fin": 281.786
+        },
+        {
+          "texto": "never",
+          "inicio": 281.799,
+          "fin": 282.111
+        },
+        {
+          "texto": "the",
+          "inicio": 282.124,
+          "fin": 282.202
+        },
+        {
+          "texto": "game",
+          "inicio": 282.215,
+          "fin": 282.554
+        }
+      ],
+      "startFrame": 8353,
+      "endFrame": 8490
+    },
+    {
+      "id": "S068",
+      "startS": 282.984,
+      "endS": 288.413,
+      "palabras": [
+        {
+          "texto": "Guilt",
+          "inicio": 282.984,
+          "fin": 283.309
+        },
+        {
+          "texto": "turns",
+          "inicio": 283.387,
+          "fin": 283.739
+        },
+        {
+          "texto": "love",
+          "inicio": 283.752,
+          "fin": 284.194
+        },
+        {
+          "texto": "into",
+          "inicio": 284.325,
+          "fin": 284.52
+        },
+        {
+          "texto": "leverage",
+          "inicio": 284.533,
+          "fin": 285.132
+        },
+        {
+          "texto": "Moving",
+          "inicio": 285.562,
+          "fin": 285.861
+        },
+        {
+          "texto": "goalposts",
+          "inicio": 285.874,
+          "fin": 286.525
+        },
+        {
+          "texto": "means",
+          "inicio": 286.538,
+          "fin": 286.851
+        },
+        {
+          "texto": "you",
+          "inicio": 286.864,
+          "fin": 286.955
+        },
+        {
+          "texto": "never",
+          "inicio": 286.968,
+          "fin": 287.254
+        },
+        {
+          "texto": "finish",
+          "inicio": 287.267,
+          "fin": 287.58
+        },
+        {
+          "texto": "paying",
+          "inicio": 287.593,
+          "fin": 287.971
+        }
+      ],
+      "startFrame": 8490,
+      "endFrame": 8652
+    },
+    {
+      "id": "S069",
+      "startS": 288.413,
+      "endS": 293.648,
+      "palabras": [
+        {
+          "texto": "Here's",
+          "inicio": 288.413,
+          "fin": 288.582
+        },
+        {
+          "texto": "the",
+          "inicio": 288.596,
+          "fin": 288.687
+        },
+        {
+          "texto": "part",
+          "inicio": 288.7,
+          "fin": 288.999
+        },
+        {
+          "texto": "nobody",
+          "inicio": 289.012,
+          "fin": 289.442
+        },
+        {
+          "texto": "sees",
+          "inicio": 289.455,
+          "fin": 289.989
+        },
+        {
+          "texto": "the",
+          "inicio": 290.249,
+          "fin": 290.353
+        },
+        {
+          "texto": "target",
+          "inicio": 290.366,
+          "fin": 290.809
+        },
+        {
+          "texto": "isn't",
+          "inicio": 290.952,
+          "fin": 291.2
+        },
+        {
+          "texto": "obedience",
+          "inicio": 291.213,
+          "fin": 292.033
+        },
+        {
+          "texto": "It's",
+          "inicio": 292.463,
+          "fin": 292.58
+        },
+        {
+          "texto": "exhaustion",
+          "inicio": 292.593,
+          "fin": 293.218
+        }
+      ],
+      "startFrame": 8652,
+      "endFrame": 8809
+    },
+    {
+      "id": "S070",
+      "startS": 293.648,
+      "endS": 298.114,
+      "palabras": [
+        {
+          "texto": "A",
+          "inicio": 293.648,
+          "fin": 293.7
+        },
+        {
+          "texto": "tired",
+          "inicio": 293.713,
+          "fin": 294.103
+        },
+        {
+          "texto": "person",
+          "inicio": 294.116,
+          "fin": 294.533
+        },
+        {
+          "texto": "doesn't",
+          "inicio": 294.546,
+          "fin": 294.872
+        },
+        {
+          "texto": "argue",
+          "inicio": 294.885,
+          "fin": 295.275
+        },
+        {
+          "texto": "A",
+          "inicio": 295.705,
+          "fin": 295.757
+        },
+        {
+          "texto": "tired",
+          "inicio": 295.77,
+          "fin": 296.161
+        },
+        {
+          "texto": "person",
+          "inicio": 296.174,
+          "fin": 296.629
+        },
+        {
+          "texto": "just",
+          "inicio": 296.721,
+          "fin": 296.929
+        },
+        {
+          "texto": "tries",
+          "inicio": 296.942,
+          "fin": 297.228
+        },
+        {
+          "texto": "harder",
+          "inicio": 297.241,
+          "fin": 297.684
+        }
+      ],
+      "startFrame": 8809,
+      "endFrame": 8943
+    },
+    {
+      "id": "S071",
+      "startS": 298.114,
+      "endS": 301.499,
+      "palabras": [
+        {
+          "texto": "But",
+          "inicio": 298.114,
+          "fin": 298.192
+        },
+        {
+          "texto": "the",
+          "inicio": 298.205,
+          "fin": 298.283
+        },
+        {
+          "texto": "fifth",
+          "inicio": 298.296,
+          "fin": 298.582
+        },
+        {
+          "texto": "move",
+          "inicio": 298.596,
+          "fin": 298.986
+        },
+        {
+          "texto": "is",
+          "inicio": 299.116,
+          "fin": 299.207
+        },
+        {
+          "texto": "the",
+          "inicio": 299.221,
+          "fin": 299.325
+        },
+        {
+          "texto": "one",
+          "inicio": 299.338,
+          "fin": 299.676
+        },
+        {
+          "texto": "that",
+          "inicio": 299.689,
+          "fin": 299.833
+        },
+        {
+          "texto": "keeps",
+          "inicio": 299.846,
+          "fin": 300.119
+        },
+        {
+          "texto": "people",
+          "inicio": 300.132,
+          "fin": 300.418
+        },
+        {
+          "texto": "for",
+          "inicio": 300.431,
+          "fin": 300.562
+        },
+        {
+          "texto": "years",
+          "inicio": 300.575,
+          "fin": 301.056
+        }
+      ],
+      "startFrame": 8943,
+      "endFrame": 9045
+    },
+    {
+      "id": "S072",
+      "startS": 301.499,
+      "endS": 304.628,
+      "palabras": [
+        {
+          "texto": "Because",
+          "inicio": 301.499,
+          "fin": 301.734
+        },
+        {
+          "texto": "it's",
+          "inicio": 301.747,
+          "fin": 301.877
+        },
+        {
+          "texto": "the",
+          "inicio": 301.89,
+          "fin": 302.033
+        },
+        {
+          "texto": "only",
+          "inicio": 302.111,
+          "fin": 302.424
+        },
+        {
+          "texto": "one",
+          "inicio": 302.437,
+          "fin": 302.762
+        },
+        {
+          "texto": "that",
+          "inicio": 302.775,
+          "fin": 302.905
+        },
+        {
+          "texto": "feels",
+          "inicio": 302.918,
+          "fin": 303.244
+        },
+        {
+          "texto": "like",
+          "inicio": 303.257,
+          "fin": 303.413
+        },
+        {
+          "texto": "hope",
+          "inicio": 303.426,
+          "fin": 303.804
+        }
+      ],
+      "startFrame": 9045,
+      "endFrame": 9139
+    },
+    {
+      "id": "S073",
+      "startS": 304.628,
+      "endS": 306.725,
+      "palabras": [
+        {
+          "texto": "Move",
+          "inicio": 304.628,
+          "fin": 304.876
+        },
+        {
+          "texto": "five",
+          "inicio": 304.889,
+          "fin": 305.305
+        },
+        {
+          "texto": "The",
+          "inicio": 305.735,
+          "fin": 305.787
+        },
+        {
+          "texto": "switch",
+          "inicio": 305.8,
+          "fin": 306.282
+        }
+      ],
+      "startFrame": 9139,
+      "endFrame": 9202
+    },
+    {
+      "id": "S074",
+      "startS": 306.725,
+      "endS": 311.425,
+      "palabras": [
+        {
+          "texto": "One",
+          "inicio": 306.725,
+          "fin": 306.855
+        },
+        {
+          "texto": "Friday",
+          "inicio": 306.868,
+          "fin": 307.271
+        },
+        {
+          "texto": "Maya",
+          "inicio": 307.297,
+          "fin": 307.558
+        },
+        {
+          "texto": "said",
+          "inicio": 307.571,
+          "fin": 307.779
+        },
+        {
+          "texto": "something",
+          "inicio": 307.792,
+          "fin": 308.092
+        },
+        {
+          "texto": "small",
+          "inicio": 308.105,
+          "fin": 308.521
+        },
+        {
+          "texto": "A",
+          "inicio": 308.951,
+          "fin": 309.016
+        },
+        {
+          "texto": "disagreement",
+          "inicio": 309.029,
+          "fin": 309.732
+        },
+        {
+          "texto": "about",
+          "inicio": 309.824,
+          "fin": 310.097
+        },
+        {
+          "texto": "weekend",
+          "inicio": 310.11,
+          "fin": 310.462
+        },
+        {
+          "texto": "plans",
+          "inicio": 310.475,
+          "fin": 310.995
+        }
+      ],
+      "startFrame": 9202,
+      "endFrame": 9343
+    },
+    {
+      "id": "S075",
+      "startS": 311.425,
+      "endS": 314.055,
+      "palabras": [
+        {
+          "texto": "Daniel",
+          "inicio": 311.425,
+          "fin": 311.672
+        },
+        {
+          "texto": "didn't",
+          "inicio": 311.685,
+          "fin": 311.92
+        },
+        {
+          "texto": "yell",
+          "inicio": 311.933,
+          "fin": 312.219
+        },
+        {
+          "texto": "He",
+          "inicio": 312.675,
+          "fin": 312.714
+        },
+        {
+          "texto": "didn't",
+          "inicio": 312.727,
+          "fin": 312.935
+        },
+        {
+          "texto": "even",
+          "inicio": 312.949,
+          "fin": 313.157
+        },
+        {
+          "texto": "answer",
+          "inicio": 313.17,
+          "fin": 313.613
+        }
+      ],
+      "startFrame": 9343,
+      "endFrame": 9422
+    },
+    {
+      "id": "S076",
+      "startS": 314.055,
+      "endS": 319.277,
+      "palabras": [
+        {
+          "texto": "He",
+          "inicio": 314.055,
+          "fin": 314.094
+        },
+        {
+          "texto": "just",
+          "inicio": 314.107,
+          "fin": 314.277
+        },
+        {
+          "texto": "went",
+          "inicio": 314.29,
+          "fin": 314.42
+        },
+        {
+          "texto": "silent",
+          "inicio": 314.433,
+          "fin": 314.902
+        },
+        {
+          "texto": "For",
+          "inicio": 315.37,
+          "fin": 315.449
+        },
+        {
+          "texto": "two",
+          "inicio": 315.462,
+          "fin": 315.644
+        },
+        {
+          "texto": "days",
+          "inicio": 315.657,
+          "fin": 316.087
+        },
+        {
+          "texto": "He",
+          "inicio": 316.529,
+          "fin": 316.607
+        },
+        {
+          "texto": "moved",
+          "inicio": 316.62,
+          "fin": 316.946
+        },
+        {
+          "texto": "through",
+          "inicio": 316.959,
+          "fin": 317.128
+        },
+        {
+          "texto": "the",
+          "inicio": 317.141,
+          "fin": 317.245
+        },
+        {
+          "texto": "apartment",
+          "inicio": 317.258,
+          "fin": 317.792
+        },
+        {
+          "texto": "like",
+          "inicio": 317.909,
+          "fin": 318.04
+        },
+        {
+          "texto": "she",
+          "inicio": 318.053,
+          "fin": 318.196
+        },
+        {
+          "texto": "wasn't",
+          "inicio": 318.209,
+          "fin": 318.56
+        },
+        {
+          "texto": "there",
+          "inicio": 318.574,
+          "fin": 318.847
+        }
+      ],
+      "startFrame": 9422,
+      "endFrame": 9578
+    },
+    {
+      "id": "S077",
+      "startS": 319.277,
+      "endS": 324.277,
+      "palabras": [
+        {
+          "texto": "She",
+          "inicio": 319.277,
+          "fin": 319.407
+        },
+        {
+          "texto": "apologized",
+          "inicio": 319.42,
+          "fin": 320.175
+        },
+        {
+          "texto": "He",
+          "inicio": 320.618,
+          "fin": 320.67
+        },
+        {
+          "texto": "didn't",
+          "inicio": 320.683,
+          "fin": 320.878
+        },
+        {
+          "texto": "respond",
+          "inicio": 320.891,
+          "fin": 321.464
+        },
+        {
+          "texto": "She",
+          "inicio": 321.894,
+          "fin": 322.024
+        },
+        {
+          "texto": "apologized",
+          "inicio": 322.037,
+          "fin": 322.701
+        },
+        {
+          "texto": "again",
+          "inicio": 322.714,
+          "fin": 323.066
+        },
+        {
+          "texto": "Nothing",
+          "inicio": 323.508,
+          "fin": 323.834
+        }
+      ],
+      "startFrame": 9578,
+      "endFrame": 9728
+    },
+    {
+      "id": "S078",
+      "startS": 324.277,
+      "endS": 329.316,
+      "palabras": [
+        {
+          "texto": "By",
+          "inicio": 324.277,
+          "fin": 324.368
+        },
+        {
+          "texto": "Sunday",
+          "inicio": 324.381,
+          "fin": 324.771
+        },
+        {
+          "texto": "night",
+          "inicio": 324.784,
+          "fin": 325.084
+        },
+        {
+          "texto": "she",
+          "inicio": 325.462,
+          "fin": 325.592
+        },
+        {
+          "texto": "was",
+          "inicio": 325.605,
+          "fin": 325.774
+        },
+        {
+          "texto": "begging",
+          "inicio": 325.787,
+          "fin": 326.139
+        },
+        {
+          "texto": "to",
+          "inicio": 326.152,
+          "fin": 326.23
+        },
+        {
+          "texto": "be",
+          "inicio": 326.243,
+          "fin": 326.373
+        },
+        {
+          "texto": "forgiven",
+          "inicio": 326.386,
+          "fin": 326.816
+        },
+        {
+          "texto": "for",
+          "inicio": 326.829,
+          "fin": 326.972
+        },
+        {
+          "texto": "something",
+          "inicio": 326.985,
+          "fin": 327.467
+        },
+        {
+          "texto": "she",
+          "inicio": 327.636,
+          "fin": 327.805
+        },
+        {
+          "texto": "couldn't",
+          "inicio": 327.818,
+          "fin": 328.196
+        },
+        {
+          "texto": "even",
+          "inicio": 328.209,
+          "fin": 328.508
+        },
+        {
+          "texto": "name",
+          "inicio": 328.521,
+          "fin": 328.886
+        }
+      ],
+      "startFrame": 9728,
+      "endFrame": 9879
+    },
+    {
+      "id": "S079",
+      "startS": 329.316,
+      "endS": 334.198,
+      "palabras": [
+        {
+          "texto": "Then",
+          "inicio": 329.316,
+          "fin": 329.615
+        },
+        {
+          "texto": "suddenly",
+          "inicio": 329.85,
+          "fin": 330.318
+        },
+        {
+          "texto": "warmth",
+          "inicio": 330.344,
+          "fin": 330.852
+        },
+        {
+          "texto": "A",
+          "inicio": 331.282,
+          "fin": 331.334
+        },
+        {
+          "texto": "hug",
+          "inicio": 331.347,
+          "fin": 331.738
+        },
+        {
+          "texto": "I'm",
+          "inicio": 332.245,
+          "fin": 332.31
+        },
+        {
+          "texto": "sorry",
+          "inicio": 332.31,
+          "fin": 332.649
+        },
+        {
+          "texto": "I",
+          "inicio": 332.662,
+          "fin": 332.714
+        },
+        {
+          "texto": "got",
+          "inicio": 332.727,
+          "fin": 332.909
+        },
+        {
+          "texto": "so",
+          "inicio": 332.922,
+          "fin": 333.144
+        },
+        {
+          "texto": "upset",
+          "inicio": 333.157,
+          "fin": 333.652
+        }
+      ],
+      "startFrame": 9879,
+      "endFrame": 10026
+    },
+    {
+      "id": "S080",
+      "startS": 334.198,
+      "endS": 335.826,
+      "palabras": [
+        {
+          "texto": "You",
+          "inicio": 334.198,
+          "fin": 334.225
+        },
+        {
+          "texto": "know",
+          "inicio": 334.225,
+          "fin": 334.355
+        },
+        {
+          "texto": "how",
+          "inicio": 334.368,
+          "fin": 334.524
+        },
+        {
+          "texto": "much",
+          "inicio": 334.537,
+          "fin": 334.771
+        },
+        {
+          "texto": "I",
+          "inicio": 334.784,
+          "fin": 334.863
+        },
+        {
+          "texto": "love",
+          "inicio": 334.876,
+          "fin": 335.162
+        },
+        {
+          "texto": "you",
+          "inicio": 335.175,
+          "fin": 335.357
+        }
+      ],
+      "startFrame": 10026,
+      "endFrame": 10075
+    },
+    {
+      "id": "S081",
+      "startS": 335.826,
+      "endS": 339.55,
+      "palabras": [
+        {
+          "texto": "And",
+          "inicio": 335.826,
+          "fin": 335.93
+        },
+        {
+          "texto": "Maya",
+          "inicio": 335.943,
+          "fin": 336.256
+        },
+        {
+          "texto": "felt",
+          "inicio": 336.269,
+          "fin": 336.529
+        },
+        {
+          "texto": "something",
+          "inicio": 336.542,
+          "fin": 336.894
+        },
+        {
+          "texto": "like",
+          "inicio": 336.907,
+          "fin": 337.089
+        },
+        {
+          "texto": "relief",
+          "inicio": 337.102,
+          "fin": 337.61
+        },
+        {
+          "texto": "Almost",
+          "inicio": 338.04,
+          "fin": 338.3
+        },
+        {
+          "texto": "like",
+          "inicio": 338.313,
+          "fin": 338.456
+        },
+        {
+          "texto": "gratitude",
+          "inicio": 338.469,
+          "fin": 339.107
+        }
+      ],
+      "startFrame": 10075,
+      "endFrame": 10186
+    },
+    {
+      "id": "S082",
+      "startS": 339.55,
+      "endS": 345.344,
+      "palabras": [
+        {
+          "texto": "Some",
+          "inicio": 339.55,
+          "fin": 339.745
+        },
+        {
+          "texto": "days",
+          "inicio": 339.758,
+          "fin": 340.214
+        },
+        {
+          "texto": "he",
+          "inicio": 340.592,
+          "fin": 340.644
+        },
+        {
+          "texto": "was",
+          "inicio": 340.657,
+          "fin": 340.787
+        },
+        {
+          "texto": "the",
+          "inicio": 340.8,
+          "fin": 340.878
+        },
+        {
+          "texto": "man",
+          "inicio": 340.891,
+          "fin": 341.217
+        },
+        {
+          "texto": "from",
+          "inicio": 341.23,
+          "fin": 341.373
+        },
+        {
+          "texto": "the",
+          "inicio": 341.386,
+          "fin": 341.464
+        },
+        {
+          "texto": "first",
+          "inicio": 341.477,
+          "fin": 341.829
+        },
+        {
+          "texto": "month",
+          "inicio": 341.842,
+          "fin": 342.037
+        },
+        {
+          "texto": "again",
+          "inicio": 342.05,
+          "fin": 342.389
+        },
+        {
+          "texto": "Attentive",
+          "inicio": 342.818,
+          "fin": 343.313
+        },
+        {
+          "texto": "Funny",
+          "inicio": 343.782,
+          "fin": 344.042
+        },
+        {
+          "texto": "Perfect",
+          "inicio": 344.485,
+          "fin": 344.915
+        }
+      ],
+      "startFrame": 10186,
+      "endFrame": 10360
+    },
+    {
+      "id": "S083",
+      "startS": 345.344,
+      "endS": 349.329,
+      "palabras": [
+        {
+          "texto": "And",
+          "inicio": 345.344,
+          "fin": 345.448
+        },
+        {
+          "texto": "those",
+          "inicio": 345.462,
+          "fin": 345.722
+        },
+        {
+          "texto": "days",
+          "inicio": 345.735,
+          "fin": 345.995
+        },
+        {
+          "texto": "were",
+          "inicio": 346.008,
+          "fin": 346.152
+        },
+        {
+          "texto": "enough",
+          "inicio": 346.165,
+          "fin": 346.49
+        },
+        {
+          "texto": "to",
+          "inicio": 346.503,
+          "fin": 346.607
+        },
+        {
+          "texto": "make",
+          "inicio": 346.62,
+          "fin": 346.894
+        },
+        {
+          "texto": "her",
+          "inicio": 346.907,
+          "fin": 347.037
+        },
+        {
+          "texto": "forget",
+          "inicio": 347.05,
+          "fin": 347.415
+        },
+        {
+          "texto": "the",
+          "inicio": 347.428,
+          "fin": 347.545
+        },
+        {
+          "texto": "others",
+          "inicio": 347.558,
+          "fin": 348.014
+        },
+        {
+          "texto": "Almost",
+          "inicio": 348.443,
+          "fin": 348.886
+        }
+      ],
+      "startFrame": 10360,
+      "endFrame": 10480
+    },
+    {
+      "id": "S084",
+      "startS": 349.329,
+      "endS": 354.368,
+      "palabras": [
+        {
+          "texto": "That's",
+          "inicio": 349.329,
+          "fin": 349.485
+        },
+        {
+          "texto": "the",
+          "inicio": 349.498,
+          "fin": 349.589
+        },
+        {
+          "texto": "switch",
+          "inicio": 349.602,
+          "fin": 350.071
+        },
+        {
+          "texto": "Cruelty",
+          "inicio": 350.501,
+          "fin": 351.034
+        },
+        {
+          "texto": "then",
+          "inicio": 351.36,
+          "fin": 351.555
+        },
+        {
+          "texto": "kindness",
+          "inicio": 351.568,
+          "fin": 352.245
+        },
+        {
+          "texto": "at",
+          "inicio": 352.454,
+          "fin": 352.597
+        },
+        {
+          "texto": "unpredictable",
+          "inicio": 352.61,
+          "fin": 353.326
+        },
+        {
+          "texto": "moments",
+          "inicio": 353.339,
+          "fin": 353.938
+        }
+      ],
+      "startFrame": 10480,
+      "endFrame": 10631
+    },
+    {
+      "id": "S085",
+      "startS": 354.368,
+      "endS": 358.639,
+      "palabras": [
+        {
+          "texto": "It's",
+          "inicio": 354.368,
+          "fin": 354.498
+        },
+        {
+          "texto": "the",
+          "inicio": 354.511,
+          "fin": 354.628
+        },
+        {
+          "texto": "same",
+          "inicio": 354.641,
+          "fin": 354.98
+        },
+        {
+          "texto": "mechanism",
+          "inicio": 354.993,
+          "fin": 355.592
+        },
+        {
+          "texto": "that",
+          "inicio": 355.696,
+          "fin": 355.839
+        },
+        {
+          "texto": "keeps",
+          "inicio": 355.852,
+          "fin": 356.152
+        },
+        {
+          "texto": "people",
+          "inicio": 356.165,
+          "fin": 356.49
+        },
+        {
+          "texto": "pulling",
+          "inicio": 356.503,
+          "fin": 356.855
+        },
+        {
+          "texto": "the",
+          "inicio": 356.868,
+          "fin": 356.959
+        },
+        {
+          "texto": "lever",
+          "inicio": 356.972,
+          "fin": 357.31
+        },
+        {
+          "texto": "on",
+          "inicio": 357.324,
+          "fin": 357.415
+        },
+        {
+          "texto": "a",
+          "inicio": 357.428,
+          "fin": 357.467
+        },
+        {
+          "texto": "slot",
+          "inicio": 357.48,
+          "fin": 357.779
+        },
+        {
+          "texto": "machine",
+          "inicio": 357.792,
+          "fin": 358.209
+        }
+      ],
+      "startFrame": 10631,
+      "endFrame": 10759
+    },
+    {
+      "id": "S086",
+      "startS": 358.639,
+      "endS": 363.73,
+      "palabras": [
+        {
+          "texto": "Your",
+          "inicio": 358.639,
+          "fin": 358.743
+        },
+        {
+          "texto": "brain",
+          "inicio": 358.756,
+          "fin": 359.159
+        },
+        {
+          "texto": "doesn't",
+          "inicio": 359.264,
+          "fin": 359.615
+        },
+        {
+          "texto": "bond",
+          "inicio": 359.628,
+          "fin": 359.902
+        },
+        {
+          "texto": "to",
+          "inicio": 359.915,
+          "fin": 359.967
+        },
+        {
+          "texto": "the",
+          "inicio": 359.98,
+          "fin": 360.071
+        },
+        {
+          "texto": "kindness",
+          "inicio": 360.084,
+          "fin": 360.735
+        },
+        {
+          "texto": "It",
+          "inicio": 361.165,
+          "fin": 361.347
+        },
+        {
+          "texto": "bonds",
+          "inicio": 361.36,
+          "fin": 361.764
+        },
+        {
+          "texto": "to",
+          "inicio": 361.777,
+          "fin": 361.881
+        },
+        {
+          "texto": "the",
+          "inicio": 361.894,
+          "fin": 361.998
+        },
+        {
+          "texto": "relief",
+          "inicio": 362.011,
+          "fin": 362.493
+        },
+        {
+          "texto": "after",
+          "inicio": 362.597,
+          "fin": 362.844
+        },
+        {
+          "texto": "the",
+          "inicio": 362.857,
+          "fin": 362.935
+        },
+        {
+          "texto": "pain",
+          "inicio": 362.949,
+          "fin": 363.3
+        }
+      ],
+      "startFrame": 10759,
+      "endFrame": 10912
+    },
+    {
+      "id": "S087",
+      "startS": 363.73,
+      "endS": 369.383,
+      "palabras": [
+        {
+          "texto": "Researchers",
+          "inicio": 363.73,
+          "fin": 364.264
+        },
+        {
+          "texto": "call",
+          "inicio": 364.277,
+          "fin": 364.485
+        },
+        {
+          "texto": "it",
+          "inicio": 364.498,
+          "fin": 364.563
+        },
+        {
+          "texto": "trauma",
+          "inicio": 364.576,
+          "fin": 364.902
+        },
+        {
+          "texto": "bonding",
+          "inicio": 364.915,
+          "fin": 365.357
+        },
+        {
+          "texto": "And",
+          "inicio": 365.787,
+          "fin": 365.852
+        },
+        {
+          "texto": "it's",
+          "inicio": 365.865,
+          "fin": 365.969
+        },
+        {
+          "texto": "why",
+          "inicio": 365.982,
+          "fin": 366.152
+        },
+        {
+          "texto": "leaving",
+          "inicio": 366.165,
+          "fin": 366.516
+        },
+        {
+          "texto": "is",
+          "inicio": 366.529,
+          "fin": 366.646
+        },
+        {
+          "texto": "so",
+          "inicio": 366.659,
+          "fin": 366.959
+        },
+        {
+          "texto": "much",
+          "inicio": 366.972,
+          "fin": 367.206
+        },
+        {
+          "texto": "harder",
+          "inicio": 367.219,
+          "fin": 367.571
+        },
+        {
+          "texto": "than",
+          "inicio": 367.584,
+          "fin": 367.701
+        },
+        {
+          "texto": "people",
+          "inicio": 367.714,
+          "fin": 367.988
+        },
+        {
+          "texto": "think",
+          "inicio": 368.001,
+          "fin": 368.469
+        }
+      ],
+      "startFrame": 10912,
+      "endFrame": 11081
+    },
+    {
+      "id": "S088",
+      "startS": 369.383,
+      "endS": 373.211,
+      "palabras": [
+        {
+          "texto": "Three",
+          "inicio": 369.383,
+          "fin": 369.553
+        },
+        {
+          "texto": "years",
+          "inicio": 369.566,
+          "fin": 369.852
+        },
+        {
+          "texto": "in",
+          "inicio": 369.865,
+          "fin": 370.047
+        },
+        {
+          "texto": "Maya's",
+          "inicio": 370.464,
+          "fin": 370.789
+        },
+        {
+          "texto": "coworker",
+          "inicio": 370.802,
+          "fin": 371.336
+        },
+        {
+          "texto": "Jo",
+          "inicio": 371.349,
+          "fin": 371.662
+        },
+        {
+          "texto": "asked",
+          "inicio": 371.779,
+          "fin": 372.066
+        },
+        {
+          "texto": "her",
+          "inicio": 372.079,
+          "fin": 372.196
+        },
+        {
+          "texto": "a",
+          "inicio": 372.209,
+          "fin": 372.248
+        },
+        {
+          "texto": "question",
+          "inicio": 372.261,
+          "fin": 372.782
+        }
+      ],
+      "startFrame": 11081,
+      "endFrame": 11196
+    },
+    {
+      "id": "S089",
+      "startS": 373.211,
+      "endS": 378.263,
+      "palabras": [
+        {
+          "texto": "It",
+          "inicio": 373.211,
+          "fin": 373.277
+        },
+        {
+          "texto": "was",
+          "inicio": 373.29,
+          "fin": 373.407
+        },
+        {
+          "texto": "a",
+          "inicio": 373.42,
+          "fin": 373.459
+        },
+        {
+          "texto": "simple",
+          "inicio": 373.472,
+          "fin": 373.823
+        },
+        {
+          "texto": "one",
+          "inicio": 373.836,
+          "fin": 374.058
+        },
+        {
+          "texto": "When",
+          "inicio": 374.579,
+          "fin": 374.631
+        },
+        {
+          "texto": "was",
+          "inicio": 374.631,
+          "fin": 374.748
+        },
+        {
+          "texto": "the",
+          "inicio": 374.761,
+          "fin": 374.865
+        },
+        {
+          "texto": "last",
+          "inicio": 374.878,
+          "fin": 375.204
+        },
+        {
+          "texto": "time",
+          "inicio": 375.217,
+          "fin": 375.425
+        },
+        {
+          "texto": "you",
+          "inicio": 375.438,
+          "fin": 375.529
+        },
+        {
+          "texto": "did",
+          "inicio": 375.542,
+          "fin": 375.724
+        },
+        {
+          "texto": "something",
+          "inicio": 375.737,
+          "fin": 376.167
+        },
+        {
+          "texto": "just",
+          "inicio": 376.297,
+          "fin": 376.558
+        },
+        {
+          "texto": "because",
+          "inicio": 376.571,
+          "fin": 376.948
+        },
+        {
+          "texto": "you",
+          "inicio": 376.961,
+          "fin": 377.053
+        },
+        {
+          "texto": "wanted",
+          "inicio": 377.066,
+          "fin": 377.417
+        },
+        {
+          "texto": "to",
+          "inicio": 377.43,
+          "fin": 377.652
+        }
+      ],
+      "startFrame": 11196,
+      "endFrame": 11348
+    },
+    {
+      "id": "S090",
+      "startS": 378.263,
+      "endS": 381.844,
+      "palabras": [
+        {
+          "texto": "Maya",
+          "inicio": 378.263,
+          "fin": 378.615
+        },
+        {
+          "texto": "opened",
+          "inicio": 378.628,
+          "fin": 378.928
+        },
+        {
+          "texto": "her",
+          "inicio": 378.941,
+          "fin": 379.045
+        },
+        {
+          "texto": "mouth",
+          "inicio": 379.058,
+          "fin": 379.383
+        },
+        {
+          "texto": "to",
+          "inicio": 379.396,
+          "fin": 379.54
+        },
+        {
+          "texto": "answer",
+          "inicio": 379.552,
+          "fin": 380.021
+        },
+        {
+          "texto": "And",
+          "inicio": 380.451,
+          "fin": 380.529
+        },
+        {
+          "texto": "couldn't",
+          "inicio": 380.542,
+          "fin": 380.816
+        },
+        {
+          "texto": "think",
+          "inicio": 380.829,
+          "fin": 381.011
+        },
+        {
+          "texto": "of",
+          "inicio": 381.024,
+          "fin": 381.115
+        },
+        {
+          "texto": "one",
+          "inicio": 381.128,
+          "fin": 381.401
+        }
+      ],
+      "startFrame": 11348,
+      "endFrame": 11455
+    },
+    {
+      "id": "S091",
+      "startS": 381.844,
+      "endS": 387.547,
+      "palabras": [
+        {
+          "texto": "That",
+          "inicio": 381.844,
+          "fin": 381.974
+        },
+        {
+          "texto": "silence",
+          "inicio": 381.987,
+          "fin": 382.417
+        },
+        {
+          "texto": "was",
+          "inicio": 382.43,
+          "fin": 382.56
+        },
+        {
+          "texto": "the",
+          "inicio": 382.573,
+          "fin": 382.664
+        },
+        {
+          "texto": "first",
+          "inicio": 382.678,
+          "fin": 383.016
+        },
+        {
+          "texto": "crack",
+          "inicio": 383.029,
+          "fin": 383.498
+        },
+        {
+          "texto": "Not",
+          "inicio": 383.928,
+          "fin": 384.071
+        },
+        {
+          "texto": "a",
+          "inicio": 384.084,
+          "fin": 384.123
+        },
+        {
+          "texto": "dramatic",
+          "inicio": 384.136,
+          "fin": 384.605
+        },
+        {
+          "texto": "escape",
+          "inicio": 384.618,
+          "fin": 385.099
+        },
+        {
+          "texto": "Just",
+          "inicio": 385.529,
+          "fin": 385.698
+        },
+        {
+          "texto": "a",
+          "inicio": 385.711,
+          "fin": 385.763
+        },
+        {
+          "texto": "question",
+          "inicio": 385.776,
+          "fin": 386.206
+        },
+        {
+          "texto": "she",
+          "inicio": 386.219,
+          "fin": 386.388
+        },
+        {
+          "texto": "couldn't",
+          "inicio": 386.401,
+          "fin": 386.675
+        },
+        {
+          "texto": "answer",
+          "inicio": 386.688,
+          "fin": 387.118
+        }
+      ],
+      "startFrame": 11455,
+      "endFrame": 11626
+    },
+    {
+      "id": "S092",
+      "startS": 387.547,
+      "endS": 394.474,
+      "palabras": [
+        {
+          "texto": "It",
+          "inicio": 387.547,
+          "fin": 387.638
+        },
+        {
+          "texto": "took",
+          "inicio": 387.651,
+          "fin": 387.821
+        },
+        {
+          "texto": "months",
+          "inicio": 387.834,
+          "fin": 388.329
+        },
+        {
+          "texto": "Quiet",
+          "inicio": 388.771,
+          "fin": 389.019
+        },
+        {
+          "texto": "conversations",
+          "inicio": 389.032,
+          "fin": 389.943
+        },
+        {
+          "texto": "A",
+          "inicio": 390.373,
+          "fin": 390.425
+        },
+        {
+          "texto": "counselor",
+          "inicio": 390.438,
+          "fin": 391.011
+        },
+        {
+          "texto": "A",
+          "inicio": 391.441,
+          "fin": 391.493
+        },
+        {
+          "texto": "plan",
+          "inicio": 391.506,
+          "fin": 391.922
+        },
+        {
+          "texto": "Friends",
+          "inicio": 392.391,
+          "fin": 392.664
+        },
+        {
+          "texto": "she",
+          "inicio": 392.678,
+          "fin": 392.834
+        },
+        {
+          "texto": "slowly",
+          "inicio": 392.847,
+          "fin": 393.355
+        },
+        {
+          "texto": "found",
+          "inicio": 393.368,
+          "fin": 393.654
+        },
+        {
+          "texto": "again",
+          "inicio": 393.667,
+          "fin": 394.019
+        }
+      ],
+      "startFrame": 11626,
+      "endFrame": 11834
+    },
+    {
+      "id": "S093",
+      "startS": 394.474,
+      "endS": 398.355,
+      "palabras": [
+        {
+          "texto": "Here's",
+          "inicio": 394.474,
+          "fin": 394.631
+        },
+        {
+          "texto": "what",
+          "inicio": 394.644,
+          "fin": 394.787
+        },
+        {
+          "texto": "movies",
+          "inicio": 394.8,
+          "fin": 395.164
+        },
+        {
+          "texto": "get",
+          "inicio": 395.178,
+          "fin": 395.36
+        },
+        {
+          "texto": "wrong",
+          "inicio": 395.373,
+          "fin": 395.685
+        },
+        {
+          "texto": "Leaving",
+          "inicio": 396.115,
+          "fin": 396.454
+        },
+        {
+          "texto": "isn't",
+          "inicio": 396.571,
+          "fin": 396.831
+        },
+        {
+          "texto": "one",
+          "inicio": 396.844,
+          "fin": 397.092
+        },
+        {
+          "texto": "brave",
+          "inicio": 397.105,
+          "fin": 397.469
+        },
+        {
+          "texto": "moment",
+          "inicio": 397.482,
+          "fin": 397.925
+        }
+      ],
+      "startFrame": 11834,
+      "endFrame": 11951
+    },
+    {
+      "id": "S094",
+      "startS": 398.355,
+      "endS": 403.511,
+      "palabras": [
+        {
+          "texto": "It's",
+          "inicio": 398.355,
+          "fin": 398.472
+        },
+        {
+          "texto": "a",
+          "inicio": 398.485,
+          "fin": 398.537
+        },
+        {
+          "texto": "process",
+          "inicio": 398.55,
+          "fin": 399.266
+        },
+        {
+          "texto": "and",
+          "inicio": 399.474,
+          "fin": 399.605
+        },
+        {
+          "texto": "it",
+          "inicio": 399.618,
+          "fin": 399.709
+        },
+        {
+          "texto": "needs",
+          "inicio": 399.722,
+          "fin": 400.008
+        },
+        {
+          "texto": "support",
+          "inicio": 400.021,
+          "fin": 400.568
+        },
+        {
+          "texto": "because",
+          "inicio": 400.816,
+          "fin": 401.102
+        },
+        {
+          "texto": "the",
+          "inicio": 401.115,
+          "fin": 401.219
+        },
+        {
+          "texto": "exit",
+          "inicio": 401.284,
+          "fin": 401.675
+        },
+        {
+          "texto": "can",
+          "inicio": 401.688,
+          "fin": 401.844
+        },
+        {
+          "texto": "be",
+          "inicio": 401.857,
+          "fin": 402.0
+        },
+        {
+          "texto": "the",
+          "inicio": 402.013,
+          "fin": 402.118
+        },
+        {
+          "texto": "riskiest",
+          "inicio": 402.131,
+          "fin": 402.678
+        },
+        {
+          "texto": "part",
+          "inicio": 402.691,
+          "fin": 403.042
+        }
+      ],
+      "startFrame": 11951,
+      "endFrame": 12105
+    },
+    {
+      "id": "S095",
+      "startS": 403.511,
+      "endS": 408.68,
+      "palabras": [
+        {
+          "texto": "Five",
+          "inicio": 403.511,
+          "fin": 403.706
+        },
+        {
+          "texto": "moves",
+          "inicio": 403.719,
+          "fin": 404.149
+        },
+        {
+          "texto": "Overwhelming",
+          "inicio": 404.579,
+          "fin": 405.112
+        },
+        {
+          "texto": "attention",
+          "inicio": 405.125,
+          "fin": 405.646
+        },
+        {
+          "texto": "Isolation",
+          "inicio": 406.076,
+          "fin": 406.727
+        },
+        {
+          "texto": "Rewriting",
+          "inicio": 407.157,
+          "fin": 407.664
+        },
+        {
+          "texto": "your",
+          "inicio": 407.678,
+          "fin": 407.782
+        },
+        {
+          "texto": "memory",
+          "inicio": 407.795,
+          "fin": 408.25
+        }
+      ],
+      "startFrame": 12105,
+      "endFrame": 12260
+    },
+    {
+      "id": "S096",
+      "startS": 408.68,
+      "endS": 413.12,
+      "palabras": [
+        {
+          "texto": "A",
+          "inicio": 408.68,
+          "fin": 408.745
+        },
+        {
+          "texto": "debt",
+          "inicio": 408.758,
+          "fin": 408.928
+        },
+        {
+          "texto": "you",
+          "inicio": 408.941,
+          "fin": 409.045
+        },
+        {
+          "texto": "can",
+          "inicio": 409.058,
+          "fin": 409.201
+        },
+        {
+          "texto": "never",
+          "inicio": 409.214,
+          "fin": 409.448
+        },
+        {
+          "texto": "pay",
+          "inicio": 409.461,
+          "fin": 409.761
+        },
+        {
+          "texto": "And",
+          "inicio": 410.191,
+          "fin": 410.269
+        },
+        {
+          "texto": "the",
+          "inicio": 410.282,
+          "fin": 410.36
+        },
+        {
+          "texto": "switch",
+          "inicio": 410.373,
+          "fin": 410.711
+        },
+        {
+          "texto": "between",
+          "inicio": 410.724,
+          "fin": 411.102
+        },
+        {
+          "texto": "cruelty",
+          "inicio": 411.115,
+          "fin": 411.792
+        },
+        {
+          "texto": "and",
+          "inicio": 411.883,
+          "fin": 411.987
+        },
+        {
+          "texto": "kindness",
+          "inicio": 412.0,
+          "fin": 412.691
+        }
+      ],
+      "startFrame": 12260,
+      "endFrame": 12394
+    },
+    {
+      "id": "S097",
+      "startS": 413.12,
+      "endS": 416.831,
+      "palabras": [
+        {
+          "texto": "Not",
+          "inicio": 413.12,
+          "fin": 413.276
+        },
+        {
+          "texto": "one",
+          "inicio": 413.29,
+          "fin": 413.42
+        },
+        {
+          "texto": "of",
+          "inicio": 413.433,
+          "fin": 413.498
+        },
+        {
+          "texto": "them",
+          "inicio": 413.511,
+          "fin": 413.693
+        },
+        {
+          "texto": "leaves",
+          "inicio": 413.706,
+          "fin": 413.954
+        },
+        {
+          "texto": "a",
+          "inicio": 413.967,
+          "fin": 414.019
+        },
+        {
+          "texto": "bruise",
+          "inicio": 414.032,
+          "fin": 414.552
+        },
+        {
+          "texto": "That's",
+          "inicio": 414.995,
+          "fin": 415.151
+        },
+        {
+          "texto": "exactly",
+          "inicio": 415.165,
+          "fin": 415.672
+        },
+        {
+          "texto": "why",
+          "inicio": 415.685,
+          "fin": 415.855
+        },
+        {
+          "texto": "they",
+          "inicio": 415.868,
+          "fin": 415.998
+        },
+        {
+          "texto": "work",
+          "inicio": 416.011,
+          "fin": 416.401
+        }
+      ],
+      "startFrame": 12394,
+      "endFrame": 12505
+    },
+    {
+      "id": "S098",
+      "startS": 416.831,
+      "endS": 421.584,
+      "palabras": [
+        {
+          "texto": "If",
+          "inicio": 416.831,
+          "fin": 416.948
+        },
+        {
+          "texto": "you",
+          "inicio": 416.961,
+          "fin": 417.105
+        },
+        {
+          "texto": "recognized",
+          "inicio": 417.118,
+          "fin": 417.795
+        },
+        {
+          "texto": "even",
+          "inicio": 417.964,
+          "fin": 418.263
+        },
+        {
+          "texto": "one",
+          "inicio": 418.276,
+          "fin": 418.433
+        },
+        {
+          "texto": "of",
+          "inicio": 418.446,
+          "fin": 418.511
+        },
+        {
+          "texto": "these",
+          "inicio": 418.524,
+          "fin": 418.719
+        },
+        {
+          "texto": "in",
+          "inicio": 418.732,
+          "fin": 418.81
+        },
+        {
+          "texto": "your",
+          "inicio": 418.823,
+          "fin": 418.993
+        },
+        {
+          "texto": "own",
+          "inicio": 419.006,
+          "fin": 419.162
+        },
+        {
+          "texto": "life",
+          "inicio": 419.175,
+          "fin": 419.605
+        },
+        {
+          "texto": "that",
+          "inicio": 419.904,
+          "fin": 420.073
+        },
+        {
+          "texto": "doesn't",
+          "inicio": 420.086,
+          "fin": 420.373
+        },
+        {
+          "texto": "make",
+          "inicio": 420.386,
+          "fin": 420.594
+        },
+        {
+          "texto": "you",
+          "inicio": 420.607,
+          "fin": 420.737
+        },
+        {
+          "texto": "weak",
+          "inicio": 420.75,
+          "fin": 421.154
+        }
+      ],
+      "startFrame": 12505,
+      "endFrame": 12648
+    },
+    {
+      "id": "S099",
+      "startS": 421.584,
+      "endS": 425.165,
+      "palabras": [
+        {
+          "texto": "It",
+          "inicio": 421.584,
+          "fin": 421.662
+        },
+        {
+          "texto": "means",
+          "inicio": 421.675,
+          "fin": 421.909
+        },
+        {
+          "texto": "it",
+          "inicio": 421.922,
+          "fin": 422.026
+        },
+        {
+          "texto": "worked",
+          "inicio": 422.04,
+          "fin": 422.339
+        },
+        {
+          "texto": "on",
+          "inicio": 422.352,
+          "fin": 422.469
+        },
+        {
+          "texto": "you",
+          "inicio": 422.482,
+          "fin": 422.599
+        },
+        {
+          "texto": "the",
+          "inicio": 422.612,
+          "fin": 422.704
+        },
+        {
+          "texto": "way",
+          "inicio": 422.717,
+          "fin": 422.951
+        },
+        {
+          "texto": "it's",
+          "inicio": 422.964,
+          "fin": 423.094
+        },
+        {
+          "texto": "designed",
+          "inicio": 423.107,
+          "fin": 423.589
+        },
+        {
+          "texto": "to",
+          "inicio": 423.602,
+          "fin": 423.667
+        },
+        {
+          "texto": "work",
+          "inicio": 423.68,
+          "fin": 423.98
+        },
+        {
+          "texto": "on",
+          "inicio": 423.993,
+          "fin": 424.136
+        },
+        {
+          "texto": "anyone",
+          "inicio": 424.266,
+          "fin": 424.722
+        }
+      ],
+      "startFrame": 12648,
+      "endFrame": 12755
+    },
+    {
+      "id": "S100",
+      "startS": 425.165,
+      "endS": 429.852,
+      "palabras": [
+        {
+          "texto": "Talk",
+          "inicio": 425.165,
+          "fin": 425.36
+        },
+        {
+          "texto": "to",
+          "inicio": 425.373,
+          "fin": 425.451
+        },
+        {
+          "texto": "someone",
+          "inicio": 425.464,
+          "fin": 425.776
+        },
+        {
+          "texto": "you",
+          "inicio": 425.79,
+          "fin": 425.855
+        },
+        {
+          "texto": "trust",
+          "inicio": 425.868,
+          "fin": 426.362
+        },
+        {
+          "texto": "or",
+          "inicio": 426.753,
+          "fin": 426.883
+        },
+        {
+          "texto": "reach",
+          "inicio": 426.896,
+          "fin": 427.144
+        },
+        {
+          "texto": "out",
+          "inicio": 427.157,
+          "fin": 427.3
+        },
+        {
+          "texto": "to",
+          "inicio": 427.313,
+          "fin": 427.417
+        },
+        {
+          "texto": "a",
+          "inicio": 427.43,
+          "fin": 427.508
+        },
+        {
+          "texto": "professional",
+          "inicio": 427.521,
+          "fin": 428.211
+        },
+        {
+          "texto": "or",
+          "inicio": 428.459,
+          "fin": 428.524
+        },
+        {
+          "texto": "a",
+          "inicio": 428.537,
+          "fin": 428.576
+        },
+        {
+          "texto": "local",
+          "inicio": 428.589,
+          "fin": 428.927
+        },
+        {
+          "texto": "helpline",
+          "inicio": 428.941,
+          "fin": 429.422
+        }
+      ],
+      "startFrame": 12755,
+      "endFrame": 12896
+    },
+    {
+      "id": "S101",
+      "startS": 429.852,
+      "endS": 431.961,
+      "palabras": [
+        {
+          "texto": "You",
+          "inicio": 429.852,
+          "fin": 429.93
+        },
+        {
+          "texto": "don't",
+          "inicio": 429.943,
+          "fin": 430.125
+        },
+        {
+          "texto": "have",
+          "inicio": 430.138,
+          "fin": 430.347
+        },
+        {
+          "texto": "to",
+          "inicio": 430.36,
+          "fin": 430.451
+        },
+        {
+          "texto": "sort",
+          "inicio": 430.464,
+          "fin": 430.75
+        },
+        {
+          "texto": "this",
+          "inicio": 430.763,
+          "fin": 430.959
+        },
+        {
+          "texto": "out",
+          "inicio": 430.972,
+          "fin": 431.089
+        },
+        {
+          "texto": "alone",
+          "inicio": 431.102,
+          "fin": 431.532
+        }
+      ],
+      "startFrame": 12896,
+      "endFrame": 12959
+    },
+    {
+      "id": "S102",
+      "startS": 431.961,
+      "endS": 435.464,
+      "palabras": [
+        {
+          "texto": "Now",
+          "inicio": 431.961,
+          "fin": 432.079
+        },
+        {
+          "texto": "I",
+          "inicio": 432.092,
+          "fin": 432.131
+        },
+        {
+          "texto": "want",
+          "inicio": 432.144,
+          "fin": 432.274
+        },
+        {
+          "texto": "to",
+          "inicio": 432.287,
+          "fin": 432.326
+        },
+        {
+          "texto": "ask",
+          "inicio": 432.339,
+          "fin": 432.547
+        },
+        {
+          "texto": "you",
+          "inicio": 432.56,
+          "fin": 432.638
+        },
+        {
+          "texto": "something",
+          "inicio": 432.651,
+          "fin": 433.055
+        },
+        {
+          "texto": "Which",
+          "inicio": 433.498,
+          "fin": 433.654
+        },
+        {
+          "texto": "move",
+          "inicio": 433.667,
+          "fin": 433.888
+        },
+        {
+          "texto": "would",
+          "inicio": 433.901,
+          "fin": 434.019
+        },
+        {
+          "texto": "you",
+          "inicio": 434.032,
+          "fin": 434.084
+        },
+        {
+          "texto": "have",
+          "inicio": 434.097,
+          "fin": 434.188
+        },
+        {
+          "texto": "caught",
+          "inicio": 434.201,
+          "fin": 434.461
+        },
+        {
+          "texto": "first",
+          "inicio": 434.474,
+          "fin": 435.034
+        }
+      ],
+      "startFrame": 12959,
+      "endFrame": 13064
+    },
+    {
+      "id": "S103",
+      "startS": 435.464,
+      "endS": 440.047,
+      "palabras": [
+        {
+          "texto": "Comment",
+          "inicio": 435.464,
+          "fin": 435.776
+        },
+        {
+          "texto": "the",
+          "inicio": 435.789,
+          "fin": 435.855
+        },
+        {
+          "texto": "number",
+          "inicio": 435.868,
+          "fin": 436.31
+        },
+        {
+          "texto": "one",
+          "inicio": 436.584,
+          "fin": 436.714
+        },
+        {
+          "texto": "to",
+          "inicio": 436.727,
+          "fin": 436.792
+        },
+        {
+          "texto": "five",
+          "inicio": 436.805,
+          "fin": 437.222
+        },
+        {
+          "texto": "No",
+          "inicio": 437.651,
+          "fin": 437.808
+        },
+        {
+          "texto": "judgment",
+          "inicio": 437.821,
+          "fin": 438.355
+        },
+        {
+          "texto": "That's",
+          "inicio": 438.797,
+          "fin": 438.954
+        },
+        {
+          "texto": "the",
+          "inicio": 438.967,
+          "fin": 439.058
+        },
+        {
+          "texto": "whole",
+          "inicio": 439.071,
+          "fin": 439.253
+        },
+        {
+          "texto": "point",
+          "inicio": 439.266,
+          "fin": 439.618
+        }
+      ],
+      "startFrame": 13064,
+      "endFrame": 13201
+    },
+    {
+      "id": "S104",
+      "startS": 440.047,
+      "endS": 443.36,
+      "palabras": [
+        {
+          "texto": "Next",
+          "inicio": 440.047,
+          "fin": 440.269
+        },
+        {
+          "texto": "video",
+          "inicio": 440.282,
+          "fin": 440.698
+        },
+        {
+          "texto": "the",
+          "inicio": 441.102,
+          "fin": 441.18
+        },
+        {
+          "texto": "apology",
+          "inicio": 441.193,
+          "fin": 441.844
+        },
+        {
+          "texto": "that",
+          "inicio": 441.857,
+          "fin": 442.013
+        },
+        {
+          "texto": "isn't",
+          "inicio": 442.026,
+          "fin": 442.274
+        },
+        {
+          "texto": "one",
+          "inicio": 442.287,
+          "fin": 442.56
+        }
+      ],
+      "startFrame": 13201,
+      "endFrame": 13301
+    }
+  ],
+  "tomaMasLarga": {
+    "id": "S092",
+    "duracion": 6.927
+  },
+  "tomasDivididas": []
+}
