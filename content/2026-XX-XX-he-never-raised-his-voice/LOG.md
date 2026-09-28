@@ -98,3 +98,15 @@
   gap conocido y visible, no oculto: la escena real (abrazo de espaldas)
   queda pendiente de generarse cuando resetee la cuota, y en ese momento
   se puede volver a renderizar solo esa toma sin tocar el resto.
+
+- Miniaturas finales (Paso 9): THUMB_A.jpg pasa el checklist limpio (cabeza
+  inclinada hacia abajo, sin contorno facial) y se usó tal cual como fondo
+  de thumbnail_A.png. THUMB_B.jpg SÍ mostraba perfiles faciales nítidos de
+  ambas figuras (mismo problema sistémico del desvío 8) — al ser la
+  miniatura el asset más visible públicamente, no lo dejé así: generé
+  LOCALMENTE (PIL, sin red, sin figuras) un fondo alternativo con el motivo
+  del hilo rojo entrelazado, coherente con "HE NEVER YELLED". Compuse las
+  2 miniaturas finales (scripts/pack_miniaturas.py, fuente Anton descargada
+  de Google Fonts) con el texto de metadata.md: thumbnail_A.png ("ZERO
+  BRUISES" + chip "5 MOVES") y thumbnail_B.png ("HE NEVER YELLED"). Ambas
+  1280x720, bien por debajo de 2MB.
