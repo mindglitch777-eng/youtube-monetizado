@@ -93,3 +93,39 @@ solo en el formato cinematográfico.
 Cuando lleguen tareas mencionando "Kai", son de esta línea nueva,
 separada del pipeline de Knotwise. No mezclar convenciones, carpetas ni
 reglas de estilo entre las dos líneas.
+
+## Scrapling — instalado 2026-09-29
+
+Instalado en un venv aislado (`/opt/scrapling-venv`, no se tocó el Python
+del sistema — el intento inicial con `pip install` a nivel sistema chocó
+con un paquete PyJWT gestionado por Debian). Registrado como servidor MCP:
+
+```
+claude mcp add ScraplingServer -e PLAYWRIGHT_BROWSERS_PATH=/opt/scrapling-browsers -- /opt/scrapling-venv/bin/scrapling-mcp
+```
+
+`scrapling install` no pudo descargar Chromium/ffmpeg (mismo bloqueo de
+red que Cloudflare/edge-tts/Pexels: cdn.playwright.dev y
+playwright.download.prss.microsoft.com no están en la allowlist de este
+entorno) — se resolvió sin descargar nada, apuntando
+`PLAYWRIGHT_BROWSERS_PATH` a `/opt/scrapling-browsers`, una carpeta con
+symlinks a los binarios de Chromium/ffmpeg que YA vienen preinstalados en
+este entorno para Playwright (en `/opt/pw-browsers`), renombrados a la
+revisión exacta que este Scrapling espera (1243). `install-deps` sí corrió
+bien (paquetes del sistema vía apt).
+
+**Prueba real hecha**: `Fetcher.get("https://pypi.org/project/scrapling/",
+stealthy_headers=True)` → status 200, `.markdown()` devolvió el contenido
+de la página convertido a Markdown limpio. Funciona.
+
+**Limitación importante para el uso futuro**: la prueba contra un sitio
+público arbitrario (example.com, en.wikipedia.org) fue RECHAZADA por la
+política de red de este entorno de Claude Code (no es un bug de
+Scrapling — hasta un `curl` directo a esos mismos sitios da el mismo
+403). Solo funcionan los hosts que ya están en la allowlist de este
+entorno (pypi.org, files.pythonhosted.org, GitHub, npm, etc.). Para
+investigar TikTok/YouTube en la práctica, esta herramienta corriendo
+DESDE ESTE ENTORNO va a chocar con la misma limitación que Cloudflare/
+edge-tts/Pexels — probablemente haya que correrla desde otro lado (la
+propia máquina del usuario, o un workflow de GitHub Actions) igual que se
+resolvió para esos otros casos.
