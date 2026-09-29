@@ -216,3 +216,52 @@ que una regla no se cumple, debe detenerse y avisar en vez de continuar.
 - El ícono de Knot es opcional por video (ver "Personaje").
 - Guardar el crédito del autor de cada clip de terceros usado (ej. Pexels), 
   en un archivo junto al video (ver "Sonido").
+
+---
+
+# FÓRMULA DE RETENCIÓN — línea Kai / formato simple
+
+Esta sección es INDEPENDIENTE de todo lo anterior. Todo lo de arriba (Knot, 
+paleta fría/cálida por sección, densidad visual cinematográfica, etc.) son 
+las reglas del canal Knotwise y siguen vigentes para ese formato — no se 
+reemplazan ni se tocan. Esta sección aplica solo a la línea nueva de 
+contenido con el personaje "Kai" (formato listicle simple, tipo TikTok), 
+que es un proyecto en paralelo, no un reemplazo. Ver `ESTRATEGIA.md` en la 
+raíz del repo para el contexto completo de por qué existe esta segunda 
+línea.
+
+Estos 13 puntos son la fórmula de retención validada para ese formato — no 
+negociables para cualquier guion/video de la línea Kai:
+
+1. **Gancho en segunda persona desde la línea 1** ("vos hiciste esto"), 
+   nunca en tercera persona.
+2. **Promesa numérica + identidad amplia**: el gancho promete un número 
+   ("5 señales de...") sobre una identidad que abarque pareja, amigo Y 
+   familia a la vez — nunca acotada a un solo tipo de vínculo.
+3. **Gancho de retención a mitad del hook**: antes de entregar el punto 1, 
+   anticipar cuál de los puntos que siguen es el más fuerte y pedir 
+   explícitamente guardar el video o quedarse a verlo.
+4. **Cuenta SIEMPRE regresiva** (5→1), nunca ascendente — genera más 
+   tensión porque lo peor siempre está por venir.
+5. **Contador numérico visible en pantalla** (1/5, 2/5...) en todo 
+   momento, no solo al empezar cada punto.
+6. **Regla de tres rítmica**: una frase o palabra repetida exactamente 3 
+   veces en el punto de mayor impacto del guion.
+7. **Densidad visual alta pero barata**: cambio en pantalla cada 2-3s 
+   máximo, logrado reusando pocas imágenes con zoom/paneo o cambio de 
+   palabra en pantalla — no generando una imagen nueva por cada corte.
+8. **Subtítulo palabra por palabra activo el 100% del tiempo**, sin 
+   excepción, incluso durante citas o placas (a diferencia de Knotwise, 
+   donde subtítulos y citas/placas se alternan para no solaparse).
+9. **Elemento visual recurrente sin resolver**: aparece 2-3 veces en el 
+   video sin explicación, y se resuelve recién en la parte o video 
+   siguiente (motor de retención entre entregas).
+10. **Postura con opinión, discutible** — nunca un tono neutral de manual 
+    o enciclopedia.
+11. **CTA de una sola palabra** ("comentá el número"), nunca un CTA de 
+    alta fricción (nunca pedir suscribirse, compartir y comentar juntos).
+12. **Cierre seco, sin despedida**, para favorecer el loop automático del 
+    reproductor.
+13. **En compilados long-form** (cuando se juntan varios Shorts de esta 
+    línea en un video largo): reenganche cada 80-100 segundos, con una 
+    pregunta o promesa nueva, no solo un corte de capítulo.
