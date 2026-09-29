@@ -7,6 +7,8 @@ __pycache__/
 !content/*/audio/*.mp3
 !assets/musica/*.mp3
 !content/*/clips/*.mp4
+!content-kai/*/audio/*.mp3
+!content-kai/*/out/*.mp4
 /content/*/output.mp4
 content/zz-prueba/
 remotion/public/

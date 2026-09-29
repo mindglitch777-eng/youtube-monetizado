@@ -1,0 +1,21 @@
+### HOOK — gancho
+You've done this to your partner, your best friend, and your own family — and you probably never noticed.
+Number 3 on this list is the one that gets everyone. Stay till the end.
+
+### P5 — punto 5
+[Punto 5, el más débil de la lista. Segunda persona, una sola escena concreta.]
+
+### P4 — punto 4
+[Punto 4.]
+
+### P3 — punto 3 (el más fuerte, coincide con puntoMasFuerte en shots.json)
+[Punto 3 — acá va la frase de énfasis triple (fraseTriple en shots.json), repetida 3 veces.]
+
+### P2 — punto 2
+[Punto 2.]
+
+### P1 — punto 1
+[Punto 1, el cierre de la cuenta regresiva.]
+
+### CTA — cierre
+Comment the number.

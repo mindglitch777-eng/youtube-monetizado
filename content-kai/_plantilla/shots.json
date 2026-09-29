@@ -1,0 +1,19 @@
+{
+  "titulo": "5 things you've done that quietly hurt the people closest to you",
+  "identidad": "partner, best friend, or family",
+  "puntoMasFuerte": 3,
+  "puntos": [
+    { "n": 5, "titulo": "punto 5 (el más débil)", "imagen": "img/p5.jpg" },
+    { "n": 4, "titulo": "punto 4", "imagen": "img/p4.jpg" },
+    { "n": 3, "titulo": "punto 3 (el más fuerte)", "imagen": "img/p3.jpg", "elementoRecurrente": true },
+    { "n": 2, "titulo": "punto 2", "imagen": "img/p2.jpg" },
+    { "n": 1, "titulo": "punto 1 (cierre)", "imagen": "img/p1.jpg", "elementoRecurrente": true }
+  ],
+  "elementoRecurrente": {
+    "descripcion": "Objeto o ícono que aparece sin explicación en 2-3 puntos — se resuelve en el video/parte siguiente.",
+    "imagen": "img/elemento-recurrente.png"
+  },
+  "fraseTriple": "You did it again.",
+  "puntoFraseTriple": 3,
+  "cta": "COMMENT"
+}

@@ -3,6 +3,8 @@ import { CalculateMetadataFunction, Composition, staticFile } from "remotion";
 import { EscenaFase0 } from "./fase0/EscenaFase0";
 import { Personaje2D } from "./fase0/Personaje2D";
 import { Personaje3D } from "./fase0/Personaje3D";
+import { KaiListicle } from "./kai/KaiListicle";
+import type { ShotsKai, TimelineKai } from "./kai/tipos";
 import { ManipulacionParte1 } from "./manipulacion-parte1/ManipulacionParte1";
 import { Miniatura } from "./manipulacion-parte1/Miniatura";
 import type { TimelineStandalone } from "./manipulacion-parte1/tipos";
@@ -99,5 +101,23 @@ export const Root: React.FC = () => (
       }}
     />
     <Composition id="ManipulacionParte1-Miniatura" component={Miniatura} width={1080} height={1920} fps={FPS} durationInFrames={1} />
+    <Composition
+      id="KaiListicle"
+      component={KaiListicle}
+      width={1080}
+      height={1920}
+      fps={FPS}
+      durationInFrames={FPS * 5}
+      defaultProps={{ shots: null as unknown as ShotsKai, timeline: null as unknown as TimelineKai }}
+      calculateMetadata={async () => {
+        const [respShots, respTimeline] = await Promise.all([
+          fetch(staticFile("kai-shots.json")),
+          fetch(staticFile("kai-timeline.json")),
+        ]);
+        const shots = (await respShots.json()) as ShotsKai;
+        const timeline = (await respTimeline.json()) as TimelineKai;
+        return { props: { shots, timeline }, durationInFrames: timeline.tomas.at(-1)?.endFrame ?? FPS * 5 };
+      }}
+    />
   </>
 );
