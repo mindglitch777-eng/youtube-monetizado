@@ -1,0 +1,430 @@
+{
+  "duracion": 33.6,
+  "palabras": [
+    {
+      "texto": "You've",
+      "inicio": 0.104,
+      "fin": 0.286
+    },
+    {
+      "texto": "done",
+      "inicio": 0.299,
+      "fin": 0.508
+    },
+    {
+      "texto": "this",
+      "inicio": 0.521,
+      "fin": 0.69
+    },
+    {
+      "texto": "to",
+      "inicio": 0.703,
+      "fin": 0.807
+    },
+    {
+      "texto": "your",
+      "inicio": 0.82,
+      "fin": 0.951
+    },
+    {
+      "texto": "partner",
+      "inicio": 0.964,
+      "fin": 1.419
+    },
+    {
+      "texto": "your",
+      "inicio": 1.706,
+      "fin": 1.823
+    },
+    {
+      "texto": "best",
+      "inicio": 1.836,
+      "fin": 2.135
+    },
+    {
+      "texto": "friend",
+      "inicio": 2.148,
+      "fin": 2.5
+    },
+    {
+      "texto": "and",
+      "inicio": 2.826,
+      "fin": 2.904
+    },
+    {
+      "texto": "your",
+      "inicio": 2.917,
+      "fin": 3.073
+    },
+    {
+      "texto": "own",
+      "inicio": 3.086,
+      "fin": 3.242
+    },
+    {
+      "texto": "family",
+      "inicio": 3.255,
+      "fin": 3.815
+    },
+    {
+      "texto": "and",
+      "inicio": 4.219,
+      "fin": 4.323
+    },
+    {
+      "texto": "you",
+      "inicio": 4.336,
+      "fin": 4.453
+    },
+    {
+      "texto": "probably",
+      "inicio": 4.466,
+      "fin": 4.909
+    },
+    {
+      "texto": "never",
+      "inicio": 4.922,
+      "fin": 5.234
+    },
+    {
+      "texto": "noticed",
+      "inicio": 5.247,
+      "fin": 5.781
+    },
+    {
+      "texto": "Number",
+      "inicio": 6.211,
+      "fin": 6.458
+    },
+    {
+      "texto": "3",
+      "inicio": 6.471,
+      "fin": 6.758
+    },
+    {
+      "texto": "on",
+      "inicio": 6.771,
+      "fin": 6.901
+    },
+    {
+      "texto": "this",
+      "inicio": 6.914,
+      "fin": 7.096
+    },
+    {
+      "texto": "list",
+      "inicio": 7.109,
+      "fin": 7.5
+    },
+    {
+      "texto": "is",
+      "inicio": 7.682,
+      "fin": 7.786
+    },
+    {
+      "texto": "the",
+      "inicio": 7.8,
+      "fin": 7.917
+    },
+    {
+      "texto": "one",
+      "inicio": 7.93,
+      "fin": 8.307
+    },
+    {
+      "texto": "that",
+      "inicio": 8.425,
+      "fin": 8.555
+    },
+    {
+      "texto": "gets",
+      "inicio": 8.568,
+      "fin": 8.776
+    },
+    {
+      "texto": "everyone",
+      "inicio": 8.789,
+      "fin": 9.245
+    },
+    {
+      "texto": "Stay",
+      "inicio": 9.688,
+      "fin": 9.87
+    },
+    {
+      "texto": "till",
+      "inicio": 9.883,
+      "fin": 10.039
+    },
+    {
+      "texto": "the",
+      "inicio": 10.052,
+      "fin": 10.143
+    },
+    {
+      "texto": "end",
+      "inicio": 10.156,
+      "fin": 10.508
+    },
+    {
+      "texto": "Punto",
+      "inicio": 11.029,
+      "fin": 11.185
+    },
+    {
+      "texto": "5",
+      "inicio": 11.263,
+      "fin": 11.706
+    },
+    {
+      "texto": "el",
+      "inicio": 12.018,
+      "fin": 12.122
+    },
+    {
+      "texto": "más",
+      "inicio": 12.135,
+      "fin": 12.383
+    },
+    {
+      "texto": "débil",
+      "inicio": 12.396,
+      "fin": 12.76
+    },
+    {
+      "texto": "de",
+      "inicio": 12.773,
+      "fin": 12.865
+    },
+    {
+      "texto": "la",
+      "inicio": 12.878,
+      "fin": 13.021
+    },
+    {
+      "texto": "lista",
+      "inicio": 13.034,
+      "fin": 13.49
+    },
+    {
+      "texto": "Segunda",
+      "inicio": 13.919,
+      "fin": 14.297
+    },
+    {
+      "texto": "persona",
+      "inicio": 14.31,
+      "fin": 14.883
+    },
+    {
+      "texto": "una",
+      "inicio": 15.273,
+      "fin": 15.43
+    },
+    {
+      "texto": "sola",
+      "inicio": 15.443,
+      "fin": 15.99
+    },
+    {
+      "texto": "escena",
+      "inicio": 16.107,
+      "fin": 16.523
+    },
+    {
+      "texto": "concreta",
+      "inicio": 16.536,
+      "fin": 17.24
+    },
+    {
+      "texto": "Punto",
+      "inicio": 17.747,
+      "fin": 17.93
+    },
+    {
+      "texto": "4",
+      "inicio": 18.008,
+      "fin": 18.424
+    },
+    {
+      "texto": "Punto",
+      "inicio": 18.971,
+      "fin": 19.128
+    },
+    {
+      "texto": "3",
+      "inicio": 19.206,
+      "fin": 19.622
+    },
+    {
+      "texto": "acá",
+      "inicio": 20.104,
+      "fin": 20.625
+    },
+    {
+      "texto": "va",
+      "inicio": 20.638,
+      "fin": 21.003
+    },
+    {
+      "texto": "la",
+      "inicio": 21.016,
+      "fin": 21.315
+    },
+    {
+      "texto": "frase",
+      "inicio": 21.328,
+      "fin": 21.732
+    },
+    {
+      "texto": "de",
+      "inicio": 21.745,
+      "fin": 21.966
+    },
+    {
+      "texto": "énfasis",
+      "inicio": 21.979,
+      "fin": 22.513
+    },
+    {
+      "texto": "triple",
+      "inicio": 22.526,
+      "fin": 22.956
+    },
+    {
+      "texto": "fraseTriple",
+      "inicio": 23.216,
+      "fin": 23.958
+    },
+    {
+      "texto": "en",
+      "inicio": 23.971,
+      "fin": 24.063
+    },
+    {
+      "texto": "shots",
+      "inicio": 24.076,
+      "fin": 24.518
+    },
+    {
+      "texto": ".",
+      "inicio": 24.531,
+      "fin": 24.727
+    },
+    {
+      "texto": "json",
+      "inicio": 24.74,
+      "fin": 25.273
+    },
+    {
+      "texto": "repetida",
+      "inicio": 25.677,
+      "fin": 26.172
+    },
+    {
+      "texto": "3",
+      "inicio": 26.25,
+      "fin": 26.536
+    },
+    {
+      "texto": "veces",
+      "inicio": 26.549,
+      "fin": 27.174
+    },
+    {
+      "texto": "Punto",
+      "inicio": 27.799,
+      "fin": 27.943
+    },
+    {
+      "texto": "2",
+      "inicio": 28.021,
+      "fin": 28.359
+    },
+    {
+      "texto": "Punto",
+      "inicio": 28.88,
+      "fin": 29.062
+    },
+    {
+      "texto": "1",
+      "inicio": 29.141,
+      "fin": 29.414
+    },
+    {
+      "texto": "el",
+      "inicio": 29.857,
+      "fin": 29.974
+    },
+    {
+      "texto": "cierre",
+      "inicio": 29.987,
+      "fin": 30.417
+    },
+    {
+      "texto": "de",
+      "inicio": 30.43,
+      "fin": 30.534
+    },
+    {
+      "texto": "la",
+      "inicio": 30.547,
+      "fin": 30.807
+    },
+    {
+      "texto": "cuenta",
+      "inicio": 30.82,
+      "fin": 31.237
+    },
+    {
+      "texto": "regresiva",
+      "inicio": 31.25,
+      "fin": 32.031
+    },
+    {
+      "texto": "Comment",
+      "inicio": 32.37,
+      "fin": 32.669
+    },
+    {
+      "texto": "the",
+      "inicio": 32.682,
+      "fin": 32.747
+    },
+    {
+      "texto": "number",
+      "inicio": 32.76,
+      "fin": 33.19
+    }
+  ],
+  "secciones": [
+    {
+      "id": "HOOK",
+      "texto": "You've done this to your partner, your best friend, and your own family — and you probably never noticed. Number 3 on this list is the one that gets everyone. Stay till the end."
+    },
+    {
+      "id": "P5",
+      "texto": "[Punto 5, el más débil de la lista. Segunda persona, una sola escena concreta.]"
+    },
+    {
+      "id": "P4",
+      "texto": "[Punto 4.]"
+    },
+    {
+      "id": "P3",
+      "texto": "[Punto 3 — acá va la frase de énfasis triple (fraseTriple en shots.json), repetida 3 veces.]"
+    },
+    {
+      "id": "P2",
+      "texto": "[Punto 2.]"
+    },
+    {
+      "id": "P1",
+      "texto": "[Punto 1, el cierre de la cuenta regresiva.]"
+    },
+    {
+      "id": "CTA",
+      "texto": "Comment the number."
+    }
+  ]
+}
