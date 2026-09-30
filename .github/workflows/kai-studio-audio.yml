@@ -41,8 +41,10 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Instalar edge-tts
-        run: pip install edge-tts
+      - name: Instalar edge-tts y ffmpeg
+        run: |
+          pip install edge-tts
+          sudo apt-get update && sudo apt-get install -y ffmpeg
 
       - name: Generar voz de cada episodio/idioma sin timing.json
         run: |
