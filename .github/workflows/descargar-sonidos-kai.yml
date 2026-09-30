@@ -40,9 +40,12 @@ jobs:
             fi
             for pagina in "$@"; do
               html=$(curl -fsSL -A "Mozilla/5.0" "$pagina" 2>/dev/null || true)
-              [ -z "$html" ] && continue
-              url=$(echo "$html" | grep -oE 'https://assets\.mixkit\.co/(active_storage/sfx|sfx/preview)/[^"]+\.(mp3|wav)' \
-                    | grep -iE "$patron" | head -1 || true)
+              echo "  [debug] $pagina -> ${#html} bytes"
+              todas=$(echo "$html" | grep -oE 'https://assets\.mixkit\.co/[^"]+\.(mp3|wav)' || true)
+              echo "  [debug] URLs de audio encontradas: $(echo -n "$todas" | grep -c . || true)"
+              [ -z "$todas" ] && continue
+              url=$(echo "$todas" | grep -iE "$patron" | head -1 || true)
+              [ -z "$url" ] && url=$(echo "$todas" | head -1)
               if [ -n "$url" ] && curl -fsSL -A "Mozilla/5.0" -o "$destino" "$url" \
                  && file -b --mime-type "$destino" | grep -qE '^audio/'; then
                 echo "✓ $destino ← $url"
