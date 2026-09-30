@@ -10,6 +10,8 @@ __pycache__/
 !content-kai/*/audio/*.mp3
 !content-kai/*/audio/**/*.mp3
 !content-kai/*/out/*.mp4
+!assets/sonido-kai/*.mp3
+!assets/musica-kai/*.mp3
 /content/*/output.mp4
 content/zz-prueba/
 remotion/public/

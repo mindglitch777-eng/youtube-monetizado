@@ -265,3 +265,68 @@ negociables para cualquier guion/video de la línea Kai:
 13. **En compilados long-form** (cuando se juntan varios Shorts de esta 
     línea en un video largo): reenganche cada 80-100 segundos, con una 
     pregunta o promesa nueva, no solo un corte de capítulo.
+
+---
+
+# REGLA DE SONIDO — todos los Shorts de Kai (inglés y español)
+
+- Voz siempre al 100% y por encima de todo lo demás.
+- Música de fondo oscura y suave en loop, a -22 dB, que baja otros -6 dB 
+  mientras habla la voz (ducking).
+- Todos los SFX a -12 dB, colocados 2-3 frames ANTES del corte visual 
+  que acompañan.
+- Whoosh suave: solo en los cortes de los ganchos (líneas HOOK) y en 
+  cada cambio de contador — no en todos los cortes, cansa.
+- Impacto corto: en cada cambio del contador (5, 4, 3, 2, 1).
+- Golpe grave o latido: al inicio de cada línea de gancho (HOOK).
+- Riser de 1-2s antes de un zoom a una grilla de apertura (tipo línea 4 
+  de "parte1-love-bombing"), golpe seco al llegar al panel/imagen 
+  destino.
+- Sonido de notificación o vibración: en las escenas donde el celular 
+  está encendido y es protagonista de la imagen.
+- 0.5s de silencio antes de la última línea (el CTA), sin música ni SFX.
+- Solo sonidos libres para uso comercial (Pixabay, YouTube Audio 
+  Library, Freesound CC0, Mixkit). Guardar fuente y licencia de cada 
+  uno en `sfx/LICENCIAS.md` (o `assets/sonido-kai/LICENCIAS.md`).
+- Siempre mostrar un preview antes del render final (igual que con las 
+  imágenes/voz).
+
+---
+
+# REGLA DE GUIONES AGRESIVOS — formato Top 5 de Kai (inglés y español)
+
+**Apertura:**
+- La primera frase acusa al espectador en segunda persona y le duele. 
+  Nada de "hoy vamos a hablar de".
+- La segunda frase corta o reta la atención ("Stay for number one."). 
+  El número 1 se promete al inicio y se entrega al final.
+
+**Ritmo y estructura:**
+- Frases cortas y cortantes, máximo 8-10 palabras. Sin relleno ni 
+  explicaciones largas.
+- Cuenta regresiva 5→1, y cada número escala: el 5 incomoda, el 3 
+  duele, el 1 es el que la gente niega.
+- Cada número cierra con un gancho que promete algo peor en el 
+  siguiente.
+- Al menos una regla de tres rítmica en el punto más fuerte, y una 
+  línea con opinión discutible que haga comentar.
+- Cierre seco: última línea de una sola acción ("Comment your 
+  number."), sin despedida.
+
+**Contenido:**
+- Hablar de conductas, nunca de personas: "eso que hace", no "es un 
+  narcisista". Sin diagnósticos ni etiquetas clínicas sobre alguien, 
+  sin consejos médicos o terapéuticos, sin nombres reales.
+- Cada línea muestra una situación cotidiana y actual con la que el 
+  espectador se identifique.
+
+**Entrega:**
+- Guion línea por línea en inglés, con cuántas imágenes lleva cada 
+  línea (2-3 si tiene varios elementos, 1 si es de transición; total 
+  45-47) y el rango de imágenes de cada una.
+- Dos versiones de gancho de apertura para probar cuál pega más.
+- Después, la adaptación al español neutro (no traducción literal): 
+  mismas imágenes, mismo ritmo.
+- Antes de escribir, revisar los datos de competidores ya investigados 
+  (primeros 2 segundos de sus mejores videos y qué dicen los 
+  comentarios) y usar esos patrones, sin copiar frases ni contenido.

@@ -1,0 +1,122 @@
+# Sonidos para la línea Kai (RULES.md, "REGLA DE SONIDO"): música de fondo
+# oscura en loop, whoosh suave, impacto de contador, latido/golpe grave de
+# gancho, riser y notificación de celular. Todos de Mixkit (uso comercial
+# libre, sin atribución obligatoria). Best-effort por palabra clave sobre
+# varias páginas de categoría — si no encuentra nada para un sonido, avisa
+# con ::warning:: pero no rompe el resto.
+name: Descargar sonidos Kai
+
+on:
+  push:
+    paths:
+      - .github/workflows/descargar-sonidos-kai.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: descargar-sonidos-kai-${{ github.ref }}
+
+jobs:
+  sonidos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Descargar sonidos Kai (Mixkit, best-effort)
+        run: |
+          set -euo pipefail
+          mkdir -p assets/sonido-kai
+          cd assets/sonido-kai
+          : > fuentes-encontradas.txt
+
+          buscar_y_bajar() {
+            destino="$1"; shift
+            patron="$1"; shift
+            if [ -f "$destino" ]; then
+              echo "✓ $destino ya existe"
+              return 0
+            fi
+            for pagina in "$@"; do
+              html=$(curl -fsSL -A "Mozilla/5.0" "$pagina" 2>/dev/null || true)
+              [ -z "$html" ] && continue
+              url=$(echo "$html" | grep -oE 'https://assets\.mixkit\.co/(active_storage/sfx|sfx/preview)/[^"]+\.(mp3|wav)' \
+                    | grep -iE "$patron" | head -1 || true)
+              if [ -n "$url" ] && curl -fsSL -A "Mozilla/5.0" -o "$destino" "$url" \
+                 && file -b --mime-type "$destino" | grep -qE '^audio/'; then
+                echo "✓ $destino ← $url"
+                echo -e "$destino\t$url" >> fuentes-encontradas.txt
+                return 0
+              fi
+              rm -f "$destino"
+            done
+            echo "::warning::No encontré nada para $destino (patrón: $patron)"
+            return 1
+          }
+
+          buscar_y_bajar "whoosh.mp3" "soft|smooth|small|subtle|light" \
+            "https://mixkit.co/free-sound-effects/whoosh/" \
+            "https://mixkit.co/free-sound-effects/transition/" \
+            "https://mixkit.co/free-sound-effects/swoosh/"
+
+          buscar_y_bajar "impacto-contador.mp3" "short|quick|click|tap|pop|small" \
+            "https://mixkit.co/free-sound-effects/hit/" \
+            "https://mixkit.co/free-sound-effects/impact/"
+
+          buscar_y_bajar "latido.mp3" "heartbeat|heart-beat|pulse|deep-drum|low-drum" \
+            "https://mixkit.co/free-sound-effects/heartbeat/" \
+            "https://mixkit.co/free-sound-effects/horror/" \
+            "https://mixkit.co/free-sound-effects/drum/"
+
+          buscar_y_bajar "riser.mp3" "riser|rise|build-up|buildup|swell|tension" \
+            "https://mixkit.co/free-sound-effects/cinematic/" \
+            "https://mixkit.co/free-sound-effects/movie/" \
+            "https://mixkit.co/free-sound-effects/horror/"
+
+          buscar_y_bajar "notificacion.mp3" "notification|vibrat|buzz|alert|message" \
+            "https://mixkit.co/free-sound-effects/notification/" \
+            "https://mixkit.co/free-sound-effects/alerts/" \
+            "https://mixkit.co/free-sound-effects/phone/"
+
+      - name: Descargar música de fondo oscura en loop (Mixkit)
+        run: |
+          set -euo pipefail
+          mkdir -p assets/musica-kai
+          cd assets/musica-kai
+          if [ -f loop-oscuro.mp3 ]; then
+            echo "✓ loop-oscuro.mp3 ya existe"
+            exit 0
+          fi
+          ok=""
+          for pagina in \
+            "https://mixkit.co/free-stock-music/mood/dark/" \
+            "https://mixkit.co/free-stock-music/tag/atmospheres/" \
+            "https://mixkit.co/free-stock-music/mood/atmospheric/"; do
+            html=$(curl -fsSL -A "Mozilla/5.0" "$pagina" 2>/dev/null || true)
+            [ -z "$html" ] && continue
+            url=$(echo "$html" | grep -oE 'https://assets\.mixkit\.co/music/[^"]+\.mp3' | head -1 || true)
+            if [ -n "$url" ] && curl -fsSL -A "Mozilla/5.0" -o loop-oscuro.mp3 "$url" \
+               && file -b --mime-type loop-oscuro.mp3 | grep -qE '^audio/'; then
+              echo "✓ loop-oscuro.mp3 ← $url"
+              echo "$url" > origen.txt
+              ok=1
+              break
+            fi
+            rm -f loop-oscuro.mp3
+          done
+          [ -n "$ok" ] || echo "::warning::No encontré música de fondo oscura nueva."
+
+      - name: Commitear sonidos Kai
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- assets/sonido-kai assets/musica-kai
+          if git diff --cached --quiet; then
+            echo "Sin sonidos nuevos."
+            exit 0
+          fi
+          git commit -m "Descargar sonidos Kai (whoosh, impacto, latido, riser, notificación, música de fondo) desde GitHub Actions"
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
