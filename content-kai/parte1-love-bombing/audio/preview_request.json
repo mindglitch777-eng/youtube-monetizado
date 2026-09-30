@@ -1,5 +1,6 @@
 {
   "texto": "Someone calls you soulmate after three days? That's not love. That's a target on your back.",
   "carpeta": "content-kai/parte1-love-bombing/audio/preview",
-  "voces": ["en-US-AndrewNeural", "en-US-AriaNeural", "en-US-GuyNeural"]
+  "voces": ["en-US-AndrewNeural", "en-US-AriaNeural", "en-US-GuyNeural"],
+  "intento": 2
 }
