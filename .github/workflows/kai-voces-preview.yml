@@ -2,20 +2,18 @@
 # la voz de un video Kai antes de sintetizar el guion completo (paso 2 de
 # las instrucciones por video). Corre en GitHub Actions porque Microsoft
 # bloquea edge-tts desde el entorno de Claude Code (igual que kai-voz.yml).
+#
+# workflow_dispatch no sirve acá porque la API lo exige en la rama por
+# defecto — se dispara con un push a un archivo preview_request.json
+# (texto/carpeta/voces) dentro de cada carpeta content-kai/*/audio/.
 name: Kai — preview de voces
 
 on:
-  workflow_dispatch:
-    inputs:
-      texto:
-        description: "Texto de muestra a sintetizar"
-        required: true
-      carpeta:
-        description: "Carpeta destino (ej. content-kai/parte1-love-bombing/audio/preview)"
-        required: true
-      voces:
-        description: "Voces edge-tts separadas por coma (ej. en-US-AndrewNeural,en-US-AriaNeural)"
-        required: true
+  push:
+    paths:
+      - content-kai/*/audio/preview_request.json
+      - scripts/kai_voces_preview.py
+      - .github/workflows/kai-voces-preview.yml
 
 permissions:
   contents: write
@@ -39,8 +37,19 @@ jobs:
       - name: Sintetizar preview con cada voz
         run: |
           set -euo pipefail
-          IFS=',' read -ra VOCES <<< "${{ github.event.inputs.voces }}"
-          python scripts/kai_voces_preview.py "${{ github.event.inputs.texto }}" "${{ github.event.inputs.carpeta }}" "${VOCES[@]}"
+          for req in content-kai/*/audio/preview_request.json; do
+            [ -f "$req" ] || continue
+            echo "::group::$req"
+            python3 - "$req" << 'PY'
+import json, subprocess, sys
+req = json.load(open(sys.argv[1]))
+subprocess.run(
+    ["python", "scripts/kai_voces_preview.py", req["texto"], req["carpeta"], *req["voces"]],
+    check=True,
+)
+PY
+            echo "::endgroup::"
+          done
 
       - name: Commitear preview de audio
         if: always()
