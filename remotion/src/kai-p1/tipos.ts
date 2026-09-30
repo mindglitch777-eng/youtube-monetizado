@@ -28,6 +28,12 @@ export type LineaTimeline = {
   triggerTodayS: number | null;
 };
 
+export type SfxEvento = {
+  tipo: "whoosh" | "impacto" | "latido" | "riser" | "notificacion";
+  frame: number;
+  hasta?: number;
+};
+
 export type TimelineKaiP1 = {
   fps: number;
   ancho: number;
@@ -35,4 +41,6 @@ export type TimelineKaiP1 = {
   audio: string;
   duracionTotal: number;
   lineas: LineaTimeline[];
+  sfxEventos: SfxEvento[];
+  pausasSinVoz: Array<[number, number]>;
 };

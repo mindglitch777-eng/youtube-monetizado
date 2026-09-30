@@ -50,6 +50,32 @@ const destinoAudio = path.join(publico, timeline.audio);
 fs.mkdirSync(path.dirname(destinoAudio), { recursive: true });
 fs.copyFileSync(origenAudio, destinoAudio);
 
+// Sonidos de la línea Kai (RULES.md, REGLA DE SONIDO): música de fondo +
+// SFX puntuales, bajados por .github/workflows/descargar-sonidos-kai.yml.
+// Si algún archivo todavía no se descargó, simplemente no se copia (la
+// composición se entera por la ausencia del archivo en public/, ver Root.tsx).
+const raiz = path.resolve(remotion, "..");
+const copiarCarpetaDeSonido = (origenRel, destinoRel) => {
+  const origen = path.join(raiz, origenRel);
+  const copiados = [];
+  if (!fs.existsSync(origen)) return copiados;
+  fs.mkdirSync(path.join(publico, destinoRel), { recursive: true });
+  for (const archivo of fs.readdirSync(origen)) {
+    if (!archivo.endsWith(".mp3")) continue;
+    fs.copyFileSync(path.join(origen, archivo), path.join(publico, destinoRel, archivo));
+    copiados.push(archivo);
+  }
+  return copiados;
+};
+const sfxDisponibles = copiarCarpetaDeSonido("assets/sonido-kai", "sonido-kai");
+const musicaDisponible = copiarCarpetaDeSonido("assets/musica-kai", "musica-kai");
+fs.writeFileSync(
+  path.join(publico, "kai-p1-sonidos.json"),
+  JSON.stringify({ sfxDisponibles, musicaArchivo: musicaDisponible[0] ?? null }, null, 2),
+);
+if (!musicaDisponible.length) console.warn("Sin música de fondo todavía (assets/musica-kai vacío).");
+if (sfxDisponibles.length < 5) console.warn(`Solo ${sfxDisponibles.length}/5 SFX de Kai disponibles.`);
+
 if (faltantes.length) {
   console.warn(`Faltan ${faltantes.length} imágenes (van a verse negras):`);
   faltantes.forEach((f) => console.warn(`  - ${f}`));

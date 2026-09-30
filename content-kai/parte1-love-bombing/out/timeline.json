@@ -3,7 +3,7 @@
   "ancho": 1080,
   "alto": 1920,
   "audio": "audio/voz_completa.mp3",
-  "duracionTotal": 83.382,
+  "duracionTotal": 84.17,
   "lineas": [
     {
       "n": 1,
@@ -475,15 +475,15 @@
       "texto": "They don't know you. They need you hooked.",
       "flags": [],
       "startS": 20.526,
-      "endS": 22.59,
+      "endS": 22.614,
       "startFrame": 616,
       "endFrame": 678,
-      "duracionAudioFrames": 62,
+      "duracionAudioFrames": 63,
       "pausaFrames": 0,
       "imagenes": [
         {
           "archivo": "kai-p1-11.png",
-          "duracionS": 2.064,
+          "duracionS": 2.088,
           "movimiento": "zoom"
         }
       ],
@@ -540,10 +540,10 @@
       "flags": [
         "HOOK"
       ],
-      "startS": 22.59,
-      "endS": 24.948,
+      "startS": 22.614,
+      "endS": 24.972,
       "startFrame": 678,
-      "endFrame": 748,
+      "endFrame": 749,
       "duracionAudioFrames": 66,
       "pausaFrames": 4,
       "imagenes": [
@@ -611,9 +611,9 @@
       "flags": [
         "CONTADOR_4"
       ],
-      "startS": 24.948,
-      "endS": 27.588,
-      "startFrame": 748,
+      "startS": 24.972,
+      "endS": 27.612,
+      "startFrame": 749,
       "endFrame": 828,
       "duracionAudioFrames": 79,
       "pausaFrames": 0,
@@ -675,10 +675,10 @@
       "n": 10,
       "texto": "Meet my family. Move in together. I want kids. You've met twice.",
       "flags": [],
-      "startS": 27.588,
-      "endS": 32.004,
+      "startS": 27.612,
+      "endS": 32.028,
       "startFrame": 828,
-      "endFrame": 960,
+      "endFrame": 961,
       "duracionAudioFrames": 132,
       "pausaFrames": 0,
       "imagenes": [
@@ -769,9 +769,9 @@
       "n": 11,
       "texto": "That's not romance. It's a script.",
       "flags": [],
-      "startS": 32.004,
-      "endS": 34.284,
-      "startFrame": 960,
+      "startS": 32.028,
+      "endS": 34.308,
+      "startFrame": 961,
       "endFrame": 1029,
       "duracionAudioFrames": 68,
       "pausaFrames": 0,
@@ -830,8 +830,8 @@
       "flags": [
         "HOOK"
       ],
-      "startS": 34.284,
-      "endS": 36.522,
+      "startS": 34.308,
+      "endS": 36.546,
       "startFrame": 1029,
       "endFrame": 1096,
       "duracionAudioFrames": 63,
@@ -891,10 +891,10 @@
       "flags": [
         "CONTADOR_3"
       ],
-      "startS": 36.522,
-      "endS": 38.634,
+      "startS": 36.546,
+      "endS": 38.658,
       "startFrame": 1096,
-      "endFrame": 1159,
+      "endFrame": 1160,
       "duracionAudioFrames": 63,
       "pausaFrames": 0,
       "imagenes": [
@@ -935,9 +935,9 @@
       "n": 14,
       "texto": "Forty texts a day.",
       "flags": [],
-      "startS": 38.634,
-      "endS": 40.722,
-      "startFrame": 1159,
+      "startS": 38.658,
+      "endS": 40.746,
+      "startFrame": 1160,
       "endFrame": 1222,
       "duracionAudioFrames": 63,
       "pausaFrames": 0,
@@ -984,10 +984,10 @@
       "n": 15,
       "texto": "Miss one and it's \"why are you ignoring me?\"",
       "flags": [],
-      "startS": 40.722,
-      "endS": 43.266,
+      "startS": 40.746,
+      "endS": 43.29,
       "startFrame": 1222,
-      "endFrame": 1298,
+      "endFrame": 1299,
       "duracionAudioFrames": 76,
       "pausaFrames": 0,
       "imagenes": [
@@ -1058,9 +1058,9 @@
       "n": 16,
       "texto": "That's not care. It's a leash with a heart on it.",
       "flags": [],
-      "startS": 43.266,
-      "endS": 45.954,
-      "startFrame": 1298,
+      "startS": 43.29,
+      "endS": 45.978,
+      "startFrame": 1299,
       "endFrame": 1379,
       "duracionAudioFrames": 81,
       "pausaFrames": 0,
@@ -1139,8 +1139,8 @@
       "flags": [
         "HOOK"
       ],
-      "startS": 45.954,
-      "endS": 48.192,
+      "startS": 45.978,
+      "endS": 48.216,
       "startFrame": 1379,
       "endFrame": 1446,
       "duracionAudioFrames": 63,
@@ -1200,16 +1200,16 @@
       "flags": [
         "CONTADOR_2"
       ],
-      "startS": 48.192,
-      "endS": 50.184,
+      "startS": 48.216,
+      "endS": 50.304,
       "startFrame": 1446,
-      "endFrame": 1506,
-      "duracionAudioFrames": 60,
+      "endFrame": 1509,
+      "duracionAudioFrames": 63,
       "pausaFrames": 0,
       "imagenes": [
         {
           "archivo": "kai-p1-27.png",
-          "duracionS": 1.992,
+          "duracionS": 2.088,
           "movimiento": "zoom"
         }
       ],
@@ -1244,10 +1244,10 @@
       "n": 19,
       "texto": "Flowers. Trips. Expensive gifts.",
       "flags": [],
-      "startS": 50.184,
-      "endS": 53.184,
-      "startFrame": 1506,
-      "endFrame": 1596,
+      "startS": 50.304,
+      "endS": 53.304,
+      "startFrame": 1509,
+      "endFrame": 1599,
       "duracionAudioFrames": 90,
       "pausaFrames": 0,
       "imagenes": [
@@ -1298,10 +1298,10 @@
       "n": 20,
       "texto": "Every gift is a small invoice.",
       "flags": [],
-      "startS": 53.184,
-      "endS": 55.296,
-      "startFrame": 1596,
-      "endFrame": 1659,
+      "startS": 53.304,
+      "endS": 55.416,
+      "startFrame": 1599,
+      "endFrame": 1662,
       "duracionAudioFrames": 63,
       "pausaFrames": 0,
       "imagenes": [
@@ -1352,10 +1352,10 @@
       "n": 21,
       "texto": "Say no, and suddenly you're the ungrateful one.",
       "flags": [],
-      "startS": 55.296,
-      "endS": 58.296,
-      "startFrame": 1659,
-      "endFrame": 1749,
+      "startS": 55.416,
+      "endS": 58.416,
+      "startFrame": 1662,
+      "endFrame": 1752,
       "duracionAudioFrames": 90,
       "pausaFrames": 0,
       "imagenes": [
@@ -1423,10 +1423,10 @@
       "flags": [
         "HOOK"
       ],
-      "startS": 58.296,
-      "endS": 60.894,
-      "startFrame": 1749,
-      "endFrame": 1827,
+      "startS": 58.416,
+      "endS": 61.014,
+      "startFrame": 1752,
+      "endFrame": 1830,
       "duracionAudioFrames": 73,
       "pausaFrames": 4,
       "imagenes": [
@@ -1499,16 +1499,16 @@
       "flags": [
         "CONTADOR_1"
       ],
-      "startS": 60.894,
-      "endS": 62.814,
-      "startFrame": 1827,
-      "endFrame": 1884,
-      "duracionAudioFrames": 58,
+      "startS": 61.014,
+      "endS": 63.102,
+      "startFrame": 1830,
+      "endFrame": 1893,
+      "duracionAudioFrames": 63,
       "pausaFrames": 0,
       "imagenes": [
         {
           "archivo": "kai-p1-35.png",
-          "duracionS": 1.92,
+          "duracionS": 2.088,
           "movimiento": "zoom"
         }
       ],
@@ -1548,10 +1548,10 @@
       "n": 24,
       "texto": "\"Your friends don't get us.\"",
       "flags": [],
-      "startS": 62.814,
-      "endS": 64.902,
-      "startFrame": 1884,
-      "endFrame": 1947,
+      "startS": 63.102,
+      "endS": 65.19,
+      "startFrame": 1893,
+      "endFrame": 1956,
       "duracionAudioFrames": 63,
       "pausaFrames": 0,
       "imagenes": [
@@ -1597,10 +1597,10 @@
       "n": 25,
       "texto": "\"You don't need them. You have me.\"",
       "flags": [],
-      "startS": 64.902,
-      "endS": 66.99,
-      "startFrame": 1947,
-      "endFrame": 2010,
+      "startS": 65.19,
+      "endS": 67.278,
+      "startFrame": 1956,
+      "endFrame": 2018,
       "duracionAudioFrames": 63,
       "pausaFrames": 0,
       "imagenes": [
@@ -1661,10 +1661,10 @@
       "n": 26,
       "texto": "One by one, your people go quiet.",
       "flags": [],
-      "startS": 66.99,
-      "endS": 69.294,
-      "startFrame": 2010,
-      "endFrame": 2079,
+      "startS": 67.278,
+      "endS": 69.582,
+      "startFrame": 2018,
+      "endFrame": 2087,
       "duracionAudioFrames": 69,
       "pausaFrames": 0,
       "imagenes": [
@@ -1720,10 +1720,10 @@
       "n": 27,
       "texto": "Then one day you say: \"I need space.\"",
       "flags": [],
-      "startS": 69.294,
-      "endS": 72.03,
-      "startFrame": 2079,
-      "endFrame": 2161,
+      "startS": 69.582,
+      "endS": 72.318,
+      "startFrame": 2087,
+      "endFrame": 2170,
       "duracionAudioFrames": 82,
       "pausaFrames": 0,
       "imagenes": [
@@ -1784,10 +1784,10 @@
       "n": 28,
       "texto": "And the sun switches off.",
       "flags": [],
-      "startS": 72.03,
-      "endS": 74.118,
-      "startFrame": 2161,
-      "endFrame": 2224,
+      "startS": 72.318,
+      "endS": 74.406,
+      "startFrame": 2170,
+      "endFrame": 2232,
       "duracionAudioFrames": 63,
       "pausaFrames": 0,
       "imagenes": [
@@ -1838,10 +1838,10 @@
       "n": 29,
       "texto": "Real love doesn't rush you. It waits.",
       "flags": [],
-      "startS": 74.118,
-      "endS": 76.71,
-      "startFrame": 2224,
-      "endFrame": 2301,
+      "startS": 74.406,
+      "endS": 76.998,
+      "startFrame": 2232,
+      "endFrame": 2310,
       "duracionAudioFrames": 78,
       "pausaFrames": 0,
       "imagenes": [
@@ -1902,10 +1902,10 @@
       "n": 30,
       "texto": "Count your signs.",
       "flags": [],
-      "startS": 76.71,
-      "endS": 78.798,
-      "startFrame": 2301,
-      "endFrame": 2364,
+      "startS": 76.998,
+      "endS": 79.086,
+      "startFrame": 2310,
+      "endFrame": 2373,
       "duracionAudioFrames": 63,
       "pausaFrames": 0,
       "imagenes": [
@@ -1941,12 +1941,12 @@
       "n": 31,
       "texto": "Three or more? You're not overreacting.",
       "flags": [],
-      "startS": 78.798,
-      "endS": 81.294,
-      "startFrame": 2364,
-      "endFrame": 2439,
+      "startS": 79.086,
+      "endS": 82.082,
+      "startFrame": 2373,
+      "endFrame": 2462,
       "duracionAudioFrames": 75,
-      "pausaFrames": 0,
+      "pausaFrames": 15,
       "imagenes": [
         {
           "archivo": "kai-p1-46.png",
@@ -1997,10 +1997,10 @@
       "flags": [
         "CIERRE_SECO"
       ],
-      "startS": 81.294,
-      "endS": 83.382,
-      "startFrame": 2439,
-      "endFrame": 2501,
+      "startS": 82.082,
+      "endS": 84.17,
+      "startFrame": 2462,
+      "endFrame": 2525,
       "duracionAudioFrames": 63,
       "pausaFrames": 0,
       "imagenes": [
@@ -2032,5 +2032,134 @@
       "esGridIntro": false,
       "triggerTodayS": null
     }
+  ],
+  "sfxEventos": [
+    {
+      "tipo": "whoosh",
+      "frame": 213
+    },
+    {
+      "tipo": "latido",
+      "frame": 213
+    },
+    {
+      "tipo": "riser",
+      "frame": 375,
+      "hasta": 420
+    },
+    {
+      "tipo": "impacto",
+      "frame": 418
+    },
+    {
+      "tipo": "whoosh",
+      "frame": 474
+    },
+    {
+      "tipo": "impacto",
+      "frame": 474
+    },
+    {
+      "tipo": "whoosh",
+      "frame": 676
+    },
+    {
+      "tipo": "latido",
+      "frame": 676
+    },
+    {
+      "tipo": "whoosh",
+      "frame": 747
+    },
+    {
+      "tipo": "impacto",
+      "frame": 747
+    },
+    {
+      "tipo": "whoosh",
+      "frame": 1027
+    },
+    {
+      "tipo": "latido",
+      "frame": 1027
+    },
+    {
+      "tipo": "notificacion",
+      "frame": 1027
+    },
+    {
+      "tipo": "whoosh",
+      "frame": 1094
+    },
+    {
+      "tipo": "impacto",
+      "frame": 1094
+    },
+    {
+      "tipo": "notificacion",
+      "frame": 1158
+    },
+    {
+      "tipo": "notificacion",
+      "frame": 1220
+    },
+    {
+      "tipo": "whoosh",
+      "frame": 1377
+    },
+    {
+      "tipo": "latido",
+      "frame": 1377
+    },
+    {
+      "tipo": "whoosh",
+      "frame": 1444
+    },
+    {
+      "tipo": "impacto",
+      "frame": 1444
+    },
+    {
+      "tipo": "whoosh",
+      "frame": 1750
+    },
+    {
+      "tipo": "latido",
+      "frame": 1750
+    },
+    {
+      "tipo": "whoosh",
+      "frame": 1828
+    },
+    {
+      "tipo": "impacto",
+      "frame": 1828
+    }
+  ],
+  "pausasSinVoz": [
+    [
+      281,
+      285
+    ],
+    [
+      745,
+      749
+    ],
+    [
+      1092,
+      1096
+    ],
+    [
+      1442,
+      1446
+    ],
+    [
+      1826,
+      1830
+    ],
+    [
+      2447,
+      2462
+    ]
   ]
 }

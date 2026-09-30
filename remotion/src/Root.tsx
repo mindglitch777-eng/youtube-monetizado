@@ -128,11 +128,20 @@ export const Root: React.FC = () => (
       height={1920}
       fps={FPS}
       durationInFrames={FPS * 5}
-      defaultProps={{ timeline: null as unknown as TimelineKaiP1 }}
+      defaultProps={{ timeline: null as unknown as TimelineKaiP1, sfxDisponibles: [], musicaArchivo: null }}
       calculateMetadata={async () => {
-        const respuesta = await fetch(staticFile("kai-p1-timeline.json"));
-        const timeline = (await respuesta.json()) as TimelineKaiP1;
-        return { props: { timeline }, durationInFrames: Math.ceil(timeline.duracionTotal * FPS) };
+        const [respTimeline, respSonidos] = await Promise.all([
+          fetch(staticFile("kai-p1-timeline.json")),
+          fetch(staticFile("kai-p1-sonidos.json")),
+        ]);
+        const timeline = (await respTimeline.json()) as TimelineKaiP1;
+        const sonidos = respSonidos.ok
+          ? ((await respSonidos.json()) as { sfxDisponibles: string[]; musicaArchivo: string | null })
+          : { sfxDisponibles: [], musicaArchivo: null };
+        return {
+          props: { timeline, sfxDisponibles: sonidos.sfxDisponibles, musicaArchivo: sonidos.musicaArchivo },
+          durationInFrames: Math.ceil(timeline.duracionTotal * FPS),
+        };
       }}
     />
   </>
