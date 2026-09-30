@@ -1,0 +1,5 @@
+whoosh.mp3	https://assets.mixkit.co/active_storage/sfx/1489/1489-preview.mp3
+impacto-contador.mp3	https://assets.mixkit.co/active_storage/sfx/788/788-preview.mp3
+latido.mp3	https://assets.mixkit.co/active_storage/sfx/488/488-preview.mp3
+riser.mp3	https://assets.mixkit.co/active_storage/sfx/1492/1492-preview.mp3
+notificacion.mp3	https://assets.mixkit.co/active_storage/sfx/2870/2870-preview.mp3
