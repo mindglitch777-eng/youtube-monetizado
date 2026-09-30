@@ -32,6 +32,6 @@
     {"n": 29, "imagenes": ["kai-p1-43.png", "kai-p1-44.png"], "texto": "Real love doesn't rush you. It waits.", "flags": []},
     {"n": 30, "imagenes": ["kai-p1-45.png"], "texto": "Count your signs.", "flags": []},
     {"n": 31, "imagenes": ["kai-p1-46.png"], "texto": "Three or more? You're not overreacting.", "flags": []},
-    {"n": 32, "imagenes": ["kai-p1-47.png"], "texto": "Comment your number.", "flags": ["CIERRE_SECO"]}
+    {"n": 32, "imagenes": ["kai-p1-46.png"], "texto": "Comment your number.", "flags": ["CIERRE_SECO"]}
   ]
 }
