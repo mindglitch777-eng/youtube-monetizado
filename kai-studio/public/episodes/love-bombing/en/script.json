@@ -1,0 +1,416 @@
+{
+ "slug": "love-bombing",
+ "lang": "en",
+ "part": 1,
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "imagePrefix": "kai-p1-",
+ "imageCount": 46,
+ "lines": [
+  {
+   "id": 1,
+   "text": "Someone calls you \"soulmate\" after three days? That's not love. That's a target on your back.",
+   "images": [
+    {
+     "n": 6
+    },
+    {
+     "n": 7
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "text": "Here are five signs.",
+   "images": [
+    {
+     "n": 3
+    },
+    {
+     "n": 4
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "text": "Number one is the one that traps you.",
+   "images": [
+    {
+     "n": 5
+    }
+   ],
+   "hook": true
+  },
+  {
+   "id": 4,
+   "text": "Love bombing is one of five manipulation tactics that hide inside love. Today, we start with the first one.",
+   "images": [
+    {
+     "n": 1,
+     "effect": {
+      "kind": "zoomToPoint",
+      "focus": [
+       0.25,
+       0.22
+      ],
+      "scaleTo": 2.6
+     }
+    },
+    {
+     "n": 2
+    }
+   ],
+   "riser": true,
+   "overlays": [
+    {
+     "text": "5 WAYS LOVE CAN BE A TRAP",
+     "x": 0.5,
+     "y": 0.055,
+     "style": "title",
+     "onlyFirstImage": true
+    },
+    {
+     "text": "LOVE BOMBING",
+     "x": 0.25,
+     "y": 0.345,
+     "style": "label",
+     "onlyFirstImage": true
+    },
+    {
+     "text": "GUILT TRAP",
+     "x": 0.75,
+     "y": 0.345,
+     "style": "label",
+     "onlyFirstImage": true
+    },
+    {
+     "text": "SILENT TREATMENT",
+     "x": 0.25,
+     "y": 0.61,
+     "style": "label",
+     "onlyFirstImage": true
+    },
+    {
+     "text": "GASLIGHTING",
+     "x": 0.75,
+     "y": 0.61,
+     "style": "label",
+     "onlyFirstImage": true
+    },
+    {
+     "text": "THE SWITCH",
+     "x": 0.5,
+     "y": 0.865,
+     "style": "label",
+     "onlyFirstImage": true
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "text": "Number five. Too much, too fast.",
+   "images": [
+    {
+     "n": 8
+    }
+   ],
+   "counter": "5"
+  },
+  {
+   "id": 6,
+   "text": "\"I love you\" in week one.",
+   "images": [
+    {
+     "n": 9
+    },
+    {
+     "n": 10
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "text": "They don't know you. They need you hooked.",
+   "images": [
+    {
+     "n": 11
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "text": "And the next sign shows up by day ten.",
+   "images": [
+    {
+     "n": 12
+    }
+   ],
+   "hook": true
+  },
+  {
+   "id": 9,
+   "text": "Number four. A whole future by day ten.",
+   "images": [
+    {
+     "n": 13
+    }
+   ],
+   "counter": "4"
+  },
+  {
+   "id": 10,
+   "text": "Meet my family. Move in together. I want kids. You've met twice.",
+   "images": [
+    {
+     "n": 14
+    },
+    {
+     "n": 15
+    },
+    {
+     "n": 16
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "text": "That's not romance. It's a script.",
+   "images": [
+    {
+     "n": 17
+    },
+    {
+     "n": 18
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "text": "The next one lives in your phone.",
+   "images": [
+    {
+     "n": 19,
+     "sfx": [
+      "notification"
+     ]
+    }
+   ],
+   "hook": true
+  },
+  {
+   "id": 13,
+   "text": "Number three. Constant contact.",
+   "images": [
+    {
+     "n": 20,
+     "sfx": [
+      "notification"
+     ]
+    }
+   ],
+   "counter": "3"
+  },
+  {
+   "id": 14,
+   "text": "Forty texts a day.",
+   "images": [
+    {
+     "n": 21
+    },
+    {
+     "n": 22
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "text": "Miss one and it's \"why are you ignoring me?\"",
+   "images": [
+    {
+     "n": 23
+    },
+    {
+     "n": 24
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "text": "That's not care. It's a leash with a heart on it.",
+   "images": [
+    {
+     "n": 25
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "text": "And the next one will cost you.",
+   "images": [
+    {
+     "n": 26
+    }
+   ],
+   "hook": true
+  },
+  {
+   "id": 18,
+   "text": "Number two. Grand gestures.",
+   "images": [
+    {
+     "n": 27
+    }
+   ],
+   "counter": "2"
+  },
+  {
+   "id": 19,
+   "text": "Flowers. Trips. Expensive gifts.",
+   "images": [
+    {
+     "n": 28
+    },
+    {
+     "n": 29
+    },
+    {
+     "n": 30
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "text": "Every gift is a small invoice.",
+   "images": [
+    {
+     "n": 31
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "text": "Say no, and suddenly you're the ungrateful one.",
+   "images": [
+    {
+     "n": 32
+    },
+    {
+     "n": 33
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "text": "But number one is the reason behind all of it.",
+   "images": [
+    {
+     "n": 34
+    }
+   ],
+   "hook": true
+  },
+  {
+   "id": 23,
+   "text": "Number one. They isolate you.",
+   "images": [
+    {
+     "n": 35
+    }
+   ],
+   "counter": "1"
+  },
+  {
+   "id": 24,
+   "text": "\"Your friends don't get us.\"",
+   "images": [
+    {
+     "n": 36
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "text": "\"You don't need them. You have me.\"",
+   "images": [
+    {
+     "n": 37
+    },
+    {
+     "n": 38
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "text": "One by one, your people go quiet.",
+   "images": [
+    {
+     "n": 39
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "text": "Then one day you say: \"I need space.\"",
+   "images": [
+    {
+     "n": 40
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "text": "And the sun switches off.",
+   "images": [
+    {
+     "n": 41
+    },
+    {
+     "n": 42
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "text": "Real love doesn't rush you. It waits.",
+   "images": [
+    {
+     "n": 43
+    },
+    {
+     "n": 44
+    }
+   ],
+   "counter": "off"
+  },
+  {
+   "id": 30,
+   "text": "Count your signs.",
+   "images": [
+    {
+     "n": 45
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "text": "Three or more? You're not overreacting.",
+   "images": [
+    {
+     "n": 46
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "text": "Comment your number.",
+   "images": [
+    {
+     "n": 46
+    }
+   ],
+   "silenceBefore": 0.5,
+   "final": true
+  }
+ ]
+}

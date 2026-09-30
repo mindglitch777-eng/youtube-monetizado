@@ -12,7 +12,12 @@ __pycache__/
 !content-kai/*/out/*.mp4
 !assets/sonido-kai/*.mp3
 !assets/musica-kai/*.mp3
+!kai-studio/public/episodes/*/*/audio/*.mp3
+!kai-studio/public/sfx/*.mp3
+!kai-studio/out/*.mp4
 /content/*/output.mp4
 content/zz-prueba/
 remotion/public/
 remotion/out/
+kai-studio/inbox/*.png
+!kai-studio/inbox/.gitkeep

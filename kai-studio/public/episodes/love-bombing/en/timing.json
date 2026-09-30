@@ -1,0 +1,1390 @@
+{
+ "lines": [
+  {
+   "id": 1,
+   "file": "line-01.mp3",
+   "duration": 5.064,
+   "words": [
+    {
+     "text": "Someone",
+     "start": 0.093,
+     "end": 0.405
+    },
+    {
+     "text": "calls",
+     "start": 0.417,
+     "end": 0.729
+    },
+    {
+     "text": "you",
+     "start": 0.741,
+     "end": 0.857
+    },
+    {
+     "text": "soulmate",
+     "start": 0.88,
+     "end": 1.377
+    },
+    {
+     "text": "after",
+     "start": 1.412,
+     "end": 1.632
+    },
+    {
+     "text": "three",
+     "start": 1.643,
+     "end": 1.806
+    },
+    {
+     "text": "days",
+     "start": 1.817,
+     "end": 2.211
+    },
+    {
+     "text": "That's",
+     "start": 2.604,
+     "end": 2.72
+    },
+    {
+     "text": "not",
+     "start": 2.732,
+     "end": 2.894
+    },
+    {
+     "text": "love",
+     "start": 2.905,
+     "end": 3.241
+    },
+    {
+     "text": "That's",
+     "start": 3.634,
+     "end": 3.75
+    },
+    {
+     "text": "a",
+     "start": 3.762,
+     "end": 3.808
+    },
+    {
+     "text": "target",
+     "start": 3.819,
+     "end": 4.12
+    },
+    {
+     "text": "on",
+     "start": 4.132,
+     "end": 4.225
+    },
+    {
+     "text": "your",
+     "start": 4.236,
+     "end": 4.329
+    },
+    {
+     "text": "back",
+     "start": 4.34,
+     "end": 4.711
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "file": "line-02.mp3",
+   "duration": 2.088,
+   "words": [
+    {
+     "text": "Here",
+     "start": 0.116,
+     "end": 0.208
+    },
+    {
+     "text": "are",
+     "start": 0.22,
+     "end": 0.301
+    },
+    {
+     "text": "five",
+     "start": 0.312,
+     "end": 0.579
+    },
+    {
+     "text": "signs",
+     "start": 0.59,
+     "end": 1.076
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "file": "line-03.mp3",
+   "duration": 2.208,
+   "words": [
+    {
+     "text": "Number",
+     "start": 0.093,
+     "end": 0.324
+    },
+    {
+     "text": "one",
+     "start": 0.336,
+     "end": 0.637
+    },
+    {
+     "text": "is",
+     "start": 0.729,
+     "end": 0.822
+    },
+    {
+     "text": "the",
+     "start": 0.833,
+     "end": 0.914
+    },
+    {
+     "text": "one",
+     "start": 0.926,
+     "end": 1.169
+    },
+    {
+     "text": "that",
+     "start": 1.181,
+     "end": 1.296
+    },
+    {
+     "text": "traps",
+     "start": 1.308,
+     "end": 1.655
+    },
+    {
+     "text": "you",
+     "start": 1.667,
+     "end": 1.863
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "file": "line-04.mp3",
+   "duration": 6.36,
+   "words": [
+    {
+     "text": "Love",
+     "start": 0.093,
+     "end": 0.393
+    },
+    {
+     "text": "bombing",
+     "start": 0.405,
+     "end": 0.81
+    },
+    {
+     "text": "is",
+     "start": 0.961,
+     "end": 1.065
+    },
+    {
+     "text": "one",
+     "start": 1.076,
+     "end": 1.227
+    },
+    {
+     "text": "of",
+     "start": 1.238,
+     "end": 1.319
+    },
+    {
+     "text": "five",
+     "start": 1.331,
+     "end": 1.724
+    },
+    {
+     "text": "manipulation",
+     "start": 1.736,
+     "end": 2.361
+    },
+    {
+     "text": "tactics",
+     "start": 2.373,
+     "end": 2.859
+    },
+    {
+     "text": "that",
+     "start": 2.87,
+     "end": 2.986
+    },
+    {
+     "text": "hide",
+     "start": 2.998,
+     "end": 3.322
+    },
+    {
+     "text": "inside",
+     "start": 3.333,
+     "end": 3.762
+    },
+    {
+     "text": "love",
+     "start": 3.773,
+     "end": 4.109
+    },
+    {
+     "text": "Today",
+     "start": 4.491,
+     "end": 4.745
+    },
+    {
+     "text": "we",
+     "start": 4.988,
+     "end": 5.093
+    },
+    {
+     "text": "start",
+     "start": 5.104,
+     "end": 5.336
+    },
+    {
+     "text": "with",
+     "start": 5.347,
+     "end": 5.428
+    },
+    {
+     "text": "the",
+     "start": 5.44,
+     "end": 5.509
+    },
+    {
+     "text": "first",
+     "start": 5.521,
+     "end": 5.822
+    },
+    {
+     "text": "one",
+     "start": 5.833,
+     "end": 6.018
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "file": "line-05.mp3",
+   "duration": 2.568,
+   "words": [
+    {
+     "text": "Number",
+     "start": 0.093,
+     "end": 0.278
+    },
+    {
+     "text": "five",
+     "start": 0.289,
+     "end": 0.625
+    },
+    {
+     "text": "Too",
+     "start": 1.018,
+     "end": 1.123
+    },
+    {
+     "text": "much",
+     "start": 1.134,
+     "end": 1.447
+    },
+    {
+     "text": "too",
+     "start": 1.62,
+     "end": 1.759
+    },
+    {
+     "text": "fast",
+     "start": 1.771,
+     "end": 2.222
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "file": "line-06.mp3",
+   "duration": 2.088,
+   "words": [
+    {
+     "text": "I",
+     "start": 0.127,
+     "end": 0.15
+    },
+    {
+     "text": "love",
+     "start": 0.15,
+     "end": 0.393
+    },
+    {
+     "text": "you",
+     "start": 0.405,
+     "end": 0.567
+    },
+    {
+     "text": "in",
+     "start": 0.59,
+     "end": 0.694
+    },
+    {
+     "text": "week",
+     "start": 0.706,
+     "end": 0.891
+    },
+    {
+     "text": "one",
+     "start": 0.903,
+     "end": 1.111
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "file": "line-07.mp3",
+   "duration": 2.088,
+   "words": [
+    {
+     "text": "They",
+     "start": 0.104,
+     "end": 0.15
+    },
+    {
+     "text": "don't",
+     "start": 0.162,
+     "end": 0.324
+    },
+    {
+     "text": "know",
+     "start": 0.336,
+     "end": 0.463
+    },
+    {
+     "text": "you",
+     "start": 0.475,
+     "end": 0.66
+    },
+    {
+     "text": "They",
+     "start": 1.042,
+     "end": 1.1
+    },
+    {
+     "text": "need",
+     "start": 1.111,
+     "end": 1.25
+    },
+    {
+     "text": "you",
+     "start": 1.262,
+     "end": 1.343
+    },
+    {
+     "text": "hooked",
+     "start": 1.354,
+     "end": 1.713
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "file": "line-08.mp3",
+   "duration": 2.208,
+   "words": [
+    {
+     "text": "And",
+     "start": 0.093,
+     "end": 0.15
+    },
+    {
+     "text": "the",
+     "start": 0.162,
+     "end": 0.22
+    },
+    {
+     "text": "next",
+     "start": 0.232,
+     "end": 0.475
+    },
+    {
+     "text": "sign",
+     "start": 0.486,
+     "end": 0.764
+    },
+    {
+     "text": "shows",
+     "start": 0.775,
+     "end": 1.065
+    },
+    {
+     "text": "up",
+     "start": 1.076,
+     "end": 1.215
+    },
+    {
+     "text": "by",
+     "start": 1.227,
+     "end": 1.331
+    },
+    {
+     "text": "day",
+     "start": 1.343,
+     "end": 1.528
+    },
+    {
+     "text": "ten",
+     "start": 1.539,
+     "end": 1.863
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "file": "line-09.mp3",
+   "duration": 2.64,
+   "words": [
+    {
+     "text": "Number",
+     "start": 0.093,
+     "end": 0.278
+    },
+    {
+     "text": "four",
+     "start": 0.289,
+     "end": 0.625
+    },
+    {
+     "text": "A",
+     "start": 1.007,
+     "end": 1.053
+    },
+    {
+     "text": "whole",
+     "start": 1.065,
+     "end": 1.273
+    },
+    {
+     "text": "future",
+     "start": 1.285,
+     "end": 1.655
+    },
+    {
+     "text": "by",
+     "start": 1.667,
+     "end": 1.782
+    },
+    {
+     "text": "day",
+     "start": 1.794,
+     "end": 1.956
+    },
+    {
+     "text": "ten",
+     "start": 1.968,
+     "end": 2.292
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "file": "line-10.mp3",
+   "duration": 4.416,
+   "words": [
+    {
+     "text": "Meet",
+     "start": 0.093,
+     "end": 0.22
+    },
+    {
+     "text": "my",
+     "start": 0.232,
+     "end": 0.347
+    },
+    {
+     "text": "family",
+     "start": 0.359,
+     "end": 0.787
+    },
+    {
+     "text": "Move",
+     "start": 1.169,
+     "end": 1.366
+    },
+    {
+     "text": "in",
+     "start": 1.377,
+     "end": 1.447
+    },
+    {
+     "text": "together",
+     "start": 1.458,
+     "end": 1.887
+    },
+    {
+     "text": "I",
+     "start": 2.268,
+     "end": 2.315
+    },
+    {
+     "text": "want",
+     "start": 2.326,
+     "end": 2.488
+    },
+    {
+     "text": "kids",
+     "start": 2.5,
+     "end": 2.917
+    },
+    {
+     "text": "You've",
+     "start": 3.299,
+     "end": 3.403
+    },
+    {
+     "text": "met",
+     "start": 3.414,
+     "end": 3.565
+    },
+    {
+     "text": "twice",
+     "start": 3.576,
+     "end": 4.062
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "file": "line-11.mp3",
+   "duration": 2.28,
+   "words": [
+    {
+     "text": "That's",
+     "start": 0.104,
+     "end": 0.231
+    },
+    {
+     "text": "not",
+     "start": 0.243,
+     "end": 0.417
+    },
+    {
+     "text": "romance",
+     "start": 0.428,
+     "end": 0.949
+    },
+    {
+     "text": "It's",
+     "start": 1.331,
+     "end": 1.435
+    },
+    {
+     "text": "a",
+     "start": 1.447,
+     "end": 1.481
+    },
+    {
+     "text": "script",
+     "start": 1.493,
+     "end": 1.944
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "file": "line-12.mp3",
+   "duration": 2.088,
+   "words": [
+    {
+     "text": "The",
+     "start": 0.104,
+     "end": 0.15
+    },
+    {
+     "text": "next",
+     "start": 0.162,
+     "end": 0.451
+    },
+    {
+     "text": "one",
+     "start": 0.463,
+     "end": 0.683
+    },
+    {
+     "text": "lives",
+     "start": 0.694,
+     "end": 0.949
+    },
+    {
+     "text": "in",
+     "start": 0.961,
+     "end": 1.019
+    },
+    {
+     "text": "your",
+     "start": 1.03,
+     "end": 1.146
+    },
+    {
+     "text": "phone",
+     "start": 1.157,
+     "end": 1.481
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "file": "line-13.mp3",
+   "duration": 2.112,
+   "words": [
+    {
+     "text": "Number",
+     "start": 0.093,
+     "end": 0.278
+    },
+    {
+     "text": "three",
+     "start": 0.289,
+     "end": 0.579
+    },
+    {
+     "text": "Constant",
+     "start": 0.949,
+     "end": 1.238
+    },
+    {
+     "text": "contact",
+     "start": 1.25,
+     "end": 1.771
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "file": "line-14.mp3",
+   "duration": 2.088,
+   "words": [
+    {
+     "text": "Forty",
+     "start": 0.127,
+     "end": 0.301
+    },
+    {
+     "text": "texts",
+     "start": 0.312,
+     "end": 0.59
+    },
+    {
+     "text": "a",
+     "start": 0.602,
+     "end": 0.648
+    },
+    {
+     "text": "day",
+     "start": 0.66,
+     "end": 0.926
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "file": "line-15.mp3",
+   "duration": 2.544,
+   "words": [
+    {
+     "text": "Miss",
+     "start": 0.093,
+     "end": 0.289
+    },
+    {
+     "text": "one",
+     "start": 0.301,
+     "end": 0.556
+    },
+    {
+     "text": "and",
+     "start": 0.752,
+     "end": 0.845
+    },
+    {
+     "text": "it's",
+     "start": 0.857,
+     "end": 1.007
+    },
+    {
+     "text": "why",
+     "start": 1.03,
+     "end": 1.273
+    },
+    {
+     "text": "are",
+     "start": 1.285,
+     "end": 1.389
+    },
+    {
+     "text": "you",
+     "start": 1.4,
+     "end": 1.551
+    },
+    {
+     "text": "ignoring",
+     "start": 1.562,
+     "end": 1.991
+    },
+    {
+     "text": "me",
+     "start": 2.002,
+     "end": 2.176
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "file": "line-16.mp3",
+   "duration": 2.688,
+   "words": [
+    {
+     "text": "That's",
+     "start": 0.104,
+     "end": 0.22
+    },
+    {
+     "text": "not",
+     "start": 0.232,
+     "end": 0.405
+    },
+    {
+     "text": "care",
+     "start": 0.417,
+     "end": 0.741
+    },
+    {
+     "text": "It's",
+     "start": 1.123,
+     "end": 1.227
+    },
+    {
+     "text": "a",
+     "start": 1.238,
+     "end": 1.296
+    },
+    {
+     "text": "leash",
+     "start": 1.308,
+     "end": 1.586
+    },
+    {
+     "text": "with",
+     "start": 1.597,
+     "end": 1.713
+    },
+    {
+     "text": "a",
+     "start": 1.725,
+     "end": 1.759
+    },
+    {
+     "text": "heart",
+     "start": 1.771,
+     "end": 2.014
+    },
+    {
+     "text": "on",
+     "start": 2.025,
+     "end": 2.176
+    },
+    {
+     "text": "it",
+     "start": 2.188,
+     "end": 2.338
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "file": "line-17.mp3",
+   "duration": 2.088,
+   "words": [
+    {
+     "text": "And",
+     "start": 0.093,
+     "end": 0.139
+    },
+    {
+     "text": "the",
+     "start": 0.15,
+     "end": 0.208
+    },
+    {
+     "text": "next",
+     "start": 0.22,
+     "end": 0.463
+    },
+    {
+     "text": "one",
+     "start": 0.475,
+     "end": 0.567
+    },
+    {
+     "text": "will",
+     "start": 0.579,
+     "end": 0.671
+    },
+    {
+     "text": "cost",
+     "start": 0.683,
+     "end": 0.995
+    },
+    {
+     "text": "you",
+     "start": 1.007,
+     "end": 1.157
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "file": "line-18.mp3",
+   "duration": 2.088,
+   "words": [
+    {
+     "text": "Number",
+     "start": 0.093,
+     "end": 0.289
+    },
+    {
+     "text": "two",
+     "start": 0.301,
+     "end": 0.532
+    },
+    {
+     "text": "Grand",
+     "start": 0.914,
+     "end": 1.099
+    },
+    {
+     "text": "gestures",
+     "start": 1.111,
+     "end": 1.644
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "file": "line-19.mp3",
+   "duration": 3.0,
+   "words": [
+    {
+     "text": "Flowers",
+     "start": 0.139,
+     "end": 0.579
+    },
+    {
+     "text": "Trips",
+     "start": 0.961,
+     "end": 1.331
+    },
+    {
+     "text": "Expensive",
+     "start": 1.713,
+     "end": 2.176
+    },
+    {
+     "text": "gifts",
+     "start": 2.188,
+     "end": 2.662
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "file": "line-20.mp3",
+   "duration": 2.112,
+   "words": [
+    {
+     "text": "Every",
+     "start": 0.093,
+     "end": 0.301
+    },
+    {
+     "text": "gift",
+     "start": 0.312,
+     "end": 0.625
+    },
+    {
+     "text": "is",
+     "start": 0.706,
+     "end": 0.787
+    },
+    {
+     "text": "a",
+     "start": 0.799,
+     "end": 0.845
+    },
+    {
+     "text": "small",
+     "start": 0.857,
+     "end": 1.204
+    },
+    {
+     "text": "invoice",
+     "start": 1.215,
+     "end": 1.759
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "file": "line-21.mp3",
+   "duration": 3.0,
+   "words": [
+    {
+     "text": "Say",
+     "start": 0.104,
+     "end": 0.278
+    },
+    {
+     "text": "no",
+     "start": 0.289,
+     "end": 0.567
+    },
+    {
+     "text": "and",
+     "start": 0.914,
+     "end": 1.03
+    },
+    {
+     "text": "suddenly",
+     "start": 1.042,
+     "end": 1.493
+    },
+    {
+     "text": "you're",
+     "start": 1.505,
+     "end": 1.62
+    },
+    {
+     "text": "the",
+     "start": 1.632,
+     "end": 1.736
+    },
+    {
+     "text": "ungrateful",
+     "start": 1.782,
+     "end": 2.431
+    },
+    {
+     "text": "one",
+     "start": 2.442,
+     "end": 2.662
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "file": "line-22.mp3",
+   "duration": 2.448,
+   "words": [
+    {
+     "text": "But",
+     "start": 0.104,
+     "end": 0.185
+    },
+    {
+     "text": "number",
+     "start": 0.197,
+     "end": 0.428
+    },
+    {
+     "text": "one",
+     "start": 0.44,
+     "end": 0.648
+    },
+    {
+     "text": "is",
+     "start": 0.706,
+     "end": 0.81
+    },
+    {
+     "text": "the",
+     "start": 0.822,
+     "end": 0.914
+    },
+    {
+     "text": "reason",
+     "start": 0.926,
+     "end": 1.285
+    },
+    {
+     "text": "behind",
+     "start": 1.296,
+     "end": 1.632
+    },
+    {
+     "text": "all",
+     "start": 1.643,
+     "end": 1.817
+    },
+    {
+     "text": "of",
+     "start": 1.829,
+     "end": 1.91
+    },
+    {
+     "text": "it",
+     "start": 1.921,
+     "end": 2.106
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "file": "line-23.mp3",
+   "duration": 2.088,
+   "words": [
+    {
+     "text": "Number",
+     "start": 0.093,
+     "end": 0.289
+    },
+    {
+     "text": "one",
+     "start": 0.301,
+     "end": 0.509
+    },
+    {
+     "text": "They",
+     "start": 0.903,
+     "end": 0.995
+    },
+    {
+     "text": "isolate",
+     "start": 1.007,
+     "end": 1.389
+    },
+    {
+     "text": "you",
+     "start": 1.4,
+     "end": 1.562
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "file": "line-24.mp3",
+   "duration": 2.088,
+   "words": [
+    {
+     "text": "Your",
+     "start": 0.162,
+     "end": 0.197
+    },
+    {
+     "text": "friends",
+     "start": 0.197,
+     "end": 0.498
+    },
+    {
+     "text": "don't",
+     "start": 0.509,
+     "end": 0.694
+    },
+    {
+     "text": "get",
+     "start": 0.706,
+     "end": 0.856
+    },
+    {
+     "text": "us",
+     "start": 0.868,
+     "end": 1.157
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "file": "line-25.mp3",
+   "duration": 2.088,
+   "words": [
+    {
+     "text": "You",
+     "start": 0.15,
+     "end": 0.174
+    },
+    {
+     "text": "don't",
+     "start": 0.174,
+     "end": 0.347
+    },
+    {
+     "text": "need",
+     "start": 0.359,
+     "end": 0.532
+    },
+    {
+     "text": "them",
+     "start": 0.544,
+     "end": 0.706
+    },
+    {
+     "text": "You",
+     "start": 1.1,
+     "end": 1.192
+    },
+    {
+     "text": "have",
+     "start": 1.204,
+     "end": 1.412
+    },
+    {
+     "text": "me",
+     "start": 1.424,
+     "end": 1.62
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "file": "line-26.mp3",
+   "duration": 2.304,
+   "words": [
+    {
+     "text": "One",
+     "start": 0.093,
+     "end": 0.231
+    },
+    {
+     "text": "by",
+     "start": 0.243,
+     "end": 0.393
+    },
+    {
+     "text": "one",
+     "start": 0.405,
+     "end": 0.694
+    },
+    {
+     "text": "your",
+     "start": 0.984,
+     "end": 1.076
+    },
+    {
+     "text": "people",
+     "start": 1.088,
+     "end": 1.343
+    },
+    {
+     "text": "go",
+     "start": 1.354,
+     "end": 1.505
+    },
+    {
+     "text": "quiet",
+     "start": 1.516,
+     "end": 1.944
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "file": "line-27.mp3",
+   "duration": 2.736,
+   "words": [
+    {
+     "text": "Then",
+     "start": 0.104,
+     "end": 0.231
+    },
+    {
+     "text": "one",
+     "start": 0.243,
+     "end": 0.405
+    },
+    {
+     "text": "day",
+     "start": 0.417,
+     "end": 0.556
+    },
+    {
+     "text": "you",
+     "start": 0.567,
+     "end": 0.683
+    },
+    {
+     "text": "say",
+     "start": 0.694,
+     "end": 1.03
+    },
+    {
+     "text": "I",
+     "start": 1.47,
+     "end": 1.528
+    },
+    {
+     "text": "need",
+     "start": 1.539,
+     "end": 1.759
+    },
+    {
+     "text": "space",
+     "start": 1.771,
+     "end": 2.373
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "file": "line-28.mp3",
+   "duration": 2.088,
+   "words": [
+    {
+     "text": "And",
+     "start": 0.093,
+     "end": 0.15
+    },
+    {
+     "text": "the",
+     "start": 0.162,
+     "end": 0.231
+    },
+    {
+     "text": "sun",
+     "start": 0.243,
+     "end": 0.498
+    },
+    {
+     "text": "switches",
+     "start": 0.509,
+     "end": 0.868
+    },
+    {
+     "text": "off",
+     "start": 0.88,
+     "end": 1.192
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "file": "line-29.mp3",
+   "duration": 2.592,
+   "words": [
+    {
+     "text": "Real",
+     "start": 0.093,
+     "end": 0.301
+    },
+    {
+     "text": "love",
+     "start": 0.312,
+     "end": 0.613
+    },
+    {
+     "text": "doesn't",
+     "start": 0.683,
+     "end": 0.926
+    },
+    {
+     "text": "rush",
+     "start": 0.938,
+     "end": 1.157
+    },
+    {
+     "text": "you",
+     "start": 1.169,
+     "end": 1.354
+    },
+    {
+     "text": "It",
+     "start": 1.736,
+     "end": 1.829
+    },
+    {
+     "text": "waits",
+     "start": 1.84,
+     "end": 2.245
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "file": "line-30.mp3",
+   "duration": 2.088,
+   "words": [
+    {
+     "text": "Count",
+     "start": 0.093,
+     "end": 0.231
+    },
+    {
+     "text": "your",
+     "start": 0.243,
+     "end": 0.347
+    },
+    {
+     "text": "signs",
+     "start": 0.359,
+     "end": 0.833
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "file": "line-31.mp3",
+   "duration": 2.496,
+   "words": [
+    {
+     "text": "Three",
+     "start": 0.139,
+     "end": 0.382
+    },
+    {
+     "text": "or",
+     "start": 0.451,
+     "end": 0.544
+    },
+    {
+     "text": "more",
+     "start": 0.556,
+     "end": 0.845
+    },
+    {
+     "text": "You're",
+     "start": 1.227,
+     "end": 1.308
+    },
+    {
+     "text": "not",
+     "start": 1.319,
+     "end": 1.481
+    },
+    {
+     "text": "overreacting",
+     "start": 1.493,
+     "end": 2.153
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "file": "line-32.mp3",
+   "duration": 2.088,
+   "words": [
+    {
+     "text": "Comment",
+     "start": 0.093,
+     "end": 0.324
+    },
+    {
+     "text": "your",
+     "start": 0.336,
+     "end": 0.428
+    },
+    {
+     "text": "number",
+     "start": 0.44,
+     "end": 0.775
+    }
+   ]
+  }
+ ],
+ "voice": "en-US-AndrewNeural",
+ "estimated": false
+}

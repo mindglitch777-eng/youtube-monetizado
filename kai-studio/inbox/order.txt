@@ -1,0 +1,46 @@
+kai-p1-01.png   # 01  L4: Love bombing is one of five manipulation tactics t
+kai-p1-02.png   # 02  L4: Love bombing is one of five manipulation tactics t
+kai-p1-03.png   # 03  L2: Here are five signs.
+kai-p1-04.png   # 04  L2: Here are five signs.
+kai-p1-05.png   # 05  L3: Number one is the one that traps you.
+kai-p1-06.png   # 06  L1: Someone calls you "soulmate" after three days? Tha
+kai-p1-07.png   # 07  L1: Someone calls you "soulmate" after three days? Tha
+kai-p1-08.png   # 08  L5: Number five. Too much, too fast.
+kai-p1-09.png   # 09  L6: "I love you" in week one.
+kai-p1-10.png   # 10  L6: "I love you" in week one.
+kai-p1-11.png   # 11  L7: They don't know you. They need you hooked.
+kai-p1-12.png   # 12  L8: And the next sign shows up by day ten.
+kai-p1-13.png   # 13  L9: Number four. A whole future by day ten.
+kai-p1-14.png   # 14  L10: Meet my family. Move in together. I want kids. You
+kai-p1-15.png   # 15  L10: Meet my family. Move in together. I want kids. You
+kai-p1-16.png   # 16  L10: Meet my family. Move in together. I want kids. You
+kai-p1-17.png   # 17  L11: That's not romance. It's a script.
+kai-p1-18.png   # 18  L11: That's not romance. It's a script.
+kai-p1-19.png   # 19  L12: The next one lives in your phone.
+kai-p1-20.png   # 20  L13: Number three. Constant contact.
+kai-p1-21.png   # 21  L14: Forty texts a day.
+kai-p1-22.png   # 22  L14: Forty texts a day.
+kai-p1-23.png   # 23  L15: Miss one and it's "why are you ignoring me?"
+kai-p1-24.png   # 24  L15: Miss one and it's "why are you ignoring me?"
+kai-p1-25.png   # 25  L16: That's not care. It's a leash with a heart on it.
+kai-p1-26.png   # 26  L17: And the next one will cost you.
+kai-p1-27.png   # 27  L18: Number two. Grand gestures.
+kai-p1-28.png   # 28  L19: Flowers. Trips. Expensive gifts.
+kai-p1-29.png   # 29  L19: Flowers. Trips. Expensive gifts.
+kai-p1-30.png   # 30  L19: Flowers. Trips. Expensive gifts.
+kai-p1-31.png   # 31  L20: Every gift is a small invoice.
+kai-p1-32.png   # 32  L21: Say no, and suddenly you're the ungrateful one.
+kai-p1-33.png   # 33  L21: Say no, and suddenly you're the ungrateful one.
+kai-p1-34.png   # 34  L22: But number one is the reason behind all of it.
+kai-p1-35.png   # 35  L23: Number one. They isolate you.
+kai-p1-36.png   # 36  L24: "Your friends don't get us."
+kai-p1-37.png   # 37  L25: "You don't need them. You have me."
+kai-p1-38.png   # 38  L25: "You don't need them. You have me."
+kai-p1-39.png   # 39  L26: One by one, your people go quiet.
+kai-p1-40.png   # 40  L27: Then one day you say: "I need space."
+kai-p1-41.png   # 41  L28: And the sun switches off.
+kai-p1-42.png   # 42  L28: And the sun switches off.
+kai-p1-43.png   # 43  L29: Real love doesn't rush you. It waits.
+kai-p1-44.png   # 44  L29: Real love doesn't rush you. It waits.
+kai-p1-45.png   # 45  L30: Count your signs.
+kai-p1-46.png   # 46  L32: Comment your number.
