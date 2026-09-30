@@ -5,6 +5,8 @@ import { Personaje2D } from "./fase0/Personaje2D";
 import { Personaje3D } from "./fase0/Personaje3D";
 import { KaiListicle } from "./kai/KaiListicle";
 import type { ShotsKai, TimelineKai } from "./kai/tipos";
+import { KaiP1LoveBombing } from "./kai-p1/KaiP1LoveBombing";
+import type { TimelineKaiP1 } from "./kai-p1/tipos";
 import { ManipulacionParte1 } from "./manipulacion-parte1/ManipulacionParte1";
 import { Miniatura } from "./manipulacion-parte1/Miniatura";
 import type { TimelineStandalone } from "./manipulacion-parte1/tipos";
@@ -117,6 +119,20 @@ export const Root: React.FC = () => (
         const shots = (await respShots.json()) as ShotsKai;
         const timeline = (await respTimeline.json()) as TimelineKai;
         return { props: { shots, timeline }, durationInFrames: timeline.tomas.at(-1)?.endFrame ?? FPS * 5 };
+      }}
+    />
+    <Composition
+      id="KaiP1LoveBombing"
+      component={KaiP1LoveBombing}
+      width={1080}
+      height={1920}
+      fps={FPS}
+      durationInFrames={FPS * 5}
+      defaultProps={{ timeline: null as unknown as TimelineKaiP1 }}
+      calculateMetadata={async () => {
+        const respuesta = await fetch(staticFile("kai-p1-timeline.json"));
+        const timeline = (await respuesta.json()) as TimelineKaiP1;
+        return { props: { timeline }, durationInFrames: Math.ceil(timeline.duracionTotal * FPS) };
       }}
     />
   </>
