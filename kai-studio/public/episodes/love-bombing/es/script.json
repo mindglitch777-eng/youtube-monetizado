@@ -1,0 +1,416 @@
+{
+ "slug": "love-bombing",
+ "lang": "es",
+ "part": 1,
+ "voice": "es-MX-JorgeNeural",
+ "rate": "+8%",
+ "imagePrefix": "kai-p1-",
+ "imageCount": 46,
+ "lines": [
+  {
+   "id": 1,
+   "text": "¿Alguien te dice \"alma gemela\" a los tres días? Eso no es amor. Es un blanco en tu espalda.",
+   "images": [
+    {
+     "n": 6
+    },
+    {
+     "n": 7
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "text": "Estas son las cinco señales.",
+   "images": [
+    {
+     "n": 3
+    },
+    {
+     "n": 4
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "text": "La número uno es la que te atrapa.",
+   "images": [
+    {
+     "n": 5
+    }
+   ],
+   "hook": true
+  },
+  {
+   "id": 4,
+   "text": "El love bombing es una de las cinco tácticas de manipulación que se esconden dentro del amor. Hoy empezamos por la primera.",
+   "images": [
+    {
+     "n": 1,
+     "effect": {
+      "kind": "zoomToPoint",
+      "focus": [
+       0.25,
+       0.22
+      ],
+      "scaleTo": 2.6
+     }
+    },
+    {
+     "n": 2
+    }
+   ],
+   "riser": true,
+   "overlays": [
+    {
+     "text": "5 FORMAS EN QUE EL AMOR ES UNA TRAMPA",
+     "x": 0.5,
+     "y": 0.055,
+     "style": "title",
+     "onlyFirstImage": true
+    },
+    {
+     "text": "LOVE BOMBING",
+     "x": 0.25,
+     "y": 0.345,
+     "style": "label",
+     "onlyFirstImage": true
+    },
+    {
+     "text": "CULPA",
+     "x": 0.75,
+     "y": 0.345,
+     "style": "label",
+     "onlyFirstImage": true
+    },
+    {
+     "text": "LEY DEL HIELO",
+     "x": 0.25,
+     "y": 0.61,
+     "style": "label",
+     "onlyFirstImage": true
+    },
+    {
+     "text": "GASLIGHTING",
+     "x": 0.75,
+     "y": 0.61,
+     "style": "label",
+     "onlyFirstImage": true
+    },
+    {
+     "text": "EL SWITCH",
+     "x": 0.5,
+     "y": 0.865,
+     "style": "label",
+     "onlyFirstImage": true
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "text": "Número cinco. Demasiado, demasiado rápido.",
+   "images": [
+    {
+     "n": 8
+    }
+   ],
+   "counter": "5"
+  },
+  {
+   "id": 6,
+   "text": "\"Te amo\" en la primera semana.",
+   "images": [
+    {
+     "n": 9
+    },
+    {
+     "n": 10
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "text": "No te conocen. Necesitan tenerte enganchado.",
+   "images": [
+    {
+     "n": 11
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "text": "Y la próxima señal aparece al décimo día.",
+   "images": [
+    {
+     "n": 12
+    }
+   ],
+   "hook": true
+  },
+  {
+   "id": 9,
+   "text": "Número cuatro. Un futuro entero al décimo día.",
+   "images": [
+    {
+     "n": 13
+    }
+   ],
+   "counter": "4"
+  },
+  {
+   "id": 10,
+   "text": "Conoce a mi familia. Mudémonos juntos. Quiero hijos. Se vieron dos veces.",
+   "images": [
+    {
+     "n": 14
+    },
+    {
+     "n": 15
+    },
+    {
+     "n": 16
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "text": "Eso no es romance. Es un guion.",
+   "images": [
+    {
+     "n": 17
+    },
+    {
+     "n": 18
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "text": "La que sigue vive en tu celular.",
+   "images": [
+    {
+     "n": 19,
+     "sfx": [
+      "notification"
+     ]
+    }
+   ],
+   "hook": true
+  },
+  {
+   "id": 13,
+   "text": "Número tres. Contacto constante.",
+   "images": [
+    {
+     "n": 20,
+     "sfx": [
+      "notification"
+     ]
+    }
+   ],
+   "counter": "3"
+  },
+  {
+   "id": 14,
+   "text": "Cuarenta mensajes al día.",
+   "images": [
+    {
+     "n": 21
+    },
+    {
+     "n": 22
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "text": "Si no contestas uno: \"¿por qué me ignoras?\"",
+   "images": [
+    {
+     "n": 23
+    },
+    {
+     "n": 24
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "text": "Eso no es cuidado. Es una correa con un corazón.",
+   "images": [
+    {
+     "n": 25
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "text": "Y la que sigue te va a costar.",
+   "images": [
+    {
+     "n": 26
+    }
+   ],
+   "hook": true
+  },
+  {
+   "id": 18,
+   "text": "Número dos. Grandes gestos.",
+   "images": [
+    {
+     "n": 27
+    }
+   ],
+   "counter": "2"
+  },
+  {
+   "id": 19,
+   "text": "Flores. Viajes. Regalos caros.",
+   "images": [
+    {
+     "n": 28
+    },
+    {
+     "n": 29
+    },
+    {
+     "n": 30
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "text": "Cada regalo es una factura pequeña.",
+   "images": [
+    {
+     "n": 31
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "text": "Di que no, y de repente eres el ingrato.",
+   "images": [
+    {
+     "n": 32
+    },
+    {
+     "n": 33
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "text": "Pero la número uno es la razón de todo esto.",
+   "images": [
+    {
+     "n": 34
+    }
+   ],
+   "hook": true
+  },
+  {
+   "id": 23,
+   "text": "Número uno. Te aíslan.",
+   "images": [
+    {
+     "n": 35
+    }
+   ],
+   "counter": "1"
+  },
+  {
+   "id": 24,
+   "text": "\"Tus amigos no nos entienden.\"",
+   "images": [
+    {
+     "n": 36
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "text": "\"No los necesitas. Me tienes a mí.\"",
+   "images": [
+    {
+     "n": 37
+    },
+    {
+     "n": 38
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "text": "Uno por uno, tu gente se va callando.",
+   "images": [
+    {
+     "n": 39
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "text": "Y un día dices: \"necesito espacio\".",
+   "images": [
+    {
+     "n": 40
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "text": "Y el sol se apaga.",
+   "images": [
+    {
+     "n": 41
+    },
+    {
+     "n": 42
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "text": "El amor de verdad no te apura. Espera.",
+   "images": [
+    {
+     "n": 43
+    },
+    {
+     "n": 44
+    }
+   ],
+   "counter": "off"
+  },
+  {
+   "id": 30,
+   "text": "Cuenta tus señales.",
+   "images": [
+    {
+     "n": 45
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "text": "¿Tres o más? No estás exagerando.",
+   "images": [
+    {
+     "n": 46
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "text": "Comenta tu número.",
+   "images": [
+    {
+     "n": 46
+    }
+   ],
+   "silenceBefore": 0.5,
+   "final": true
+  }
+ ]
+}
