@@ -58,26 +58,26 @@ jobs:
           buscar_y_bajar "whoosh.mp3" "soft|smooth|small|subtle|light" \
             "https://mixkit.co/free-sound-effects/whoosh/" \
             "https://mixkit.co/free-sound-effects/transition/" \
-            "https://mixkit.co/free-sound-effects/swoosh/"
+            "https://mixkit.co/free-sound-effects/swoosh/" || true
 
           buscar_y_bajar "impacto-contador.mp3" "short|quick|click|tap|pop|small" \
             "https://mixkit.co/free-sound-effects/hit/" \
-            "https://mixkit.co/free-sound-effects/impact/"
+            "https://mixkit.co/free-sound-effects/impact/" || true
 
           buscar_y_bajar "latido.mp3" "heartbeat|heart-beat|pulse|deep-drum|low-drum" \
             "https://mixkit.co/free-sound-effects/heartbeat/" \
             "https://mixkit.co/free-sound-effects/horror/" \
-            "https://mixkit.co/free-sound-effects/drum/"
+            "https://mixkit.co/free-sound-effects/drum/" || true
 
           buscar_y_bajar "riser.mp3" "riser|rise|build-up|buildup|swell|tension" \
             "https://mixkit.co/free-sound-effects/cinematic/" \
             "https://mixkit.co/free-sound-effects/movie/" \
-            "https://mixkit.co/free-sound-effects/horror/"
+            "https://mixkit.co/free-sound-effects/horror/" || true
 
           buscar_y_bajar "notificacion.mp3" "notification|vibrat|buzz|alert|message" \
             "https://mixkit.co/free-sound-effects/notification/" \
             "https://mixkit.co/free-sound-effects/alerts/" \
-            "https://mixkit.co/free-sound-effects/phone/"
+            "https://mixkit.co/free-sound-effects/phone/" || true
 
       - name: Descargar música de fondo oscura en loop (Mixkit)
         run: |
