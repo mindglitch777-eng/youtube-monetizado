@@ -35,28 +35,14 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Sintetizar preview con cada voz
-        run: |
-          set -euo pipefail
-          for req in content-kai/*/audio/preview_request.json; do
-            [ -f "$req" ] || continue
-            echo "::group::$req"
-            python3 - "$req" << 'PY'
-import json, subprocess, sys
-req = json.load(open(sys.argv[1]))
-subprocess.run(
-    ["python", "scripts/kai_voces_preview.py", req["texto"], req["carpeta"], *req["voces"]],
-    check=True,
-)
-PY
-            echo "::endgroup::"
-          done
+        run: python scripts/kai_voces_preview_runner.py
 
       - name: Commitear preview de audio
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A -- "${{ github.event.inputs.carpeta }}"
+          git add -A -- content-kai
           if git diff --cached --quiet; then
             echo "Sin cambios."
             exit 0
