@@ -1,10 +1,10 @@
 {
   "titulo": "5 Ways Love Can Be a Trap — Parte 1: Love Bombing",
   "lineas": [
-    {"n": 1, "imagenes": ["kai-p1-01.png", "kai-p1-02.png"], "texto": "Someone calls you \"soulmate\" after three days? That's not love. That's a target on your back.", "flags": []},
+    {"n": 1, "imagenes": ["kai-p1-06.png", "kai-p1-07.png"], "texto": "Someone calls you \"soulmate\" after three days? That's not love. That's a target on your back.", "flags": []},
     {"n": 2, "imagenes": ["kai-p1-03.png", "kai-p1-04.png"], "texto": "Here are five signs.", "flags": []},
     {"n": 3, "imagenes": ["kai-p1-05.png"], "texto": "Number one is the one that traps you.", "flags": ["HOOK"]},
-    {"n": 4, "imagenes": ["kai-p1-06.png", "kai-p1-07.png"], "texto": "Love bombing is one of five manipulation tactics that hide inside love. Today, we start with the first one.", "flags": ["INTRO_GRID"]},
+    {"n": 4, "imagenes": ["kai-p1-01.png", "kai-p1-02.png"], "texto": "Love bombing is one of five manipulation tactics that hide inside love. Today, we start with the first one.", "flags": ["INTRO_GRID"]},
     {"n": 5, "imagenes": ["kai-p1-08.png"], "texto": "Number five. Too much, too fast.", "flags": ["CONTADOR_5"]},
     {"n": 6, "imagenes": ["kai-p1-09.png", "kai-p1-10.png"], "texto": "\"I love you\" in week one.", "flags": []},
     {"n": 7, "imagenes": ["kai-p1-11.png"], "texto": "They don't know you. They need you hooked.", "flags": []},

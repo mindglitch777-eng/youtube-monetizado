@@ -1,0 +1,2036 @@
+{
+  "fps": 30,
+  "ancho": 1080,
+  "alto": 1920,
+  "audio": "audio/voz_completa.mp3",
+  "duracionTotal": 83.382,
+  "lineas": [
+    {
+      "n": 1,
+      "texto": "Someone calls you \"soulmate\" after three days? That's not love. That's a target on your back.",
+      "flags": [],
+      "startS": 0.0,
+      "endS": 5.064,
+      "startFrame": 0,
+      "endFrame": 152,
+      "duracionAudioFrames": 152,
+      "pausaFrames": 0,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-06.png",
+          "duracionS": 2.532,
+          "movimiento": "pan"
+        },
+        {
+          "archivo": "kai-p1-07.png",
+          "duracionS": 2.532,
+          "movimiento": "zoom"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "Someone",
+          "inicio": 0.093,
+          "fin": 0.405
+        },
+        {
+          "texto": "calls",
+          "inicio": 0.417,
+          "fin": 0.729
+        },
+        {
+          "texto": "you",
+          "inicio": 0.741,
+          "fin": 0.857
+        },
+        {
+          "texto": "soulmate",
+          "inicio": 0.88,
+          "fin": 1.377
+        },
+        {
+          "texto": "after",
+          "inicio": 1.412,
+          "fin": 1.632
+        },
+        {
+          "texto": "three",
+          "inicio": 1.643,
+          "fin": 1.806
+        },
+        {
+          "texto": "days",
+          "inicio": 1.817,
+          "fin": 2.211
+        },
+        {
+          "texto": "That's",
+          "inicio": 2.604,
+          "fin": 2.72
+        },
+        {
+          "texto": "not",
+          "inicio": 2.732,
+          "fin": 2.894
+        },
+        {
+          "texto": "love",
+          "inicio": 2.905,
+          "fin": 3.241
+        },
+        {
+          "texto": "That's",
+          "inicio": 3.634,
+          "fin": 3.75
+        },
+        {
+          "texto": "a",
+          "inicio": 3.762,
+          "fin": 3.808
+        },
+        {
+          "texto": "target",
+          "inicio": 3.819,
+          "fin": 4.12
+        },
+        {
+          "texto": "on",
+          "inicio": 4.132,
+          "fin": 4.225
+        },
+        {
+          "texto": "your",
+          "inicio": 4.236,
+          "fin": 4.329
+        },
+        {
+          "texto": "back",
+          "inicio": 4.34,
+          "fin": 4.711
+        }
+      ],
+      "contadorVisible": false,
+      "contadorValor": null,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 2,
+      "texto": "Here are five signs.",
+      "flags": [],
+      "startS": 5.064,
+      "endS": 7.152,
+      "startFrame": 152,
+      "endFrame": 215,
+      "duracionAudioFrames": 63,
+      "pausaFrames": 0,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-03.png",
+          "duracionS": 1.2,
+          "movimiento": "zoom"
+        },
+        {
+          "archivo": "kai-p1-04.png",
+          "duracionS": 0.888,
+          "movimiento": "pan"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "Here",
+          "inicio": 0.116,
+          "fin": 0.208
+        },
+        {
+          "texto": "are",
+          "inicio": 0.22,
+          "fin": 0.301
+        },
+        {
+          "texto": "five",
+          "inicio": 0.312,
+          "fin": 0.579
+        },
+        {
+          "texto": "signs",
+          "inicio": 0.59,
+          "fin": 1.076
+        }
+      ],
+      "contadorVisible": false,
+      "contadorValor": null,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 3,
+      "texto": "Number one is the one that traps you.",
+      "flags": [
+        "HOOK"
+      ],
+      "startS": 7.152,
+      "endS": 9.51,
+      "startFrame": 215,
+      "endFrame": 285,
+      "duracionAudioFrames": 66,
+      "pausaFrames": 4,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-05.png",
+          "duracionS": 2.208,
+          "movimiento": "zoom"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "Number",
+          "inicio": 0.093,
+          "fin": 0.324
+        },
+        {
+          "texto": "one",
+          "inicio": 0.336,
+          "fin": 0.637
+        },
+        {
+          "texto": "is",
+          "inicio": 0.729,
+          "fin": 0.822
+        },
+        {
+          "texto": "the",
+          "inicio": 0.833,
+          "fin": 0.914
+        },
+        {
+          "texto": "one",
+          "inicio": 0.926,
+          "fin": 1.169
+        },
+        {
+          "texto": "that",
+          "inicio": 1.181,
+          "fin": 1.296
+        },
+        {
+          "texto": "traps",
+          "inicio": 1.308,
+          "fin": 1.655
+        },
+        {
+          "texto": "you",
+          "inicio": 1.667,
+          "fin": 1.863
+        }
+      ],
+      "contadorVisible": false,
+      "contadorValor": null,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 4,
+      "texto": "Love bombing is one of five manipulation tactics that hide inside love. Today, we start with the first one.",
+      "flags": [
+        "INTRO_GRID"
+      ],
+      "startS": 9.51,
+      "endS": 15.87,
+      "startFrame": 285,
+      "endFrame": 476,
+      "duracionAudioFrames": 191,
+      "pausaFrames": 0,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-01.png",
+          "duracionS": 3.18,
+          "movimiento": "zoom"
+        },
+        {
+          "archivo": "kai-p1-02.png",
+          "duracionS": 3.18,
+          "movimiento": "pan"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "Love",
+          "inicio": 0.093,
+          "fin": 0.393
+        },
+        {
+          "texto": "bombing",
+          "inicio": 0.405,
+          "fin": 0.81
+        },
+        {
+          "texto": "is",
+          "inicio": 0.961,
+          "fin": 1.065
+        },
+        {
+          "texto": "one",
+          "inicio": 1.076,
+          "fin": 1.227
+        },
+        {
+          "texto": "of",
+          "inicio": 1.238,
+          "fin": 1.319
+        },
+        {
+          "texto": "five",
+          "inicio": 1.331,
+          "fin": 1.724
+        },
+        {
+          "texto": "manipulation",
+          "inicio": 1.736,
+          "fin": 2.361
+        },
+        {
+          "texto": "tactics",
+          "inicio": 2.373,
+          "fin": 2.859
+        },
+        {
+          "texto": "that",
+          "inicio": 2.87,
+          "fin": 2.986
+        },
+        {
+          "texto": "hide",
+          "inicio": 2.998,
+          "fin": 3.322
+        },
+        {
+          "texto": "inside",
+          "inicio": 3.333,
+          "fin": 3.762
+        },
+        {
+          "texto": "love",
+          "inicio": 3.773,
+          "fin": 4.109
+        },
+        {
+          "texto": "Today",
+          "inicio": 4.491,
+          "fin": 4.745
+        },
+        {
+          "texto": "we",
+          "inicio": 4.988,
+          "fin": 5.093
+        },
+        {
+          "texto": "start",
+          "inicio": 5.104,
+          "fin": 5.336
+        },
+        {
+          "texto": "with",
+          "inicio": 5.347,
+          "fin": 5.428
+        },
+        {
+          "texto": "the",
+          "inicio": 5.44,
+          "fin": 5.509
+        },
+        {
+          "texto": "first",
+          "inicio": 5.521,
+          "fin": 5.822
+        },
+        {
+          "texto": "one",
+          "inicio": 5.833,
+          "fin": 6.018
+        }
+      ],
+      "contadorVisible": false,
+      "contadorValor": null,
+      "esGridIntro": true,
+      "triggerTodayS": 4.491
+    },
+    {
+      "n": 5,
+      "texto": "Number five. Too much, too fast.",
+      "flags": [
+        "CONTADOR_5"
+      ],
+      "startS": 15.87,
+      "endS": 18.438,
+      "startFrame": 476,
+      "endFrame": 553,
+      "duracionAudioFrames": 77,
+      "pausaFrames": 0,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-08.png",
+          "duracionS": 2.568,
+          "movimiento": "pan"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "Number",
+          "inicio": 0.093,
+          "fin": 0.278
+        },
+        {
+          "texto": "five",
+          "inicio": 0.289,
+          "fin": 0.625
+        },
+        {
+          "texto": "Too",
+          "inicio": 1.018,
+          "fin": 1.123
+        },
+        {
+          "texto": "much",
+          "inicio": 1.134,
+          "fin": 1.447
+        },
+        {
+          "texto": "too",
+          "inicio": 1.62,
+          "fin": 1.759
+        },
+        {
+          "texto": "fast",
+          "inicio": 1.771,
+          "fin": 2.222
+        }
+      ],
+      "contadorVisible": true,
+      "contadorValor": 5,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 6,
+      "texto": "\"I love you\" in week one.",
+      "flags": [],
+      "startS": 18.438,
+      "endS": 20.526,
+      "startFrame": 553,
+      "endFrame": 616,
+      "duracionAudioFrames": 63,
+      "pausaFrames": 0,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-09.png",
+          "duracionS": 1.2,
+          "movimiento": "zoom"
+        },
+        {
+          "archivo": "kai-p1-10.png",
+          "duracionS": 0.888,
+          "movimiento": "pan"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "I",
+          "inicio": 0.127,
+          "fin": 0.15
+        },
+        {
+          "texto": "love",
+          "inicio": 0.15,
+          "fin": 0.393
+        },
+        {
+          "texto": "you",
+          "inicio": 0.405,
+          "fin": 0.567
+        },
+        {
+          "texto": "in",
+          "inicio": 0.59,
+          "fin": 0.694
+        },
+        {
+          "texto": "week",
+          "inicio": 0.706,
+          "fin": 0.891
+        },
+        {
+          "texto": "one",
+          "inicio": 0.903,
+          "fin": 1.111
+        }
+      ],
+      "contadorVisible": true,
+      "contadorValor": 5,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 7,
+      "texto": "They don't know you. They need you hooked.",
+      "flags": [],
+      "startS": 20.526,
+      "endS": 22.59,
+      "startFrame": 616,
+      "endFrame": 678,
+      "duracionAudioFrames": 62,
+      "pausaFrames": 0,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-11.png",
+          "duracionS": 2.064,
+          "movimiento": "zoom"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "They",
+          "inicio": 0.104,
+          "fin": 0.15
+        },
+        {
+          "texto": "don't",
+          "inicio": 0.162,
+          "fin": 0.324
+        },
+        {
+          "texto": "know",
+          "inicio": 0.336,
+          "fin": 0.463
+        },
+        {
+          "texto": "you",
+          "inicio": 0.475,
+          "fin": 0.66
+        },
+        {
+          "texto": "They",
+          "inicio": 1.042,
+          "fin": 1.1
+        },
+        {
+          "texto": "need",
+          "inicio": 1.111,
+          "fin": 1.25
+        },
+        {
+          "texto": "you",
+          "inicio": 1.262,
+          "fin": 1.343
+        },
+        {
+          "texto": "hooked",
+          "inicio": 1.354,
+          "fin": 1.713
+        }
+      ],
+      "contadorVisible": true,
+      "contadorValor": 5,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 8,
+      "texto": "And the next sign shows up by day ten.",
+      "flags": [
+        "HOOK"
+      ],
+      "startS": 22.59,
+      "endS": 24.948,
+      "startFrame": 678,
+      "endFrame": 748,
+      "duracionAudioFrames": 66,
+      "pausaFrames": 4,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-12.png",
+          "duracionS": 2.208,
+          "movimiento": "pan"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "And",
+          "inicio": 0.093,
+          "fin": 0.15
+        },
+        {
+          "texto": "the",
+          "inicio": 0.162,
+          "fin": 0.22
+        },
+        {
+          "texto": "next",
+          "inicio": 0.232,
+          "fin": 0.475
+        },
+        {
+          "texto": "sign",
+          "inicio": 0.486,
+          "fin": 0.764
+        },
+        {
+          "texto": "shows",
+          "inicio": 0.775,
+          "fin": 1.065
+        },
+        {
+          "texto": "up",
+          "inicio": 1.076,
+          "fin": 1.215
+        },
+        {
+          "texto": "by",
+          "inicio": 1.227,
+          "fin": 1.331
+        },
+        {
+          "texto": "day",
+          "inicio": 1.343,
+          "fin": 1.528
+        },
+        {
+          "texto": "ten",
+          "inicio": 1.539,
+          "fin": 1.863
+        }
+      ],
+      "contadorVisible": true,
+      "contadorValor": 5,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 9,
+      "texto": "Number four. A whole future by day ten.",
+      "flags": [
+        "CONTADOR_4"
+      ],
+      "startS": 24.948,
+      "endS": 27.588,
+      "startFrame": 748,
+      "endFrame": 828,
+      "duracionAudioFrames": 79,
+      "pausaFrames": 0,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-13.png",
+          "duracionS": 2.64,
+          "movimiento": "zoom"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "Number",
+          "inicio": 0.093,
+          "fin": 0.278
+        },
+        {
+          "texto": "four",
+          "inicio": 0.289,
+          "fin": 0.625
+        },
+        {
+          "texto": "A",
+          "inicio": 1.007,
+          "fin": 1.053
+        },
+        {
+          "texto": "whole",
+          "inicio": 1.065,
+          "fin": 1.273
+        },
+        {
+          "texto": "future",
+          "inicio": 1.285,
+          "fin": 1.655
+        },
+        {
+          "texto": "by",
+          "inicio": 1.667,
+          "fin": 1.782
+        },
+        {
+          "texto": "day",
+          "inicio": 1.794,
+          "fin": 1.956
+        },
+        {
+          "texto": "ten",
+          "inicio": 1.968,
+          "fin": 2.292
+        }
+      ],
+      "contadorVisible": true,
+      "contadorValor": 4,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 10,
+      "texto": "Meet my family. Move in together. I want kids. You've met twice.",
+      "flags": [],
+      "startS": 27.588,
+      "endS": 32.004,
+      "startFrame": 828,
+      "endFrame": 960,
+      "duracionAudioFrames": 132,
+      "pausaFrames": 0,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-14.png",
+          "duracionS": 1.472,
+          "movimiento": "pan"
+        },
+        {
+          "archivo": "kai-p1-15.png",
+          "duracionS": 1.472,
+          "movimiento": "zoom"
+        },
+        {
+          "archivo": "kai-p1-16.png",
+          "duracionS": 1.472,
+          "movimiento": "pan"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "Meet",
+          "inicio": 0.093,
+          "fin": 0.22
+        },
+        {
+          "texto": "my",
+          "inicio": 0.232,
+          "fin": 0.347
+        },
+        {
+          "texto": "family",
+          "inicio": 0.359,
+          "fin": 0.787
+        },
+        {
+          "texto": "Move",
+          "inicio": 1.169,
+          "fin": 1.366
+        },
+        {
+          "texto": "in",
+          "inicio": 1.377,
+          "fin": 1.447
+        },
+        {
+          "texto": "together",
+          "inicio": 1.458,
+          "fin": 1.887
+        },
+        {
+          "texto": "I",
+          "inicio": 2.268,
+          "fin": 2.315
+        },
+        {
+          "texto": "want",
+          "inicio": 2.326,
+          "fin": 2.488
+        },
+        {
+          "texto": "kids",
+          "inicio": 2.5,
+          "fin": 2.917
+        },
+        {
+          "texto": "You've",
+          "inicio": 3.299,
+          "fin": 3.403
+        },
+        {
+          "texto": "met",
+          "inicio": 3.414,
+          "fin": 3.565
+        },
+        {
+          "texto": "twice",
+          "inicio": 3.576,
+          "fin": 4.062
+        }
+      ],
+      "contadorVisible": true,
+      "contadorValor": 4,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 11,
+      "texto": "That's not romance. It's a script.",
+      "flags": [],
+      "startS": 32.004,
+      "endS": 34.284,
+      "startFrame": 960,
+      "endFrame": 1029,
+      "duracionAudioFrames": 68,
+      "pausaFrames": 0,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-17.png",
+          "duracionS": 1.2,
+          "movimiento": "zoom"
+        },
+        {
+          "archivo": "kai-p1-18.png",
+          "duracionS": 1.08,
+          "movimiento": "pan"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "That's",
+          "inicio": 0.104,
+          "fin": 0.231
+        },
+        {
+          "texto": "not",
+          "inicio": 0.243,
+          "fin": 0.417
+        },
+        {
+          "texto": "romance",
+          "inicio": 0.428,
+          "fin": 0.949
+        },
+        {
+          "texto": "It's",
+          "inicio": 1.331,
+          "fin": 1.435
+        },
+        {
+          "texto": "a",
+          "inicio": 1.447,
+          "fin": 1.481
+        },
+        {
+          "texto": "script",
+          "inicio": 1.493,
+          "fin": 1.944
+        }
+      ],
+      "contadorVisible": true,
+      "contadorValor": 4,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 12,
+      "texto": "The next one lives in your phone.",
+      "flags": [
+        "HOOK"
+      ],
+      "startS": 34.284,
+      "endS": 36.522,
+      "startFrame": 1029,
+      "endFrame": 1096,
+      "duracionAudioFrames": 63,
+      "pausaFrames": 4,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-19.png",
+          "duracionS": 2.088,
+          "movimiento": "zoom"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "The",
+          "inicio": 0.104,
+          "fin": 0.15
+        },
+        {
+          "texto": "next",
+          "inicio": 0.162,
+          "fin": 0.451
+        },
+        {
+          "texto": "one",
+          "inicio": 0.463,
+          "fin": 0.683
+        },
+        {
+          "texto": "lives",
+          "inicio": 0.694,
+          "fin": 0.949
+        },
+        {
+          "texto": "in",
+          "inicio": 0.961,
+          "fin": 1.019
+        },
+        {
+          "texto": "your",
+          "inicio": 1.03,
+          "fin": 1.146
+        },
+        {
+          "texto": "phone",
+          "inicio": 1.157,
+          "fin": 1.481
+        }
+      ],
+      "contadorVisible": true,
+      "contadorValor": 4,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 13,
+      "texto": "Number three. Constant contact.",
+      "flags": [
+        "CONTADOR_3"
+      ],
+      "startS": 36.522,
+      "endS": 38.634,
+      "startFrame": 1096,
+      "endFrame": 1159,
+      "duracionAudioFrames": 63,
+      "pausaFrames": 0,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-20.png",
+          "duracionS": 2.112,
+          "movimiento": "pan"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "Number",
+          "inicio": 0.093,
+          "fin": 0.278
+        },
+        {
+          "texto": "three",
+          "inicio": 0.289,
+          "fin": 0.579
+        },
+        {
+          "texto": "Constant",
+          "inicio": 0.949,
+          "fin": 1.238
+        },
+        {
+          "texto": "contact",
+          "inicio": 1.25,
+          "fin": 1.771
+        }
+      ],
+      "contadorVisible": true,
+      "contadorValor": 3,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 14,
+      "texto": "Forty texts a day.",
+      "flags": [],
+      "startS": 38.634,
+      "endS": 40.722,
+      "startFrame": 1159,
+      "endFrame": 1222,
+      "duracionAudioFrames": 63,
+      "pausaFrames": 0,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-21.png",
+          "duracionS": 1.2,
+          "movimiento": "zoom"
+        },
+        {
+          "archivo": "kai-p1-22.png",
+          "duracionS": 0.888,
+          "movimiento": "pan"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "Forty",
+          "inicio": 0.127,
+          "fin": 0.301
+        },
+        {
+          "texto": "texts",
+          "inicio": 0.312,
+          "fin": 0.59
+        },
+        {
+          "texto": "a",
+          "inicio": 0.602,
+          "fin": 0.648
+        },
+        {
+          "texto": "day",
+          "inicio": 0.66,
+          "fin": 0.926
+        }
+      ],
+      "contadorVisible": true,
+      "contadorValor": 3,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 15,
+      "texto": "Miss one and it's \"why are you ignoring me?\"",
+      "flags": [],
+      "startS": 40.722,
+      "endS": 43.266,
+      "startFrame": 1222,
+      "endFrame": 1298,
+      "duracionAudioFrames": 76,
+      "pausaFrames": 0,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-23.png",
+          "duracionS": 1.272,
+          "movimiento": "zoom"
+        },
+        {
+          "archivo": "kai-p1-24.png",
+          "duracionS": 1.272,
+          "movimiento": "pan"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "Miss",
+          "inicio": 0.093,
+          "fin": 0.289
+        },
+        {
+          "texto": "one",
+          "inicio": 0.301,
+          "fin": 0.556
+        },
+        {
+          "texto": "and",
+          "inicio": 0.752,
+          "fin": 0.845
+        },
+        {
+          "texto": "it's",
+          "inicio": 0.857,
+          "fin": 1.007
+        },
+        {
+          "texto": "why",
+          "inicio": 1.03,
+          "fin": 1.273
+        },
+        {
+          "texto": "are",
+          "inicio": 1.285,
+          "fin": 1.389
+        },
+        {
+          "texto": "you",
+          "inicio": 1.4,
+          "fin": 1.551
+        },
+        {
+          "texto": "ignoring",
+          "inicio": 1.562,
+          "fin": 1.991
+        },
+        {
+          "texto": "me",
+          "inicio": 2.002,
+          "fin": 2.176
+        }
+      ],
+      "contadorVisible": true,
+      "contadorValor": 3,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 16,
+      "texto": "That's not care. It's a leash with a heart on it.",
+      "flags": [],
+      "startS": 43.266,
+      "endS": 45.954,
+      "startFrame": 1298,
+      "endFrame": 1379,
+      "duracionAudioFrames": 81,
+      "pausaFrames": 0,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-25.png",
+          "duracionS": 2.688,
+          "movimiento": "zoom"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "That's",
+          "inicio": 0.104,
+          "fin": 0.22
+        },
+        {
+          "texto": "not",
+          "inicio": 0.232,
+          "fin": 0.405
+        },
+        {
+          "texto": "care",
+          "inicio": 0.417,
+          "fin": 0.741
+        },
+        {
+          "texto": "It's",
+          "inicio": 1.123,
+          "fin": 1.227
+        },
+        {
+          "texto": "a",
+          "inicio": 1.238,
+          "fin": 1.296
+        },
+        {
+          "texto": "leash",
+          "inicio": 1.308,
+          "fin": 1.586
+        },
+        {
+          "texto": "with",
+          "inicio": 1.597,
+          "fin": 1.713
+        },
+        {
+          "texto": "a",
+          "inicio": 1.725,
+          "fin": 1.759
+        },
+        {
+          "texto": "heart",
+          "inicio": 1.771,
+          "fin": 2.014
+        },
+        {
+          "texto": "on",
+          "inicio": 2.025,
+          "fin": 2.176
+        },
+        {
+          "texto": "it",
+          "inicio": 2.188,
+          "fin": 2.338
+        }
+      ],
+      "contadorVisible": true,
+      "contadorValor": 3,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 17,
+      "texto": "And the next one will cost you.",
+      "flags": [
+        "HOOK"
+      ],
+      "startS": 45.954,
+      "endS": 48.192,
+      "startFrame": 1379,
+      "endFrame": 1446,
+      "duracionAudioFrames": 63,
+      "pausaFrames": 4,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-26.png",
+          "duracionS": 2.088,
+          "movimiento": "pan"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "And",
+          "inicio": 0.093,
+          "fin": 0.139
+        },
+        {
+          "texto": "the",
+          "inicio": 0.15,
+          "fin": 0.208
+        },
+        {
+          "texto": "next",
+          "inicio": 0.22,
+          "fin": 0.463
+        },
+        {
+          "texto": "one",
+          "inicio": 0.475,
+          "fin": 0.567
+        },
+        {
+          "texto": "will",
+          "inicio": 0.579,
+          "fin": 0.671
+        },
+        {
+          "texto": "cost",
+          "inicio": 0.683,
+          "fin": 0.995
+        },
+        {
+          "texto": "you",
+          "inicio": 1.007,
+          "fin": 1.157
+        }
+      ],
+      "contadorVisible": true,
+      "contadorValor": 3,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 18,
+      "texto": "Number two. Grand gestures.",
+      "flags": [
+        "CONTADOR_2"
+      ],
+      "startS": 48.192,
+      "endS": 50.184,
+      "startFrame": 1446,
+      "endFrame": 1506,
+      "duracionAudioFrames": 60,
+      "pausaFrames": 0,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-27.png",
+          "duracionS": 1.992,
+          "movimiento": "zoom"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "Number",
+          "inicio": 0.093,
+          "fin": 0.289
+        },
+        {
+          "texto": "two",
+          "inicio": 0.301,
+          "fin": 0.532
+        },
+        {
+          "texto": "Grand",
+          "inicio": 0.914,
+          "fin": 1.099
+        },
+        {
+          "texto": "gestures",
+          "inicio": 1.111,
+          "fin": 1.644
+        }
+      ],
+      "contadorVisible": true,
+      "contadorValor": 2,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 19,
+      "texto": "Flowers. Trips. Expensive gifts.",
+      "flags": [],
+      "startS": 50.184,
+      "endS": 53.184,
+      "startFrame": 1506,
+      "endFrame": 1596,
+      "duracionAudioFrames": 90,
+      "pausaFrames": 0,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-28.png",
+          "duracionS": 1.2,
+          "movimiento": "pan"
+        },
+        {
+          "archivo": "kai-p1-29.png",
+          "duracionS": 1.2,
+          "movimiento": "zoom"
+        },
+        {
+          "archivo": "kai-p1-30.png",
+          "duracionS": 0.6,
+          "movimiento": "pan"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "Flowers",
+          "inicio": 0.139,
+          "fin": 0.579
+        },
+        {
+          "texto": "Trips",
+          "inicio": 0.961,
+          "fin": 1.331
+        },
+        {
+          "texto": "Expensive",
+          "inicio": 1.713,
+          "fin": 2.176
+        },
+        {
+          "texto": "gifts",
+          "inicio": 2.188,
+          "fin": 2.662
+        }
+      ],
+      "contadorVisible": true,
+      "contadorValor": 2,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 20,
+      "texto": "Every gift is a small invoice.",
+      "flags": [],
+      "startS": 53.184,
+      "endS": 55.296,
+      "startFrame": 1596,
+      "endFrame": 1659,
+      "duracionAudioFrames": 63,
+      "pausaFrames": 0,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-31.png",
+          "duracionS": 2.112,
+          "movimiento": "zoom"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "Every",
+          "inicio": 0.093,
+          "fin": 0.301
+        },
+        {
+          "texto": "gift",
+          "inicio": 0.312,
+          "fin": 0.625
+        },
+        {
+          "texto": "is",
+          "inicio": 0.706,
+          "fin": 0.787
+        },
+        {
+          "texto": "a",
+          "inicio": 0.799,
+          "fin": 0.845
+        },
+        {
+          "texto": "small",
+          "inicio": 0.857,
+          "fin": 1.204
+        },
+        {
+          "texto": "invoice",
+          "inicio": 1.215,
+          "fin": 1.759
+        }
+      ],
+      "contadorVisible": true,
+      "contadorValor": 2,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 21,
+      "texto": "Say no, and suddenly you're the ungrateful one.",
+      "flags": [],
+      "startS": 55.296,
+      "endS": 58.296,
+      "startFrame": 1659,
+      "endFrame": 1749,
+      "duracionAudioFrames": 90,
+      "pausaFrames": 0,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-32.png",
+          "duracionS": 1.5,
+          "movimiento": "pan"
+        },
+        {
+          "archivo": "kai-p1-33.png",
+          "duracionS": 1.5,
+          "movimiento": "zoom"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "Say",
+          "inicio": 0.104,
+          "fin": 0.278
+        },
+        {
+          "texto": "no",
+          "inicio": 0.289,
+          "fin": 0.567
+        },
+        {
+          "texto": "and",
+          "inicio": 0.914,
+          "fin": 1.03
+        },
+        {
+          "texto": "suddenly",
+          "inicio": 1.042,
+          "fin": 1.493
+        },
+        {
+          "texto": "you're",
+          "inicio": 1.505,
+          "fin": 1.62
+        },
+        {
+          "texto": "the",
+          "inicio": 1.632,
+          "fin": 1.736
+        },
+        {
+          "texto": "ungrateful",
+          "inicio": 1.782,
+          "fin": 2.431
+        },
+        {
+          "texto": "one",
+          "inicio": 2.442,
+          "fin": 2.662
+        }
+      ],
+      "contadorVisible": true,
+      "contadorValor": 2,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 22,
+      "texto": "But number one is the reason behind all of it.",
+      "flags": [
+        "HOOK"
+      ],
+      "startS": 58.296,
+      "endS": 60.894,
+      "startFrame": 1749,
+      "endFrame": 1827,
+      "duracionAudioFrames": 73,
+      "pausaFrames": 4,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-34.png",
+          "duracionS": 2.448,
+          "movimiento": "pan"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "But",
+          "inicio": 0.104,
+          "fin": 0.185
+        },
+        {
+          "texto": "number",
+          "inicio": 0.197,
+          "fin": 0.428
+        },
+        {
+          "texto": "one",
+          "inicio": 0.44,
+          "fin": 0.648
+        },
+        {
+          "texto": "is",
+          "inicio": 0.706,
+          "fin": 0.81
+        },
+        {
+          "texto": "the",
+          "inicio": 0.822,
+          "fin": 0.914
+        },
+        {
+          "texto": "reason",
+          "inicio": 0.926,
+          "fin": 1.285
+        },
+        {
+          "texto": "behind",
+          "inicio": 1.296,
+          "fin": 1.632
+        },
+        {
+          "texto": "all",
+          "inicio": 1.643,
+          "fin": 1.817
+        },
+        {
+          "texto": "of",
+          "inicio": 1.829,
+          "fin": 1.91
+        },
+        {
+          "texto": "it",
+          "inicio": 1.921,
+          "fin": 2.106
+        }
+      ],
+      "contadorVisible": true,
+      "contadorValor": 2,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 23,
+      "texto": "Number one. They isolate you.",
+      "flags": [
+        "CONTADOR_1"
+      ],
+      "startS": 60.894,
+      "endS": 62.814,
+      "startFrame": 1827,
+      "endFrame": 1884,
+      "duracionAudioFrames": 58,
+      "pausaFrames": 0,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-35.png",
+          "duracionS": 1.92,
+          "movimiento": "zoom"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "Number",
+          "inicio": 0.093,
+          "fin": 0.289
+        },
+        {
+          "texto": "one",
+          "inicio": 0.301,
+          "fin": 0.509
+        },
+        {
+          "texto": "They",
+          "inicio": 0.903,
+          "fin": 0.995
+        },
+        {
+          "texto": "isolate",
+          "inicio": 1.007,
+          "fin": 1.389
+        },
+        {
+          "texto": "you",
+          "inicio": 1.4,
+          "fin": 1.562
+        }
+      ],
+      "contadorVisible": true,
+      "contadorValor": 1,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 24,
+      "texto": "\"Your friends don't get us.\"",
+      "flags": [],
+      "startS": 62.814,
+      "endS": 64.902,
+      "startFrame": 1884,
+      "endFrame": 1947,
+      "duracionAudioFrames": 63,
+      "pausaFrames": 0,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-36.png",
+          "duracionS": 2.088,
+          "movimiento": "pan"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "Your",
+          "inicio": 0.162,
+          "fin": 0.197
+        },
+        {
+          "texto": "friends",
+          "inicio": 0.197,
+          "fin": 0.498
+        },
+        {
+          "texto": "don't",
+          "inicio": 0.509,
+          "fin": 0.694
+        },
+        {
+          "texto": "get",
+          "inicio": 0.706,
+          "fin": 0.856
+        },
+        {
+          "texto": "us",
+          "inicio": 0.868,
+          "fin": 1.157
+        }
+      ],
+      "contadorVisible": true,
+      "contadorValor": 1,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 25,
+      "texto": "\"You don't need them. You have me.\"",
+      "flags": [],
+      "startS": 64.902,
+      "endS": 66.99,
+      "startFrame": 1947,
+      "endFrame": 2010,
+      "duracionAudioFrames": 63,
+      "pausaFrames": 0,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-37.png",
+          "duracionS": 1.2,
+          "movimiento": "zoom"
+        },
+        {
+          "archivo": "kai-p1-38.png",
+          "duracionS": 0.888,
+          "movimiento": "pan"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "You",
+          "inicio": 0.15,
+          "fin": 0.174
+        },
+        {
+          "texto": "don't",
+          "inicio": 0.174,
+          "fin": 0.347
+        },
+        {
+          "texto": "need",
+          "inicio": 0.359,
+          "fin": 0.532
+        },
+        {
+          "texto": "them",
+          "inicio": 0.544,
+          "fin": 0.706
+        },
+        {
+          "texto": "You",
+          "inicio": 1.1,
+          "fin": 1.192
+        },
+        {
+          "texto": "have",
+          "inicio": 1.204,
+          "fin": 1.412
+        },
+        {
+          "texto": "me",
+          "inicio": 1.424,
+          "fin": 1.62
+        }
+      ],
+      "contadorVisible": true,
+      "contadorValor": 1,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 26,
+      "texto": "One by one, your people go quiet.",
+      "flags": [],
+      "startS": 66.99,
+      "endS": 69.294,
+      "startFrame": 2010,
+      "endFrame": 2079,
+      "duracionAudioFrames": 69,
+      "pausaFrames": 0,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-39.png",
+          "duracionS": 2.304,
+          "movimiento": "zoom"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "One",
+          "inicio": 0.093,
+          "fin": 0.231
+        },
+        {
+          "texto": "by",
+          "inicio": 0.243,
+          "fin": 0.393
+        },
+        {
+          "texto": "one",
+          "inicio": 0.405,
+          "fin": 0.694
+        },
+        {
+          "texto": "your",
+          "inicio": 0.984,
+          "fin": 1.076
+        },
+        {
+          "texto": "people",
+          "inicio": 1.088,
+          "fin": 1.343
+        },
+        {
+          "texto": "go",
+          "inicio": 1.354,
+          "fin": 1.505
+        },
+        {
+          "texto": "quiet",
+          "inicio": 1.516,
+          "fin": 1.944
+        }
+      ],
+      "contadorVisible": true,
+      "contadorValor": 1,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 27,
+      "texto": "Then one day you say: \"I need space.\"",
+      "flags": [],
+      "startS": 69.294,
+      "endS": 72.03,
+      "startFrame": 2079,
+      "endFrame": 2161,
+      "duracionAudioFrames": 82,
+      "pausaFrames": 0,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-40.png",
+          "duracionS": 2.736,
+          "movimiento": "pan"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "Then",
+          "inicio": 0.104,
+          "fin": 0.231
+        },
+        {
+          "texto": "one",
+          "inicio": 0.243,
+          "fin": 0.405
+        },
+        {
+          "texto": "day",
+          "inicio": 0.417,
+          "fin": 0.556
+        },
+        {
+          "texto": "you",
+          "inicio": 0.567,
+          "fin": 0.683
+        },
+        {
+          "texto": "say",
+          "inicio": 0.694,
+          "fin": 1.03
+        },
+        {
+          "texto": "I",
+          "inicio": 1.47,
+          "fin": 1.528
+        },
+        {
+          "texto": "need",
+          "inicio": 1.539,
+          "fin": 1.759
+        },
+        {
+          "texto": "space",
+          "inicio": 1.771,
+          "fin": 2.373
+        }
+      ],
+      "contadorVisible": true,
+      "contadorValor": 1,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 28,
+      "texto": "And the sun switches off.",
+      "flags": [],
+      "startS": 72.03,
+      "endS": 74.118,
+      "startFrame": 2161,
+      "endFrame": 2224,
+      "duracionAudioFrames": 63,
+      "pausaFrames": 0,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-41.png",
+          "duracionS": 1.2,
+          "movimiento": "zoom"
+        },
+        {
+          "archivo": "kai-p1-42.png",
+          "duracionS": 0.888,
+          "movimiento": "pan"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "And",
+          "inicio": 0.093,
+          "fin": 0.15
+        },
+        {
+          "texto": "the",
+          "inicio": 0.162,
+          "fin": 0.231
+        },
+        {
+          "texto": "sun",
+          "inicio": 0.243,
+          "fin": 0.498
+        },
+        {
+          "texto": "switches",
+          "inicio": 0.509,
+          "fin": 0.868
+        },
+        {
+          "texto": "off",
+          "inicio": 0.88,
+          "fin": 1.192
+        }
+      ],
+      "contadorVisible": true,
+      "contadorValor": 1,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 29,
+      "texto": "Real love doesn't rush you. It waits.",
+      "flags": [],
+      "startS": 74.118,
+      "endS": 76.71,
+      "startFrame": 2224,
+      "endFrame": 2301,
+      "duracionAudioFrames": 78,
+      "pausaFrames": 0,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-43.png",
+          "duracionS": 1.296,
+          "movimiento": "zoom"
+        },
+        {
+          "archivo": "kai-p1-44.png",
+          "duracionS": 1.296,
+          "movimiento": "pan"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "Real",
+          "inicio": 0.093,
+          "fin": 0.301
+        },
+        {
+          "texto": "love",
+          "inicio": 0.312,
+          "fin": 0.613
+        },
+        {
+          "texto": "doesn't",
+          "inicio": 0.683,
+          "fin": 0.926
+        },
+        {
+          "texto": "rush",
+          "inicio": 0.938,
+          "fin": 1.157
+        },
+        {
+          "texto": "you",
+          "inicio": 1.169,
+          "fin": 1.354
+        },
+        {
+          "texto": "It",
+          "inicio": 1.736,
+          "fin": 1.829
+        },
+        {
+          "texto": "waits",
+          "inicio": 1.84,
+          "fin": 2.245
+        }
+      ],
+      "contadorVisible": false,
+      "contadorValor": 1,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 30,
+      "texto": "Count your signs.",
+      "flags": [],
+      "startS": 76.71,
+      "endS": 78.798,
+      "startFrame": 2301,
+      "endFrame": 2364,
+      "duracionAudioFrames": 63,
+      "pausaFrames": 0,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-45.png",
+          "duracionS": 2.088,
+          "movimiento": "zoom"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "Count",
+          "inicio": 0.093,
+          "fin": 0.231
+        },
+        {
+          "texto": "your",
+          "inicio": 0.243,
+          "fin": 0.347
+        },
+        {
+          "texto": "signs",
+          "inicio": 0.359,
+          "fin": 0.833
+        }
+      ],
+      "contadorVisible": false,
+      "contadorValor": 1,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 31,
+      "texto": "Three or more? You're not overreacting.",
+      "flags": [],
+      "startS": 78.798,
+      "endS": 81.294,
+      "startFrame": 2364,
+      "endFrame": 2439,
+      "duracionAudioFrames": 75,
+      "pausaFrames": 0,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-46.png",
+          "duracionS": 2.496,
+          "movimiento": "pan"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "Three",
+          "inicio": 0.139,
+          "fin": 0.382
+        },
+        {
+          "texto": "or",
+          "inicio": 0.451,
+          "fin": 0.544
+        },
+        {
+          "texto": "more",
+          "inicio": 0.556,
+          "fin": 0.845
+        },
+        {
+          "texto": "You're",
+          "inicio": 1.227,
+          "fin": 1.308
+        },
+        {
+          "texto": "not",
+          "inicio": 1.319,
+          "fin": 1.481
+        },
+        {
+          "texto": "overreacting",
+          "inicio": 1.493,
+          "fin": 2.153
+        }
+      ],
+      "contadorVisible": false,
+      "contadorValor": 1,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    },
+    {
+      "n": 32,
+      "texto": "Comment your number.",
+      "flags": [
+        "CIERRE_SECO"
+      ],
+      "startS": 81.294,
+      "endS": 83.382,
+      "startFrame": 2439,
+      "endFrame": 2501,
+      "duracionAudioFrames": 63,
+      "pausaFrames": 0,
+      "imagenes": [
+        {
+          "archivo": "kai-p1-46.png",
+          "duracionS": 2.088,
+          "movimiento": "pan"
+        }
+      ],
+      "palabras": [
+        {
+          "texto": "Comment",
+          "inicio": 0.093,
+          "fin": 0.324
+        },
+        {
+          "texto": "your",
+          "inicio": 0.336,
+          "fin": 0.428
+        },
+        {
+          "texto": "number",
+          "inicio": 0.44,
+          "fin": 0.775
+        }
+      ],
+      "contadorVisible": false,
+      "contadorValor": 1,
+      "esGridIntro": false,
+      "triggerTodayS": null
+    }
+  ]
+}
