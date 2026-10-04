@@ -19,5 +19,7 @@ __pycache__/
 content/zz-prueba/
 remotion/public/
 remotion/out/
-kai-studio/inbox/*.png
-!kai-studio/inbox/.gitkeep
+# inbox/<slug>/*.png SÍ se trackea (a diferencia de antes): es la entrada
+# del pipeline automático — el usuario sube ahí las imágenes de Google Flow
+# y un push dispara organizar+voz+render en GitHub Actions (ver
+# .github/workflows/kai-studio-pipeline.yml).

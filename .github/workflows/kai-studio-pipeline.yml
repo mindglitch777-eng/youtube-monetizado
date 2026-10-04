@@ -1,0 +1,147 @@
+# Pipeline único de kai-studio: organiza imágenes nuevas (si las hay en
+# inbox/<slug>/), genera la voz que falte (edge-tts) y renderiza el video
+# final de cada episodio/idioma que ya tenga todo lo necesario. Un solo
+# push (guion, imágenes nuevas, o sonidos) dispara todo el proceso — no
+# hace falta Claude Code para producir un video, salvo para ir ajustando
+# el sistema en sí.
+#
+# Qué mira para decidir si renderiza un episodio/idioma:
+#   - public/episodes/<slug>/images/ tiene exactamente imageCount archivos
+#   - public/episodes/<slug>/<lang>/timing.json existe
+#   - out/<slug>-<lang>.mp4 todavía no existe (si querés forzar un
+#     re-render, borrá ese mp4 y hacé push)
+#
+# El resumen de qué quedó listo y qué falta se escribe al final de cada
+# corrida en el "Summary" de Actions (pestaña del workflow en GitHub).
+name: Kai studio — pipeline
+
+on:
+  push:
+    paths:
+      - kai-studio/inbox/**
+      - kai-studio/episodes/*/*/script.json
+      - kai-studio/public/sfx/**
+      - kai-studio/tools/**
+      - kai-studio/src/**
+      - .github/workflows/kai-studio-pipeline.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kai-studio-pipeline-${{ github.ref }}
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: kai-studio
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Instalar dependencias
+        run: |
+          pip install pillow edge-tts
+          sudo apt-get update && sudo apt-get install -y ffmpeg
+          npm ci
+
+      - name: 1) Organizar imágenes nuevas (inbox/<slug>/, best-effort)
+        run: |
+          set -euo pipefail
+          for script in episodes/*/en/script.json; do
+            slug=$(basename "$(dirname "$(dirname "$script")")")
+            [ -d "inbox/$slug" ] || continue
+            echo "::group::organizar $slug"
+            python tools/organize_images.py "$slug" --inbox "inbox/$slug" --by name || true
+            python tools/organize_images.py "$slug" --inbox "inbox/$slug" --by name --apply || true
+            echo "::endgroup::"
+          done
+
+      - name: 2) Generar voz que falte (edge-tts)
+        run: |
+          set -euo pipefail
+          for script in episodes/*/*/script.json; do
+            slug=$(basename "$(dirname "$(dirname "$script")")")
+            lang=$(basename "$(dirname "$script")")
+            timing="public/episodes/$slug/$lang/timing.json"
+            if [ -f "$timing" ]; then
+              echo "✓ $timing ya existe, salteo $slug/$lang"
+              continue
+            fi
+            echo "::group::voz $slug/$lang"
+            python tools/make_audio.py "$slug" "$lang"
+            echo "::endgroup::"
+          done
+
+      - name: 3) Renderizar los episodios/idiomas que ya tienen todo
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          for script in episodes/*/*/script.json; do
+            slug=$(basename "$(dirname "$(dirname "$script")")")
+            lang=$(basename "$(dirname "$script")")
+            expected=$(python3 -c "import json; print(json.load(open('$script'))['imageCount'])")
+            have=$(ls "public/episodes/$slug/images/" 2>/dev/null | grep -c '\.png$' || true)
+            timing="public/episodes/$slug/$lang/timing.json"
+            destino="out/${slug}-${lang}.mp4"
+            if [ "$have" != "$expected" ]; then
+              echo "⏸ $slug/$lang: $have/$expected imágenes — no renderizo todavía"
+              continue
+            fi
+            if [ ! -f "$timing" ]; then
+              echo "⏸ $slug/$lang: falta timing.json — no renderizo todavía"
+              continue
+            fi
+            if [ -f "$destino" ]; then
+              echo "✓ $destino ya existe, salteo (borralo y hacé push para forzar un re-render)"
+              continue
+            fi
+            echo "::group::render $slug/$lang"
+            npx remotion render src/index.ts Kai "$destino" --props="{\"slug\":\"$slug\",\"lang\":\"$lang\"}"
+            echo "::endgroup::"
+          done
+
+      - name: Resumen (qué quedó listo, qué falta)
+        if: always()
+        run: |
+          {
+            echo "## Kai studio — estado"
+            echo ""
+            echo "| Episodio | Idioma | Imágenes | Voz | Video final |"
+            echo "|---|---|---|---|---|"
+            for script in episodes/*/*/script.json; do
+              slug=$(basename "$(dirname "$(dirname "$script")")")
+              lang=$(basename "$(dirname "$script")")
+              expected=$(python3 -c "import json; print(json.load(open('$script'))['imageCount'])")
+              have=$(ls "public/episodes/$slug/images/" 2>/dev/null | grep -c '\.png$' || true)
+              timing="public/episodes/$slug/$lang/timing.json"
+              destino="out/${slug}-${lang}.mp4"
+              vocestado="falta"; [ -f "$timing" ] && vocestado="lista"
+              videoestado="falta"; [ -f "$destino" ] && videoestado="**listo ✅**"
+              echo "| $slug | $lang | $have/$expected | $vocestado | $videoestado |"
+            done
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commitear todo lo nuevo
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- public/episodes out
+          if git diff --cached --quiet; then
+            echo "Sin cambios."
+            exit 0
+          fi
+          git commit -m "Kai studio: pipeline automático (organizar/voz/render)"
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
