@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kai Studio</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+  :root {
+    --bg: #15130f; --surface: #1f1c16; --surface-2: #272219; --fg: #f3efe4;
+    --fg-muted: #a69c87; --border: #3a3326; --accent: #e1a11b; --accent-ink: #1c1304;
+    --ok: #5fd68c; --pending: #e8a23c; --err: #ef5858;
+    --mono: "JetBrains Mono", ui-monospace, monospace;
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg); color: var(--fg); font-family: "Inter", system-ui, sans-serif;
+    margin: 0; padding: 32px 20px 64px;
+  }
+  .wrap { max-width: 860px; margin: 0 auto; display: flex; flex-direction: column; gap: 28px; }
+  h1 { font-family: "Anton", sans-serif; text-transform: uppercase; font-size: clamp(26px, 6vw, 38px); margin: 0; }
+  h2 { font-family: "Anton", sans-serif; text-transform: uppercase; font-size: 18px; color: var(--accent); margin: 0 0 12px; }
+  p.lede { color: var(--fg-muted); margin: 6px 0 0; max-width: 60ch; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 22px 24px; }
+  label { display: block; font-size: 13px; font-weight: 600; color: var(--fg-muted); margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.04em; }
+  input[type=text] {
+    width: 100%; background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px;
+    color: var(--fg); padding: 10px 12px; font-size: 15px; font-family: var(--mono);
+  }
+  textarea {
+    width: 100%; min-height: 160px; background: var(--surface-2); border: 1px solid var(--border);
+    border-radius: 8px; color: var(--fg); padding: 10px 12px; font-size: 13px; font-family: var(--mono);
+    resize: vertical;
+  }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 640px) { .row { grid-template-columns: 1fr; } }
+  .field { display: flex; flex-direction: column; gap: 4px; margin-bottom: 16px; }
+  .dropzone {
+    border: 2px dashed var(--border); border-radius: 12px; padding: 28px; text-align: center;
+    color: var(--fg-muted); cursor: pointer; transition: border-color 0.15s, background 0.15s;
+  }
+  .dropzone.drag { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 8%, transparent); }
+  .dropzone b { color: var(--fg); }
+  .thumbs { display: grid; grid-template-columns: repeat(auto-fill, minmax(64px, 1fr)); gap: 6px; margin-top: 14px; }
+  .thumbs img { width: 100%; aspect-ratio: 9/16; object-fit: cover; border-radius: 6px; border: 1px solid var(--border); }
+  button {
+    font-family: "Anton", sans-serif; text-transform: uppercase; letter-spacing: 0.03em;
+    background: var(--accent); color: var(--accent-ink); border: none; border-radius: 8px;
+    padding: 12px 22px; font-size: 15px; cursor: pointer;
+  }
+  button:disabled { opacity: 0.5; cursor: not-allowed; }
+  button.secondary { background: var(--surface-2); color: var(--fg); border: 1px solid var(--border); }
+  .progress-bar { height: 8px; background: var(--surface-2); border-radius: 999px; overflow: hidden; margin-top: 10px; }
+  .progress-fill { height: 100%; background: var(--accent); width: 0%; transition: width 0.2s; }
+  .log { font-family: var(--mono); font-size: 12.5px; color: var(--fg-muted); white-space: pre-wrap; margin-top: 10px; max-height: 160px; overflow-y: auto; }
+  .status-grid { display: flex; flex-direction: column; gap: 10px; }
+  .status-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font-size: 14px; }
+  .status-row b { min-width: 48px; }
+  .pill { display: inline-flex; align-items: center; gap: 5px; padding: 3px 9px; border-radius: 999px; font-size: 12.5px; font-weight: 600; }
+  .pill.ok { background: color-mix(in srgb, var(--ok) 18%, transparent); color: var(--ok); }
+  .pill.pending { background: color-mix(in srgb, var(--pending) 18%, transparent); color: var(--pending); }
+  .pill.err { background: color-mix(in srgb, var(--err) 18%, transparent); color: var(--err); }
+  .pill .dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+  a { color: var(--accent); }
+  .hint { font-size: 12.5px; color: var(--fg-muted); margin-top: 6px; }
+  details summary { cursor: pointer; color: var(--accent); font-size: 13.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Kai Studio</h1>
+    <p class="lede">Pegá el guion, soltá las imágenes y mandalo — el resto (voz, zoom, contador, subtítulos, SFX, música, render final) lo arma solo el pipeline de GitHub Actions.</p>
+  </header>
+
+  <section class="card">
+    <h2>1. Episodio</h2>
+    <div class="field">
+      <label for="slug">Slug (minúsculas, guiones — ej. love-bombing, parte2-guilt-trap)</label>
+      <input type="text" id="slug" placeholder="love-bombing" value="love-bombing">
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>2. Guion</h2>
+    <p class="hint">Pegá el JSON de cada idioma (el mismo formato de <code>episodes/&lt;slug&gt;/&lt;lang&gt;/script.json</code>). Si no lo tenés armado todavía, pedíselo a Claude en el chat y te lo devuelve listo para pegar acá.</p>
+    <div class="row">
+      <div class="field">
+        <label for="script-en">Guion EN (script.json)</label>
+        <textarea id="script-en" placeholder='{"slug":"love-bombing","lang":"en",...}'></textarea>
+      </div>
+      <div class="field">
+        <label for="script-es">Guion ES (script.json)</label>
+        <textarea id="script-es" placeholder='{"slug":"love-bombing","lang":"es",...}'></textarea>
+      </div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>3. Imágenes</h2>
+    <p class="hint">Las mismas imágenes sirven para los dos idiomas. Soltalas en el orden del guion (se nombran automáticamente en ese orden).</p>
+    <div class="field">
+      <label for="prefix">Prefijo de archivo (igual al <code>imagePrefix</code> del guion)</label>
+      <input type="text" id="prefix" placeholder="kai-p1-" value="kai-p1-">
+    </div>
+    <div class="dropzone" id="dropzone">
+      <b>Arrastrá las imágenes acá</b><br>o hacé click para elegirlas
+      <input type="file" id="file-input" accept="image/png,image/jpeg" multiple hidden>
+    </div>
+    <div class="thumbs" id="thumbs"></div>
+  </section>
+
+  <section class="card">
+    <button id="btn-submit">Enviar y armar el video</button>
+    <div class="progress-bar" id="progress-wrap" style="display:none"><div class="progress-fill" id="progress-fill"></div></div>
+    <div class="log" id="log"></div>
+  </section>
+
+  <section class="card">
+    <h2>Estado</h2>
+    <div class="status-grid" id="status-grid">
+      <p class="hint">Escribí un slug y tocá "Ver estado" para consultarlo.</p>
+    </div>
+    <button class="secondary" id="btn-status" style="margin-top:12px">Ver estado</button>
+  </section>
+
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const log = (msg) => { $("log").textContent += msg + "\n"; $("log").scrollTop = $("log").scrollHeight; };
+
+let archivos = []; // {file, name}
+
+function renderThumbs() {
+  const cont = $("thumbs");
+  cont.innerHTML = "";
+  archivos.forEach((a) => {
+    const img = document.createElement("img");
+    img.src = URL.createObjectURL(a.file);
+    img.title = a.name;
+    cont.appendChild(img);
+  });
+}
+
+function agregarArchivos(fileList) {
+  const prefix = $("prefix").value.trim() || "kai-p1-";
+  const existentes = archivos.length;
+  [...fileList]
+    .filter((f) => /image\/(png|jpeg)/.test(f.type))
+    .forEach((f, i) => {
+      const n = existentes + i + 1;
+      const ext = f.type === "image/png" ? "png" : "jpg";
+      archivos.push({ file: f, name: `${prefix}${String(n).padStart(2, "0")}.${ext}` });
+    });
+  renderThumbs();
+}
+
+const dropzone = $("dropzone");
+dropzone.addEventListener("click", () => $("file-input").click());
+$("file-input").addEventListener("change", (e) => agregarArchivos(e.target.files));
+["dragenter", "dragover"].forEach((ev) =>
+  dropzone.addEventListener(ev, (e) => { e.preventDefault(); dropzone.classList.add("drag"); })
+);
+["dragleave", "drop"].forEach((ev) =>
+  dropzone.addEventListener(ev, (e) => { e.preventDefault(); dropzone.classList.remove("drag"); })
+);
+dropzone.addEventListener("drop", (e) => agregarArchivos(e.dataTransfer.files));
+
+function fileToBase64(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => resolve(reader.result.split(",")[1]);
+    reader.onerror = reject;
+    reader.readAsDataURL(file);
+  });
+}
+
+async function enviar() {
+  const slug = $("slug").value.trim();
+  const scriptEn = $("script-en").value.trim();
+  const scriptEs = $("script-es").value.trim();
+  if (!slug || !/^[a-z0-9-]+$/.test(slug)) return log("✗ Slug inválido (solo minúsculas, números, guiones).");
+  if (!scriptEn || !scriptEs) return log("✗ Falta pegar el guion EN y/o ES.");
+
+  $("btn-submit").disabled = true;
+  $("log").textContent = "";
+  $("progress-wrap").style.display = "block";
+
+  log("Subiendo guiones...");
+  try {
+    const res = await fetch("/.netlify/functions/submit-scripts", {
+      method: "POST",
+      body: JSON.stringify({ slug, scriptEn, scriptEs }),
+    });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error || "error desconocido");
+    log("✓ Guiones subidos.");
+  } catch (err) {
+    log("✗ " + err.message);
+    $("btn-submit").disabled = false;
+    return;
+  }
+
+  if (archivos.length) {
+    log(`Subiendo ${archivos.length} imágenes...`);
+    for (let i = 0; i < archivos.length; i++) {
+      const a = archivos[i];
+      try {
+        const dataBase64 = await fileToBase64(a.file);
+        const res = await fetch("/.netlify/functions/upload-image", {
+          method: "POST",
+          body: JSON.stringify({ slug, filename: a.name, dataBase64 }),
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || "error desconocido");
+        $("progress-fill").style.width = `${Math.round(((i + 1) / archivos.length) * 100)}%`;
+        log(`✓ ${a.name}`);
+      } catch (err) {
+        log(`✗ ${a.name}: ${err.message}`);
+      }
+    }
+  } else {
+    log("(sin imágenes nuevas — asumo que ya están subidas)");
+  }
+
+  log("\nListo. El push ya disparó el pipeline en GitHub Actions.");
+  log("Tocá \"Ver estado\" en unos minutos para ver cuándo está el video.");
+  $("btn-submit").disabled = false;
+}
+
+$("btn-submit").addEventListener("click", enviar);
+
+function pill(texto, tipo) {
+  return `<span class="pill ${tipo}"><span class="dot"></span>${texto}</span>`;
+}
+
+async function verEstado() {
+  const slug = $("slug").value.trim();
+  const cont = $("status-grid");
+  if (!slug) { cont.innerHTML = "<p class=\"hint\">Escribí un slug primero.</p>"; return; }
+  cont.innerHTML = "<p class=\"hint\">Consultando...</p>";
+  try {
+    const res = await fetch(`/.netlify/functions/status?slug=${encodeURIComponent(slug)}`);
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error || "error desconocido");
+
+    let html = "";
+    for (const lang of ["en", "es"]) {
+      const s = data.idiomas[lang];
+      if (!s || !s.existe) {
+        html += `<div class="status-row"><b>${lang.toUpperCase()}</b>${pill("sin guion todavía", "pending")}</div>`;
+        continue;
+      }
+      const imgOk = s.imagenesListas >= s.imagenesEsperadas;
+      html += `<div class="status-row"><b>${lang.toUpperCase()}</b>
+        ${pill(`imágenes ${s.imagenesListas}/${s.imagenesEsperadas}`, imgOk ? "ok" : "pending")}
+        ${pill(s.vozLista ? "voz lista" : "voz pendiente", s.vozLista ? "ok" : "pending")}
+        ${pill(s.videoListo ? "video listo ✅" : "video pendiente", s.videoListo ? "ok" : "pending")}
+      </div>`;
+    }
+    if (data.ultimaCorrida) {
+      const r = data.ultimaCorrida;
+      html += `<div class="status-row"><b>Pipeline</b>${pill(
+        r.estado === "completed" ? (r.conclusion === "success" ? "última corrida: OK" : "última corrida: falló") : "corriendo...",
+        r.estado === "completed" ? (r.conclusion === "success" ? "ok" : "err") : "pending"
+      )}<a href="${r.url}" target="_blank" rel="noopener">ver en GitHub →</a></div>`;
+    }
+    cont.innerHTML = html;
+  } catch (err) {
+    cont.innerHTML = `<p class="hint">✗ ${err.message}</p>`;
+  }
+}
+$("btn-status").addEventListener("click", verEstado);
+</script>
+</body>
+</html>
