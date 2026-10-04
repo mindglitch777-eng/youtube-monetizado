@@ -1,48 +1,33 @@
-// Escribe episodes/<slug>/es/script.json (foco en español por ahora — ver
-// RULES.md). Validamos que sea JSON parseable y tenga los campos mínimos
-// antes de escribir, así un error de tipeo no rompe el pipeline en Actions.
+// Convierte el guion en texto plano a script.json (conversión por reglas
+// fijas, sin IA — ver _parse-guion.js) y lo escribe en
+// episodes/<slug>/es/script.json. Foco en español por ahora (ver RULES.md).
 const { putFile } = require("./_github");
-
-function validar(script, idioma) {
-  if (!script || typeof script !== "object") throw new Error(`El guion ${idioma} no es un JSON válido`);
-  for (const campo of ["slug", "lang", "voice", "rate", "imagePrefix", "imageCount", "lines"]) {
-    if (!(campo in script)) throw new Error(`Al guion ${idioma} le falta el campo "${campo}"`);
-  }
-  if (!Array.isArray(script.lines) || script.lines.length === 0) {
-    throw new Error(`El guion ${idioma} no tiene líneas (lines)`);
-  }
-  for (const linea of script.lines) {
-    if (typeof linea.id !== "number" || typeof linea.text !== "string" || !Array.isArray(linea.images)) {
-      throw new Error(`Una línea del guion ${idioma} no tiene id/text/images válidos`);
-    }
-  }
-}
+const { parseGuion } = require("./_parse-guion");
 
 exports.handler = async (event) => {
   if (event.httpMethod !== "POST") {
     return { statusCode: 405, body: "Method not allowed" };
   }
   try {
-    const { slug, scriptEs } = JSON.parse(event.body);
+    const { slug, voice, rate, prefix, texto } = JSON.parse(event.body);
     if (!slug || !/^[a-z0-9-]+$/.test(slug)) {
       return { statusCode: 400, body: JSON.stringify({ error: "Falta un slug válido (minúsculas, números, guiones)" }) };
     }
 
-    let es;
+    let script;
     try {
-      es = JSON.parse(scriptEs);
-      validar(es, "ES");
+      script = parseGuion({ slug, lang: "es", voice, rate, prefix, texto });
     } catch (err) {
       return { statusCode: 400, body: JSON.stringify({ error: `Guion inválido: ${err.message}` }) };
     }
 
     await putFile(
       `kai-studio/episodes/${slug}/es/script.json`,
-      Buffer.from(JSON.stringify(es, null, 1), "utf-8").toString("base64"),
+      Buffer.from(JSON.stringify(script, null, 1), "utf-8").toString("base64"),
       `Kai studio web: guion ES de ${slug}`,
     );
 
-    return { statusCode: 200, body: JSON.stringify({ ok: true }) };
+    return { statusCode: 200, body: JSON.stringify({ ok: true, script }) };
   } catch (err) {
     return { statusCode: 500, body: JSON.stringify({ error: String(err.message || err) }) };
   }

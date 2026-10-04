@@ -84,11 +84,26 @@
 
   <section class="card">
     <h2>2. Guion</h2>
-    <p class="hint">Pegá el JSON del guion en español (el mismo formato de <code>episodes/&lt;slug&gt;/es/script.json</code>). Si no lo tenés armado todavía, pedíselo a Claude en el chat y te lo devuelve listo para pegar acá.</p>
-    <div class="field">
-      <label for="script-es">Guion ES (script.json)</label>
-      <textarea id="script-es" placeholder='{"slug":"love-bombing","lang":"es",...}'></textarea>
+    <p class="hint">Una línea por renglón: <code>id | texto | cantidad de imágenes | flags</code>. Flags (opcionales, separados por coma): <code>HOOK</code>, <code>COUNTER:5</code> (o 4,3,2,1,off), <code>FINAL</code>, <code>RISER</code>, <code>NOTIFICATION</code>, <code>SILENCE:0.5</code>, <code>GRID:Título;Etiqueta1;Etiqueta2;...</code> (línea de presentación de la serie). <a href="#" id="ver-ejemplo">ver un ejemplo</a></p>
+    <div class="row">
+      <div class="field">
+        <label for="voice">Voz (edge-tts)</label>
+        <input type="text" id="voice" value="es-MX-JorgeNeural">
+      </div>
+      <div class="field">
+        <label for="rate">Rate</label>
+        <input type="text" id="rate" value="+30%">
+      </div>
     </div>
+    <div class="field">
+      <label for="guion">Guion</label>
+      <textarea id="guion" style="min-height:260px" placeholder="1 | Alguien te dice &quot;alma gemela&quot; a los tres días... | 2
+2 | Estas son las cinco señales. | 2
+3 | La número uno es la que te atrapa. | 1 | HOOK
+..."></textarea>
+    </div>
+    <button class="secondary" id="btn-preview">Vista previa del JSON</button>
+    <div class="log" id="preview-log" style="display:none"></div>
   </section>
 
   <section class="card">
@@ -171,25 +186,62 @@ function fileToBase64(file) {
   });
 }
 
+const EJEMPLO = `1 | Alguien te dice "alma gemela" a los tres días? Eso no es amor. | 2
+2 | Estas son las cinco señales. | 2
+3 | La número uno es la que te atrapa. | 1 | HOOK
+4 | El love bombing es una de las cinco tácticas que se esconden dentro del amor. Hoy empezamos por la primera. | 2 | RISER,GRID:5 FORMAS EN QUE EL AMOR ES UNA TRAMPA;LOVE BOMBING;CULPA;LEY DEL HIELO;GASLIGHTING;EL SWITCH
+5 | Número cinco. Demasiado, demasiado rápido. | 1 | COUNTER:5
+6 | La que sigue vive en tu celular. | 1 | HOOK,NOTIFICATION
+7 | Comenta tu número. | 1 | FINAL,SILENCE:0.5`;
+
+$("ver-ejemplo").addEventListener("click", (e) => {
+  e.preventDefault();
+  $("guion").value = EJEMPLO;
+});
+
+function datosGuion() {
+  return {
+    slug: $("slug").value.trim(),
+    voice: $("voice").value.trim(),
+    rate: $("rate").value.trim(),
+    prefix: $("prefix").value.trim() || "kai-p1-",
+    texto: $("guion").value,
+  };
+}
+
+$("btn-preview").addEventListener("click", async () => {
+  const d = datosGuion();
+  const cont = $("preview-log");
+  cont.style.display = "block";
+  cont.textContent = "Generando...";
+  try {
+    const res = await fetch("/.netlify/functions/preview-script", { method: "POST", body: JSON.stringify(d) });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error);
+    cont.textContent = `${data.script.lines.length} líneas, ${data.script.imageCount} imágenes esperadas.\n\n` + JSON.stringify(data.script, null, 1);
+  } catch (err) {
+    cont.textContent = "✗ " + err.message;
+  }
+});
+
 async function enviar() {
-  const slug = $("slug").value.trim();
-  const scriptEs = $("script-es").value.trim();
+  const { slug, texto } = datosGuion();
   if (!slug || !/^[a-z0-9-]+$/.test(slug)) return log("✗ Slug inválido (solo minúsculas, números, guiones).");
-  if (!scriptEs) return log("✗ Falta pegar el guion en español.");
+  if (!texto.trim()) return log("✗ Falta escribir el guion.");
 
   $("btn-submit").disabled = true;
   $("log").textContent = "";
   $("progress-wrap").style.display = "block";
 
-  log("Subiendo guion...");
+  log("Convirtiendo y subiendo el guion...");
   try {
     const res = await fetch("/.netlify/functions/submit-scripts", {
       method: "POST",
-      body: JSON.stringify({ slug, scriptEs }),
+      body: JSON.stringify(datosGuion()),
     });
     const data = await res.json();
     if (!res.ok) throw new Error(data.error || "error desconocido");
-    log("✓ Guion subido.");
+    log(`✓ Guion subido (${data.script.lines.length} líneas, ${data.script.imageCount} imágenes esperadas).`);
   } catch (err) {
     log("✗ " + err.message);
     $("btn-submit").disabled = false;
