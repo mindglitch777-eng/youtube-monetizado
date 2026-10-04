@@ -84,16 +84,10 @@
 
   <section class="card">
     <h2>2. Guion</h2>
-    <p class="hint">Pegá el JSON de cada idioma (el mismo formato de <code>episodes/&lt;slug&gt;/&lt;lang&gt;/script.json</code>). Si no lo tenés armado todavía, pedíselo a Claude en el chat y te lo devuelve listo para pegar acá.</p>
-    <div class="row">
-      <div class="field">
-        <label for="script-en">Guion EN (script.json)</label>
-        <textarea id="script-en" placeholder='{"slug":"love-bombing","lang":"en",...}'></textarea>
-      </div>
-      <div class="field">
-        <label for="script-es">Guion ES (script.json)</label>
-        <textarea id="script-es" placeholder='{"slug":"love-bombing","lang":"es",...}'></textarea>
-      </div>
+    <p class="hint">Pegá el JSON del guion en español (el mismo formato de <code>episodes/&lt;slug&gt;/es/script.json</code>). Si no lo tenés armado todavía, pedíselo a Claude en el chat y te lo devuelve listo para pegar acá.</p>
+    <div class="field">
+      <label for="script-es">Guion ES (script.json)</label>
+      <textarea id="script-es" placeholder='{"slug":"love-bombing","lang":"es",...}'></textarea>
     </div>
   </section>
 
@@ -179,24 +173,23 @@ function fileToBase64(file) {
 
 async function enviar() {
   const slug = $("slug").value.trim();
-  const scriptEn = $("script-en").value.trim();
   const scriptEs = $("script-es").value.trim();
   if (!slug || !/^[a-z0-9-]+$/.test(slug)) return log("✗ Slug inválido (solo minúsculas, números, guiones).");
-  if (!scriptEn || !scriptEs) return log("✗ Falta pegar el guion EN y/o ES.");
+  if (!scriptEs) return log("✗ Falta pegar el guion en español.");
 
   $("btn-submit").disabled = true;
   $("log").textContent = "";
   $("progress-wrap").style.display = "block";
 
-  log("Subiendo guiones...");
+  log("Subiendo guion...");
   try {
     const res = await fetch("/.netlify/functions/submit-scripts", {
       method: "POST",
-      body: JSON.stringify({ slug, scriptEn, scriptEs }),
+      body: JSON.stringify({ slug, scriptEs }),
     });
     const data = await res.json();
     if (!res.ok) throw new Error(data.error || "error desconocido");
-    log("✓ Guiones subidos.");
+    log("✓ Guion subido.");
   } catch (err) {
     log("✗ " + err.message);
     $("btn-submit").disabled = false;
@@ -247,14 +240,12 @@ async function verEstado() {
     if (!res.ok) throw new Error(data.error || "error desconocido");
 
     let html = "";
-    for (const lang of ["en", "es"]) {
-      const s = data.idiomas[lang];
-      if (!s || !s.existe) {
-        html += `<div class="status-row"><b>${lang.toUpperCase()}</b>${pill("sin guion todavía", "pending")}</div>`;
-        continue;
-      }
+    const s = data.idiomas.es;
+    if (!s || !s.existe) {
+      html += `<div class="status-row"><b>ES</b>${pill("sin guion todavía", "pending")}</div>`;
+    } else {
       const imgOk = s.imagenesListas >= s.imagenesEsperadas;
-      html += `<div class="status-row"><b>${lang.toUpperCase()}</b>
+      html += `<div class="status-row"><b>ES</b>
         ${pill(`imágenes ${s.imagenesListas}/${s.imagenesEsperadas}`, imgOk ? "ok" : "pending")}
         ${pill(s.vozLista ? "voz lista" : "voz pendiente", s.vozLista ? "ok" : "pending")}
         ${pill(s.videoListo ? "video listo ✅" : "video pendiente", s.videoListo ? "ok" : "pending")}
