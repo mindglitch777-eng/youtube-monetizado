@@ -1,0 +1,34 @@
+name: Test Kai Studio Web
+
+on:
+  workflow_dispatch:
+    inputs:
+      site_url:
+        description: "URL del sitio Netlify a probar"
+        required: true
+        default: "https://stirring-crostata-6fb06b.netlify.app"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Página principal
+        run: |
+          code=$(curl -s -o /dev/null -w "%{http_code}" "${{ github.event.inputs.site_url }}/")
+          echo "HTTP $code"
+          curl -s "${{ github.event.inputs.site_url }}/" | head -c 500
+          echo ""
+
+      - name: preview-script (conversión guion -> JSON, sin tocar GitHub)
+        run: |
+          curl -s -X POST "${{ github.event.inputs.site_url }}/.netlify/functions/preview-script" \
+            -H "Content-Type: application/json" \
+            -d '{"slug":"prueba-test","voice":"es-MX-JorgeNeural","rate":"+40%","prefix":"prueba","texto":"1 | Esta es una prueba del conversor de guion | 2 | HOOK\n2 | Segunda linea de prueba | 1"}' \
+            -w "\nHTTP %{http_code}\n"
+
+      - name: status (lee estado del pipeline para un slug)
+        run: |
+          curl -s -X POST "${{ github.event.inputs.site_url }}/.netlify/functions/status" \
+            -H "Content-Type: application/json" \
+            -d '{"slug":"love-bombing"}' \
+            -w "\nHTTP %{http_code}\n"
