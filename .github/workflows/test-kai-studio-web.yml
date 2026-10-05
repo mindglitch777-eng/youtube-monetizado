@@ -28,7 +28,5 @@ jobs:
 
       - name: status (lee estado del pipeline para un slug)
         run: |
-          curl -s -X POST "${{ github.event.inputs.site_url }}/.netlify/functions/status" \
-            -H "Content-Type: application/json" \
-            -d '{"slug":"love-bombing"}' \
+          curl -s "${{ github.event.inputs.site_url }}/.netlify/functions/status?slug=love-bombing" \
             -w "\nHTTP %{http_code}\n"
