@@ -1,0 +1,263 @@
+{
+ "slug": "01-tu-cerebro-odia-el-silencio",
+ "lang": "es",
+ "part": 1,
+ "voice": "es-MX-JorgeNeural",
+ "rate": "+30%",
+ "imagePrefix": "01-tu-cerebro-odia-el-silencio",
+ "imageCount": 34,
+ "lines": [
+  {
+   "id": 1,
+   "text": "Hay algo que haces cuando estás completamente solo…",
+   "images": [
+    {
+     "n": 1
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "text": "…que está cambiando tu cerebro sin que lo notes.",
+   "images": [
+    {
+     "n": 2
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "text": "Y probablemente lo haces apenas aparece un segundo de silencio.",
+   "images": [
+    {
+     "n": 3
+    },
+    {
+     "n": 4
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "text": "Agarras el celular.",
+   "images": [
+    {
+     "n": 5
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "text": "Pones música.",
+   "images": [
+    {
+     "n": 6
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "text": "Abres TikTok.",
+   "images": [
+    {
+     "n": 7
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "text": "Cambias de canción.",
+   "images": [
+    {
+     "n": 8
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "text": "Miras otra pantalla.",
+   "images": [
+    {
+     "n": 9
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "text": "Cualquier cosa.",
+   "images": [
+    {
+     "n": 10
+    },
+    {
+     "n": 11
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "text": "Pero nunca dejas que exista el silencio.",
+   "images": [
+    {
+     "n": 12
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "text": "Y acá viene lo raro.",
+   "images": [
+    {
+     "n": 13
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "text": "Tu cerebro empieza a acostumbrarse a recibir algo constantemente.",
+   "images": [
+    {
+     "n": 14
+    },
+    {
+     "n": 15
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "text": "Entonces cinco minutos sin estímulos…",
+   "images": [
+    {
+     "n": 16
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "text": "…empiezan a sentirse eternos.",
+   "images": [
+    {
+     "n": 17
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "text": "No porque haya pasado más tiempo.",
+   "images": [
+    {
+     "n": 18
+    },
+    {
+     "n": 19
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "text": "Porque tu atención ya espera otra cosa.",
+   "images": [
+    {
+     "n": 20
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "text": "Y después ocurre algo todavía peor.",
+   "images": [
+    {
+     "n": 21
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "text": "Empiezas a confundir aburrimiento con estar mal.",
+   "images": [
+    {
+     "n": 22
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "text": "Por eso abres el celular aunque no tengas absolutamente nada que mirar.",
+   "images": [
+    {
+     "n": 23
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "text": "No estás buscando información.",
+   "images": [
+    {
+     "n": 24
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "text": "Estás escapando del vacío.",
+   "images": [
+    {
+     "n": 25
+    },
+    {
+     "n": 26
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "text": "Y cuanto más lo haces…",
+   "images": [
+    {
+     "n": 27
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "text": "…menos toleras estar sin estímulos.",
+   "images": [
+    {
+     "n": 28
+    },
+    {
+     "n": 29
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "text": "Quizás no necesitas más entretenimiento.",
+   "images": [
+    {
+     "n": 30
+    },
+    {
+     "n": 31
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "text": "Quizás necesitas recuperar la capacidad de aburrirte.",
+   "images": [
+    {
+     "n": 32
+    },
+    {
+     "n": 33
+    },
+    {
+     "n": 34
+    }
+   ]
+  }
+ ]
+}
