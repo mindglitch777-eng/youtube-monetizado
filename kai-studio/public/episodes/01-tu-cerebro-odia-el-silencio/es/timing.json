@@ -1,0 +1,881 @@
+{
+ "lines": [
+  {
+   "id": 1,
+   "file": "line-01.mp3",
+   "duration": 2.736,
+   "words": [
+    {
+     "text": "Hay",
+     "start": 0.088,
+     "end": 0.252
+    },
+    {
+     "text": "algo",
+     "start": 0.262,
+     "end": 0.444
+    },
+    {
+     "text": "que",
+     "start": 0.454,
+     "end": 0.56
+    },
+    {
+     "text": "haces",
+     "start": 0.569,
+     "end": 0.8
+    },
+    {
+     "text": "cuando",
+     "start": 0.81,
+     "end": 0.973
+    },
+    {
+     "text": "estás",
+     "start": 0.983,
+     "end": 1.204
+    },
+    {
+     "text": "completamente",
+     "start": 1.213,
+     "end": 1.752
+    },
+    {
+     "text": "solo",
+     "start": 1.762,
+     "end": 2.069
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "file": "line-02.mp3",
+   "duration": 2.664,
+   "words": [
+    {
+     "text": "que",
+     "start": 0.088,
+     "end": 0.185
+    },
+    {
+     "text": "está",
+     "start": 0.194,
+     "end": 0.387
+    },
+    {
+     "text": "cambiando",
+     "start": 0.396,
+     "end": 0.79
+    },
+    {
+     "text": "tu",
+     "start": 0.8,
+     "end": 0.887
+    },
+    {
+     "text": "cerebro",
+     "start": 0.896,
+     "end": 1.213
+    },
+    {
+     "text": "sin",
+     "start": 1.223,
+     "end": 1.396
+    },
+    {
+     "text": "que",
+     "start": 1.406,
+     "end": 1.492
+    },
+    {
+     "text": "lo",
+     "start": 1.502,
+     "end": 1.569
+    },
+    {
+     "text": "notes",
+     "start": 1.579,
+     "end": 1.992
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "file": "line-03.mp3",
+   "duration": 3.456,
+   "words": [
+    {
+     "text": "Y",
+     "start": 0.088,
+     "end": 0.185
+    },
+    {
+     "text": "probablemente",
+     "start": 0.194,
+     "end": 0.723
+    },
+    {
+     "text": "lo",
+     "start": 0.733,
+     "end": 0.848
+    },
+    {
+     "text": "haces",
+     "start": 0.858,
+     "end": 1.088
+    },
+    {
+     "text": "apenas",
+     "start": 1.098,
+     "end": 1.435
+    },
+    {
+     "text": "aparece",
+     "start": 1.444,
+     "end": 1.79
+    },
+    {
+     "text": "un",
+     "start": 1.8,
+     "end": 1.896
+    },
+    {
+     "text": "segundo",
+     "start": 1.906,
+     "end": 2.242
+    },
+    {
+     "text": "de",
+     "start": 2.252,
+     "end": 2.329
+    },
+    {
+     "text": "silencio",
+     "start": 2.338,
+     "end": 2.79
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "file": "line-04.mp3",
+   "duration": 1.872,
+   "words": [
+    {
+     "text": "Agarras",
+     "start": 0.088,
+     "end": 0.502
+    },
+    {
+     "text": "el",
+     "start": 0.512,
+     "end": 0.588
+    },
+    {
+     "text": "celular",
+     "start": 0.598,
+     "end": 1.04
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "file": "line-05.mp3",
+   "duration": 1.872,
+   "words": [
+    {
+     "text": "Pones",
+     "start": 0.088,
+     "end": 0.348
+    },
+    {
+     "text": "música",
+     "start": 0.358,
+     "end": 0.762
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "file": "line-06.mp3",
+   "duration": 1.872,
+   "words": [
+    {
+     "text": "Abres",
+     "start": 0.088,
+     "end": 0.396
+    },
+    {
+     "text": "TikTok",
+     "start": 0.406,
+     "end": 0.829
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "file": "line-07.mp3",
+   "duration": 1.872,
+   "words": [
+    {
+     "text": "Cambias",
+     "start": 0.088,
+     "end": 0.396
+    },
+    {
+     "text": "de",
+     "start": 0.406,
+     "end": 0.473
+    },
+    {
+     "text": "canción",
+     "start": 0.483,
+     "end": 0.896
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "file": "line-08.mp3",
+   "duration": 1.872,
+   "words": [
+    {
+     "text": "Miras",
+     "start": 0.088,
+     "end": 0.415
+    },
+    {
+     "text": "otra",
+     "start": 0.425,
+     "end": 0.608
+    },
+    {
+     "text": "pantalla",
+     "start": 0.617,
+     "end": 1.06
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "file": "line-09.mp3",
+   "duration": 1.872,
+   "words": [
+    {
+     "text": "Cualquier",
+     "start": 0.088,
+     "end": 0.435
+    },
+    {
+     "text": "cosa",
+     "start": 0.444,
+     "end": 0.771
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "file": "line-10.mp3",
+   "duration": 2.4,
+   "words": [
+    {
+     "text": "Pero",
+     "start": 0.088,
+     "end": 0.242
+    },
+    {
+     "text": "nunca",
+     "start": 0.252,
+     "end": 0.492
+    },
+    {
+     "text": "dejas",
+     "start": 0.502,
+     "end": 0.781
+    },
+    {
+     "text": "que",
+     "start": 0.79,
+     "end": 0.877
+    },
+    {
+     "text": "exista",
+     "start": 0.887,
+     "end": 1.213
+    },
+    {
+     "text": "el",
+     "start": 1.223,
+     "end": 1.271
+    },
+    {
+     "text": "silencio",
+     "start": 1.281,
+     "end": 1.723
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "file": "line-11.mp3",
+   "duration": 1.872,
+   "words": [
+    {
+     "text": "Y",
+     "start": 0.088,
+     "end": 0.204
+    },
+    {
+     "text": "acá",
+     "start": 0.213,
+     "end": 0.406
+    },
+    {
+     "text": "viene",
+     "start": 0.415,
+     "end": 0.637
+    },
+    {
+     "text": "lo",
+     "start": 0.646,
+     "end": 0.723
+    },
+    {
+     "text": "raro",
+     "start": 0.733,
+     "end": 1.012
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "file": "line-12.mp3",
+   "duration": 3.528,
+   "words": [
+    {
+     "text": "Tu",
+     "start": 0.088,
+     "end": 0.185
+    },
+    {
+     "text": "cerebro",
+     "start": 0.194,
+     "end": 0.483
+    },
+    {
+     "text": "empieza",
+     "start": 0.492,
+     "end": 0.877
+    },
+    {
+     "text": "a",
+     "start": 0.887,
+     "end": 0.915
+    },
+    {
+     "text": "acostumbrarse",
+     "start": 0.925,
+     "end": 1.502
+    },
+    {
+     "text": "a",
+     "start": 1.512,
+     "end": 1.531
+    },
+    {
+     "text": "recibir",
+     "start": 1.54,
+     "end": 1.887
+    },
+    {
+     "text": "algo",
+     "start": 1.896,
+     "end": 2.098
+    },
+    {
+     "text": "constantemente",
+     "start": 2.108,
+     "end": 2.858
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "file": "line-13.mp3",
+   "duration": 2.448,
+   "words": [
+    {
+     "text": "Entonces",
+     "start": 0.088,
+     "end": 0.512
+    },
+    {
+     "text": "cinco",
+     "start": 0.521,
+     "end": 0.752
+    },
+    {
+     "text": "minutos",
+     "start": 0.762,
+     "end": 1.098
+    },
+    {
+     "text": "sin",
+     "start": 1.108,
+     "end": 1.213
+    },
+    {
+     "text": "estímulos",
+     "start": 1.223,
+     "end": 1.771
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "file": "line-14.mp3",
+   "duration": 2.16,
+   "words": [
+    {
+     "text": "empiezan",
+     "start": 0.088,
+     "end": 0.531
+    },
+    {
+     "text": "a",
+     "start": 0.54,
+     "end": 0.569
+    },
+    {
+     "text": "sentirse",
+     "start": 0.579,
+     "end": 1.002
+    },
+    {
+     "text": "eternos",
+     "start": 1.012,
+     "end": 1.492
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "file": "line-15.mp3",
+   "duration": 2.16,
+   "words": [
+    {
+     "text": "No",
+     "start": 0.088,
+     "end": 0.242
+    },
+    {
+     "text": "porque",
+     "start": 0.252,
+     "end": 0.483
+    },
+    {
+     "text": "haya",
+     "start": 0.492,
+     "end": 0.646
+    },
+    {
+     "text": "pasado",
+     "start": 0.656,
+     "end": 0.963
+    },
+    {
+     "text": "más",
+     "start": 0.973,
+     "end": 1.146
+    },
+    {
+     "text": "tiempo",
+     "start": 1.156,
+     "end": 1.483
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "file": "line-16.mp3",
+   "duration": 2.424,
+   "words": [
+    {
+     "text": "Porque",
+     "start": 0.088,
+     "end": 0.319
+    },
+    {
+     "text": "tu",
+     "start": 0.329,
+     "end": 0.387
+    },
+    {
+     "text": "atención",
+     "start": 0.396,
+     "end": 0.781
+    },
+    {
+     "text": "ya",
+     "start": 0.79,
+     "end": 0.896
+    },
+    {
+     "text": "espera",
+     "start": 0.906,
+     "end": 1.223
+    },
+    {
+     "text": "otra",
+     "start": 1.233,
+     "end": 1.425
+    },
+    {
+     "text": "cosa",
+     "start": 1.435,
+     "end": 1.742
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "file": "line-17.mp3",
+   "duration": 2.496,
+   "words": [
+    {
+     "text": "Y",
+     "start": 0.088,
+     "end": 0.185
+    },
+    {
+     "text": "después",
+     "start": 0.194,
+     "end": 0.521
+    },
+    {
+     "text": "ocurre",
+     "start": 0.531,
+     "end": 0.829
+    },
+    {
+     "text": "algo",
+     "start": 0.838,
+     "end": 1.05
+    },
+    {
+     "text": "todavía",
+     "start": 1.06,
+     "end": 1.463
+    },
+    {
+     "text": "peor",
+     "start": 1.473,
+     "end": 1.829
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "file": "line-18.mp3",
+   "duration": 2.808,
+   "words": [
+    {
+     "text": "Empiezas",
+     "start": 0.088,
+     "end": 0.531
+    },
+    {
+     "text": "a",
+     "start": 0.54,
+     "end": 0.579
+    },
+    {
+     "text": "confundir",
+     "start": 0.588,
+     "end": 1.002
+    },
+    {
+     "text": "aburrimiento",
+     "start": 1.012,
+     "end": 1.502
+    },
+    {
+     "text": "con",
+     "start": 1.512,
+     "end": 1.627
+    },
+    {
+     "text": "estar",
+     "start": 1.637,
+     "end": 1.867
+    },
+    {
+     "text": "mal",
+     "start": 1.877,
+     "end": 2.127
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "file": "line-19.mp3",
+   "duration": 3.744,
+   "words": [
+    {
+     "text": "Por",
+     "start": 0.088,
+     "end": 0.213
+    },
+    {
+     "text": "eso",
+     "start": 0.223,
+     "end": 0.415
+    },
+    {
+     "text": "abres",
+     "start": 0.425,
+     "end": 0.656
+    },
+    {
+     "text": "el",
+     "start": 0.665,
+     "end": 0.733
+    },
+    {
+     "text": "celular",
+     "start": 0.742,
+     "end": 1.069
+    },
+    {
+     "text": "aunque",
+     "start": 1.079,
+     "end": 1.29
+    },
+    {
+     "text": "no",
+     "start": 1.3,
+     "end": 1.425
+    },
+    {
+     "text": "tengas",
+     "start": 1.435,
+     "end": 1.723
+    },
+    {
+     "text": "absolutamente",
+     "start": 1.733,
+     "end": 2.387
+    },
+    {
+     "text": "nada",
+     "start": 2.396,
+     "end": 2.637
+    },
+    {
+     "text": "que",
+     "start": 2.646,
+     "end": 2.733
+    },
+    {
+     "text": "mirar",
+     "start": 2.742,
+     "end": 3.079
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "file": "line-20.mp3",
+   "duration": 2.064,
+   "words": [
+    {
+     "text": "No",
+     "start": 0.088,
+     "end": 0.242
+    },
+    {
+     "text": "estás",
+     "start": 0.252,
+     "end": 0.492
+    },
+    {
+     "text": "buscando",
+     "start": 0.502,
+     "end": 0.829
+    },
+    {
+     "text": "información",
+     "start": 0.838,
+     "end": 1.387
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "file": "line-21.mp3",
+   "duration": 1.992,
+   "words": [
+    {
+     "text": "Estás",
+     "start": 0.088,
+     "end": 0.396
+    },
+    {
+     "text": "escapando",
+     "start": 0.406,
+     "end": 0.819
+    },
+    {
+     "text": "del",
+     "start": 0.829,
+     "end": 0.944
+    },
+    {
+     "text": "vacío",
+     "start": 0.954,
+     "end": 1.319
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "file": "line-22.mp3",
+   "duration": 1.872,
+   "words": [
+    {
+     "text": "Y",
+     "start": 0.088,
+     "end": 0.185
+    },
+    {
+     "text": "cuanto",
+     "start": 0.194,
+     "end": 0.464
+    },
+    {
+     "text": "más",
+     "start": 0.473,
+     "end": 0.675
+    },
+    {
+     "text": "lo",
+     "start": 0.685,
+     "end": 0.79
+    },
+    {
+     "text": "haces",
+     "start": 0.8,
+     "end": 1.165
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "file": "line-23.mp3",
+   "duration": 2.376,
+   "words": [
+    {
+     "text": "menos",
+     "start": 0.088,
+     "end": 0.396
+    },
+    {
+     "text": "toleras",
+     "start": 0.406,
+     "end": 0.733
+    },
+    {
+     "text": "estar",
+     "start": 0.742,
+     "end": 1.002
+    },
+    {
+     "text": "sin",
+     "start": 1.012,
+     "end": 1.156
+    },
+    {
+     "text": "estímulos",
+     "start": 1.165,
+     "end": 1.713
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "file": "line-24.mp3",
+   "duration": 2.592,
+   "words": [
+    {
+     "text": "Quizás",
+     "start": 0.088,
+     "end": 0.415
+    },
+    {
+     "text": "no",
+     "start": 0.425,
+     "end": 0.54
+    },
+    {
+     "text": "necesitas",
+     "start": 0.55,
+     "end": 1.05
+    },
+    {
+     "text": "más",
+     "start": 1.06,
+     "end": 1.233
+    },
+    {
+     "text": "entretenimiento",
+     "start": 1.242,
+     "end": 1.925
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "file": "line-25.mp3",
+   "duration": 3.072,
+   "words": [
+    {
+     "text": "Quizás",
+     "start": 0.088,
+     "end": 0.406
+    },
+    {
+     "text": "necesitas",
+     "start": 0.415,
+     "end": 0.887
+    },
+    {
+     "text": "recuperar",
+     "start": 0.896,
+     "end": 1.31
+    },
+    {
+     "text": "la",
+     "start": 1.319,
+     "end": 1.396
+    },
+    {
+     "text": "capacidad",
+     "start": 1.406,
+     "end": 1.867
+    },
+    {
+     "text": "de",
+     "start": 1.877,
+     "end": 1.935
+    },
+    {
+     "text": "aburrirte",
+     "start": 1.944,
+     "end": 2.406
+    }
+   ]
+  }
+ ],
+ "voice": "es-MX-JorgeNeural",
+ "estimated": false
+}
