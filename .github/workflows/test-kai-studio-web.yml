@@ -6,7 +6,7 @@ on:
       site_url:
         description: "URL del sitio Netlify a probar"
         required: true
-        default: "https://stirring-crostata-6fb06b.netlify.app"
+        default: "https://videosauto.netlify.app"
 
 jobs:
   test:
@@ -16,17 +16,44 @@ jobs:
         run: |
           code=$(curl -s -o /dev/null -w "%{http_code}" "${{ github.event.inputs.site_url }}/")
           echo "HTTP $code"
-          curl -s "${{ github.event.inputs.site_url }}/" | head -c 500
-          echo ""
 
       - name: preview-script (conversión guion -> JSON, sin tocar GitHub)
         run: |
           curl -s -X POST "${{ github.event.inputs.site_url }}/.netlify/functions/preview-script" \
             -H "Content-Type: application/json" \
-            -d '{"slug":"prueba-test","voice":"es-MX-JorgeNeural","rate":"+40%","prefix":"prueba","texto":"1 | Esta es una prueba del conversor de guion | 2 | HOOK\n2 | Segunda linea de prueba | 1"}' \
+            -d '{"slug":"prueba-test-upload","voice":"es-MX-JorgeNeural","rate":"+40%","prefix":"prueba-test-upload-","texto":"1 | prueba | 1"}' \
             -w "\nHTTP %{http_code}\n"
 
-      - name: status (lee estado del pipeline para un slug)
+      - name: Generar imagen de prueba chica (1.5 MB)
         run: |
-          curl -s "${{ github.event.inputs.site_url }}/.netlify/functions/status?slug=love-bombing" \
-            -w "\nHTTP %{http_code}\n"
+          dd if=/dev/urandom of=chica.jpg bs=1024 count=1536 2>/dev/null
+          ls -la chica.jpg
+
+      - name: Generar imagen de prueba grande (5.5 MB, cerca del límite de 6MB de Netlify Functions)
+        run: |
+          dd if=/dev/urandom of=grande.jpg bs=1024 count=5632 2>/dev/null
+          ls -la grande.jpg
+
+      - name: Subir imagen chica (upload-image)
+        run: |
+          b64=$(base64 -w0 chica.jpg)
+          curl -s -X POST "${{ github.event.inputs.site_url }}/.netlify/functions/upload-image" \
+            -H "Content-Type: application/json" \
+            -d "{\"slug\":\"prueba-test-upload\",\"filename\":\"prueba-test-upload-01.jpg\",\"dataBase64\":\"$b64\"}" \
+            -w "\nHTTP %{http_code}\n" -o resp-chica.json
+          cat resp-chica.json; echo ""
+
+      - name: Subir imagen grande (upload-image)
+        run: |
+          b64=$(base64 -w0 grande.jpg)
+          curl -s -X POST "${{ github.event.inputs.site_url }}/.netlify/functions/upload-image" \
+            -H "Content-Type: application/json" \
+            -d "{\"slug\":\"prueba-test-upload\",\"filename\":\"prueba-test-upload-02.jpg\",\"dataBase64\":\"$b64\"}" \
+            -w "\nHTTP %{http_code}\n" -o resp-grande.json
+          cat resp-grande.json; echo ""
+
+      - name: Confirmar en GitHub que los archivos llegaron (rama donde escribe la función)
+        run: |
+          curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/repos/${{ github.repository }}/contents/kai-studio/inbox/prueba-test-upload?ref=claude/knot-youtube-automation-17ild6" \
+            -w "\nHTTP %{http_code}\n" || true
