@@ -1,13 +1,17 @@
-// Devuelve el mismo estado que tools/status.py (imágenes/voz/video por
-// episodio/idioma) más el último run del pipeline en GitHub Actions.
-const { listDir, readFile, latestWorkflowRun } = require("./_github");
+// Devuelve el estado (imágenes/voz/video por episodio/idioma) más el
+// último run del pipeline en GitHub Actions.
+import { makeGithubClient } from "../_shared/github.js";
+import { json } from "../_shared/json.js";
 
-exports.handler = async (event) => {
+export async function onRequestGet({ request, env }) {
   try {
-    const slug = event.queryStringParameters?.slug;
+    const url = new URL(request.url);
+    const slug = url.searchParams.get("slug");
     if (!slug) {
-      return { statusCode: 400, body: JSON.stringify({ error: "Falta ?slug=" }) };
+      return json(400, { error: "Falta ?slug=" });
     }
+
+    const { listDir, readFile, latestWorkflowRun } = makeGithubClient(env);
 
     const resultados = {};
     for (const lang of ["en", "es"]) {
@@ -31,17 +35,14 @@ exports.handler = async (event) => {
 
     const run = await latestWorkflowRun("kai-studio-pipeline.yml");
 
-    return {
-      statusCode: 200,
-      body: JSON.stringify({
-        slug,
-        idiomas: resultados,
-        ultimaCorrida: run
-          ? { estado: run.status, conclusion: run.conclusion, url: run.html_url, creado: run.created_at }
-          : null,
-      }),
-    };
+    return json(200, {
+      slug,
+      idiomas: resultados,
+      ultimaCorrida: run
+        ? { estado: run.status, conclusion: run.conclusion, url: run.html_url, creado: run.created_at }
+        : null,
+    });
   } catch (err) {
-    return { statusCode: 500, body: JSON.stringify({ error: String(err.message || err) }) };
+    return json(500, { error: String(err.message || err) });
   }
-};
+}

@@ -1,8 +1,0 @@
-[build]
-  base = "kai-studio-web"
-  publish = "."
-  functions = "netlify/functions"
-  command = "echo 'sin build — HTML/JS estáticos'"
-
-[functions]
-  node_bundler = "esbuild"

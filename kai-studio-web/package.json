@@ -2,6 +2,6 @@
   "name": "kai-studio-web",
   "private": true,
   "version": "1.0.0",
-  "description": "Frontend + funciones de Netlify para cargar guion/imágenes de Kai Studio directo a GitHub (sin pasar por Claude Code).",
+  "description": "Frontend + funciones de Cloudflare Pages para cargar guion/imágenes de Kai Studio directo a GitHub (sin pasar por Claude Code).",
   "engines": { "node": ">=18" }
 }
