@@ -9,14 +9,14 @@ exports.handler = async (event) => {
     return { statusCode: 405, body: "Method not allowed" };
   }
   try {
-    const { slug, voice, rate, prefix, texto } = JSON.parse(event.body);
+    const { slug, voice, rate, texto } = JSON.parse(event.body);
     if (!slug || !/^[a-z0-9-]+$/.test(slug)) {
       return { statusCode: 400, body: JSON.stringify({ error: "Falta un slug válido (minúsculas, números, guiones)" }) };
     }
 
     let script;
     try {
-      script = parseGuion({ slug, lang: "es", voice, rate, prefix, texto });
+      script = parseGuion({ slug, lang: "es", voice, rate, texto });
     } catch (err) {
       return { statusCode: 400, body: JSON.stringify({ error: `Guion inválido: ${err.message}` }) };
     }
