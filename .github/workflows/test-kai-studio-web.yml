@@ -36,19 +36,27 @@ jobs:
 
       - name: Subir imagen chica (upload-image)
         run: |
-          b64=$(base64 -w0 chica.jpg)
+          node -e '
+            const fs = require("fs");
+            const b64 = fs.readFileSync("chica.jpg").toString("base64");
+            fs.writeFileSync("req-chica.json", JSON.stringify({ slug: "prueba-test-upload", filename: "prueba-test-upload-01.jpg", dataBase64: b64 }));
+          '
           curl -s -X POST "${{ github.event.inputs.site_url }}/.netlify/functions/upload-image" \
             -H "Content-Type: application/json" \
-            -d "{\"slug\":\"prueba-test-upload\",\"filename\":\"prueba-test-upload-01.jpg\",\"dataBase64\":\"$b64\"}" \
+            --data-binary @req-chica.json \
             -w "\nHTTP %{http_code}\n" -o resp-chica.json
           cat resp-chica.json; echo ""
 
       - name: Subir imagen grande (upload-image)
         run: |
-          b64=$(base64 -w0 grande.jpg)
+          node -e '
+            const fs = require("fs");
+            const b64 = fs.readFileSync("grande.jpg").toString("base64");
+            fs.writeFileSync("req-grande.json", JSON.stringify({ slug: "prueba-test-upload", filename: "prueba-test-upload-02.jpg", dataBase64: b64 }));
+          '
           curl -s -X POST "${{ github.event.inputs.site_url }}/.netlify/functions/upload-image" \
             -H "Content-Type: application/json" \
-            -d "{\"slug\":\"prueba-test-upload\",\"filename\":\"prueba-test-upload-02.jpg\",\"dataBase64\":\"$b64\"}" \
+            --data-binary @req-grande.json \
             -w "\nHTTP %{http_code}\n" -o resp-grande.json
           cat resp-grande.json; echo ""
 
