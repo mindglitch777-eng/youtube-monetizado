@@ -1,0 +1,121 @@
+name: Investigación de estilo de video (canales reales)
+
+# Herramienta reutilizable de investigación — NO forma parte del pipeline
+# de producción de Kai (kai-studio-pipeline.yml). Sirve para encontrar
+# canales reales del mismo estilo (imágenes IA + narración + cortes),
+# verificar sus números (vistas, suscriptores, fecha), y medir cortes/
+# volumen/silencios reales de un video elegido con ffmpeg.
+#
+# Modos (input "mode"):
+#   discover  busca candidatos reales por texto (yt-dlp, sin API key)
+#   frames    saca 4-6 frames de muestra de UN video para confirmar a ojo
+#             el estilo visual, sin bajar el archivo completo
+#   analyze   baja el video elegido y mide cortes/volumen/silencios reales
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "discover | frames | analyze"
+        required: true
+        type: choice
+        options: [discover, frames, analyze]
+      query:
+        description: "(solo discover) búsqueda de texto"
+        required: false
+        default: ""
+      content_type:
+        description: "(solo discover) short | long"
+        required: false
+        type: choice
+        options: [short, long]
+        default: short
+      video_url:
+        description: "(frames / analyze) URL del video de YouTube o TikTok"
+        required: false
+        default: ""
+      limit:
+        description: "(solo discover) cuántos resultados traer"
+        required: false
+        default: "15"
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: research
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Instalar dependencias
+        timeout-minutes: 6
+        env:
+          DEBIAN_FRONTEND: noninteractive
+          NEEDRESTART_MODE: a
+        run: |
+          set -e
+          pip install -q yt-dlp
+          for i in 1 2 3; do
+            timeout 90 bash -c "sudo apt-get update -o Acquire::Retries=3 && sudo apt-get install -y --no-install-recommends ffmpeg" && break
+            echo "intento $i de apt-get falló o se colgó, reintentando..."
+            [ "$i" = 3 ] && { echo "::error::apt-get no funcionó después de 3 intentos"; exit 1; }
+          done
+
+      - name: discover
+        if: inputs.mode == 'discover'
+        run: |
+          python3 yt_research.py discover \
+            --query "${{ inputs.query }}" \
+            --limit "${{ inputs.limit }}" \
+            --content-type "${{ inputs.content_type }}" \
+            | tee discover_result.json
+          {
+            echo "## Resultado — discover"
+            echo '```json'
+            cat discover_result.json
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: frames
+        if: inputs.mode == 'frames'
+        run: |
+          python3 yt_research.py frames \
+            --video-url "${{ inputs.video_url }}" \
+            --out-dir out_frames \
+            | tee frames_result.json
+          {
+            echo "## Resultado — frames"
+            echo '```json'
+            cat frames_result.json
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Subir frames como artifact
+        if: inputs.mode == 'frames'
+        uses: actions/upload-artifact@v4
+        with:
+          name: frames
+          path: research/out_frames/
+          if-no-files-found: warn
+          retention-days: 7
+
+      - name: analyze
+        if: inputs.mode == 'analyze'
+        run: |
+          python3 yt_research.py analyze \
+            --video-url "${{ inputs.video_url }}" \
+            --out-dir out_analyze \
+            | tee analyze_result.json
+          {
+            echo "## Resultado — analyze"
+            echo '```json'
+            cat analyze_result.json
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
