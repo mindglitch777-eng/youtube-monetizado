@@ -1,0 +1,31 @@
+name: Kai Studio Web — Deploy a Netlify
+
+# Dispara un deploy real en Netlify cada vez que cambia algo en
+# kai-studio-web/, usando un build hook en vez de depender de la
+# integración automática de Netlify con GitHub (que no estaba
+# funcionando). También se puede disparar a mano desde Actions.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "kai-studio-web/**"
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Disparar build hook de Netlify
+        run: |
+          if [ -z "${{ secrets.NETLIFY_BUILD_HOOK_URL }}" ]; then
+            echo "::error::Falta el secreto NETLIFY_BUILD_HOOK_URL en Settings → Secrets and variables → Actions"
+            exit 1
+          fi
+          code=$(curl -s -o /dev/null -w "%{http_code}" -X POST "${{ secrets.NETLIFY_BUILD_HOOK_URL }}")
+          echo "HTTP $code"
+          if [ "$code" != "200" ] && [ "$code" != "201" ]; then
+            echo "::error::Netlify respondió $code al disparar el build hook"
+            exit 1
+          fi
+          echo "Deploy disparado correctamente."
