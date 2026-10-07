@@ -35,6 +35,7 @@ concurrency:
 jobs:
   pipeline:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     defaults:
       run:
         working-directory: kai-studio
@@ -54,10 +55,24 @@ jobs:
           cache-dependency-path: kai-studio/package-lock.json
 
       - name: Instalar dependencias
+        timeout-minutes: 6
+        env:
+          DEBIAN_FRONTEND: noninteractive
+          NEEDRESTART_MODE: a
         run: |
+          set -e
           pip install -r requirements.txt
-          sudo apt-get update && sudo apt-get install -y ffmpeg
-          npm ci
+
+          # apt-get a veces se cuelga en silencio (prompt de needrestart que
+          # nunca llega) — cada intento tiene un límite de 90s; si se cuelga,
+          # se mata y se reintenta en vez de dejar el job colgado para siempre.
+          for i in 1 2 3; do
+            timeout 90 bash -c "sudo apt-get update -o Acquire::Retries=3 && sudo apt-get install -y --no-install-recommends ffmpeg" && break
+            echo "intento $i de apt-get falló o se colgó, reintentando..."
+            [ "$i" = 3 ] && { echo "::error::apt-get no funcionó después de 3 intentos"; exit 1; }
+          done
+
+          npm ci --prefer-offline --no-audit --no-fund
 
       - name: 1) Organizar imágenes nuevas (inbox/<slug>/, best-effort)
         run: |
