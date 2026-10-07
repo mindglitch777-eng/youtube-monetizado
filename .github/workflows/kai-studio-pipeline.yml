@@ -58,9 +58,12 @@ jobs:
       - name: 1) Organizar imágenes nuevas (inbox/<slug>/, best-effort)
         run: |
           set -euo pipefail
-          for script in episodes/*/en/script.json; do
-            slug=$(basename "$(dirname "$(dirname "$script")")")
-            [ -d "inbox/$slug" ] || continue
+          for dir in inbox/*/; do
+            slug=$(basename "$dir")
+            [ -d "$dir" ] || continue
+            # Tiene que tener guion en algún idioma (es o en) para saber cuántas
+            # imágenes espera; si no, no hay nada que organizar todavía.
+            compgen -G "episodes/$slug/*/script.json" > /dev/null || continue
             echo "::group::organizar $slug"
             python tools/organize_images.py "$slug" --inbox "inbox/$slug" --by name || true
             python tools/organize_images.py "$slug" --inbox "inbox/$slug" --by name --apply || true

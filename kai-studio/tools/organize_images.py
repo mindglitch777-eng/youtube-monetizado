@@ -30,7 +30,13 @@ def natural_key(p: Path):
 
 
 def load_expected(slug: str):
-    script = json.loads((ROOT / "episodes" / slug / "en" / "script.json").read_text(encoding="utf-8"))
+    for lang in ("en", "es"):
+        path = ROOT / "episodes" / slug / lang / "script.json"
+        if path.exists():
+            script = json.loads(path.read_text(encoding="utf-8"))
+            break
+    else:
+        raise FileNotFoundError(f"No encontré script.json (ni en/ ni es/) para {slug} en {ROOT / 'episodes' / slug}")
     per_image = {}  # n -> (line id, text)
     for line in script["lines"]:
         for im in line["images"]:
