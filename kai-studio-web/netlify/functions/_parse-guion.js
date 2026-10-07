@@ -2,10 +2,24 @@
 // script.json que necesita el editor de Remotion. Conversión por reglas
 // fijas, sin IA — siempre el mismo resultado para el mismo texto.
 //
-// Formato, una línea por renglón:
-//   <id> | <texto> | <n_imagenes> [| flags]
+// Lo único obligatorio es el texto. Una línea de texto = una línea hablada:
 //
-// Flags (separados por coma, todos opcionales):
+//   Alguien te dice "alma gemela" a los tres días? Eso no es amor.
+//   Estas son las cinco señales.
+//   La número uno es la que te atrapa.
+//
+// La cantidad de imágenes de cada línea se calcula sola a partir de cuánto
+// dura hablándola (ver calcularImagenesAuto). El prefijo de los archivos de
+// imagen se calcula solo a partir del slug (<slug>-01.jpg, <slug>-02.jpg...).
+//
+// Si en algún momento se necesita control fino, se puede agregar, por
+// línea, cantidad de imágenes y/o flags — pero nunca es obligatorio:
+//
+//   <texto>                             (lo normal: todo automático)
+//   <texto> | <n_imagenes>              (fijar cuántas imágenes tiene esta línea)
+//   <texto> | <n_imagenes> | <flags>    (control total; n_imagenes puede ir vacío = automático)
+//
+// Flags (separados por coma):
 //   HOOK              corte seco + 0.15s de aire antes de la línea siguiente
 //   COUNTER:5          (o 4,3,2,1,off) cambia el número en pantalla
 //   FINAL             última línea: corta la música, sin SFX
@@ -21,11 +35,19 @@
 //                     imagen de la línea (escenas donde el celular es
 //                     protagonista)
 //
-// Las imágenes se numeran solas, en orden, sumando los <n_imagenes> de
-// cada línea de arriba hacia abajo — tienen que coincidir con el orden en
-// que se suben en la página.
+// Las imágenes se numeran solas, en orden, de arriba hacia abajo — tienen
+// que coincidir con el orden en que se suben en la página.
 
-function parseGuion({ slug, lang, voice, rate, prefix, texto }) {
+const PALABRAS_POR_SEGUNDO = 2.3; // ritmo de habla conversacional, aprox.
+const SEGUNDOS_POR_IMAGEN = 3.2; // cada cuánto conviene cambiar de imagen
+
+function calcularImagenesAuto(texto) {
+  const palabras = texto.split(/\s+/).filter(Boolean).length;
+  const segundos = palabras / PALABRAS_POR_SEGUNDO;
+  return Math.min(4, Math.max(1, Math.round(segundos / SEGUNDOS_POR_IMAGEN)));
+}
+
+function parseGuion({ slug, lang, voice, rate, texto }) {
   const errores = [];
   const lineasTexto = texto
     .split("\n")
@@ -41,28 +63,42 @@ function parseGuion({ slug, lang, voice, rate, prefix, texto }) {
 
   lineasTexto.forEach((renglon, i) => {
     const partes = renglon.split("|").map((p) => p.trim());
-    if (partes.length < 3) {
-      errores.push(`Línea ${i + 1}: falta algún "|" (formato: id | texto | n_imagenes | flags)`);
+    if (partes.length > 3) {
+      errores.push(`Línea ${i + 1}: demasiados "|" (formato: texto [| n_imagenes] [| flags])`);
       return;
     }
-    const [idStr, texto, nImgStr, flagsStr] = partes;
-    const id = Number(idStr);
-    const nImg = Number(nImgStr);
-    if (!Number.isInteger(id) || id < 1) {
-      errores.push(`Línea ${i + 1}: el id "${idStr}" no es un número válido`);
-      return;
-    }
-    if (!Number.isInteger(nImg) || nImg < 1) {
-      errores.push(`Línea ${i + 1}: la cantidad de imágenes "${nImgStr}" no es un número válido`);
-      return;
-    }
-    if (!texto) {
+    const lineaTexto = partes[0];
+    if (!lineaTexto) {
       errores.push(`Línea ${i + 1}: falta el texto de la voz`);
       return;
     }
 
+    // El segundo campo es n_imagenes solo si es un número; si no, son flags
+    // directamente (para no obligar a escribir "| |" cuando no hace falta
+    // fijar la cantidad de imágenes pero sí se quiere poner un flag).
+    let nImgStr = "";
+    let flagsStr = "";
+    if (partes.length === 2) {
+      if (/^\d+$/.test(partes[1])) nImgStr = partes[1];
+      else flagsStr = partes[1];
+    } else if (partes.length === 3) {
+      nImgStr = partes[1];
+      flagsStr = partes[2];
+    }
+
+    let nImg;
+    if (nImgStr === "") {
+      nImg = calcularImagenesAuto(lineaTexto);
+    } else {
+      nImg = Number(nImgStr);
+      if (!Number.isInteger(nImg) || nImg < 1) {
+        errores.push(`Línea ${i + 1}: la cantidad de imágenes "${nImgStr}" no es un número válido`);
+        return;
+      }
+    }
+
     const flags = (flagsStr || "").split(",").map((f) => f.trim()).filter(Boolean);
-    const linea = { id, text: texto, images: [] };
+    const linea = { id: i + 1, text: lineaTexto, images: [] };
 
     const esGrid = flags.find((f) => f.startsWith("GRID:"));
     for (let k = 0; k < nImg; k++) {
@@ -114,7 +150,7 @@ function parseGuion({ slug, lang, voice, rate, prefix, texto }) {
     part: 1,
     voice,
     rate,
-    imagePrefix: prefix,
+    imagePrefix: `${slug}-`,
     imageCount: cursorImagen - 1,
     lines,
   };

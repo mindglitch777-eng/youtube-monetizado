@@ -84,7 +84,7 @@
 
   <section class="card">
     <h2>2. Guion</h2>
-    <p class="hint">Una línea por renglón: <code>id | texto | cantidad de imágenes | flags</code>. Flags (opcionales, separados por coma): <code>HOOK</code>, <code>COUNTER:5</code> (o 4,3,2,1,off), <code>FINAL</code>, <code>RISER</code>, <code>NOTIFICATION</code>, <code>SILENCE:0.5</code>, <code>GRID:Título;Etiqueta1;Etiqueta2;...</code> (línea de presentación de la serie). <a href="#" id="ver-ejemplo">ver un ejemplo</a></p>
+    <p class="hint">Escribí normal: una línea por cada cosa que se dice. Nada de números ni símbolos — la cantidad de imágenes de cada línea se calcula sola según cuánto dura hablándola. <a href="#" id="ver-ejemplo">ver un ejemplo</a> · <details style="display:inline"><summary>opciones avanzadas (no hace falta usarlas)</summary><div class="hint" style="margin-top:8px">Si en alguna línea querés control fino, podés agregar <code>| cantidad de imágenes</code> y/o <code>| flags</code> separados por "|". Flags (separados por coma): <code>HOOK</code>, <code>COUNTER:5</code> (o 4,3,2,1,off), <code>FINAL</code>, <code>RISER</code>, <code>NOTIFICATION</code>, <code>SILENCE:0.5</code>, <code>GRID:Título;Etiqueta1;Etiqueta2;...</code> (línea de presentación de la serie).</div></details></p>
     <div class="row">
       <div class="field">
         <label for="voice">Voz (edge-tts)</label>
@@ -97,9 +97,9 @@
     </div>
     <div class="field">
       <label for="guion">Guion</label>
-      <textarea id="guion" style="min-height:260px" placeholder="1 | Alguien te dice &quot;alma gemela&quot; a los tres días... | 2
-2 | Estas son las cinco señales. | 2
-3 | La número uno es la que te atrapa. | 1 | HOOK
+      <textarea id="guion" style="min-height:260px" placeholder="Alguien te dice &quot;alma gemela&quot; a los tres días? Eso no es amor.
+Estas son las cinco señales.
+La número uno es la que te atrapa.
 ..."></textarea>
     </div>
     <button class="secondary" id="btn-preview">Vista previa del JSON</button>
@@ -108,11 +108,7 @@
 
   <section class="card">
     <h2>3. Imágenes</h2>
-    <p class="hint">Las mismas imágenes sirven para los dos idiomas. Soltalas en el orden del guion (se nombran automáticamente en ese orden).</p>
-    <div class="field">
-      <label for="prefix">Prefijo de archivo (igual al <code>imagePrefix</code> del guion)</label>
-      <input type="text" id="prefix" placeholder="kai-p1-" value="kai-p1-">
-    </div>
+    <p class="hint">Las mismas imágenes sirven para los dos idiomas. Soltalas en el orden del guion — se nombran y numeran solas con el título del episodio.</p>
     <div class="dropzone" id="dropzone">
       <b>Arrastrá las imágenes acá</b><br>o hacé click para elegirlas
       <input type="file" id="file-input" accept="image/png,image/jpeg" multiple hidden>
@@ -143,9 +139,9 @@ const log = (msg) => { $("log").textContent += msg + "\n"; $("log").scrollTop = 
 let archivos = []; // {file} — el nombre final se calcula al mostrar/enviar, con el prefijo ACTUAL
 
 function nombreArchivo(file, index) {
-  const prefix = $("prefix").value.trim() || "kai-p1-";
+  const slug = $("slug").value.trim() || "episodio";
   const ext = file.type === "image/png" ? "png" : "jpg";
-  return `${prefix}${String(index + 1).padStart(2, "0")}.${ext}`;
+  return `${slug}-${String(index + 1).padStart(2, "0")}.${ext}`;
 }
 
 function renderThumbs() {
@@ -166,7 +162,7 @@ function agregarArchivos(fileList) {
   renderThumbs();
 }
 
-$("prefix").addEventListener("input", renderThumbs);
+$("slug").addEventListener("input", renderThumbs);
 
 const dropzone = $("dropzone");
 dropzone.addEventListener("click", () => $("file-input").click());
@@ -203,13 +199,13 @@ async function llamarFuncion(url, opts) {
   return data;
 }
 
-const EJEMPLO = `1 | Alguien te dice "alma gemela" a los tres días? Eso no es amor. | 2
-2 | Estas son las cinco señales. | 2
-3 | La número uno es la que te atrapa. | 1 | HOOK
-4 | El love bombing es una de las cinco tácticas que se esconden dentro del amor. Hoy empezamos por la primera. | 2 | RISER,GRID:5 FORMAS EN QUE EL AMOR ES UNA TRAMPA;LOVE BOMBING;CULPA;LEY DEL HIELO;GASLIGHTING;EL SWITCH
-5 | Número cinco. Demasiado, demasiado rápido. | 1 | COUNTER:5
-6 | La que sigue vive en tu celular. | 1 | HOOK,NOTIFICATION
-7 | Comenta tu número. | 1 | FINAL,SILENCE:0.5`;
+const EJEMPLO = `Alguien te dice "alma gemela" a los tres días? Eso no es amor.
+Estas son las cinco señales.
+La número uno es la que te atrapa. | | HOOK
+El love bombing es una de las cinco tácticas que se esconden dentro del amor. Hoy empezamos por la primera. | 2 | RISER,GRID:5 FORMAS EN QUE EL AMOR ES UNA TRAMPA;LOVE BOMBING;CULPA;LEY DEL HIELO;GASLIGHTING;EL SWITCH
+Número cinco. Demasiado, demasiado rápido. | | COUNTER:5
+La que sigue vive en tu celular. | | HOOK,NOTIFICATION
+Comenta tu número. | | FINAL,SILENCE:0.5`;
 
 $("ver-ejemplo").addEventListener("click", (e) => {
   e.preventDefault();
@@ -221,7 +217,6 @@ function datosGuion() {
     slug: $("slug").value.trim(),
     voice: $("voice").value.trim(),
     rate: $("rate").value.trim(),
-    prefix: $("prefix").value.trim() || "kai-p1-",
     texto: $("guion").value,
   };
 }
