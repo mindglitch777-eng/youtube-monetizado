@@ -35,6 +35,16 @@ from pathlib import Path
 
 import yt_dlp
 
+# YouTube bloquea el cliente "web" normal desde IPs de datacenter (el
+# error típico es "Sign in to confirm you're not a bot") — los runners de
+# GitHub Actions caen justo en esa categoría. El cliente "android" de la
+# API no pide ese chequeo, así que se fuerza en todas las llamadas.
+YTDLP_COMMON_OPTS = {
+    "extractor_args": {"youtube": {"player_client": ["android", "web"]}},
+    "quiet": True,
+    "no_warnings": True,
+}
+
 
 def log(msg):
     print(msg, file=sys.stderr)
@@ -42,7 +52,7 @@ def log(msg):
 
 def discover(query, limit, content_type):
     ydl_opts_flat = {
-        "quiet": True,
+        **YTDLP_COMMON_OPTS,
         "extract_flat": "in_playlist",
         "skip_download": True,
     }
@@ -71,7 +81,7 @@ def discover(query, limit, content_type):
     # Para los primeros N (por orden de aparición en la búsqueda), sacamos
     # metadata real (vistas exactas, fecha, suscriptores si están expuestos).
     enriched = []
-    ydl_opts_full = {"quiet": True, "skip_download": True}
+    ydl_opts_full = {**YTDLP_COMMON_OPTS, "skip_download": True}
     with yt_dlp.YoutubeDL(ydl_opts_full) as ydl:
         for c in candidates:
             try:
@@ -119,7 +129,7 @@ def frames(video_url, count, out_dir):
     out = Path(out_dir)
     out.mkdir(parents=True, exist_ok=True)
 
-    ydl_opts = {"quiet": True, "skip_download": True}
+    ydl_opts = {**YTDLP_COMMON_OPTS, "skip_download": True}
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         info = ydl.extract_info(video_url, download=False)
     duration = info.get("duration") or 30
@@ -168,7 +178,7 @@ def _channel_earliest_video_date(channel_url):
     visible (yt-dlp no expone de forma confiable la fecha de creación del
     canal en sí)."""
     try:
-        ydl_opts = {"quiet": True, "extract_flat": "in_playlist", "skip_download": True, "playlistend": 500}
+        ydl_opts = {**YTDLP_COMMON_OPTS, "extract_flat": "in_playlist", "skip_download": True, "playlistend": 500}
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info = ydl.extract_info(channel_url, download=False)
         entries = [e for e in (info.get("entries") or []) if e]
@@ -196,7 +206,7 @@ def analyze(video_url, out_dir):
     video_path = out / "video.mp4"
 
     ydl_opts = {
-        "quiet": True,
+        **YTDLP_COMMON_OPTS,
         "outtmpl": str(video_path),
         "format": "best[ext=mp4]/best",
     }
