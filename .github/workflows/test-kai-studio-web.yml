@@ -17,11 +17,16 @@ jobs:
           code=$(curl -s -o /dev/null -w "%{http_code}" "${{ github.event.inputs.site_url }}/")
           echo "HTTP $code"
 
-      - name: preview-script (conversión guion -> JSON, sin tocar GitHub)
+      - name: preview-script (guion simplificado, texto plano sin pipes)
         run: |
+          node -e '
+            const fs = require("fs");
+            const texto = "Alguien te dice algo lindo a los tres días? Eso no es amor.\nEstas son las cinco señales.\nComenta tu número. | | FINAL";
+            fs.writeFileSync("req-preview.json", JSON.stringify({ slug: "prueba-test-upload", voice: "es-MX-JorgeNeural", rate: "+40%", texto }));
+          '
           curl -s -X POST "${{ github.event.inputs.site_url }}/.netlify/functions/preview-script" \
             -H "Content-Type: application/json" \
-            -d '{"slug":"prueba-test-upload","voice":"es-MX-JorgeNeural","rate":"+40%","prefix":"prueba-test-upload-","texto":"1 | prueba | 1"}' \
+            --data-binary @req-preview.json \
             -w "\nHTTP %{http_code}\n"
 
       - name: Generar imagen de prueba chica (1.5 MB)
