@@ -41,13 +41,13 @@
 const PALABRAS_POR_SEGUNDO = 2.3; // ritmo de habla conversacional, aprox.
 const SEGUNDOS_POR_IMAGEN = 3.2; // cada cuánto conviene cambiar de imagen
 
-function calcularImagenesAuto(texto) {
+export function calcularImagenesAuto(texto) {
   const palabras = texto.split(/\s+/).filter(Boolean).length;
   const segundos = palabras / PALABRAS_POR_SEGUNDO;
   return Math.min(4, Math.max(1, Math.round(segundos / SEGUNDOS_POR_IMAGEN)));
 }
 
-function parseGuion({ slug, lang, voice, rate, texto }) {
+export function parseGuion({ slug, lang, voice, rate, texto }) {
   const errores = [];
   const lineasTexto = texto
     .split("\n")
@@ -155,5 +155,3 @@ function parseGuion({ slug, lang, voice, rate, texto }) {
     lines,
   };
 }
-
-module.exports = { parseGuion };

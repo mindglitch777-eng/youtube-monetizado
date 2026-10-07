@@ -184,7 +184,7 @@ function fileToBase64(file) {
   });
 }
 
-// Llama a una función de Netlify y, si falla, arma un mensaje de error real
+// Llama a una función de la página y, si falla, arma un mensaje de error real
 // (código HTTP + lo que haya devuelto el servidor) en vez de "undefined" —
 // cubre el caso en que la respuesta no sea JSON (texto plano, HTML, vacío).
 async function llamarFuncion(url, opts) {
@@ -227,7 +227,7 @@ $("btn-preview").addEventListener("click", async () => {
   cont.style.display = "block";
   cont.textContent = "Generando...";
   try {
-    const data = await llamarFuncion("/.netlify/functions/preview-script", { method: "POST", body: JSON.stringify(d) });
+    const data = await llamarFuncion("/api/preview-script", { method: "POST", body: JSON.stringify(d) });
     cont.textContent = `${data.script.lines.length} líneas, ${data.script.imageCount} imágenes esperadas.\n\n` + JSON.stringify(data.script, null, 1);
   } catch (err) {
     cont.textContent = "✗ " + err.message;
@@ -245,7 +245,7 @@ async function enviar() {
 
   log("Convirtiendo y subiendo el guion...");
   try {
-    const data = await llamarFuncion("/.netlify/functions/submit-scripts", {
+    const data = await llamarFuncion("/api/submit-scripts", {
       method: "POST",
       body: JSON.stringify(datosGuion()),
     });
@@ -266,7 +266,7 @@ async function enviar() {
           throw new Error(`la imagen pesa ${(a.file.size / 1024 / 1024).toFixed(1)} MB — achicala a menos de 4.5 MB (el límite de la función de Netlify es ~6 MB y en base64 pesa un 33% más)`);
         }
         const dataBase64 = await fileToBase64(a.file);
-        await llamarFuncion("/.netlify/functions/upload-image", {
+        await llamarFuncion("/api/upload-image", {
           method: "POST",
           body: JSON.stringify({ slug, filename: nombre, dataBase64 }),
         });
@@ -297,7 +297,7 @@ async function verEstado() {
   if (!slug) { cont.innerHTML = "<p class=\"hint\">Escribí un slug primero.</p>"; return; }
   cont.innerHTML = "<p class=\"hint\">Consultando...</p>";
   try {
-    const data = await llamarFuncion(`/.netlify/functions/status?slug=${encodeURIComponent(slug)}`);
+    const data = await llamarFuncion(`/api/status?slug=${encodeURIComponent(slug)}`);
 
     let html = "";
     const s = data.idiomas.es;
