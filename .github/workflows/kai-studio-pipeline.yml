@@ -44,14 +44,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: kai-studio/requirements.txt
 
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
+          cache: "npm"
+          cache-dependency-path: kai-studio/package-lock.json
 
       - name: Instalar dependencias
         run: |
-          pip install pillow edge-tts
+          pip install -r requirements.txt
           sudo apt-get update && sudo apt-get install -y ffmpeg
           npm ci
 
@@ -77,8 +81,15 @@ jobs:
             slug=$(basename "$(dirname "$(dirname "$script")")")
             lang=$(basename "$(dirname "$script")")
             timing="public/episodes/$slug/$lang/timing.json"
+            public_script="public/episodes/$slug/$lang/script.json"
             if [ -f "$timing" ]; then
-              echo "✓ $timing ya existe, salteo $slug/$lang"
+              # make_audio.py no corre de nuevo (el texto de las líneas ya
+              # tiene su voz grabada), pero el script.json puede haber
+              # cambiado después (imágenes, efectos, flags) — esa copia en
+              # public/ es la que lee el render, así que siempre se sincroniza.
+              mkdir -p "$(dirname "$public_script")"
+              cp "$script" "$public_script"
+              echo "✓ $timing ya existe, salteo $slug/$lang (script.json resincronizado)"
               continue
             fi
             echo "::group::voz $slug/$lang"
