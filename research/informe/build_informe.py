@@ -284,6 +284,11 @@ a("<h3>Patrón común de los 6 videos <span class='tag opinion'>MI LECTURA de lo
 a("<div class='card warn'><b>Dos alertas que salieron del análisis</b><ul>"
   "<li><b>Bestias Míticas usa fragmentos de películas</b> (Jurassic Park, The Meg) según Gemini. Eso es riesgo de reclamos de copyright y de desmonetización. No lo copies.</li>"
   "<li><b>Cronología de la Humanidad se parece mucho en contenido a 'What Did Ancient Humans Do For Pleasure?' de Stickstory</b> (EN, publicado antes): el mismo tema, la flauta de hueso, la 'sociedad opulenta' de Sahlins y el cierre sobre el tiempo libre. Es una señal más de que en español se están adaptando los éxitos del inglés, y por eso tu diferencia tiene que estar en las preguntas y el estilo.</li></ul></div>")
+a("<h3>Transcripciones completas (6 videos)</h3><p class='mut'>Hechas por Gemini escuchando el audio, con tiempos [MM:SS]. <span class='tag estimado'>HECHO POR IA</span> No son los subtítulos oficiales: puede haber diferencias menores de palabras. Están en el idioma original de cada video.</p>")
+for vid, canal in GV:
+    d = json.loads((G / f"{vid}.json").read_text())
+    vt = TOP.get(vid, {}).get("snippet", {}).get("title") or vid
+    a(f"<details class='card'><summary>{e(canal)}: {e(vt)}</summary><p class='mut'><a href='https://www.youtube.com/watch?v={vid}'>youtube.com/watch?v={vid}</a> · transcripción: {e(str(d.get('modelo_transcripcion')))}</p><pre style='max-height:none'>{e(d['transcripcion'])}</pre></details>")
 a("<h3>Capítulos publicados por los creadores</h3><p class='mut'>Complementa lo de arriba con otros videos que no pasé por Gemini. <span class='tag medido'>MEDIDO</span></p>")
 STRUCT = [
     ("Fossil — How Long You'd Last in Every Prehistoric Era (16:11)", "Gancho de 33 s. Después, 15 bloques de unos 40–95 s, uno por era geológica, en orden cronológico (Precámbrico → Pleistoceno). Cada bloque contesta la misma pregunta ('¿cuánto durarías acá?'). No tiene un cierre separado: termina en la era más cercana a la nuestra. Lo que muestra la descripción: 'No myths, no romanticized dinosaurs, just biology, climate, predators, and physics working against the human body'."),
