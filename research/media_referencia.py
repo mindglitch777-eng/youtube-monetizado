@@ -48,6 +48,9 @@ def miniaturas():
     out.mkdir(exist_ok=True)
     font = ImageFont.load_default(size=22)
     for canal, ids in spec.items():
+        safe = re.sub(r"[^\w-]+", "_", canal).strip("_")[:40] or "canal"
+        if (out / f"{safe}.jpg").exists():
+            continue
         imgs = [(v, thumb(v)) for v in ids]
         imgs = [(v, i.resize((480, 270))) for v, i in imgs if i]
         if not imgs:
@@ -79,9 +82,13 @@ def vtt_to_text(vtt):
     return "\n".join(lines)
 
 
-def m_transcript_api(vid, lang):
+def m_transcript_api(vid, lang, proxy=None):
     from youtube_transcript_api import YouTubeTranscriptApi
-    t = YouTubeTranscriptApi().fetch(vid, languages=[lang, "en", "es", "pt"])
+    kw = {}
+    if proxy:
+        from youtube_transcript_api.proxies import GenericProxyConfig
+        kw["proxy_config"] = GenericProxyConfig(http_url=proxy.replace("socks5://", "socks5h://"), https_url=proxy.replace("socks5://", "socks5h://"))
+    t = YouTubeTranscriptApi(**kw).fetch(vid, languages=[lang, "en", "es", "pt"])
     return "\n".join(f"[{int(s.start) // 60:02d}:{int(s.start) % 60:02d}] {s.text}" for s in t.snippets)
 
 
@@ -152,10 +159,87 @@ def transcripciones():
             note(f"transcripción FALLO {vid}: ningún método funcionó")
 
 
+# ---------------- videos: bajar y analizar cuadro por cuadro ----------------
+def run(cmd, timeout=900):
+    return subprocess.run(cmd, capture_output=True, text=True, timeout=timeout)
+
+
+def bajar_video(vid, dest):
+    for name, extra in (("directo", []),):
+        p = run(["yt-dlp", "-f", "bv*[height<=480]+ba/b[height<=480]/b", "--merge-output-format", "mp4",
+                 "-o", str(dest), *extra, f"https://www.youtube.com/watch?v={vid}"])
+        if dest.exists():
+            note(f"video OK {vid} vía {name}")
+            return True
+        note(f"video {vid} vía {name}: {(p.stderr.strip().splitlines() or ['?'])[-1][:160]}")
+    return False
+
+
+def analizar(vid, mp4, out):
+    """Cortes de escena, ritmo, volumen, y hojas de cuadros (gancho cada 2 s + video entero cada 15 s)."""
+    dur = float(run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(mp4)]).stdout.strip() or 0)
+    sc = run(["ffmpeg", "-i", str(mp4), "-vf", "select='gt(scene,0.3)',showinfo", "-an", "-f", "null", "-"]).stderr
+    cuts = [float(x) for x in re.findall(r"pts_time:([\d.]+)", sc)]
+    loud = run(["ffmpeg", "-i", str(mp4), "-af", "ebur128", "-vn", "-f", "null", "-"]).stderr
+    lufs = re.findall(r"I:\s+(-?[\d.]+) LUFS", loud)
+    sil = run(["ffmpeg", "-i", str(mp4), "-af", "silencedetect=n=-35dB:d=0.4", "-vn", "-f", "null", "-"]).stderr
+    silences = len(re.findall(r"silence_end", sil))
+    tramos = {}
+    for a, b in ((0, 30), (30, 60), (60, 180), (180, 600), (600, 10**6)):
+        if dur > a:
+            n_ = sum(1 for c in cuts if a <= c < b)
+            tramos[f"{a}-{min(b, int(dur))}s"] = round(n_ / ((min(b, dur) - a) / 60), 1)
+    info = {"video_id": vid, "duracion_s": round(dur), "cortes_total": len(cuts),
+            "cortes_por_minuto": round(len(cuts) / (dur / 60), 1) if dur else None,
+            "duracion_media_plano_s": round(dur / (len(cuts) + 1), 1) if dur else None,
+            "cortes_por_minuto_por_tramo": tramos, "lufs_integrado": float(lufs[-1]) if lufs else None,
+            "pausas_de_silencio_>0.4s": silences, "tiempos_de_corte_primeros_60s": [round(c, 1) for c in cuts if c < 60]}
+    (out / f"{vid}.json").write_text(json.dumps(info, indent=1), encoding="utf-8")
+    font = ImageFont.load_default(size=18)
+    for nombre, paso, hasta, cols in (("gancho", 2, 60, 6), ("completo", 15, dur, 8)):
+        with tempfile.TemporaryDirectory() as d:
+            run(["ffmpeg", "-i", str(mp4), "-t", str(hasta), "-vf", f"fps=1/{paso},scale=320:-2", f"{d}/f%04d.jpg"])
+            fr = sorted(Path(d).glob("*.jpg"))[:96]
+            if not fr:
+                continue
+            w, h = Image.open(fr[0]).size
+            rows = (len(fr) + cols - 1) // cols
+            sheet = Image.new("RGB", (cols * w, rows * (h + 22)), "white")
+            dr = ImageDraw.Draw(sheet)
+            for k, f in enumerate(fr):
+                x, y = (k % cols) * w, (k // cols) * (h + 22)
+                sheet.paste(Image.open(f), (x, y + 22))
+                t = k * paso
+                dr.text((x + 4, y + 2), f"{t // 60}:{t % 60:02d}", fill="black", font=font)
+            sheet.save(out / f"{vid}_{nombre}.jpg", quality=75)
+    note(f"análisis OK {vid}: {info['cortes_por_minuto']} cortes/min, {info['lufs_integrado']} LUFS")
+
+
+def videos():
+    lst = ROOT / "videos_analizar.txt"
+    if not lst.exists():
+        return
+    out = ROOT / "analisis_video"
+    out.mkdir(exist_ok=True)
+    for line in lst.read_text().splitlines():
+        vid = line.split("#")[0].strip()
+        if not vid or (out / f"{vid}.json").exists():
+            continue
+        with tempfile.TemporaryDirectory() as d:
+            mp4 = Path(d) / f"{vid}.mp4"
+            if bajar_video(vid, mp4):
+                try:
+                    analizar(vid, mp4, out)
+                except Exception as e:  # noqa: BLE001
+                    note(f"análisis {vid} falló: {e}")
+
+
 if __name__ == "__main__":
-    what = sys.argv[1:] or ["miniaturas", "transcripciones"]
+    what = sys.argv[1:] or ["miniaturas", "transcripciones", "videos"]
     if "miniaturas" in what:
         miniaturas()
     if "transcripciones" in what:
         transcripciones()
+    if "videos" in what:
+        videos()
     (ROOT / "media_referencia.log").write_text("\n".join(log), encoding="utf-8")
