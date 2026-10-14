@@ -20,10 +20,11 @@ from pathlib import Path
 import requests
 
 KEY = os.environ.get("GEMINI_API_KEY")
-MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
+# se prueban en orden; si uno está saturado (503) o sin cupo (429) se pasa al siguiente
+MODELS = os.environ.get("GEMINI_MODELS", "gemini-flash-latest,gemini-3.5-flash-lite,gemini-3.5-flash,gemini-3.8-flash").split(",")
 OUT = Path(__file__).parent / "analisis_gemini"
 OUT.mkdir(exist_ok=True)
-URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
+URL = "https://generativelanguage.googleapis.com/v1beta/models/{}:generateContent"
 
 PROMPT_TRANSCRIPCION = """Transcribe the narration of this video VERBATIM, in its original language, with no translation and no summary.
 Format: one line per sentence or short group of sentences, each starting with the timestamp [MM:SS].
@@ -61,32 +62,33 @@ def call(vid, prompt, max_tokens):
         ]}],
         "generationConfig": {"temperature": 0.2, "maxOutputTokens": max_tokens},
     }
-    for intento in range(4):
-        r = requests.post(URL, headers={"x-goog-api-key": KEY}, json=body, timeout=600)
-        if r.status_code == 200:
-            d = r.json()
-            parts = d["candidates"][0].get("content", {}).get("parts", [])
-            return "".join(p.get("text", "") for p in parts), d.get("usageMetadata", {})
-        msg = r.json().get("error", {}).get("message", r.text)[:300]
-        if r.status_code in (429, 500, 503) and intento < 3:
-            espera = 30 * (intento + 1)
-            print(f"  {vid}: HTTP {r.status_code}, reintento en {espera}s ({msg[:120]})", file=sys.stderr)
-            time.sleep(espera)
-            continue
-        raise SystemExit(f"{vid}: HTTP {r.status_code}: {msg}")
+    errores = []
+    for ronda in range(3):
+        for model in MODELS:
+            r = requests.post(URL.format(model), headers={"x-goog-api-key": KEY}, json=body, timeout=600)
+            if r.status_code == 200:
+                d = r.json()
+                parts = d["candidates"][0].get("content", {}).get("parts", [])
+                return "".join(p.get("text", "") for p in parts), d.get("usageMetadata", {}), model
+            msg = r.json().get("error", {}).get("message", r.text)[:200]
+            errores.append(f"{model} HTTP {r.status_code}: {msg[:100]}")
+            print(f"  {vid}: {errores[-1]}", file=sys.stderr)
+        time.sleep(60 * (ronda + 1))
+    raise SystemExit(f"{vid}: ningún modelo respondió. " + " | ".join(errores[-4:]))
 
 
 def main(ids):
     for vid in ids:
         dest = OUT / f"{vid}.json"
-        res = json.loads(dest.read_text()) if dest.exists() else {"video_id": vid, "modelo": MODEL}
+        res = json.loads(dest.read_text()) if dest.exists() else {"video_id": vid}
         if "transcripcion" not in res:
-            txt, uso = call(vid, PROMPT_TRANSCRIPCION, 16000)
-            res["transcripcion"], res["uso_transcripcion"] = txt, uso
+            txt, uso, model = call(vid, PROMPT_TRANSCRIPCION, 16000)
+            res["transcripcion"], res["uso_transcripcion"], res["modelo_transcripcion"] = txt, uso, model
             dest.write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
             print(f"{vid}: transcripción {len(txt)} caracteres, tokens {uso.get('totalTokenCount')}", file=sys.stderr)
         if "analisis" not in res:
-            txt, uso = call(vid, PROMPT_ANALISIS, 8000)
+            txt, uso, model = call(vid, PROMPT_ANALISIS, 8000)
+            res["modelo_analisis"] = model
             t = txt.strip().removeprefix("```json").removeprefix("```").removesuffix("```").strip()
             try:
                 res["analisis"] = json.loads(t)
