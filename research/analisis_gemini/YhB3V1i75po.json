@@ -17,5 +17,108 @@
   ],
   "serviceTier": "standard"
  },
- "modelo_transcripcion": "gemini-3.5-flash-lite"
+ "modelo_transcripcion": "gemini-3.5-flash-lite",
+ "modelo_analisis": "gemini-3.5-flash-lite",
+ "analisis": {
+  "gancho_0_30s": {
+   "que_se_dice": "Cierra los ojos por un momento e imagina unas manos. Están agrietadas por el frío, los nudillos están hinchados, la piel casi azul. Afuera, el viento corta como un cuchillo, y hace dos días que esas manos no tocan comida de verdad. Y sin embargo, ahí están, inclinadas sobre un pequeño fragmento de hueso hueco, raspando, girando, perforando con una paciencia que no parece de este mundo. Hora tras hora, tú, mirando esa escena, seguramente piensas lo mismo que pensaría cualquiera: está fabricando un arma, o quizás una herramienta para cazar, para raspar pieles, para sobrevivir un día más. Pero te equivocas.",
+   "que_se_ve": "Stickman cavernícola tiritando de frío, luego tallando un hueso con una piedra, después mirando pensativo al espectador.",
+   "tecnica": "escena en 2da persona",
+   "momento_en_que_se_repite_la_promesa_del_titulo_s": 211
+  },
+  "bloques": [
+   {
+    "inicio": "00:30",
+    "fin": "03:45",
+    "tema": "El descubrimiento de la flauta paleolítica y la redefinición del hombre prehistórico",
+    "como_abre": "Desmintiendo la idea inicial de que fabricaba un arma.",
+    "como_cierra_o_engancha_al_siguiente": "Pasando a la pregunta de por qué hacían esto si la supervivencia era tan dura."
+   },
+   {
+    "inicio": "03:45",
+    "fin": "08:15",
+    "tema": "La música y el arte como tecnología social y de unificación",
+    "como_abre": "Explicando que la música era tecnología para mantener unido al grupo.",
+    "como_cierra_o_engancha_al_siguiente": "Comparando el aprendizaje prehistórico con un aula escolar moderna."
+   },
+   {
+    "inicio": "08:15",
+    "fin": "15:00",
+    "tema": "El rol del juego, el arte y la empatía en las sociedades cazadoras-recolectoras",
+    "como_abre": "Mostrando que las danzas representaban la cacería y el aprendizaje.",
+    "como_cierra_o_engancha_al_siguiente": "Invitando a suscribirse y pedir la interacción del espectador."
+   },
+   {
+    "inicio": "15:00",
+    "fin": "18:35",
+    "tema": "Conclusión sobre el placer, el trabajo y la verdadera diferencia entre el pasado y hoy",
+    "como_abre": "Analizando la sociedad de la abundancia descrita por Marshall Sahlins.",
+    "como_cierra_o_engancha_al_siguiente": "Cerrando con una reflexión final sobre elegir cantar."
+   }
+  ],
+  "cierre": {
+   "inicio": "15:00",
+   "que_hace": "Reflexiona sobre el tiempo de trabajo actual versus el de los cazadores-recolectores, pide suscripción y deja la gran pregunta final sobre el sentido de la vida.",
+   "pide_suscripcion_o_like": true,
+   "pregunta_a_comentarios": true
+  },
+  "visual": {
+   "estilo": "Ilustración estilo stickman animado tipo whiteboard o video essay en formato sketch de dibujos animados",
+   "personaje_recurrente": "Stickman cavernícola con pelo revuelto y taparrabos, y un personaje moderno en versión stickman",
+   "tipo_de_movimiento": "imágenes fijas con zoom/paneo",
+   "cambios_de_imagen_aprox_por_minuto": 8,
+   "duracion_tipica_de_cada_imagen_s": 7,
+   "textos_en_pantalla": "Títulos breves, palabras clave destacadas como 'Hueso', 'Global Diversity', 'Goal!', 'Puncture Marks', 'Bone Damage', subtítulos ocasionales",
+   "mapas_graficos_o_diagramas": "Diagramas anatómicos de huesos con marcas de mordeduras, gráficos de diversidad global, dibujos rupestres"
+  },
+  "audio": {
+   "voz": "humana (IA probable), masculina, tono narrativo reflexivo y pausado, ritmo constante",
+   "musica": "Música de fondo instrumental suave, misteriosa y evocadora que acompaña el tono de video ensayo",
+   "efectos_de_sonido": "Efectos sutiles de viento, tiritar, chasquidos y notas musicales"
+  },
+  "tecnicas_de_retencion": [
+   "00:00 - Gancho inmersivo en segunda persona pidiendo imaginar una escena sensorial",
+   "00:26 - Pregunta directa al espectador para generar curiosidad",
+   "02:20 - Dato sorprendente sobre la antigüedad de la flauta comparada con pinturas rupestres",
+   "06:00 - Cambio de escenario y reflexión filosófica sobre el tiempo libre",
+   "10:00 - Giro argumental desafiando mitos sobre los neandertales",
+   "15:25 - Referencia histórica a la antropología (Marshall Sahlins y la sociedad de la abundancia)"
+  ],
+  "frases_cortas_de_ejemplo": [
+   "Cierra los ojos por un momento.",
+   "Pero te equivocas.",
+   "La música era tecnología.",
+   "Se burlaban de él.",
+   "El aprendizaje era el juego."
+  ],
+  "por_que_creo_que_se_hizo_viral": "Combina una narrativa visual atractiva tipo animación minimalista con una profunda reflexión filosófica e histórica que subvierte las expectativas comunes sobre la prehistoria, conectando la vida ancestral con nuestras preguntas existenciales actuales.",
+  "cara_humana_real_en_camara": false
+ },
+ "uso_analisis": {
+  "promptTokenCount": 102025,
+  "candidatesTokenCount": 1404,
+  "totalTokenCount": 103429,
+  "cachedContentTokenCount": 19531,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 546
+   },
+   {
+    "modality": "VIDEO",
+    "tokenCount": 101479
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 104
+   },
+   {
+    "modality": "VIDEO",
+    "tokenCount": 19427
+   }
+  ],
+  "serviceTier": "standard"
+ }
 }

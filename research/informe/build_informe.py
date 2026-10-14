@@ -237,7 +237,54 @@ for f, cap in [("Ink_Explainer", "Ink Explainer (EN): el modelo original"), ("Cr
     a(f"<figure style='margin:14px 0'><img src='miniaturas/{f}.jpg' alt='{e(cap)}' style='width:100%;height:auto;border-radius:8px;border:1px solid var(--line)'><figcaption class='mut'>{e(cap)}</figcaption></figure>")
 
 a("<h2>4. Estructura de los mejores videos</h2>")
-a("<div class='card warn'><b>No pude sacar los guiones.</b> Probé siete caminos: vidIQ (sin créditos), yt-dlp desde este entorno, y desde GitHub Actions youtube-transcript-api, yt-dlp con token PO (bgutil), yt-dlp con los clientes mweb y tv_simply, y 6 instancias públicas de Invidious. YouTube bloqueó todos ('Sign in to confirm you're not a bot' / RequestBlocked) y las instancias de Invidious no respondieron. El detalle está en <code>research/media_referencia.log</code>. Por eso no cito frases de los videos. Lo que sigue sale de los <b>capítulos con tiempos que los propios creadores publican</b> en la descripción <span class='tag medido'>MEDIDO</span> y de las primeras líneas de la descripción, que en estos canales suelen repetir el gancho del video <span class='tag opinion'>INFERIDO</span>.</div>")
+
+G = Path(__file__).parent.parent / "analisis_gemini"
+GV = [("49_Ph2q6uIM", "Ink Explainer"), ("nAWpLtG-kNs", "Fossil"), ("t-xY-KR2IHE", "Bestias Míticas"), ("cAqWSE1mjpc", "Tito Primitivo"),
+      ("hZfVSlKLe_M", "Tiempos Antiguos"), ("YhB3V1i75po", "Cronología de la Humanidad")]
+
+
+def mmss(t):
+    p_ = [int(x) for x in t.split(":")]
+    return p_[0] * 60 + p_[1] if len(p_) == 2 else p_[0] * 3600 + p_[1] * 60 + p_[2]
+
+
+a("<div class='card'><b>Cómo se hizo.</b> YouTube bloquea la descarga de guiones y videos desde servidores (probé 7 métodos). La solución fue la <b>API de Gemini</b> de Google: se le pasa el link y Gemini mira el video desde los servidores de Google. Por cada video pedí (1) la transcripción con tiempos y (2) un análisis de imagen y audio. Plan gratis, sin facturación. "
+  "<span class='tag estimado'>HECHO POR IA</span> La transcripción es de Gemini escuchando el audio, <b>no</b> los subtítulos oficiales: puede cambiar alguna palabra (por ejemplo 'Mirá' en vez de 'Mira'). Los números visuales (cambios de imagen por minuto) son aproximados. Los textos completos están en <code>research/transcripciones/</code> y <code>research/analisis_gemini/</code>.</div>")
+a("<div class='tw'><table><tr><th>Video</th><th>Gancho (técnica y primeras palabras)</th><th>Bloques</th><th>Cierre</th><th>Imagen</th><th>Audio</th></tr>")
+for vid, canal in GV:
+    d = json.loads((G / f"{vid}.json").read_text()); an = d.get("analisis") or {}
+    gk = an.get("gancho_0_30s", {}); bl = an.get("bloques", []); ci = an.get("cierre", {}); vi = an.get("visual", {}); au = an.get("audio", {})
+    durs = [mmss(b["fin"]) - mmss(b["inicio"]) for b in bl if b.get("fin") and b.get("inicio")]
+    primeras = " ".join(l.split("] ", 1)[-1] for l in d["transcripcion"].splitlines()[:3] if "sin narración" not in l)[:140]
+    vt = TOP.get(vid, {}).get("snippet", {}).get("title") or vid
+    a(f"<tr><td><b>{e(canal)}</b><br><a href='https://www.youtube.com/watch?v={vid}'>{e(vt[:60])}</a></td>"
+      f"<td><b>{e(str(gk.get('tecnica','')))}</b><br><i>“{e(primeras)}…”</i></td>"
+      f"<td>{len(bl)} bloques<br><span class='mut'>{(round(st.mean(durs)/60,1) if durs else '—')} min promedio</span></td>"
+      f"<td>{e(str(ci.get('que_hace',''))[:160])}<br><span class='mut'>pide suscripción: {'sí' if ci.get('pide_suscripcion_o_like', ci.get('pidesuscripcion_o_like')) else 'no'} · pregunta a comentarios: {'sí' if ci.get('pregunta_a_comentarios') else 'no'}</span></td>"
+      f"<td>{e(str(vi.get('estilo',''))[:140])}<br><span class='mut'>~{vi.get('cambios_de_imagen_aprox_por_minuto','?')} cambios/min · {e(str(vi.get('tipo_de_movimiento','')))}</span></td>"
+      f"<td>{e(str(au.get('voz',''))[:110])}<br><span class='mut'>{e(str(au.get('musica',''))[:90])}</span></td></tr>")
+a("</table></div>")
+for vid, canal in GV:
+    d = json.loads((G / f"{vid}.json").read_text()); an = d.get("analisis") or {}
+    a(f"<details class='card'><summary>{e(canal)}: bloques, retención y frases de ejemplo</summary><ol>"
+      + "".join(f"<li><b>{e(b.get('inicio',''))}–{e(b.get('fin',''))}</b> {e(b.get('tema',''))} <span class='mut'>· abre: {e(b.get('como_abre',''))} · engancha: {e(b.get('como_cierra_o_engancha_al_siguiente',''))}</span></li>" for b in an.get("bloques", []))
+      + "</ol><p><b>Técnicas de retención:</b></p><ul>" + "".join(f"<li>{e(t)}</li>" for t in an.get("tecnicas_de_retencion", []))
+      + "</ul><p><b>Frases cortas de ejemplo:</b> " + " · ".join(f"“{e(f)}”" for f in an.get("frases_cortas_de_ejemplo", [])[:5])
+      + f"</p><p><b>Por qué se hizo viral (opinión de Gemini):</b> {e(str(an.get('por_que_creo_que_se_hizo_viral','')))}</p>"
+      + f"<p class='mut'>Cara humana en cámara: {'sí' if an.get('cara_humana_real_en_camara') else 'no'}</p></details>")
+a("<h3>Patrón común de los 6 videos <span class='tag opinion'>MI LECTURA de los análisis</span></h3><ul>"
+  "<li><b>Los primeros 30 s ponen al espectador DENTRO de la escena, en segunda persona</b>: 'Mirá tu mano ahora mismo', 'Esta mañana una máquina te gritó hasta despertarte' (Ink Explainer), 'Cierra los ojos e imagina unas manos' (Cronología), 'Imagine you got a time machine' (Fossil). Cuatro de seis lo hacen claramente; Tiempos Antiguos narra en tercera persona pero mete 'como tú la entiendes hoy'. Nadie se presenta ni dice el nombre del canal.</li>"
+  "<li><b>Contraste moderno contra antiguo</b> en el gancho: el despertador contra el cavernícola sin horario; tu piel hoy contra la de tus ancestros. Hace que un tema viejo se sienta personal.</li>"
+  "<li><b>Promesa de algo contraintuitivo</b> a los 20–40 s: 'el T-Rex solo llega al número 2', 'no fue un accidente', 'los esqueletos antiguos eran más sanos'. Y en la mitad del video, un giro que la cumple.</li>"
+  "<li><b>Bloques de 1–3 min en los videos de lista</b> (Fossil: 13 bloques de ~1 min; Bestias Míticas: 12 de ~1,7 min) y <b>de 3–5 min en los ensayos</b> (Tito Primitivo, Tiempos Antiguos, Cronología: 4–6 bloques).</li>"
+  "<li><b>El cierre vuelve a la pregunta inicial</b> con una reflexión ('Cada tono de piel es una respuesta a una pregunta hecha por una estrella'). Solo 3 de 6 piden suscripción y la piden al final, no al principio.</li>"
+  "<li><b>Imagen: entre 6 y 15 cambios por minuto</b> (una imagen nueva cada 4–10 s), casi siempre imágenes fijas con zoom o paneo, no animación real. Es barato de producir.</li>"
+  "<li><b>Voz masculina pausada (120–160 palabras/min), música instrumental suave de fondo y efectos de sonido puntuales</b> (despertador, viento, fuego).</li>"
+  "<li><b>Se citan estudios reales</b>: Richard Lee, Polly Wiessner, Marshall Sahlins. Eso da credibilidad y es lo que diferencia a los ensayos que funcionan de los genéricos.</li></ul>")
+a("<div class='card warn'><b>Dos alertas que salieron del análisis</b><ul>"
+  "<li><b>Bestias Míticas usa fragmentos de películas</b> (Jurassic Park, The Meg) según Gemini. Eso es riesgo de reclamos de copyright y de desmonetización. No lo copies.</li>"
+  "<li><b>Cronología de la Humanidad se parece mucho en contenido a 'What Did Ancient Humans Do For Pleasure?' de Stickstory</b> (EN, publicado antes): el mismo tema, la flauta de hueso, la 'sociedad opulenta' de Sahlins y el cierre sobre el tiempo libre. Es una señal más de que en español se están adaptando los éxitos del inglés, y por eso tu diferencia tiene que estar en las preguntas y el estilo.</li></ul></div>")
+a("<h3>Capítulos publicados por los creadores</h3><p class='mut'>Complementa lo de arriba con otros videos que no pasé por Gemini. <span class='tag medido'>MEDIDO</span></p>")
 STRUCT = [
     ("Fossil — How Long You'd Last in Every Prehistoric Era (16:11)", "Gancho de 33 s. Después, 15 bloques de unos 40–95 s, uno por era geológica, en orden cronológico (Precámbrico → Pleistoceno). Cada bloque contesta la misma pregunta ('¿cuánto durarías acá?'). No tiene un cierre separado: termina en la era más cercana a la nuestra. Lo que muestra la descripción: 'No myths, no romanticized dinosaurs, just biology, climate, predators, and physics working against the human body'."),
     ("Stickstory — What Did Ancient Humans Do For Pleasure? (13:23)", "Gancho de 51 s que reformula el título como pregunta al espectador ('Do You Have More Free Time Than a Hunter-Gatherer?'). Después, 13 bloques de unos 30–120 s, cada uno con una actividad (música, danza, juegos, relatos, arte, humor, romance, niños, perros). Cierra con 'Final Verdict', que vuelve a la pregunta del principio (unos 45 s)."),
@@ -301,10 +348,11 @@ Las imágenes de este video fueron creadas con IA con fines ilustrativos.
 
 #prehistoria #humanosantiguos #historia""") + "</pre>")
 a("<h3>Estructura de video modelo (hipótesis, basada en los capítulos medidos)</h3><div class='tw'><table><tr><th>Tramo</th><th>Duración</th><th>Qué pasa</th></tr>"
-  "<tr><td>Gancho</td><td>0:00–0:50</td><td>Escena en segunda persona + la paradoja ('tendrías que haber muerto, y sin embargo…'). Sin presentación.</td></tr>"
+  "<tr><td>Gancho</td><td>0:00–0:40</td><td>Escena en segunda persona ('Imaginá que esta noche te toca dormir a −30 °C…') + contraste con tu vida de hoy + promesa de algo contraintuitivo. Sin presentación ni nombre del canal. (Así arrancan 4 de los 6 videos analizados con Gemini.)</td></tr>"
   "<tr><td>Planteo</td><td>0:50–2:00</td><td>Por qué el problema era grave (datos concretos: temperatura, calorías).</td></tr>"
   "<tr><td>Bloques 1–6</td><td>2:00–13:00</td><td>Una solución o actividad por bloque (de 1,5 a 2 min cada uno). Cada bloque abre con una pregunta chica y cierra con un dato sorprendente que lleva al siguiente.</td></tr>"
-  "<tr><td>Veredicto</td><td>13:00–15:00</td><td>Vuelve a la pregunta del título y la contesta. Termina con una pregunta para los comentarios.</td></tr></table></div>")
+  "<tr><td>Veredicto</td><td>13:00–15:00</td><td>Vuelve a la pregunta del título con una frase de reflexión que conecte con el presente. Pedí la suscripción solo acá, al final, y cerrá con una pregunta para los comentarios.</td></tr>"
+  "<tr><td>Producción</td><td>todo el video</td><td>Una imagen nueva cada 5–8 s (8–12 por minuto) con zoom o paneo lento, voz pausada (unas 140 palabras/min), música instrumental suave y efectos de sonido puntuales. Citá 1 o 2 estudios reales con nombre.</td></tr></table></div>")
 a("<h3>Cómo probarlo sin perder tiempo <span class='tag opinion'>OPINIÓN</span></h3><ol>"
   "<li>Publicá 6 videos en 6 semanas: 3 del tipo '¿Cómo sobrevivían…?' y 3 de '¿Qué hacían realmente…?'.</li>"
   "<li>Medí en YouTube Studio el CTR (sirve si supera el 5%) y la retención en el minuto 1 (sirve si supera el 60%).</li>"
@@ -314,7 +362,7 @@ a("<h3>Cómo probarlo sin perder tiempo <span class='tag opinion'>OPINIÓN</span
 a("<h2>7. Límites de esta investigación</h2><ul>"
   f"<li>Analicé <b>{len(M)}</b> canales de menos de 200k subs (de {len(CH)} encontrados) con {Q['search_calls']} búsquedas. La muestra es grande en total, pero <b>chica en algunos cruces</b>: vida salvaje EN (4 videos largos), geografía (2) e ingeniería ES (3).</li>"
   "<li>La búsqueda de la API ordena por vistas: favorece a los ganadores (sesgo de supervivencia). Los canales que fracasaron y no aparecen no se ven.</li>"
-  "<li>El faceless se verificó con 4 miniaturas por canal, no mirando los videos completos. No hay guiones (ver sección 4).</li>"
+  "<li>El faceless se verificó con 4 miniaturas por canal. Los guiones y el análisis visual de 6 videos los hizo Gemini (IA): sirven para la estructura, pero no son citas oficiales palabra por palabra.</li>"
   "<li>El RPM y los ingresos son estimaciones generales, no datos de estos canales.</li>"
   "<li>'Video más visto' = el más visto entre los últimos 50 subidos de cada canal.</li>"
   "<li>Los datos crudos están en <code>research/data/nichos-2026-10/</code> (búsquedas, canales, métricas, outliers y videos en CSV/JSON).</li></ul>")
