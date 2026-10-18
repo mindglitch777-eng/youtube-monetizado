@@ -1,0 +1,17 @@
+Ids SIN imagen (hay que generarlos):
+  034 034_b6_afiche_leon.png — El león sale en todas las películas
+  084 084_c_pijama_en_grupo.png — Tu mejor arma era tu gente
+  110 110_c_pijama_recuerda.png — Y vuelvo a tu pijama en la sabana
+  111 111_c_agua_para_ti.png — El agua la conocía alguien
+
+Ids con imagen de confianza media (revisar):
+  007 img_010.jpg — Pijama de pie (no acostado) bajo un sol enorme; el prompt pide acostado de espaldas
+  060 img_067.jpg — Pijama de cuerpo entero encogiéndose de hombros con el pie levantado; el prompt pide primer plano del pie con el corte y la espina
+
+Hojas de personaje (no van en el video; no venían en los zips): 001, 002, 003
+
+Sustituciones usadas en el video:
+  034 → imagen del 089 (león de película contra león vago)
+  084 → imagen del 079 (Pijama con el grupo junto a la fogata)
+  110 → imagen del 074 (Pijama mirando a cámara)
+  111 → imagen del 080 (grupo en el río)
