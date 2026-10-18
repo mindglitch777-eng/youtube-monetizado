@@ -2,19 +2,19 @@ import React from 'react';
 import {AbsoluteFill, Audio, Img, Sequence, interpolate, staticFile, useCurrentFrame, Easing, continueRender, delayRender} from 'remotion';
 
 // Anton (Google Fonts, licencia OFL) servida desde public/ porque el navegador del render no tiene salida directa a Google
-const fontFamily = 'Anton';
+export const fontFamily = 'Anton';
 if (typeof document !== 'undefined') {
   const espera = delayRender('fuente Anton');
   const fuente = new FontFace('Anton', `url(${staticFile('anton.woff2')}) format('woff2')`);
   fuente.load().then((ff) => { (document as any).fonts.add(ff); continueRender(espera); }).catch(() => continueRender(espera));
 }
 const FPS = 30;
-const AMARILLO = '#FFE600';
+export const AMARILLO = '#FFE600';
 
 type Plano = any;
 type TL = {duracion: number; planos: Plano[]; subs: {w: string; ini: number; fin: number}[]; hud: {ini: number; fin: number; abiertos: number}[]};
 
-const trazo = (px: number) => ({
+export const trazo = (px: number) => ({
   WebkitTextStroke: `${px}px #000`,
   paintOrder: 'stroke fill' as const,
   textShadow: `0 ${px / 2}px ${px}px rgba(0,0,0,.55)`,
@@ -93,7 +93,7 @@ const Numero: React.FC<{p: Plano; dur: number; formato: string}> = ({p, dur, for
 };
 
 // ---------------------------------------------------------------- candados y reloj
-const ICONOS = ['gota', 'ojo', 'fruto', 'luna', 'lanza', 'espina', 'fantasma'];
+export const ICONOS = ['gota', 'ojo', 'fruto', 'luna', 'lanza', 'espina', 'fantasma'];
 const Icono: React.FC<{tipo: string}> = ({tipo}) => {
   switch (tipo) {
     case 'gota': return <path d="M0,-26 C10,-10 16,0 16,9 A16,16 0 0 1 -16,9 C-16,0 -10,-10 0,-26Z" fill="#3fa2f0" stroke="#000" strokeWidth={3} />;
@@ -106,7 +106,7 @@ const Icono: React.FC<{tipo: string}> = ({tipo}) => {
   }
 };
 
-const Candado: React.FC<{i: number; abierto: number; x: number; y: number; s: number}> = ({i, abierto, x, y, s}) => {
+export const Candado: React.FC<{i: number; abierto: number; x: number; y: number; s: number}> = ({i, abierto, x, y, s}) => {
   const fantasma = i === 6 && abierto < 0.5;
   const sube = -26 * abierto;
   return (
@@ -177,7 +177,7 @@ const Hud: React.FC<{abiertos: number}> = ({abiertos}) => (
 );
 
 // ---------------------------------------------------------------- tarjetas de datos
-const Personita: React.FC<{color: string}> = ({color}) => (
+export const Personita: React.FC<{color: string}> = ({color}) => (
   <svg width={90} height={150} viewBox="0 0 90 150">
     <circle cx={45} cy={30} r={24} fill={color} stroke="#000" strokeWidth={5} />
     <path d="M12,145 V80 Q12,58 45,58 Q78,58 78,80 V145Z" fill={color} stroke="#000" strokeWidth={5} />
@@ -311,7 +311,7 @@ const Cta: React.FC<{p: Plano; dur: number; formato: string}> = () => {
 
 // ---------------------------------------------------------------- subtítulos palabra por palabra
 type Linea = {palabras: {w: string; ini: number; fin: number}[]; ini: number; fin: number};
-const agrupar = (subs: TL['subs']): Linea[] => {
+export const agrupar = (subs: TL['subs']): Linea[] => {
   const out: Linea[] = [];
   let cur: Linea | null = null;
   subs.forEach((w, k) => {

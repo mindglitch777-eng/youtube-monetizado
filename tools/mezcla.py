@@ -33,7 +33,7 @@ def main(tl_path, out_path):
     mus = np.zeros(n, np.float32)
     # voz
     for v in tl["voz"]:
-        a = leer(R / f"work/voz/{v['n']:03d}.mp3")
+        a = leer(R / (v["archivo"] if "archivo" in v else f"work/voz/{v['n']:03d}.mp3"))
         s0 = int(v["src_ini"] * SR)
         seg = a[s0:s0 + int(v["dur"] * SR)]
         f = int(0.01 * SR)
