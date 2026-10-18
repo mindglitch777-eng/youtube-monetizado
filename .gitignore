@@ -1,1 +1,8 @@
 __pycache__/
+# derivados pesados del video (se regeneran con tools/)
+work/img16/
+work/img916/
+assets/img/
+remotion/node_modules/
+remotion/public/
+out/
