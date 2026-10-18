@@ -1,1 +1,1 @@
-{"n": 63, "texto": "El sol se va.", "voz": "es-MX-JorgeNeural", "rate": "-5%", "palabras": [{"w": "El", "ini": 0.102625, "fin": 0.339458}, {"w": "sol", "ini": 0.352625, "fin": 0.628958}, {"w": "se", "ini": 0.642125, "fin": 0.8}, {"w": "va", "ini": 0.813166, "fin": 1.128957}]}
+{"n": 63, "texto": "El sol se va.", "voz": "es-MX-JorgeNeural", "rate": "+8%", "palabras": [{"w": "El", "ini": 0.096291, "fin": 0.304624}, {"w": "sol", "ini": 0.316208, "fin": 0.559249}, {"w": "se", "ini": 0.570833, "fin": 0.709708}, {"w": "va", "ini": 0.721291, "fin": 0.999082}]}
