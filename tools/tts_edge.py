@@ -10,14 +10,16 @@ from pathlib import Path
 import edge_tts
 
 R = Path(__file__).resolve().parent.parent
-cfg = json.loads((R / "work/voz_lineas.json").read_text())
-OUT = R / "work/voz"
+import os
+cfg = json.loads((R / os.environ.get("TTS_CFG", "work/voz_lineas.json")).read_text())
+OUT = R / os.environ.get("TTS_OUT", "work/voz")
 OUT.mkdir(parents=True, exist_ok=True)
 rate = sys.argv[1] if len(sys.argv) > 1 else cfg["rate"]
 
 
 async def una(l):
-    mp3, js = OUT / f"{l['n']:03d}.mp3", OUT / f"{l['n']:03d}.json"
+    nom = f"{l['n']:03d}" if isinstance(l["n"], int) else str(l["n"])
+    mp3, js = OUT / f"{nom}.mp3", OUT / f"{nom}.json"
     try:
         com = edge_tts.Communicate(l["texto_tts"], cfg["voz"], rate=rate, boundary="WordBoundary")
     except TypeError:

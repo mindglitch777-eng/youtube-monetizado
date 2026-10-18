@@ -1,0 +1,39 @@
+name: Voz extra de los Shorts (edge-tts)
+
+# Graba las frases nuevas de los Shorts (ganchos y cliffhangers) con la misma
+# voz y velocidad del video largo, y commitea work/voz_extra/.
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - work/voz_extra.json
+
+permissions:
+  contents: write
+
+jobs:
+  voz:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -U edge-tts
+      - name: Generar voz extra
+        env:
+          TTS_CFG: work/voz_extra.json
+          TTS_OUT: work/voz_extra
+        run: |
+          rm -rf work/voz_extra
+          python3 tools/tts_edge.py
+      - name: Commitear
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add work/voz_extra
+          git commit -m "Voz extra de los Shorts generada con edge-tts" || echo "sin cambios"
+          git pull --rebase origin ${{ github.ref_name }} || true
+          git push
