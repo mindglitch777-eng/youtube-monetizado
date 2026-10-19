@@ -4,7 +4,7 @@
 
 Etiquetas: **MEDIDO** = sale de la API de YouTube (datos guardados en `research/data/ideas-2026-10/`). **ESTIMADO** = cálculo o lectura nuestra a partir de datos. **OPINIÓN** = criterio, no dato.
 
-Qué se hizo: 85 búsquedas en YouTube (20 ideas × 4 búsquedas, más 5 extra), videos de 4 a 20 minutos publicados en los últimos 24 meses. Con eso se midieron **2.857 videos** y **2.011 canales**; se leyeron **3.538 comentarios** de 40 videos ganadores; se miraron **32 miniaturas** y se analizaron 5 videos completos con Gemini.
+Qué se hizo: 92 búsquedas en YouTube en dos días (20 ideas × 4 búsquedas, más 12 extra), sobre todo de videos de 4 a 20 minutos (2 de las extra buscaron videos de más de 20) publicados en los últimos 24 meses. Con eso se midieron **3.110 videos** y **2.190 canales**; se leyeron **3.538 comentarios** de 40 videos ganadores; se miraron **32 miniaturas** y se analizaron 5 videos completos con Gemini.
 
 ## 1. Resumen en 8 líneas
 
@@ -14,7 +14,7 @@ Qué se hizo: 85 búsquedas en YouTube (20 ideas × 4 búsquedas, más 5 extra),
 4. **"¿Qué hacían todo el día antes de que existiera el trabajo?" es la idea con la que la gente más se identifica.** Tiene 14,7 millones y 3,4 millones de vistas en inglés, y los comentarios hablan del lunes en la oficina. (MEDIDO)
 5. **"Los peores años para estar vivo" también está probada en español:** un video sobre el año 536 tiene **{{v:FmWT7h9O320}} vistas** en un canal de 5.910 suscriptores. (MEDIDO)
 6. **Descartar por ahora:** vikingos, piratas, soldados, medicina, pareja y mitos. En español casi no hay ganadores de canales chicos con esos temas. (MEDIDO + OPINIÓN)
-7. **Los ganadores duran unos 14 minutos** (mediana), el doble que nuestro primer video. Además, 95 de los 131 ganadores eran de canales de menos de un año. (MEDIDO)
+7. **Los ganadores duran unos 15 minutos** (mediana), el doble que nuestro primer video. Además, 103 de los 146 ganadores eran de canales de menos de un año. (MEDIDO)
 8. **Lo que la gente castiga en los comentarios:** voz de IA que pronuncia mal, imágenes que se repiten, música alta y errores de historia. (MEDIDO en comentarios)
 
 ## 2. Tabla de las ideas (20 tuyas + 2 nuevas)
@@ -30,7 +30,7 @@ Un video es **ganador** si tiene al menos 10 veces más vistas que suscriptores 
 
 {{TABLA}}
 
-Veredicto: **hacer** si el puntaje es 7,5 o más, **probar** entre 6,8 y 7,5, **descartar** por debajo de 6,8. La idea 9 (viajar con el celular) y la 20 (primer día hora por hora) tienen poca demanda medible, pero son la premisa del canal. Conviene usarlas **como forma de contar** (Pijama cae en el pasado, contado hora por hora), no como temas sueltos.
+Veredicto: **hacer** si el puntaje es 7,5 o más, **probar** entre 6,8 y 7,5, **descartar** por debajo de 6,8. La idea 9 (viajar con el celular) y la 20 (primer día hora por hora) tienen poca demanda medible, pero son la premisa del canal. "Una persona de hoy en el pasado" casi no existe en YouTube: la búsqueda en español no trajo nada y la de inglés trajo 1 video con 20 vistas (MEDIDO). Tampoco hay en español ningún "¿cuánto durarías…?" de historia que haya ganado: los que ganan son de Minecraft o Skibidi Toilet (MEDIDO). Conviene usarlas **como forma de contar** (Pijama cae en el pasado, contado hora por hora), no como temas sueltos.
 
 ### Matriz de viralidad (OPINIÓN, de 1 a 10)
 
@@ -162,7 +162,7 @@ Veredicto: **hacer** si el puntaje es 7,5 o más, **probar** entre 6,8 y 7,5, **
 - **Gancho:** "Son las 5 de la tarde y el sol ya se fue. Hace −30 °C. Y tú estás descalzo, en pijama."
 - **Estructura: "cuenta atrás de la noche".** Va de la puesta de sol al amanecer con el termómetro bajando en pantalla. Cada hora trae un problema y un truco: refugio, fuego, pieles, dormir juntos, perros. Al amanecer, ¿sobrevivió Pijama?
 - **Miniatura:** Pijama azul de frío y escarcha en el pijama, con "−30 °C" gigante.
-- **Riesgo:** hay mucha competencia (85 videos en español, de 63 canales) y los likes de los ganadores son bajos. (MEDIDO)
+- **Riesgo:** hay mucha competencia (94 videos en español, de 70 canales) y los likes de los ganadores son bajos. (MEDIDO)
 
 ### 6) Ir al baño, bañarse y dormir en el pasado (idea 12) — PROBAR
 
@@ -233,11 +233,11 @@ Veredicto: **hacer** si el puntaje es 7,5 o más, **probar** entre 6,8 y 7,5, **
 
 ## 4. Qué tienen en común los videos ganadores
 
-Los datos son de los 131 ganadores que tocan alguna de las ideas (MEDIDO) y de 32 miniaturas mirando una por una (MEDIDO, conteo a ojo).
+Los datos son de los 146 ganadores que tocan alguna de las ideas (MEDIDO) y de 32 miniaturas mirando una por una (MEDIDO, conteo a ojo).
 
 **Títulos**
 - Mediana de 11 palabras.
-- 53 de 131 son preguntas (40 %), 39 llevan un número (30 %) y 26 tienen alguna palabra en mayúsculas.
+- 58 de 146 son preguntas (40 %), 42 llevan un número (29 %) y 28 tienen alguna palabra en mayúsculas.
 - Moldes que se repiten:
   - "¿Cómo [hacían X] sin [algo de hoy]?"
   - "¿Cuánto durarías en cada…?"
@@ -248,10 +248,11 @@ Los datos son de los 131 ganadores que tocan alguna de las ideas (MEDIDO) y de 3
 **Duración**
 - La mediana de los ganadores es de **13,9 minutos** (14,9 en español). Nuestro primer video dura 7 minutos.
 - Regla: apuntar a **10–15 minutos** en el video largo. (MEDIDO → OPINIÓN)
+- Los videos muy largos también ganan: 27 de los 146 ganadores duran más de 20 minutos (15 en español). En español hay recopilaciones de 44 y 56 minutos sobre los primeros humanos con 818.844 y 600.652 vistas en canales de unos 15.500 suscriptores. Idea: cuando haya 4 o 5 videos de Pijama, subir una recopilación de 1 hora "para dormir" sin hacer nada nuevo. (MEDIDO + OPINIÓN)
 
 **Canales**
-- 95 de 131 ganadores eran de canales de **menos de un año**. La mediana de edad del canal al publicar era de 103 días. Un canal nuevo puede ganar. (MEDIDO)
-- 70 de los 131 se publicaron en los últimos 6 meses: el nicho está vivo. (MEDIDO)
+- 103 de 146 ganadores eran de canales de **menos de un año**. La mediana de edad del canal al publicar era de 117 días. Un canal nuevo puede ganar. (MEDIDO)
+- 77 de los 146 se publicaron en los últimos 6 meses: el nicho está vivo. (MEDIDO)
 
 **Gancho**
 - Los 5 videos analizados con Gemini abren con una **pregunta** o una **escena en segunda persona** ("Te despiertas y…").
@@ -272,7 +273,7 @@ Los datos son de los 131 ganadores que tocan alguna de las ideas (MEDIDO) y de 3
 5. **No repetir imágenes y mantener la música baja.** Son las dos quejas con más likes en un video ganador en español: 866 likes por música y transiciones, 388 y 286 likes por imágenes repetidas. (MEDIDO)
 6. Revisar la pronunciación de la voz (nombres, la Ñ) y poner las fuentes en la descripción. Hubo un pedido explícito de bibliografía. (MEDIDO)
 
-**Ojo con los likes:** 16 de los 131 ganadores tienen menos de 0,5 likes cada 100 vistas, y la mediana es de 1,1. Casi todos son canales chicos de dibujo con "cómo sobrevivían…". Puede ser que YouTube los recomiende a gente que los mira de fondo o para dormir. No sabemos si también hay publicidad paga. (ESTIMADO) Esas vistas son reales, pero ese público es menos fiel.
+**Ojo con los likes:** 20 de los 146 ganadores tienen menos de 0,5 likes cada 100 vistas, y la mediana es de 1,1. Casi todos son canales chicos de dibujo con "cómo sobrevivían…". Puede ser que YouTube los recomiende a gente que los mira de fondo o para dormir. No sabemos si también hay publicidad paga. (ESTIMADO) Esas vistas son reales, pero ese público es menos fiel.
 
 ## 5. Orden recomendado de los próximos 6 videos
 
@@ -305,8 +306,8 @@ Todos son pedidos o preguntas reales (MEDIDO); la idea de video que sale de cada
 ## 7. Límites (lo que este estudio no puede decir)
 
 - **Sesgo de supervivencia:** la búsqueda de YouTube muestra sobre todo lo que ya ganó. Los fracasos que contamos son los que aparecieron, y hay muchos más que no.
-- **Solo 85 búsquedas:** además de las 10.000 unidades por día, YouTube corta en unas 85 búsquedas diarias. Por eso quedaron 7 búsquedas extra para mañana: "cuánto durarías", "why you wouldn't survive", persona moderna en el pasado y videos de más de 20 minutos.
-- **Duración:** se buscaron videos de 4 a 20 minutos. Los de más de 20 entran solo los que ya teníamos de la ronda anterior.
+- **Búsquedas limitadas:** además de las 10.000 unidades por día, YouTube corta en unas 85 búsquedas diarias. Por eso se hicieron 85 un día y 7 al día siguiente. Las 7 del segundo día no cambiaron qué ideas hacer.
+- **Duración:** casi todo se buscó entre 4 y 20 minutos. De videos de más de 20 hay solo 2 búsquedas y lo que traía la ronda anterior.
 - **Clasificación por título:** decidí a qué idea pertenece cada video por palabras del título, con una lista de exclusión para juegos, anime, ficción, etc. Algún video puede estar mal asignado. Las fichas se revisaron a mano.
 - **Idioma y traducciones:** el idioma sale de lo que declara el canal o, si no declara, de las palabras del título. "Posible traducción" es una pista (país del canal), no una prueba.
 - **No se puede medir:** el CTR, la retención y los ingresos de otros canales, ni si un video tuvo publicidad paga.

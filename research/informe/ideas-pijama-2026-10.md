@@ -4,7 +4,7 @@
 
 Etiquetas: **MEDIDO** = sale de la API de YouTube (datos guardados en `research/data/ideas-2026-10/`). **ESTIMADO** = cálculo o lectura nuestra a partir de datos. **OPINIÓN** = criterio, no dato.
 
-Qué se hizo: 85 búsquedas en YouTube (20 ideas × 4 búsquedas, más 5 extra), videos de 4 a 20 minutos publicados en los últimos 24 meses. Con eso se midieron **2.857 videos** y **2.011 canales**; se leyeron **3.538 comentarios** de 40 videos ganadores; se miraron **32 miniaturas** y se analizaron 5 videos completos con Gemini.
+Qué se hizo: 92 búsquedas en YouTube en dos días (20 ideas × 4 búsquedas, más 12 extra), sobre todo de videos de 4 a 20 minutos (2 de las extra buscaron videos de más de 20) publicados en los últimos 24 meses. Con eso se midieron **3.110 videos** y **2.190 canales**; se leyeron **3.538 comentarios** de 40 videos ganadores; se miraron **32 miniaturas** y se analizaron 5 videos completos con Gemini.
 
 ## 1. Resumen en 8 líneas
 
@@ -14,7 +14,7 @@ Qué se hizo: 85 búsquedas en YouTube (20 ideas × 4 búsquedas, más 5 extra),
 4. **"¿Qué hacían todo el día antes de que existiera el trabajo?" es la idea con la que la gente más se identifica.** Tiene 14,7 millones y 3,4 millones de vistas en inglés, y los comentarios hablan del lunes en la oficina. (MEDIDO)
 5. **"Los peores años para estar vivo" también está probada en español:** un video sobre el año 536 tiene **1.145.991 vistas** en un canal de 5.910 suscriptores. (MEDIDO)
 6. **Descartar por ahora:** vikingos, piratas, soldados, medicina, pareja y mitos. En español casi no hay ganadores de canales chicos con esos temas. (MEDIDO + OPINIÓN)
-7. **Los ganadores duran unos 14 minutos** (mediana), el doble que nuestro primer video. Además, 95 de los 131 ganadores eran de canales de menos de un año. (MEDIDO)
+7. **Los ganadores duran unos 15 minutos** (mediana), el doble que nuestro primer video. Además, 103 de los 146 ganadores eran de canales de menos de un año. (MEDIDO)
 8. **Lo que la gente castiga en los comentarios:** voz de IA que pronuncia mal, imágenes que se repiten, música alta y errores de historia. (MEDIDO en comentarios)
 
 ## 2. Tabla de las ideas (20 tuyas + 2 nuevas)
@@ -31,16 +31,16 @@ Un video es **ganador** si tiene al menos 10 veces más vistas que suscriptores 
 | # | Idea | Matriz (OPINIÓN) | Demanda | Competencia | Canales chicos | Pijama | **Final** | Videos ES / canales | Veredicto |
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | Cuánto durarías en cada época de la humanidad (idea 4) | 8.4 | 10 | 9.2 | 3.0 | 10 | **8.19** | 12 / 12 | ✅ HACER |
-| 2 | Cómo aguantaban calor, frío o bichos sin nada moderno (idea nueva) (idea 22) | 7.6 | 8.5 | 5.5 | 10 | 9 | **7.99** | 68 / 62 | ✅ HACER |
+| 2 | Cómo aguantaban calor, frío o bichos sin nada moderno (idea nueva) (idea 22) | 7.6 | 8.5 | 5.3 | 10 | 9 | **7.96** | 71 / 64 | ✅ HACER |
 | 3 | Los peores años para estar vivo (idea nueva) (idea 21) | 7.9 | 10.0 | 9.0 | 4.0 | 8 | **7.81** | 15 / 15 | ✅ HACER |
-| 4 | Un día completo en una aldea de hace 10.000 años (idea 3) | 7.6 | 10 | 7.4 | 4.5 | 9 | **7.67** | 39 / 36 | ✅ HACER |
-| 5 | Una noche a −30 °C en la Edad de Hielo (idea 1) | 7.0 | 8.8 | 4.3 | 10 | 8 | **7.46** | 85 / 63 | 🟡 PROBAR |
-| 6 | Ir al baño, bañarse y dormir en el pasado (idea 12) | 7.6 | 8.1 | 1.3 | 10 | 9 | **7.3** | 131 / 112 | 🟡 PROBAR |
+| 4 | Un día completo en una aldea de hace 10.000 años (idea 3) | 7.6 | 10 | 6.0 | 5.5 | 9 | **7.61** | 60 / 57 | ✅ HACER |
+| 5 | Ir al baño, bañarse y dormir en el pasado (idea 12) | 7.6 | 8.9 | 1.3 | 10 | 9 | **7.42** | 131 / 112 | 🟡 PROBAR |
+| 6 | Una noche a −30 °C en la Edad de Hielo (idea 1) | 7.0 | 8.8 | 3.7 | 10 | 8 | **7.38** | 94 / 70 | 🟡 PROBAR |
 | 7 | Qué comerías en la Edad de Piedra / Edad Media (idea 11) | 6.9 | 7.6 | 4.4 | 10 | 8 | **7.26** | 84 / 70 | 🟡 PROBAR |
 | 8 | Cuánto durarías en el Imperio Azteca / Inca (idea 15) | 7.1 | 8.3 | 3.3 | 10 | 7 | **7.13** | 101 / 86 | 🟡 PROBAR |
-| 9 | Qué pasaría si viajaras al pasado con tu celular (idea 9) | 7.1 | 8.8 | 9.5 | 1.0 | 9 | **7.08** | 7 / 6 | 🟡 PROBAR |
-| 10 | Qué trabajo tendrías en una tribu prehistórica (idea 10) | 6.8 | 9.1 | 9.6 | 2.0 | 8 | **7.03** | 6 / 6 | 🟡 PROBAR |
-| 11 | Tu primer día en el pasado hora por hora (idea 20) | 7.6 | 7.6 | 6.3 | 2.5 | 10 | **7.0** | 55 / 51 | 🟡 PROBAR |
+| 9 | Qué trabajo tendrías en una tribu prehistórica (idea 10) | 6.8 | 9.1 | 9.1 | 3.0 | 8 | **7.1** | 13 / 13 | 🟡 PROBAR |
+| 10 | Qué pasaría si viajaras al pasado con tu celular (idea 9) | 7.1 | 8.8 | 9.5 | 1.0 | 9 | **7.08** | 7 / 6 | 🟡 PROBAR |
+| 11 | Tu primer día en el pasado hora por hora (idea 20) | 7.6 | 7.6 | 6.3 | 3.0 | 10 | **7.08** | 55 / 51 | 🟡 PROBAR |
 | 12 | Así morirías en la Edad Media (idea 5) | 7.1 | 8.6 | 1 | 10 | 8 | **6.98** | 262 / 172 | 🟡 PROBAR |
 | 13 | Cuánto durarías en el Antiguo Egipto (idea 6) | 6.8 | 8.3 | 4.2 | 7.5 | 7 | **6.77** | 87 / 83 | ❌ DESCARTAR |
 | 14 | La peor profesión de la historia (idea 19) | 7.0 | 8.9 | 7.6 | 2.5 | 7 | **6.7** | 36 / 36 | ❌ DESCARTAR |
@@ -49,11 +49,11 @@ Un video es **ganador** si tiene al menos 10 veces más vistas que suscriptores 
 | 17 | Mitos de la prehistoria que son mentira (idea 17) | 6.6 | 7.2 | 7.7 | 2.0 | 7 | **6.22** | 35 / 35 | ❌ DESCARTAR |
 | 18 | Cuánto durarías siendo un vikingo (idea 8) | 6.4 | 7.9 | 6.0 | 3.0 | 7 | **6.15** | 60 / 57 | ❌ DESCARTAR |
 | 19 | Cuánto durarías de pirata (idea 14) | 6.3 | 8.8 | 7.4 | 2.0 | 6 | **6.15** | 39 / 34 | ❌ DESCARTAR |
-| 20 | Cuánto durarías como soldado antiguo (idea 16) | 6.4 | 7.1 | 4.6 | 2.5 | 6 | **5.59** | 81 / 72 | ❌ DESCARTAR |
-| 21 | Qué hacían cuando se enfermaban (medicina prehistórica) (idea 2) | 5.8 | 7.2 | 7.1 | 1.0 | 6 | **5.52** | 43 / 43 | ❌ DESCARTAR |
+| 20 | Cuánto durarías como soldado antiguo (idea 16) | 6.4 | 10 | 4.5 | 2.5 | 6 | **6.01** | 82 / 73 | ❌ DESCARTAR |
+| 21 | Qué hacían cuando se enfermaban (medicina prehistórica) (idea 2) | 5.8 | 7.2 | 7.1 | 2.0 | 6 | **5.66** | 44 / 44 | ❌ DESCARTAR |
 | 22 | Cómo se ligaba o se vivía en pareja en el pasado (idea 18) | 5.9 | 5.6 | 6.8 | 2.0 | 6 | **5.42** | 48 / 43 | ❌ DESCARTAR |
 
-Veredicto: **hacer** si el puntaje es 7,5 o más, **probar** entre 6,8 y 7,5, **descartar** por debajo de 6,8. La idea 9 (viajar con el celular) y la 20 (primer día hora por hora) tienen poca demanda medible, pero son la premisa del canal. Conviene usarlas **como forma de contar** (Pijama cae en el pasado, contado hora por hora), no como temas sueltos.
+Veredicto: **hacer** si el puntaje es 7,5 o más, **probar** entre 6,8 y 7,5, **descartar** por debajo de 6,8. La idea 9 (viajar con el celular) y la 20 (primer día hora por hora) tienen poca demanda medible, pero son la premisa del canal. "Una persona de hoy en el pasado" casi no existe en YouTube: la búsqueda en español no trajo nada y la de inglés trajo 1 video con 20 vistas (MEDIDO). Tampoco hay en español ningún "¿cuánto durarías…?" de historia que haya ganado: los que ganan son de Minecraft o Skibidi Toilet (MEDIDO). Conviene usarlas **como forma de contar** (Pijama cae en el pasado, contado hora por hora), no como temas sueltos.
 
 ### Matriz de viralidad (OPINIÓN, de 1 a 10)
 
@@ -63,12 +63,12 @@ Veredicto: **hacer** si el puntaje es 7,5 o más, **probar** entre 6,8 y 7,5, **
 | 22. Cómo aguantaban calor, frío o bichos s | 8 | 8 | 8 | 8 | 6 | 7 | 5 | 8 | 10 | 8 | Idea nueva de los datos: 'cómo aguantaban X sin nada moderno' (calor, frío, mosquitos) gana una y otra vez en canales chicos. |
 | 21. Los peores años para estar vivo (idea  | 9 | 8 | 8 | 6 | 8 | 8 | 6 | 8 | 9 | 9 | Idea nueva de los datos: 9,7 millones en inglés y 1,1 millones en español (536 d.C.) en canal de 5.900 subs. |
 | 3. Un día completo en una aldea de hace 1 | 8 | 8 | 8 | 9 | 6 | 8 | 5 | 8 | 8 | 8 | Compararse con un cazador ('¿y si vivías mejor sin trabajo?') genera miles de comentarios; Pijama con su lunes de oficina encaja perfecto. |
-| 1. Una noche a −30 °C en la Edad de Hielo | 8 | 6 | 7 | 6 | 7 | 6 | 5 | 9 | 8 | 8 | Pijama descalzo a -30 °C es una imagen fuerte y graciosa; el tema ya rinde en canales chicos en español. |
 | 12. Ir al baño, bañarse y dormir en el pas | 8 | 8 | 8 | 8 | 6 | 8 | 5 | 8 | 9 | 8 | Baño, higiene y dormir: 12 ganadores en canales chicos en español; asco + risa; da para serie. |
+| 1. Una noche a −30 °C en la Edad de Hielo | 8 | 6 | 7 | 6 | 7 | 6 | 5 | 9 | 8 | 8 | Pijama descalzo a -30 °C es una imagen fuerte y graciosa; el tema ya rinde en canales chicos en español. |
 | 11. Qué comerías en la Edad de Piedra / Ed | 7 | 7 | 7 | 7 | 6 | 7 | 5 | 8 | 8 | 7 | Comida asquerosa del pasado + Pijama probándola = humor; 6 ganadores en canales chicos en español. |
 | 15. Cuánto durarías en el Imperio Azteca / | 8 | 7 | 7 | 7 | 7 | 7 | 5 | 8 | 7 | 8 | Azteca/Inca: 14 ganadores en canales chicos en español (público latino), pero los comentarios castigan errores históricos. |
-| 9. Qué pasaría si viajaras al pasado con  | 8 | 8 | 8 | 8 | 6 | 7 | 5 | 8 | 7 | 6 | Gancho fuerte y muy Pijama, pero casi no hay videos medibles: no se puede saber si la gente lo busca. |
 | 10. Qué trabajo tendrías en una tribu preh | 7 | 7 | 7 | 9 | 5 | 8 | 5 | 7 | 7 | 6 | La versión que gana es 'qué hacían todo el día antes de que existiera el trabajo' (se junta con la idea 3). |
+| 9. Qué pasaría si viajaras al pasado con  | 8 | 8 | 8 | 8 | 6 | 7 | 5 | 8 | 7 | 6 | Gancho fuerte y muy Pijama, pero casi no hay videos medibles: no se puede saber si la gente lo busca. |
 | 20. Tu primer día en el pasado hora por ho | 8 | 7 | 8 | 8 | 7 | 7 | 6 | 9 | 8 | 8 | Es más una estructura (hora por hora) que un tema; los videos 'despertaste en la prehistoria' casi no tienen vistas. |
 | 5. Así morirías en la Edad Media | 8 | 7 | 7 | 7 | 7 | 7 | 5 | 8 | 7 | 8 | Funciona, pero hay mucha competencia en español y repetiría la plantilla de '7 formas de morir'. |
 | 6. Cuánto durarías en el Antiguo Egipto | 7 | 7 | 7 | 6 | 6 | 6 | 5 | 8 | 8 | 8 | Egipto atrae; lo que mejor rinde no es 'cuánto durarías' sino 'cómo aguantaban 50 °C sin aire acondicionado'. |
@@ -118,7 +118,7 @@ Veredicto: **hacer** si el puntaje es 7,5 o más, **probar** entre 6,8 y 7,5, **
 
 - **¿Ya existe en español?** Parecidos, sí (MEDIDO):
   - [¿Cómo dormían los antiguos egipcios ante el calor del desierto sin aire acondicionado?](https://www.youtube.com/watch?v=bWL9hh4JtGY) — **460.965 vistas**, canal de 970 subs, 21/09/2026
-  - [¿Cómo Sobrevivían al Frío los Humanos Prehistóricos Mientras Dormían?](https://www.youtube.com/watch?v=4APj-KV0liA) — **213.871 vistas**, canal de 6.780 subs, 15/09/2026
+  - [¿Cómo Sobrevivían al Frío los Humanos Prehistóricos Mientras Dormían?](https://www.youtube.com/watch?v=4APj-KV0liA) — **253.806 vistas**, canal de 6.780 subs, 15/09/2026
   - [¿Cómo Dormía La Gente En Los Castillos Medievales Sin Morir Congelada?](https://www.youtube.com/watch?v=b2KwMiW-9NU) — **1.697.785 vistas**, canal de 47.100 subs, 20/07/2025
   
   Varios títulos en español son traducciones casi literales de videos en inglés de este mismo estilo de dibujo. (ESTIMADO)
@@ -170,7 +170,7 @@ Veredicto: **hacer** si el puntaje es 7,5 o más, **probar** entre 6,8 y 7,5, **
 ### 4) Qué hacían todo el día antes de que existiera el trabajo (ideas 3 y 10 juntas) — HACER
 
 - **¿Ya existe en español?** Sí (MEDIDO):
-  - [¿Qué hacían realmente los humanos antiguos todo el día?](https://www.youtube.com/watch?v=UATMaN127NE) — **472.656 vistas**, canal de 10.400 subs, 30/08/2026
+  - [¿Qué hacían realmente los humanos antiguos todo el día?](https://www.youtube.com/watch?v=UATMaN127NE) — **488.441 vistas**, canal de 12.400 subs, 30/08/2026
   - [¿Qué Hacían los Cavernícolas Todo el Día Antes de que Existiera el Trabajo?](https://www.youtube.com/watch?v=FUuFtr-ndok) — **145.669 vistas**, canal de 7.730 subs, 22/05/2026
   - [¿Qué Hacían Realmente Los CAVERNÍCOLAS Todo El Día? La Rutina Que No Te Imaginas.](https://www.youtube.com/watch?v=2g_FWZ4ixWo) — **56.207 vistas**, canal de 7.730 subs, 26/05/2026
 - **Referencias ganadoras:**
@@ -208,13 +208,13 @@ Veredicto: **hacer** si el puntaje es 7,5 o más, **probar** entre 6,8 y 7,5, **
 - **Gancho:** "Son las 5 de la tarde y el sol ya se fue. Hace −30 °C. Y tú estás descalzo, en pijama."
 - **Estructura: "cuenta atrás de la noche".** Va de la puesta de sol al amanecer con el termómetro bajando en pantalla. Cada hora trae un problema y un truco: refugio, fuego, pieles, dormir juntos, perros. Al amanecer, ¿sobrevivió Pijama?
 - **Miniatura:** Pijama azul de frío y escarcha en el pijama, con "−30 °C" gigante.
-- **Riesgo:** hay mucha competencia (85 videos en español, de 63 canales) y los likes de los ganadores son bajos. (MEDIDO)
+- **Riesgo:** hay mucha competencia (94 videos en español, de 70 canales) y los likes de los ganadores son bajos. (MEDIDO)
 
 ### 6) Ir al baño, bañarse y dormir en el pasado (idea 12) — PROBAR
 
 - **¿Ya existe en español?** Sí (MEDIDO):
   - [¿CÓMO SE LIMPIABAN EL TRASERO EN LA EDAD MEDIA?](https://www.youtube.com/watch?v=9ULO12K5r3E) — **758.341 vistas**, canal de 988.000 subs, 21/02/2025
-  - [¿Cómo Era un Día Completo en la Edad Media? | Historia Para Dormir](https://www.youtube.com/watch?v=3uBP9QaWfPM) — **1.104.486 vistas**, canal de 14.700 subs, 10/01/2026 (dura 150 minutos: es para dormir)
+  - [¿Cómo Era un Día Completo en la Edad Media? | Historia Para Dormir](https://www.youtube.com/watch?v=3uBP9QaWfPM) — **1.104.486 vistas**, canal de 14.800 subs, 10/01/2026 (dura 150 minutos: es para dormir)
 - **Referencias ganadoras:**
   - [1348: No Showers, No Toilet Paper – Life in the Middle Ages](https://www.youtube.com/watch?v=1ikf4ztFPQg) — **996.179 vistas**, canal de 12.100 subs, 06/02/2026
   - [¿Cómo dormían los antiguos egipcios ante el calor del desierto sin aire acondicionado?](https://www.youtube.com/watch?v=bWL9hh4JtGY) — **460.965 vistas**, canal de 970 subs, 21/09/2026
@@ -279,11 +279,11 @@ Veredicto: **hacer** si el puntaje es 7,5 o más, **probar** entre 6,8 y 7,5, **
 
 ## 4. Qué tienen en común los videos ganadores
 
-Los datos son de los 131 ganadores que tocan alguna de las ideas (MEDIDO) y de 32 miniaturas mirando una por una (MEDIDO, conteo a ojo).
+Los datos son de los 146 ganadores que tocan alguna de las ideas (MEDIDO) y de 32 miniaturas mirando una por una (MEDIDO, conteo a ojo).
 
 **Títulos**
 - Mediana de 11 palabras.
-- 53 de 131 son preguntas (40 %), 39 llevan un número (30 %) y 26 tienen alguna palabra en mayúsculas.
+- 58 de 146 son preguntas (40 %), 42 llevan un número (29 %) y 28 tienen alguna palabra en mayúsculas.
 - Moldes que se repiten:
   - "¿Cómo [hacían X] sin [algo de hoy]?"
   - "¿Cuánto durarías en cada…?"
@@ -294,10 +294,11 @@ Los datos son de los 131 ganadores que tocan alguna de las ideas (MEDIDO) y de 3
 **Duración**
 - La mediana de los ganadores es de **13,9 minutos** (14,9 en español). Nuestro primer video dura 7 minutos.
 - Regla: apuntar a **10–15 minutos** en el video largo. (MEDIDO → OPINIÓN)
+- Los videos muy largos también ganan: 27 de los 146 ganadores duran más de 20 minutos (15 en español). En español hay recopilaciones de 44 y 56 minutos sobre los primeros humanos con 818.844 y 600.652 vistas en canales de unos 15.500 suscriptores. Idea: cuando haya 4 o 5 videos de Pijama, subir una recopilación de 1 hora "para dormir" sin hacer nada nuevo. (MEDIDO + OPINIÓN)
 
 **Canales**
-- 95 de 131 ganadores eran de canales de **menos de un año**. La mediana de edad del canal al publicar era de 103 días. Un canal nuevo puede ganar. (MEDIDO)
-- 70 de los 131 se publicaron en los últimos 6 meses: el nicho está vivo. (MEDIDO)
+- 103 de 146 ganadores eran de canales de **menos de un año**. La mediana de edad del canal al publicar era de 117 días. Un canal nuevo puede ganar. (MEDIDO)
+- 77 de los 146 se publicaron en los últimos 6 meses: el nicho está vivo. (MEDIDO)
 
 **Gancho**
 - Los 5 videos analizados con Gemini abren con una **pregunta** o una **escena en segunda persona** ("Te despiertas y…").
@@ -318,7 +319,7 @@ Los datos son de los 131 ganadores que tocan alguna de las ideas (MEDIDO) y de 3
 5. **No repetir imágenes y mantener la música baja.** Son las dos quejas con más likes en un video ganador en español: 866 likes por música y transiciones, 388 y 286 likes por imágenes repetidas. (MEDIDO)
 6. Revisar la pronunciación de la voz (nombres, la Ñ) y poner las fuentes en la descripción. Hubo un pedido explícito de bibliografía. (MEDIDO)
 
-**Ojo con los likes:** 16 de los 131 ganadores tienen menos de 0,5 likes cada 100 vistas, y la mediana es de 1,1. Casi todos son canales chicos de dibujo con "cómo sobrevivían…". Puede ser que YouTube los recomiende a gente que los mira de fondo o para dormir. No sabemos si también hay publicidad paga. (ESTIMADO) Esas vistas son reales, pero ese público es menos fiel.
+**Ojo con los likes:** 20 de los 146 ganadores tienen menos de 0,5 likes cada 100 vistas, y la mediana es de 1,1. Casi todos son canales chicos de dibujo con "cómo sobrevivían…". Puede ser que YouTube los recomiende a gente que los mira de fondo o para dormir. No sabemos si también hay publicidad paga. (ESTIMADO) Esas vistas son reales, pero ese público es menos fiel.
 
 ## 5. Orden recomendado de los próximos 6 videos
 
@@ -351,8 +352,8 @@ Todos son pedidos o preguntas reales (MEDIDO); la idea de video que sale de cada
 ## 7. Límites (lo que este estudio no puede decir)
 
 - **Sesgo de supervivencia:** la búsqueda de YouTube muestra sobre todo lo que ya ganó. Los fracasos que contamos son los que aparecieron, y hay muchos más que no.
-- **Solo 85 búsquedas:** además de las 10.000 unidades por día, YouTube corta en unas 85 búsquedas diarias. Por eso quedaron 7 búsquedas extra para mañana: "cuánto durarías", "why you wouldn't survive", persona moderna en el pasado y videos de más de 20 minutos.
-- **Duración:** se buscaron videos de 4 a 20 minutos. Los de más de 20 entran solo los que ya teníamos de la ronda anterior.
+- **Búsquedas limitadas:** además de las 10.000 unidades por día, YouTube corta en unas 85 búsquedas diarias. Por eso se hicieron 85 un día y 7 al día siguiente. Las 7 del segundo día no cambiaron qué ideas hacer.
+- **Duración:** casi todo se buscó entre 4 y 20 minutos. De videos de más de 20 hay solo 2 búsquedas y lo que traía la ronda anterior.
 - **Clasificación por título:** decidí a qué idea pertenece cada video por palabras del título, con una lista de exclusión para juegos, anime, ficción, etc. Algún video puede estar mal asignado. Las fichas se revisaron a mano.
 - **Idioma y traducciones:** el idioma sale de lo que declara el canal o, si no declara, de las palabras del título. "Posible traducción" es una pista (país del canal), no una prueba.
 - **No se puede medir:** el CTR, la retención y los ingresos de otros canales, ni si un video tuvo publicidad paga.

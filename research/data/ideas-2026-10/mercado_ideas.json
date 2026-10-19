@@ -3,22 +3,22 @@
   "idea": 1,
   "nombre": "Una noche a −30 °C en la Edad de Hielo",
   "es": {
-   "videos": 85,
-   "canales": 63,
-   "videos_ultimos_6_meses": 56,
+   "videos": 94,
+   "canales": 70,
+   "videos_ultimos_6_meses": 63,
    "top5_vistas": [
     649197,
-    213871,
-    210829,
-    204689,
-    162382
+    262960,
+    253806,
+    250813,
+    210829
    ],
-   "mediana_vistas": 1394,
-   "videos_100k": 5,
+   "mediana_vistas": 2151,
+   "videos_100k": 9,
    "videos_1M": 0,
-   "ganadores": 12,
-   "ganadores_canal_chico": 12,
-   "fracasos": 23,
+   "ganadores": 16,
+   "ganadores_canal_chico": 16,
+   "fracasos": 24,
    "posibles_traducciones": 6,
    "mejores": [
     {
@@ -34,14 +34,38 @@
      "posible_traduccion": false
     },
     {
+     "id": "dlcKim8B8Eo",
+     "titulo": "¿Cómo Sobrevivieron al Invierno Extremo en la Prehistoria?",
+     "canal": "Desde El Principio",
+     "subs": 103000,
+     "vistas": 262960,
+     "publicado": "2025-01-13",
+     "salto": 2.55,
+     "duracion_min": 25.7,
+     "ganador": false,
+     "posible_traduccion": false
+    },
+    {
      "id": "4APj-KV0liA",
      "titulo": "¿Cómo Sobrevivían al Frío los Humanos Prehistóricos Mientras Dormían?",
      "canal": "KROG",
      "subs": 6780,
-     "vistas": 213871,
+     "vistas": 253806,
      "publicado": "2026-09-15",
-     "salto": 31.54,
+     "salto": 37.43,
      "duracion_min": 27.8,
+     "ganador": true,
+     "posible_traduccion": false
+    },
+    {
+     "id": "-qGFsVUUIyI",
+     "titulo": "La Edad De Hielo: Cómo Los Humanos Sobrevivieron Al Mundo Más Mortal De La Historia | Documental",
+     "canal": "Pedro - La Historia Reconstruida",
+     "subs": 4910,
+     "vistas": 250813,
+     "publicado": "2026-08-14",
+     "salto": 51.08,
+     "duracion_min": 42.7,
      "ganador": true,
      "posible_traduccion": false
     },
@@ -70,50 +94,26 @@
      "posible_traduccion": false
     },
     {
+     "id": "ypT1WDhuY8Q",
+     "titulo": "Hombres de las Cavernas vs la Edad de Hielo: ¿Cómo Sobrevivimos al Frío Más Mortal de la Historia?",
+     "canal": "Relatos De La Prehistoria",
+     "subs": 11200,
+     "vistas": 197785,
+     "publicado": "2025-06-27",
+     "salto": 17.66,
+     "duracion_min": 34.7,
+     "ganador": true,
+     "posible_traduccion": false
+    },
+    {
      "id": "Qnk08Xt-oNQ",
      "titulo": "¿Cómo dormían los humanos antiguos cuando hacía un frío congelante?",
      "canal": "Cronología de la Humanidad",
-     "subs": 6410,
-     "vistas": 162382,
+     "subs": 6740,
+     "vistas": 165092,
      "publicado": "2026-09-11",
-     "salto": 25.33,
+     "salto": 24.49,
      "duracion_min": 27.4,
-     "ganador": true,
-     "posible_traduccion": false
-    },
-    {
-     "id": "-fQKlGx3zlk",
-     "titulo": "Nuestros Ancestros en la Edad de Hielo: ¿Cómo Sobrevivieron al Frío Más Letal de la Historia?",
-     "canal": "Planeta Antiguo",
-     "subs": 67400,
-     "vistas": 89164,
-     "publicado": "2026-04-05",
-     "salto": 1.32,
-     "duracion_min": 48.6,
-     "ganador": false,
-     "posible_traduccion": false
-    },
-    {
-     "id": "bHZ5OmbYkCY",
-     "titulo": " DORMIR EN LA EDAD DE HIELO: Así Sobrevivían a Noches de -30 Grados",
-     "canal": "INTERESTING_04_",
-     "subs": 121,
-     "vistas": 82674,
-     "publicado": "2026-10-06",
-     "salto": 683.26,
-     "duracion_min": 7.7,
-     "ganador": true,
-     "posible_traduccion": false
-    },
-    {
-     "id": "LnWblPR5wtQ",
-     "titulo": "👉 ¿Cómo dormían en la Edad de Hielo sin morir congelados? ❄️🔥",
-     "canal": "Terra Ancestral",
-     "subs": 3230,
-     "vistas": 78867,
-     "publicado": "2025-11-25",
-     "salto": 24.42,
-     "duracion_min": 14.7,
      "ganador": true,
      "posible_traduccion": false
     }
@@ -170,34 +170,34 @@
      "duracion_min": 19.4
     },
     {
+     "id": "-qGFsVUUIyI",
+     "titulo": "La Edad De Hielo: Cómo Los Humanos Sobrevivieron Al Mundo Más Mortal De La Historia | Documental",
+     "canal": "Pedro - La Historia Reconstruida",
+     "subs": 4910,
+     "vistas": 250813,
+     "publicado": "2026-08-14",
+     "salto": 51.08,
+     "duracion_min": 42.7
+    },
+    {
      "id": "4APj-KV0liA",
      "titulo": "¿Cómo Sobrevivían al Frío los Humanos Prehistóricos Mientras Dormían?",
      "canal": "KROG",
      "subs": 6780,
-     "vistas": 213871,
+     "vistas": 253806,
      "publicado": "2026-09-15",
-     "salto": 31.54,
+     "salto": 37.43,
      "duracion_min": 27.8
     },
     {
-     "id": "Qnk08Xt-oNQ",
-     "titulo": "¿Cómo dormían los humanos antiguos cuando hacía un frío congelante?",
-     "canal": "Cronología de la Humanidad",
-     "subs": 6410,
-     "vistas": 162382,
-     "publicado": "2026-09-11",
-     "salto": 25.33,
-     "duracion_min": 27.4
-    },
-    {
-     "id": "Ag42AAniNW4",
-     "titulo": "¿Cómo Aguantaban los Inviernos Brutales los Humanos Antiguos?",
-     "canal": "Pintado Prehistórico",
-     "subs": 2190,
-     "vistas": 54376,
-     "publicado": "2026-06-26",
-     "salto": 24.83,
-     "duracion_min": 23.4
+     "id": "MPsuRGn9aSw",
+     "titulo": "Así Lograron Sobrevivir Los Primeros Humanos A Los Inviernos Extremos",
+     "canal": "Historia Dibujada",
+     "subs": 1090,
+     "vistas": 37104,
+     "publicado": "2026-07-09",
+     "salto": 34.04,
+     "duracion_min": 22.7
     }
    ],
    "fracasos_ejemplo": [
@@ -228,9 +228,9 @@
    ]
   },
   "en": {
-   "videos": 59,
-   "canales": 52,
-   "videos_ultimos_6_meses": 47,
+   "videos": 66,
+   "canales": 58,
+   "videos_ultimos_6_meses": 53,
    "top5_vistas": [
     2494982,
     1076516,
@@ -238,11 +238,11 @@
     973103,
     951885
    ],
-   "mediana_vistas": 7654,
-   "videos_100k": 18,
+   "mediana_vistas": 14860,
+   "videos_100k": 23,
    "videos_1M": 3,
-   "ganadores": 15,
-   "ganadores_canal_chico": 13,
+   "ganadores": 18,
+   "ganadores_canal_chico": 16,
    "fracasos": 7,
    "posibles_traducciones": 0,
    "mejores": [
@@ -307,6 +307,30 @@
      "posible_traduccion": false
     },
     {
+     "id": "UFjM4U1WxFg",
+     "titulo": "How Ancient Humans Survive the Deadliest Winters?",
+     "canal": "ThinkMan",
+     "subs": 19300,
+     "vistas": 589659,
+     "publicado": "2026-07-11",
+     "salto": 30.55,
+     "duracion_min": 25.0,
+     "ganador": true,
+     "posible_traduccion": false
+    },
+    {
+     "id": "9cYxGLOLIh4",
+     "titulo": "How Humans Survived The Ice Age | Prehistoric Documentary",
+     "canal": "WEON Earth",
+     "subs": 6270,
+     "vistas": 557017,
+     "publicado": "2026-09-25",
+     "salto": 88.84,
+     "duracion_min": 40.3,
+     "ganador": true,
+     "posible_traduccion": false
+    },
+    {
      "id": "P9r5u1wB3XY",
      "titulo": "The Darkest Survival Methods Used By Ancient Humans During Winters?",
      "canal": "Evo Explainer",
@@ -315,30 +339,6 @@
      "publicado": "2026-07-24",
      "salto": 260.77,
      "duracion_min": 14.4,
-     "ganador": true,
-     "posible_traduccion": false
-    },
-    {
-     "id": "mAirRLQFoE0",
-     "titulo": "The Darkest Things Ancient Humans Did To Survive The Cold",
-     "canal": "Before Civilization",
-     "subs": 36600,
-     "vistas": 504719,
-     "publicado": "2026-05-19",
-     "salto": 13.79,
-     "duracion_min": 7.8,
-     "ganador": true,
-     "posible_traduccion": false
-    },
-    {
-     "id": "c1OHYWZk9eI",
-     "titulo": "Life 20,000 Years Ago | How Ice Age Humans Survived ",
-     "canal": "Through the Ages",
-     "subs": 2500,
-     "vistas": 459049,
-     "publicado": "2026-09-04",
-     "salto": 183.62,
-     "duracion_min": 19.5,
      "ganador": true,
      "posible_traduccion": false
     }
@@ -415,14 +415,14 @@
      "duracion_min": 7.5
     },
     {
-     "id": "PM7uXGaWzqU",
-     "titulo": "The Darkest Things Ancient Humans Did To Survive The Cold | Primal HQ",
-     "canal": "Primal HQ",
-     "subs": 1840,
-     "vistas": 157992,
-     "publicado": "2026-08-03",
-     "salto": 85.87,
-     "duracion_min": 15.4
+     "id": "9cYxGLOLIh4",
+     "titulo": "How Humans Survived The Ice Age | Prehistoric Documentary",
+     "canal": "WEON Earth",
+     "subs": 6270,
+     "vistas": 557017,
+     "publicado": "2026-09-25",
+     "salto": 88.84,
+     "duracion_min": 40.3
     }
    ],
    "fracasos_ejemplo": [
@@ -457,21 +457,21 @@
   "idea": 2,
   "nombre": "Qué hacían cuando se enfermaban (medicina prehistórica)",
   "es": {
-   "videos": 43,
-   "canales": 43,
-   "videos_ultimos_6_meses": 34,
+   "videos": 44,
+   "canales": 44,
+   "videos_ultimos_6_meses": 35,
    "top5_vistas": [
     397012,
+    58713,
     21398,
     17858,
-    7689,
-    3368
+    7689
    ],
-   "mediana_vistas": 54,
+   "mediana_vistas": 63,
    "videos_100k": 1,
    "videos_1M": 0,
-   "ganadores": 0,
-   "ganadores_canal_chico": 0,
+   "ganadores": 1,
+   "ganadores_canal_chico": 1,
    "fracasos": 20,
    "posibles_traducciones": 7,
    "mejores": [
@@ -485,6 +485,18 @@
      "salto": 0.22,
      "duracion_min": 19.1,
      "ganador": false,
+     "posible_traduccion": false
+    },
+    {
+     "id": "PPoOivzmsDY",
+     "titulo": "¿Cómo sobrevivieron los humanos antiguos sin medicina?",
+     "canal": "Mango Explica SP",
+     "subs": 5080,
+     "vistas": 58713,
+     "publicado": "2026-09-12",
+     "salto": 11.56,
+     "duracion_min": 49.5,
+     "ganador": true,
      "posible_traduccion": false
     },
     {
@@ -558,21 +570,20 @@
      "duracion_min": 10.7,
      "ganador": false,
      "posible_traduccion": false
-    },
-    {
-     "id": "nXaB0W3-1no",
-     "titulo": "¿Cómo era enfermarse en la Prehistoria?",
-     "canal": "El Dato Curioso MX",
-     "subs": 508,
-     "vistas": 749,
-     "publicado": "2026-06-28",
-     "salto": 1.47,
-     "duracion_min": 13.4,
-     "ganador": false,
-     "posible_traduccion": false
     }
    ],
-   "mejores_ganadores": [],
+   "mejores_ganadores": [
+    {
+     "id": "PPoOivzmsDY",
+     "titulo": "¿Cómo sobrevivieron los humanos antiguos sin medicina?",
+     "canal": "Mango Explica SP",
+     "subs": 5080,
+     "vistas": 58713,
+     "publicado": "2026-09-12",
+     "salto": 11.56,
+     "duracion_min": 49.5
+    }
+   ],
    "fracasos_ejemplo": [
     {
      "id": "nXaB0W3-1no",
@@ -601,24 +612,48 @@
    ]
   },
   "en": {
-   "videos": 47,
-   "canales": 46,
-   "videos_ultimos_6_meses": 39,
+   "videos": 49,
+   "canales": 48,
+   "videos_ultimos_6_meses": 41,
    "top5_vistas": [
+    296687,
+    25445,
     10846,
     3289,
-    1699,
-    1558,
-    1265
+    1699
    ],
-   "mediana_vistas": 183,
-   "videos_100k": 0,
+   "mediana_vistas": 219,
+   "videos_100k": 1,
    "videos_1M": 0,
    "ganadores": 0,
    "ganadores_canal_chico": 0,
    "fracasos": 26,
    "posibles_traducciones": 0,
    "mejores": [
+    {
+     "id": "rk7qIWcLJ40",
+     "titulo": "How Did Ancient Humans Survive Without Medicine?",
+     "canal": "Mack",
+     "subs": 90500,
+     "vistas": 296687,
+     "publicado": "2026-05-29",
+     "salto": 3.28,
+     "duracion_min": 21.4,
+     "ganador": false,
+     "posible_traduccion": false
+    },
+    {
+     "id": "2cNrUAQ2uWU",
+     "titulo": "How Did Ancient Humans Survive Disease?",
+     "canal": "Explain In Paint",
+     "subs": 82700,
+     "vistas": 25445,
+     "publicado": "2026-06-09",
+     "salto": 0.31,
+     "duracion_min": 21.4,
+     "ganador": false,
+     "posible_traduccion": false
+    },
     {
      "id": "ruKVf3b7E6c",
      "titulo": "Experience a Week in Ancient Egypt | Day 6: The Egyptian Doctor",
@@ -690,30 +725,6 @@
      "duracion_min": 12.3,
      "ganador": false,
      "posible_traduccion": false
-    },
-    {
-     "id": "uySWPjy8ZtE",
-     "titulo": "PREHISTORIC MEDICINE | ORGANON OF MEDICINE | Homoeopathy | Stone age man| History of Medicine",
-     "canal": "Dr. Anagha Kulkarni M.D. PhD scholar",
-     "subs": 11800,
-     "vistas": 805,
-     "publicado": "2025-05-27",
-     "salto": 0.07,
-     "duracion_min": 13.2,
-     "ganador": false,
-     "posible_traduccion": false
-    },
-    {
-     "id": "q6duZRYWybY",
-     "titulo": "How Did Ancient Humans Survive Without Medicine? The Truth Is Incredible",
-     "canal": "ERAXPLAIN",
-     "subs": 2,
-     "vistas": 664,
-     "publicado": "2026-09-06",
-     "salto": 332.0,
-     "duracion_min": 6.1,
-     "ganador": false,
-     "posible_traduccion": false
     }
    ],
    "mejores_ganadores": [],
@@ -749,32 +760,32 @@
   "idea": 3,
   "nombre": "Un día completo en una aldea de hace 10.000 años",
   "es": {
-   "videos": 39,
-   "canales": 36,
-   "videos_ultimos_6_meses": 32,
+   "videos": 60,
+   "canales": 57,
+   "videos_ultimos_6_meses": 53,
    "top5_vistas": [
-    472656,
+    488441,
     145669,
     89429,
     56207,
-    24398
+    43267
    ],
-   "mediana_vistas": 320,
+   "mediana_vistas": 213,
    "videos_100k": 2,
    "videos_1M": 0,
-   "ganadores": 3,
-   "ganadores_canal_chico": 3,
-   "fracasos": 8,
-   "posibles_traducciones": 2,
+   "ganadores": 4,
+   "ganadores_canal_chico": 4,
+   "fracasos": 10,
+   "posibles_traducciones": 3,
    "mejores": [
     {
      "id": "UATMaN127NE",
      "titulo": "¿Qué hacían realmente los humanos antiguos todo el día?",
      "canal": "Homo Curioso",
-     "subs": 10400,
-     "vistas": 472656,
+     "subs": 12400,
+     "vistas": 488441,
      "publicado": "2026-08-30",
-     "salto": 45.45,
+     "salto": 39.39,
      "duracion_min": 17.4,
      "ganador": true,
      "posible_traduccion": false
@@ -816,6 +827,18 @@
      "posible_traduccion": false
     },
     {
+     "id": "x_2geQm3Mb8",
+     "titulo": "¿Qué Hacían los Humanos Antiguos Todo el Día Antes de que Existieran los Trabajos?",
+     "canal": "Explicado En Tinta",
+     "subs": 159,
+     "vistas": 43267,
+     "publicado": "2026-07-24",
+     "salto": 272.12,
+     "duracion_min": 10.0,
+     "ganador": true,
+     "posible_traduccion": false
+    },
+    {
      "id": "NmBxASlrsAU",
      "titulo": "¿Cómo Era la Vida de los Gatos Hace 10.000 Años?",
      "canal": "Fosil Metal",
@@ -850,29 +873,27 @@
      "duracion_min": 116.3,
      "ganador": false,
      "posible_traduccion": false
-    },
-    {
-     "id": "Rb0Ex7rLDP8",
-     "titulo": "¿Qué hacían en realidad los humanos antiguos durante todo el día?",
-     "canal": "La Duda Salvaje",
-     "subs": 1000,
-     "vistas": 7500,
-     "publicado": "2026-09-03",
-     "salto": 7.5,
-     "duracion_min": 17.5,
-     "ganador": false,
-     "posible_traduccion": false
     }
    ],
    "mejores_ganadores": [
     {
+     "id": "x_2geQm3Mb8",
+     "titulo": "¿Qué Hacían los Humanos Antiguos Todo el Día Antes de que Existieran los Trabajos?",
+     "canal": "Explicado En Tinta",
+     "subs": 159,
+     "vistas": 43267,
+     "publicado": "2026-07-24",
+     "salto": 272.12,
+     "duracion_min": 10.0
+    },
+    {
      "id": "UATMaN127NE",
      "titulo": "¿Qué hacían realmente los humanos antiguos todo el día?",
      "canal": "Homo Curioso",
-     "subs": 10400,
-     "vistas": 472656,
+     "subs": 12400,
+     "vistas": 488441,
      "publicado": "2026-08-30",
-     "salto": 45.45,
+     "salto": 39.39,
      "duracion_min": 17.4
     },
     {
@@ -906,38 +927,38 @@
      "publicado": "2026-06-14"
     },
     {
+     "id": "VBwrBBkV5Co",
+     "titulo": "¿Qué Hacían los Humanos Antiguos todo el Día Antes de que Existieran los Trabajos?",
+     "canal": "Ritos de Conciencia",
+     "subs": 43300,
+     "vistas": 803,
+     "publicado": "2026-05-23"
+    },
+    {
      "id": "FR82S2XbJqQ",
      "titulo": "Cómo vivían los humanos hace 10,000 años",
      "canal": "te gustaria saber",
      "subs": 2730,
      "vistas": 725,
      "publicado": "2025-01-14"
-    },
-    {
-     "id": "icF7bWOk6Jk",
-     "titulo": "Cómo vivían los humanos hace 10,000 años: lo que sabían, comían y hacían",
-     "canal": "CurioOne",
-     "subs": 142,
-     "vistas": 284,
-     "publicado": "2025-11-26"
     }
    ]
   },
   "en": {
-   "videos": 28,
-   "canales": 27,
-   "videos_ultimos_6_meses": 24,
+   "videos": 32,
+   "canales": 31,
+   "videos_ultimos_6_meses": 26,
    "top5_vistas": [
     14718377,
     3400886,
-    25178,
-    18071,
-    13136
+    3239791,
+    2768103,
+    410035
    ],
-   "mediana_vistas": 706,
-   "videos_100k": 2,
-   "videos_1M": 2,
-   "ganadores": 3,
+   "mediana_vistas": 908,
+   "videos_100k": 5,
+   "videos_1M": 4,
+   "ganadores": 5,
    "ganadores_canal_chico": 1,
    "fracasos": 7,
    "posibles_traducciones": 0,
@@ -964,6 +985,42 @@
      "salto": 52.89,
      "duracion_min": 8.6,
      "ganador": true,
+     "posible_traduccion": false
+    },
+    {
+     "id": "MsuPBf7qoEI",
+     "titulo": "Life Million of Years Ago | The Daily Life of Prehistoric Humans",
+     "canal": "Prehistoric Hominid",
+     "subs": 94100,
+     "vistas": 3239791,
+     "publicado": "2025-09-28",
+     "salto": 34.43,
+     "duracion_min": 125.5,
+     "ganador": true,
+     "posible_traduccion": false
+    },
+    {
+     "id": "AHTEnwz0bL4",
+     "titulo": "What Did Early Humans ACTUALLY Do All Day? | History for Sleep",
+     "canal": "Sleepy Time Historian",
+     "subs": 174000,
+     "vistas": 2768103,
+     "publicado": "2026-01-01",
+     "salto": 15.91,
+     "duracion_min": 135.6,
+     "ganador": true,
+     "posible_traduccion": false
+    },
+    {
+     "id": "Qgz_k2JQ3UY",
+     "titulo": "What Did Ancient Humans Do All Day With No Jobs?",
+     "canal": "Mack",
+     "subs": 90500,
+     "vistas": 410035,
+     "publicado": "2026-06-02",
+     "salto": 4.53,
+     "duracion_min": 22.9,
+     "ganador": false,
      "posible_traduccion": false
     },
     {
@@ -1001,42 +1058,6 @@
      "duracion_min": 18.4,
      "ganador": false,
      "posible_traduccion": false
-    },
-    {
-     "id": "bEs-RlqhW38",
-     "titulo": "Who Actually Lived in the Balkans 10,000 Years Ago?",
-     "canal": "Our Ancient World",
-     "subs": 4810,
-     "vistas": 2298,
-     "publicado": "2026-10-12",
-     "salto": 0.48,
-     "duracion_min": 10.1,
-     "ganador": false,
-     "posible_traduccion": false
-    },
-    {
-     "id": "gYZIHSyYwoU",
-     "titulo": "What Did Ancient Humans Do For Pleasure | What Did Ancient Humans Do All Day?",
-     "canal": "The Life Ladder Vids",
-     "subs": 2020,
-     "vistas": 1763,
-     "publicado": "2026-09-06",
-     "salto": 0.87,
-     "duracion_min": 6.5,
-     "ganador": false,
-     "posible_traduccion": false
-    },
-    {
-     "id": "mAC1hhaYzsk",
-     "titulo": "What Did Ancient Humans Do All Day No Jobs?",
-     "canal": "Zack Explains",
-     "subs": 87,
-     "vistas": 1665,
-     "publicado": "2026-10-01",
-     "salto": 19.14,
-     "duracion_min": 18.8,
-     "ganador": false,
-     "posible_traduccion": false
     }
    ],
    "mejores_ganadores": [
@@ -1059,6 +1080,26 @@
      "publicado": "2026-05-04",
      "salto": 52.89,
      "duracion_min": 8.6
+    },
+    {
+     "id": "MsuPBf7qoEI",
+     "titulo": "Life Million of Years Ago | The Daily Life of Prehistoric Humans",
+     "canal": "Prehistoric Hominid",
+     "subs": 94100,
+     "vistas": 3239791,
+     "publicado": "2025-09-28",
+     "salto": 34.43,
+     "duracion_min": 125.5
+    },
+    {
+     "id": "AHTEnwz0bL4",
+     "titulo": "What Did Early Humans ACTUALLY Do All Day? | History for Sleep",
+     "canal": "Sleepy Time Historian",
+     "subs": 174000,
+     "vistas": 2768103,
+     "publicado": "2026-01-01",
+     "salto": 15.91,
+     "duracion_min": 135.6
     },
     {
      "id": "EAroYvmejFU",
@@ -1222,19 +1263,19 @@
    "fracasos_ejemplo": []
   },
   "en": {
-   "videos": 31,
-   "canales": 31,
+   "videos": 32,
+   "canales": 32,
    "videos_ultimos_6_meses": 30,
    "top5_vistas": [
     11718522,
+    1160442,
     658367,
     354573,
-    221893,
-    16758
+    221893
    ],
-   "mediana_vistas": 579,
-   "videos_100k": 4,
-   "videos_1M": 1,
+   "mediana_vistas": 665,
+   "videos_100k": 5,
+   "videos_1M": 2,
    "ganadores": 5,
    "ganadores_canal_chico": 4,
    "fracasos": 1,
@@ -1250,6 +1291,18 @@
      "salto": 292.23,
      "duracion_min": 16.2,
      "ganador": true,
+     "posible_traduccion": false
+    },
+    {
+     "id": "FW5Ao2DNIPo",
+     "titulo": "How Humans Survived In Every Time Period",
+     "canal": "Trust Me Bro",
+     "subs": 1420000,
+     "vistas": 1160442,
+     "publicado": "2025-09-05",
+     "salto": 0.82,
+     "duracion_min": 22.8,
+     "ganador": false,
      "posible_traduccion": false
     },
     {
@@ -1321,18 +1374,6 @@
      "publicado": "2026-10-02",
      "salto": 14.11,
      "duracion_min": 9.5,
-     "ganador": false,
-     "posible_traduccion": false
-    },
-    {
-     "id": "wUXBedyU-YM",
-     "titulo": "HOW LONG YOU'D LAST IN EVERY PREHISTORIC ERA",
-     "canal": "Curious core",
-     "subs": 11,
-     "vistas": 1260,
-     "publicado": "2026-10-10",
-     "salto": 114.55,
-     "duracion_min": 11.2,
      "ganador": false,
      "posible_traduccion": false
     }
@@ -1439,10 +1480,10 @@
      "id": "3uBP9QaWfPM",
      "titulo": "¿Cómo Era un Día Completo en la Edad Media? | Historia Para Dormir",
      "canal": "Relatos para Dormir",
-     "subs": 14700,
+     "subs": 14800,
      "vistas": 1104486,
      "publicado": "2026-01-10",
-     "salto": 75.14,
+     "salto": 74.63,
      "duracion_min": 150.0,
      "ganador": true,
      "posible_traduccion": false
@@ -1555,10 +1596,10 @@
      "id": "3uBP9QaWfPM",
      "titulo": "¿Cómo Era un Día Completo en la Edad Media? | Historia Para Dormir",
      "canal": "Relatos para Dormir",
-     "subs": 14700,
+     "subs": 14800,
      "vistas": 1104486,
      "publicado": "2026-01-10",
-     "salto": 75.14,
+     "salto": 74.63,
      "duracion_min": 150.0
     },
     {
@@ -1630,8 +1671,8 @@
    ]
   },
   "en": {
-   "videos": 134,
-   "canales": 96,
+   "videos": 135,
+   "canales": 97,
    "videos_ultimos_6_meses": 67,
    "top5_vistas": [
     2068307,
@@ -1641,10 +1682,10 @@
     875354
    ],
    "mediana_vistas": 3056,
-   "videos_100k": 22,
+   "videos_100k": 23,
    "videos_1M": 3,
-   "ganadores": 12,
-   "ganadores_canal_chico": 11,
+   "ganadores": 13,
+   "ganadores_canal_chico": 12,
    "fracasos": 36,
    "posibles_traducciones": 0,
    "mejores": [
@@ -1817,14 +1858,14 @@
      "duracion_min": 17.2
     },
     {
-     "id": "sFMOHmFivrc",
-     "titulo": "The Dark Reality of Sleeping in a Medieval Castle (978 AD)",
-     "canal": "Survival Untold Tales",
-     "subs": 1990,
-     "vistas": 53859,
-     "publicado": "2026-06-28",
-     "salto": 27.06,
-     "duracion_min": 9.8
+     "id": "xQVrLT-tnoM",
+     "titulo": "Why You Wouldn't Survive a Night in a Medieval English Castle",
+     "canal": "Past and Future cities AI",
+     "subs": 8900,
+     "vistas": 242041,
+     "publicado": "2026-01-01",
+     "salto": 27.2,
+     "duracion_min": 8.3
     }
    ],
    "fracasos_ejemplo": [
@@ -3180,23 +3221,23 @@
   "idea": 10,
   "nombre": "Qué trabajo tendrías en una tribu prehistórica",
   "es": {
-   "videos": 6,
-   "canales": 6,
-   "videos_ultimos_6_meses": 6,
+   "videos": 13,
+   "canales": 13,
+   "videos_ultimos_6_meses": 13,
    "top5_vistas": [
     145669,
-    3098,
-    42,
-    11,
-    5
+    43267,
+    9715,
+    3766,
+    3098
    ],
-   "mediana_vistas": 42,
+   "mediana_vistas": 287,
    "videos_100k": 1,
    "videos_1M": 0,
-   "ganadores": 1,
-   "ganadores_canal_chico": 1,
-   "fracasos": 1,
-   "posibles_traducciones": 0,
+   "ganadores": 2,
+   "ganadores_canal_chico": 2,
+   "fracasos": 2,
+   "posibles_traducciones": 1,
    "mejores": [
     {
      "id": "FUuFtr-ndok",
@@ -3208,6 +3249,42 @@
      "salto": 18.84,
      "duracion_min": 13.0,
      "ganador": true,
+     "posible_traduccion": false
+    },
+    {
+     "id": "x_2geQm3Mb8",
+     "titulo": "¿Qué Hacían los Humanos Antiguos Todo el Día Antes de que Existieran los Trabajos?",
+     "canal": "Explicado En Tinta",
+     "subs": 159,
+     "vistas": 43267,
+     "publicado": "2026-07-24",
+     "salto": 272.12,
+     "duracion_min": 10.0,
+     "ganador": true,
+     "posible_traduccion": false
+    },
+    {
+     "id": "sZ9STVy8aXE",
+     "titulo": "¿Qué hacían los humanos antiguos sin empleo?",
+     "canal": "Bern",
+     "subs": 126,
+     "vistas": 9715,
+     "publicado": "2026-05-09",
+     "salto": 77.1,
+     "duracion_min": 16.5,
+     "ganador": false,
+     "posible_traduccion": false
+    },
+    {
+     "id": "6L_tJcyZRwg",
+     "titulo": "¿Qué Hacían Realmente los Humanos Antiguos Antes de que Existiera el Trabajo?",
+     "canal": "Clio agrietado",
+     "subs": 460,
+     "vistas": 3766,
+     "publicado": "2026-08-20",
+     "salto": 8.19,
+     "duracion_min": 8.0,
+     "ganador": false,
      "posible_traduccion": false
     },
     {
@@ -3223,6 +3300,30 @@
      "posible_traduccion": false
     },
     {
+     "id": "VBwrBBkV5Co",
+     "titulo": "¿Qué Hacían los Humanos Antiguos todo el Día Antes de que Existieran los Trabajos?",
+     "canal": "Ritos de Conciencia",
+     "subs": 43300,
+     "vistas": 803,
+     "publicado": "2026-05-23",
+     "salto": 0.02,
+     "duracion_min": 9.2,
+     "ganador": false,
+     "posible_traduccion": false
+    },
+    {
+     "id": "xeAZrYYBvWg",
+     "titulo": "¿Qué Hacían los Humanos Antiguos Antes de que Existiera el Trabajo?",
+     "canal": "Humano Explicado",
+     "subs": 64,
+     "vistas": 287,
+     "publicado": "2026-09-18",
+     "salto": 4.48,
+     "duracion_min": 7.3,
+     "ganador": false,
+     "posible_traduccion": true
+    },
+    {
      "id": "2Cc4C4Wbxqs",
      "titulo": "POV: Tu día a día como Cavernícola (Antes de que existiera el trabajo)",
      "canal": "Vive la Historia",
@@ -3233,45 +3334,19 @@
      "duracion_min": 8.4,
      "ganador": false,
      "posible_traduccion": false
-    },
-    {
-     "id": "9XvOL4OZhtI",
-     "titulo": "¿Qué hacían los humanos antiguos todo el día? (Antes de los trabajos)",
-     "canal": "StickBrain",
-     "subs": 262,
-     "vistas": 11,
-     "publicado": "2026-09-02",
-     "salto": 0.04,
-     "duracion_min": 7.9,
-     "ganador": false,
-     "posible_traduccion": false
-    },
-    {
-     "id": "_n7PEc63oSI",
-     "titulo": "¿Qué Pasaba si el Fuego Se Apagaba? El Trabajo Más Importante de la Prehistoria",
-     "canal": "Shadow Wayfarer",
-     "subs": 179,
-     "vistas": 5,
-     "publicado": "2026-09-24",
-     "salto": 0.03,
-     "duracion_min": 11.1,
-     "ganador": false,
-     "posible_traduccion": false
-    },
-    {
-     "id": "ADUD6EbFQYA",
-     "titulo": "Así pasaban el tiempo libre hace 10.000 años (mucho antes del trabajo y de internet)",
-     "canal": "Max el primitivo",
-     "subs": 1,
-     "vistas": 3,
-     "publicado": "2026-10-15",
-     "salto": 3.0,
-     "duracion_min": 10.1,
-     "ganador": false,
-     "posible_traduccion": false
     }
    ],
    "mejores_ganadores": [
+    {
+     "id": "x_2geQm3Mb8",
+     "titulo": "¿Qué Hacían los Humanos Antiguos Todo el Día Antes de que Existieran los Trabajos?",
+     "canal": "Explicado En Tinta",
+     "subs": 159,
+     "vistas": 43267,
+     "publicado": "2026-07-24",
+     "salto": 272.12,
+     "duracion_min": 10.0
+    },
     {
      "id": "FUuFtr-ndok",
      "titulo": "¿Qué Hacían los Cavernícolas Todo el Día Antes de que Existiera el Trabajo?",
@@ -3285,6 +3360,14 @@
    ],
    "fracasos_ejemplo": [
     {
+     "id": "VBwrBBkV5Co",
+     "titulo": "¿Qué Hacían los Humanos Antiguos todo el Día Antes de que Existieran los Trabajos?",
+     "canal": "Ritos de Conciencia",
+     "subs": 43300,
+     "vistas": 803,
+     "publicado": "2026-05-23"
+    },
+    {
      "id": "2Cc4C4Wbxqs",
      "titulo": "POV: Tu día a día como Cavernícola (Antes de que existiera el trabajo)",
      "canal": "Vive la Historia",
@@ -3295,18 +3378,18 @@
    ]
   },
   "en": {
-   "videos": 25,
-   "canales": 25,
-   "videos_ultimos_6_meses": 25,
+   "videos": 26,
+   "canales": 26,
+   "videos_ultimos_6_meses": 26,
    "top5_vistas": [
     3400886,
+    410035,
     12709,
     1665,
-    1359,
-    1303
+    1359
    ],
-   "mediana_vistas": 39,
-   "videos_100k": 1,
+   "mediana_vistas": 64,
+   "videos_100k": 2,
    "videos_1M": 1,
    "ganadores": 1,
    "ganadores_canal_chico": 0,
@@ -3323,6 +3406,18 @@
      "salto": 52.89,
      "duracion_min": 8.6,
      "ganador": true,
+     "posible_traduccion": false
+    },
+    {
+     "id": "Qgz_k2JQ3UY",
+     "titulo": "What Did Ancient Humans Do All Day With No Jobs?",
+     "canal": "Mack",
+     "subs": 90500,
+     "vistas": 410035,
+     "publicado": "2026-06-02",
+     "salto": 4.53,
+     "duracion_min": 22.9,
+     "ganador": false,
      "posible_traduccion": false
     },
     {
@@ -3394,18 +3489,6 @@
      "publicado": "2026-08-25",
      "salto": 54.17,
      "duracion_min": 15.8,
-     "ganador": false,
-     "posible_traduccion": false
-    },
-    {
-     "id": "jI8ENbiwA2Q",
-     "titulo": "Did Ancient Humans Really free before jobs?",
-     "canal": "Ancient Instinct",
-     "subs": 17,
-     "vistas": 266,
-     "publicado": "2026-09-21",
-     "salto": 15.65,
-     "duracion_min": 7.4,
      "ganador": false,
      "posible_traduccion": false
     }
@@ -3910,10 +3993,10 @@
      "id": "3uBP9QaWfPM",
      "titulo": "¿Cómo Era un Día Completo en la Edad Media? | Historia Para Dormir",
      "canal": "Relatos para Dormir",
-     "subs": 14700,
+     "subs": 14800,
      "vistas": 1104486,
      "publicado": "2026-01-10",
-     "salto": 75.14,
+     "salto": 74.63,
      "duracion_min": 150.0,
      "ganador": true,
      "posible_traduccion": false
@@ -3983,9 +4066,9 @@
      "titulo": "¿Cómo Sobrevivían al Frío los Humanos Prehistóricos Mientras Dormían?",
      "canal": "KROG",
      "subs": 6780,
-     "vistas": 213871,
+     "vistas": 253806,
      "publicado": "2026-09-15",
-     "salto": 31.54,
+     "salto": 37.43,
      "duracion_min": 27.8,
      "ganador": true,
      "posible_traduccion": false
@@ -4048,10 +4131,10 @@
      "id": "3uBP9QaWfPM",
      "titulo": "¿Cómo Era un Día Completo en la Edad Media? | Historia Para Dormir",
      "canal": "Relatos para Dormir",
-     "subs": 14700,
+     "subs": 14800,
      "vistas": 1104486,
      "publicado": "2026-01-10",
-     "salto": 75.14,
+     "salto": 74.63,
      "duracion_min": 150.0
     },
     {
@@ -4069,19 +4152,19 @@
      "titulo": "¿Cómo Sobrevivían al Frío los Humanos Prehistóricos Mientras Dormían?",
      "canal": "KROG",
      "subs": 6780,
-     "vistas": 213871,
+     "vistas": 253806,
      "publicado": "2026-09-15",
-     "salto": 31.54,
+     "salto": 37.43,
      "duracion_min": 27.8
     },
     {
      "id": "Qnk08Xt-oNQ",
      "titulo": "¿Cómo dormían los humanos antiguos cuando hacía un frío congelante?",
      "canal": "Cronología de la Humanidad",
-     "subs": 6410,
-     "vistas": 162382,
+     "subs": 6740,
+     "vistas": 165092,
      "publicado": "2026-09-11",
-     "salto": 25.33,
+     "salto": 24.49,
      "duracion_min": 27.4
     }
    ],
@@ -4113,24 +4196,48 @@
    ]
   },
   "en": {
-   "videos": 65,
-   "canales": 57,
+   "videos": 69,
+   "canales": 59,
    "videos_ultimos_6_meses": 48,
    "top5_vistas": [
+    2768103,
+    1073781,
     996179,
     848734,
-    490939,
-    447263,
-    443050
+    798458
    ],
-   "mediana_vistas": 1618,
-   "videos_100k": 10,
-   "videos_1M": 0,
-   "ganadores": 11,
+   "mediana_vistas": 2269,
+   "videos_100k": 14,
+   "videos_1M": 2,
+   "ganadores": 13,
    "ganadores_canal_chico": 11,
    "fracasos": 15,
    "posibles_traducciones": 0,
    "mejores": [
+    {
+     "id": "AHTEnwz0bL4",
+     "titulo": "What Did Early Humans ACTUALLY Do All Day? | History for Sleep",
+     "canal": "Sleepy Time Historian",
+     "subs": 174000,
+     "vistas": 2768103,
+     "publicado": "2026-01-01",
+     "salto": 15.91,
+     "duracion_min": 135.6,
+     "ganador": true,
+     "posible_traduccion": false
+    },
+    {
+     "id": "FEe4kEP2SqA",
+     "titulo": "The Missing 100,000 Years: What Humans Did BEFORE Civilization | History for Sleep",
+     "canal": "Sleepy Time Historian",
+     "subs": 174000,
+     "vistas": 1073781,
+     "publicado": "2025-12-22",
+     "salto": 6.17,
+     "duracion_min": 141.6,
+     "ganador": false,
+     "posible_traduccion": false
+    },
     {
      "id": "1ikf4ztFPQg",
      "titulo": "1348: No Showers, No Toilet Paper – Life in the Middle Ages",
@@ -4156,6 +4263,30 @@
      "posible_traduccion": false
     },
     {
+     "id": "V0gCnX2JDK4",
+     "titulo": "How Humans Became WHITE? History for Sleep",
+     "canal": "Sleepy Time Historian",
+     "subs": 174000,
+     "vistas": 798458,
+     "publicado": "2025-12-16",
+     "salto": 4.59,
+     "duracion_min": 126.0,
+     "ganador": false,
+     "posible_traduccion": false
+    },
+    {
+     "id": "2bZNvnYyrcA",
+     "titulo": "HOW 99% of Ancient Human Population Wiped Out 900,000 Years Ago | HISTORY FOR SLEEP",
+     "canal": "Woke up History",
+     "subs": 25700,
+     "vistas": 607390,
+     "publicado": "2025-08-24",
+     "salto": 23.63,
+     "duracion_min": 76.8,
+     "ganador": true,
+     "posible_traduccion": false
+    },
+    {
      "id": "x1Q4tYhLRvA",
      "titulo": "Medieval Nights: The Lost Tradition of Two Sleeps",
      "canal": "History and Coffee",
@@ -4176,54 +4307,6 @@
      "publicado": "2026-09-23",
      "salto": 302.2,
      "duracion_min": 7.3,
-     "ganador": true,
-     "posible_traduccion": false
-    },
-    {
-     "id": "uIutd1u9sp4",
-     "titulo": "How Did Humans Sleep During Ice Age Without Freezing to Death",
-     "canal": "The Infographics Show",
-     "subs": 15500000,
-     "vistas": 443050,
-     "publicado": "2026-01-05",
-     "salto": 0.03,
-     "duracion_min": 15.3,
-     "ganador": false,
-     "posible_traduccion": false
-    },
-    {
-     "id": "JJYNoJpibZI",
-     "titulo": "How Did Ancient Humans Sleep With Mosquitoes Everywhere?",
-     "canal": "Deep Epoch",
-     "subs": 10000,
-     "vistas": 427051,
-     "publicado": "2026-09-14",
-     "salto": 42.71,
-     "duracion_min": 15.2,
-     "ganador": true,
-     "posible_traduccion": false
-    },
-    {
-     "id": "tyscE0VvbdU",
-     "titulo": "What Did Ancient Egyptians Do When It Was Too Hot to Sleep?",
-     "canal": "Ancient Secrets",
-     "subs": 2580,
-     "vistas": 424165,
-     "publicado": "2026-08-27",
-     "salto": 164.41,
-     "duracion_min": 17.6,
-     "ganador": true,
-     "posible_traduccion": false
-    },
-    {
-     "id": "wuFZrp-Dkiw",
-     "titulo": "What Did Ancient Humans Do When It Was Too Hot to Sleep?",
-     "canal": "Boneink",
-     "subs": 5430,
-     "vistas": 368108,
-     "publicado": "2026-08-17",
-     "salto": 67.79,
-     "duracion_min": 12.5,
      "ganador": true,
      "posible_traduccion": false
     }
@@ -5384,9 +5467,9 @@
   "idea": 16,
   "nombre": "Cuánto durarías como soldado antiguo",
   "es": {
-   "videos": 81,
-   "canales": 72,
-   "videos_ultimos_6_meses": 49,
+   "videos": 82,
+   "canales": 73,
+   "videos_ultimos_6_meses": 50,
    "top5_vistas": [
     303154,
     264101,
@@ -5394,7 +5477,7 @@
     86558,
     78162
    ],
-   "mediana_vistas": 160,
+   "mediana_vistas": 164,
    "videos_100k": 3,
    "videos_1M": 0,
    "ganadores": 2,
@@ -5549,24 +5632,36 @@
    ]
   },
   "en": {
-   "videos": 45,
-   "canales": 43,
+   "videos": 46,
+   "canales": 44,
    "videos_ultimos_6_meses": 28,
    "top5_vistas": [
+    10155575,
     348698,
     326687,
     212002,
-    95702,
-    83175
+    95702
    ],
-   "mediana_vistas": 892,
-   "videos_100k": 3,
-   "videos_1M": 0,
-   "ganadores": 1,
+   "mediana_vistas": 1491,
+   "videos_100k": 4,
+   "videos_1M": 1,
+   "ganadores": 2,
    "ganadores_canal_chico": 1,
    "fracasos": 16,
    "posibles_traducciones": 0,
    "mejores": [
+    {
+     "id": "StpmDcahPtw",
+     "titulo": "Prehistoric Humans vs Titanoboa – The Deadliest Battle in Ancient History (Episode 13)!",
+     "canal": "Prehistoric Humans-100s",
+     "subs": 172000,
+     "vistas": 10155575,
+     "publicado": "2025-12-31",
+     "salto": 59.04,
+     "duracion_min": 27.9,
+     "ganador": true,
+     "posible_traduccion": false
+    },
     {
      "id": "PkpVcNfAvSM",
      "titulo": "Your Life LEVELING UP inside a Roman Legion",
@@ -5650,21 +5745,19 @@
      "duracion_min": 8.2,
      "ganador": false,
      "posible_traduccion": false
-    },
-    {
-     "id": "TV8oIAXaavY",
-     "titulo": "Could a Single Roman Legion Survive 300,000 Persians?",
-     "canal": "NerdHistory",
-     "subs": 22200,
-     "vistas": 14781,
-     "publicado": "2026-07-09",
-     "salto": 0.67,
-     "duracion_min": 18.2,
-     "ganador": false,
-     "posible_traduccion": false
     }
    ],
    "mejores_ganadores": [
+    {
+     "id": "StpmDcahPtw",
+     "titulo": "Prehistoric Humans vs Titanoboa – The Deadliest Battle in Ancient History (Episode 13)!",
+     "canal": "Prehistoric Humans-100s",
+     "subs": 172000,
+     "vistas": 10155575,
+     "publicado": "2025-12-31",
+     "salto": 59.04,
+     "duracion_min": 27.9
+    },
     {
      "id": "FcK-300bKlI",
      "titulo": "How Did Roman Soldiers Survive Freezing Nights?",
@@ -6758,21 +6851,21 @@
    ]
   },
   "en": {
-   "videos": 44,
-   "canales": 42,
-   "videos_ultimos_6_meses": 26,
+   "videos": 46,
+   "canales": 44,
+   "videos_ultimos_6_meses": 27,
    "top5_vistas": [
     611941,
+    521506,
+    357548,
     327711,
-    264157,
-    250502,
-    100462
+    264157
    ],
-   "mediana_vistas": 644,
-   "videos_100k": 5,
+   "mediana_vistas": 661,
+   "videos_100k": 7,
    "videos_1M": 0,
-   "ganadores": 1,
-   "ganadores_canal_chico": 1,
+   "ganadores": 2,
+   "ganadores_canal_chico": 2,
    "fracasos": 14,
    "posibles_traducciones": 0,
    "mejores": [
@@ -6786,6 +6879,30 @@
      "salto": 0.04,
      "duracion_min": 13.8,
      "ganador": false,
+     "posible_traduccion": false
+    },
+    {
+     "id": "moKQeOMHqYA",
+     "titulo": "Can I Survive 24 Hours in the Ice Age? (30,000BC)",
+     "canal": "Chloe VS History",
+     "subs": 414000,
+     "vistas": 521506,
+     "publicado": "2026-06-02",
+     "salto": 1.26,
+     "duracion_min": 12.3,
+     "ganador": false,
+     "posible_traduccion": false
+    },
+    {
+     "id": "QJnRSxBxhSY",
+     "titulo": "Why You Wouldn't Survive 24 Hours in Stone Age",
+     "canal": "Before Fire",
+     "subs": 11500,
+     "vistas": 357548,
+     "publicado": "2025-06-04",
+     "salto": 31.09,
+     "duracion_min": 12.0,
+     "ganador": true,
      "posible_traduccion": false
     },
     {
@@ -6847,30 +6964,6 @@
      "duracion_min": 4.9,
      "ganador": false,
      "posible_traduccion": false
-    },
-    {
-     "id": "hJoACnWvViM",
-     "titulo": "Why You Wouldn't Survive a Day in a Medieval Village",
-     "canal": "Medieval Sisters",
-     "subs": 8930,
-     "vistas": 10364,
-     "publicado": "2026-09-25",
-     "salto": 1.16,
-     "duracion_min": 24.8,
-     "ganador": false,
-     "posible_traduccion": false
-    },
-    {
-     "id": "FrJbsTfZJA0",
-     "titulo": "24 Hours in Ancient Egypt (1250 BC) — Would You Survive?",
-     "canal": "History Unfolded",
-     "subs": 82200,
-     "vistas": 7513,
-     "publicado": "2026-03-09",
-     "salto": 0.09,
-     "duracion_min": 6.8,
-     "ganador": false,
-     "posible_traduccion": false
     }
    ],
    "mejores_ganadores": [
@@ -6883,6 +6976,16 @@
      "publicado": "2026-03-17",
      "salto": 102.66,
      "duracion_min": 18.6
+    },
+    {
+     "id": "QJnRSxBxhSY",
+     "titulo": "Why You Wouldn't Survive 24 Hours in Stone Age",
+     "canal": "Before Fire",
+     "subs": 11500,
+     "vistas": 357548,
+     "publicado": "2025-06-04",
+     "salto": 31.09,
+     "duracion_min": 12.0
     }
    ],
    "fracasos_ejemplo": [
@@ -7261,21 +7364,21 @@
   "idea": 22,
   "nombre": "Cómo sobrevivían al calor, frío o bichos sin nada moderno",
   "es": {
-   "videos": 68,
-   "canales": 62,
-   "videos_ultimos_6_meses": 52,
+   "videos": 71,
+   "canales": 64,
+   "videos_ultimos_6_meses": 53,
    "top5_vistas": [
     1697785,
     460965,
-    213871,
-    162382,
-    89164
+    262960,
+    253806,
+    197785
    ],
-   "mediana_vistas": 1378,
-   "videos_100k": 4,
+   "mediana_vistas": 1569,
+   "videos_100k": 6,
    "videos_1M": 1,
-   "ganadores": 9,
-   "ganadores_canal_chico": 8,
+   "ganadores": 10,
+   "ganadores_canal_chico": 9,
    "fracasos": 14,
    "posibles_traducciones": 6,
    "mejores": [
@@ -7304,14 +7407,38 @@
      "posible_traduccion": false
     },
     {
+     "id": "dlcKim8B8Eo",
+     "titulo": "¿Cómo Sobrevivieron al Invierno Extremo en la Prehistoria?",
+     "canal": "Desde El Principio",
+     "subs": 103000,
+     "vistas": 262960,
+     "publicado": "2025-01-13",
+     "salto": 2.55,
+     "duracion_min": 25.7,
+     "ganador": false,
+     "posible_traduccion": false
+    },
+    {
      "id": "4APj-KV0liA",
      "titulo": "¿Cómo Sobrevivían al Frío los Humanos Prehistóricos Mientras Dormían?",
      "canal": "KROG",
      "subs": 6780,
-     "vistas": 213871,
+     "vistas": 253806,
      "publicado": "2026-09-15",
-     "salto": 31.54,
+     "salto": 37.43,
      "duracion_min": 27.8,
+     "ganador": true,
+     "posible_traduccion": false
+    },
+    {
+     "id": "ypT1WDhuY8Q",
+     "titulo": "Hombres de las Cavernas vs la Edad de Hielo: ¿Cómo Sobrevivimos al Frío Más Mortal de la Historia?",
+     "canal": "Relatos De La Prehistoria",
+     "subs": 11200,
+     "vistas": 197785,
+     "publicado": "2025-06-27",
+     "salto": 17.66,
+     "duracion_min": 34.7,
      "ganador": true,
      "posible_traduccion": false
     },
@@ -7319,10 +7446,10 @@
      "id": "Qnk08Xt-oNQ",
      "titulo": "¿Cómo dormían los humanos antiguos cuando hacía un frío congelante?",
      "canal": "Cronología de la Humanidad",
-     "subs": 6410,
-     "vistas": 162382,
+     "subs": 6740,
+     "vistas": 165092,
      "publicado": "2026-09-11",
-     "salto": 25.33,
+     "salto": 24.49,
      "duracion_min": 27.4,
      "ganador": true,
      "posible_traduccion": false
@@ -7331,10 +7458,10 @@
      "id": "-fQKlGx3zlk",
      "titulo": "Nuestros Ancestros en la Edad de Hielo: ¿Cómo Sobrevivieron al Frío Más Letal de la Historia?",
      "canal": "Planeta Antiguo",
-     "subs": 67400,
-     "vistas": 89164,
+     "subs": 68800,
+     "vistas": 89379,
      "publicado": "2026-04-05",
-     "salto": 1.32,
+     "salto": 1.3,
      "duracion_min": 48.6,
      "ganador": false,
      "posible_traduccion": false
@@ -7343,35 +7470,11 @@
      "id": "dOnX3CM49B0",
      "titulo": "¿Cómo Sobrevivían los Campesinos Medievales al Frío del Invierno? | Historia para Dormir",
      "canal": "Relatos para Dormir",
-     "subs": 14700,
-     "vistas": 87453,
+     "subs": 14800,
+     "vistas": 87770,
      "publicado": "2026-01-04",
-     "salto": 5.95,
+     "salto": 5.93,
      "duracion_min": 158.2,
-     "ganador": false,
-     "posible_traduccion": false
-    },
-    {
-     "id": "LnWblPR5wtQ",
-     "titulo": "👉 ¿Cómo dormían en la Edad de Hielo sin morir congelados? ❄️🔥",
-     "canal": "Terra Ancestral",
-     "subs": 3230,
-     "vistas": 78867,
-     "publicado": "2025-11-25",
-     "salto": 24.42,
-     "duracion_min": 14.7,
-     "ganador": true,
-     "posible_traduccion": false
-    },
-    {
-     "id": "32f-fRj175A",
-     "titulo": "¿Cómo Dormían los Humanos Antiguos Durante la Edad de Hielo Sin Morir de Frío?",
-     "canal": "Cronología de la Humanidad",
-     "subs": 6410,
-     "vistas": 63971,
-     "publicado": "2026-10-08",
-     "salto": 9.98,
-     "duracion_min": 32.2,
      "ganador": false,
      "posible_traduccion": false
     }
@@ -7408,6 +7511,16 @@
      "duracion_min": 13.5
     },
     {
+     "id": "4APj-KV0liA",
+     "titulo": "¿Cómo Sobrevivían al Frío los Humanos Prehistóricos Mientras Dormían?",
+     "canal": "KROG",
+     "subs": 6780,
+     "vistas": 253806,
+     "publicado": "2026-09-15",
+     "salto": 37.43,
+     "duracion_min": 27.8
+    },
+    {
      "id": "b2KwMiW-9NU",
      "titulo": "¿Cómo Dormía La Gente En Los Castillos Medievales Sin Morir Congelada?",
      "canal": "Eljousii",
@@ -7418,23 +7531,13 @@
      "duracion_min": 16.7
     },
     {
-     "id": "4APj-KV0liA",
-     "titulo": "¿Cómo Sobrevivían al Frío los Humanos Prehistóricos Mientras Dormían?",
-     "canal": "KROG",
-     "subs": 6780,
-     "vistas": 213871,
-     "publicado": "2026-09-15",
-     "salto": 31.54,
-     "duracion_min": 27.8
-    },
-    {
      "id": "Qnk08Xt-oNQ",
      "titulo": "¿Cómo dormían los humanos antiguos cuando hacía un frío congelante?",
      "canal": "Cronología de la Humanidad",
-     "subs": 6410,
-     "vistas": 162382,
+     "subs": 6740,
+     "vistas": 165092,
      "publicado": "2026-09-11",
-     "salto": 25.33,
+     "salto": 24.49,
      "duracion_min": 27.4
     },
     {
@@ -7486,9 +7589,9 @@
    ]
   },
   "en": {
-   "videos": 62,
-   "canales": 59,
-   "videos_ultimos_6_meses": 54,
+   "videos": 65,
+   "canales": 61,
+   "videos_ultimos_6_meses": 57,
    "top5_vistas": [
     1473705,
     1152678,
@@ -7496,7 +7599,7 @@
     848734,
     552180
    ],
-   "mediana_vistas": 2929,
+   "mediana_vistas": 3092,
    "videos_100k": 10,
    "videos_1M": 2,
    "ganadores": 9,
@@ -7779,9 +7882,9 @@
    ]
   },
   "en": {
-   "videos": 5,
-   "canales": 5,
-   "videos_ultimos_6_meses": 4,
+   "videos": 6,
+   "canales": 6,
+   "videos_ultimos_6_meses": 5,
    "top5_vistas": [
     172697,
     80496,
@@ -7854,6 +7957,18 @@
      "publicado": "2026-05-04",
      "salto": null,
      "duracion_min": 7.1,
+     "ganador": false,
+     "posible_traduccion": false
+    },
+    {
+     "id": "Nw6hgQnGxMs",
+     "titulo": "What If a Modern Man Was Sent Back to Ancient Times With Knowledge of Modern Weapons?",
+     "canal": "Beyond Tomorrow",
+     "subs": 5,
+     "vistas": 20,
+     "publicado": "2026-10-04",
+     "salto": 4.0,
+     "duracion_min": 8.4,
      "ganador": false,
      "posible_traduccion": false
     }
