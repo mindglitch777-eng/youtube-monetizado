@@ -5708,24 +5708,36 @@
   "idea": 17,
   "nombre": "Mitos de la prehistoria que son mentira",
   "es": {
-   "videos": 16,
-   "canales": 16,
-   "videos_ultimos_6_meses": 10,
+   "videos": 35,
+   "canales": 35,
+   "videos_ultimos_6_meses": 29,
    "top5_vistas": [
+    383176,
     318287,
     1836,
-    1440,
-    287,
-    179
+    1478,
+    1440
    ],
-   "mediana_vistas": 81,
-   "videos_100k": 1,
+   "mediana_vistas": 63,
+   "videos_100k": 2,
    "videos_1M": 0,
-   "ganadores": 0,
-   "ganadores_canal_chico": 0,
-   "fracasos": 7,
-   "posibles_traducciones": 0,
+   "ganadores": 1,
+   "ganadores_canal_chico": 1,
+   "fracasos": 17,
+   "posibles_traducciones": 1,
    "mejores": [
+    {
+     "id": "FRCaGe2QRuU",
+     "titulo": "¿Por qué los antiguos seres humanos nunca vivían más allá de los 30 años?",
+     "canal": "Mente Increible",
+     "subs": 7160,
+     "vistas": 383176,
+     "publicado": "2026-06-29",
+     "salto": 53.52,
+     "duracion_min": 10.3,
+     "ganador": true,
+     "posible_traduccion": false
+    },
     {
      "id": "nHFZOJeGolQ",
      "titulo": "🚫 Mitos Falsos Sobre la Prehistoria",
@@ -5751,6 +5763,18 @@
      "posible_traduccion": false
     },
     {
+     "id": "7LSkl_3AJac",
+     "titulo": "¿Por Qué los Humanos Antiguos Nunca Vivían Más de 30 Años? La Verdad Oculta",
+     "canal": "Docu Core",
+     "subs": 2230,
+     "vistas": 1478,
+     "publicado": "2026-07-21",
+     "salto": 0.66,
+     "duracion_min": 8.7,
+     "ganador": false,
+     "posible_traduccion": false
+    },
+    {
      "id": "tMPlSy7RYSs",
      "titulo": "Otras 10 MENTIRAS que te enseñaron sobre la PREHISTORIA",
      "canal": "Kron TV",
@@ -5763,68 +5787,63 @@
      "posible_traduccion": false
     },
     {
-     "id": "Gl4KNt4urwo",
-     "titulo": "10 Mentiras Vs 10 Realidades de la Prehistoria",
-     "canal": "HISTORIA y sus curiosidades",
-     "subs": 1280,
-     "vistas": 287,
-     "publicado": "2026-03-10",
-     "salto": 0.22,
-     "duracion_min": 10.4,
+     "id": "-d5gGpBusPU",
+     "titulo": "¿Vivían Solo 30 Años? | La Verdad Sobre La Esperanza De Vida Antigua",
+     "canal": "Historia Dibujada",
+     "subs": 1090,
+     "vistas": 1352,
+     "publicado": "2026-06-27",
+     "salto": 1.24,
+     "duracion_min": 17.4,
      "ganador": false,
      "posible_traduccion": false
     },
     {
-     "id": "1AQwymJKO5U",
-     "titulo": "ASÍ VIVÍAN LOS AZTECAS ANTES DE LA CONQUISTA: LO QUE NUNCA TE ENSEÑARON EN LA ESCUELA",
-     "canal": "HISTORIAS de otras ERAS",
-     "subs": 307,
-     "vistas": 179,
-     "publicado": "2025-10-11",
-     "salto": 0.58,
-     "duracion_min": 16.4,
+     "id": "w1Pwz_pjee4",
+     "titulo": "¿Por qué los humanos antiguos nunca vivían más allá de los 30 años?",
+     "canal": "prehistoric drawings",
+     "subs": 19,
+     "vistas": 1079,
+     "publicado": "2026-09-20",
+     "salto": 56.79,
+     "duracion_min": 6.3,
      "ganador": false,
      "posible_traduccion": false
     },
     {
-     "id": "fjYtUrq7Wwg",
-     "titulo": "Higiene en la Edad Media: Mitos, Realidad y Secretos que No Conocías",
-     "canal": "Curiosidades",
-     "subs": 90,
-     "vistas": 165,
-     "publicado": "2025-02-23",
-     "salto": 1.83,
-     "duracion_min": 7.9,
-     "ganador": false,
-     "posible_traduccion": false
-    },
-    {
-     "id": "1tr8DdXzOUY",
-     "titulo": "El mito de la higiene vikinga (y lo que la ciencia encontró en su lugar)",
-     "canal": "Te lo explico con palitos",
-     "subs": 52,
-     "vistas": 118,
-     "publicado": "2026-07-31",
-     "salto": 2.27,
-     "duracion_min": 12.2,
-     "ganador": false,
-     "posible_traduccion": false
-    },
-    {
-     "id": "HNmrqF5B-s4",
-     "titulo": "¿Vivían mejor hace 10,000 años? La gran mentira✨aulamedia Historia",
-     "canal": "aulamedia",
-     "subs": 23900,
-     "vistas": 81,
-     "publicado": "2026-05-06",
-     "salto": 0.0,
-     "duracion_min": 10.0,
+     "id": "VH_wK2Kh2Bg",
+     "titulo": "¿Por Qué los Humanos Antiguos Morían a los 30 Años?",
+     "canal": "KRON",
+     "subs": 933,
+     "vistas": 550,
+     "publicado": "2026-06-26",
+     "salto": 0.59,
+     "duracion_min": 7.6,
      "ganador": false,
      "posible_traduccion": false
     }
    ],
-   "mejores_ganadores": [],
+   "mejores_ganadores": [
+    {
+     "id": "FRCaGe2QRuU",
+     "titulo": "¿Por qué los antiguos seres humanos nunca vivían más allá de los 30 años?",
+     "canal": "Mente Increible",
+     "subs": 7160,
+     "vistas": 383176,
+     "publicado": "2026-06-29",
+     "salto": 53.52,
+     "duracion_min": 10.3
+    }
+   ],
    "fracasos_ejemplo": [
+    {
+     "id": "VH_wK2Kh2Bg",
+     "titulo": "¿Por Qué los Humanos Antiguos Morían a los 30 Años?",
+     "canal": "KRON",
+     "subs": 933,
+     "vistas": 550,
+     "publicado": "2026-06-26"
+    },
     {
      "id": "Gl4KNt4urwo",
      "titulo": "10 Mentiras Vs 10 Realidades de la Prehistoria",
@@ -5840,14 +5859,6 @@
      "subs": 307,
      "vistas": 179,
      "publicado": "2025-10-11"
-    },
-    {
-     "id": "fjYtUrq7Wwg",
-     "titulo": "Higiene en la Edad Media: Mitos, Realidad y Secretos que No Conocías",
-     "canal": "Curiosidades",
-     "subs": 90,
-     "vistas": 165,
-     "publicado": "2025-02-23"
     }
    ]
   },

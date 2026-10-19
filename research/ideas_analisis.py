@@ -63,7 +63,7 @@ REGLAS = {
     15: (r"azteca|aztec|\binca|mexica|tenochtitl|\bmaya", None),
     16: (r"soldad|soldier|legion|esparta|spart|samur|hoplit|guerrer|warrior|gladiad|gladiator|caballero|knight|batalla|battle",
          r"roman|esparta|spart|samur|hoplit|griego|greek|medieval|edad media|vikin|legion|gladiad|azteca|aztec|antig|ancient|persa|persian"),
-    17: (r"\bmitos?\b|myths?|mentira|\blies\b|wrong|equivoc|falso|false|misconcep|debunk|te ensenaron|you were taught", ANTIGUO),
+    17: (r"\bmitos?\b|myths?|mentira|\blies\b|wrong|equivoc|falso|false|misconcep|debunk|te ensenaron|you were taught|(vivian|lived|vivir\w*) .*(30|treinta) (anos|years)|30 (anos|years)", ANTIGUO),
     18: (r"\bamor\b|\blove\b|pareja|matrimon|marri|\bsexo?\b|dating|\bligar|ligaban|enamor|romance|\bcita", ANTIGUO),
     19: (r"(peor|worst|asqueros|disgusting|horrible|terrible|deadliest|mas peligros).*(trabajo|\bjobs?\b|profesion|oficio|empleo)|"
          r"(trabajo|\bjobs?\b|profesion|oficio|empleo).*(peor|worst|asqueros|disgusting|horrible)", None),
