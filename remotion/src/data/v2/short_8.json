@@ -1,0 +1,1001 @@
+{
+ "duracion": 44.017,
+ "n": 8,
+ "planos": [
+  {
+   "ini": 0.0,
+   "tipo": "img",
+   "id": "238",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 8,
+   "vertical": true,
+   "fin": 0.659
+  },
+  {
+   "ini": 0.659,
+   "tipo": "img",
+   "id": "179",
+   "cam": "EC",
+   "tr": "FLASH",
+   "epoca": 8,
+   "vertical": false,
+   "fin": 1.463
+  },
+  {
+   "ini": 1.463,
+   "tipo": "img",
+   "id": "181",
+   "cam": "MS",
+   "tr": "GAME",
+   "epoca": 8,
+   "vertical": false,
+   "fin": 3.228
+  },
+  {
+   "ini": 3.228,
+   "fin": 4.994,
+   "tipo": "img",
+   "id": "183",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 8,
+   "vertical": false
+  },
+  {
+   "ini": 4.994,
+   "tipo": "img",
+   "id": "180",
+   "cam": "WS",
+   "tr": "PUNCH",
+   "epoca": 8,
+   "vertical": false,
+   "fin": 6.718
+  },
+  {
+   "ini": 6.718,
+   "fin": 8.442,
+   "tipo": "img",
+   "id": "184",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 8,
+   "vertical": false
+  },
+  {
+   "ini": 8.442,
+   "tipo": "img",
+   "id": "182",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 8,
+   "vertical": false,
+   "fin": 9.787
+  },
+  {
+   "ini": 9.787,
+   "fin": 11.131,
+   "tipo": "img",
+   "id": "185",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 8,
+   "vertical": false
+  },
+  {
+   "ini": 11.131,
+   "tipo": "img",
+   "id": "183",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 8,
+   "vertical": false,
+   "fin": 12.713
+  },
+  {
+   "ini": 12.713,
+   "tipo": "img",
+   "id": "184",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 8,
+   "vertical": false,
+   "fin": 14.366
+  },
+  {
+   "ini": 14.366,
+   "fin": 16.018,
+   "tipo": "img",
+   "id": "187",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 8,
+   "vertical": false
+  },
+  {
+   "ini": 16.018,
+   "tipo": "img",
+   "id": "185",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 8,
+   "vertical": false,
+   "fin": 17.585
+  },
+  {
+   "ini": 17.585,
+   "fin": 19.153,
+   "tipo": "img",
+   "id": "188",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 8,
+   "vertical": false
+  },
+  {
+   "ini": 19.153,
+   "tipo": "img",
+   "id": "186",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 8,
+   "vertical": false,
+   "fin": 20.238
+  },
+  {
+   "ini": 20.238,
+   "tipo": "img",
+   "id": "187",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 8,
+   "vertical": false,
+   "fin": 22.652
+  },
+  {
+   "ini": 22.652,
+   "tipo": "img",
+   "id": "188",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 8,
+   "vertical": false,
+   "fin": 22.816
+  },
+  {
+   "ini": 22.816,
+   "tipo": "img",
+   "id": "194",
+   "cam": "EC",
+   "tr": "SMASH",
+   "epoca": 8,
+   "vertical": false,
+   "fin": 24.435
+  },
+  {
+   "ini": 24.435,
+   "fin": 26.055,
+   "tipo": "img",
+   "id": "191",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 8,
+   "vertical": false
+  },
+  {
+   "ini": 26.055,
+   "tipo": "img",
+   "id": "189",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 8,
+   "vertical": false,
+   "fin": 28.121
+  },
+  {
+   "ini": 28.121,
+   "tipo": "img",
+   "id": "190",
+   "cam": "MS",
+   "tr": "PUNCH",
+   "epoca": 8,
+   "vertical": false,
+   "fin": 29.585
+  },
+  {
+   "ini": 29.585,
+   "fin": 31.049,
+   "tipo": "img",
+   "id": "195",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 8,
+   "vertical": false
+  },
+  {
+   "ini": 31.049,
+   "tipo": "img",
+   "id": "191",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 8,
+   "vertical": false,
+   "fin": 32.605
+  },
+  {
+   "ini": 32.605,
+   "fin": 34.161,
+   "tipo": "img",
+   "id": "238",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 8,
+   "vertical": true
+  },
+  {
+   "ini": 34.161,
+   "tipo": "img",
+   "id": "193",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 8,
+   "vertical": false,
+   "congelar": 35.733,
+   "fin": 36.033
+  },
+  {
+   "ini": 36.033,
+   "tipo": "negro",
+   "fin": 37.035
+  },
+  {
+   "ini": 37.035,
+   "tipo": "img",
+   "id": "195",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 8,
+   "vertical": false,
+   "fin": 38.862
+  },
+  {
+   "ini": 38.862,
+   "fin": 40.69,
+   "tipo": "img",
+   "id": "180",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 8,
+   "vertical": false
+  },
+  {
+   "ini": 40.69,
+   "tipo": "img",
+   "id": "195",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 8,
+   "vertical": false,
+   "fin": 42.517
+  },
+  {
+   "ini": 42.517,
+   "tipo": "tarjeta",
+   "n": 8,
+   "fin": 44.017
+  }
+ ],
+ "textos": [
+  {
+   "ini": 1.563,
+   "texto": "MUERTES: 7 · ÉPOCA 8/8",
+   "id": "181",
+   "fin": 3.228
+  },
+  {
+   "ini": 5.094,
+   "texto": "SOHO · LONDRES · 1854",
+   "id": "180",
+   "fin": 6.718
+  },
+  {
+   "ini": 19.253,
+   "texto": "MENOS DE 1 METRO",
+   "id": "186",
+   "fin": 20.453
+  },
+  {
+   "ini": 22.752,
+   "texto": "127 EN 3 DÍAS",
+   "id": "188",
+   "fin": 22.866
+  },
+  {
+   "ini": 22.916,
+   "texto": "3 DÍAS",
+   "id": "194",
+   "fin": 24.435
+  },
+  {
+   "ini": 26.155,
+   "texto": "+300 EN 10 DÍAS",
+   "id": "189",
+   "fin": 28.121
+  },
+  {
+   "ini": 28.221,
+   "texto": "DR. JOHN SNOW",
+   "id": "190",
+   "fin": 29.585
+  }
+ ],
+ "subs": [
+  {
+   "w": "Tienes",
+   "ini": 0.02,
+   "fin": 0.322
+  },
+  {
+   "w": "sed.",
+   "ini": 0.333,
+   "fin": 0.559
+  },
+  {
+   "w": "Mucha",
+   "ini": 0.709,
+   "fin": 1.021
+  },
+  {
+   "w": "sed.",
+   "ini": 1.032,
+   "fin": 1.323
+  },
+  {
+   "w": "Siete",
+   "ini": 1.483,
+   "fin": 1.849
+  },
+  {
+   "w": "muertes.",
+   "ini": 1.86,
+   "fin": 2.388
+  },
+  {
+   "w": "Queda",
+   "ini": 2.538,
+   "fin": 2.797
+  },
+  {
+   "w": "una.",
+   "ini": 2.808,
+   "fin": 3.12
+  },
+  {
+   "w": "Y",
+   "ini": 3.27,
+   "fin": 3.399
+  },
+  {
+   "w": "empieza",
+   "ini": 3.41,
+   "fin": 3.82
+  },
+  {
+   "w": "con",
+   "ini": 3.83,
+   "fin": 4.003
+  },
+  {
+   "w": "algo",
+   "ini": 4.014,
+   "fin": 4.229
+  },
+  {
+   "w": "muy",
+   "ini": 4.24,
+   "fin": 4.423
+  },
+  {
+   "w": "simple.",
+   "ini": 4.434,
+   "fin": 4.854
+  },
+  {
+   "w": "Estás",
+   "ini": 5.014,
+   "fin": 5.37
+  },
+  {
+   "w": "en",
+   "ini": 5.38,
+   "fin": 5.477
+  },
+  {
+   "w": "Soho,",
+   "ini": 5.488,
+   "fin": 5.844
+  },
+  {
+   "w": "Londres.",
+   "ini": 5.994,
+   "fin": 6.5
+  },
+  {
+   "w": "1854.",
+   "ini": 6.65,
+   "fin": 8.17
+  },
+  {
+   "w": "Y",
+   "ini": 8.33,
+   "fin": 8.481
+  },
+  {
+   "w": "en",
+   "ini": 8.492,
+   "fin": 8.578
+  },
+  {
+   "w": "la",
+   "ini": 8.589,
+   "fin": 8.664
+  },
+  {
+   "w": "calle",
+   "ini": 8.675,
+   "fin": 8.933
+  },
+  {
+   "w": "hay",
+   "ini": 8.944,
+   "fin": 9.074
+  },
+  {
+   "w": "una",
+   "ini": 9.084,
+   "fin": 9.214
+  },
+  {
+   "w": "bomba",
+   "ini": 9.224,
+   "fin": 9.472
+  },
+  {
+   "w": "de",
+   "ini": 9.483,
+   "fin": 9.602
+  },
+  {
+   "w": "agua.",
+   "ini": 9.612,
+   "fin": 9.914
+  },
+  {
+   "w": "Con",
+   "ini": 10.064,
+   "fin": 10.258
+  },
+  {
+   "w": "fila",
+   "ini": 10.269,
+   "fin": 10.484
+  },
+  {
+   "w": "de",
+   "ini": 10.495,
+   "fin": 10.592
+  },
+  {
+   "w": "gente.",
+   "ini": 10.603,
+   "fin": 10.991
+  },
+  {
+   "w": "Te",
+   "ini": 11.151,
+   "fin": 11.248
+  },
+  {
+   "w": "acercas.",
+   "ini": 11.259,
+   "fin": 11.851
+  },
+  {
+   "w": "Bebes.",
+   "ini": 12.001,
+   "fin": 12.573
+  },
+  {
+   "w": "Agua",
+   "ini": 12.733,
+   "fin": 12.992
+  },
+  {
+   "w": "fresca.",
+   "ini": 13.002,
+   "fin": 13.423
+  },
+  {
+   "w": "Rica.",
+   "ini": 13.573,
+   "fin": 14.004
+  },
+  {
+   "w": "Limpia.",
+   "ini": 14.154,
+   "fin": 14.671
+  },
+  {
+   "w": "O",
+   "ini": 14.831,
+   "fin": 14.971
+  },
+  {
+   "w": "eso",
+   "ini": 14.982,
+   "fin": 15.208
+  },
+  {
+   "w": "parece.",
+   "ini": 15.219,
+   "fin": 15.639
+  },
+  {
+   "w": "Porque",
+   "ini": 15.799,
+   "fin": 16.058
+  },
+  {
+   "w": "ese",
+   "ini": 16.068,
+   "fin": 16.252
+  },
+  {
+   "w": "pozo",
+   "ini": 16.262,
+   "fin": 16.521
+  },
+  {
+   "w": "está",
+   "ini": 16.532,
+   "fin": 16.747
+  },
+  {
+   "w": "a",
+   "ini": 16.758,
+   "fin": 16.79
+  },
+  {
+   "w": "menos",
+   "ini": 16.801,
+   "fin": 17.114
+  },
+  {
+   "w": "de",
+   "ini": 17.124,
+   "fin": 17.2
+  },
+  {
+   "w": "un",
+   "ini": 17.211,
+   "fin": 17.329
+  },
+  {
+   "w": "metro",
+   "ini": 17.34,
+   "fin": 17.62
+  },
+  {
+   "w": "de",
+   "ini": 17.631,
+   "fin": 17.717
+  },
+  {
+   "w": "un",
+   "ini": 17.728,
+   "fin": 17.857
+  },
+  {
+   "w": "pozo",
+   "ini": 17.868,
+   "fin": 18.137
+  },
+  {
+   "w": "negro",
+   "ini": 18.148,
+   "fin": 18.439
+  },
+  {
+   "w": "con",
+   "ini": 18.45,
+   "fin": 18.601
+  },
+  {
+   "w": "fugas.",
+   "ini": 18.612,
+   "fin": 19.053
+  },
+  {
+   "w": "A",
+   "ini": 19.203,
+   "fin": 19.311
+  },
+  {
+   "w": "un",
+   "ini": 19.322,
+   "fin": 19.451
+  },
+  {
+   "w": "paso",
+   "ini": 19.462,
+   "fin": 19.731
+  },
+  {
+   "w": "largo.",
+   "ini": 19.742,
+   "fin": 20.098
+  },
+  {
+   "w": "No.",
+   "ini": 20.333,
+   "fin": 20.704
+  },
+  {
+   "w": "No",
+   "ini": 20.854,
+   "fin": 21.045
+  },
+  {
+   "w": "bebas",
+   "ini": 21.057,
+   "fin": 21.38
+  },
+  {
+   "w": "eso.",
+   "ini": 21.392,
+   "fin": 21.715
+  },
+  {
+   "w": "Por",
+   "ini": 21.865,
+   "fin": 22.032
+  },
+  {
+   "w": "favor.",
+   "ini": 22.044,
+   "fin": 22.499
+  },
+  {
+   "w": "En",
+   "ini": 22.672,
+   "fin": 22.855
+  },
+  {
+   "w": "tres",
+   "ini": 22.866,
+   "fin": 23.092
+  },
+  {
+   "w": "días",
+   "ini": 23.103,
+   "fin": 23.372
+  },
+  {
+   "w": "mueren",
+   "ini": 23.383,
+   "fin": 23.674
+  },
+  {
+   "w": "ciento",
+   "ini": 23.685,
+   "fin": 23.997
+  },
+  {
+   "w": "veintisiete",
+   "ini": 24.008,
+   "fin": 24.558
+  },
+  {
+   "w": "personas.",
+   "ini": 24.569,
+   "fin": 25.161
+  },
+  {
+   "w": "Justo",
+   "ini": 25.311,
+   "fin": 25.645
+  },
+  {
+   "w": "ahí.",
+   "ini": 25.656,
+   "fin": 25.915
+  },
+  {
+   "w": "En",
+   "ini": 26.075,
+   "fin": 26.247
+  },
+  {
+   "w": "diez",
+   "ini": 26.258,
+   "fin": 26.484
+  },
+  {
+   "w": "días,",
+   "ini": 26.495,
+   "fin": 26.851
+  },
+  {
+   "w": "más",
+   "ini": 27.001,
+   "fin": 27.206
+  },
+  {
+   "w": "de",
+   "ini": 27.216,
+   "fin": 27.303
+  },
+  {
+   "w": "trescientas.",
+   "ini": 27.313,
+   "fin": 27.981
+  },
+  {
+   "w": "Un",
+   "ini": 28.141,
+   "fin": 28.281
+  },
+  {
+   "w": "médico,",
+   "ini": 28.292,
+   "fin": 28.691
+  },
+  {
+   "w": "John",
+   "ini": 28.841,
+   "fin": 29.045
+  },
+  {
+   "w": "Snow,",
+   "ini": 29.056,
+   "fin": 29.304
+  },
+  {
+   "w": "marca",
+   "ini": 29.454,
+   "fin": 29.756
+  },
+  {
+   "w": "cada",
+   "ini": 29.766,
+   "fin": 29.993
+  },
+  {
+   "w": "muerte",
+   "ini": 30.004,
+   "fin": 30.327
+  },
+  {
+   "w": "en",
+   "ini": 30.338,
+   "fin": 30.424
+  },
+  {
+   "w": "un",
+   "ini": 30.435,
+   "fin": 30.542
+  },
+  {
+   "w": "mapa.",
+   "ini": 30.553,
+   "fin": 30.909
+  },
+  {
+   "w": "Y",
+   "ini": 31.069,
+   "fin": 31.177
+  },
+  {
+   "w": "descubre",
+   "ini": 31.188,
+   "fin": 31.619
+  },
+  {
+   "w": "algo:",
+   "ini": 31.629,
+   "fin": 31.92
+  },
+  {
+   "w": "todas",
+   "ini": 32.07,
+   "fin": 32.35
+  },
+  {
+   "w": "están",
+   "ini": 32.361,
+   "fin": 32.631
+  },
+  {
+   "w": "alrededor",
+   "ini": 32.641,
+   "fin": 33.105
+  },
+  {
+   "w": "de",
+   "ini": 33.116,
+   "fin": 33.213
+  },
+  {
+   "w": "la",
+   "ini": 33.223,
+   "fin": 33.31
+  },
+  {
+   "w": "misma",
+   "ini": 33.32,
+   "fin": 33.633
+  },
+  {
+   "w": "bomba.",
+   "ini": 33.644,
+   "fin": 34.021
+  },
+  {
+   "w": "Pero",
+   "ini": 34.181,
+   "fin": 34.364
+  },
+  {
+   "w": "Pijama",
+   "ini": 34.375,
+   "fin": 34.731
+  },
+  {
+   "w": "ya",
+   "ini": 34.741,
+   "fin": 34.914
+  },
+  {
+   "w": "había",
+   "ini": 34.925,
+   "fin": 35.162
+  },
+  {
+   "w": "bebido.",
+   "ini": 35.172,
+   "fin": 35.593
+  },
+  {
+   "w": "Tres",
+   "ini": 36.173,
+   "fin": 36.453
+  },
+  {
+   "w": "días.",
+   "ini": 36.464,
+   "fin": 36.895
+  },
+  {
+   "w": "Lo",
+   "ini": 37.13,
+   "fin": 37.274
+  },
+  {
+   "w": "siento.",
+   "ini": 37.285,
+   "fin": 37.728
+  },
+  {
+   "w": "Esta",
+   "ini": 37.878,
+   "fin": 38.189
+  },
+  {
+   "w": "no",
+   "ini": 38.201,
+   "fin": 38.369
+  },
+  {
+   "w": "la",
+   "ini": 38.38,
+   "fin": 38.464
+  },
+  {
+   "w": "vi",
+   "ini": 38.476,
+   "fin": 38.608
+  },
+  {
+   "w": "venir.",
+   "ini": 38.62,
+   "fin": 39.038
+  },
+  {
+   "w": "Y",
+   "ini": 39.211,
+   "fin": 39.319
+  },
+  {
+   "w": "suena",
+   "ini": 39.33,
+   "fin": 39.599
+  },
+  {
+   "w": "el",
+   "ini": 39.61,
+   "fin": 39.664
+  },
+  {
+   "w": "despertador.",
+   "ini": 39.674,
+   "fin": 40.332
+  },
+  {
+   "w": "Pero",
+   "ini": 40.492,
+   "fin": 40.686
+  },
+  {
+   "w": "esta",
+   "ini": 40.697,
+   "fin": 40.891
+  },
+  {
+   "w": "vez…",
+   "ini": 40.901,
+   "fin": 41.192
+  },
+  {
+   "w": "algo",
+   "ini": 41.342,
+   "fin": 41.58
+  },
+  {
+   "w": "suena",
+   "ini": 41.59,
+   "fin": 41.827
+  },
+  {
+   "w": "diferente.",
+   "ini": 41.838,
+   "fin": 42.377
+  }
+ ],
+ "recap": {
+  "vidas": 1,
+  "previas": [
+   {
+    "epoca": "HIELO",
+    "nota": "F"
+   },
+   {
+    "epoca": "EGIPTO",
+    "nota": "A"
+   },
+   {
+    "epoca": "POMPEYA",
+    "nota": "D"
+   },
+   {
+    "epoca": "ROMA",
+    "nota": "C"
+   },
+   {
+    "epoca": "1348",
+    "nota": "F"
+   },
+   {
+    "epoca": "TENOCHTITLAN",
+    "nota": "B"
+   },
+   {
+    "epoca": "1816",
+    "nota": "D"
+   }
+  ],
+  "titulo": "ÉPOCA 8 DE 8 · LONDRES",
+  "jefe": "JEFE: UN VASO DE AGUA"
+ },
+ "estilo": "londres",
+ "fin_voz": 42.517
+}

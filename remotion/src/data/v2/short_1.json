@@ -1,0 +1,953 @@
+{
+ "duracion": 41.815,
+ "n": 1,
+ "planos": [
+  {
+   "ini": 0.0,
+   "tipo": "img",
+   "id": "230",
+   "cam": "LA",
+   "tr": "",
+   "epoca": 1,
+   "vertical": true,
+   "fin": 0.854
+  },
+  {
+   "ini": 0.854,
+   "tipo": "img",
+   "id": "033",
+   "cam": "WS",
+   "tr": "FLASH",
+   "epoca": 1,
+   "vertical": false,
+   "fin": 2.164
+  },
+  {
+   "ini": 2.164,
+   "tipo": "img",
+   "id": "034",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 1,
+   "vertical": false,
+   "fin": 4.081
+  },
+  {
+   "ini": 4.081,
+   "fin": 5.997,
+   "tipo": "img",
+   "id": "040",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 1,
+   "vertical": false
+  },
+  {
+   "ini": 5.997,
+   "tipo": "img",
+   "id": "034",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 1,
+   "vertical": false,
+   "fin": 7.914
+  },
+  {
+   "ini": 7.914,
+   "tipo": "img",
+   "id": "035",
+   "cam": "LA",
+   "tr": "",
+   "epoca": 1,
+   "vertical": false,
+   "fin": 9.468
+  },
+  {
+   "ini": 9.468,
+   "fin": 11.021,
+   "tipo": "img",
+   "id": "041",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 1,
+   "vertical": false
+  },
+  {
+   "ini": 11.021,
+   "tipo": "img",
+   "id": "035",
+   "cam": "LA",
+   "tr": "",
+   "epoca": 1,
+   "vertical": false,
+   "fin": 12.575
+  },
+  {
+   "ini": 12.575,
+   "tipo": "img",
+   "id": "038",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 1,
+   "vertical": false,
+   "fin": 14.491
+  },
+  {
+   "ini": 14.491,
+   "tipo": "img",
+   "id": "040",
+   "cam": "WS",
+   "tr": "PUNCH",
+   "epoca": 1,
+   "vertical": false,
+   "fin": 15.758
+  },
+  {
+   "ini": 15.758,
+   "fin": 17.025,
+   "tipo": "img",
+   "id": "043",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 1,
+   "vertical": false
+  },
+  {
+   "ini": 17.025,
+   "tipo": "img",
+   "id": "041",
+   "cam": "HA",
+   "tr": "",
+   "epoca": 1,
+   "vertical": false,
+   "fin": 18.658
+  },
+  {
+   "ini": 18.658,
+   "tipo": "img",
+   "id": "042",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 1,
+   "vertical": false,
+   "fin": 20.014
+  },
+  {
+   "ini": 20.014,
+   "tipo": "img",
+   "id": "043",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 1,
+   "vertical": false,
+   "fin": 21.302
+  },
+  {
+   "ini": 21.302,
+   "fin": 22.59,
+   "tipo": "img",
+   "id": "045",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 1,
+   "vertical": false
+  },
+  {
+   "ini": 22.59,
+   "tipo": "img",
+   "id": "044",
+   "cam": "EC",
+   "tr": "",
+   "epoca": 1,
+   "vertical": false,
+   "fin": 25.021
+  },
+  {
+   "ini": 25.021,
+   "tipo": "img",
+   "id": "231",
+   "cam": "LA",
+   "tr": "PUNCH",
+   "epoca": 1,
+   "vertical": true,
+   "fin": 26.402
+  },
+  {
+   "ini": 26.402,
+   "tipo": "img",
+   "id": "045",
+   "cam": "WS",
+   "tr": "PUNCH",
+   "epoca": 1,
+   "vertical": false,
+   "fin": 27.069
+  },
+  {
+   "ini": 27.069,
+   "tipo": "img",
+   "id": "046",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 1,
+   "vertical": false,
+   "fin": 28.784
+  },
+  {
+   "ini": 28.784,
+   "tipo": "img",
+   "id": "047",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 1,
+   "vertical": false,
+   "congelar": 29.738,
+   "fin": 30.038
+  },
+  {
+   "ini": 30.038,
+   "tipo": "negro",
+   "fin": 30.158
+  },
+  {
+   "ini": 30.158,
+   "tipo": "img",
+   "id": "048",
+   "cam": "EC",
+   "tr": "SMASH",
+   "epoca": 1,
+   "vertical": false,
+   "fin": 32.041
+  },
+  {
+   "ini": 32.041,
+   "tipo": "img",
+   "id": "049",
+   "cam": "MS",
+   "tr": "GAME",
+   "epoca": 1,
+   "vertical": false,
+   "fin": 33.593
+  },
+  {
+   "ini": 33.593,
+   "fin": 35.146,
+   "tipo": "img",
+   "id": "033",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 1,
+   "vertical": false
+  },
+  {
+   "ini": 35.146,
+   "tipo": "img",
+   "id": "049",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 1,
+   "vertical": false,
+   "fin": 36.698
+  },
+  {
+   "ini": 36.698,
+   "tipo": "img",
+   "id": "050",
+   "cam": "WS",
+   "tr": "SMASH",
+   "epoca": 1,
+   "vertical": false,
+   "fin": 37.979
+  },
+  {
+   "ini": 37.979,
+   "tipo": "img",
+   "id": "051",
+   "cam": "WS",
+   "tr": "MATCH",
+   "epoca": 1,
+   "vertical": false,
+   "fin": 40.315
+  },
+  {
+   "ini": 40.315,
+   "tipo": "tarjeta",
+   "n": 1,
+   "fin": 41.815
+  }
+ ],
+ "textos": [
+  {
+   "ini": 0.954,
+   "texto": "HACE 18.000 AÑOS · UCRANIA",
+   "id": "033",
+   "fin": 2.164
+  },
+  {
+   "ini": 28.884,
+   "texto": "SKILL ISSUE",
+   "id": "047",
+   "fin": 30.084
+  },
+  {
+   "ini": 30.258,
+   "texto": "2:14 · FIN",
+   "id": "048",
+   "fin": 32.041
+  }
+ ],
+ "subs": [
+  {
+   "w": "En",
+   "ini": 0.02,
+   "fin": 0.192
+  },
+  {
+   "w": "la",
+   "ini": 0.203,
+   "fin": 0.289
+  },
+  {
+   "w": "Edad",
+   "ini": 0.3,
+   "fin": 0.505
+  },
+  {
+   "w": "de",
+   "ini": 0.516,
+   "fin": 0.602
+  },
+  {
+   "w": "Hielo",
+   "ini": 0.613,
+   "fin": 0.893
+  },
+  {
+   "w": "no",
+   "ini": 0.904,
+   "fin": 1.076
+  },
+  {
+   "w": "te",
+   "ini": 1.087,
+   "fin": 1.184
+  },
+  {
+   "w": "morías",
+   "ini": 1.195,
+   "fin": 1.561
+  },
+  {
+   "w": "de",
+   "ini": 1.572,
+   "fin": 1.626
+  },
+  {
+   "w": "golpe.",
+   "ini": 1.636,
+   "fin": 2.024
+  },
+  {
+   "w": "Te",
+   "ini": 2.184,
+   "fin": 2.292
+  },
+  {
+   "w": "ibas",
+   "ini": 2.303,
+   "fin": 2.604
+  },
+  {
+   "w": "apagando.",
+   "ini": 2.615,
+   "fin": 3.122
+  },
+  {
+   "w": "Pijama",
+   "ini": 3.282,
+   "fin": 3.638
+  },
+  {
+   "w": "se",
+   "ini": 3.648,
+   "fin": 3.767
+  },
+  {
+   "w": "durmió",
+   "ini": 3.778,
+   "fin": 4.069
+  },
+  {
+   "w": "en",
+   "ini": 4.079,
+   "fin": 4.144
+  },
+  {
+   "w": "su",
+   "ini": 4.155,
+   "fin": 4.273
+  },
+  {
+   "w": "cama.",
+   "ini": 4.284,
+   "fin": 4.629
+  },
+  {
+   "w": "Despertó",
+   "ini": 4.779,
+   "fin": 5.242
+  },
+  {
+   "w": "acá.",
+   "ini": 5.253,
+   "fin": 5.566
+  },
+  {
+   "w": "Y",
+   "ini": 5.716,
+   "fin": 5.845
+  },
+  {
+   "w": "tiene",
+   "ini": 5.856,
+   "fin": 6.082
+  },
+  {
+   "w": "un",
+   "ini": 6.093,
+   "fin": 6.201
+  },
+  {
+   "w": "reloj",
+   "ini": 6.211,
+   "fin": 6.492
+  },
+  {
+   "w": "que",
+   "ini": 6.502,
+   "fin": 6.61
+  },
+  {
+   "w": "cuenta",
+   "ini": 6.621,
+   "fin": 6.923
+  },
+  {
+   "w": "cuánto",
+   "ini": 6.933,
+   "fin": 7.214
+  },
+  {
+   "w": "dura",
+   "ini": 7.224,
+   "fin": 7.429
+  },
+  {
+   "w": "vivo.",
+   "ini": 7.44,
+   "fin": 7.774
+  },
+  {
+   "w": "Primer",
+   "ini": 7.934,
+   "fin": 8.236
+  },
+  {
+   "w": "problema:",
+   "ini": 8.247,
+   "fin": 8.731
+  },
+  {
+   "w": "tus",
+   "ini": 8.881,
+   "fin": 9.043
+  },
+  {
+   "w": "pies.",
+   "ini": 9.054,
+   "fin": 9.463
+  },
+  {
+   "w": "Descalzos,",
+   "ini": 9.613,
+   "fin": 10.228
+  },
+  {
+   "w": "sobre",
+   "ini": 10.378,
+   "fin": 10.668
+  },
+  {
+   "w": "nieve",
+   "ini": 10.679,
+   "fin": 10.938
+  },
+  {
+   "w": "dura.",
+   "ini": 10.949,
+   "fin": 11.24
+  },
+  {
+   "w": "Y",
+   "ini": 11.39,
+   "fin": 11.508
+  },
+  {
+   "w": "ya",
+   "ini": 11.519,
+   "fin": 11.659
+  },
+  {
+   "w": "no",
+   "ini": 11.67,
+   "fin": 11.788
+  },
+  {
+   "w": "los",
+   "ini": 11.799,
+   "fin": 11.918
+  },
+  {
+   "w": "sientes.",
+   "ini": 11.928,
+   "fin": 12.435
+  },
+  {
+   "w": "Tu",
+   "ini": 12.595,
+   "fin": 12.703
+  },
+  {
+   "w": "café",
+   "ini": 12.714,
+   "fin": 13.004
+  },
+  {
+   "w": "ahora",
+   "ini": 13.015,
+   "fin": 13.317
+  },
+  {
+   "w": "es",
+   "ini": 13.328,
+   "fin": 13.436
+  },
+  {
+   "w": "un",
+   "ini": 13.446,
+   "fin": 13.543
+  },
+  {
+   "w": "cubito",
+   "ini": 13.554,
+   "fin": 13.888
+  },
+  {
+   "w": "de",
+   "ini": 13.899,
+   "fin": 13.985
+  },
+  {
+   "w": "café.",
+   "ini": 13.996,
+   "fin": 14.351
+  },
+  {
+   "w": "Él",
+   "ini": 14.511,
+   "fin": 14.683
+  },
+  {
+   "w": "vive",
+   "ini": 14.694,
+   "fin": 14.888
+  },
+  {
+   "w": "en",
+   "ini": 14.899,
+   "fin": 14.985
+  },
+  {
+   "w": "una",
+   "ini": 14.996,
+   "fin": 15.147
+  },
+  {
+   "w": "casa",
+   "ini": 15.158,
+   "fin": 15.416
+  },
+  {
+   "w": "circular",
+   "ini": 15.427,
+   "fin": 15.869
+  },
+  {
+   "w": "hecha",
+   "ini": 15.88,
+   "fin": 16.063
+  },
+  {
+   "w": "de",
+   "ini": 16.074,
+   "fin": 16.16
+  },
+  {
+   "w": "huesos",
+   "ini": 16.17,
+   "fin": 16.505
+  },
+  {
+   "w": "de",
+   "ini": 16.515,
+   "fin": 16.58
+  },
+  {
+   "w": "mamut.",
+   "ini": 16.591,
+   "fin": 16.925
+  },
+  {
+   "w": "Como",
+   "ini": 17.075,
+   "fin": 17.29
+  },
+  {
+   "w": "un",
+   "ini": 17.301,
+   "fin": 17.441
+  },
+  {
+   "w": "Lego,",
+   "ini": 17.452,
+   "fin": 17.764
+  },
+  {
+   "w": "pero",
+   "ini": 17.914,
+   "fin": 18.087
+  },
+  {
+   "w": "de",
+   "ini": 18.098,
+   "fin": 18.173
+  },
+  {
+   "w": "mamut.",
+   "ini": 18.184,
+   "fin": 18.518
+  },
+  {
+   "w": "Pijama",
+   "ini": 18.678,
+   "fin": 19.044
+  },
+  {
+   "w": "lo",
+   "ini": 19.055,
+   "fin": 19.131
+  },
+  {
+   "w": "intenta",
+   "ini": 19.141,
+   "fin": 19.529
+  },
+  {
+   "w": "todo.",
+   "ini": 19.54,
+   "fin": 19.874
+  },
+  {
+   "w": "Intento",
+   "ini": 20.034,
+   "fin": 20.508
+  },
+  {
+   "w": "uno:",
+   "ini": 20.519,
+   "fin": 20.842
+  },
+  {
+   "w": "esconderse",
+   "ini": 20.992,
+   "fin": 21.574
+  },
+  {
+   "w": "dentro",
+   "ini": 21.585,
+   "fin": 21.876
+  },
+  {
+   "w": "del",
+   "ini": 21.887,
+   "fin": 22.027
+  },
+  {
+   "w": "pijama.",
+   "ini": 22.037,
+   "fin": 22.49
+  },
+  {
+   "w": "Es",
+   "ini": 22.64,
+   "fin": 22.823
+  },
+  {
+   "w": "de",
+   "ini": 22.834,
+   "fin": 22.899
+  },
+  {
+   "w": "algodón.",
+   "ini": 22.91,
+   "fin": 23.351
+  },
+  {
+   "w": "El",
+   "ini": 23.501,
+   "fin": 23.674
+  },
+  {
+   "w": "algodón",
+   "ini": 23.684,
+   "fin": 24.062
+  },
+  {
+   "w": "no",
+   "ini": 24.072,
+   "fin": 24.212
+  },
+  {
+   "w": "abriga",
+   "ini": 24.223,
+   "fin": 24.525
+  },
+  {
+   "w": "nada.",
+   "ini": 24.536,
+   "fin": 24.881
+  },
+  {
+   "w": "Intento",
+   "ini": 25.041,
+   "fin": 25.526
+  },
+  {
+   "w": "tres:",
+   "ini": 25.537,
+   "fin": 25.882
+  },
+  {
+   "w": "abrazar",
+   "ini": 26.032,
+   "fin": 26.441
+  },
+  {
+   "w": "a",
+   "ini": 26.452,
+   "fin": 26.495
+  },
+  {
+   "w": "un",
+   "ini": 26.506,
+   "fin": 26.624
+  },
+  {
+   "w": "mamut.",
+   "ini": 26.635,
+   "fin": 26.969
+  },
+  {
+   "w": "El",
+   "ini": 27.119,
+   "fin": 27.27
+  },
+  {
+   "w": "mamut",
+   "ini": 27.281,
+   "fin": 27.572
+  },
+  {
+   "w": "no",
+   "ini": 27.582,
+   "fin": 27.712
+  },
+  {
+   "w": "está",
+   "ini": 27.722,
+   "fin": 27.916
+  },
+  {
+   "w": "de",
+   "ini": 27.927,
+   "fin": 28.013
+  },
+  {
+   "w": "acuerdo.",
+   "ini": 28.024,
+   "fin": 28.444
+  },
+  {
+   "w": "Skill",
+   "ini": 28.879,
+   "fin": 29.262
+  },
+  {
+   "w": "issue.",
+   "ini": 29.274,
+   "fin": 29.585
+  },
+  {
+   "w": "Dos",
+   "ini": 30.178,
+   "fin": 30.426
+  },
+  {
+   "w": "horas,",
+   "ini": 30.437,
+   "fin": 30.771
+  },
+  {
+   "w": "catorce",
+   "ini": 30.921,
+   "fin": 31.341
+  },
+  {
+   "w": "minutos.",
+   "ini": 31.352,
+   "fin": 31.901
+  },
+  {
+   "w": "Logro",
+   "ini": 32.136,
+   "fin": 32.507
+  },
+  {
+   "w": "desbloqueado:",
+   "ini": 32.519,
+   "fin": 33.165
+  },
+  {
+   "w": "morir",
+   "ini": 33.315,
+   "fin": 33.602
+  },
+  {
+   "w": "congelado",
+   "ini": 33.614,
+   "fin": 34.128
+  },
+  {
+   "w": "en",
+   "ini": 34.14,
+   "fin": 34.224
+  },
+  {
+   "w": "pijama.",
+   "ini": 34.236,
+   "fin": 34.75
+  },
+  {
+   "w": "Aura:",
+   "ini": 34.9,
+   "fin": 35.271
+  },
+  {
+   "w": "menos",
+   "ini": 35.421,
+   "fin": 35.696
+  },
+  {
+   "w": "sesenta",
+   "ini": 35.708,
+   "fin": 36.079
+  },
+  {
+   "w": "y",
+   "ini": 36.091,
+   "fin": 36.127
+  },
+  {
+   "w": "siete.",
+   "ini": 36.139,
+   "fin": 36.545
+  },
+  {
+   "w": "Y",
+   "ini": 36.718,
+   "fin": 36.826
+  },
+  {
+   "w": "suena",
+   "ini": 36.837,
+   "fin": 37.106
+  },
+  {
+   "w": "el",
+   "ini": 37.117,
+   "fin": 37.171
+  },
+  {
+   "w": "despertador.",
+   "ini": 37.181,
+   "fin": 37.839
+  },
+  {
+   "w": "Pero",
+   "ini": 37.999,
+   "fin": 38.171
+  },
+  {
+   "w": "lo",
+   "ini": 38.182,
+   "fin": 38.268
+  },
+  {
+   "w": "que",
+   "ini": 38.279,
+   "fin": 38.365
+  },
+  {
+   "w": "viene",
+   "ini": 38.376,
+   "fin": 38.613
+  },
+  {
+   "w": "te",
+   "ini": 38.624,
+   "fin": 38.721
+  },
+  {
+   "w": "paga",
+   "ini": 38.732,
+   "fin": 38.947
+  },
+  {
+   "w": "el",
+   "ini": 38.958,
+   "fin": 39.012
+  },
+  {
+   "w": "sueldo…",
+   "ini": 39.023,
+   "fin": 39.4
+  },
+  {
+   "w": "con",
+   "ini": 39.55,
+   "fin": 39.69
+  },
+  {
+   "w": "retraso.",
+   "ini": 39.701,
+   "fin": 40.175
+  }
+ ],
+ "recap": {
+  "vidas": 8,
+  "previas": [],
+  "titulo": "ÉPOCA 1 DE 8 · HIELO",
+  "jefe": "JEFE: EL FRÍO"
+ },
+ "estilo": "hielo",
+ "fin_voz": 40.315
+}

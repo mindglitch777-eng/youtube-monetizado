@@ -8,3 +8,6 @@ remotion/public/
 out/
 assets/sfx/
 work/img916v/
+
+# video 2: derivados que se regeneran con video2/tools/
+video2/work/
