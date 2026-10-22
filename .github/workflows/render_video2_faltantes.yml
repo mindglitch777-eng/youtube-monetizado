@@ -1,0 +1,137 @@
+name: Render del video 2 (partes que faltan + unir)
+
+# Renderiza solo los tramos y Shorts que no terminaron en el run anterior
+# (lista en video2/faltan.json), baja lo que sí terminó (run "anterior"),
+# une el largo con su audio y sube todo a la rama video2-render.
+# ffmpeg sale de pip (imageio-ffmpeg) para no depender de apt.
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - video2/faltan.json
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  lista:
+    runs-on: ubuntu-latest
+    outputs:
+      tramos: ${{ steps.l.outputs.tramos }}
+      shorts: ${{ steps.l.outputs.shorts }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: l
+        run: |
+          echo "tramos=$(python3 -c "import json;print(json.dumps(json.load(open('video2/faltan.json'))['tramos']))")" >> $GITHUB_OUTPUT
+          echo "shorts=$(python3 -c "import json;print(json.dumps(json.load(open('video2/faltan.json'))['shorts']))")" >> $GITHUB_OUTPUT
+
+  tramo:
+    needs: lista
+    if: ${{ needs.lista.outputs.tramos != '[]' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    strategy:
+      fail-fast: false
+      matrix:
+        parte: ${{ fromJSON(needs.lista.outputs.tramos) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - uses: actions/setup-node@v4
+        with: {node-version: "20"}
+      - name: ffmpeg y librerías
+        run: |
+          pip install -q numpy scipy pillow imageio-ffmpeg
+          command -v ffmpeg || sudo ln -sf "$(python3 -c 'import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())')" /usr/local/bin/ffmpeg
+      - run: bash video2/tools/ci_prep.sh nada
+      - run: cd remotion && npm ci --silent && npx remotion browser ensure
+      - name: Render del tramo
+        run: |
+          cd remotion
+          TOTAL=$(python3 -c "import json,math;print(math.ceil(json.load(open('src/data/v2/largo.json'))['duracion']*30))")
+          A=$(( TOTAL * ${{ matrix.parte }} / 10 ))
+          B=$(( TOTAL * (${{ matrix.parte }} + 1) / 10 - 1 ))
+          npx remotion render src/index.ts V2Largo ../tramo_${{ matrix.parte }}.mp4 --frames=$A-$B --muted --codec=h264 --crf=20 --concurrency=$(nproc) --log=error
+      - uses: actions/upload-artifact@v4
+        with: {name: "tramo_${{ matrix.parte }}", path: "tramo_${{ matrix.parte }}.mp4", retention-days: 3}
+
+  short:
+    needs: lista
+    if: ${{ needs.lista.outputs.shorts != '[]' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    strategy:
+      fail-fast: false
+      matrix:
+        n: ${{ fromJSON(needs.lista.outputs.shorts) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - uses: actions/setup-node@v4
+        with: {node-version: "20"}
+      - name: ffmpeg y librerías
+        run: |
+          pip install -q numpy scipy pillow imageio-ffmpeg
+          command -v ffmpeg || sudo ln -sf "$(python3 -c 'import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())')" /usr/local/bin/ffmpeg
+      - run: bash video2/tools/ci_prep.sh short ${{ matrix.n }}
+      - run: cd remotion && npm ci --silent && npx remotion browser ensure
+      - name: Render del Short
+        run: |
+          cd remotion
+          npx remotion render src/index.ts V2Short${{ matrix.n }} ../short_${{ matrix.n }}.mp4 --codec=h264 --crf=18 --audio-codec=aac --audio-bitrate=192k --concurrency=$(nproc) --log=error
+      - uses: actions/upload-artifact@v4
+        with: {name: "short_${{ matrix.n }}", path: "short_${{ matrix.n }}.mp4", retention-days: 3}
+
+  unir:
+    needs: [tramo, short]
+    if: ${{ always() && !contains(needs.*.result, 'failure') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - name: ffmpeg y librerías
+        run: |
+          pip install -q numpy scipy pillow imageio-ffmpeg
+          command -v ffmpeg || sudo ln -sf "$(python3 -c 'import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())')" /usr/local/bin/ffmpeg
+      - name: Bajar las partes (run anterior y este)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ANT=$(python3 -c "import json;print(json.load(open('video2/faltan.json'))['anterior'])")
+          mkdir -p partes
+          for n in $(gh api repos/$GITHUB_REPOSITORY/actions/runs/$ANT/artifacts --jq '.artifacts[].name'); do gh run download $ANT -n $n -D partes/$n -R $GITHUB_REPOSITORY; done
+          gh run download ${{ github.run_id }} -D partes -R $GITHUB_REPOSITORY
+          find partes -name "*.mp4" | sort
+      - name: Mezcla del largo
+        run: |
+          python3 video2/tools/voz.py
+          python3 video2/tools/sonidos.py
+          python3 video2/tools/timeline.py
+          python3 video2/tools/mezcla.py video2/work/largo_audio.json largo.wav
+      - name: Unir y subir a la rama video2-render
+        run: |
+          mkdir -p final
+          for i in 0 1 2 3 4 5 6 7 8 9; do echo "file '$(find $PWD/partes -name tramo_$i.mp4 | head -1)'" >> lista.txt; done
+          cat lista.txt
+          ffmpeg -v error -y -f concat -safe 0 -i lista.txt -c copy largo_mudo.mp4
+          ffmpeg -v error -y -i largo_mudo.mp4 -i largo.wav -map 0:v -map 1:a -c:v copy -c:a aac -b:a 192k -shortest -movflags +faststart final/video2_largo.mp4
+          declare -A N=([0]=0_trailer [1]=1_hielo [2]=2_egipto [3]=3_pompeya [4]=4_roma [5]=5_1348 [6]=6_tenochtitlan [7]=7_1816 [8]=8_londres)
+          for n in 0 1 2 3 4 5 6 7 8; do cp "$(find partes -name short_$n.mp4 | head -1)" final/short_${N[$n]}.mp4; done
+          ls -la final
+          cd final
+          for f in *.mp4; do
+            if [ $(stat -c %s "$f") -gt 94000000 ]; then split -b 90m -d "$f" "$f.parte"; rm "$f"; fi
+          done
+          git init -q -b video2-render
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Video 2 renderizado"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" video2-render
