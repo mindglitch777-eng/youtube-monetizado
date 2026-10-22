@@ -116,6 +116,7 @@ jobs:
           find partes -name "*.mp4" | sort
       - name: Mezcla del largo
         run: |
+          python3 video2/tools/preparar.py
           python3 video2/tools/voz.py
           python3 video2/tools/sonidos.py
           python3 video2/tools/timeline.py
