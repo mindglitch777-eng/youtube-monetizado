@@ -32,7 +32,7 @@ jobs:
     needs: lista
     if: ${{ needs.lista.outputs.tramos != '[]' }}
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 25
     strategy:
       fail-fast: false
       matrix:
@@ -63,7 +63,7 @@ jobs:
     needs: lista
     if: ${{ needs.lista.outputs.shorts != '[]' }}
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 25
     strategy:
       fail-fast: false
       matrix:
@@ -115,12 +115,7 @@ jobs:
           done
           find partes -name "*.mp4" | sort
       - name: Mezcla del largo
-        run: |
-          python3 video2/tools/preparar.py
-          python3 video2/tools/voz.py
-          python3 video2/tools/sonidos.py
-          python3 video2/tools/timeline.py
-          python3 video2/tools/mezcla.py video2/work/largo_audio.json largo.wav
+        run: bash video2/tools/ci_prep.sh largo && cp remotion/public/v2_largo.wav largo.wav
       - name: Unir y subir a la rama video2-render
         run: |
           mkdir -p final
