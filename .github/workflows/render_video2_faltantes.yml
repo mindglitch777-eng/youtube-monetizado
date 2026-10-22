@@ -104,10 +104,15 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          ANT=$(python3 -c "import json;print(json.load(open('video2/faltan.json'))['anterior'])")
           mkdir -p partes
-          for n in $(gh api repos/$GITHUB_REPOSITORY/actions/runs/$ANT/artifacts --jq '.artifacts[].name'); do gh run download $ANT -n $n -D partes/$n -R $GITHUB_REPOSITORY; done
-          gh run download ${{ github.run_id }} -D partes -R $GITHUB_REPOSITORY
+          for ANT in $(python3 -c "import json;print(' '.join(map(str, json.load(open('video2/faltan.json'))['anteriores'])))"); do
+            for n in $(gh api repos/$GITHUB_REPOSITORY/actions/runs/$ANT/artifacts --jq '.artifacts[].name'); do
+              [ -d partes/$n ] || gh run download $ANT -n $n -D partes/$n -R $GITHUB_REPOSITORY
+            done
+          done
+          for n in $(gh api repos/$GITHUB_REPOSITORY/actions/runs/${{ github.run_id }}/artifacts --jq '.artifacts[].name'); do
+            rm -rf partes/$n; gh run download ${{ github.run_id }} -n $n -D partes/$n -R $GITHUB_REPOSITORY
+          done
           find partes -name "*.mp4" | sort
       - name: Mezcla del largo
         run: |

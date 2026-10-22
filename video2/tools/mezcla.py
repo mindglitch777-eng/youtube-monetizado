@@ -11,6 +11,7 @@ Números fijos de la instrucción:
   python3 video2/tools/mezcla.py <eventos.json> <salida.wav>
 """
 import json
+import re
 import subprocess
 import sys
 import wave
@@ -105,14 +106,14 @@ def main(eventos, salida):
     # loudnorm en dos pasadas
     r = subprocess.run(["ffmpeg", "-hide_banner", "-i", str(tmp), "-af", "loudnorm=I=-14:TP=-1.5:LRA=11:print_format=json", "-f", "null", "-"],
                        capture_output=True, text=True)
-    m = json.loads(r.stderr[r.stderr.rindex("{"):])
+    m = json.loads(re.findall(r"\{[^{}]*\}", r.stderr)[-1])
     filtro = (f"loudnorm=I=-14:TP=-1.5:LRA=11:measured_I={m['input_i']}:measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}:"
               f"measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(tmp), "-af", filtro, "-ar", str(SR), str(salida)], check=True)
     tmp.unlink()
     r = subprocess.run(["ffmpeg", "-hide_banner", "-i", str(salida), "-af", "loudnorm=I=-14:TP=-1:print_format=json", "-f", "null", "-"],
                        capture_output=True, text=True)
-    m = json.loads(r.stderr[r.stderr.rindex("{"):])
+    m = json.loads(re.findall(r"\{[^{}]*\}", r.stderr)[-1])
     print(f"{salida}: {m['input_i']} LUFS, pico {m['input_tp']} dBTP, {ev['duracion']:.1f} s")
 
 
