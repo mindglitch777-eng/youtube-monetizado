@@ -1,0 +1,43 @@
+name: Voz del video (edge-tts)
+
+# Genera la voz de work/voz_lineas.json con edge-tts (gratis, sin cuenta) y
+# commitea work/voz/ en la misma rama. Corre acá porque el servicio de voz no
+# es accesible desde el entorno de Claude.
+
+on:
+  workflow_dispatch:
+    inputs:
+      rate:
+        description: "Velocidad (ej. +8%)"
+        required: false
+        default: ""
+  push:
+    paths:
+      - work/voz_lineas.json
+      - tools/tts_edge.py
+
+permissions:
+  contents: write
+
+jobs:
+  voz:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -U edge-tts
+      - name: Generar voz
+        run: |
+          rm -rf work/voz
+          python3 tools/tts_edge.py ${{ github.event.inputs.rate }}
+      - name: Commitear
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add work/voz
+          git commit -m "Voz generada con edge-tts" || echo "sin cambios"
+          git pull --rebase origin ${{ github.ref_name }} || true
+          git push

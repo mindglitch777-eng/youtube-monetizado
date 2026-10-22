@@ -1,0 +1,40 @@
+name: Voz del video 2 (edge-tts)
+
+# Graba la voz del video 2: narrador a dos velocidades (+0 % y +8 %) y el
+# Despertador con dos voces candidatas, línea por línea con tiempos de cada
+# palabra. Commitea video2/voz/<config>/.
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - video2/voz/cfg_*.json
+
+permissions:
+  contents: write
+
+jobs:
+  voz:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -U edge-tts
+      - name: Generar voces
+        run: |
+          for cfg in video2/voz/cfg_*.json; do
+            nombre=$(basename "$cfg" .json | sed 's/^cfg_//')
+            rm -rf "video2/voz/$nombre"
+            TTS_CFG="$cfg" TTS_OUT="video2/voz/$nombre" python3 tools/tts_edge.py
+          done
+      - name: Commitear
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add video2/voz
+          git commit -m "Voz del video 2 generada con edge-tts" || echo "sin cambios"
+          git pull --rebase origin ${{ github.ref_name }} || true
+          git push

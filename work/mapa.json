@@ -1,0 +1,874 @@
+{
+ "004": {
+  "archivo_original": "img_002.jpg",
+  "archivo_usado": "004_hook_cama.png",
+  "fuente_id": "004",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "005": {
+  "archivo_original": "img_003.jpg",
+  "archivo_usado": "005_hook_ojos.png",
+  "fuente_id": "005",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "006": {
+  "archivo_original": "img_001.jpg",
+  "archivo_usado": "006_hook_sabana_sol.png",
+  "fuente_id": "006",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "007": {
+  "archivo_original": "img_010.jpg",
+  "archivo_usado": "007_hook_pasto_seco.png",
+  "fuente_id": "007",
+  "tipo": "B",
+  "confianza": "media",
+  "nota": "Pijama de pie (no acostado) bajo un sol enorme; el prompt pide acostado de espaldas"
+ },
+ "008": {
+  "archivo_original": "img_016.jpg",
+  "archivo_usado": "008_hook_bolsillos.png",
+  "fuente_id": "008",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "009": {
+  "archivo_original": "img_008.jpg",
+  "archivo_usado": "009_hook_reloj24.png",
+  "fuente_id": "009",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "010": {
+  "archivo_original": "img_011.jpg",
+  "archivo_usado": "010_hook_pijama_bajo_reloj.png",
+  "fuente_id": "010",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "011": {
+  "archivo_original": "img_014.jpg",
+  "archivo_usado": "011_hook_leon_enorme.png",
+  "fuente_id": "011",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "012": {
+  "archivo_original": "img_009.jpg",
+  "archivo_usado": "012_hook_leon_bosteza.png",
+  "fuente_id": "012",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "013": {
+  "archivo_original": "img_005.jpg",
+  "archivo_usado": "013_hook_leon_se_va.png",
+  "fuente_id": "013",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "014": {
+  "archivo_original": "img_020.jpg",
+  "archivo_usado": "014_hook_siete_candados.png",
+  "fuente_id": "014",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "015": {
+  "archivo_original": "img_015.jpg",
+  "archivo_usado": "015_hook_silueta_pregunta.png",
+  "fuente_id": "015",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "016": {
+  "archivo_original": "img_007.jpg",
+  "archivo_usado": "016_hook_ficha_apuesta.png",
+  "fuente_id": "016",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "017": {
+  "archivo_original": "img_006.jpg",
+  "archivo_usado": "017_hook_pijama_pensando.png",
+  "fuente_id": "017",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "112": {
+  "archivo_original": "img_012.jpg",
+  "archivo_usado": "112_hook_candado_fantasma.png",
+  "fuente_id": "112",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "018": {
+  "archivo_original": "img_019.jpg",
+  "archivo_usado": "018_b7_sol_lengua.png",
+  "fuente_id": "018",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "019": {
+  "archivo_original": "img_013.jpg",
+  "archivo_usado": "019_b7_vapor.png",
+  "fuente_id": "019",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "020": {
+  "archivo_original": "img_018.jpg",
+  "archivo_usado": "020_b7_llave.png",
+  "fuente_id": "020",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "021": {
+  "archivo_original": "img_017.jpg",
+  "archivo_usado": "021_b7_grupo_gps.png",
+  "fuente_id": "021",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "022": {
+  "archivo_original": "img_024.jpg",
+  "archivo_usado": "022_b7_huellas.png",
+  "fuente_id": "022",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "023": {
+  "archivo_original": "img_022.jpg",
+  "archivo_usado": "023_b7_charco.png",
+  "fuente_id": "023",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "024": {
+  "archivo_original": "img_023.jpg",
+  "archivo_usado": "024_b7_charco_guino.png",
+  "fuente_id": "024",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "025": {
+  "archivo_original": "img_025.jpg",
+  "archivo_usado": "025_b7_debil.png",
+  "fuente_id": "025",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "026": {
+  "archivo_original": "img_033.jpg",
+  "archivo_usado": "026_b7_mesa_animales.png",
+  "fuente_id": "026",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "086": {
+  "archivo_original": "img_034.jpg",
+  "archivo_usado": "086_b7_sueno_lavabo.png",
+  "fuente_id": "086",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "087": {
+  "archivo_original": "img_026.jpg",
+  "archivo_usado": "087_b7_charco_cerca.png",
+  "fuente_id": "087",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "088": {
+  "archivo_original": "img_037.jpg",
+  "archivo_usado": "088_reaccion_b7.png",
+  "fuente_id": "088",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "027": {
+  "archivo_original": "img_029.jpg",
+  "archivo_usado": "027_b6_trio.png",
+  "fuente_id": "027",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "028": {
+  "archivo_original": "img_035.jpg",
+  "archivo_usado": "028_b6_miedo.png",
+  "fuente_id": "028",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "029": {
+  "archivo_original": "img_038.jpg",
+  "archivo_usado": "029_b6_calculadora.png",
+  "fuente_id": "029",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "030": {
+  "archivo_original": "img_028.jpg",
+  "archivo_usado": "030_b6_leon_herido.png",
+  "fuente_id": "030",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "031": {
+  "archivo_original": "img_032.jpg",
+  "archivo_usado": "031_b6_grupo_antorchas.png",
+  "fuente_id": "031",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "032": {
+  "archivo_original": "img_030.jpg",
+  "archivo_usado": "032_b6_palito.png",
+  "fuente_id": "032",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "033": {
+  "archivo_original": "img_027.jpg",
+  "archivo_usado": "033_b6_investigadores.png",
+  "fuente_id": "033",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "034": {
+  "archivo_original": "img_031.jpg",
+  "archivo_usado": "034_b6_afiche_leon.png",
+  "fuente_id": "089",
+  "tipo": "B",
+  "confianza": "sustituida",
+  "nota": "no hay imagen del afiche; uso el león de película contra el león vago (mismo bloque, misma idea)"
+ },
+ "035": {
+  "archivo_original": "img_039.jpg",
+  "archivo_usado": "035_b6_estomago.png",
+  "fuente_id": "035",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "089": {
+  "archivo_original": "img_031.jpg",
+  "archivo_usado": "089_b6_hollywood.png",
+  "fuente_id": "089",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "090": {
+  "archivo_original": "img_036.jpg",
+  "archivo_usado": "090_b6_grupo_equipo.png",
+  "fuente_id": "090",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "091": {
+  "archivo_original": "img_040.jpg",
+  "archivo_usado": "091_b6_estudio_papeles.png",
+  "fuente_id": "091",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "092": {
+  "archivo_original": "img_043.jpg",
+  "archivo_usado": "092_reaccion_b6.png",
+  "fuente_id": "092",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "036": {
+  "archivo_original": "img_041.jpg",
+  "archivo_usado": "036_b5_conejo.png",
+  "fuente_id": "036",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "037": {
+  "archivo_original": "img_049.jpg",
+  "archivo_usado": "037_b5_cazador_antilope.png",
+  "fuente_id": "037",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "038": {
+  "archivo_original": "img_053.jpg",
+  "archivo_usado": "038_b5_frutos.png",
+  "fuente_id": "038",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "039": {
+  "archivo_original": "img_054.jpg",
+  "archivo_usado": "039_b5_babeando.png",
+  "fuente_id": "039",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "040": {
+  "archivo_original": "img_052.jpg",
+  "archivo_usado": "040_b5_abuela.png",
+  "fuente_id": "040",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "041": {
+  "archivo_original": "img_048.jpg",
+  "archivo_usado": "041_b5_manual_etiqueta.png",
+  "fuente_id": "041",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "042": {
+  "archivo_original": "img_051.jpg",
+  "archivo_usado": "042_b5_espacio_vacio.png",
+  "fuente_id": "042",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "043": {
+  "archivo_original": "img_056.jpg",
+  "archivo_usado": "043_b5_pijama_verde.png",
+  "fuente_id": "043",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "044": {
+  "archivo_original": "img_045.jpg",
+  "archivo_usado": "044_b5_atardecer.png",
+  "fuente_id": "044",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "093": {
+  "archivo_original": "img_046.jpg",
+  "archivo_usado": "093_b5_caceria_larga.png",
+  "fuente_id": "093",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "094": {
+  "archivo_original": "img_059.jpg",
+  "archivo_usado": "094_b5_estomago_motor.png",
+  "fuente_id": "094",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "095": {
+  "archivo_original": "img_047.jpg",
+  "archivo_usado": "095_b5_come_y_pasan_horas.png",
+  "fuente_id": "095",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "096": {
+  "archivo_original": "img_057.jpg",
+  "archivo_usado": "096_reaccion_b5.png",
+  "fuente_id": "096",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "045": {
+  "archivo_original": "img_044.jpg",
+  "archivo_usado": "045_b4_ojos_negro.png",
+  "fuente_id": "045",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "046": {
+  "archivo_original": "img_055.jpg",
+  "archivo_usado": "046_b4_temblando.png",
+  "fuente_id": "046",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "047": {
+  "archivo_original": "img_058.jpg",
+  "archivo_usado": "047_b4_palitos.png",
+  "fuente_id": "047",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "048": {
+  "archivo_original": "img_061.jpg",
+  "archivo_usado": "048_b4_hielo.png",
+  "fuente_id": "048",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "049": {
+  "archivo_original": "img_060.jpg",
+  "archivo_usado": "049_b4_ojos_oscuridad.png",
+  "fuente_id": "049",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "050": {
+  "archivo_original": "img_063.jpg",
+  "archivo_usado": "050_b4_ojeras.png",
+  "fuente_id": "050",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "051": {
+  "archivo_original": "img_062.jpg",
+  "archivo_usado": "051_b4_silueta_humana.png",
+  "fuente_id": "051",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "097": {
+  "archivo_original": "img_073.jpg",
+  "archivo_usado": "097_b4_fuego_facil.png",
+  "fuente_id": "097",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "098": {
+  "archivo_original": "img_068.jpg",
+  "archivo_usado": "098_b4_arbusto_ruidos.png",
+  "fuente_id": "098",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "099": {
+  "archivo_original": "img_065.jpg",
+  "archivo_usado": "099_b4_detras_roca.png",
+  "fuente_id": "099",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "100": {
+  "archivo_original": "img_070.jpg",
+  "archivo_usado": "100_reaccion_b4.png",
+  "fuente_id": "100",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "052": {
+  "archivo_original": "img_071.jpg",
+  "archivo_usado": "052_b3_grupo_palos.png",
+  "fuente_id": "052",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "053": {
+  "archivo_original": "img_064.jpg",
+  "archivo_usado": "053_b3_cartel.png",
+  "fuente_id": "053",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "054": {
+  "archivo_original": "img_066.jpg",
+  "archivo_usado": "054_b3_dos_hombres.png",
+  "fuente_id": "054",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "055": {
+  "archivo_original": "img_072.jpg",
+  "archivo_usado": "055_b3_manos_arriba.png",
+  "fuente_id": "055",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "056": {
+  "archivo_original": "img_074.jpg",
+  "archivo_usado": "056_b3_policia.png",
+  "fuente_id": "056",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "057": {
+  "archivo_original": "img_079.jpg",
+  "archivo_usado": "057_b3_fuera_circulo.png",
+  "fuente_id": "057",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "058": {
+  "archivo_original": "img_076.jpg",
+  "archivo_usado": "058_b3_espina.png",
+  "fuente_id": "058",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "101": {
+  "archivo_original": "img_078.jpg",
+  "archivo_usado": "101_b3_disputa_rio.png",
+  "fuente_id": "101",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "102": {
+  "archivo_original": "img_069.jpg",
+  "archivo_usado": "102_b3_arbusto_nuestro.png",
+  "fuente_id": "102",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "103": {
+  "archivo_original": "img_075.jpg",
+  "archivo_usado": "103_reaccion_b3.png",
+  "fuente_id": "103",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "059": {
+  "archivo_original": "img_077.jpg",
+  "archivo_usado": "059_b2_espina_arbusto.png",
+  "fuente_id": "059",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "060": {
+  "archivo_original": "img_067.jpg",
+  "archivo_usado": "060_b2_pie_cortado.png",
+  "fuente_id": "060",
+  "tipo": "B",
+  "confianza": "media",
+  "nota": "Pijama de cuerpo entero encogiéndose de hombros con el pie levantado; el prompt pide primer plano del pie con el corte y la espina"
+ },
+ "061": {
+  "archivo_original": "img_080.jpg",
+  "archivo_usado": "061_b2_gota_sangre.png",
+  "fuente_id": "061",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "062": {
+  "archivo_original": "img_081.jpg",
+  "archivo_usado": "062_b2_botiquin.png",
+  "fuente_id": "062",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "063": {
+  "archivo_original": "img_082.jpg",
+  "archivo_usado": "063_b2_soldaditos.png",
+  "fuente_id": "063",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "064": {
+  "archivo_original": "img_083.jpg",
+  "archivo_usado": "064_b2_pie_latido.png",
+  "fuente_id": "064",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "065": {
+  "archivo_original": "img_091.jpg",
+  "archivo_usado": "065_b2_pie_villano.png",
+  "fuente_id": "065",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "066": {
+  "archivo_original": "img_094.jpg",
+  "archivo_usado": "066_b2_mancha_micro.png",
+  "fuente_id": "066",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "104": {
+  "archivo_original": "img_096.jpg",
+  "archivo_usado": "104_b2_pasos_espinas.png",
+  "fuente_id": "104",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "105": {
+  "archivo_original": "img_098.jpg",
+  "archivo_usado": "105_reaccion_b2.png",
+  "fuente_id": "105",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "067": {
+  "archivo_original": "img_089.jpg",
+  "archivo_usado": "067_b1_negro_germenes.png",
+  "fuente_id": "067",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "068": {
+  "archivo_original": "img_093.jpg",
+  "archivo_usado": "068_b1_pijama_verde.png",
+  "fuente_id": "068",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "069": {
+  "archivo_original": "img_088.jpg",
+  "archivo_usado": "069_b1_ficha_rota.png",
+  "fuente_id": "069",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "070": {
+  "archivo_original": "img_084.jpg",
+  "archivo_usado": "070_b1_agua_sucia.png",
+  "fuente_id": "070",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "071": {
+  "archivo_original": "img_086.jpg",
+  "archivo_usado": "071_b1_sin_vacunas.png",
+  "fuente_id": "071",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "072": {
+  "archivo_original": "img_092.jpg",
+  "archivo_usado": "072_b1_tres_puertas.png",
+  "fuente_id": "072",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "073": {
+  "archivo_original": "img_099.jpg",
+  "archivo_usado": "073_b1_leon_mascarilla.png",
+  "fuente_id": "073",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "106": {
+  "archivo_original": "img_085.jpg",
+  "archivo_usado": "106_reaccion_b1.png",
+  "fuente_id": "106",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "074": {
+  "archivo_original": "img_090.jpg",
+  "archivo_usado": "074_c_pijama_camara.png",
+  "fuente_id": "074",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "075": {
+  "archivo_original": "img_097.jpg",
+  "archivo_usado": "075_c_viejito_30.png",
+  "fuente_id": "075",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "076": {
+  "archivo_original": "img_087.jpg",
+  "archivo_usado": "076_c_cunas_calculadora.png",
+  "fuente_id": "076",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "077": {
+  "archivo_original": "img_095.jpg",
+  "archivo_usado": "077_c_abuelo_nietos.png",
+  "fuente_id": "077",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "078": {
+  "archivo_original": "img_102.jpg",
+  "archivo_usado": "078_c_bebe_guerrero.png",
+  "fuente_id": "078",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "079": {
+  "archivo_original": "img_109.jpg",
+  "archivo_usado": "079_c_candados_fogata.png",
+  "fuente_id": "079",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "080": {
+  "archivo_original": "img_105.jpg",
+  "archivo_usado": "080_c_grupo_agua.png",
+  "fuente_id": "080",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "081": {
+  "archivo_original": "img_104.jpg",
+  "archivo_usado": "081_c_grupo_comida.png",
+  "fuente_id": "081",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "082": {
+  "archivo_original": "img_106.jpg",
+  "archivo_usado": "082_c_grupo_fuego.png",
+  "fuente_id": "082",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "083": {
+  "archivo_original": "img_107.jpg",
+  "archivo_usado": "083_c_grupo_cuida.png",
+  "fuente_id": "083",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "084": {
+  "archivo_original": "img_109.jpg",
+  "archivo_usado": "084_c_pijama_en_grupo.png",
+  "fuente_id": "079",
+  "tipo": "A",
+  "confianza": "sustituida",
+  "nota": "no hay imagen de Pijama sentado en el grupo; uso Pijama con el grupo junto a la fogata"
+ },
+ "085": {
+  "archivo_original": "img_103.jpg",
+  "archivo_usado": "085_c_whatsapp.png",
+  "fuente_id": "085",
+  "tipo": "B",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "107": {
+  "archivo_original": "img_100.jpg",
+  "archivo_usado": "107_c_cofre_dato.png",
+  "fuente_id": "107",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "108": {
+  "archivo_original": "img_101.jpg",
+  "archivo_usado": "108_c_tablilla_rota.png",
+  "fuente_id": "108",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "109": {
+  "archivo_original": "img_108.jpg",
+  "archivo_usado": "109_c_ancianos_felices.png",
+  "fuente_id": "109",
+  "tipo": "A",
+  "confianza": "alta",
+  "nota": ""
+ },
+ "110": {
+  "archivo_original": "img_090.jpg",
+  "archivo_usado": "110_c_pijama_recuerda.png",
+  "fuente_id": "074",
+  "tipo": "A",
+  "confianza": "sustituida",
+  "nota": "no hay imagen de Pijama recordando; uso Pijama mirando a cámara en la sabana"
+ },
+ "111": {
+  "archivo_original": "img_105.jpg",
+  "archivo_usado": "111_c_agua_para_ti.png",
+  "fuente_id": "080",
+  "tipo": "B",
+  "confianza": "sustituida",
+  "nota": "no hay imagen de alguien dándole agua; uso el grupo en el río"
+ }
+}

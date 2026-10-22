@@ -1,0 +1,42 @@
+name: Pasar el video 2 a una rama
+
+# Toma el artifact "video2" de un render ya terminado (id del run en
+# video2/publicar.txt) y lo sube a la rama video2-render, partiendo los
+# archivos grandes en trozos de 90 MB para que entren en git.
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - video2/publicar.txt
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Bajar el artifact (por id de run)
+        run: |
+          RUN=$(grep -o '[0-9]\{6,\}' video2/publicar.txt | head -1)
+          mkdir -p video2_final
+          gh run download "$RUN" -n video2 -D video2_final -R "$GITHUB_REPOSITORY"
+          ls -la video2_final
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Subir a la rama video2-render
+        run: |
+          cd video2_final
+          for f in *.mp4; do
+            if [ $(stat -c %s "$f") -gt 94000000 ]; then split -b 90m -d "$f" "$f.parte"; rm "$f"; fi
+          done
+          git init -q -b video2-render
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Video 2 renderizado"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" video2-render

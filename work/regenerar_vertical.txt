@@ -1,0 +1,7 @@
+Bloques con menos de 4 imágenes verticales completas (tipo B). Conviene rehacer en vertical estos ids:
+
+#6 (3 tipo B): 027 027_b6_trio.png, 030 030_b6_leon_herido.png, 090 090_b6_grupo_equipo.png, 031 031_b6_grupo_antorchas.png, 032 032_b6_palito.png, 092 092_reaccion_b6.png, 011 011_hook_leon_enorme.png, 033 033_b6_investigadores.png, 091 091_b6_estudio_papeles.png
+
+#3 (3 tipo B): 052 052_b3_grupo_palos.png, 053 053_b3_cartel.png, 102 102_b3_arbusto_nuestro.png, 103 103_reaccion_b3.png, 055 055_b3_manos_arriba.png, 057 057_b3_fuera_circulo.png, 058 058_b3_espina.png
+
+#1 (2 tipo B): 067 067_b1_negro_germenes.png, 068 068_b1_pijama_verde.png, 069 069_b1_ficha_rota.png, 106 106_reaccion_b1.png, 071 071_b1_sin_vacunas.png, 072 072_b1_tres_puertas.png, 073 073_b1_leon_mascarilla.png

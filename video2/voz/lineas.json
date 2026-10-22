@@ -1,0 +1,1772 @@
+[
+ {
+  "n": "H_01",
+  "bloque": "H",
+  "titulo": "GANCHO-TRÁILER",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Lunes. Siete de la mañana. Suena tu despertador.",
+  "texto_tts": "Lunes. Siete de la mañana. Suena tu despertador."
+ },
+ {
+  "n": "H_02",
+  "bloque": "H",
+  "titulo": "GANCHO-TRÁILER",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Y esta vez… no lo apagas.",
+  "texto_tts": "Y esta vez… no lo apagas."
+ },
+ {
+  "n": "H_03",
+  "bloque": "H",
+  "titulo": "GANCHO-TRÁILER",
+  "rol": "despertador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "«Nueva partida. Jugador: tú. Dificultad: realista.»",
+  "texto_tts": "Nueva partida. Jugador: tú. Dificultad: realista."
+ },
+ {
+  "n": "H_04",
+  "bloque": "H",
+  "titulo": "GANCHO-TRÁILER",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Abres los ojos. Estás descalzo, en pijama, sobre hielo. Hace dieciocho mil años.",
+  "texto_tts": "Abres los ojos. Estás descalzo, en pijama, sobre hielo. Hace dieciocho mil años."
+ },
+ {
+  "n": "H_05",
+  "bloque": "H",
+  "titulo": "GANCHO-TRÁILER",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "En tu muñeca hay un reloj que no es tuyo. Cuenta cuánto duras vivo.",
+  "texto_tts": "En tu muñeca hay un reloj que no es tuyo. Cuenta cuánto duras vivo."
+ },
+ {
+  "n": "H_06",
+  "bloque": "H",
+  "titulo": "GANCHO-TRÁILER",
+  "rol": "despertador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "«Spoiler: poco.»",
+  "texto_tts": "Spoiler: poco."
+ },
+ {
+  "n": "H_07",
+  "bloque": "H",
+  "titulo": "GANCHO-TRÁILER",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Cada vez que mueras, suena la alarma… y caes en otra época.",
+  "texto_tts": "Cada vez que mueras, suena la alarma… y caes en otra época."
+ },
+ {
+  "n": "H_08",
+  "bloque": "H",
+  "titulo": "GANCHO-TRÁILER",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Ocho épocas. Ocho muertes. Un mamut, un volcán, un león con barbijo, una pulga.",
+  "texto_tts": "Ocho épocas. Ocho muertes. Un mamut, un volcán, un león con barbijo, una pulga."
+ },
+ {
+  "n": "H_09",
+  "bloque": "H",
+  "titulo": "GANCHO-TRÁILER",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Y una tabla final que vas a querer mandarle a alguien.",
+  "texto_tts": "Y una tabla final que vas a querer mandarle a alguien."
+ },
+ {
+  "n": "H_10",
+  "bloque": "H",
+  "titulo": "GANCHO-TRÁILER",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Antes de empezar, haz tu apuesta: ¿en cuál de las ocho durarías más?",
+  "texto_tts": "Antes de empezar, haz tu apuesta: ¿en cuál de las ocho durarías más?"
+ },
+ {
+  "n": "H_11",
+  "bloque": "H",
+  "titulo": "GANCHO-TRÁILER",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Guárdala. Al final te digo si ganaste.",
+  "texto_tts": "Guárdala. Al final te digo si ganaste."
+ },
+ {
+  "n": "H_12",
+  "bloque": "H",
+  "titulo": "GANCHO-TRÁILER",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Una pista: lo que más mata en este juego… no es lo que más asusta.",
+  "texto_tts": "Una pista: lo que más mata en este juego… no es lo que más asusta."
+ },
+ {
+  "n": "H_13",
+  "bloque": "H",
+  "titulo": "GANCHO-TRÁILER",
+  "rol": "despertador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "«Empezamos. Y no, no puedes apagarme.»",
+  "texto_tts": "Empezamos. Y no, no puedes apagarme."
+ },
+ {
+  "n": "E1_01",
+  "bloque": "E1",
+  "titulo": "ÉPOCA 1 DE 8 · HACE 18.000 AÑOS · UCRANIA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "En la Edad de Hielo no te morías de golpe.",
+  "texto_tts": "En la Edad de Hielo no te morías de golpe."
+ },
+ {
+  "n": "E1_02",
+  "bloque": "E1",
+  "titulo": "ÉPOCA 1 DE 8 · HACE 18.000 AÑOS · UCRANIA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Te ibas apagando.",
+  "texto_tts": "Te ibas apagando."
+ },
+ {
+  "n": "E1_03",
+  "bloque": "E1",
+  "titulo": "ÉPOCA 1 DE 8 · HACE 18.000 AÑOS · UCRANIA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": true,
+  "texto": "Pijama se durmió en su cama. Despertó acá. Y tiene un reloj que cuenta cuánto dura vivo.",
+  "texto_tts": "Pijama se durmió en su cama. Despertó acá. Y tiene un reloj que cuenta cuánto dura vivo."
+ },
+ {
+  "n": "E1_04",
+  "bloque": "E1",
+  "titulo": "ÉPOCA 1 DE 8 · HACE 18.000 AÑOS · UCRANIA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Primer problema: tus pies. Descalzos, sobre nieve dura. Y ya no los sientes.",
+  "texto_tts": "Primer problema: tus pies. Descalzos, sobre nieve dura. Y ya no los sientes."
+ },
+ {
+  "n": "E1_05",
+  "bloque": "E1",
+  "titulo": "ÉPOCA 1 DE 8 · HACE 18.000 AÑOS · UCRANIA",
+  "rol": "narrador",
+  "corte_short": true,
+  "solo_short": false,
+  "texto": "Aquí casi no hay árboles. O sea: casi no hay leña.",
+  "texto_tts": "Aquí casi no hay árboles. O sea: casi no hay leña."
+ },
+ {
+  "n": "E1_06",
+  "bloque": "E1",
+  "titulo": "ÉPOCA 1 DE 8 · HACE 18.000 AÑOS · UCRANIA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Tu café ahora es un cubito de café.",
+  "texto_tts": "Tu café ahora es un cubito de café."
+ },
+ {
+  "n": "E1_07",
+  "bloque": "E1",
+  "titulo": "ÉPOCA 1 DE 8 · HACE 18.000 AÑOS · UCRANIA",
+  "rol": "narrador",
+  "corte_short": true,
+  "solo_short": false,
+  "texto": "Un cazador pasa a tu lado y mira tu pijama de estrellas.",
+  "texto_tts": "Un cazador pasa a tu lado y mira tu pijama de estrellas."
+ },
+ {
+  "n": "E1_08",
+  "bloque": "E1",
+  "titulo": "ÉPOCA 1 DE 8 · HACE 18.000 AÑOS · UCRANIA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Él vive en una casa circular hecha de huesos de mamut. Como un Lego, pero de mamut.",
+  "texto_tts": "Él vive en una casa circular hecha de huesos de mamut. Como un Lego, pero de mamut."
+ },
+ {
+  "n": "E1_09",
+  "bloque": "E1",
+  "titulo": "ÉPOCA 1 DE 8 · HACE 18.000 AÑOS · UCRANIA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Pijama lo intenta todo.",
+  "texto_tts": "Pijama lo intenta todo."
+ },
+ {
+  "n": "E1_10",
+  "bloque": "E1",
+  "titulo": "ÉPOCA 1 DE 8 · HACE 18.000 AÑOS · UCRANIA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Intento uno: esconderse dentro del pijama. Es de algodón. El algodón no abriga nada.",
+  "texto_tts": "Intento uno: esconderse dentro del pijama. Es de algodón. El algodón no abriga nada."
+ },
+ {
+  "n": "E1_11",
+  "bloque": "E1",
+  "titulo": "ÉPOCA 1 DE 8 · HACE 18.000 AÑOS · UCRANIA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Intento tres: abrazar a un mamut. El mamut no está de acuerdo.",
+  "texto_tts": "Intento tres: abrazar a un mamut. El mamut no está de acuerdo."
+ },
+ {
+  "n": "E1_12",
+  "bloque": "E1",
+  "titulo": "ÉPOCA 1 DE 8 · HACE 18.000 AÑOS · UCRANIA",
+  "rol": "despertador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "«Skill issue.»",
+  "texto_tts": "Skill issue."
+ },
+ {
+  "n": "E1_13",
+  "bloque": "E1",
+  "titulo": "ÉPOCA 1 DE 8 · HACE 18.000 AÑOS · UCRANIA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Dos horas, catorce minutos.",
+  "texto_tts": "Dos horas, catorce minutos."
+ },
+ {
+  "n": "E1_14",
+  "bloque": "E1",
+  "titulo": "ÉPOCA 1 DE 8 · HACE 18.000 AÑOS · UCRANIA",
+  "rol": "despertador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "«Logro desbloqueado: morir congelado en pijama. Aura: menos sesenta y siete.»",
+  "texto_tts": "Logro desbloqueado: morir congelado en pijama. Aura: menos sesenta y siete."
+ },
+ {
+  "n": "E1_15",
+  "bloque": "E1",
+  "titulo": "ÉPOCA 1 DE 8 · HACE 18.000 AÑOS · UCRANIA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Y suena el despertador.",
+  "texto_tts": "Y suena el despertador."
+ },
+ {
+  "n": "E1_16",
+  "bloque": "E1",
+  "titulo": "ÉPOCA 1 DE 8 · HACE 18.000 AÑOS · UCRANIA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Pero lo que viene te paga el sueldo… con retraso.",
+  "texto_tts": "Pero lo que viene te paga el sueldo… con retraso."
+ },
+ {
+  "n": "E2_01",
+  "bloque": "E2",
+  "titulo": "ÉPOCA 2 DE 8 · HACE 3.200 AÑOS · EGIPTO",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Hace 3.200 años, en Egipto, pasó la primera huelga de la historia.",
+  "texto_tts": "Hace 3.200 años, en Egipto, pasó la primera huelga de la historia."
+ },
+ {
+  "n": "E2_02",
+  "bloque": "E2",
+  "titulo": "ÉPOCA 2 DE 8 · HACE 3.200 AÑOS · EGIPTO",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Y tú estabas ahí.",
+  "texto_tts": "Y tú estabas ahí."
+ },
+ {
+  "n": "E2_03",
+  "bloque": "E2",
+  "titulo": "ÉPOCA 2 DE 8 · HACE 3.200 AÑOS · EGIPTO",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": true,
+  "texto": "Pijama murió congelado. Pero el reloj lo manda a la siguiente época.",
+  "texto_tts": "Pijama murió congelado. Pero el reloj lo manda a la siguiente época."
+ },
+ {
+  "n": "E2_04",
+  "bloque": "E2",
+  "titulo": "ÉPOCA 2 DE 8 · HACE 3.200 AÑOS · EGIPTO",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Calor. Arena. Y alguien te grita: «¡Tú! ¡A trabajar!»",
+  "texto_tts": "Calor. Arena. Y alguien te grita: ¡Tú! ¡A trabajar!"
+ },
+ {
+  "n": "E2_05",
+  "bloque": "E2",
+  "titulo": "ÉPOCA 2 DE 8 · HACE 3.200 AÑOS · EGIPTO",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Te ponen un cincel en la mano. Eres obrero en las tumbas de los faraones.",
+  "texto_tts": "Te ponen un cincel en la mano. Eres obrero en las tumbas de los faraones."
+ },
+ {
+  "n": "E2_06",
+  "bloque": "E2",
+  "titulo": "ÉPOCA 2 DE 8 · HACE 3.200 AÑOS · EGIPTO",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Pero tranquilo: no eres un esclavo. Los obreros de Deir el-Medina eran artesanos. Y cobraban en raciones de comida.",
+  "texto_tts": "Pero tranquilo: no eres un esclavo. Los obreros de Deir el-Medina eran artesanos. Y cobraban en raciones de comida."
+ },
+ {
+  "n": "E2_07",
+  "bloque": "E2",
+  "titulo": "ÉPOCA 2 DE 8 · HACE 3.200 AÑOS · EGIPTO",
+  "rol": "despertador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "«Nivel tutorial. Disfrútalo.»",
+  "texto_tts": "Nivel tutorial. Disfrútalo."
+ },
+ {
+  "n": "E2_08",
+  "bloque": "E2",
+  "titulo": "ÉPOCA 2 DE 8 · HACE 3.200 AÑOS · EGIPTO",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Hasta que un día… la comida se atrasa.",
+  "texto_tts": "Hasta que un día… la comida se atrasa."
+ },
+ {
+  "n": "E2_09",
+  "bloque": "E2",
+  "titulo": "ÉPOCA 2 DE 8 · HACE 3.200 AÑOS · EGIPTO",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Y los obreros hacen algo que nadie había hecho: dejan las herramientas. Y se sientan.",
+  "texto_tts": "Y los obreros hacen algo que nadie había hecho: dejan las herramientas. Y se sientan."
+ },
+ {
+  "n": "E2_10",
+  "bloque": "E2",
+  "titulo": "ÉPOCA 2 DE 8 · HACE 3.200 AÑOS · EGIPTO",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Se une. Se hace un cartel: «Exigimos pan. Y que alguien me explique qué es un faraón.»",
+  "texto_tts": "Se une. Se hace un cartel: Exigimos pan. Y que alguien me explique qué es un faraón."
+ },
+ {
+  "n": "E2_11",
+  "bloque": "E2",
+  "titulo": "ÉPOCA 2 DE 8 · HACE 3.200 AÑOS · EGIPTO",
+  "rol": "narrador",
+  "corte_short": true,
+  "solo_short": false,
+  "texto": "El reloj corre. Y corre. Y corre.",
+  "texto_tts": "El reloj corre. Y corre. Y corre."
+ },
+ {
+  "n": "E2_12",
+  "bloque": "E2",
+  "titulo": "ÉPOCA 2 DE 8 · HACE 3.200 AÑOS · EGIPTO",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Cuarenta y un años.",
+  "texto_tts": "Cuarenta y un años."
+ },
+ {
+  "n": "E2_13",
+  "bloque": "E2",
+  "titulo": "ÉPOCA 2 DE 8 · HACE 3.200 AÑOS · EGIPTO",
+  "rol": "despertador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "«Aura: más mil. Nivel tutorial completado. Ahora empieza el juego de verdad.»",
+  "texto_tts": "Aura: más mil. Nivel tutorial completado. Ahora empieza el juego de verdad."
+ },
+ {
+  "n": "E2_14",
+  "bloque": "E2",
+  "titulo": "ÉPOCA 2 DE 8 · HACE 3.200 AÑOS · EGIPTO",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Y suena el despertador. Por vejez. Por primera vez.",
+  "texto_tts": "Y suena el despertador. Por vejez. Por primera vez."
+ },
+ {
+  "n": "E2_15",
+  "bloque": "E2",
+  "titulo": "ÉPOCA 2 DE 8 · HACE 3.200 AÑOS · EGIPTO",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Pero la próxima época avisa… y nadie le hace caso.",
+  "texto_tts": "Pero la próxima época avisa… y nadie le hace caso."
+ },
+ {
+  "n": "E3_01",
+  "bloque": "E3",
+  "titulo": "ÉPOCA 3 DE 8 · AÑO 79 · POMPEYA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Pompeya. Año 79. Hace cuatro días que tiembla el piso.",
+  "texto_tts": "Pompeya. Año 79. Hace cuatro días que tiembla el piso."
+ },
+ {
+  "n": "E3_02",
+  "bloque": "E3",
+  "titulo": "ÉPOCA 3 DE 8 · AÑO 79 · POMPEYA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": true,
+  "texto": "Pijama ya murió de frío y de vejez. Ahora le toca el volcán.",
+  "texto_tts": "Pijama ya murió de frío y de vejez. Ahora le toca el volcán."
+ },
+ {
+  "n": "E3_03",
+  "bloque": "E3",
+  "titulo": "ÉPOCA 3 DE 8 · AÑO 79 · POMPEYA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Y entonces, el Vesubio explota.",
+  "texto_tts": "Y entonces, el Vesubio explota."
+ },
+ {
+  "n": "E3_04",
+  "bloque": "E3",
+  "titulo": "ÉPOCA 3 DE 8 · AÑO 79 · POMPEYA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Una columna de humo y piedra sube entre quince y treinta kilómetros.",
+  "texto_tts": "Una columna de humo y piedra sube entre quince y treinta kilómetros."
+ },
+ {
+  "n": "E3_05",
+  "bloque": "E3",
+  "titulo": "ÉPOCA 3 DE 8 · AÑO 79 · POMPEYA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "El Everest mide menos de nueve. Eso son entre casi dos y más de tres Everest apilados.",
+  "texto_tts": "El Everest mide menos de nueve. Eso son entre casi dos y más de tres Everest apilados."
+ },
+ {
+  "n": "E3_06",
+  "bloque": "E3",
+  "titulo": "ÉPOCA 3 DE 8 · AÑO 79 · POMPEYA",
+  "rol": "despertador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "«Bro. Te dijeron que te fueras.»",
+  "texto_tts": "Bro. Te dijeron que te fueras."
+ },
+ {
+  "n": "E3_07",
+  "bloque": "E3",
+  "titulo": "ÉPOCA 3 DE 8 · AÑO 79 · POMPEYA",
+  "rol": "narrador",
+  "corte_short": true,
+  "solo_short": false,
+  "texto": "Plinio el Joven lo vio y lo contó: la gente se ataba almohadas a la cabeza para protegerse de las piedras.",
+  "texto_tts": "Plinio el Joven lo vio y lo contó: la gente se ataba almohadas a la cabeza para protegerse de las piedras."
+ },
+ {
+  "n": "E3_08",
+  "bloque": "E3",
+  "titulo": "ÉPOCA 3 DE 8 · AÑO 79 · POMPEYA",
+  "rol": "narrador",
+  "corte_short": true,
+  "solo_short": false,
+  "texto": "Pijama justo venía de la cama. Ventaja.",
+  "texto_tts": "Pijama justo venía de la cama. Ventaja."
+ },
+ {
+  "n": "E3_09",
+  "bloque": "E3",
+  "titulo": "ÉPOCA 3 DE 8 · AÑO 79 · POMPEYA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Los expertos dicen que esas horas de piedra eran la última oportunidad para escapar.",
+  "texto_tts": "Los expertos dicen que esas horas de piedra eran la última oportunidad para escapar."
+ },
+ {
+  "n": "E3_10",
+  "bloque": "E3",
+  "titulo": "ÉPOCA 3 DE 8 · AÑO 79 · POMPEYA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Pijama no escapa. Pijama… se queda mirando.",
+  "texto_tts": "Pijama no escapa. Pijama… se queda mirando."
+ },
+ {
+  "n": "E3_11",
+  "bloque": "E3",
+  "titulo": "ÉPOCA 3 DE 8 · AÑO 79 · POMPEYA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "«Qué espectáculo», dice.",
+  "texto_tts": "Qué espectáculo, dice."
+ },
+ {
+  "n": "E3_12",
+  "bloque": "E3",
+  "titulo": "ÉPOCA 3 DE 8 · AÑO 79 · POMPEYA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Esa madrugada, una nube de gas y ceniza baja del volcán a unos doscientos grados. Más o menos, un horno.",
+  "texto_tts": "Esa madrugada, una nube de gas y ceniza baja del volcán a unos doscientos grados. Más o menos, un horno."
+ },
+ {
+  "n": "E3_13",
+  "bloque": "E3",
+  "titulo": "ÉPOCA 3 DE 8 · AÑO 79 · POMPEYA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Dato para guardar: entre mil quinientas y tres mil quinientas personas murieron en toda la zona, según las estimaciones.",
+  "texto_tts": "Dato para guardar: entre mil quinientas y tres mil quinientas personas murieron en toda la zona, según las estimaciones."
+ },
+ {
+  "n": "E3_14",
+  "bloque": "E3",
+  "titulo": "ÉPOCA 3 DE 8 · AÑO 79 · POMPEYA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Guarda ese número. Después lo comparamos.",
+  "texto_tts": "Guarda ese número. Después lo comparamos."
+ },
+ {
+  "n": "E3_15",
+  "bloque": "E3",
+  "titulo": "ÉPOCA 3 DE 8 · AÑO 79 · POMPEYA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Diecinueve horas.",
+  "texto_tts": "Diecinueve horas."
+ },
+ {
+  "n": "E3_16",
+  "bloque": "E3",
+  "titulo": "ÉPOCA 3 DE 8 · AÑO 79 · POMPEYA",
+  "rol": "despertador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "«Logro desbloqueado: mirar un volcán de cerca. Duró poco.»",
+  "texto_tts": "Logro desbloqueado: mirar un volcán de cerca. Duró poco."
+ },
+ {
+  "n": "E3_17",
+  "bloque": "E3",
+  "titulo": "ÉPOCA 3 DE 8 · AÑO 79 · POMPEYA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Y suena el despertador.",
+  "texto_tts": "Y suena el despertador."
+ },
+ {
+  "n": "E3_18",
+  "bloque": "E3",
+  "titulo": "ÉPOCA 3 DE 8 · AÑO 79 · POMPEYA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Pero lo que viene tiene público… y gradas.",
+  "texto_tts": "Pero lo que viene tiene público… y gradas."
+ },
+ {
+  "n": "E4_01",
+  "bloque": "E4",
+  "titulo": "ÉPOCA 4 DE 8 · AÑO 100 · ROMA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "«¡Y entra a la arena… el hombre del pijama!»",
+  "texto_tts": "¡Y entra a la arena… el hombre del pijama!"
+ },
+ {
+  "n": "E4_02",
+  "bloque": "E4",
+  "titulo": "ÉPOCA 4 DE 8 · AÑO 100 · ROMA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Despiertas con un ruido enorme.",
+  "texto_tts": "Despiertas con un ruido enorme."
+ },
+ {
+  "n": "E4_03",
+  "bloque": "E4",
+  "titulo": "ÉPOCA 4 DE 8 · AÑO 100 · ROMA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": true,
+  "texto": "Tercera muerte, cuarta época. Y esta vez lo mira todo el mundo.",
+  "texto_tts": "Tercera muerte, cuarta época. Y esta vez lo mira todo el mundo."
+ },
+ {
+  "n": "E4_04",
+  "bloque": "E4",
+  "titulo": "ÉPOCA 4 DE 8 · AÑO 100 · ROMA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Estás en Roma. Año cien, más o menos. Cerca de un millón de habitantes.",
+  "texto_tts": "Estás en Roma. Año cien, más o menos. Cerca de un millón de habitantes."
+ },
+ {
+  "n": "E4_05",
+  "bloque": "E4",
+  "titulo": "ÉPOCA 4 DE 8 · AÑO 100 · ROMA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "«Miren cómo camina, damas y caballeros. Descalzo. Con estrellas. Esto no lo vimos nunca.»",
+  "texto_tts": "Miren cómo camina, damas y caballeros. Descalzo. Con estrellas. Esto no lo vimos nunca."
+ },
+ {
+  "n": "E4_06",
+  "bloque": "E4",
+  "titulo": "ÉPOCA 4 DE 8 · AÑO 100 · ROMA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Se abre una puerta. Sale… un león.",
+  "texto_tts": "Se abre una puerta. Sale… un león."
+ },
+ {
+  "n": "E4_07",
+  "bloque": "E4",
+  "titulo": "ÉPOCA 4 DE 8 · AÑO 100 · ROMA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Sí, el mismo del video anterior. Con su barbijo.",
+  "texto_tts": "Sí, el mismo del video anterior. Con su barbijo."
+ },
+ {
+  "n": "E4_08",
+  "bloque": "E4",
+  "titulo": "ÉPOCA 4 DE 8 · AÑO 100 · ROMA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Te mira. Tose. Y se va.",
+  "texto_tts": "Te mira. Tose. Y se va."
+ },
+ {
+  "n": "E4_09",
+  "bloque": "E4",
+  "titulo": "ÉPOCA 4 DE 8 · AÑO 100 · ROMA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Ahora, un dato:",
+  "texto_tts": "Ahora, un dato:"
+ },
+ {
+  "n": "E4_10",
+  "bloque": "E4",
+  "titulo": "ÉPOCA 4 DE 8 · AÑO 100 · ROMA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Dicen que en Roma la gente vivía veinticinco años.",
+  "texto_tts": "Dicen que en Roma la gente vivía veinticinco años."
+ },
+ {
+  "n": "E4_11",
+  "bloque": "E4",
+  "titulo": "ÉPOCA 4 DE 8 · AÑO 100 · ROMA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Mentira.",
+  "texto_tts": "Mentira."
+ },
+ {
+  "n": "E4_12",
+  "bloque": "E4",
+  "titulo": "ÉPOCA 4 DE 8 · AÑO 100 · ROMA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Lo que pasa es que casi la mitad moría antes de los diez.",
+  "texto_tts": "Lo que pasa es que casi la mitad moría antes de los diez."
+ },
+ {
+  "n": "E4_13",
+  "bloque": "E4",
+  "titulo": "ÉPOCA 4 DE 8 · AÑO 100 · ROMA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Si pasabas la infancia, llegabas a unos cincuenta.",
+  "texto_tts": "Si pasabas la infancia, llegabas a unos cincuenta."
+ },
+ {
+  "n": "E4_14",
+  "bloque": "E4",
+  "titulo": "ÉPOCA 4 DE 8 · AÑO 100 · ROMA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "O sea: tenías buenas chances.",
+  "texto_tts": "O sea: tenías buenas chances."
+ },
+ {
+  "n": "E4_15",
+  "bloque": "E4",
+  "titulo": "ÉPOCA 4 DE 8 · AÑO 100 · ROMA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Pero te metiste en una arena.",
+  "texto_tts": "Pero te metiste en una arena."
+ },
+ {
+  "n": "E4_16",
+  "bloque": "E4",
+  "titulo": "ÉPOCA 4 DE 8 · AÑO 100 · ROMA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Seis minutos, siete segundos.",
+  "texto_tts": "Seis minutos, siete segundos."
+ },
+ {
+  "n": "E4_17",
+  "bloque": "E4",
+  "titulo": "ÉPOCA 4 DE 8 · AÑO 100 · ROMA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Y suena el despertador.",
+  "texto_tts": "Y suena el despertador."
+ },
+ {
+  "n": "E4_18",
+  "bloque": "E4",
+  "titulo": "ÉPOCA 4 DE 8 · AÑO 100 · ROMA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Mitad del juego. Mira cómo vas.",
+  "texto_tts": "Mitad del juego. Mira cómo vas."
+ },
+ {
+  "n": "M_01",
+  "bloque": "M",
+  "titulo": "MITAD DEL VIDEO · TABLA PARCIAL",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Cuatro épocas. Cuatro muertes.",
+  "texto_tts": "Cuatro épocas. Cuatro muertes."
+ },
+ {
+  "n": "M_02",
+  "bloque": "M",
+  "titulo": "MITAD DEL VIDEO · TABLA PARCIAL",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Hielo, F. Egipto, A. Pompeya, D. Roma, C.",
+  "texto_tts": "Hielo, F. Egipto, A. Pompeya, D. Roma, C."
+ },
+ {
+  "n": "M_03",
+  "bloque": "M",
+  "titulo": "MITAD DEL VIDEO · TABLA PARCIAL",
+  "rol": "despertador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "«Ahora viene la parte donde dejas de ver qué te mata.»",
+  "texto_tts": "Ahora viene la parte donde dejas de ver qué te mata."
+ },
+ {
+  "n": "M_04",
+  "bloque": "M",
+  "titulo": "MITAD DEL VIDEO · TABLA PARCIAL",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Lo que viene mató a muchísima más gente que el volcán.",
+  "texto_tts": "Lo que viene mató a muchísima más gente que el volcán."
+ },
+ {
+  "n": "M_05",
+  "bloque": "M",
+  "titulo": "MITAD DEL VIDEO · TABLA PARCIAL",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Y no hizo ni un solo ruido.",
+  "texto_tts": "Y no hizo ni un solo ruido."
+ },
+ {
+  "n": "E5_01",
+  "bloque": "E5",
+  "titulo": "ÉPOCA 5 DE 8 · 1348 · EUROPA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Un pueblo en silencio. Demasiado silencio.",
+  "texto_tts": "Un pueblo en silencio. Demasiado silencio."
+ },
+ {
+  "n": "E5_02",
+  "bloque": "E5",
+  "titulo": "ÉPOCA 5 DE 8 · 1348 · EUROPA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Una carreta pasa. Está llena de cuerpos.",
+  "texto_tts": "Una carreta pasa. Está llena de cuerpos."
+ },
+ {
+  "n": "E5_03",
+  "bloque": "E5",
+  "titulo": "ÉPOCA 5 DE 8 · 1348 · EUROPA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": true,
+  "texto": "Cuatro muertes ya. Esta no se ve venir.",
+  "texto_tts": "Cuatro muertes ya. Esta no se ve venir."
+ },
+ {
+  "n": "E5_04",
+  "bloque": "E5",
+  "titulo": "ÉPOCA 5 DE 8 · 1348 · EUROPA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "En una ventana, alguien tose.",
+  "texto_tts": "En una ventana, alguien tose."
+ },
+ {
+  "n": "E5_05",
+  "bloque": "E5",
+  "titulo": "ÉPOCA 5 DE 8 · 1348 · EUROPA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Estamos en 1348. La peste negra.",
+  "texto_tts": "Estamos en 1348. La peste negra."
+ },
+ {
+  "n": "E5_06",
+  "bloque": "E5",
+  "titulo": "ÉPOCA 5 DE 8 · 1348 · EUROPA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Pero la cifra va desde uno de cada tres europeos… hasta dos de cada tres.",
+  "texto_tts": "Pero la cifra va desde uno de cada tres europeos… hasta dos de cada tres."
+ },
+ {
+  "n": "E5_07",
+  "bloque": "E5",
+  "titulo": "ÉPOCA 5 DE 8 · 1348 · EUROPA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Mira a las dos personas que tengas más cerca. Con la cifra más baja, una de las tres no lo cuenta.",
+  "texto_tts": "Mira a las dos personas que tengas más cerca. Con la cifra más baja, una de las tres no lo cuenta."
+ },
+ {
+  "n": "E5_08",
+  "bloque": "E5",
+  "titulo": "ÉPOCA 5 DE 8 · 1348 · EUROPA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Y lo peor: nadie sabía por qué. Nadie sabía qué era un germen.",
+  "texto_tts": "Y lo peor: nadie sabía por qué. Nadie sabía qué era un germen."
+ },
+ {
+  "n": "E5_09",
+  "bloque": "E5",
+  "titulo": "ÉPOCA 5 DE 8 · 1348 · EUROPA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Así que hacían lo que podían: encerrarse. Rezar. Huir.",
+  "texto_tts": "Así que hacían lo que podían: encerrarse. Rezar. Huir."
+ },
+ {
+  "n": "E5_10",
+  "bloque": "E5",
+  "titulo": "ÉPOCA 5 DE 8 · 1348 · EUROPA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Y una pulga lo pica. Una sola. Del tamaño de una semilla de sésamo.",
+  "texto_tts": "Y una pulga lo pica. Una sola. Del tamaño de una semilla de sésamo."
+ },
+ {
+  "n": "E5_11",
+  "bloque": "E5",
+  "titulo": "ÉPOCA 5 DE 8 · 1348 · EUROPA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Día uno. Todo bien.",
+  "texto_tts": "Día uno. Todo bien."
+ },
+ {
+  "n": "E5_12",
+  "bloque": "E5",
+  "titulo": "ÉPOCA 5 DE 8 · 1348 · EUROPA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Día tres. Aparece un bulto. Después otro.",
+  "texto_tts": "Día tres. Aparece un bulto. Después otro."
+ },
+ {
+  "n": "E5_13",
+  "bloque": "E5",
+  "titulo": "ÉPOCA 5 DE 8 · 1348 · EUROPA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Día cuatro. Ya no te acuerdas de tu café.",
+  "texto_tts": "Día cuatro. Ya no te acuerdas de tu café."
+ },
+ {
+  "n": "E5_14",
+  "bloque": "E5",
+  "titulo": "ÉPOCA 5 DE 8 · 1348 · EUROPA",
+  "rol": "despertador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "«Bro está cooked.»",
+  "texto_tts": "Bro está cooked."
+ },
+ {
+  "n": "E5_15",
+  "bloque": "E5",
+  "titulo": "ÉPOCA 5 DE 8 · 1348 · EUROPA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Día once.",
+  "texto_tts": "Día once."
+ },
+ {
+  "n": "E5_16",
+  "bloque": "E5",
+  "titulo": "ÉPOCA 5 DE 8 · 1348 · EUROPA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Y suena el despertador.",
+  "texto_tts": "Y suena el despertador."
+ },
+ {
+  "n": "E5_17",
+  "bloque": "E5",
+  "titulo": "ÉPOCA 5 DE 8 · 1348 · EUROPA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Pero lo que viene… es el mejor día de todo tu viaje.",
+  "texto_tts": "Pero lo que viene… es el mejor día de todo tu viaje."
+ },
+ {
+  "n": "E6_01",
+  "bloque": "E6",
+  "titulo": "ÉPOCA 6 DE 8 · 1519 · TENOCHTITLAN (MÉXICO)",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Te despiertas flotando.",
+  "texto_tts": "Te despiertas flotando."
+ },
+ {
+  "n": "E6_02",
+  "bloque": "E6",
+  "titulo": "ÉPOCA 6 DE 8 · 1519 · TENOCHTITLAN (MÉXICO)",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Estás en una canoa.",
+  "texto_tts": "Estás en una canoa."
+ },
+ {
+  "n": "E6_03",
+  "bloque": "E6",
+  "titulo": "ÉPOCA 6 DE 8 · 1519 · TENOCHTITLAN (MÉXICO)",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Y alrededor, una ciudad construida sobre un lago.",
+  "texto_tts": "Y alrededor, una ciudad construida sobre un lago."
+ },
+ {
+  "n": "E6_04",
+  "bloque": "E6",
+  "titulo": "ÉPOCA 6 DE 8 · 1519 · TENOCHTITLAN (MÉXICO)",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": true,
+  "texto": "Cinco muertes. Y esta época empieza bien. Demasiado bien.",
+  "texto_tts": "Cinco muertes. Y esta época empieza bien. Demasiado bien."
+ },
+ {
+  "n": "E6_05",
+  "bloque": "E6",
+  "titulo": "ÉPOCA 6 DE 8 · 1519 · TENOCHTITLAN (MÉXICO)",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Es Tenochtitlan. 1519.",
+  "texto_tts": "Es Tenochtitlan. 1519."
+ },
+ {
+  "n": "E6_06",
+  "bloque": "E6",
+  "titulo": "ÉPOCA 6 DE 8 · 1519 · TENOCHTITLAN (MÉXICO)",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Entre doscientos mil y trescientos mil habitantes.",
+  "texto_tts": "Entre doscientos mil y trescientos mil habitantes."
+ },
+ {
+  "n": "E6_07",
+  "bloque": "E6",
+  "titulo": "ÉPOCA 6 DE 8 · 1519 · TENOCHTITLAN (MÉXICO)",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Es llenar entre dos y tres veces el Estadio Azteca… y que todos vivan ahí.",
+  "texto_tts": "Es llenar entre dos y tres veces el Estadio Azteca… y que todos vivan ahí."
+ },
+ {
+  "n": "E6_08",
+  "bloque": "E6",
+  "titulo": "ÉPOCA 6 DE 8 · 1519 · TENOCHTITLAN (MÉXICO)",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Y esto es importante: este es el mejor momento de todo tu viaje.",
+  "texto_tts": "Y esto es importante: este es el mejor momento de todo tu viaje."
+ },
+ {
+  "n": "E6_09",
+  "bloque": "E6",
+  "titulo": "ÉPOCA 6 DE 8 · 1519 · TENOCHTITLAN (MÉXICO)",
+  "rol": "despertador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "«Ok. Esta la disfruto.»",
+  "texto_tts": "Ok. Esta la disfruto."
+ },
+ {
+  "n": "E6_10",
+  "bloque": "E6",
+  "titulo": "ÉPOCA 6 DE 8 · 1519 · TENOCHTITLAN (MÉXICO)",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Por primera vez, nadie te quiere matar.",
+  "texto_tts": "Por primera vez, nadie te quiere matar."
+ },
+ {
+  "n": "E6_11",
+  "bloque": "E6",
+  "titulo": "ÉPOCA 6 DE 8 · 1519 · TENOCHTITLAN (MÉXICO)",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Pasan los meses.",
+  "texto_tts": "Pasan los meses."
+ },
+ {
+  "n": "E6_12",
+  "bloque": "E6",
+  "titulo": "ÉPOCA 6 DE 8 · 1519 · TENOCHTITLAN (MÉXICO)",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Y entonces llega 1520.",
+  "texto_tts": "Y entonces llega 1520."
+ },
+ {
+  "n": "E6_13",
+  "bloque": "E6",
+  "titulo": "ÉPOCA 6 DE 8 · 1519 · TENOCHTITLAN (MÉXICO)",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Con una expedición española llega la viruela.",
+  "texto_tts": "Con una expedición española llega la viruela."
+ },
+ {
+  "n": "E6_14",
+  "bloque": "E6",
+  "titulo": "ÉPOCA 6 DE 8 · 1519 · TENOCHTITLAN (MÉXICO)",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Nadie tenía defensas contra ella.",
+  "texto_tts": "Nadie tenía defensas contra ella."
+ },
+ {
+  "n": "E6_15",
+  "bloque": "E6",
+  "titulo": "ÉPOCA 6 DE 8 · 1519 · TENOCHTITLAN (MÉXICO)",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "En algunas regiones murió más de la mitad de la gente en pocos meses.",
+  "texto_tts": "En algunas regiones murió más de la mitad de la gente en pocos meses."
+ },
+ {
+  "n": "E6_16",
+  "bloque": "E6",
+  "titulo": "ÉPOCA 6 DE 8 · 1519 · TENOCHTITLAN (MÉXICO)",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Los colores se apagan.",
+  "texto_tts": "Los colores se apagan."
+ },
+ {
+  "n": "E6_17",
+  "bloque": "E6",
+  "titulo": "ÉPOCA 6 DE 8 · 1519 · TENOCHTITLAN (MÉXICO)",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Y a Pijama le llega su turno.",
+  "texto_tts": "Y a Pijama le llega su turno."
+ },
+ {
+  "n": "E6_18",
+  "bloque": "E6",
+  "titulo": "ÉPOCA 6 DE 8 · 1519 · TENOCHTITLAN (MÉXICO)",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Nueve meses.",
+  "texto_tts": "Nueve meses."
+ },
+ {
+  "n": "E6_19",
+  "bloque": "E6",
+  "titulo": "ÉPOCA 6 DE 8 · 1519 · TENOCHTITLAN (MÉXICO)",
+  "rol": "despertador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "«…No voy a hacer ningún chiste.»",
+  "texto_tts": "…No voy a hacer ningún chiste."
+ },
+ {
+  "n": "E6_20",
+  "bloque": "E6",
+  "titulo": "ÉPOCA 6 DE 8 · 1519 · TENOCHTITLAN (MÉXICO)",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Y suena el despertador. Más lento.",
+  "texto_tts": "Y suena el despertador. Más lento."
+ },
+ {
+  "n": "E6_21",
+  "bloque": "E6",
+  "titulo": "ÉPOCA 6 DE 8 · 1519 · TENOCHTITLAN (MÉXICO)",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Pero lo que viene… es el año en que el mundo se quedó sin verano.",
+  "texto_tts": "Pero lo que viene… es el año en que el mundo se quedó sin verano."
+ },
+ {
+  "n": "E7_01",
+  "bloque": "E7",
+  "titulo": "ÉPOCA 7 DE 8 · 1816 · SUIZA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Piensa en un volcán que explota… al otro lado del planeta.",
+  "texto_tts": "Piensa en un volcán que explota… al otro lado del planeta."
+ },
+ {
+  "n": "E7_02",
+  "bloque": "E7",
+  "titulo": "ÉPOCA 7 DE 8 · 1816 · SUIZA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Abril de 1815. Tambora, en Indonesia. La erupción más grande de la historia registrada.",
+  "texto_tts": "Abril de 1815. Tambora, en Indonesia. La erupción más grande de la historia registrada."
+ },
+ {
+  "n": "E7_03",
+  "bloque": "E7",
+  "titulo": "ÉPOCA 7 DE 8 · 1816 · SUIZA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": true,
+  "texto": "Seis muertes. Esta vez el enemigo no es una persona ni un animal.",
+  "texto_tts": "Seis muertes. Esta vez el enemigo no es una persona ni un animal."
+ },
+ {
+  "n": "E7_04",
+  "bloque": "E7",
+  "titulo": "ÉPOCA 7 DE 8 · 1816 · SUIZA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Se escuchó a más de dos mil seiscientos kilómetros. Algo así como de Ciudad de México a Panamá.",
+  "texto_tts": "Se escuchó a más de dos mil seiscientos kilómetros. Algo así como de Ciudad de México a Panamá."
+ },
+ {
+  "n": "E7_05",
+  "bloque": "E7",
+  "titulo": "ÉPOCA 7 DE 8 · 1816 · SUIZA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Un año después, 1816, estás en Suiza. En julio. En pijama. Y está nevando.",
+  "texto_tts": "Un año después, 1816, estás en Suiza. En julio. En pijama. Y está nevando."
+ },
+ {
+  "n": "E7_06",
+  "bloque": "E7",
+  "titulo": "ÉPOCA 7 DE 8 · 1816 · SUIZA",
+  "rol": "despertador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "«Es verano. Literalmente es julio.»",
+  "texto_tts": "Es verano. Literalmente es julio."
+ },
+ {
+  "n": "E7_07",
+  "bloque": "E7",
+  "titulo": "ÉPOCA 7 DE 8 · 1816 · SUIZA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "¿Qué pasó? El polvo del volcán tapó el sol.",
+  "texto_tts": "¿Qué pasó? El polvo del volcán tapó el sol."
+ },
+ {
+  "n": "E7_08",
+  "bloque": "E7",
+  "titulo": "ÉPOCA 7 DE 8 · 1816 · SUIZA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "La temperatura del planeta bajó menos de un grado.",
+  "texto_tts": "La temperatura del planeta bajó menos de un grado."
+ },
+ {
+  "n": "E7_09",
+  "bloque": "E7",
+  "titulo": "ÉPOCA 7 DE 8 · 1816 · SUIZA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Menos de un grado. Y alcanzó para arruinar las cosechas de medio mundo.",
+  "texto_tts": "Menos de un grado. Y alcanzó para arruinar las cosechas de medio mundo."
+ },
+ {
+  "n": "E7_10",
+  "bloque": "E7",
+  "titulo": "ÉPOCA 7 DE 8 · 1816 · SUIZA",
+  "rol": "narrador",
+  "corte_short": true,
+  "solo_short": false,
+  "texto": "El precio de la avena pasó de doce a noventa y dos centavos. Es como si tu pan subiera de un dólar a ocho.",
+  "texto_tts": "El precio de la avena pasó de doce a noventa y dos centavos. Es como si tu pan subiera de un dólar a ocho."
+ },
+ {
+  "n": "E7_11",
+  "bloque": "E7",
+  "titulo": "ÉPOCA 7 DE 8 · 1816 · SUIZA",
+  "rol": "narrador",
+  "corte_short": true,
+  "solo_short": false,
+  "texto": "Y como llovía sin parar, cuatro amigos se encerraron junto a un lago a escribir historias de terror. De ahí salió Frankenstein.",
+  "texto_tts": "Y como llovía sin parar, cuatro amigos se encerraron junto a un lago a escribir historias de terror. De ahí salió Frankenstein."
+ },
+ {
+  "n": "E7_12",
+  "bloque": "E7",
+  "titulo": "ÉPOCA 7 DE 8 · 1816 · SUIZA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Diecisiete días.",
+  "texto_tts": "Diecisiete días."
+ },
+ {
+  "n": "E7_13",
+  "bloque": "E7",
+  "titulo": "ÉPOCA 7 DE 8 · 1816 · SUIZA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Y el hambre trajo algo peor: una epidemia de tifus que mató a más de sesenta y cinco mil personas entre Irlanda, Italia, Suiza y Escocia.",
+  "texto_tts": "Y el hambre trajo algo peor: una epidemia de tifus que mató a más de sesenta y cinco mil personas entre Irlanda, Italia, Suiza y Escocia."
+ },
+ {
+  "n": "E7_14",
+  "bloque": "E7",
+  "titulo": "ÉPOCA 7 DE 8 · 1816 · SUIZA",
+  "rol": "despertador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "«Menos de un grado, bro. Menos de uno.»",
+  "texto_tts": "Menos de un grado, bro. Menos de uno."
+ },
+ {
+  "n": "E7_15",
+  "bloque": "E7",
+  "titulo": "ÉPOCA 7 DE 8 · 1816 · SUIZA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Y suena el despertador.",
+  "texto_tts": "Y suena el despertador."
+ },
+ {
+  "n": "E7_16",
+  "bloque": "E7",
+  "titulo": "ÉPOCA 7 DE 8 · 1816 · SUIZA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "La última época… empieza con sed.",
+  "texto_tts": "La última época… empieza con sed."
+ },
+ {
+  "n": "E8_01",
+  "bloque": "E8",
+  "titulo": "ÉPOCA 8 DE 8 · LONDRES · AGOSTO DE 1854",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Tienes sed. Mucha sed.",
+  "texto_tts": "Tienes sed. Mucha sed."
+ },
+ {
+  "n": "E8_02",
+  "bloque": "E8",
+  "titulo": "ÉPOCA 8 DE 8 · LONDRES · AGOSTO DE 1854",
+  "rol": "narrador",
+  "corte_short": true,
+  "solo_short": false,
+  "texto": "Si viste el primer video, ya sabes lo que significa.",
+  "texto_tts": "Si viste el primer video, ya sabes lo que significa."
+ },
+ {
+  "n": "E8_03",
+  "bloque": "E8",
+  "titulo": "ÉPOCA 8 DE 8 · LONDRES · AGOSTO DE 1854",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": true,
+  "texto": "Siete muertes. Queda una. Y empieza con algo muy simple.",
+  "texto_tts": "Siete muertes. Queda una. Y empieza con algo muy simple."
+ },
+ {
+  "n": "E8_04",
+  "bloque": "E8",
+  "titulo": "ÉPOCA 8 DE 8 · LONDRES · AGOSTO DE 1854",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Estás en Soho, Londres. 1854.",
+  "texto_tts": "Estás en Soho, Londres. 1854."
+ },
+ {
+  "n": "E8_05",
+  "bloque": "E8",
+  "titulo": "ÉPOCA 8 DE 8 · LONDRES · AGOSTO DE 1854",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Y en la calle hay una bomba de agua. Con fila de gente.",
+  "texto_tts": "Y en la calle hay una bomba de agua. Con fila de gente."
+ },
+ {
+  "n": "E8_06",
+  "bloque": "E8",
+  "titulo": "ÉPOCA 8 DE 8 · LONDRES · AGOSTO DE 1854",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Te acercas. Bebes.",
+  "texto_tts": "Te acercas. Bebes."
+ },
+ {
+  "n": "E8_07",
+  "bloque": "E8",
+  "titulo": "ÉPOCA 8 DE 8 · LONDRES · AGOSTO DE 1854",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Agua fresca. Rica. Limpia.",
+  "texto_tts": "Agua fresca. Rica. Limpia."
+ },
+ {
+  "n": "E8_08",
+  "bloque": "E8",
+  "titulo": "ÉPOCA 8 DE 8 · LONDRES · AGOSTO DE 1854",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "O eso parece.",
+  "texto_tts": "O eso parece."
+ },
+ {
+  "n": "E8_09",
+  "bloque": "E8",
+  "titulo": "ÉPOCA 8 DE 8 · LONDRES · AGOSTO DE 1854",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Porque ese pozo está a menos de un metro de un pozo negro con fugas. A un paso largo.",
+  "texto_tts": "Porque ese pozo está a menos de un metro de un pozo negro con fugas. A un paso largo."
+ },
+ {
+  "n": "E8_10",
+  "bloque": "E8",
+  "titulo": "ÉPOCA 8 DE 8 · LONDRES · AGOSTO DE 1854",
+  "rol": "despertador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "«No. No bebas eso. Por favor.»",
+  "texto_tts": "No. No bebas eso. Por favor."
+ },
+ {
+  "n": "E8_11",
+  "bloque": "E8",
+  "titulo": "ÉPOCA 8 DE 8 · LONDRES · AGOSTO DE 1854",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "En tres días mueren ciento veintisiete personas. Justo ahí.",
+  "texto_tts": "En tres días mueren ciento veintisiete personas. Justo ahí."
+ },
+ {
+  "n": "E8_12",
+  "bloque": "E8",
+  "titulo": "ÉPOCA 8 DE 8 · LONDRES · AGOSTO DE 1854",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "En diez días, más de trescientas.",
+  "texto_tts": "En diez días, más de trescientas."
+ },
+ {
+  "n": "E8_13",
+  "bloque": "E8",
+  "titulo": "ÉPOCA 8 DE 8 · LONDRES · AGOSTO DE 1854",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Un médico, John Snow, marca cada muerte en un mapa.",
+  "texto_tts": "Un médico, John Snow, marca cada muerte en un mapa."
+ },
+ {
+  "n": "E8_14",
+  "bloque": "E8",
+  "titulo": "ÉPOCA 8 DE 8 · LONDRES · AGOSTO DE 1854",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Y descubre algo: todas están alrededor de la misma bomba.",
+  "texto_tts": "Y descubre algo: todas están alrededor de la misma bomba."
+ },
+ {
+  "n": "E8_15",
+  "bloque": "E8",
+  "titulo": "ÉPOCA 8 DE 8 · LONDRES · AGOSTO DE 1854",
+  "rol": "narrador",
+  "corte_short": true,
+  "solo_short": false,
+  "texto": "El 8 de septiembre sacan la manija de la bomba.",
+  "texto_tts": "El 8 de septiembre sacan la manija de la bomba."
+ },
+ {
+  "n": "E8_16",
+  "bloque": "E8",
+  "titulo": "ÉPOCA 8 DE 8 · LONDRES · AGOSTO DE 1854",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Pero Pijama ya había bebido.",
+  "texto_tts": "Pero Pijama ya había bebido."
+ },
+ {
+  "n": "E8_17",
+  "bloque": "E8",
+  "titulo": "ÉPOCA 8 DE 8 · LONDRES · AGOSTO DE 1854",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Tres días.",
+  "texto_tts": "Tres días."
+ },
+ {
+  "n": "E8_18",
+  "bloque": "E8",
+  "titulo": "ÉPOCA 8 DE 8 · LONDRES · AGOSTO DE 1854",
+  "rol": "despertador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "«Lo siento. Esta no la vi venir.»",
+  "texto_tts": "Lo siento. Esta no la vi venir."
+ },
+ {
+  "n": "E8_19",
+  "bloque": "E8",
+  "titulo": "ÉPOCA 8 DE 8 · LONDRES · AGOSTO DE 1854",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Y suena el despertador.",
+  "texto_tts": "Y suena el despertador."
+ },
+ {
+  "n": "E8_20",
+  "bloque": "E8",
+  "titulo": "ÉPOCA 8 DE 8 · LONDRES · AGOSTO DE 1854",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Pero esta vez… algo suena diferente.",
+  "texto_tts": "Pero esta vez… algo suena diferente."
+ },
+ {
+  "n": "C_01",
+  "bloque": "C",
+  "titulo": "CIERRE Y TABLA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "El despertador suena por última vez.",
+  "texto_tts": "El despertador suena por última vez."
+ },
+ {
+  "n": "C_02",
+  "bloque": "C",
+  "titulo": "CIERRE Y TABLA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Tu cama. Tu cuarto. Tu pijama de estrellas.",
+  "texto_tts": "Tu cama. Tu cuarto. Tu pijama de estrellas."
+ },
+ {
+  "n": "C_03",
+  "bloque": "C",
+  "titulo": "CIERRE Y TABLA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "La época en la que más duraste: Egipto. Haciendo huelga.",
+  "texto_tts": "La época en la que más duraste: Egipto. Haciendo huelga."
+ },
+ {
+  "n": "C_04",
+  "bloque": "C",
+  "titulo": "CIERRE Y TABLA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Ahora, tu apuesta.",
+  "texto_tts": "Ahora, tu apuesta."
+ },
+ {
+  "n": "C_05",
+  "bloque": "C",
+  "titulo": "CIERRE Y TABLA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Si elegiste Roma: eres optimista. La arena no perdona pijamas.",
+  "texto_tts": "Si elegiste Roma: eres optimista. La arena no perdona pijamas."
+ },
+ {
+  "n": "C_06",
+  "bloque": "C",
+  "titulo": "CIERRE Y TABLA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Si elegiste el hielo: eres valiente. Y estás descalzo.",
+  "texto_tts": "Si elegiste el hielo: eres valiente. Y estás descalzo."
+ },
+ {
+  "n": "C_07",
+  "bloque": "C",
+  "titulo": "CIERRE Y TABLA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Si elegiste 1348, 1816 o Londres: eres un caso especial. Cuéntame por qué.",
+  "texto_tts": "Si elegiste 1348, 1816 o Londres: eres un caso especial. Cuéntame por qué."
+ },
+ {
+  "n": "C_08",
+  "bloque": "C",
+  "titulo": "CIERRE Y TABLA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Ahora lo importante. ¿Qué te mató en cada una?",
+  "texto_tts": "Ahora lo importante. ¿Qué te mató en cada una?"
+ },
+ {
+  "n": "C_09",
+  "bloque": "C",
+  "titulo": "CIERRE Y TABLA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "El volcán que borró una ciudad: unos miles de personas.",
+  "texto_tts": "El volcán que borró una ciudad: unos miles de personas."
+ },
+ {
+  "n": "C_10",
+  "bloque": "C",
+  "titulo": "CIERRE Y TABLA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "La pulga: decenas de millones.",
+  "texto_tts": "La pulga: decenas de millones."
+ },
+ {
+  "n": "C_11",
+  "bloque": "C",
+  "titulo": "CIERRE Y TABLA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Lo que más asusta mata poco.",
+  "texto_tts": "Lo que más asusta mata poco."
+ },
+ {
+  "n": "C_12",
+  "bloque": "C",
+  "titulo": "CIERRE Y TABLA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Lo que no ves mata a millones.",
+  "texto_tts": "Lo que no ves mata a millones."
+ },
+ {
+  "n": "C_13",
+  "bloque": "C",
+  "titulo": "CIERRE Y TABLA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Es lo mismo que te mató en el video anterior.",
+  "texto_tts": "Es lo mismo que te mató en el video anterior."
+ },
+ {
+  "n": "C_14",
+  "bloque": "C",
+  "titulo": "CIERRE Y TABLA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "La próxima vez que te quejes de que es lunes…",
+  "texto_tts": "La próxima vez que te quejes de que es lunes…"
+ },
+ {
+  "n": "C_15",
+  "bloque": "C",
+  "titulo": "CIERRE Y TABLA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "acuérdate de que sigues vivo.",
+  "texto_tts": "acuérdate de que sigues vivo."
+ },
+ {
+  "n": "C_16",
+  "bloque": "C",
+  "titulo": "CIERRE Y TABLA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "Si tienes un amigo que dice «yo habría sobrevivido»… mándale este video.",
+  "texto_tts": "Si tienes un amigo que dice yo habría sobrevivido… mándale este video."
+ },
+ {
+  "n": "C_17",
+  "bloque": "C",
+  "titulo": "CIERRE Y TABLA",
+  "rol": "narrador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "En el próximo, Pijama va a trabajar. De cazador.",
+  "texto_tts": "En el próximo, Pijama va a trabajar. De cazador."
+ },
+ {
+  "n": "C_18",
+  "bloque": "C",
+  "titulo": "CIERRE Y TABLA",
+  "rol": "despertador",
+  "corte_short": false,
+  "solo_short": false,
+  "texto": "«Si este video llega a sesenta y siete mil likes, me apago solo.»",
+  "texto_tts": "Si este video llega a sesenta y siete mil likes, me apago solo."
+ }
+]

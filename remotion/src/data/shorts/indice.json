@@ -1,0 +1,42 @@
+[
+ {
+  "id": "short_00",
+  "slug": "00_gancho",
+  "duracion": 29.994
+ },
+ {
+  "id": "short_07",
+  "slug": "07_sin_agua",
+  "duracion": 40.494
+ },
+ {
+  "id": "short_06",
+  "slug": "06_grandes_animales",
+  "duracion": 45.971
+ },
+ {
+  "id": "short_05",
+  "slug": "05_lo_que_comes",
+  "duracion": 41.85
+ },
+ {
+  "id": "short_04",
+  "slug": "04_la_noche",
+  "duracion": 43.062
+ },
+ {
+  "id": "short_03",
+  "slug": "03_otras_personas",
+  "duracion": 41.138
+ },
+ {
+  "id": "short_02",
+  "slug": "02_un_rasguno",
+  "duracion": 43.283
+ },
+ {
+  "id": "short_01",
+  "slug": "01_germenes",
+  "duracion": 52.394
+ }
+]

@@ -1,0 +1,1123 @@
+{
+ "duracion": 51.032,
+ "n": 7,
+ "planos": [
+  {
+   "ini": 0.0,
+   "tipo": "img",
+   "id": "159",
+   "cam": "WS",
+   "tr": "FLASH",
+   "epoca": 7,
+   "vertical": false,
+   "fin": 2.115
+  },
+  {
+   "ini": 2.115,
+   "fin": 4.229,
+   "tipo": "img",
+   "id": "162",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 7,
+   "vertical": false
+  },
+  {
+   "ini": 4.229,
+   "tipo": "img",
+   "id": "159",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 7,
+   "vertical": false,
+   "fin": 6.344
+  },
+  {
+   "ini": 6.344,
+   "tipo": "img",
+   "id": "160",
+   "cam": "LA",
+   "tr": "PUNCH",
+   "epoca": 7,
+   "vertical": false,
+   "fin": 8.689
+  },
+  {
+   "ini": 8.689,
+   "tipo": "img",
+   "id": "161",
+   "cam": "MS",
+   "tr": "GAME",
+   "epoca": 7,
+   "vertical": false,
+   "fin": 10.579
+  },
+  {
+   "ini": 10.579,
+   "fin": 12.469,
+   "tipo": "img",
+   "id": "164",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 7,
+   "vertical": false
+  },
+  {
+   "ini": 12.469,
+   "tipo": "img",
+   "id": "162",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 7,
+   "vertical": false,
+   "fin": 13.838
+  },
+  {
+   "ini": 13.838,
+   "fin": 15.208,
+   "tipo": "img",
+   "id": "165",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 7,
+   "vertical": false
+  },
+  {
+   "ini": 15.208,
+   "tipo": "img",
+   "id": "163",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 7,
+   "vertical": false,
+   "fin": 17.413
+  },
+  {
+   "ini": 17.413,
+   "tipo": "img",
+   "id": "164",
+   "cam": "MS",
+   "tr": "PUNCH",
+   "epoca": 7,
+   "vertical": false,
+   "fin": 19.415
+  },
+  {
+   "ini": 19.415,
+   "fin": 21.418,
+   "tipo": "img",
+   "id": "167",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 7,
+   "vertical": false
+  },
+  {
+   "ini": 21.418,
+   "tipo": "img",
+   "id": "164",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 7,
+   "vertical": false,
+   "fin": 23.42
+  },
+  {
+   "ini": 23.42,
+   "tipo": "img",
+   "id": "165",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 7,
+   "vertical": false,
+   "fin": 24.949
+  },
+  {
+   "ini": 24.949,
+   "fin": 26.477,
+   "tipo": "img",
+   "id": "237",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 7,
+   "vertical": true
+  },
+  {
+   "ini": 26.477,
+   "tipo": "img",
+   "id": "166",
+   "cam": "WS",
+   "tr": "PUNCH",
+   "epoca": 7,
+   "vertical": false,
+   "fin": 28.295
+  },
+  {
+   "ini": 28.295,
+   "tipo": "img",
+   "id": "167",
+   "cam": "EC",
+   "tr": "PUNCH",
+   "epoca": 7,
+   "vertical": false,
+   "fin": 29.763
+  },
+  {
+   "ini": 29.763,
+   "tipo": "img",
+   "id": "237",
+   "cam": "MS",
+   "tr": "PUNCH",
+   "epoca": 7,
+   "vertical": true,
+   "fin": 30.183
+  },
+  {
+   "ini": 30.183,
+   "tipo": "img",
+   "id": "176",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 7,
+   "vertical": false,
+   "fin": 32.045
+  },
+  {
+   "ini": 32.045,
+   "tipo": "img",
+   "id": "168",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 7,
+   "vertical": false,
+   "congelar": 34.562,
+   "fin": 34.862
+  },
+  {
+   "ini": 34.862,
+   "tipo": "negro",
+   "fin": 34.982
+  },
+  {
+   "ini": 34.982,
+   "tipo": "img",
+   "id": "174",
+   "cam": "EC",
+   "tr": "SMASH",
+   "epoca": 7,
+   "vertical": false,
+   "fin": 36.281
+  },
+  {
+   "ini": 36.281,
+   "fin": 37.579,
+   "tipo": "img",
+   "id": "159",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 7,
+   "vertical": false
+  },
+  {
+   "ini": 37.579,
+   "tipo": "img",
+   "id": "175",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 7,
+   "vertical": false,
+   "fin": 39.717
+  },
+  {
+   "ini": 39.717,
+   "fin": 41.855,
+   "tipo": "img",
+   "id": "160",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 7,
+   "vertical": false
+  },
+  {
+   "ini": 41.855,
+   "tipo": "img",
+   "id": "175",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 7,
+   "vertical": false,
+   "fin": 43.993
+  },
+  {
+   "ini": 43.993,
+   "fin": 46.131,
+   "tipo": "img",
+   "id": "162",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 7,
+   "vertical": false
+  },
+  {
+   "ini": 46.131,
+   "tipo": "img",
+   "id": "177",
+   "cam": "WS",
+   "tr": "SMASH",
+   "epoca": 7,
+   "vertical": false,
+   "fin": 47.412
+  },
+  {
+   "ini": 47.412,
+   "tipo": "img",
+   "id": "178",
+   "cam": "EC",
+   "tr": "MATCH",
+   "epoca": 7,
+   "vertical": false,
+   "fin": 49.532
+  },
+  {
+   "ini": 49.532,
+   "tipo": "tarjeta",
+   "n": 7,
+   "fin": 51.032
+  }
+ ],
+ "textos": [
+  {
+   "ini": 0.1,
+   "texto": "ABRIL 1815 · TAMBORA",
+   "id": "159",
+   "fin": 2.115
+  },
+  {
+   "ini": 8.789,
+   "texto": "MUERTES: 6 · ÉPOCA 7/8",
+   "id": "161",
+   "fin": 10.579
+  },
+  {
+   "ini": 12.569,
+   "texto": "2.600 KM",
+   "id": "162",
+   "fin": 13.769
+  },
+  {
+   "ini": 15.308,
+   "texto": "CDMX → PANAMÁ (APROX.)",
+   "id": "163",
+   "fin": 17.413
+  },
+  {
+   "ini": 17.513,
+   "texto": "1816 · SUIZA",
+   "id": "164",
+   "fin": 18.713
+  },
+  {
+   "ini": 28.395,
+   "texto": "MENOS DE 1 °C",
+   "id": "167",
+   "fin": 29.595
+  },
+  {
+   "ini": 35.082,
+   "texto": "17 DÍAS",
+   "id": "174",
+   "fin": 36.282
+  },
+  {
+   "ini": 37.679,
+   "texto": "+65.000 · TIFUS",
+   "id": "175",
+   "fin": 39.717
+  }
+ ],
+ "subs": [
+  {
+   "w": "Piensa",
+   "ini": 0.02,
+   "fin": 0.322
+  },
+  {
+   "w": "en",
+   "ini": 0.333,
+   "fin": 0.408
+  },
+  {
+   "w": "un",
+   "ini": 0.419,
+   "fin": 0.516
+  },
+  {
+   "w": "volcán",
+   "ini": 0.526,
+   "fin": 0.882
+  },
+  {
+   "w": "que",
+   "ini": 0.893,
+   "fin": 0.99
+  },
+  {
+   "w": "explota…",
+   "ini": 1.001,
+   "fin": 1.453
+  },
+  {
+   "w": "al",
+   "ini": 1.603,
+   "fin": 1.765
+  },
+  {
+   "w": "otro",
+   "ini": 1.776,
+   "fin": 1.991
+  },
+  {
+   "w": "lado",
+   "ini": 2.002,
+   "fin": 2.228
+  },
+  {
+   "w": "del",
+   "ini": 2.239,
+   "fin": 2.379
+  },
+  {
+   "w": "planeta.",
+   "ini": 2.39,
+   "fin": 2.842
+  },
+  {
+   "w": "Abril de 1815",
+   "ini": 3.002,
+   "fin": 4.565
+  },
+  {
+   "w": "Tambora",
+   "ini": 4.715,
+   "fin": 5.21
+  },
+  {
+   "w": "en",
+   "ini": 5.36,
+   "fin": 5.49
+  },
+  {
+   "w": "Indonesia",
+   "ini": 5.5,
+   "fin": 6.071
+  },
+  {
+   "w": "La",
+   "ini": 6.221,
+   "fin": 6.383
+  },
+  {
+   "w": "erupción",
+   "ini": 6.394,
+   "fin": 6.782
+  },
+  {
+   "w": "más",
+   "ini": 6.793,
+   "fin": 6.997
+  },
+  {
+   "w": "grande",
+   "ini": 7.008,
+   "fin": 7.288
+  },
+  {
+   "w": "de",
+   "ini": 7.299,
+   "fin": 7.407
+  },
+  {
+   "w": "la",
+   "ini": 7.418,
+   "fin": 7.493
+  },
+  {
+   "w": "historia",
+   "ini": 7.504,
+   "fin": 7.902
+  },
+  {
+   "w": "registrada",
+   "ini": 7.913,
+   "fin": 8.549
+  },
+  {
+   "w": "Seis",
+   "ini": 8.709,
+   "fin": 9.086
+  },
+  {
+   "w": "muertes.",
+   "ini": 9.097,
+   "fin": 9.614
+  },
+  {
+   "w": "Esta",
+   "ini": 9.764,
+   "fin": 10.012
+  },
+  {
+   "w": "vez",
+   "ini": 10.023,
+   "fin": 10.206
+  },
+  {
+   "w": "el",
+   "ini": 10.217,
+   "fin": 10.314
+  },
+  {
+   "w": "enemigo",
+   "ini": 10.325,
+   "fin": 10.712
+  },
+  {
+   "w": "no",
+   "ini": 10.723,
+   "fin": 10.917
+  },
+  {
+   "w": "es",
+   "ini": 10.928,
+   "fin": 11.047
+  },
+  {
+   "w": "una",
+   "ini": 11.057,
+   "fin": 11.197
+  },
+  {
+   "w": "persona",
+   "ini": 11.208,
+   "fin": 11.607
+  },
+  {
+   "w": "ni",
+   "ini": 11.618,
+   "fin": 11.769
+  },
+  {
+   "w": "un",
+   "ini": 11.779,
+   "fin": 11.909
+  },
+  {
+   "w": "animal.",
+   "ini": 11.919,
+   "fin": 12.329
+  },
+  {
+   "w": "Se",
+   "ini": 12.489,
+   "fin": 12.683
+  },
+  {
+   "w": "escuchó",
+   "ini": 12.694,
+   "fin": 13.092
+  },
+  {
+   "w": "a",
+   "ini": 13.103,
+   "fin": 13.136
+  },
+  {
+   "w": "más",
+   "ini": 13.146,
+   "fin": 13.383
+  },
+  {
+   "w": "de",
+   "ini": 13.394,
+   "fin": 13.459
+  },
+  {
+   "w": "dos",
+   "ini": 13.47,
+   "fin": 13.664
+  },
+  {
+   "w": "mil",
+   "ini": 13.674,
+   "fin": 13.825
+  },
+  {
+   "w": "seiscientos",
+   "ini": 13.836,
+   "fin": 14.407
+  },
+  {
+   "w": "kilómetros.",
+   "ini": 14.418,
+   "fin": 15.108
+  },
+  {
+   "w": "Algo",
+   "ini": 15.258,
+   "fin": 15.495
+  },
+  {
+   "w": "así",
+   "ini": 15.505,
+   "fin": 15.689
+  },
+  {
+   "w": "como",
+   "ini": 15.699,
+   "fin": 15.904
+  },
+  {
+   "w": "de",
+   "ini": 15.915,
+   "fin": 16.001
+  },
+  {
+   "w": "Ciudad",
+   "ini": 16.012,
+   "fin": 16.314
+  },
+  {
+   "w": "de",
+   "ini": 16.324,
+   "fin": 16.389
+  },
+  {
+   "w": "México",
+   "ini": 16.4,
+   "fin": 16.798
+  },
+  {
+   "w": "a",
+   "ini": 16.809,
+   "fin": 16.842
+  },
+  {
+   "w": "Panamá.",
+   "ini": 16.852,
+   "fin": 17.273
+  },
+  {
+   "w": "Un",
+   "ini": 17.433,
+   "fin": 17.595
+  },
+  {
+   "w": "año",
+   "ini": 17.605,
+   "fin": 17.789
+  },
+  {
+   "w": "después,",
+   "ini": 17.799,
+   "fin": 18.263
+  },
+  {
+   "w": "1816,",
+   "ini": 18.413,
+   "fin": 19.684
+  },
+  {
+   "w": "estás",
+   "ini": 19.834,
+   "fin": 20.179
+  },
+  {
+   "w": "en",
+   "ini": 20.19,
+   "fin": 20.298
+  },
+  {
+   "w": "Suiza.",
+   "ini": 20.308,
+   "fin": 20.707
+  },
+  {
+   "w": "En",
+   "ini": 20.857,
+   "fin": 21.03
+  },
+  {
+   "w": "julio.",
+   "ini": 21.04,
+   "fin": 21.45
+  },
+  {
+   "w": "En",
+   "ini": 21.6,
+   "fin": 21.772
+  },
+  {
+   "w": "pijama.",
+   "ini": 21.783,
+   "fin": 22.257
+  },
+  {
+   "w": "Y",
+   "ini": 22.407,
+   "fin": 22.558
+  },
+  {
+   "w": "está",
+   "ini": 22.569,
+   "fin": 22.806
+  },
+  {
+   "w": "nevando.",
+   "ini": 22.817,
+   "fin": 23.28
+  },
+  {
+   "w": "Es",
+   "ini": 23.515,
+   "fin": 23.73
+  },
+  {
+   "w": "verano.",
+   "ini": 23.742,
+   "fin": 24.197
+  },
+  {
+   "w": "Literalmente",
+   "ini": 24.347,
+   "fin": 25.148
+  },
+  {
+   "w": "es",
+   "ini": 25.16,
+   "fin": 25.28
+  },
+  {
+   "w": "julio.",
+   "ini": 25.292,
+   "fin": 25.698
+  },
+  {
+   "w": "¿Qué",
+   "ini": 25.871,
+   "fin": 25.99
+  },
+  {
+   "w": "pasó?",
+   "ini": 26.0,
+   "fin": 26.377
+  },
+  {
+   "w": "El",
+   "ini": 26.527,
+   "fin": 26.7
+  },
+  {
+   "w": "polvo",
+   "ini": 26.711,
+   "fin": 26.991
+  },
+  {
+   "w": "del",
+   "ini": 27.002,
+   "fin": 27.131
+  },
+  {
+   "w": "volcán",
+   "ini": 27.142,
+   "fin": 27.497
+  },
+  {
+   "w": "tapó",
+   "ini": 27.508,
+   "fin": 27.767
+  },
+  {
+   "w": "el",
+   "ini": 27.777,
+   "fin": 27.864
+  },
+  {
+   "w": "sol.",
+   "ini": 27.874,
+   "fin": 28.155
+  },
+  {
+   "w": "La",
+   "ini": 28.315,
+   "fin": 28.455
+  },
+  {
+   "w": "temperatura",
+   "ini": 28.466,
+   "fin": 28.994
+  },
+  {
+   "w": "del",
+   "ini": 29.005,
+   "fin": 29.156
+  },
+  {
+   "w": "planeta",
+   "ini": 29.166,
+   "fin": 29.533
+  },
+  {
+   "w": "bajó",
+   "ini": 29.543,
+   "fin": 29.802
+  },
+  {
+   "w": "menos",
+   "ini": 29.813,
+   "fin": 30.136
+  },
+  {
+   "w": "de",
+   "ini": 30.147,
+   "fin": 30.222
+  },
+  {
+   "w": "un",
+   "ini": 30.233,
+   "fin": 30.362
+  },
+  {
+   "w": "grado.",
+   "ini": 30.373,
+   "fin": 30.718
+  },
+  {
+   "w": "Menos",
+   "ini": 30.878,
+   "fin": 31.244
+  },
+  {
+   "w": "de",
+   "ini": 31.255,
+   "fin": 31.331
+  },
+  {
+   "w": "un",
+   "ini": 31.341,
+   "fin": 31.46
+  },
+  {
+   "w": "grado.",
+   "ini": 31.471,
+   "fin": 31.816
+  },
+  {
+   "w": "Y",
+   "ini": 31.966,
+   "fin": 32.084
+  },
+  {
+   "w": "alcanzó",
+   "ini": 32.095,
+   "fin": 32.526
+  },
+  {
+   "w": "para",
+   "ini": 32.537,
+   "fin": 32.709
+  },
+  {
+   "w": "arruinar",
+   "ini": 32.72,
+   "fin": 33.097
+  },
+  {
+   "w": "las",
+   "ini": 33.108,
+   "fin": 33.248
+  },
+  {
+   "w": "cosechas",
+   "ini": 33.259,
+   "fin": 33.711
+  },
+  {
+   "w": "de",
+   "ini": 33.722,
+   "fin": 33.787
+  },
+  {
+   "w": "medio",
+   "ini": 33.797,
+   "fin": 34.056
+  },
+  {
+   "w": "mundo.",
+   "ini": 34.067,
+   "fin": 34.422
+  },
+  {
+   "w": "Diecisiete",
+   "ini": 35.002,
+   "fin": 35.573
+  },
+  {
+   "w": "días.",
+   "ini": 35.584,
+   "fin": 36.004
+  },
+  {
+   "w": "Y",
+   "ini": 36.164,
+   "fin": 36.315
+  },
+  {
+   "w": "el",
+   "ini": 36.326,
+   "fin": 36.433
+  },
+  {
+   "w": "hambre",
+   "ini": 36.444,
+   "fin": 36.67
+  },
+  {
+   "w": "trajo",
+   "ini": 36.681,
+   "fin": 36.983
+  },
+  {
+   "w": "algo",
+   "ini": 36.994,
+   "fin": 37.198
+  },
+  {
+   "w": "peor:",
+   "ini": 37.209,
+   "fin": 37.479
+  },
+  {
+   "w": "una",
+   "ini": 37.629,
+   "fin": 37.726
+  },
+  {
+   "w": "epidemia",
+   "ini": 37.736,
+   "fin": 38.114
+  },
+  {
+   "w": "de",
+   "ini": 38.124,
+   "fin": 38.221
+  },
+  {
+   "w": "tifus",
+   "ini": 38.232,
+   "fin": 38.566
+  },
+  {
+   "w": "que",
+   "ini": 38.577,
+   "fin": 38.685
+  },
+  {
+   "w": "mató",
+   "ini": 38.696,
+   "fin": 38.954
+  },
+  {
+   "w": "a",
+   "ini": 38.965,
+   "fin": 38.997
+  },
+  {
+   "w": "más",
+   "ini": 39.008,
+   "fin": 39.234
+  },
+  {
+   "w": "de",
+   "ini": 39.245,
+   "fin": 39.31
+  },
+  {
+   "w": "sesenta",
+   "ini": 39.321,
+   "fin": 39.687
+  },
+  {
+   "w": "y",
+   "ini": 39.698,
+   "fin": 39.741
+  },
+  {
+   "w": "cinco",
+   "ini": 39.752,
+   "fin": 40.032
+  },
+  {
+   "w": "mil",
+   "ini": 40.042,
+   "fin": 40.226
+  },
+  {
+   "w": "personas",
+   "ini": 40.236,
+   "fin": 40.711
+  },
+  {
+   "w": "entre",
+   "ini": 40.721,
+   "fin": 40.948
+  },
+  {
+   "w": "Irlanda,",
+   "ini": 40.958,
+   "fin": 41.389
+  },
+  {
+   "w": "Italia,",
+   "ini": 41.539,
+   "fin": 41.992
+  },
+  {
+   "w": "Suiza",
+   "ini": 42.142,
+   "fin": 42.498
+  },
+  {
+   "w": "y",
+   "ini": 42.508,
+   "fin": 42.595
+  },
+  {
+   "w": "Escocia.",
+   "ini": 42.605,
+   "fin": 43.09
+  },
+  {
+   "w": "Menos",
+   "ini": 43.525,
+   "fin": 43.932
+  },
+  {
+   "w": "de",
+   "ini": 43.944,
+   "fin": 44.027
+  },
+  {
+   "w": "un",
+   "ini": 44.039,
+   "fin": 44.171
+  },
+  {
+   "w": "grado,",
+   "ini": 44.183,
+   "fin": 44.554
+  },
+  {
+   "w": "bro.",
+   "ini": 44.704,
+   "fin": 44.979
+  },
+  {
+   "w": "Menos",
+   "ini": 45.129,
+   "fin": 45.524
+  },
+  {
+   "w": "de",
+   "ini": 45.536,
+   "fin": 45.619
+  },
+  {
+   "w": "uno.",
+   "ini": 45.631,
+   "fin": 45.978
+  },
+  {
+   "w": "Y",
+   "ini": 46.151,
+   "fin": 46.259
+  },
+  {
+   "w": "suena",
+   "ini": 46.27,
+   "fin": 46.539
+  },
+  {
+   "w": "el",
+   "ini": 46.55,
+   "fin": 46.604
+  },
+  {
+   "w": "despertador.",
+   "ini": 46.614,
+   "fin": 47.272
+  },
+  {
+   "w": "La",
+   "ini": 47.432,
+   "fin": 47.583
+  },
+  {
+   "w": "última",
+   "ini": 47.594,
+   "fin": 47.96
+  },
+  {
+   "w": "época…",
+   "ini": 47.971,
+   "fin": 48.37
+  },
+  {
+   "w": "empieza",
+   "ini": 48.52,
+   "fin": 48.951
+  },
+  {
+   "w": "con",
+   "ini": 48.961,
+   "fin": 49.101
+  },
+  {
+   "w": "sed.",
+   "ini": 49.112,
+   "fin": 49.392
+  }
+ ],
+ "recap": {
+  "vidas": 2,
+  "previas": [
+   {
+    "epoca": "HIELO",
+    "nota": "F"
+   },
+   {
+    "epoca": "EGIPTO",
+    "nota": "A"
+   },
+   {
+    "epoca": "POMPEYA",
+    "nota": "D"
+   },
+   {
+    "epoca": "ROMA",
+    "nota": "C"
+   },
+   {
+    "epoca": "1348",
+    "nota": "F"
+   },
+   {
+    "epoca": "TENOCHTITLAN",
+    "nota": "B"
+   }
+  ],
+  "titulo": "ÉPOCA 7 DE 8 · 1816",
+  "jefe": "JEFE: UN VERANO QUE NO LLEGA"
+ },
+ "estilo": "1816",
+ "fin_voz": 49.532
+}

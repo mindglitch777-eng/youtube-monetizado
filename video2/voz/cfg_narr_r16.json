@@ -1,0 +1,801 @@
+{
+ "voz": "es-MX-JorgeNeural",
+ "rate": "+16%",
+ "lineas": [
+  {
+   "n": "H_01",
+   "texto": "Lunes. Siete de la mañana. Suena tu despertador.",
+   "texto_tts": "Lunes. Siete de la mañana. Suena tu despertador."
+  },
+  {
+   "n": "H_02",
+   "texto": "Y esta vez… no lo apagas.",
+   "texto_tts": "Y esta vez… no lo apagas."
+  },
+  {
+   "n": "H_04",
+   "texto": "Abres los ojos. Estás descalzo, en pijama, sobre hielo. Hace dieciocho mil años.",
+   "texto_tts": "Abres los ojos. Estás descalzo, en pijama, sobre hielo. Hace dieciocho mil años."
+  },
+  {
+   "n": "H_05",
+   "texto": "En tu muñeca hay un reloj que no es tuyo. Cuenta cuánto duras vivo.",
+   "texto_tts": "En tu muñeca hay un reloj que no es tuyo. Cuenta cuánto duras vivo."
+  },
+  {
+   "n": "H_07",
+   "texto": "Cada vez que mueras, suena la alarma… y caes en otra época.",
+   "texto_tts": "Cada vez que mueras, suena la alarma… y caes en otra época."
+  },
+  {
+   "n": "H_08",
+   "texto": "Ocho épocas. Ocho muertes. Un mamut, un volcán, un león con barbijo, una pulga.",
+   "texto_tts": "Ocho épocas. Ocho muertes. Un mamut, un volcán, un león con barbijo, una pulga."
+  },
+  {
+   "n": "H_09",
+   "texto": "Y una tabla final que vas a querer mandarle a alguien.",
+   "texto_tts": "Y una tabla final que vas a querer mandarle a alguien."
+  },
+  {
+   "n": "H_10",
+   "texto": "Antes de empezar, haz tu apuesta: ¿en cuál de las ocho durarías más?",
+   "texto_tts": "Antes de empezar, haz tu apuesta: ¿en cuál de las ocho durarías más?"
+  },
+  {
+   "n": "H_11",
+   "texto": "Guárdala. Al final te digo si ganaste.",
+   "texto_tts": "Guárdala. Al final te digo si ganaste."
+  },
+  {
+   "n": "H_12",
+   "texto": "Una pista: lo que más mata en este juego… no es lo que más asusta.",
+   "texto_tts": "Una pista: lo que más mata en este juego… no es lo que más asusta."
+  },
+  {
+   "n": "E1_01",
+   "texto": "En la Edad de Hielo no te morías de golpe.",
+   "texto_tts": "En la Edad de Hielo no te morías de golpe."
+  },
+  {
+   "n": "E1_02",
+   "texto": "Te ibas apagando.",
+   "texto_tts": "Te ibas apagando."
+  },
+  {
+   "n": "E1_03",
+   "texto": "Pijama se durmió en su cama. Despertó acá. Y tiene un reloj que cuenta cuánto dura vivo.",
+   "texto_tts": "Pijama se durmió en su cama. Despertó acá. Y tiene un reloj que cuenta cuánto dura vivo."
+  },
+  {
+   "n": "E1_04",
+   "texto": "Primer problema: tus pies. Descalzos, sobre nieve dura. Y ya no los sientes.",
+   "texto_tts": "Primer problema: tus pies. Descalzos, sobre nieve dura. Y ya no los sientes."
+  },
+  {
+   "n": "E1_05",
+   "texto": "Aquí casi no hay árboles. O sea: casi no hay leña.",
+   "texto_tts": "Aquí casi no hay árboles. O sea: casi no hay leña."
+  },
+  {
+   "n": "E1_06",
+   "texto": "Tu café ahora es un cubito de café.",
+   "texto_tts": "Tu café ahora es un cubito de café."
+  },
+  {
+   "n": "E1_07",
+   "texto": "Un cazador pasa a tu lado y mira tu pijama de estrellas.",
+   "texto_tts": "Un cazador pasa a tu lado y mira tu pijama de estrellas."
+  },
+  {
+   "n": "E1_08",
+   "texto": "Él vive en una casa circular hecha de huesos de mamut. Como un Lego, pero de mamut.",
+   "texto_tts": "Él vive en una casa circular hecha de huesos de mamut. Como un Lego, pero de mamut."
+  },
+  {
+   "n": "E1_09",
+   "texto": "Pijama lo intenta todo.",
+   "texto_tts": "Pijama lo intenta todo."
+  },
+  {
+   "n": "E1_10",
+   "texto": "Intento uno: esconderse dentro del pijama. Es de algodón. El algodón no abriga nada.",
+   "texto_tts": "Intento uno: esconderse dentro del pijama. Es de algodón. El algodón no abriga nada."
+  },
+  {
+   "n": "E1_11",
+   "texto": "Intento tres: abrazar a un mamut. El mamut no está de acuerdo.",
+   "texto_tts": "Intento tres: abrazar a un mamut. El mamut no está de acuerdo."
+  },
+  {
+   "n": "E1_13",
+   "texto": "Dos horas, catorce minutos.",
+   "texto_tts": "Dos horas, catorce minutos."
+  },
+  {
+   "n": "E1_15",
+   "texto": "Y suena el despertador.",
+   "texto_tts": "Y suena el despertador."
+  },
+  {
+   "n": "E1_16",
+   "texto": "Pero lo que viene te paga el sueldo… con retraso.",
+   "texto_tts": "Pero lo que viene te paga el sueldo… con retraso."
+  },
+  {
+   "n": "E2_01",
+   "texto": "Hace 3.200 años, en Egipto, pasó la primera huelga de la historia.",
+   "texto_tts": "Hace 3.200 años, en Egipto, pasó la primera huelga de la historia."
+  },
+  {
+   "n": "E2_02",
+   "texto": "Y tú estabas ahí.",
+   "texto_tts": "Y tú estabas ahí."
+  },
+  {
+   "n": "E2_03",
+   "texto": "Pijama murió congelado. Pero el reloj lo manda a la siguiente época.",
+   "texto_tts": "Pijama murió congelado. Pero el reloj lo manda a la siguiente época."
+  },
+  {
+   "n": "E2_04",
+   "texto": "Calor. Arena. Y alguien te grita: «¡Tú! ¡A trabajar!»",
+   "texto_tts": "Calor. Arena. Y alguien te grita: ¡Tú! ¡A trabajar!"
+  },
+  {
+   "n": "E2_05",
+   "texto": "Te ponen un cincel en la mano. Eres obrero en las tumbas de los faraones.",
+   "texto_tts": "Te ponen un cincel en la mano. Eres obrero en las tumbas de los faraones."
+  },
+  {
+   "n": "E2_06",
+   "texto": "Pero tranquilo: no eres un esclavo. Los obreros de Deir el-Medina eran artesanos. Y cobraban en raciones de comida.",
+   "texto_tts": "Pero tranquilo: no eres un esclavo. Los obreros de Deir el-Medina eran artesanos. Y cobraban en raciones de comida."
+  },
+  {
+   "n": "E2_08",
+   "texto": "Hasta que un día… la comida se atrasa.",
+   "texto_tts": "Hasta que un día… la comida se atrasa."
+  },
+  {
+   "n": "E2_09",
+   "texto": "Y los obreros hacen algo que nadie había hecho: dejan las herramientas. Y se sientan.",
+   "texto_tts": "Y los obreros hacen algo que nadie había hecho: dejan las herramientas. Y se sientan."
+  },
+  {
+   "n": "E2_10",
+   "texto": "Se une. Se hace un cartel: «Exigimos pan. Y que alguien me explique qué es un faraón.»",
+   "texto_tts": "Se une. Se hace un cartel: Exigimos pan. Y que alguien me explique qué es un faraón."
+  },
+  {
+   "n": "E2_11",
+   "texto": "El reloj corre. Y corre. Y corre.",
+   "texto_tts": "El reloj corre. Y corre. Y corre."
+  },
+  {
+   "n": "E2_12",
+   "texto": "Cuarenta y un años.",
+   "texto_tts": "Cuarenta y un años."
+  },
+  {
+   "n": "E2_14",
+   "texto": "Y suena el despertador. Por vejez. Por primera vez.",
+   "texto_tts": "Y suena el despertador. Por vejez. Por primera vez."
+  },
+  {
+   "n": "E2_15",
+   "texto": "Pero la próxima época avisa… y nadie le hace caso.",
+   "texto_tts": "Pero la próxima época avisa… y nadie le hace caso."
+  },
+  {
+   "n": "E3_01",
+   "texto": "Pompeya. Año 79. Hace cuatro días que tiembla el piso.",
+   "texto_tts": "Pompeya. Año 79. Hace cuatro días que tiembla el piso."
+  },
+  {
+   "n": "E3_02",
+   "texto": "Pijama ya murió de frío y de vejez. Ahora le toca el volcán.",
+   "texto_tts": "Pijama ya murió de frío y de vejez. Ahora le toca el volcán."
+  },
+  {
+   "n": "E3_03",
+   "texto": "Y entonces, el Vesubio explota.",
+   "texto_tts": "Y entonces, el Vesubio explota."
+  },
+  {
+   "n": "E3_04",
+   "texto": "Una columna de humo y piedra sube entre quince y treinta kilómetros.",
+   "texto_tts": "Una columna de humo y piedra sube entre quince y treinta kilómetros."
+  },
+  {
+   "n": "E3_05",
+   "texto": "El Everest mide menos de nueve. Eso son entre casi dos y más de tres Everest apilados.",
+   "texto_tts": "El Everest mide menos de nueve. Eso son entre casi dos y más de tres Everest apilados."
+  },
+  {
+   "n": "E3_07",
+   "texto": "Plinio el Joven lo vio y lo contó: la gente se ataba almohadas a la cabeza para protegerse de las piedras.",
+   "texto_tts": "Plinio el Joven lo vio y lo contó: la gente se ataba almohadas a la cabeza para protegerse de las piedras."
+  },
+  {
+   "n": "E3_08",
+   "texto": "Pijama justo venía de la cama. Ventaja.",
+   "texto_tts": "Pijama justo venía de la cama. Ventaja."
+  },
+  {
+   "n": "E3_09",
+   "texto": "Los expertos dicen que esas horas de piedra eran la última oportunidad para escapar.",
+   "texto_tts": "Los expertos dicen que esas horas de piedra eran la última oportunidad para escapar."
+  },
+  {
+   "n": "E3_10",
+   "texto": "Pijama no escapa. Pijama… se queda mirando.",
+   "texto_tts": "Pijama no escapa. Pijama… se queda mirando."
+  },
+  {
+   "n": "E3_11",
+   "texto": "«Qué espectáculo», dice.",
+   "texto_tts": "Qué espectáculo, dice."
+  },
+  {
+   "n": "E3_12",
+   "texto": "Esa madrugada, una nube de gas y ceniza baja del volcán a unos doscientos grados. Más o menos, un horno.",
+   "texto_tts": "Esa madrugada, una nube de gas y ceniza baja del volcán a unos doscientos grados. Más o menos, un horno."
+  },
+  {
+   "n": "E3_13",
+   "texto": "Dato para guardar: entre mil quinientas y tres mil quinientas personas murieron en toda la zona, según las estimaciones.",
+   "texto_tts": "Dato para guardar: entre mil quinientas y tres mil quinientas personas murieron en toda la zona, según las estimaciones."
+  },
+  {
+   "n": "E3_14",
+   "texto": "Guarda ese número. Después lo comparamos.",
+   "texto_tts": "Guarda ese número. Después lo comparamos."
+  },
+  {
+   "n": "E3_15",
+   "texto": "Diecinueve horas.",
+   "texto_tts": "Diecinueve horas."
+  },
+  {
+   "n": "E3_17",
+   "texto": "Y suena el despertador.",
+   "texto_tts": "Y suena el despertador."
+  },
+  {
+   "n": "E3_18",
+   "texto": "Pero lo que viene tiene público… y gradas.",
+   "texto_tts": "Pero lo que viene tiene público… y gradas."
+  },
+  {
+   "n": "E4_01",
+   "texto": "«¡Y entra a la arena… el hombre del pijama!»",
+   "texto_tts": "¡Y entra a la arena… el hombre del pijama!"
+  },
+  {
+   "n": "E4_02",
+   "texto": "Despiertas con un ruido enorme.",
+   "texto_tts": "Despiertas con un ruido enorme."
+  },
+  {
+   "n": "E4_03",
+   "texto": "Tercera muerte, cuarta época. Y esta vez lo mira todo el mundo.",
+   "texto_tts": "Tercera muerte, cuarta época. Y esta vez lo mira todo el mundo."
+  },
+  {
+   "n": "E4_04",
+   "texto": "Estás en Roma. Año cien, más o menos. Cerca de un millón de habitantes.",
+   "texto_tts": "Estás en Roma. Año cien, más o menos. Cerca de un millón de habitantes."
+  },
+  {
+   "n": "E4_05",
+   "texto": "«Miren cómo camina, damas y caballeros. Descalzo. Con estrellas. Esto no lo vimos nunca.»",
+   "texto_tts": "Miren cómo camina, damas y caballeros. Descalzo. Con estrellas. Esto no lo vimos nunca."
+  },
+  {
+   "n": "E4_06",
+   "texto": "Se abre una puerta. Sale… un león.",
+   "texto_tts": "Se abre una puerta. Sale… un león."
+  },
+  {
+   "n": "E4_07",
+   "texto": "Sí, el mismo del video anterior. Con su barbijo.",
+   "texto_tts": "Sí, el mismo del video anterior. Con su barbijo."
+  },
+  {
+   "n": "E4_08",
+   "texto": "Te mira. Tose. Y se va.",
+   "texto_tts": "Te mira. Tose. Y se va."
+  },
+  {
+   "n": "E4_09",
+   "texto": "Ahora, un dato:",
+   "texto_tts": "Ahora, un dato:"
+  },
+  {
+   "n": "E4_10",
+   "texto": "Dicen que en Roma la gente vivía veinticinco años.",
+   "texto_tts": "Dicen que en Roma la gente vivía veinticinco años."
+  },
+  {
+   "n": "E4_11",
+   "texto": "Mentira.",
+   "texto_tts": "Mentira."
+  },
+  {
+   "n": "E4_12",
+   "texto": "Lo que pasa es que casi la mitad moría antes de los diez.",
+   "texto_tts": "Lo que pasa es que casi la mitad moría antes de los diez."
+  },
+  {
+   "n": "E4_13",
+   "texto": "Si pasabas la infancia, llegabas a unos cincuenta.",
+   "texto_tts": "Si pasabas la infancia, llegabas a unos cincuenta."
+  },
+  {
+   "n": "E4_14",
+   "texto": "O sea: tenías buenas chances.",
+   "texto_tts": "O sea: tenías buenas chances."
+  },
+  {
+   "n": "E4_15",
+   "texto": "Pero te metiste en una arena.",
+   "texto_tts": "Pero te metiste en una arena."
+  },
+  {
+   "n": "E4_16",
+   "texto": "Seis minutos, siete segundos.",
+   "texto_tts": "Seis minutos, siete segundos."
+  },
+  {
+   "n": "E4_17",
+   "texto": "Y suena el despertador.",
+   "texto_tts": "Y suena el despertador."
+  },
+  {
+   "n": "E4_18",
+   "texto": "Mitad del juego. Mira cómo vas.",
+   "texto_tts": "Mitad del juego. Mira cómo vas."
+  },
+  {
+   "n": "M_01",
+   "texto": "Cuatro épocas. Cuatro muertes.",
+   "texto_tts": "Cuatro épocas. Cuatro muertes."
+  },
+  {
+   "n": "M_02",
+   "texto": "Hielo, F. Egipto, A. Pompeya, D. Roma, C.",
+   "texto_tts": "Hielo, F. Egipto, A. Pompeya, D. Roma, C."
+  },
+  {
+   "n": "M_04",
+   "texto": "Lo que viene mató a muchísima más gente que el volcán.",
+   "texto_tts": "Lo que viene mató a muchísima más gente que el volcán."
+  },
+  {
+   "n": "M_05",
+   "texto": "Y no hizo ni un solo ruido.",
+   "texto_tts": "Y no hizo ni un solo ruido."
+  },
+  {
+   "n": "E5_01",
+   "texto": "Un pueblo en silencio. Demasiado silencio.",
+   "texto_tts": "Un pueblo en silencio. Demasiado silencio."
+  },
+  {
+   "n": "E5_02",
+   "texto": "Una carreta pasa. Está llena de cuerpos.",
+   "texto_tts": "Una carreta pasa. Está llena de cuerpos."
+  },
+  {
+   "n": "E5_03",
+   "texto": "Cuatro muertes ya. Esta no se ve venir.",
+   "texto_tts": "Cuatro muertes ya. Esta no se ve venir."
+  },
+  {
+   "n": "E5_04",
+   "texto": "En una ventana, alguien tose.",
+   "texto_tts": "En una ventana, alguien tose."
+  },
+  {
+   "n": "E5_05",
+   "texto": "Estamos en 1348. La peste negra.",
+   "texto_tts": "Estamos en 1348. La peste negra."
+  },
+  {
+   "n": "E5_06",
+   "texto": "Pero la cifra va desde uno de cada tres europeos… hasta dos de cada tres.",
+   "texto_tts": "Pero la cifra va desde uno de cada tres europeos… hasta dos de cada tres."
+  },
+  {
+   "n": "E5_07",
+   "texto": "Mira a las dos personas que tengas más cerca. Con la cifra más baja, una de las tres no lo cuenta.",
+   "texto_tts": "Mira a las dos personas que tengas más cerca. Con la cifra más baja, una de las tres no lo cuenta."
+  },
+  {
+   "n": "E5_08",
+   "texto": "Y lo peor: nadie sabía por qué. Nadie sabía qué era un germen.",
+   "texto_tts": "Y lo peor: nadie sabía por qué. Nadie sabía qué era un germen."
+  },
+  {
+   "n": "E5_09",
+   "texto": "Así que hacían lo que podían: encerrarse. Rezar. Huir.",
+   "texto_tts": "Así que hacían lo que podían: encerrarse. Rezar. Huir."
+  },
+  {
+   "n": "E5_10",
+   "texto": "Y una pulga lo pica. Una sola. Del tamaño de una semilla de sésamo.",
+   "texto_tts": "Y una pulga lo pica. Una sola. Del tamaño de una semilla de sésamo."
+  },
+  {
+   "n": "E5_11",
+   "texto": "Día uno. Todo bien.",
+   "texto_tts": "Día uno. Todo bien."
+  },
+  {
+   "n": "E5_12",
+   "texto": "Día tres. Aparece un bulto. Después otro.",
+   "texto_tts": "Día tres. Aparece un bulto. Después otro."
+  },
+  {
+   "n": "E5_13",
+   "texto": "Día cuatro. Ya no te acuerdas de tu café.",
+   "texto_tts": "Día cuatro. Ya no te acuerdas de tu café."
+  },
+  {
+   "n": "E5_15",
+   "texto": "Día once.",
+   "texto_tts": "Día once."
+  },
+  {
+   "n": "E5_16",
+   "texto": "Y suena el despertador.",
+   "texto_tts": "Y suena el despertador."
+  },
+  {
+   "n": "E5_17",
+   "texto": "Pero lo que viene… es el mejor día de todo tu viaje.",
+   "texto_tts": "Pero lo que viene… es el mejor día de todo tu viaje."
+  },
+  {
+   "n": "E6_01",
+   "texto": "Te despiertas flotando.",
+   "texto_tts": "Te despiertas flotando."
+  },
+  {
+   "n": "E6_02",
+   "texto": "Estás en una canoa.",
+   "texto_tts": "Estás en una canoa."
+  },
+  {
+   "n": "E6_03",
+   "texto": "Y alrededor, una ciudad construida sobre un lago.",
+   "texto_tts": "Y alrededor, una ciudad construida sobre un lago."
+  },
+  {
+   "n": "E6_04",
+   "texto": "Cinco muertes. Y esta época empieza bien. Demasiado bien.",
+   "texto_tts": "Cinco muertes. Y esta época empieza bien. Demasiado bien."
+  },
+  {
+   "n": "E6_05",
+   "texto": "Es Tenochtitlan. 1519.",
+   "texto_tts": "Es Tenochtitlan. 1519."
+  },
+  {
+   "n": "E6_06",
+   "texto": "Entre doscientos mil y trescientos mil habitantes.",
+   "texto_tts": "Entre doscientos mil y trescientos mil habitantes."
+  },
+  {
+   "n": "E6_07",
+   "texto": "Es llenar entre dos y tres veces el Estadio Azteca… y que todos vivan ahí.",
+   "texto_tts": "Es llenar entre dos y tres veces el Estadio Azteca… y que todos vivan ahí."
+  },
+  {
+   "n": "E6_08",
+   "texto": "Y esto es importante: este es el mejor momento de todo tu viaje.",
+   "texto_tts": "Y esto es importante: este es el mejor momento de todo tu viaje."
+  },
+  {
+   "n": "E6_10",
+   "texto": "Por primera vez, nadie te quiere matar.",
+   "texto_tts": "Por primera vez, nadie te quiere matar."
+  },
+  {
+   "n": "E6_11",
+   "texto": "Pasan los meses.",
+   "texto_tts": "Pasan los meses."
+  },
+  {
+   "n": "E6_12",
+   "texto": "Y entonces llega 1520.",
+   "texto_tts": "Y entonces llega 1520."
+  },
+  {
+   "n": "E6_13",
+   "texto": "Con una expedición española llega la viruela.",
+   "texto_tts": "Con una expedición española llega la viruela."
+  },
+  {
+   "n": "E6_14",
+   "texto": "Nadie tenía defensas contra ella.",
+   "texto_tts": "Nadie tenía defensas contra ella."
+  },
+  {
+   "n": "E6_15",
+   "texto": "En algunas regiones murió más de la mitad de la gente en pocos meses.",
+   "texto_tts": "En algunas regiones murió más de la mitad de la gente en pocos meses."
+  },
+  {
+   "n": "E6_16",
+   "texto": "Los colores se apagan.",
+   "texto_tts": "Los colores se apagan."
+  },
+  {
+   "n": "E6_17",
+   "texto": "Y a Pijama le llega su turno.",
+   "texto_tts": "Y a Pijama le llega su turno."
+  },
+  {
+   "n": "E6_18",
+   "texto": "Nueve meses.",
+   "texto_tts": "Nueve meses."
+  },
+  {
+   "n": "E6_20",
+   "texto": "Y suena el despertador. Más lento.",
+   "texto_tts": "Y suena el despertador. Más lento."
+  },
+  {
+   "n": "E6_21",
+   "texto": "Pero lo que viene… es el año en que el mundo se quedó sin verano.",
+   "texto_tts": "Pero lo que viene… es el año en que el mundo se quedó sin verano."
+  },
+  {
+   "n": "E7_01",
+   "texto": "Piensa en un volcán que explota… al otro lado del planeta.",
+   "texto_tts": "Piensa en un volcán que explota… al otro lado del planeta."
+  },
+  {
+   "n": "E7_02",
+   "texto": "Abril de 1815. Tambora, en Indonesia. La erupción más grande de la historia registrada.",
+   "texto_tts": "Abril de 1815. Tambora, en Indonesia. La erupción más grande de la historia registrada."
+  },
+  {
+   "n": "E7_03",
+   "texto": "Seis muertes. Esta vez el enemigo no es una persona ni un animal.",
+   "texto_tts": "Seis muertes. Esta vez el enemigo no es una persona ni un animal."
+  },
+  {
+   "n": "E7_04",
+   "texto": "Se escuchó a más de dos mil seiscientos kilómetros. Algo así como de Ciudad de México a Panamá.",
+   "texto_tts": "Se escuchó a más de dos mil seiscientos kilómetros. Algo así como de Ciudad de México a Panamá."
+  },
+  {
+   "n": "E7_05",
+   "texto": "Un año después, 1816, estás en Suiza. En julio. En pijama. Y está nevando.",
+   "texto_tts": "Un año después, 1816, estás en Suiza. En julio. En pijama. Y está nevando."
+  },
+  {
+   "n": "E7_07",
+   "texto": "¿Qué pasó? El polvo del volcán tapó el sol.",
+   "texto_tts": "¿Qué pasó? El polvo del volcán tapó el sol."
+  },
+  {
+   "n": "E7_08",
+   "texto": "La temperatura del planeta bajó menos de un grado.",
+   "texto_tts": "La temperatura del planeta bajó menos de un grado."
+  },
+  {
+   "n": "E7_09",
+   "texto": "Menos de un grado. Y alcanzó para arruinar las cosechas de medio mundo.",
+   "texto_tts": "Menos de un grado. Y alcanzó para arruinar las cosechas de medio mundo."
+  },
+  {
+   "n": "E7_10",
+   "texto": "El precio de la avena pasó de doce a noventa y dos centavos. Es como si tu pan subiera de un dólar a ocho.",
+   "texto_tts": "El precio de la avena pasó de doce a noventa y dos centavos. Es como si tu pan subiera de un dólar a ocho."
+  },
+  {
+   "n": "E7_11",
+   "texto": "Y como llovía sin parar, cuatro amigos se encerraron junto a un lago a escribir historias de terror. De ahí salió Frankenstein.",
+   "texto_tts": "Y como llovía sin parar, cuatro amigos se encerraron junto a un lago a escribir historias de terror. De ahí salió Frankenstein."
+  },
+  {
+   "n": "E7_12",
+   "texto": "Diecisiete días.",
+   "texto_tts": "Diecisiete días."
+  },
+  {
+   "n": "E7_13",
+   "texto": "Y el hambre trajo algo peor: una epidemia de tifus que mató a más de sesenta y cinco mil personas entre Irlanda, Italia, Suiza y Escocia.",
+   "texto_tts": "Y el hambre trajo algo peor: una epidemia de tifus que mató a más de sesenta y cinco mil personas entre Irlanda, Italia, Suiza y Escocia."
+  },
+  {
+   "n": "E7_15",
+   "texto": "Y suena el despertador.",
+   "texto_tts": "Y suena el despertador."
+  },
+  {
+   "n": "E7_16",
+   "texto": "La última época… empieza con sed.",
+   "texto_tts": "La última época… empieza con sed."
+  },
+  {
+   "n": "E8_01",
+   "texto": "Tienes sed. Mucha sed.",
+   "texto_tts": "Tienes sed. Mucha sed."
+  },
+  {
+   "n": "E8_02",
+   "texto": "Si viste el primer video, ya sabes lo que significa.",
+   "texto_tts": "Si viste el primer video, ya sabes lo que significa."
+  },
+  {
+   "n": "E8_03",
+   "texto": "Siete muertes. Queda una. Y empieza con algo muy simple.",
+   "texto_tts": "Siete muertes. Queda una. Y empieza con algo muy simple."
+  },
+  {
+   "n": "E8_04",
+   "texto": "Estás en Soho, Londres. 1854.",
+   "texto_tts": "Estás en Soho, Londres. 1854."
+  },
+  {
+   "n": "E8_05",
+   "texto": "Y en la calle hay una bomba de agua. Con fila de gente.",
+   "texto_tts": "Y en la calle hay una bomba de agua. Con fila de gente."
+  },
+  {
+   "n": "E8_06",
+   "texto": "Te acercas. Bebes.",
+   "texto_tts": "Te acercas. Bebes."
+  },
+  {
+   "n": "E8_07",
+   "texto": "Agua fresca. Rica. Limpia.",
+   "texto_tts": "Agua fresca. Rica. Limpia."
+  },
+  {
+   "n": "E8_08",
+   "texto": "O eso parece.",
+   "texto_tts": "O eso parece."
+  },
+  {
+   "n": "E8_09",
+   "texto": "Porque ese pozo está a menos de un metro de un pozo negro con fugas. A un paso largo.",
+   "texto_tts": "Porque ese pozo está a menos de un metro de un pozo negro con fugas. A un paso largo."
+  },
+  {
+   "n": "E8_11",
+   "texto": "En tres días mueren ciento veintisiete personas. Justo ahí.",
+   "texto_tts": "En tres días mueren ciento veintisiete personas. Justo ahí."
+  },
+  {
+   "n": "E8_12",
+   "texto": "En diez días, más de trescientas.",
+   "texto_tts": "En diez días, más de trescientas."
+  },
+  {
+   "n": "E8_13",
+   "texto": "Un médico, John Snow, marca cada muerte en un mapa.",
+   "texto_tts": "Un médico, John Snow, marca cada muerte en un mapa."
+  },
+  {
+   "n": "E8_14",
+   "texto": "Y descubre algo: todas están alrededor de la misma bomba.",
+   "texto_tts": "Y descubre algo: todas están alrededor de la misma bomba."
+  },
+  {
+   "n": "E8_15",
+   "texto": "El 8 de septiembre sacan la manija de la bomba.",
+   "texto_tts": "El 8 de septiembre sacan la manija de la bomba."
+  },
+  {
+   "n": "E8_16",
+   "texto": "Pero Pijama ya había bebido.",
+   "texto_tts": "Pero Pijama ya había bebido."
+  },
+  {
+   "n": "E8_17",
+   "texto": "Tres días.",
+   "texto_tts": "Tres días."
+  },
+  {
+   "n": "E8_19",
+   "texto": "Y suena el despertador.",
+   "texto_tts": "Y suena el despertador."
+  },
+  {
+   "n": "E8_20",
+   "texto": "Pero esta vez… algo suena diferente.",
+   "texto_tts": "Pero esta vez… algo suena diferente."
+  },
+  {
+   "n": "C_01",
+   "texto": "El despertador suena por última vez.",
+   "texto_tts": "El despertador suena por última vez."
+  },
+  {
+   "n": "C_02",
+   "texto": "Tu cama. Tu cuarto. Tu pijama de estrellas.",
+   "texto_tts": "Tu cama. Tu cuarto. Tu pijama de estrellas."
+  },
+  {
+   "n": "C_03",
+   "texto": "La época en la que más duraste: Egipto. Haciendo huelga.",
+   "texto_tts": "La época en la que más duraste: Egipto. Haciendo huelga."
+  },
+  {
+   "n": "C_04",
+   "texto": "Ahora, tu apuesta.",
+   "texto_tts": "Ahora, tu apuesta."
+  },
+  {
+   "n": "C_05",
+   "texto": "Si elegiste Roma: eres optimista. La arena no perdona pijamas.",
+   "texto_tts": "Si elegiste Roma: eres optimista. La arena no perdona pijamas."
+  },
+  {
+   "n": "C_06",
+   "texto": "Si elegiste el hielo: eres valiente. Y estás descalzo.",
+   "texto_tts": "Si elegiste el hielo: eres valiente. Y estás descalzo."
+  },
+  {
+   "n": "C_07",
+   "texto": "Si elegiste 1348, 1816 o Londres: eres un caso especial. Cuéntame por qué.",
+   "texto_tts": "Si elegiste 1348, 1816 o Londres: eres un caso especial. Cuéntame por qué."
+  },
+  {
+   "n": "C_08",
+   "texto": "Ahora lo importante. ¿Qué te mató en cada una?",
+   "texto_tts": "Ahora lo importante. ¿Qué te mató en cada una?"
+  },
+  {
+   "n": "C_09",
+   "texto": "El volcán que borró una ciudad: unos miles de personas.",
+   "texto_tts": "El volcán que borró una ciudad: unos miles de personas."
+  },
+  {
+   "n": "C_10",
+   "texto": "La pulga: decenas de millones.",
+   "texto_tts": "La pulga: decenas de millones."
+  },
+  {
+   "n": "C_11",
+   "texto": "Lo que más asusta mata poco.",
+   "texto_tts": "Lo que más asusta mata poco."
+  },
+  {
+   "n": "C_12",
+   "texto": "Lo que no ves mata a millones.",
+   "texto_tts": "Lo que no ves mata a millones."
+  },
+  {
+   "n": "C_13",
+   "texto": "Es lo mismo que te mató en el video anterior.",
+   "texto_tts": "Es lo mismo que te mató en el video anterior."
+  },
+  {
+   "n": "C_14",
+   "texto": "La próxima vez que te quejes de que es lunes…",
+   "texto_tts": "La próxima vez que te quejes de que es lunes…"
+  },
+  {
+   "n": "C_15",
+   "texto": "acuérdate de que sigues vivo.",
+   "texto_tts": "acuérdate de que sigues vivo."
+  },
+  {
+   "n": "C_16",
+   "texto": "Si tienes un amigo que dice «yo habría sobrevivido»… mándale este video.",
+   "texto_tts": "Si tienes un amigo que dice yo habría sobrevivido… mándale este video."
+  },
+  {
+   "n": "C_17",
+   "texto": "En el próximo, Pijama va a trabajar. De cazador.",
+   "texto_tts": "En el próximo, Pijama va a trabajar. De cazador."
+  }
+ ]
+}

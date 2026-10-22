@@ -1,0 +1,1107 @@
+{
+ "duracion": 49.426,
+ "n": 6,
+ "planos": [
+  {
+   "ini": 0.0,
+   "tipo": "img",
+   "id": "236",
+   "cam": "BE",
+   "tr": "",
+   "epoca": 6,
+   "vertical": true,
+   "fin": 0.595
+  },
+  {
+   "ini": 0.595,
+   "tipo": "img",
+   "id": "140",
+   "cam": "MS",
+   "tr": "FLASH",
+   "epoca": 6,
+   "vertical": false,
+   "fin": 1.291
+  },
+  {
+   "ini": 1.291,
+   "tipo": "img",
+   "id": "141",
+   "cam": "WS",
+   "tr": "PUNCH",
+   "epoca": 6,
+   "vertical": false,
+   "fin": 3.255
+  },
+  {
+   "ini": 3.255,
+   "fin": 5.22,
+   "tipo": "img",
+   "id": "144",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 6,
+   "vertical": false
+  },
+  {
+   "ini": 5.22,
+   "tipo": "img",
+   "id": "142",
+   "cam": "MS",
+   "tr": "GAME",
+   "epoca": 6,
+   "vertical": false,
+   "fin": 7.007
+  },
+  {
+   "ini": 7.007,
+   "fin": 8.794,
+   "tipo": "img",
+   "id": "145",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 6,
+   "vertical": false
+  },
+  {
+   "ini": 8.794,
+   "tipo": "img",
+   "id": "143",
+   "cam": "BE",
+   "tr": "PUNCH",
+   "epoca": 6,
+   "vertical": false,
+   "fin": 11.281
+  },
+  {
+   "ini": 11.281,
+   "tipo": "img",
+   "id": "144",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 6,
+   "vertical": false,
+   "fin": 12.541
+  },
+  {
+   "ini": 12.541,
+   "fin": 13.801,
+   "tipo": "img",
+   "id": "147",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 6,
+   "vertical": false
+  },
+  {
+   "ini": 13.801,
+   "tipo": "img",
+   "id": "145",
+   "cam": "WS",
+   "tr": "PUNCH",
+   "epoca": 6,
+   "vertical": false,
+   "fin": 15.474
+  },
+  {
+   "ini": 15.474,
+   "fin": 17.148,
+   "tipo": "img",
+   "id": "148",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 6,
+   "vertical": false
+  },
+  {
+   "ini": 17.148,
+   "tipo": "img",
+   "id": "145",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 6,
+   "vertical": false,
+   "fin": 18.821
+  },
+  {
+   "ini": 18.821,
+   "tipo": "img",
+   "id": "146",
+   "cam": "MS",
+   "tr": "PUNCH",
+   "epoca": 6,
+   "vertical": false,
+   "fin": 21.048
+  },
+  {
+   "ini": 21.048,
+   "tipo": "img",
+   "id": "147",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 6,
+   "vertical": false,
+   "fin": 22.834
+  },
+  {
+   "ini": 22.834,
+   "tipo": "img",
+   "id": "148",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 6,
+   "vertical": false,
+   "fin": 25.019
+  },
+  {
+   "ini": 25.019,
+   "tipo": "img",
+   "id": "149",
+   "cam": "WS",
+   "tr": "WHIP",
+   "epoca": 6,
+   "vertical": false,
+   "fin": 26.095
+  },
+  {
+   "ini": 26.095,
+   "tipo": "img",
+   "id": "150",
+   "cam": "WS",
+   "tr": "SMASH",
+   "epoca": 6,
+   "vertical": false,
+   "fin": 28.195
+  },
+  {
+   "ini": 28.195,
+   "tipo": "img",
+   "id": "151",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 6,
+   "vertical": false,
+   "fin": 30.257
+  },
+  {
+   "ini": 30.257,
+   "fin": 32.319,
+   "tipo": "img",
+   "id": "154",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 6,
+   "vertical": false
+  },
+  {
+   "ini": 32.319,
+   "tipo": "img",
+   "id": "152",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 6,
+   "vertical": false,
+   "fin": 34.064
+  },
+  {
+   "ini": 34.064,
+   "fin": 35.809,
+   "tipo": "img",
+   "id": "155",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 6,
+   "vertical": false
+  },
+  {
+   "ini": 35.809,
+   "tipo": "img",
+   "id": "153",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 6,
+   "vertical": false,
+   "fin": 37.014
+  },
+  {
+   "ini": 37.014,
+   "tipo": "img",
+   "id": "154",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 6,
+   "vertical": false,
+   "congelar": 38.64,
+   "fin": 38.94
+  },
+  {
+   "ini": 38.94,
+   "tipo": "negro",
+   "fin": 39.06
+  },
+  {
+   "ini": 39.06,
+   "tipo": "img",
+   "id": "155",
+   "cam": "EC",
+   "tr": "SMASH",
+   "epoca": 6,
+   "vertical": false,
+   "fin": 40.985
+  },
+  {
+   "ini": 40.985,
+   "tipo": "img",
+   "id": "156",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 6,
+   "vertical": false,
+   "fin": 42.812
+  },
+  {
+   "ini": 42.812,
+   "tipo": "img",
+   "id": "157",
+   "cam": "WS",
+   "tr": "SMASH",
+   "epoca": 6,
+   "vertical": false,
+   "fin": 44.9
+  },
+  {
+   "ini": 44.9,
+   "tipo": "img",
+   "id": "158",
+   "cam": "WS",
+   "tr": "MATCH",
+   "epoca": 6,
+   "vertical": false,
+   "fin": 46.413
+  },
+  {
+   "ini": 46.413,
+   "fin": 47.926,
+   "tipo": "img",
+   "id": "141",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 6,
+   "vertical": false
+  },
+  {
+   "ini": 47.926,
+   "tipo": "tarjeta",
+   "n": 6,
+   "fin": 49.426
+  }
+ ],
+ "textos": [
+  {
+   "ini": 5.32,
+   "texto": "MUERTES: 5 · ÉPOCA 6/8",
+   "id": "142",
+   "fin": 7.007
+  },
+  {
+   "ini": 8.894,
+   "texto": "TENOCHTITLAN · 1519",
+   "id": "143",
+   "fin": 11.281
+  },
+  {
+   "ini": 11.381,
+   "texto": "200.000 – 300.000 HABITANTES",
+   "id": "144",
+   "fin": 12.581
+  },
+  {
+   "ini": 13.901,
+   "texto": "2–3 × ESTADIO AZTECA",
+   "id": "145",
+   "fin": 15.101
+  },
+  {
+   "ini": 26.195,
+   "texto": "1520",
+   "id": "150",
+   "fin": 28.195
+  },
+  {
+   "ini": 32.419,
+   "texto": "MÁS DE LA MITAD · EN POCOS MESES",
+   "id": "152",
+   "fin": 34.064
+  },
+  {
+   "ini": 39.16,
+   "texto": "9 MESES",
+   "id": "155",
+   "fin": 40.36
+  }
+ ],
+ "subs": [
+  {
+   "w": "Te",
+   "ini": 0.02,
+   "fin": 0.106
+  },
+  {
+   "w": "despiertas",
+   "ini": 0.117,
+   "fin": 0.634
+  },
+  {
+   "w": "flotando.",
+   "ini": 0.645,
+   "fin": 1.151
+  },
+  {
+   "w": "Estás",
+   "ini": 1.311,
+   "fin": 1.677
+  },
+  {
+   "w": "en",
+   "ini": 1.688,
+   "fin": 1.785
+  },
+  {
+   "w": "una",
+   "ini": 1.796,
+   "fin": 1.958
+  },
+  {
+   "w": "canoa.",
+   "ini": 1.968,
+   "fin": 2.367
+  },
+  {
+   "w": "Y",
+   "ini": 2.527,
+   "fin": 2.656
+  },
+  {
+   "w": "alrededor,",
+   "ini": 2.667,
+   "fin": 3.163
+  },
+  {
+   "w": "una",
+   "ini": 3.313,
+   "fin": 3.431
+  },
+  {
+   "w": "ciudad",
+   "ini": 3.442,
+   "fin": 3.765
+  },
+  {
+   "w": "construida",
+   "ini": 3.776,
+   "fin": 4.326
+  },
+  {
+   "w": "sobre",
+   "ini": 4.337,
+   "fin": 4.606
+  },
+  {
+   "w": "un",
+   "ini": 4.617,
+   "fin": 4.746
+  },
+  {
+   "w": "lago.",
+   "ini": 4.757,
+   "fin": 5.08
+  },
+  {
+   "w": "Cinco",
+   "ini": 5.24,
+   "fin": 5.628
+  },
+  {
+   "w": "muertes.",
+   "ini": 5.639,
+   "fin": 6.167
+  },
+  {
+   "w": "Y",
+   "ini": 6.317,
+   "fin": 6.478
+  },
+  {
+   "w": "esta",
+   "ini": 6.489,
+   "fin": 6.759
+  },
+  {
+   "w": "época",
+   "ini": 6.769,
+   "fin": 7.049
+  },
+  {
+   "w": "empieza",
+   "ini": 7.06,
+   "fin": 7.416
+  },
+  {
+   "w": "bien.",
+   "ini": 7.427,
+   "fin": 7.707
+  },
+  {
+   "w": "Demasiado",
+   "ini": 7.857,
+   "fin": 8.363
+  },
+  {
+   "w": "bien.",
+   "ini": 8.374,
+   "fin": 8.654
+  },
+  {
+   "w": "Es",
+   "ini": 8.814,
+   "fin": 8.997
+  },
+  {
+   "w": "Tenochtitlan.",
+   "ini": 9.008,
+   "fin": 9.676
+  },
+  {
+   "w": "1519.",
+   "ini": 9.826,
+   "fin": 11.141
+  },
+  {
+   "w": "Entre",
+   "ini": 11.301,
+   "fin": 11.581
+  },
+  {
+   "w": "doscientos",
+   "ini": 11.592,
+   "fin": 12.066
+  },
+  {
+   "w": "mil",
+   "ini": 12.077,
+   "fin": 12.228
+  },
+  {
+   "w": "y",
+   "ini": 12.239,
+   "fin": 12.292
+  },
+  {
+   "w": "trescientos",
+   "ini": 12.303,
+   "fin": 12.842
+  },
+  {
+   "w": "mil",
+   "ini": 12.853,
+   "fin": 13.014
+  },
+  {
+   "w": "habitantes.",
+   "ini": 13.025,
+   "fin": 13.661
+  },
+  {
+   "w": "Es",
+   "ini": 13.821,
+   "fin": 14.004
+  },
+  {
+   "w": "llenar",
+   "ini": 14.015,
+   "fin": 14.263
+  },
+  {
+   "w": "entre",
+   "ini": 14.274,
+   "fin": 14.478
+  },
+  {
+   "w": "dos",
+   "ini": 14.489,
+   "fin": 14.726
+  },
+  {
+   "w": "y",
+   "ini": 14.737,
+   "fin": 14.802
+  },
+  {
+   "w": "tres",
+   "ini": 14.812,
+   "fin": 15.049
+  },
+  {
+   "w": "veces",
+   "ini": 15.06,
+   "fin": 15.362
+  },
+  {
+   "w": "el",
+   "ini": 15.373,
+   "fin": 15.459
+  },
+  {
+   "w": "Estadio",
+   "ini": 15.47,
+   "fin": 15.793
+  },
+  {
+   "w": "Azteca…",
+   "ini": 15.804,
+   "fin": 16.224
+  },
+  {
+   "w": "y",
+   "ini": 16.374,
+   "fin": 16.46
+  },
+  {
+   "w": "que",
+   "ini": 16.471,
+   "fin": 16.6
+  },
+  {
+   "w": "todos",
+   "ini": 16.611,
+   "fin": 16.934
+  },
+  {
+   "w": "vivan",
+   "ini": 16.945,
+   "fin": 17.193
+  },
+  {
+   "w": "ahí.",
+   "ini": 17.204,
+   "fin": 17.462
+  },
+  {
+   "w": "Y",
+   "ini": 17.622,
+   "fin": 17.794
+  },
+  {
+   "w": "esto",
+   "ini": 17.805,
+   "fin": 18.01
+  },
+  {
+   "w": "es",
+   "ini": 18.021,
+   "fin": 18.128
+  },
+  {
+   "w": "importante:",
+   "ini": 18.139,
+   "fin": 18.721
+  },
+  {
+   "w": "este",
+   "ini": 18.871,
+   "fin": 19.13
+  },
+  {
+   "w": "es",
+   "ini": 19.141,
+   "fin": 19.259
+  },
+  {
+   "w": "el",
+   "ini": 19.27,
+   "fin": 19.356
+  },
+  {
+   "w": "mejor",
+   "ini": 19.367,
+   "fin": 19.636
+  },
+  {
+   "w": "momento",
+   "ini": 19.647,
+   "fin": 20.024
+  },
+  {
+   "w": "de",
+   "ini": 20.035,
+   "fin": 20.143
+  },
+  {
+   "w": "todo",
+   "ini": 20.153,
+   "fin": 20.412
+  },
+  {
+   "w": "tu",
+   "ini": 20.423,
+   "fin": 20.52
+  },
+  {
+   "w": "viaje.",
+   "ini": 20.531,
+   "fin": 20.908
+  },
+  {
+   "w": "Ok.",
+   "ini": 21.143,
+   "fin": 21.55
+  },
+  {
+   "w": "Esta",
+   "ini": 21.7,
+   "fin": 22.011
+  },
+  {
+   "w": "la",
+   "ini": 22.023,
+   "fin": 22.094
+  },
+  {
+   "w": "disfruto.",
+   "ini": 22.106,
+   "fin": 22.681
+  },
+  {
+   "w": "Por",
+   "ini": 22.854,
+   "fin": 23.016
+  },
+  {
+   "w": "primera",
+   "ini": 23.026,
+   "fin": 23.328
+  },
+  {
+   "w": "vez,",
+   "ini": 23.339,
+   "fin": 23.619
+  },
+  {
+   "w": "nadie",
+   "ini": 23.769,
+   "fin": 24.103
+  },
+  {
+   "w": "te",
+   "ini": 24.114,
+   "fin": 24.222
+  },
+  {
+   "w": "quiere",
+   "ini": 24.232,
+   "fin": 24.459
+  },
+  {
+   "w": "matar.",
+   "ini": 24.47,
+   "fin": 24.879
+  },
+  {
+   "w": "Pasan",
+   "ini": 25.039,
+   "fin": 25.341
+  },
+  {
+   "w": "los",
+   "ini": 25.352,
+   "fin": 25.492
+  },
+  {
+   "w": "meses.",
+   "ini": 25.502,
+   "fin": 25.955
+  },
+  {
+   "w": "Y",
+   "ini": 26.115,
+   "fin": 26.244
+  },
+  {
+   "w": "entonces",
+   "ini": 26.255,
+   "fin": 26.751
+  },
+  {
+   "w": "llega",
+   "ini": 26.762,
+   "fin": 26.966
+  },
+  {
+   "w": "1520.",
+   "ini": 26.977,
+   "fin": 28.055
+  },
+  {
+   "w": "Con",
+   "ini": 28.215,
+   "fin": 28.377
+  },
+  {
+   "w": "una",
+   "ini": 28.387,
+   "fin": 28.495
+  },
+  {
+   "w": "expedición",
+   "ini": 28.506,
+   "fin": 29.023
+  },
+  {
+   "w": "española",
+   "ini": 29.034,
+   "fin": 29.497
+  },
+  {
+   "w": "llega",
+   "ini": 29.508,
+   "fin": 29.788
+  },
+  {
+   "w": "la",
+   "ini": 29.799,
+   "fin": 29.874
+  },
+  {
+   "w": "viruela.",
+   "ini": 29.885,
+   "fin": 30.327
+  },
+  {
+   "w": "Nadie",
+   "ini": 30.487,
+   "fin": 30.821
+  },
+  {
+   "w": "tenía",
+   "ini": 30.832,
+   "fin": 31.101
+  },
+  {
+   "w": "defensas",
+   "ini": 31.112,
+   "fin": 31.554
+  },
+  {
+   "w": "contra",
+   "ini": 31.565,
+   "fin": 31.888
+  },
+  {
+   "w": "ella.",
+   "ini": 31.899,
+   "fin": 32.179
+  },
+  {
+   "w": "En",
+   "ini": 32.339,
+   "fin": 32.49
+  },
+  {
+   "w": "algunas",
+   "ini": 32.501,
+   "fin": 32.867
+  },
+  {
+   "w": "regiones",
+   "ini": 32.878,
+   "fin": 33.309
+  },
+  {
+   "w": "murió",
+   "ini": 33.32,
+   "fin": 33.589
+  },
+  {
+   "w": "más",
+   "ini": 33.6,
+   "fin": 33.815
+  },
+  {
+   "w": "de",
+   "ini": 33.826,
+   "fin": 33.891
+  },
+  {
+   "w": "la",
+   "ini": 33.902,
+   "fin": 33.977
+  },
+  {
+   "w": "mitad",
+   "ini": 33.988,
+   "fin": 34.257
+  },
+  {
+   "w": "de",
+   "ini": 34.268,
+   "fin": 34.343
+  },
+  {
+   "w": "la",
+   "ini": 34.354,
+   "fin": 34.43
+  },
+  {
+   "w": "gente",
+   "ini": 34.44,
+   "fin": 34.753
+  },
+  {
+   "w": "en",
+   "ini": 34.764,
+   "fin": 34.882
+  },
+  {
+   "w": "pocos",
+   "ini": 34.893,
+   "fin": 35.216
+  },
+  {
+   "w": "meses.",
+   "ini": 35.227,
+   "fin": 35.669
+  },
+  {
+   "w": "Los",
+   "ini": 35.829,
+   "fin": 36.012
+  },
+  {
+   "w": "colores",
+   "ini": 36.023,
+   "fin": 36.368
+  },
+  {
+   "w": "se",
+   "ini": 36.379,
+   "fin": 36.443
+  },
+  {
+   "w": "apagan.",
+   "ini": 36.454,
+   "fin": 36.874
+  },
+  {
+   "w": "Y",
+   "ini": 37.034,
+   "fin": 37.163
+  },
+  {
+   "w": "a",
+   "ini": 37.174,
+   "fin": 37.239
+  },
+  {
+   "w": "Pijama",
+   "ini": 37.25,
+   "fin": 37.605
+  },
+  {
+   "w": "le",
+   "ini": 37.616,
+   "fin": 37.702
+  },
+  {
+   "w": "llega",
+   "ini": 37.713,
+   "fin": 37.961
+  },
+  {
+   "w": "su",
+   "ini": 37.972,
+   "fin": 38.112
+  },
+  {
+   "w": "turno.",
+   "ini": 38.122,
+   "fin": 38.5
+  },
+  {
+   "w": "Nueve",
+   "ini": 39.08,
+   "fin": 39.339
+  },
+  {
+   "w": "meses.",
+   "ini": 39.349,
+   "fin": 39.845
+  },
+  {
+   "w": "…No",
+   "ini": 41.08,
+   "fin": 41.283
+  },
+  {
+   "w": "voy",
+   "ini": 41.295,
+   "fin": 41.499
+  },
+  {
+   "w": "a",
+   "ini": 41.511,
+   "fin": 41.558
+  },
+  {
+   "w": "hacer",
+   "ini": 41.57,
+   "fin": 41.869
+  },
+  {
+   "w": "ningún",
+   "ini": 41.881,
+   "fin": 42.228
+  },
+  {
+   "w": "chiste.",
+   "ini": 42.24,
+   "fin": 42.659
+  },
+  {
+   "w": "Y",
+   "ini": 42.832,
+   "fin": 42.94
+  },
+  {
+   "w": "suena",
+   "ini": 42.951,
+   "fin": 43.22
+  },
+  {
+   "w": "el",
+   "ini": 43.231,
+   "fin": 43.285
+  },
+  {
+   "w": "despertador.",
+   "ini": 43.295,
+   "fin": 43.953
+  },
+  {
+   "w": "Más",
+   "ini": 44.103,
+   "fin": 44.394
+  },
+  {
+   "w": "lento.",
+   "ini": 44.404,
+   "fin": 44.76
+  },
+  {
+   "w": "Pero",
+   "ini": 44.92,
+   "fin": 45.092
+  },
+  {
+   "w": "lo",
+   "ini": 45.103,
+   "fin": 45.2
+  },
+  {
+   "w": "que",
+   "ini": 45.211,
+   "fin": 45.297
+  },
+  {
+   "w": "viene…",
+   "ini": 45.308,
+   "fin": 45.599
+  },
+  {
+   "w": "es",
+   "ini": 45.749,
+   "fin": 45.889
+  },
+  {
+   "w": "el",
+   "ini": 45.9,
+   "fin": 46.018
+  },
+  {
+   "w": "año",
+   "ini": 46.029,
+   "fin": 46.212
+  },
+  {
+   "w": "en",
+   "ini": 46.223,
+   "fin": 46.298
+  },
+  {
+   "w": "que",
+   "ini": 46.309,
+   "fin": 46.428
+  },
+  {
+   "w": "el",
+   "ini": 46.439,
+   "fin": 46.525
+  },
+  {
+   "w": "mundo",
+   "ini": 46.536,
+   "fin": 46.816
+  },
+  {
+   "w": "se",
+   "ini": 46.826,
+   "fin": 46.956
+  },
+  {
+   "w": "quedó",
+   "ini": 46.967,
+   "fin": 47.193
+  },
+  {
+   "w": "sin",
+   "ini": 47.204,
+   "fin": 47.376
+  },
+  {
+   "w": "verano.",
+   "ini": 47.387,
+   "fin": 47.786
+  }
+ ],
+ "recap": {
+  "vidas": 3,
+  "previas": [
+   {
+    "epoca": "HIELO",
+    "nota": "F"
+   },
+   {
+    "epoca": "EGIPTO",
+    "nota": "A"
+   },
+   {
+    "epoca": "POMPEYA",
+    "nota": "D"
+   },
+   {
+    "epoca": "ROMA",
+    "nota": "C"
+   },
+   {
+    "epoca": "1348",
+    "nota": "F"
+   }
+  ],
+  "titulo": "ÉPOCA 6 DE 8 · TENOCHTITLAN",
+  "jefe": "JEFE: ???"
+ },
+ "estilo": "tenochtitlan",
+ "fin_voz": 47.926,
+ "drenaje": [
+  28.195,
+  36.934
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "voz": "es-MX-JorgeNeural",
+ "rate": "+8%",
+ "lineas": [
+  {
+   "n": "h6",
+   "texto": "El león sale en todas las películas. Pero casi nunca te mata.",
+   "texto_tts": "El león sale en todas las películas. Pero casi nunca te mata."
+  },
+  {
+   "n": "h5",
+   "texto": "Frutos rojos, brillantes, perfectos. Y tu cerebro dice: come.",
+   "texto_tts": "Frutos rojos, brillantes, perfectos. Y tu cerebro dice: come."
+  },
+  {
+   "n": "h3",
+   "texto": "Lo que más mataba era otra persona.",
+   "texto_tts": "Lo que más mataba era otra persona."
+  },
+  {
+   "n": "h1",
+   "texto": "La número uno no tiene colmillos. No tiene garras. No hace ruido.",
+   "texto_tts": "La número uno no tiene colmillos. No tiene garras. No hace ruido."
+  },
+  {
+   "n": "c7",
+   "texto": "Pero la sed no es lo peor. La siguiente tiene garras.",
+   "texto_tts": "Pero la sed no es lo peor. La siguiente tiene garras."
+  },
+  {
+   "n": "c6",
+   "texto": "Y el león no era el problema. Mira lo que te llevas a la boca.",
+   "texto_tts": "Y el león no era el problema. Mira lo que te llevas a la boca."
+  },
+  {
+   "n": "c5",
+   "texto": "Hasta aquí sobrevivías. Ahora cae la noche.",
+   "texto_tts": "Hasta aquí sobrevivías. Ahora cae la noche."
+  },
+  {
+   "n": "c4",
+   "texto": "Pasas la noche. Pero alguien te está mirando.",
+   "texto_tts": "Pasas la noche. Pero alguien te está mirando."
+  },
+  {
+   "n": "c3",
+   "texto": "Escapas del grupo. Pero pisas una espina.",
+   "texto_tts": "Escapas del grupo. Pero pisas una espina."
+  },
+  {
+   "n": "c2",
+   "texto": "Un rasguño. Y ahí entra el verdadero jefe.",
+   "texto_tts": "Un rasguño. Y ahí entra el verdadero jefe."
+  },
+  {
+   "n": "c1",
+   "texto": "Y tú duras unas 20 horas. ¿Cuánto durarías tú? Cuéntamelo en los comentarios.",
+   "texto_tts": "Y tú duras unas veinte horas. ¿Cuánto durarías tú? Cuéntamelo en los comentarios."
+  }
+ ]
+}
