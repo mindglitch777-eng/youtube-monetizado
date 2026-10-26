@@ -1,0 +1,116 @@
+<title>Prompts v3 · peste negra</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Figtree:wght@400;600;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: lista de una columna para el celular. Arriba los pasos de Flow web; después ingredientes, planos por bloque y miniaturas. Cada tarjeta: qué adjuntar + botón grande de copiar. */
+:root{--bg:#f3f1ee;--card:#ffffff;--fg:#1c1a18;--muted:#6a645c;--line:#e0dbd3;--accent:#a8321f;--accent-fg:#ffffff;--done:#e4efe7;--done-fg:#1f6b43;--chip:#efe9e1;
+--f-d:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;--f-b:"Figtree",ui-sans-serif,system-ui,sans-serif;--f-m:"JetBrains Mono",ui-monospace,Menlo,monospace}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#121110;--card:#1c1b19;--fg:#ece8e2;--muted:#a39b90;--line:#33302b;--accent:#ff7d62;--accent-fg:#1a0d09;--done:#16291e;--done-fg:#6fd39b;--chip:#2a2723;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121110;--card:#1c1b19;--fg:#ece8e2;--muted:#a39b90;--line:#33302b;--accent:#ff7d62;--accent-fg:#1a0d09;--done:#16291e;--done-fg:#6fd39b;--chip:#2a2723;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:16px/1.5 var(--f-b)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--bg)}
+.wrap{max-width:44rem;margin:0 auto;padding-block:0 80px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);padding-block:12px 8px;border-bottom:1px solid var(--line);display:grid;gap:8px}
+h1{font:800 1.3rem/1.15 var(--f-d);margin:0;text-wrap:balance}
+h2{font:800 1.15rem/1.2 var(--f-d);margin:28px 0 10px}
+.prog{display:flex;align-items:center;gap:10px;font:500 .85rem var(--f-m)}
+.bar{flex:1;height:8px;border-radius:99px;background:var(--line);overflow:hidden}
+.bar span{display:block;height:100%;width:0;background:var(--done-fg);transition:width .25s}
+.chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;font:600 .85rem var(--f-b);padding:7px 12px;border-radius:99px;border:1px solid var(--line);background:var(--card);color:var(--fg);cursor:pointer;min-height:36px}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-fg)}
+.steps{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-top:14px}
+.steps ol{margin:0;padding-left:20px;display:grid;gap:6px}
+.list{display:grid;gap:12px;list-style:none;padding:0;margin:0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;display:grid;gap:8px}
+.card.done{background:var(--done)}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.id{font:700 .85rem var(--f-m)}
+.tag{font:600 .72rem var(--f-b);text-transform:uppercase;letter-spacing:.06em;padding:3px 8px;border-radius:99px;background:var(--chip);color:var(--muted)}
+.tag.pov{background:var(--accent);color:var(--accent-fg)}
+.linea{font-weight:600}
+.emo{font-size:.85rem;color:var(--muted)}
+.ing{font-size:.88rem}
+.ing b{font-family:var(--f-m);font-size:.82rem}
+button.copy{font:700 1rem var(--f-b);background:var(--accent);color:var(--accent-fg);border:0;border-radius:12px;padding:12px;cursor:pointer;min-height:48px}
+.card.done button.copy{background:var(--done-fg);color:var(--card)}
+button:focus-visible{outline:2px solid var(--fg);outline-offset:2px}
+details summary{cursor:pointer;font-size:.85rem;color:var(--muted)}
+pre{white-space:pre-wrap;word-break:break-word;font:500 .78rem/1.5 var(--f-m);background:var(--bg);border-radius:8px;padding:10px;margin:6px 0 0}
+.msg{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom,0px));background:var(--fg);color:var(--bg);padding:10px 16px;border-radius:99px;font-weight:600;z-index:40}
+.reset{margin-top:20px;font-size:.85rem;color:var(--muted);display:flex;gap:10px;align-items:center}
+.reset button{font:600 .85rem var(--f-b);background:none;border:1px solid var(--line);color:var(--fg);border-radius:10px;padding:6px 10px;cursor:pointer}
+</style>
+
+<div class="wrap">
+<header class="top">
+  <h1>Prompts v3 · 30 días en la peste negra</h1>
+  <div class="prog"><span id="count">0 / 0</span><div class="bar"><span id="barfill"></span></div></div>
+  <div class="chips" id="chips" role="group" aria-label="Filtrar por sección"></div>
+</header>
+
+<section class="steps">
+  <b>Cómo usarlo en Flow (web, desde labs.google/flow)</b>
+  <ol>
+    <li><b>Primero los ingredientes (13).</b> Generá cada uno y guardalo en Flow como ingrediente con <b>el nombre exacto</b> que dice la tarjeta (PIJAMA, ESTABLO…). Los personajes van sobre fondo gris liso; los lugares, sin personas.</li>
+    <li>Elegí <b>la mejor versión</b> de PIJAMA y no la cambies más: todo el video sale de esa.</li>
+    <li>En cada plano, <b>adjuntá los ingredientes que dice "Adjuntá"</b> y pegá el prompt. Los nombres ya están escritos dentro del prompt: así Flow sabe qué referencia usar.</li>
+    <li>Formato: <b>16:9</b> en todo, menos en la sección SHORTS (<b>9:16</b>).</li>
+    <li>Si Pijama sale distinto, no lo arregles con texto: <b>volvé a generar</b> con el ingrediente adjunto. Guardá cada imagen con su número (001.png…).</li>
+  </ol>
+</section>
+
+<div id="secciones"></div>
+<div class="reset"><span>Las marcas se guardan en este celular.</span><button id="reset" type="button">Borrar marcas</button></div>
+</div>
+<div class="msg" id="msg" hidden></div>
+
+<script>
+const DATA=__DATA__;
+const NOMBRES={"0":"GANCHO","1":"DÍAS 1–3","2":"DÍAS 4–7","3":"DÍAS 8–11","4":"DÍAS 12–17","5":"DÍAS 18–21","6":"DÍAS 22–27","7":"DÍAS 28–30","8":"RESULTADOS","S":"SHORTS"};
+const POVN={POV:"1ª persona",["3P"]:"3ª persona",OTS:"Sobre el hombro",MACRO:"Macro",PULGA:"Cámara de la Pulga",GENERAL:"Plano general",AEREO:"Aéreo",CU:"Primer plano"};
+const KEY="prompts-v3-peste";
+let done={};try{done=JSON.parse(localStorage.getItem(KEY)||"{}")||{}}catch(e){done={}}
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(done))}catch(e){}};
+const items=[];
+DATA.ingredientes.forEach(d=>items.push({k:"ING-"+d.nombre,sec:"INGREDIENTES",titulo:d.nombre,sub:d.tipo==="lugar"?"Lugar (sin personas)":"Personaje (fondo gris liso)",ing:"",prompt:d.prompt,nombre:d.nombre}));
+DATA.planos.forEach(p=>items.push({k:p.id,sec:NOMBRES[p.bloque],titulo:p.id,linea:p.linea,emo:p.emocion,pov:p.pov,ing:p.ingredientes,prompt:p.prompt}));
+DATA.miniaturas.forEach((m,i)=>items.push({k:"MIN-"+i,sec:"MINIATURAS",titulo:m.nombre,ing:m.ingredientes,prompt:m.prompt}));
+const secs=[...new Set(items.map(i=>i.sec))];
+let filtro="Todo";
+const msg=document.getElementById("msg");let mt;
+function toast(t){msg.textContent=t;msg.hidden=false;clearTimeout(mt);mt=setTimeout(()=>msg.hidden=true,2000)}
+function progreso(){const n=items.filter(i=>done[i.k]).length;document.getElementById("count").textContent=n+" / "+items.length;document.getElementById("barfill").style.width=(100*n/items.length)+"%"}
+function fallback(t){const ta=document.createElement("textarea");ta.value=t;ta.setAttribute("readonly","");ta.style.position="fixed";ta.style.opacity="0";document.body.appendChild(ta);ta.select();ta.setSelectionRange(0,t.length);let ok=false;try{ok=document.execCommand("copy")}catch(e){}document.body.removeChild(ta);return ok}
+async function copiar(it,card,btn){let ok=false;try{await navigator.clipboard.writeText(it.prompt);ok=true}catch(e){ok=fallback(it.prompt)}
+ if(ok){done[it.k]=1;save();card.classList.add("done");btn.textContent="Copiado ✓ (tocar para copiar otra vez)";progreso();toast("Copiado "+it.titulo)}
+ else{card.querySelector("details").open=true;toast("Mantené apretado el texto y copialo a mano")}}
+function render(){
+ const cont=document.getElementById("secciones");cont.innerHTML="";
+ secs.forEach(s=>{if(filtro!=="Todo"&&filtro!==s)return;
+  const h=document.createElement("h2");h.textContent=s;cont.append(h);
+  const ul=document.createElement("ul");ul.className="list";
+  items.filter(i=>i.sec===s).forEach(it=>{
+   const li=document.createElement("li");li.className="card"+(done[it.k]?" done":"");
+   const r=document.createElement("div");r.className="row";
+   const id=document.createElement("span");id.className="id";id.textContent=it.titulo;r.append(id);
+   if(it.pov){const t=document.createElement("span");t.className="tag"+(it.pov==="POV"?" pov":"");t.textContent=POVN[it.pov]||it.pov;r.append(t)}
+   if(it.sub){const t=document.createElement("span");t.className="tag";t.textContent=it.sub;r.append(t)}
+   li.append(r);
+   if(it.linea){const p=document.createElement("div");p.className="linea";p.textContent="«"+it.linea+"»";li.append(p)}
+   if(it.emo){const p=document.createElement("div");p.className="emo";p.textContent="Que sienta: "+it.emo;li.append(p)}
+   if(it.nombre){const p=document.createElement("div");p.className="ing";p.innerHTML="Guardalo en Flow con el nombre: <b></b>";p.querySelector("b").textContent=it.nombre;li.append(p)}
+   if(it.ing){const p=document.createElement("div");p.className="ing";p.innerHTML="Adjuntá: <b></b>";p.querySelector("b").textContent=it.ing;li.append(p)}
+   const b=document.createElement("button");b.className="copy";b.type="button";b.textContent=done[it.k]?"Copiado ✓ (tocar para copiar otra vez)":"Copiar prompt";
+   b.onclick=()=>copiar(it,li,b);li.append(b);
+   const d=document.createElement("details");d.innerHTML="<summary>Ver el prompt</summary><pre></pre>";d.querySelector("pre").textContent=it.prompt;li.append(d);
+   ul.append(li)});
+  cont.append(ul)});
+}
+const chips=document.getElementById("chips");
+["Todo",...secs].forEach(s=>{const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=s;b.setAttribute("aria-pressed",s===filtro?"true":"false");
+ b.onclick=()=>{filtro=s;[...chips.children].forEach(c=>c.setAttribute("aria-pressed",c.textContent===s?"true":"false"));render();window.scrollTo(0,0)};chips.append(b)});
+document.getElementById("reset").onclick=()=>{done={};save();render();progreso()};
+render();progreso();
+</script>
