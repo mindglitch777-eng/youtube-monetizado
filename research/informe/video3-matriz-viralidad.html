@@ -1,0 +1,337 @@
+<title>Matriz de viralidad video 3</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Layout: informe de una columna ancha; la matriz como tabla-mapa de calor con scroll propio; las 10 ideas como fichas numeradas por ranking. */
+:root{
+  --bg:#f4f4f7; --card:#ffffff; --fg:#191b29; --muted:#5d6177; --line:#dcdfe9;
+  --accent:#d9531e; --accent-soft:#fde8dd; --ink:#2a2e5c; --ink-soft:#e5e7f6;
+  --h1:#f4f5fb; --h2:#dfe3f6; --h3:#b9c2ee; --h4:#7f8fe0; --h5:#3f53c9; --h5fg:#ffffff;
+  --good:#1d8657; --warn:#b26a00;
+  --f-display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --f-body:"Figtree",ui-sans-serif,system-ui,sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#11121c; --card:#1a1c2b; --fg:#eceef8; --muted:#9a9eb7; --line:#2b2e45;
+  --accent:#ff7b47; --accent-soft:#3a2117; --ink:#c3c9f5; --ink-soft:#242845;
+  --h1:#1d2033; --h2:#232a4d; --h3:#2f3d7d; --h4:#4458b8; --h5:#6f84f0; --h5fg:#0d0f1a;
+  --good:#4fd197; --warn:#f0b04a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#11121c; --card:#1a1c2b; --fg:#eceef8; --muted:#9a9eb7; --line:#2b2e45;
+  --accent:#ff7b47; --accent-soft:#3a2117; --ink:#c3c9f5; --ink-soft:#242845;
+  --h1:#1d2033; --h2:#232a4d; --h3:#2f3d7d; --h4:#4458b8; --h5:#6f84f0; --h5fg:#0d0f1a;
+  --good:#4fd197; --warn:#f0b04a; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:16px/1.6 var(--f-body)}
+.wrap{max-width:920px;margin:0 auto;padding-block:32px 72px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:40px}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0}
+h1{font-weight:800;font-size:clamp(1.9rem,6vw,3rem);line-height:1.05}
+h2{font-weight:800;font-size:clamp(1.35rem,4vw,1.8rem);line-height:1.15}
+h3{font-weight:700;font-size:1.15rem;line-height:1.3}
+p{margin:0;max-width:68ch}
+.eyebrow{font:700 .74rem var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+.lead{font-size:1.08rem;color:var(--muted)}
+section{display:grid;gap:16px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.kpi b{display:block;font:700 1.5rem var(--f-mono);font-variant-numeric:tabular-nums}
+.kpi span{font-size:.85rem;color:var(--muted)}
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:.88rem}
+th,td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:700 .7rem var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);background:var(--card);white-space:nowrap}
+td.n{font-family:var(--f-mono);text-align:center;font-variant-numeric:tabular-nums;font-weight:700;min-width:34px}
+td.idea{min-width:230px}
+td.tot{font-family:var(--f-mono);font-weight:700;font-size:1rem;text-align:right;white-space:nowrap}
+tr.top td.idea{font-weight:600}
+.s1{background:var(--h1)}.s2{background:var(--h2)}.s3{background:var(--h3)}.s4{background:var(--h4);color:var(--h5fg)}.s5{background:var(--h5);color:var(--h5fg)}
+.rank{font:800 .8rem var(--f-mono);color:var(--muted);white-space:nowrap}
+.legend{display:flex;gap:6px;align-items:center;font-size:.8rem;color:var(--muted);flex-wrap:wrap}
+.legend i{display:inline-block;width:22px;height:14px;border-radius:3px}
+.ideas{display:grid;gap:18px}
+.idea-card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;display:grid;gap:14px}
+.idea-card header{display:flex;gap:14px;align-items:flex-start}
+.num{font:800 2.2rem/1 var(--f-display);color:var(--accent);min-width:44px}
+.score{margin-left:auto;font:700 .85rem var(--f-mono);background:var(--ink-soft);color:var(--ink);padding:4px 10px;border-radius:99px;white-space:nowrap}
+.titles{display:grid;gap:4px}
+.titles .t{font:700 1.05rem/1.35 var(--f-display)}
+.titles .alt{color:var(--muted);font-size:.92rem}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.blk{display:grid;gap:4px;min-width:0}
+.blk label{font:700 .7rem var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.blk ul{margin:0;padding-left:18px;display:grid;gap:3px}
+.ev{background:var(--bg);border-radius:10px;padding:10px 12px;font-size:.9rem}
+.ev ul{margin:0;padding-left:18px;display:grid;gap:3px}
+.risk{color:var(--warn)}
+.pat{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.pat div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;display:grid;gap:4px}
+.pat b{font-family:var(--f-display);font-size:1.02rem}
+.pat span{font-size:.9rem;color:var(--muted)}
+.note{font-size:.88rem;color:var(--muted)}
+.prompt{position:relative;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;white-space:pre-wrap;font:500 .82rem/1.55 var(--f-mono);max-height:420px;overflow:auto}
+button{font:600 .9rem var(--f-body);border:1px solid var(--accent);background:var(--accent);color:#fff;padding:8px 14px;border-radius:10px;cursor:pointer;justify-self:start}
+button:focus-visible{outline:2px solid var(--fg);outline-offset:2px}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+</style>
+
+<div class="wrap">
+  <header style="display:grid;gap:12px">
+    <div class="eyebrow">Explicado en Pijamas · investigación del video 3 · 26/10/2026</div>
+    <h1>Matriz de viralidad: 10 ideas para el video 3</h1>
+    <p class="lead">Un barrido de 56 búsquedas con la API de YouTube y 17 consultas a la IA de vidIQ. Comparamos 2.403 videos de los últimos 6 meses y nos quedamos con los formatos que hacen explotar a canales chicos o nuevos. Después puntuamos 16 ideas para Pijama en 9 criterios.</p>
+  </header>
+
+  <div class="kpis">
+    <div class="kpi"><b>2.403</b><span>videos analizados (6 meses)</span></div>
+    <div class="kpi"><b>1.773</b><span>canales</span></div>
+    <div class="kpi"><b>392</b><span>videos de +100 mil vistas en canales de menos de 2 años</span></div>
+    <div class="kpi"><b>16 → 10</b><span>ideas puntuadas → elegidas</span></div>
+  </div>
+
+  <section>
+    <div class="eyebrow">Resumen</div>
+    <h2>Qué dicen los datos, en 5 líneas</h2>
+    <ol style="margin:0;padding-left:20px;display:grid;gap:6px;max-width:70ch">
+      <li><b>El formato más rápido del momento es "Día 1 al Día 30".</b> Canales de menos de 4 meses sacan millones con "Zombie Outbreak: 30 Days…" y "Bunker Survival 1 Year". Es la familia con más vistas por día (mediana 39.500). En español casi no existe y nadie lo hizo con historia.</li>
+      <li><b>La Edad de Hielo y la vida cotidiana antigua están en ola.</b> En inglés, canales de 2.000 a 8.000 suscriptores sacan entre 200 mil y 2,3 millones de vistas en semanas con preguntas como "¿cómo dormían sin congelarse?".</li>
+      <li><b>En español la ola recién llega.</b> "Pasajero del Tiempo" tiene 3.800 suscriptores y sacó 380 mil vistas en una semana con la Edad Media. La búsqueda "cómo era vivir en la Edad Media" subió +121 %.</li>
+      <li><b>Hay búsquedas en español que salen de videos en inglés.</b> "cuánto tiempo durarías en cada era prehistórica" tiene 20.700 búsquedas al mes con competencia muy baja (17/100). Mucha gente busca en español el video de Fossil.</li>
+      <li><b>Copiar en español no alcanza.</b> Decenas de canales chicos tradujeron "¿qué hacían los humanos antiguos…?" con imágenes de IA y casi todos se quedaron en menos de 15 mil vistas. Lo que diferencia a nuestro canal es el personaje (Pijama), el formato de juego (vidas, aura, logros) y la segunda persona.</li>
+    </ol>
+  </section>
+
+  <section>
+    <div class="eyebrow">Matriz</div>
+    <h2>La matriz de viralidad</h2>
+    <p class="note">Cada idea tiene una nota de 1 a 5 en cada criterio, sacada de la evidencia de abajo. El total va de 0 a 100. Sirve para comparar las ideas entre sí: <b>no es una predicción de vistas</b>. Los pesos están entre paréntesis.</p>
+    <div class="legend">Nota: <i class="s1"></i>1 <i class="s2"></i>2 <i class="s3"></i>3 <i class="s4"></i>4 <i class="s5"></i>5</div>
+    <div class="scroll"><table id="matriz"></table></div>
+    <div class="note" style="display:grid;gap:4px;max-width:75ch">
+      <div><b>Demanda probada</b>: hay videos recientes que lo prueban, con muchas vistas en total. <b>Velocidad</b>: cuántas vistas por día saca en canales de menos de 100 mil suscriptores. <b>Hueco en español</b>: cuántas versiones buenas en español hay (menos versiones, más nota).</div>
+      <div><b>Búsquedas</b>: búsquedas por mes y competencia según vidIQ. <b>Gancho</b>: si tiene segunda persona, algo en juego (morir o sobrevivir), un número concreto y una pregunta que obliga a mirar. <b>Encaje</b>: si se hace con Pijama y el mismo armado de los videos 1 y 2.</div>
+      <div><b>Monetización</b>: si dura entre 8 y 20 minutos (deja poner anuncios en el medio), si a los anunciantes les sirve y si sigue vigente en el tiempo. <b>Shorts</b>: si se corta en partes que funcionan solas. <b>Serie</b>: si se puede repetir con otras épocas.</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="eyebrow">Las 10 elegidas</div>
+    <h2>Las 10 ideas, con evidencia y plan</h2>
+    <div class="ideas" id="ideas"></div>
+  </section>
+
+  <section>
+    <div class="eyebrow">Patrones</div>
+    <h2>12 patrones que se repiten en los canales que salieron de la nada</h2>
+    <div class="pat">
+      <div><b>1. Segunda persona y algo en juego</b><span>"Cuánto durarías", "You wouldn't last a week", "Lo que sientes justo antes de…". El espectador es el protagonista y puede morir.</span></div>
+      <div><b>2. Una pregunta sobre la vida cotidiana</b><span>"¿Qué hacían todo el día?", "¿Cómo dormían?", "¿Qué hacían cuando llovía?". Es algo que todos se preguntaron y nadie les contestó.</span></div>
+      <div><b>3. Un contador que avanza</b><span>Día 1 → Día 30 → 1 año. Promete progreso y obliga a quedarse para ver el final. Es la familia con más vistas por día del barrido.</span></div>
+      <div><b>4. "Cada uno" o "todos"</b><span>"Cada era", "cada continente", "every level", "cada desastre". El título promete el tema completo y la gente se queda para llegar al último.</span></div>
+      <div><b>5. Números concretos en el título</b><span>18.000 años, −40 °C, 536, 1349, 30 días. Venden más que las palabras.</span></div>
+      <div><b>6. "Realmente" o "de verdad"</b><span>"¿Qué hacía REALMENTE la gente…?", "What ACTUALLY happens…". Promete romper un mito.</span></div>
+      <div><b>7. Pocos videos, todos del mismo formato</b><span>Fossil llegó a 19,8 millones de vistas con 14 videos; Ink Explainer a 24,8 millones con 18. Repiten la misma plantilla y cambian el tema.</span></div>
+      <div><b>8. Partes 2 y episodios</b><span>"Bunker Survival 1 Year (Part 2)" tiene 1 millón; "Día 31 al 60 (Parte 2)". El éxito se estira en serie enseguida.</span></div>
+      <div><b>9. Entre 8 y 20 minutos</b><span>Casi todos los éxitos del barrido duran entre 8 y 20 minutos. Desde 8 minutos se pueden poner anuncios en el medio. Los documentales de 45 a 60 minutos también rinden en español.</span></div>
+      <div><b>10. Frío, noche y oscuridad</b><span>Los temas de frío extremo, noche y miedo a morir aparecen una y otra vez en los videos que explotaron entre septiembre y octubre.</span></div>
+      <div><b>11. La IA genérica ya satura</b><span>Muchos de los éxitos chicos tienen la marca "AI-labeled". Las copias en español con IA genérica casi no funcionan. Gana el que tiene un personaje y una voz propia.</span></div>
+      <div><b>12. Los ingresos dependen del idioma</b><span>Lo mismo en inglés paga entre 3 y 5 veces más por vista. YouTube permite agregar pistas de audio en otros idiomas al mismo video: es una palanca que casi ningún canal en español está usando.</span></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="eyebrow">Monetización</div>
+    <h2>Canales que salieron de la nada y cuánto podrían ganar</h2>
+    <p class="note">Vistas por mes = vistas totales del canal ÷ días desde que se creó × 30. Las ganancias son <b>estimaciones</b> con un rango de RPM típico, no datos reales: inglés entre US$ 3 y 8 por cada mil vistas, español entre US$ 0,5 y 2. Los Shorts pagan mucho menos.</p>
+    <div class="scroll"><table id="canales"></table></div>
+  </section>
+
+  <section>
+    <div class="eyebrow">Para pegar en la IA</div>
+    <h2>Resumen listo para presentar</h2>
+    <p class="note">Copiá este texto y pegalo en la IA que vayas a usar (Gemini, ChatGPT o la pestaña Inspiración de YouTube Studio) para que elija o mejore la idea.</p>
+    <button id="copiar">Copiar el resumen</button>
+    <div class="prompt" id="prompt"></div>
+  </section>
+
+  <section>
+    <div class="eyebrow">Método y límites</div>
+    <h2>Cómo se hizo</h2>
+    <ul style="margin:0;padding-left:20px;display:grid;gap:4px;max-width:72ch" class="note">
+      <li>API de YouTube Data v3: 56 búsquedas (mitad en español, mitad en inglés), videos publicados desde el 26/04/2026 y ordenados por vistas. Después, el detalle de cada video y cada canal. En total se gastaron unas 5.700 unidades de la cuota del día.</li>
+      <li>vidIQ: 10 búsquedas de videos que superan con creces el promedio de su canal, 1 de tendencias y 6 de palabras clave (preguntas, términos relacionados y búsquedas en ascenso). Se usaron 85 de los 150 créditos del mes.</li>
+      <li>Los suscriptores son los de hoy, no los que el canal tenía cuando publicó. La "velocidad" es vistas totales ÷ días desde que se publicó.</li>
+      <li>Las búsquedas de vidIQ son estimaciones y la nota de cada criterio la puse yo a partir de esa evidencia. Los datos crudos están en <span class="mono">research/data/video3-2026-10/</span>.</li>
+    </ul>
+  </section>
+</div>
+
+<script>
+const CRIT=[["dem","Demanda",20],["vel","Velocidad",15],["hue","Hueco ES",15],["bus","Búsquedas",10],["gan","Gancho",10],["enc","Encaje",10],["mon","Monetiz.",10],["sho","Shorts",5],["ser","Serie",5]];
+const MATRIZ=[
+["E","Pijama sobrevive del día 1 al día 30 en una época (peste negra)",{dem:5,vel:5,hue:5,bus:2,gan:5,enc:5,mon:4,sho:5,ser:5}],
+["B","¿Qué hacía REALMENTE la gente en la Edad Media todo el día?",{dem:5,vel:5,hue:3,bus:5,gan:4,enc:5,mon:4,sho:4,ser:5}],
+["R","¿Contra qué especie humana ganarías una pelea?",{dem:5,vel:4,hue:5,bus:3,gan:5,enc:4,mon:4,sho:5,ser:4}],
+["D","¿Cómo dormían en la Edad de Hielo sin morir congelados?",{dem:5,vel:5,hue:4,bus:4,gan:4,enc:4,mon:5,sho:3,ser:4}],
+["I","Qué te pasaría DE VERDAD si viajaras al pasado",{dem:4,vel:5,hue:5,bus:3,gan:5,enc:5,mon:4,sho:4,ser:3}],
+["A","¿Cuánto durarías en cada continente en la Edad de Hielo?",{dem:5,vel:4,hue:4,bus:5,gan:4,enc:4,mon:4,sho:4,ser:4}],
+["L","Pijama come un día entero en cada época: qué le pasa a su cuerpo",{dem:4,vel:4,hue:4,bus:5,gan:4,enc:5,mon:4,sho:5,ser:4}],
+["C","Los peores años para estar vivo (536, 1918…)",{dem:5,vel:4,hue:5,bus:3,gan:5,enc:3,mon:3,sho:5,ser:3}],
+["G","Los peores trabajos de la historia: ¿cuánto durarías en cada uno?",{dem:4,vel:3,hue:4,bus:3,gan:4,enc:5,mon:4,sho:5,ser:4}],
+["K","Una noche de −40 °C dentro de un castillo medieval",{dem:4,vel:4,hue:3,bus:3,gan:4,enc:4,mon:4,sho:3,ser:3}],
+["F","Qué se siente cada castigo medieval",{dem:4,vel:4,hue:3,bus:4,gan:5,enc:3,mon:2,sho:4,ser:3}],
+["J","¿Qué hacían los humanos antiguos cuando llovía una semana?",{dem:4,vel:3,hue:2,bus:5,gan:3,enc:4,mon:4,sho:3,ser:4}],
+["Q","El iceberg de la historia oscura",{dem:4,vel:3,hue:3,bus:4,gan:4,enc:3,mon:3,sho:4,ser:3}],
+["P","¿Sobrevivirías? Historia interactiva: elige y te digo si mueres",{dem:3,vel:3,hue:5,bus:2,gan:4,enc:4,mon:3,sho:3,ser:4}],
+["H","Historia aburrida para dormir: 2 horas con Pijama",{dem:4,vel:2,hue:3,bus:5,gan:1,enc:3,mon:5,sho:1,ser:5}],
+["M","Cada desastre que cambió la historia",{dem:3,vel:3,hue:3,bus:3,gan:3,enc:3,mon:4,sho:3,ser:3}]];
+const tot=n=>CRIT.reduce((s,[k,,p])=>s+n[k]*p,0)/5;
+
+const IDEAS=[
+{id:"E",t:"Sobreviví 30 días en la peste negra (en pijama)",alt:["Día 1 al Día 30: sobrevivir a la peste negra en pijama","¿Cuántos días durarías en la peste negra? Día 1 al 30"],
+ mini:"Pijama flaco en una calle medieval con un contador gigante \"DÍA 17\" y una rata en primer plano. Fondo rojo apagado.",
+ gancho:"\"Día 1. Llegas a un pueblo de 1348 con tu pijama. En 30 días, uno de cada tres vecinos va a estar muerto. ¿Tú vas a ser uno de ellos?\" Arriba, el contador de días y las vidas.",
+ estr:["Día 1–3: llega, consigue agua, comida y techo (las reglas del juego)","Día 4–10: rumores, la primera muerte, las ratas, los médicos con máscara de pájaro","Día 11–20: cuarentena, huida al campo, peregrinos que se azotan","Día 21–30: el final; logro desbloqueado y tabla de lo que salió bien y mal","Al cierre: \"¿Día 1 al 30 en Pompeya?\" y comentarios para elegir la próxima época"],
+ ev:["Formato \"Día 1 al Día 30\": la familia con más vistas por día del barrido (mediana 39.500)","Galactic Highway: \"Bunker Survival 1 Year\", 2,16 millones (canal de 129 días); la parte 2, 1,06 millones","Nobody Gets In: \"Zombie Outbreak: 30 Days Locked Inside a School\", 1,35 millones con un canal de 24 días","En español: Primeros (3.200 suscriptores), \"Apocalipsis Zombi: Día 1 al Día 30\", 169 mil en 2 semanas","No apareció ninguna versión histórica de este formato, ni en español ni en inglés"],
+ bus:"No hay búsqueda directa: el formato vive de las recomendaciones de YouTube, no del buscador. \"peste negra\" y \"edad media\" (+64 %) tienen mucha demanda de fondo.",
+ shorts:"Un Short por cada tramo de 5 días (6 Shorts) que termina en \"¿sobrevive al día 10?\".",
+ riesgo:"Pijama ya murió en 1348 en el video 2, así que hay que cambiarle el ángulo o arrancar con otra época (por ejemplo Pompeya o la Roma de los gladiadores)."},
+{id:"B",t:"¿Qué hacía REALMENTE la gente en la Edad Media todo el día?",alt:["Pijama pasa 24 horas en 1349: así era un día real","Un día normal en la Edad Media (no es lo que te contaron)"],
+ mini:"Pijama sentado en una mesa medieval con un reloj de sol y el texto \"5:00 AM\". Cara de sueño.",
+ gancho:"\"Son las 4 de la mañana. No hay luz, no hay café y ya llegas tarde. En la Edad Media el día empezaba antes que el sol.\" Reloj de horas en pantalla.",
+ estr:["Por horas: 4:00 levantarse · 6:00 campo · 12:00 comida · 15:00 taberna · 19:00 dormir","Cada hora con un mito roto (\"no se bañaban\" es falso) y un dato con número","El HUD de Pijama: hambre, frío, impuestos y aura","Cierre: \"¿Y de noche qué hacían?\" para enganchar con otro video"],
+ ev:["Pasajero del Tiempo (3.800 suscriptores): 380 mil vistas en 1 semana (3.700 por hora)","Del mismo canal: \"¿Cuánto durarías en la Edad Media? Un día real en 1349\", 103 mil, y \"Así era sobrevivir una noche en una taberna medieval\", 160 mil","En inglés: Ink Explainer, \"What Did Ancient Humans Actually Do All Day?\", 16,3 millones"],
+ bus:"\"cómo era vivir en la edad media\": 18.300 al mes (+121 %). \"qué hacía la gente en la edad media todo el día\": 5.300. \"cómo dormían en la edad media\": 7.400 (competencia 17).",
+ shorts:"Un Short por cada hora del día (\"A las 4 AM en 1349…\").",
+ riesgo:"Pasajero del Tiempo está en este nicho ahora mismo y sube videos seguido. Hay que salir pronto y que se note el personaje."},
+{id:"R",t:"¿Contra qué especie humana ganarías una pelea?",alt:["Pijama vs. 8 especies humanas: ¿a cuál le ganas?","Neandertal, Denisovano, Hobbit… ¿a cuál podrías vencer?"],
+ mini:"Pijama en guardia de boxeo frente a un neandertal enorme. Medidor \"PROBABILIDAD 3 %\".",
+ gancho:"\"Hace 50.000 años no estábamos solos. Había al menos otras 5 especies humanas. Vamos a pelear contra todas. Empieza la más chiquita: mide 1 metro.\"",
+ estr:["Torneo de menor a mayor: Floresiensis → Naledi → Erectus → Denisovano → Neandertal","Cada pelea: fuerza, altura, cerebro y arma; resultado con porcentaje","Pantalla de \"pelea\" estilo videojuego (ya está en el sistema de HUD)","Final: \"¿Y por qué quedamos solo nosotros?\""],
+ ev:["Fossil: \"Which Human Species Could You Beat in a Fight?\", 1,5 millones (48 mil suscriptores)","Fossil: \"Would Orcas Dominate Every Prehistoric Ocean?\", 3,6 millones","Ink Explainer: \"Why Are We the Only Human Species Left?\", 1,59 millones","En español: solo un documental de 43 mil (\"Cuando no éramos los únicos humanos\"). No hay versión de pelea"],
+ bus:"Búsqueda media (\"neandertales\", \"especies humanas\"). Lo empujan los comentarios y las peleas en Shorts.",
+ shorts:"Una pelea por Short (5 o 6): el formato \"vs\" funciona muy bien en vertical.",
+ riesgo:"Las cifras de fuerza son estimaciones: hay que decirlo en pantalla para que no lluevan críticas."},
+{id:"D",t:"¿Cómo dormían en la Edad de Hielo sin morir congelados?",alt:["Una noche a −30 °C en la Edad de Hielo (en pijama)","Así dormían hace 20.000 años sin congelarse"],
+ mini:"Pijama temblando dentro de una choza de huesos de mamut; termómetro \"−32 °C\"; luna azul.",
+ gancho:"\"Son las 6 de la tarde y ya es de noche. Quedan 14 horas de oscuridad a −30 °C. Si te duermes mal, no te despiertas.\" Termómetro en pantalla.",
+ estr:["Hora por hora de la noche: fuego, pieles, cuerpos juntos, perros, guardias","Ciencia del frío: qué le pasa al cuerpo a −30 °C (con medidor en el HUD)","Errores de Pijama (dormir en el suelo, el pijama de algodón) y lo que hacían ellos","Cierre tranquilo: sirve como video \"para dormir\" y retiene mucho tiempo"],
+ ev:["ICE AGE SURVIVAL (2.000 suscriptores): \"How Did Ice Age Humans Sleep Without Freezing to Death?\", 211 mil en 1 semana (1.200 por hora)","Astro Depth (7.600): \"…When It Was Too Cold to Sleep\", 622 mil; Mack: 381 mil","Through the Ages (3.000): \"Beyond the Glacier: Life in the Ice Age\", 2,3 millones en 3 semanas","En español: Pedro (4.900 suscriptores), 290 mil. Las demás versiones son flojas"],
+ bus:"\"cómo sobrevivían los humanos prehistóricos al frío\": 4.500 (competencia 16). \"…al invierno\": 4.200. \"cómo sobrevivían… noches lluviosas\": 3.800.",
+ shorts:"\"5 trucos para no morir congelado hace 20.000 años\" (un truco por Short).",
+ riesgo:"Se parece a la parte de la Edad de Hielo del video 2. Hay que hacerlo de toda una noche, con más detalle."},
+{id:"I",t:"Qué te pasaría DE VERDAD si viajaras al pasado",alt:["Viajas 1.000 años atrás: esto es lo primero que te mataría","¿Sobrevivirías una semana si viajaras al pasado? (la ciencia responde)"],
+ mini:"Pijama saliendo de un portal con un celular sin señal; un caballero lo apunta con una lanza.",
+ gancho:"\"Saltas 1.000 años atrás. No te mata un caballero: te mata el primer vaso de agua. Y eso es solo el problema número 1.\"",
+ estr:["Problemas en orden: idioma, gérmenes, agua, dinero, ropa, leyes, aire, comida","Cada uno con su medidor de supervivencia y un porcentaje","Viajes a 3 distancias: 100, 1.000 y 10.000 años","Es el origen del personaje: explica cómo Pijama viaja en el tiempo"],
+ ev:["Then what? (3.200 suscriptores): \"What ACTUALLY happens if you travel back in time\", 245 mil (3.800 por hora)","Santi Can't (8.800): \"How Long You'd Last in Every Century With the iPhone\", 247 mil","En español: las búsquedas de outliers solo devolvieron física (velocidad de la luz). No hay versión histórica"],
+ bus:"\"qué pasaría si viajaras al pasado\" no tiene una búsqueda grande medida. El tema \"viajar en el tiempo\" es evergreen.",
+ shorts:"Un problema por Short (\"El agua te mataría primero\").",
+ riesgo:"Puede quedar abstracto: hay que mantenerlo concreto, con escenas de Pijama."},
+{id:"A",t:"¿Cuánto durarías en cada continente en la Edad de Hielo?",alt:["Despiertas en la Edad de Hielo: ¿en qué continente sobrevives?","6 continentes, 1 pijama: ¿dónde duras más hace 20.000 años?"],
+ mini:"Mapamundi blanco de hielo con 6 Pijamas, cada uno con un reloj distinto (\"3 h\", \"2 años\").",
+ gancho:"\"Hace 20.000 años, un tercio del planeta era hielo. Te dejo en pijama en cada continente. En uno duras 40 minutos. En otro… quizá toda la vida.\"",
+ estr:["De peor a mejor: Antártida → Norteamérica → Europa → Asia → África → Oceanía","Cada continente con su peligro estrella (mamut, oso de las cavernas, hielo, desierto)","Tabla final de tiempos para comparar","Gancho de serie: \"¿Y en cada continente durante los dinosaurios?\""],
+ ev:["Fossil: \"How Long You'd Last on Every Ice Age Continent\", 404 mil","Fossil: \"How Long You'd Last in Every Prehistoric Era\", 12 millones (es el formato madre)","Ola de la Edad de Hielo en inglés (ver la idea D)"],
+ bus:"\"cuánto tiempo durarías en cada continente durante la edad de hielo\": 17.100 al mes (competencia 34). \"cuánto tiempo durarías en cada era prehistórica\": 20.700 (+49 %, competencia 17). Mucha gente busca en español el video de Fossil.",
+ shorts:"Un continente por Short (6 Shorts) con \"¿duraste más que en Europa?\".",
+ riesgo:"Es un formato muy parecido al de Fossil: hay que hacerlo con Pijama, el HUD y voz propia, no como una traducción."},
+{id:"L",t:"Pijama come un día entero en cada época: ¿qué le pasa a su cuerpo?",alt:["Comí como en la Edad Media por 24 horas (y esto le pasó a mi cuerpo)","¿Qué le haría a tu cuerpo comer un día en cada época?"],
+ mini:"Pijama con un plato de gachas grises y un medidor de estómago en rojo; al lado, un vaso de \"cerveza\" medieval.",
+ gancho:"\"En la Edad Media el agua te podía matar, así que desayunabas cerveza. Hoy Pijama come un día entero en 6 épocas. Su estómago no está listo.\"",
+ estr:["6 épocas, 3 comidas cada una (prehistoria, Egipto, Roma, Edad Media, Aztecas, Londres 1850)","Medidores en el HUD: calorías, estómago, dientes, \"aura\"","Mitos: el azúcar era de reyes, el agua mataba, se comía mejor de lo que pensamos","Cierre: votación de la mejor y la peor dieta"],
+ ev:["Dark Origins (4.500 suscriptores): \"What Did One Day of Medieval London Food Do to Your Body?\", 201 mil","vidIQ, búsquedas en ascenso: \"comida antigua\", 295 mil al mes (+530 % en el último mes)"],
+ bus:"\"por qué beber agua limpia era una sentencia de muerte en la edad media\": 5.600 (competencia 13). \"por qué el azúcar era un lujo de reyes\": 5.500 (competencia 6). \"qué comían realmente los humanos prehistóricos\": 5.000.",
+ shorts:"Una comida rara por Short (\"Desayuno romano: salsa de pescado podrido\").",
+ riesgo:"Es poco: el tema es de bajo riesgo y le sirve a los anunciantes."},
+{id:"C",t:"Los peores años para estar vivo en toda la historia",alt:["Despiertas en los 5 peores años de la historia","El año 536 fue peor que la peste negra (y casi nadie lo sabe)"],
+ mini:"Calendario roto con \"536\" en rojo y Pijama tapándose la cara del frío; sol tapado por niebla.",
+ gancho:"\"En el año 536 el sol dejó de brillar 18 meses. Y no es el peor año de esta lista.\"",
+ estr:["Top 5 con contador: 536 · 1520 (viruela) · 1816 · 1918 (gripe) · 1348","Cada año: qué pasó, cómo lo vive Pijama, con cifra y mapa","Ranking final con votación en los comentarios"],
+ ev:["Do you mind? (4.200 suscriptores): \"Top 5 Worst Years to Be Alive in Human History (536, 1348, 1918)\", 1,7 millones","En español no apareció ningún equivalente en las búsquedas de outliers"],
+ bus:"\"536\": 7.600 al mes. \"el peor año de la historia\": 4.200. \"historia oscura\": +280 %.",
+ shorts:"Un año por Short, con cuenta regresiva.",
+ riesgo:"Se superpone con el video 2 (1348 y 1816). Si se elige, hay que usar 536, 1918 y otros años nuevos."},
+{id:"G",t:"Los peores trabajos de la historia: ¿cuánto durarías en cada uno?",alt:["Pijama prueba 7 trabajos medievales: en cuál dura menos","Verdugo, recolector de excrementos, minero: ¿aguantarías un día?"],
+ mini:"Pijama con un balde y pinza de ropa en la nariz; cartel \"PUESTO: RECOLECTOR DE CACA REAL\".",
+ gancho:"\"Hoy Pijama busca trabajo. El primero paga bien: limpiar las letrinas del rey. Con las manos.\"",
+ estr:["7 trabajos de menos a más peligroso, cada uno con sueldo, horario y riesgo de muerte","Un medidor \"¿cuánto duras?\" por trabajo","Final: el trabajo más mortal (dato que sorprende)"],
+ ev:["ONE RULE (708 suscriptores): \"How Long Would You Survive in Every WW2 Job?\", 94 mil","Pasajero del Tiempo: \"¿Cómo era ser verdugo en la Edad Media?\", 22 mil en 2 días (640 por hora)","Medieval Way (179 mil suscriptores, 1,2 millones por mes) vive de oficios medievales","En español la versión de Pecas Explica se quedó en 9 mil: hay hueco para una mejor"],
+ bus:"\"por qué ser herrero en la edad media era una pesadilla\": 5.000. \"cuánto se ganaba en la edad media\": 4.700.",
+ shorts:"Un trabajo por Short (7 Shorts): es el plan de Shorts más fácil de la lista.",
+ riesgo:"Con algunos trabajos (verdugo) hay que cuidar lo explícito para no perder anunciantes."},
+{id:"K",t:"Una noche de −40 °C dentro de un castillo medieval",alt:["¿Cómo sobrevivían una noche de −40 °C en un castillo?","Pijama pasa la peor noche de invierno de la Edad Media"],
+ mini:"Castillo nevado de noche, una sola ventana encendida; Pijama congelado en la puerta.",
+ gancho:"\"Los castillos no tenían calefacción. Afuera hace −40. Adentro, poco más. Hoy Pijama tiene que llegar vivo al amanecer.\"",
+ estr:["Del atardecer al amanecer: chimenea, tapices, paja, animales adentro, camas compartidas","Quién duerme dónde (rey, sirvientes, guardias)","Cierre tranquilo, con potencial como video \"para dormir\""],
+ ev:["Runic (8.600 suscriptores): \"How Did Humans Survive −40° Nights Inside a Massive Medieval Castle?\", 607 mil (1.300 por hora)","Forgotten Survival Tales: \"A Night Inside a Medieval Tavern During a Brutal Winter\", 118 mil","En español: CurioFosil copió el título y sacó 8 mil: si se copia sin personaje, no funciona"],
+ bus:"\"como eran las noches en la edad media\": 5.000 (competencia 18). \"cómo era dormir en la edad media\": 4.700.",
+ shorts:"\"Cómo calentaban un castillo sin calefacción\" en 3 o 4 Shorts.",
+ riesgo:"Se pisa con la idea D. Conviene elegir una de las dos."}
+];
+
+function cls(v){return "s"+v}
+const m=document.getElementById("matriz");
+const sorted=MATRIZ.map(r=>[...r,tot(r[2])]).sort((a,b)=>b[3]-a[3]);
+m.innerHTML="<thead><tr><th>#</th><th>Idea</th>"+CRIT.map(([,n,p])=>`<th>${n}<br>(${p})</th>`).join("")+"<th>Total</th></tr></thead>";
+const tb=document.createElement("tbody");
+sorted.forEach(([id,name,n,t],i)=>{
+  const tr=document.createElement("tr"); if(i<10) tr.className="top";
+  tr.innerHTML=`<td class="rank">${i+1}</td><td class="idea"></td>`+CRIT.map(([k])=>`<td class="n ${cls(n[k])}">${n[k]}</td>`).join("")+`<td class="tot">${t}</td>`;
+  tr.querySelector(".idea").textContent=name; tb.append(tr);
+});
+m.append(tb);
+
+const box=document.getElementById("ideas");
+const score=Object.fromEntries(sorted.map(r=>[r[0],r[3]]));
+IDEAS.forEach((it,i)=>{
+  const c=document.createElement("article"); c.className="idea-card";
+  const li=a=>"<ul>"+a.map(x=>"<li></li>").join("")+"</ul>";
+  c.innerHTML=`<header><div class="num">${i+1}</div><div class="titles"><div class="t"></div><div class="alt"></div></div><div class="score">${score[it.id]} / 100</div></header>
+  <div class="grid2"><div class="blk"><label>Gancho (primeros 15 s)</label><p class="g"></p></div><div class="blk"><label>Miniatura</label><p class="mi"></p></div></div>
+  <div class="grid2"><div class="blk"><label>Estructura</label>${li(it.estr)}</div><div class="blk"><label>Evidencia</label><div class="ev">${li(it.ev)}</div></div></div>
+  <div class="grid2"><div class="blk"><label>Búsquedas (vidIQ)</label><p class="bu"></p></div><div class="blk"><label>Plan de Shorts</label><p class="sh"></p></div></div>
+  <div class="blk"><label>Riesgo</label><p class="risk"></p></div>`;
+  c.querySelector(".t").textContent=it.t;
+  c.querySelector(".alt").textContent="Otras opciones: "+it.alt.join(" · ");
+  c.querySelector(".g").textContent=it.gancho; c.querySelector(".mi").textContent=it.mini;
+  const uls=c.querySelectorAll("ul");
+  it.estr.forEach((x,j)=>uls[0].children[j].textContent=x);
+  it.ev.forEach((x,j)=>uls[1].children[j].textContent=x);
+  c.querySelector(".bu").textContent=it.bus; c.querySelector(".sh").textContent=it.shorts; c.querySelector(".risk").textContent=it.riesgo;
+  box.append(c);
+});
+
+const CAN=[
+ ["Ink Explainer","inglés",148000,199,18,24842937,3745166,"en"],
+ ["Nobody Gets In","inglés",36900,24,17,4680474,5850592,"en"],
+ ["Fossil","inglés",48300,238,14,19797369,2495467,"en"],
+ ["Galactic Highway","inglés",88500,129,34,4289628,997588,"en"],
+ ["Beanie Survives","inglés",97300,251,19,6683010,798766,"en"],
+ ["Historia Del Comercio","español",35200,116,30,7538858,1949705,"es"],
+ ["BananomiES","español",110000,256,34,16287276,1908665,"es"],
+ ["Pecas Explica","español",30300,122,22,6616421,1626989,"es"],
+ ["Historia de la Tierra","español",15800,116,19,5006874,1294881,"es"],
+ ["Destino Cuerpo","español",3960,110,22,1290613,351985,"es"],
+ ["Pasajero del Tiempo","español",3810,182,77,1006042,165831,"es"]];
+const f=n=>n.toLocaleString("es-AR");
+const usd=(v,a,b)=>"US$ "+f(Math.round(v/1000*a/100)*100)+" – "+f(Math.round(v/1000*b/100)*100);
+const ct=document.getElementById("canales");
+ct.innerHTML="<thead><tr><th>Canal</th><th>Idioma</th><th>Suscr.</th><th>Edad</th><th>Videos</th><th>Vistas totales</th><th>Vistas/mes</th><th>Ingreso estimado/mes</th></tr></thead>";
+const cb=document.createElement("tbody");
+CAN.forEach(r=>{const tr=document.createElement("tr");
+ const [a,b]=r[7]==="en"?[3,8]:[0.5,2];
+ tr.innerHTML=`<td></td><td>${r[1]}</td><td class="mono">${f(r[2])}</td><td class="mono">${r[3]} días</td><td class="mono">${r[4]}</td><td class="mono">${f(r[5])}</td><td class="mono">${f(r[6])}</td><td class="mono">${usd(r[6],a,b)}</td>`;
+ tr.firstChild.textContent=r[0]; cb.append(tr)});
+ct.append(cb);
+
+const P=`Contexto: canal de YouTube en español "Explicado en Pijamas". El protagonista es Pijama, una persona en pijama que viaja por épocas de la historia. El formato es de videojuego: vidas, reloj de supervivencia, logros, "aura" y voz en segunda persona. Videos largos de 8 a 10 minutos y 7 a 9 Shorts por video. Video 1: "Así morirías en la Edad de Piedra". Video 2: "Te despiertas en pijama en 8 épocas: ¿en cuál mueres primero?".
+
+Investigación (26/10/2026): 2.403 videos de los últimos 6 meses (API de YouTube) y outliers y palabras clave de vidIQ. Lo que funciona en canales chicos y nuevos: el formato "Día 1 al Día 30" (el más rápido), la vida cotidiana antigua ("¿qué hacían todo el día?"), la ola de la Edad de Hielo y el frío extremo, "cuánto durarías en cada…", peleas "vs." y números concretos en el título. En español, la Edad Media está subiendo (+64 % "edad media", +121 % "cómo era vivir en la edad media").
+
+Las 10 ideas, de mayor a menor puntaje en la matriz:
+`+IDEAS.map((it,i)=>`${i+1}. ${it.t} (${score[it.id]}/100)\n   Gancho: ${it.gancho}\n   Evidencia: ${it.ev[0]}; ${it.ev[1]}\n   Riesgo: ${it.riesgo}`).join("\n")+`
+
+Pedido: elegí la idea con más probabilidad de superar las 100 mil vistas en 30 días para un canal chico. Mejorá su título (menos de 60 caracteres), proponé 3 miniaturas y escribí los primeros 30 segundos del guion en segunda persona, con Pijama.`;
+document.getElementById("prompt").textContent=P;
+document.getElementById("copiar").onclick=async e=>{const b=e.currentTarget;try{await navigator.clipboard.writeText(P);b.textContent="Copiado"}catch(_){const s=getSelection(),r=document.createRange();r.selectNodeContents(document.getElementById("prompt"));s.removeAllRanges();s.addRange(r);b.textContent="Seleccionado: copialo"}setTimeout(()=>b.textContent="Copiar el resumen",2000)};
+</script>
