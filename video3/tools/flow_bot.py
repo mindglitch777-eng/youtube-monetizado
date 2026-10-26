@@ -18,7 +18,7 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 OUT = Path("flow_out")
-URL = "https://labs.google/fx/tools/flow"
+URL = "https://flow.google.com/"
 
 
 def leer_cookies(txt):

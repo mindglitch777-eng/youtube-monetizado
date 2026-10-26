@@ -1,11 +1,8 @@
 // ==UserScript==
 // @name         Flow Pijama · generador por lotes
 // @namespace    explicado-en-pijamas
-// @version      0.1.1
+// @version      0.1.2
 // @description  Genera en Google Flow los prompts del video 3 en orden, de a uno, y baja cada imagen con el número de su plano.
-// @match        https://labs.google/*
-// @match        https://flow.google/*
-// @match        https://*.flow.google/*
 // @match        https://flow.google.com/*
 // @grant        GM_xmlhttpRequest
 // @grant        GM_setValue
