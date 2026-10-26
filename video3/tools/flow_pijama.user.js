@@ -1,12 +1,14 @@
 // ==UserScript==
 // @name         Flow Pijama · generador por lotes
 // @namespace    explicado-en-pijamas
-// @version      0.1.2
+// @version      0.2.0
 // @description  Genera en Google Flow los prompts del video 3 en orden, de a uno, y baja cada imagen con el número de su plano.
 // @match        https://flow.google.com/*
 // @grant        GM_xmlhttpRequest
 // @grant        GM_setValue
 // @grant        GM_getValue
+// @grant        GM_registerMenuCommand
+// @inject-into  content
 // @connect      raw.githubusercontent.com
 // @run-at       document-idle
 // ==/UserScript==
@@ -24,17 +26,32 @@
     #fp select,#fp button,#fp input{font:600 13px system-ui;border-radius:9px;border:0;padding:8px}
     #fp button{background:#c4472b;color:#fff}#fp button.s{background:#333}#fp .r{display:flex;gap:6px;flex-wrap:wrap}
     #fp #log{max-height:150px;overflow:auto;background:#0c0c10;border-radius:8px;padding:6px;white-space:pre-wrap;font:11px ui-monospace,monospace}`;
-  const st = document.createElement("style"); st.textContent = css; document.head.appendChild(st);
-  const p = document.createElement("div"); p.id = "fp";
-  p.innerHTML = `<div class="h"><span>🛌 Flow Pijama</span><button class="s" id="fpmin">–</button></div>
-    <select id="fplote"><option>Cargando lotes…</option></select>
-    <div class="r"><label>Desde #<input id="fpdesde" type="number" min="1" value="1" style="width:60px"></label>
-      <label>Pausa s <input id="fppausa" type="number" min="3" value="8" style="width:56px"></label></div>
-    <div class="r"><button id="fpuno">Probar 1</button><button id="fpgo">Generar lote</button><button class="s" id="fpstop">Parar</button></div>
-    <div class="r"><button class="s" id="fpdiag">Diagnóstico (copiar)</button></div>
-    <div id="log">Listo. Abrí un proyecto de Flow en modo imagen y elegí un lote.</div>`;
-  document.body.appendChild(p);
-  const $ = (id) => document.getElementById(id);
+  // Google bloquea innerHTML (Trusted Types): todo se arma con createElement
+  function el(tag, props, ...hijos) {
+    const e = document.createElement(tag);
+    Object.entries(props || {}).forEach(([k, v]) => { if (k === "class") e.className = v; else if (k === "style") e.style.cssText = v; else e.setAttribute(k, v); });
+    hijos.forEach((h) => e.append(h));
+    return e;
+  }
+  const st = el("style"); st.textContent = css;
+  const p = el("div", { id: "fp" },
+    el("div", { class: "h" }, el("span", {}, "🛌 Flow Pijama v0.2"), el("button", { class: "s", id: "fpmin" }, "–")),
+    el("select", { id: "fplote" }, el("option", {}, "Cargando lotes…")),
+    el("div", { class: "r" },
+      el("label", {}, "Desde # ", el("input", { id: "fpdesde", type: "number", min: "1", value: "1", style: "width:60px" })),
+      el("label", {}, "Pausa s ", el("input", { id: "fppausa", type: "number", min: "3", value: "8", style: "width:56px" }))),
+    el("div", { class: "r" }, el("button", { id: "fpuno" }, "Probar 1"), el("button", { id: "fpgo" }, "Generar lote"), el("button", { class: "s", id: "fpstop" }, "Parar")),
+    el("div", { class: "r" }, el("button", { class: "s", id: "fpdiag" }, "Diagnóstico (copiar)")),
+    el("div", { id: "log" }, "Listo. Abrí un proyecto de Flow en modo imagen y elegí un lote."));
+  function montar() {
+    if (!document.body) return;
+    if (!st.isConnected) (document.head || document.documentElement).appendChild(st);
+    if (!p.isConnected) document.body.appendChild(p);
+  }
+  montar();
+  setInterval(montar, 1500); // Flow redibuja la página al navegar: si saca el panel, vuelve
+  try { GM_registerMenuCommand("Mostrar panel", () => { p.classList.remove("min"); montar(); }); } catch (e) {}
+  const $ = (id) => p.querySelector("#" + id);
   const log = (t) => { const l = $("log"); l.textContent = t + "\n" + l.textContent.slice(0, 4000); };
   $("fpmin").onclick = () => p.classList.toggle("min");
 
@@ -44,7 +61,7 @@
     onload: (r) => {
       try {
         lotes = JSON.parse(r.responseText);
-        $("fplote").innerHTML = lotes.map((l, i) => `<option value="${i}">${l.archivo.slice(0, 2)} · ${l.nombre} (${l.items.length}) · ${l.formato}${l.refs.length ? " · ref: " + l.refs.join("+") : ""}</option>`).join("");
+        const s = $("fplote"); s.replaceChildren(...lotes.map((l, i) => el("option", { value: String(i) }, `${l.archivo.slice(0, 2)} · ${l.nombre} (${l.items.length}) · ${l.formato}${l.refs.length ? " · ref: " + l.refs.join("+") : ""}`)));
         const g = GM_getValue("fp_estado"); if (g) { $("fplote").value = g.lote; $("fpdesde").value = g.desde; }
         log(`Lotes cargados: ${lotes.length}`);
       } catch (e) { log("No pude leer los lotes: " + e); }
@@ -53,7 +70,7 @@
   });
 
   // ---------- piezas de Flow (heurísticas; el Diagnóstico sirve para ajustarlas) ----------
-  const visible = (e) => e && e.offsetParent !== null;
+  const visible = (e) => e && e.offsetParent !== null && !p.contains(e);
   function cajaPrompt() {
     const c = [...document.querySelectorAll("textarea,[contenteditable=true],[role=textbox]")].filter(visible);
     return c.sort((a, b) => b.getBoundingClientRect().width - a.getBoundingClientRect().width)[0];
@@ -79,11 +96,15 @@
   }
   const dormir = (ms) => new Promise((r) => setTimeout(r, ms));
 
+  function blobGM(src) {
+    return new Promise((ok, mal) => GM_xmlhttpRequest({ method: "GET", url: src, responseType: "blob", onload: (r) => ok(r.response), onerror: mal }));
+  }
   async function bajar(src, nombre) {
-    const b = await (await fetch(src, { credentials: "include" })).blob();
-    const ext = (b.type.split("/")[1] || "png").replace("jpeg", "jpg");
-    const a = document.createElement("a");
-    a.href = URL.createObjectURL(b); a.download = `${nombre}.${ext}`;
+    let b;
+    try { b = await (await fetch(src, { credentials: "include" })).blob(); }
+    catch (e) { if (src.startsWith("http")) b = await blobGM(src); else throw e; }
+    const ext = ((b.type || "image/png").split("/")[1] || "png").replace("jpeg", "jpg");
+    const a = el("a", { href: URL.createObjectURL(b), download: `${nombre}.${ext}` });
     document.body.appendChild(a); a.click(); a.remove();
     setTimeout(() => URL.revokeObjectURL(a.href), 30000);
   }
