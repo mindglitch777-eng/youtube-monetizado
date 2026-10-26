@@ -24,7 +24,13 @@ hr{border:0;border-top:1px dashed var(--line);margin:1.4em 0}
 ul{padding-left:20px}
 li{margin:.25em 0}
 p.reloj{background:var(--soft);border-radius:8px;padding:4px 10px}
+.copybar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding-block:10px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.copybar span{font-size:.85rem;color:var(--muted);flex:1;min-width:180px}
+#copiar{font:700 1rem var(--f-b);background:var(--accent);color:#fff;border:0;border-radius:12px;padding:12px 18px;cursor:pointer;min-height:48px}
+#copiar:focus-visible{outline:2px solid var(--fg);outline-offset:2px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
 </style>
+<div class="copybar"><button id="copiar" type="button">Copiar el guion completo para la IA</button><span id="estado">Copia el guion entero con un pedido de revisión al principio.</span></div>
 <main id="doc"></main>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
 <script>
@@ -32,6 +38,10 @@ const MD="# VIDEO 3 · \"Sobreviví 30 días a la peste negra (en pijama)\"\n\nG
 const src=MD.split("\n").map(l=>/^(🕰|✂|⚑|[A-ZÁÉÍÓÚÑ¿«])/.test(l)&&!l.startsWith("|")?l+"  ":l).join("\n");
 const doc=document.getElementById("doc");
 try{doc.innerHTML=marked.parse(src);}catch(e){doc.textContent=MD;}
+const PEDIDO="PEDIDO DE REVISIÓN: Este es el guion completo del video 3 del canal 'Explicado en Pijamas', basado en la idea que aprobaste ('Sobreviví 30 días a la peste negra, en pijama'). Revisalo y decime: 1) si el gancho de los primeros 30 segundos retiene; 2) si el ritmo de las 5 decisiones funciona o sobra/falta alguna; 3) qué partes reestructurarías (todo el guion o solo algunas secciones) y por qué; 4) riesgos con anunciantes o con datos históricos; 5) si los títulos, Shorts y cierre maximizan comentarios y retención. Marcá cada cambio con la sección exacta.\n\n=====\n\n";
+const estado=document.getElementById("estado");
+function selTexto(t){const ta=document.createElement("textarea");ta.value=t;ta.setAttribute("readonly","");ta.style.position="fixed";ta.style.opacity="0";document.body.appendChild(ta);ta.select();ta.setSelectionRange(0,t.length);let ok=false;try{ok=document.execCommand("copy")}catch(e){}document.body.removeChild(ta);return ok}
+document.getElementById("copiar").addEventListener("click",async e=>{const b=e.currentTarget,t=PEDIDO+MD;let ok=false;try{await navigator.clipboard.writeText(t);ok=true}catch(_){ok=selTexto(t)}b.textContent=ok?"Copiado ✓":"No se pudo copiar";estado.textContent=ok?"Listo: pegalo en la IA ("+t.length.toLocaleString("es-AR")+" caracteres).":"Mantené apretado el texto de abajo y copialo a mano.";setTimeout(()=>b.textContent="Copiar el guion completo para la IA",2500)});
 doc.querySelectorAll("table").forEach(t=>{const w=document.createElement("div");w.className="tw";t.parentNode.insertBefore(w,t);w.appendChild(t);});
 doc.querySelectorAll("p").forEach(p=>{p.innerHTML=p.innerHTML.split("<br>").map(s=>s.trim().startsWith("🕰")?'<span style="background:var(--soft);border-radius:6px;padding:0 6px">'+s+'</span>':s).join("<br>");});
 </script>
