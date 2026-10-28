@@ -69,7 +69,7 @@ async function caso(motor, c) {
       if (/lotes\\.json/.test(o.url)) return setTimeout(() => o.onload({ responseText: ${JSON.stringify(JSON.stringify(lote))} }), 10);
       window.__gmImg(o.url).then((b64) => { const bin = atob(b64), u = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i); o.onload({ response: new Blob([u], { type: "image/png" }) }); }, o.onerror);
     };`;
-  await ctx.addInitScript({ content: `window.ESC=${JSON.stringify(c.esc)};window.addEventListener("DOMContentLoaded",()=>{${SIM}\n${stubs}\n${SCRIPT}\n});` });
+  await ctx.addInitScript({ content: `window.ESC=${JSON.stringify(c.esc)};window.addEventListener("DOMContentLoaded",()=>{if(location.hostname!=="flow.google.com"||!document.getElementById("pbox"))return;${SIM}\n${stubs}\n${SCRIPT}\n});` });
   const pg = await ctx.newPage();
   pg.on("pageerror", (e) => errores.push(e.message));
   pg.on("download", (d) => descargas.push(d.suggestedFilename()));
