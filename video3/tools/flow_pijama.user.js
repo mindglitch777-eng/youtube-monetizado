@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Flow Pijama · generador por lotes
 // @namespace    explicado-en-pijamas
-// @version      0.3.1
+// @version      0.4.0
 // @description  Panel flotante para Google Flow: genera los prompts del video en orden, de a uno, y baja cada imagen con el número de su plano.
 // @match        https://flow.google.com/*
 // @grant        GM_xmlhttpRequest
@@ -138,11 +138,19 @@
   // ---------- piezas de Flow ----------
   const fuera = (e) => e && !host.contains(e) && e !== host;
   const visible = (e) => e && fuera(e) && e.getClientRects().length && getComputedStyle(e).visibility !== "hidden";
+  // Flow (Angular) pone el icono como atributo: <x icon="arrow_forward">, o como ligadura en .google-symbols
+  function iconoDe(e) {
+    if (!e.querySelector) return "";
+    const a = e.getAttribute("icon") || (e.querySelector("[icon]") || { getAttribute: () => "" }).getAttribute("icon");
+    if (a) return a;
+    const s = e.querySelector("i,mat-icon,.material-icons,.material-symbols-outlined,.google-symbols,[class*=symbol]");
+    return s ? s.textContent.trim() : "";
+  }
   function descriptor(e) {
     const r = e.getBoundingClientRect();
     return { tag: e.tagName, aria: e.getAttribute("aria-label"), texto: (e.innerText || "").trim().slice(0, 40),
       testid: e.getAttribute("data-testid"),
-      icono: ((e.querySelector && e.querySelector("i,mat-icon,.material-icons,.material-symbols-outlined,.google-symbols")) || {}).textContent?.trim() || "",
+      icono: iconoDe(e),
       cx: (r.x + r.width / 2) / innerWidth, cy: (r.y + r.height / 2) / innerHeight };
   }
   function buscar(desc, selector) {
@@ -166,9 +174,14 @@
   const NO_ES_CAJA = /(buscar|search|filtr|find)/i;
   const ES_CAJA = /(qu[eé] quieres|crear|create|prompt|describ|imagine|what do you want)/i;
   function textoDe(e) { return [e.getAttribute("aria-label"), e.getAttribute("placeholder"), e.getAttribute("data-placeholder"), e.getAttribute("aria-placeholder")].join(" "); }
+  // piezas reales de Flow (sacadas de su código): editor ProseMirror y botón "Iniciar generación"
+  const SEL_EDITOR_FLOW = "flow-rich-text-editor .ProseMirror, flow-rich-text-editor [contenteditable=true], flow-rich-text-editor [role=textbox]";
+  const SEL_BOTON_FLOW = "flow-generate-icon-button button, button.generate-icon-button, button[aria-label='Iniciar generación'], button[aria-label='Start generation']";
   function cajaPrompt() {
     const aprendida = buscar(cfg.caja, SEL_CAJA);
     if (aprendida) return aprendida;
+    const deFlow = [...document.querySelectorAll(SEL_EDITOR_FLOW)].filter(visible);
+    if (deFlow.length) return deFlow.sort((a, b) => b.getBoundingClientRect().top - a.getBoundingClientRect().top)[0];
     const c = [...document.querySelectorAll(SEL_CAJA)].filter(visible).filter((e) =>
       e.type !== "search" && !/searchbox|combobox/.test(e.getAttribute("role") || "") && !NO_ES_CAJA.test(textoDe(e)));
     const puntaje = (e) => {
@@ -187,6 +200,9 @@
     const aprendido = buscar(cfg.boton, sel);
     if (aprendido) return aprendido;
     if (!caja) return null;
+    const caja_box = caja.closest("flow-base-prompt-box, flow-prompt-box");
+    const deFlow = [...(caja_box || document).querySelectorAll(SEL_BOTON_FLOW)].filter(visible);
+    if (deFlow.length) return deFlow[0];
     let cont = caja.parentElement, bs = [];
     for (let k = 0; k < 7 && cont; k++, cont = cont.parentElement) {
       bs = [...cont.querySelectorAll(sel)].filter(visible);
@@ -201,19 +217,36 @@
     return cerca.filter((b) => !NO_ES_ENVIAR.test(nombre(b)))
       .sort((x, y) => (y.getBoundingClientRect().right - x.getBoundingClientRect().right) || (y.getBoundingClientRect().bottom - x.getBoundingClientRect().bottom))[0] || null;
   }
-  function escribir(e, texto) {
-    e.focus();
+  const textoActual = (e) => (e.tagName === "TEXTAREA" || e.tagName === "INPUT") ? e.value : (e.innerText || "");
+  async function escribir(e, texto) {
     if (e.tagName === "TEXTAREA" || e.tagName === "INPUT") {
+      e.focus();
       const set = Object.getOwnPropertyDescriptor(Object.getPrototypeOf(e), "value").set;
       set.call(e, texto);
       e.dispatchEvent(new InputEvent("input", { bubbles: true, inputType: "insertText", data: texto }));
       e.dispatchEvent(new Event("change", { bubbles: true }));
-    } else {
-      document.execCommand("selectAll", false, null);
-      document.execCommand("insertText", false, texto);
-      e.dispatchEvent(new InputEvent("input", { bubbles: true, inputType: "insertText", data: texto }));
+      return;
     }
-    e.dispatchEvent(new KeyboardEvent("keyup", { bubbles: true, key: " " }));
+    // editor enriquecido (ProseMirror): se escribe como si fuera el teclado, así Flow se entera
+    const ed = e.matches("[contenteditable=true]") ? e : (e.querySelector("[contenteditable=true]") || e);
+    ed.focus();
+    const sel = getSelection(), r = document.createRange();
+    r.selectNodeContents(ed); sel.removeAllRanges(); sel.addRange(r);
+    document.execCommand("insertText", false, texto);
+    await dormir(300);
+    if (!textoActual(ed).includes(texto.slice(0, 40))) {
+      // plan B: pegado (ProseMirror lee el portapapeles del evento)
+      r.selectNodeContents(ed); sel.removeAllRanges(); sel.addRange(r);
+      const dt = new DataTransfer(); dt.setData("text/plain", texto);
+      ed.dispatchEvent(new ClipboardEvent("paste", { clipboardData: dt, bubbles: true, cancelable: true }));
+      await dormir(300);
+    }
+    if (!textoActual(ed).includes(texto.slice(0, 40))) log("⚠ no pude confirmar que el texto quedó en la caja");
+  }
+  function enter(e) {
+    const ed = e.matches && e.matches("[contenteditable=true]") ? e : (e.querySelector && e.querySelector("[contenteditable=true]")) || e;
+    const o = { key: "Enter", code: "Enter", keyCode: 13, which: 13, bubbles: true, cancelable: true };
+    ed.dispatchEvent(new KeyboardEvent("keydown", o)); ed.dispatchEvent(new KeyboardEvent("keyup", o));
   }
   function tocar(b) {
     const r = b.getBoundingClientRect();
@@ -273,7 +306,7 @@
     const caja = cajaPrompt();
     if (!caja) throw new Error("no encuentro la caja del prompt → Ajustes › Enseñar caja");
     const antes = new Set(imagenes().map(srcDe));
-    escribir(caja, item.prompt);
+    await escribir(caja, item.prompt);
     let b = null;
     for (let k = 0; k < 20; k++) { // esperar que Flow habilite el botón
       await dormir(250);
@@ -281,13 +314,16 @@
       if (b && !b.disabled && b.getAttribute("aria-disabled") !== "true") break;
     }
     if (b) { tocar(b); log(`toqué: ${(b.getAttribute("aria-label") || b.innerText || descriptor(b).icono || b.tagName).slice(0, 30)}`); }
-    else { caja.dispatchEvent(new KeyboardEvent("keydown", { key: "Enter", code: "Enter", keyCode: 13, bubbles: true })); log("sin botón: probé Enter"); }
+    else { enter(caja); log("sin botón: apreté Enter en la caja"); }
+    // si a los 4 s el texto sigue ahí y el botón no reaccionó, probar Enter (en Flow también envía)
+    await dormir(4000);
+    if (textoActual(caja).length > 20) { enter(caja); log("el texto seguía en la caja: apreté Enter"); }
     const t0 = Date.now();
     let avisado = false;
     while (Date.now() - t0 < cfg.esperaMax * 1000) {
       await dormir(2000);
       if (parar) throw new Error("pausado");
-      if (!avisado && Date.now() - t0 > 25000 && ((caja.value || caja.innerText || "").length > 20)) {
+      if (!avisado && Date.now() - t0 > 25000 && (textoActual(caja).length > 20)) {
         avisado = true; log("⚠ el prompt sigue en la caja: puede que no haya apretado crear → Ajustes › Enseñar botón");
       }
       if (imagenes().some((i) => !antes.has(srcDe(i)))) {
