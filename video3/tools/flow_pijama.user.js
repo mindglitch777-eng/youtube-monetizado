@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Flow Pijama · generador por lotes
 // @namespace    explicado-en-pijamas
-// @version      0.4.0
+// @version      0.5.0
 // @description  Panel flotante para Google Flow: genera los prompts del video en orden, de a uno, y baja cada imagen con el número de su plano.
 // @match        https://flow.google.com/*
 // @grant        GM_xmlhttpRequest
@@ -178,10 +178,10 @@
   const SEL_EDITOR_FLOW = "flow-rich-text-editor .ProseMirror, flow-rich-text-editor [contenteditable=true], flow-rich-text-editor [role=textbox]";
   const SEL_BOTON_FLOW = "flow-generate-icon-button button, button.generate-icon-button, button[aria-label='Iniciar generación'], button[aria-label='Start generation']";
   function cajaPrompt() {
-    const aprendida = buscar(cfg.caja, SEL_CAJA);
-    if (aprendida) return aprendida;
     const deFlow = [...document.querySelectorAll(SEL_EDITOR_FLOW)].filter(visible);
     if (deFlow.length) return deFlow.sort((a, b) => b.getBoundingClientRect().top - a.getBoundingClientRect().top)[0];
+    const aprendida = buscar(cfg.caja, SEL_CAJA);
+    if (aprendida) return aprendida;
     const c = [...document.querySelectorAll(SEL_CAJA)].filter(visible).filter((e) =>
       e.type !== "search" && !/searchbox|combobox/.test(e.getAttribute("role") || "") && !NO_ES_CAJA.test(textoDe(e)));
     const puntaje = (e) => {
@@ -197,12 +197,14 @@
   const NO_ES_ENVIAR = /(herramienta|tool|proyecto|project|colecci|biblioteca|nuevo|new|adjuntar|attach|add|agregar|ajuste|setting)/i;
   function botonCrear(caja) {
     const sel = "button,[role=button]";
+    if (caja) {
+      const caja_box = caja.closest("flow-base-prompt-box, flow-creative-agent-prompt-box, flow-prompt-box");
+      const deFlow = [...(caja_box || document).querySelectorAll(SEL_BOTON_FLOW)].filter(visible);
+      if (deFlow.length) return deFlow[0];
+    }
     const aprendido = buscar(cfg.boton, sel);
     if (aprendido) return aprendido;
     if (!caja) return null;
-    const caja_box = caja.closest("flow-base-prompt-box, flow-prompt-box");
-    const deFlow = [...(caja_box || document).querySelectorAll(SEL_BOTON_FLOW)].filter(visible);
-    if (deFlow.length) return deFlow[0];
     let cont = caja.parentElement, bs = [];
     for (let k = 0; k < 7 && cont; k++, cont = cont.parentElement) {
       bs = [...cont.querySelectorAll(sel)].filter(visible);
@@ -243,10 +245,52 @@
     }
     if (!textoActual(ed).includes(texto.slice(0, 40))) log("⚠ no pude confirmar que el texto quedó en la caja");
   }
-  function enter(e) {
-    const ed = e.matches && e.matches("[contenteditable=true]") ? e : (e.querySelector && e.querySelector("[contenteditable=true]")) || e;
-    const o = { key: "Enter", code: "Enter", keyCode: 13, which: 13, bubbles: true, cancelable: true };
-    ed.dispatchEvent(new KeyboardEvent("keydown", o)); ed.dispatchEvent(new KeyboardEvent("keyup", o));
+  function teclaEnter(ed) {
+    for (const tipo of ["keydown", "keypress", "keyup"]) {
+      const ev = new KeyboardEvent(tipo, { key: "Enter", code: "Enter", bubbles: true, cancelable: true });
+      for (const k of ["keyCode", "which", "charCode"]) { try { Object.defineProperty(ev, k, { get: () => 13 }); } catch (_) {} }
+      ed.dispatchEvent(ev);
+    }
+  }
+  function editorDe(e) { return e.matches && e.matches("[contenteditable=true]") ? e : (e.querySelector && e.querySelector("[contenteditable=true]")) || e; }
+  function enter(e) { const ed = editorDe(e); ed.focus(); teclaEnter(ed); }
+  const desactivado = (b) => !b || b.disabled || b.getAttribute("aria-disabled") === "true";
+  const hayStop = () => [...document.querySelectorAll("flow-stop-icon-button button, button.stop-icon-button, button.stop-button")].some(visible);
+  // se mandó si el editor quedó vacío o apareció el botón de stop
+  const seMando = (caja) => hayStop() || textoActual(editorDe(caja)).trim().length < 5;
+
+  // varias formas de mandar, comprobando cada una; deja todo anotado en el Registro
+  async function enviar(caja) {
+    let b = null;
+    for (let k = 0; k < 24; k++) { b = botonCrear(caja); if (b && !desactivado(b)) break; await dormir(250); }
+    if (desactivado(b)) {
+      // a veces Flow no se entera del texto: se "despierta" el editor con un espacio y lo borra
+      log("botón desactivado: despierto el editor");
+      const ed = editorDe(caja); ed.focus();
+      document.execCommand("insertText", false, " "); await dormir(150); document.execCommand("delete", false, null);
+      await dormir(800); b = botonCrear(caja);
+    }
+    log(`botón: ${b ? (b.getAttribute("aria-label") || b.className || b.tagName).toString().slice(0, 40) : "no encontrado"} · ${desactivado(b) ? "desactivado" : "activo"}`);
+    const intentos = [
+      ["tocar el botón", () => { if (!b) return "sin botón"; tocar(b); }],
+      ["tocar lo que está encima del botón", () => {
+        if (!b) return "sin botón";
+        const r = b.getBoundingClientRect(), t = document.elementFromPoint(r.x + r.width / 2, r.y + r.height / 2);
+        if (!t || t === b) return "es el mismo botón"; tocar(t);
+      }],
+      ["Enter en el editor", () => enter(caja)],
+      ["enviar el formulario", () => { const f = b && b.closest("form"); if (!f) return "sin formulario"; f.requestSubmit ? f.requestSubmit(b) : f.submit(); }],
+      ["Ctrl+Enter", () => { const ed = editorDe(caja); const ev = new KeyboardEvent("keydown", { key: "Enter", code: "Enter", ctrlKey: true, metaKey: true, bubbles: true, cancelable: true }); try { Object.defineProperty(ev, "keyCode", { get: () => 13 }); } catch (_) {} ed.dispatchEvent(ev); }],
+    ];
+    for (const [nombre, fn] of intentos) {
+      let r; try { r = fn(); } catch (e) { r = "error: " + e.message; }
+      if (r) { log(`· ${nombre}: ${r}`); continue; }
+      await dormir(1800);
+      if (seMando(caja)) { log(`✓ enviado con: ${nombre}`); return true; }
+      log(`· ${nombre}: no se mandó`);
+      b = botonCrear(caja) || b;
+    }
+    return false;
   }
   function tocar(b) {
     const r = b.getBoundingClientRect();
@@ -307,17 +351,7 @@
     if (!caja) throw new Error("no encuentro la caja del prompt → Ajustes › Enseñar caja");
     const antes = new Set(imagenes().map(srcDe));
     await escribir(caja, item.prompt);
-    let b = null;
-    for (let k = 0; k < 20; k++) { // esperar que Flow habilite el botón
-      await dormir(250);
-      b = botonCrear(caja);
-      if (b && !b.disabled && b.getAttribute("aria-disabled") !== "true") break;
-    }
-    if (b) { tocar(b); log(`toqué: ${(b.getAttribute("aria-label") || b.innerText || descriptor(b).icono || b.tagName).slice(0, 30)}`); }
-    else { enter(caja); log("sin botón: apreté Enter en la caja"); }
-    // si a los 4 s el texto sigue ahí y el botón no reaccionó, probar Enter (en Flow también envía)
-    await dormir(4000);
-    if (textoActual(caja).length > 20) { enter(caja); log("el texto seguía en la caja: apreté Enter"); }
+    if (!(await enviar(caja))) throw new Error("no pude mandar el prompt (mirá el Registro)");
     const t0 = Date.now();
     let avisado = false;
     while (Date.now() - t0 < cfg.esperaMax * 1000) {
