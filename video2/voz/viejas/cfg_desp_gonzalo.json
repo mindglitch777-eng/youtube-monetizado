@@ -1,0 +1,96 @@
+{
+ "voz": "es-CO-GonzaloNeural",
+ "rate": "+0%",
+ "lineas": [
+  {
+   "n": "H_03",
+   "texto": "«Nueva partida. Jugador: tú. Dificultad: realista.»",
+   "texto_tts": "Nueva partida. Jugador: tú. Dificultad: realista."
+  },
+  {
+   "n": "H_06",
+   "texto": "«Spoiler: poco.»",
+   "texto_tts": "Spoiler: poco."
+  },
+  {
+   "n": "H_13",
+   "texto": "«Empezamos. Y no, no puedes apagarme.»",
+   "texto_tts": "Empezamos. Y no, no puedes apagarme."
+  },
+  {
+   "n": "E1_12",
+   "texto": "«Skill issue.»",
+   "texto_tts": "Skill issue."
+  },
+  {
+   "n": "E1_14",
+   "texto": "«Logro desbloqueado: morir congelado en pijama. Aura: menos sesenta y siete.»",
+   "texto_tts": "Logro desbloqueado: morir congelado en pijama. Aura: menos sesenta y siete."
+  },
+  {
+   "n": "E2_07",
+   "texto": "«Nivel tutorial. Disfrútalo.»",
+   "texto_tts": "Nivel tutorial. Disfrútalo."
+  },
+  {
+   "n": "E2_13",
+   "texto": "«Aura: más mil. Nivel tutorial completado. Ahora empieza el juego de verdad.»",
+   "texto_tts": "Aura: más mil. Nivel tutorial completado. Ahora empieza el juego de verdad."
+  },
+  {
+   "n": "E3_06",
+   "texto": "«Bro. Te dijeron que te fueras.»",
+   "texto_tts": "Bro. Te dijeron que te fueras."
+  },
+  {
+   "n": "E3_16",
+   "texto": "«Logro desbloqueado: mirar un volcán de cerca. Duró poco.»",
+   "texto_tts": "Logro desbloqueado: mirar un volcán de cerca. Duró poco."
+  },
+  {
+   "n": "M_03",
+   "texto": "«Ahora viene la parte donde dejas de ver qué te mata.»",
+   "texto_tts": "Ahora viene la parte donde dejas de ver qué te mata."
+  },
+  {
+   "n": "E5_14",
+   "texto": "«Bro está cooked.»",
+   "texto_tts": "Bro está cooked."
+  },
+  {
+   "n": "E6_09",
+   "texto": "«Ok. Esta la disfruto.»",
+   "texto_tts": "Ok. Esta la disfruto."
+  },
+  {
+   "n": "E6_19",
+   "texto": "«…No voy a hacer ningún chiste.»",
+   "texto_tts": "…No voy a hacer ningún chiste."
+  },
+  {
+   "n": "E7_06",
+   "texto": "«Es verano. Literalmente es julio.»",
+   "texto_tts": "Es verano. Literalmente es julio."
+  },
+  {
+   "n": "E7_14",
+   "texto": "«Menos de un grado, bro. Menos de uno.»",
+   "texto_tts": "Menos de un grado, bro. Menos de uno."
+  },
+  {
+   "n": "E8_10",
+   "texto": "«No. No bebas eso. Por favor.»",
+   "texto_tts": "No. No bebas eso. Por favor."
+  },
+  {
+   "n": "E8_18",
+   "texto": "«Lo siento. Esta no la vi venir.»",
+   "texto_tts": "Lo siento. Esta no la vi venir."
+  },
+  {
+   "n": "C_18",
+   "texto": "«Si este video llega a sesenta y siete mil likes, me apago solo.»",
+   "texto_tts": "Si este video llega a sesenta y siete mil likes, me apago solo."
+  }
+ ]
+}

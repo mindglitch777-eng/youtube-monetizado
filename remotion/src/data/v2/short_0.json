@@ -1,0 +1,995 @@
+{
+ "duracion": 43.384,
+ "n": 0,
+ "planos": [
+  {
+   "ini": 0.0,
+   "tipo": "img",
+   "id": "228",
+   "cam": "LA",
+   "tr": "FLASH",
+   "epoca": 0,
+   "vertical": true,
+   "fin": 1.09
+  },
+  {
+   "ini": 1.09,
+   "tipo": "img",
+   "id": "008",
+   "cam": "LA",
+   "tr": "FLASH",
+   "epoca": 0,
+   "vertical": false,
+   "fin": 1.273
+  },
+  {
+   "ini": 1.273,
+   "tipo": "img",
+   "id": "009",
+   "cam": "HA",
+   "tr": "",
+   "epoca": 0,
+   "vertical": false,
+   "fin": 2.231
+  },
+  {
+   "ini": 2.231,
+   "tipo": "img",
+   "id": "010",
+   "cam": "EC",
+   "tr": "",
+   "epoca": 0,
+   "vertical": false,
+   "fin": 3.208
+  },
+  {
+   "ini": 3.208,
+   "tipo": "img",
+   "id": "011",
+   "cam": "EC",
+   "tr": "PUNCH",
+   "epoca": 0,
+   "vertical": false,
+   "fin": 3.985
+  },
+  {
+   "ini": 3.985,
+   "tipo": "img",
+   "id": "012",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 0,
+   "vertical": false,
+   "fin": 4.962
+  },
+  {
+   "ini": 4.962,
+   "tipo": "img",
+   "id": "013",
+   "cam": "MS",
+   "tr": "GAME",
+   "epoca": 0,
+   "vertical": false,
+   "fin": 6.845
+  },
+  {
+   "ini": 6.845,
+   "fin": 8.729,
+   "tipo": "img",
+   "id": "016",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 0,
+   "vertical": false
+  },
+  {
+   "ini": 8.729,
+   "tipo": "img",
+   "id": "014",
+   "cam": "EC",
+   "tr": "PUNCH",
+   "epoca": 0,
+   "vertical": false,
+   "fin": 10.121
+  },
+  {
+   "ini": 10.121,
+   "tipo": "img",
+   "id": "015",
+   "cam": "EC",
+   "tr": "",
+   "epoca": 0,
+   "vertical": false,
+   "fin": 12.284
+  },
+  {
+   "ini": 12.284,
+   "tipo": "img",
+   "id": "016",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 0,
+   "vertical": false,
+   "fin": 13.821
+  },
+  {
+   "ini": 13.821,
+   "tipo": "img",
+   "id": "017",
+   "cam": "EC",
+   "tr": "",
+   "epoca": 0,
+   "vertical": false,
+   "fin": 15.935
+  },
+  {
+   "ini": 15.935,
+   "tipo": "img",
+   "id": "018",
+   "cam": "OS",
+   "tr": "PUNCH",
+   "epoca": 0,
+   "vertical": false,
+   "fin": 17.51
+  },
+  {
+   "ini": 17.51,
+   "tipo": "img",
+   "id": "019",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 0,
+   "vertical": false,
+   "fin": 18.913
+  },
+  {
+   "ini": 18.913,
+   "tipo": "img",
+   "id": "229",
+   "cam": "FE",
+   "tr": "WHIP",
+   "epoca": 0,
+   "vertical": true,
+   "fin": 20.294
+  },
+  {
+   "ini": 20.294,
+   "tipo": "img",
+   "id": "020",
+   "cam": "FE",
+   "tr": "WHIP",
+   "epoca": 0,
+   "vertical": false,
+   "fin": 22.269
+  },
+  {
+   "ini": 22.269,
+   "fin": 24.244,
+   "tipo": "img",
+   "id": "023",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 0,
+   "vertical": false
+  },
+  {
+   "ini": 24.244,
+   "tipo": "img",
+   "id": "021",
+   "cam": "LA",
+   "tr": "PUNCH",
+   "epoca": 0,
+   "vertical": false,
+   "fin": 24.857
+  },
+  {
+   "ini": 24.857,
+   "tipo": "img",
+   "id": "022",
+   "cam": "LA",
+   "tr": "PUNCH",
+   "epoca": 0,
+   "vertical": false,
+   "fin": 25.579
+  },
+  {
+   "ini": 25.579,
+   "tipo": "img",
+   "id": "023",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 0,
+   "vertical": false,
+   "fin": 26.569
+  },
+  {
+   "ini": 26.569,
+   "tipo": "img",
+   "id": "024",
+   "cam": "EC",
+   "tr": "PUNCH",
+   "epoca": 0,
+   "vertical": false,
+   "fin": 27.341
+  },
+  {
+   "ini": 27.341,
+   "tipo": "img",
+   "id": "025",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 0,
+   "vertical": false,
+   "fin": 28.639
+  },
+  {
+   "ini": 28.639,
+   "fin": 29.936,
+   "tipo": "img",
+   "id": "028",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 0,
+   "vertical": false
+  },
+  {
+   "ini": 29.936,
+   "tipo": "img",
+   "id": "026",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 0,
+   "vertical": false,
+   "fin": 31.618
+  },
+  {
+   "ini": 31.618,
+   "tipo": "img",
+   "id": "027",
+   "cam": "HA",
+   "tr": "",
+   "epoca": 0,
+   "vertical": false,
+   "fin": 33.424
+  },
+  {
+   "ini": 33.424,
+   "tipo": "img",
+   "id": "028",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 0,
+   "vertical": false,
+   "fin": 35.674
+  },
+  {
+   "ini": 35.674,
+   "tipo": "img",
+   "id": "029",
+   "cam": "WS",
+   "tr": "PUNCH",
+   "epoca": 0,
+   "vertical": false,
+   "fin": 37.249
+  },
+  {
+   "ini": 37.249,
+   "tipo": "img",
+   "id": "030",
+   "cam": "EC",
+   "tr": "",
+   "epoca": 0,
+   "vertical": false,
+   "fin": 39.087
+  },
+  {
+   "ini": 39.087,
+   "tipo": "img",
+   "id": "031",
+   "cam": "EC",
+   "tr": "SMASH",
+   "epoca": 0,
+   "vertical": false,
+   "fin": 40.486
+  },
+  {
+   "ini": 40.486,
+   "fin": 41.884,
+   "tipo": "img",
+   "id": "008",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 0,
+   "vertical": false
+  },
+  {
+   "ini": 41.884,
+   "tipo": "tarjeta",
+   "n": 0,
+   "fin": 43.384
+  }
+ ],
+ "textos": [
+  {
+   "ini": 5.062,
+   "texto": "NUEVA PARTIDA · JUGADOR: TÚ · DIFICULTAD: REALISTA",
+   "id": "013",
+   "fin": 6.845
+  },
+  {
+   "ini": 12.384,
+   "texto": "HACE 18.000 AÑOS",
+   "id": "016",
+   "fin": 13.584
+  },
+  {
+   "ini": 17.61,
+   "texto": "SPOILER: POCO",
+   "id": "019",
+   "fin": 18.913
+  },
+  {
+   "ini": 27.441,
+   "texto": "TABLA FINAL",
+   "id": "025",
+   "fin": 28.641
+  },
+  {
+   "ini": 30.036,
+   "texto": "¿EN CUÁL DURARÍAS MÁS?",
+   "id": "026",
+   "fin": 31.618
+  },
+  {
+   "ini": 31.718,
+   "texto": "HAZ TU APUESTA",
+   "id": "027",
+   "fin": 33.424
+  }
+ ],
+ "subs": [
+  {
+   "w": "Lunes.",
+   "ini": 0.02,
+   "fin": 0.58
+  },
+  {
+   "w": "Siete",
+   "ini": 0.73,
+   "fin": 1.129
+  },
+  {
+   "w": "de",
+   "ini": 1.14,
+   "fin": 1.237
+  },
+  {
+   "w": "la",
+   "ini": 1.248,
+   "fin": 1.312
+  },
+  {
+   "w": "mañana.",
+   "ini": 1.323,
+   "fin": 1.765
+  },
+  {
+   "w": "Suena",
+   "ini": 1.915,
+   "fin": 2.27
+  },
+  {
+   "w": "tu",
+   "ini": 2.281,
+   "fin": 2.389
+  },
+  {
+   "w": "despertador.",
+   "ini": 2.4,
+   "fin": 3.068
+  },
+  {
+   "w": "Y",
+   "ini": 3.228,
+   "fin": 3.39
+  },
+  {
+   "w": "esta",
+   "ini": 3.4,
+   "fin": 3.594
+  },
+  {
+   "w": "vez…",
+   "ini": 3.605,
+   "fin": 3.885
+  },
+  {
+   "w": "no",
+   "ini": 4.035,
+   "fin": 4.219
+  },
+  {
+   "w": "lo",
+   "ini": 4.229,
+   "fin": 4.305
+  },
+  {
+   "w": "apagas.",
+   "ini": 4.316,
+   "fin": 4.822
+  },
+  {
+   "w": "Nueva",
+   "ini": 5.057,
+   "fin": 5.368
+  },
+  {
+   "w": "partida.",
+   "ini": 5.38,
+   "fin": 5.93
+  },
+  {
+   "w": "Jugador:",
+   "ini": 6.08,
+   "fin": 6.654
+  },
+  {
+   "w": "tú.",
+   "ini": 6.804,
+   "fin": 7.044
+  },
+  {
+   "w": "Dificultad:",
+   "ini": 7.194,
+   "fin": 7.887
+  },
+  {
+   "w": "realista.",
+   "ini": 8.037,
+   "fin": 8.576
+  },
+  {
+   "w": "Abres",
+   "ini": 8.749,
+   "fin": 9.094
+  },
+  {
+   "w": "los",
+   "ini": 9.105,
+   "fin": 9.245
+  },
+  {
+   "w": "ojos.",
+   "ini": 9.255,
+   "fin": 9.687
+  },
+  {
+   "w": "Estás",
+   "ini": 9.837,
+   "fin": 10.16
+  },
+  {
+   "w": "descalzo,",
+   "ini": 10.171,
+   "fin": 10.699
+  },
+  {
+   "w": "en",
+   "ini": 10.849,
+   "fin": 10.989
+  },
+  {
+   "w": "pijama,",
+   "ini": 10.999,
+   "fin": 11.43
+  },
+  {
+   "w": "sobre",
+   "ini": 11.58,
+   "fin": 11.828
+  },
+  {
+   "w": "hielo.",
+   "ini": 11.839,
+   "fin": 12.184
+  },
+  {
+   "w": "Hace",
+   "ini": 12.334,
+   "fin": 12.582
+  },
+  {
+   "w": "dieciocho",
+   "ini": 12.593,
+   "fin": 13.045
+  },
+  {
+   "w": "mil",
+   "ini": 13.056,
+   "fin": 13.25
+  },
+  {
+   "w": "años.",
+   "ini": 13.261,
+   "fin": 13.681
+  },
+  {
+   "w": "En",
+   "ini": 13.841,
+   "fin": 14.003
+  },
+  {
+   "w": "tu",
+   "ini": 14.013,
+   "fin": 14.1
+  },
+  {
+   "w": "muñeca",
+   "ini": 14.11,
+   "fin": 14.509
+  },
+  {
+   "w": "hay",
+   "ini": 14.52,
+   "fin": 14.638
+  },
+  {
+   "w": "un",
+   "ini": 14.649,
+   "fin": 14.735
+  },
+  {
+   "w": "reloj",
+   "ini": 14.746,
+   "fin": 15.037
+  },
+  {
+   "w": "que",
+   "ini": 15.048,
+   "fin": 15.156
+  },
+  {
+   "w": "no",
+   "ini": 15.166,
+   "fin": 15.35
+  },
+  {
+   "w": "es",
+   "ini": 15.36,
+   "fin": 15.49
+  },
+  {
+   "w": "tuyo.",
+   "ini": 15.5,
+   "fin": 15.835
+  },
+  {
+   "w": "Cuenta",
+   "ini": 15.985,
+   "fin": 16.265
+  },
+  {
+   "w": "cuánto",
+   "ini": 16.275,
+   "fin": 16.545
+  },
+  {
+   "w": "duras",
+   "ini": 16.556,
+   "fin": 16.847
+  },
+  {
+   "w": "vivo.",
+   "ini": 16.857,
+   "fin": 17.17
+  },
+  {
+   "w": "Spoiler:",
+   "ini": 17.605,
+   "fin": 18.251
+  },
+  {
+   "w": "poco.",
+   "ini": 18.401,
+   "fin": 18.76
+  },
+  {
+   "w": "Cada",
+   "ini": 18.933,
+   "fin": 19.138
+  },
+  {
+   "w": "vez",
+   "ini": 19.149,
+   "fin": 19.321
+  },
+  {
+   "w": "que",
+   "ini": 19.332,
+   "fin": 19.418
+  },
+  {
+   "w": "mueras,",
+   "ini": 19.429,
+   "fin": 19.784
+  },
+  {
+   "w": "suena",
+   "ini": 19.934,
+   "fin": 20.214
+  },
+  {
+   "w": "la",
+   "ini": 20.225,
+   "fin": 20.333
+  },
+  {
+   "w": "alarma…",
+   "ini": 20.344,
+   "fin": 20.742
+  },
+  {
+   "w": "y",
+   "ini": 20.892,
+   "fin": 20.979
+  },
+  {
+   "w": "caes",
+   "ini": 20.989,
+   "fin": 21.334
+  },
+  {
+   "w": "en",
+   "ini": 21.345,
+   "fin": 21.442
+  },
+  {
+   "w": "otra",
+   "ini": 21.453,
+   "fin": 21.733
+  },
+  {
+   "w": "época.",
+   "ini": 21.744,
+   "fin": 22.153
+  },
+  {
+   "w": "Ocho",
+   "ini": 22.313,
+   "fin": 22.626
+  },
+  {
+   "w": "épocas.",
+   "ini": 22.636,
+   "fin": 23.175
+  },
+  {
+   "w": "Ocho",
+   "ini": 23.325,
+   "fin": 23.594
+  },
+  {
+   "w": "muertes.",
+   "ini": 23.605,
+   "fin": 24.144
+  },
+  {
+   "w": "Un",
+   "ini": 24.294,
+   "fin": 24.423
+  },
+  {
+   "w": "mamut,",
+   "ini": 24.434,
+   "fin": 24.757
+  },
+  {
+   "w": "un",
+   "ini": 24.907,
+   "fin": 24.983
+  },
+  {
+   "w": "volcán,",
+   "ini": 24.994,
+   "fin": 25.392
+  },
+  {
+   "w": "un",
+   "ini": 25.542,
+   "fin": 25.618
+  },
+  {
+   "w": "león",
+   "ini": 25.629,
+   "fin": 25.833
+  },
+  {
+   "w": "con",
+   "ini": 25.844,
+   "fin": 25.984
+  },
+  {
+   "w": "barbijo,",
+   "ini": 25.995,
+   "fin": 26.469
+  },
+  {
+   "w": "una",
+   "ini": 26.619,
+   "fin": 26.802
+  },
+  {
+   "w": "pulga.",
+   "ini": 26.813,
+   "fin": 27.201
+  },
+  {
+   "w": "Y",
+   "ini": 27.361,
+   "fin": 27.469
+  },
+  {
+   "w": "una",
+   "ini": 27.48,
+   "fin": 27.641
+  },
+  {
+   "w": "tabla",
+   "ini": 27.652,
+   "fin": 27.911
+  },
+  {
+   "w": "final",
+   "ini": 27.921,
+   "fin": 28.223
+  },
+  {
+   "w": "que",
+   "ini": 28.234,
+   "fin": 28.342
+  },
+  {
+   "w": "vas",
+   "ini": 28.352,
+   "fin": 28.557
+  },
+  {
+   "w": "a",
+   "ini": 28.568,
+   "fin": 28.622
+  },
+  {
+   "w": "querer",
+   "ini": 28.633,
+   "fin": 28.913
+  },
+  {
+   "w": "mandarle",
+   "ini": 28.924,
+   "fin": 29.344
+  },
+  {
+   "w": "a",
+   "ini": 29.355,
+   "fin": 29.43
+  },
+  {
+   "w": "alguien.",
+   "ini": 29.441,
+   "fin": 29.796
+  },
+  {
+   "w": "Antes",
+   "ini": 29.956,
+   "fin": 30.258
+  },
+  {
+   "w": "de",
+   "ini": 30.269,
+   "fin": 30.322
+  },
+  {
+   "w": "empezar,",
+   "ini": 30.333,
+   "fin": 30.753
+  },
+  {
+   "w": "haz",
+   "ini": 30.903,
+   "fin": 31.011
+  },
+  {
+   "w": "tu",
+   "ini": 31.022,
+   "fin": 31.087
+  },
+  {
+   "w": "apuesta:",
+   "ini": 31.097,
+   "fin": 31.518
+  },
+  {
+   "w": "¿en",
+   "ini": 31.668,
+   "fin": 31.808
+  },
+  {
+   "w": "cuál",
+   "ini": 31.819,
+   "fin": 31.98
+  },
+  {
+   "w": "de",
+   "ini": 31.991,
+   "fin": 32.066
+  },
+  {
+   "w": "las",
+   "ini": 32.077,
+   "fin": 32.239
+  },
+  {
+   "w": "ocho",
+   "ini": 32.25,
+   "fin": 32.454
+  },
+  {
+   "w": "durarías",
+   "ini": 32.465,
+   "fin": 32.928
+  },
+  {
+   "w": "más?",
+   "ini": 32.939,
+   "fin": 33.284
+  },
+  {
+   "w": "Guárdala.",
+   "ini": 33.444,
+   "fin": 33.961
+  },
+  {
+   "w": "Al",
+   "ini": 34.111,
+   "fin": 34.273
+  },
+  {
+   "w": "final",
+   "ini": 34.284,
+   "fin": 34.585
+  },
+  {
+   "w": "te",
+   "ini": 34.596,
+   "fin": 34.682
+  },
+  {
+   "w": "digo",
+   "ini": 34.693,
+   "fin": 34.93
+  },
+  {
+   "w": "si",
+   "ini": 34.941,
+   "fin": 35.07
+  },
+  {
+   "w": "ganaste.",
+   "ini": 35.081,
+   "fin": 35.534
+  },
+  {
+   "w": "Una",
+   "ini": 35.694,
+   "fin": 35.888
+  },
+  {
+   "w": "pista:",
+   "ini": 35.899,
+   "fin": 36.233
+  },
+  {
+   "w": "lo",
+   "ini": 36.383,
+   "fin": 36.469
+  },
+  {
+   "w": "que",
+   "ini": 36.48,
+   "fin": 36.566
+  },
+  {
+   "w": "más",
+   "ini": 36.577,
+   "fin": 36.792
+  },
+  {
+   "w": "mata",
+   "ini": 36.803,
+   "fin": 37.019
+  },
+  {
+   "w": "en",
+   "ini": 37.029,
+   "fin": 37.094
+  },
+  {
+   "w": "este",
+   "ini": 37.105,
+   "fin": 37.288
+  },
+  {
+   "w": "juego…",
+   "ini": 37.299,
+   "fin": 37.622
+  },
+  {
+   "w": "no",
+   "ini": 37.772,
+   "fin": 37.944
+  },
+  {
+   "w": "es",
+   "ini": 37.955,
+   "fin": 38.095
+  },
+  {
+   "w": "lo",
+   "ini": 38.106,
+   "fin": 38.181
+  },
+  {
+   "w": "que",
+   "ini": 38.192,
+   "fin": 38.278
+  },
+  {
+   "w": "más",
+   "ini": 38.289,
+   "fin": 38.494
+  },
+  {
+   "w": "asusta.",
+   "ini": 38.505,
+   "fin": 38.947
+  },
+  {
+   "w": "Empezamos.",
+   "ini": 39.182,
+   "fin": 39.995
+  },
+  {
+   "w": "Y",
+   "ini": 40.145,
+   "fin": 40.277
+  },
+  {
+   "w": "no,",
+   "ini": 40.289,
+   "fin": 40.528
+  },
+  {
+   "w": "no",
+   "ini": 40.678,
+   "fin": 40.81
+  },
+  {
+   "w": "puedes",
+   "ini": 40.822,
+   "fin": 41.157
+  },
+  {
+   "w": "apagarme.",
+   "ini": 41.169,
+   "fin": 41.731
+  }
+ ],
+ "recap": {
+  "vidas": 8,
+  "previas": [],
+  "titulo": "TRÁILER",
+  "jefe": ""
+ },
+ "estilo": "gancho",
+ "fin_voz": 41.884
+}

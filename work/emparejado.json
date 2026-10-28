@@ -1,0 +1,537 @@
+{
+ "004": {
+  "archivo": "img_002.jpg",
+  "confianza": "alta",
+  "alternativas": [
+   "img_004.jpg"
+  ]
+ },
+ "005": {
+  "archivo": "img_003.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "006": {
+  "archivo": "img_001.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "007": {
+  "archivo": "img_010.jpg",
+  "confianza": "media",
+  "alternativas": [],
+  "nota": "Pijama de pie (no acostado) bajo un sol enorme; el prompt pide acostado de espaldas"
+ },
+ "008": {
+  "archivo": "img_016.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "009": {
+  "archivo": "img_008.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "010": {
+  "archivo": "img_011.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "011": {
+  "archivo": "img_014.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "012": {
+  "archivo": "img_009.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "013": {
+  "archivo": "img_005.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "014": {
+  "archivo": "img_020.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "015": {
+  "archivo": "img_015.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "016": {
+  "archivo": "img_007.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "017": {
+  "archivo": "img_006.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "018": {
+  "archivo": "img_019.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "019": {
+  "archivo": "img_013.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "020": {
+  "archivo": "img_018.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "021": {
+  "archivo": "img_017.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "022": {
+  "archivo": "img_024.jpg",
+  "confianza": "alta",
+  "alternativas": [
+   "img_021.jpg"
+  ]
+ },
+ "023": {
+  "archivo": "img_022.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "024": {
+  "archivo": "img_023.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "025": {
+  "archivo": "img_025.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "026": {
+  "archivo": "img_033.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "027": {
+  "archivo": "img_029.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "028": {
+  "archivo": "img_035.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "029": {
+  "archivo": "img_038.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "030": {
+  "archivo": "img_028.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "031": {
+  "archivo": "img_032.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "032": {
+  "archivo": "img_030.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "033": {
+  "archivo": "img_027.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "035": {
+  "archivo": "img_039.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "036": {
+  "archivo": "img_041.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "037": {
+  "archivo": "img_049.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "038": {
+  "archivo": "img_053.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "039": {
+  "archivo": "img_054.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "040": {
+  "archivo": "img_052.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "041": {
+  "archivo": "img_048.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "042": {
+  "archivo": "img_051.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "043": {
+  "archivo": "img_056.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "044": {
+  "archivo": "img_045.jpg",
+  "confianza": "alta",
+  "alternativas": [
+   "img_050.jpg"
+  ]
+ },
+ "045": {
+  "archivo": "img_044.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "046": {
+  "archivo": "img_055.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "047": {
+  "archivo": "img_058.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "048": {
+  "archivo": "img_061.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "049": {
+  "archivo": "img_060.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "050": {
+  "archivo": "img_063.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "051": {
+  "archivo": "img_062.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "052": {
+  "archivo": "img_071.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "053": {
+  "archivo": "img_064.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "054": {
+  "archivo": "img_066.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "055": {
+  "archivo": "img_072.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "056": {
+  "archivo": "img_074.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "057": {
+  "archivo": "img_079.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "058": {
+  "archivo": "img_076.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "059": {
+  "archivo": "img_077.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "060": {
+  "archivo": "img_067.jpg",
+  "confianza": "media",
+  "alternativas": [],
+  "nota": "Pijama de cuerpo entero encogiéndose de hombros con el pie levantado; el prompt pide primer plano del pie con el corte y la espina"
+ },
+ "061": {
+  "archivo": "img_080.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "062": {
+  "archivo": "img_081.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "063": {
+  "archivo": "img_082.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "064": {
+  "archivo": "img_083.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "065": {
+  "archivo": "img_091.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "066": {
+  "archivo": "img_094.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "067": {
+  "archivo": "img_089.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "068": {
+  "archivo": "img_093.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "069": {
+  "archivo": "img_088.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "070": {
+  "archivo": "img_084.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "071": {
+  "archivo": "img_086.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "072": {
+  "archivo": "img_092.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "073": {
+  "archivo": "img_099.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "074": {
+  "archivo": "img_090.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "075": {
+  "archivo": "img_097.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "076": {
+  "archivo": "img_087.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "077": {
+  "archivo": "img_095.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "078": {
+  "archivo": "img_102.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "079": {
+  "archivo": "img_109.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "080": {
+  "archivo": "img_105.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "081": {
+  "archivo": "img_104.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "082": {
+  "archivo": "img_106.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "083": {
+  "archivo": "img_107.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "085": {
+  "archivo": "img_103.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "086": {
+  "archivo": "img_034.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "087": {
+  "archivo": "img_026.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "088": {
+  "archivo": "img_037.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "089": {
+  "archivo": "img_031.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "090": {
+  "archivo": "img_036.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "091": {
+  "archivo": "img_040.jpg",
+  "confianza": "alta",
+  "alternativas": [
+   "img_042.jpg"
+  ]
+ },
+ "092": {
+  "archivo": "img_043.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "093": {
+  "archivo": "img_046.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "094": {
+  "archivo": "img_059.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "095": {
+  "archivo": "img_047.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "096": {
+  "archivo": "img_057.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "097": {
+  "archivo": "img_073.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "098": {
+  "archivo": "img_068.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "099": {
+  "archivo": "img_065.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "100": {
+  "archivo": "img_070.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "101": {
+  "archivo": "img_078.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "102": {
+  "archivo": "img_069.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "103": {
+  "archivo": "img_075.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "104": {
+  "archivo": "img_096.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "105": {
+  "archivo": "img_098.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "106": {
+  "archivo": "img_085.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "107": {
+  "archivo": "img_100.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "108": {
+  "archivo": "img_101.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "109": {
+  "archivo": "img_108.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ },
+ "112": {
+  "archivo": "img_012.jpg",
+  "confianza": "alta",
+  "alternativas": []
+ }
+}

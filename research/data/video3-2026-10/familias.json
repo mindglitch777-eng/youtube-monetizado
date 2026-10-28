@@ -1,0 +1,142 @@
+[
+ {
+  "familia": "dia1_a_dia30_supervivencia",
+  "videos": 16,
+  "mediana_vistas_dia": 39510,
+  "canales_chicos": 10,
+  "mediana_vd_chicos": 39510,
+  "videos_es": 3,
+  "mediana_vd_es": 12354,
+  "mediana_outlier": 5.4
+ },
+ {
+  "familia": "que_hacian_todo_el_dia",
+  "videos": 7,
+  "mediana_vistas_dia": 16503,
+  "canales_chicos": 5,
+  "mediana_vd_chicos": 4347,
+  "videos_es": 1,
+  "mediana_vd_es": 54373,
+  "mediana_outlier": 11.8
+ },
+ {
+  "familia": "vs_pelea",
+  "videos": 26,
+  "mediana_vistas_dia": 3694,
+  "canales_chicos": 11,
+  "mediana_vd_chicos": 4045,
+  "videos_es": 15,
+  "mediana_vd_es": 3810,
+  "mediana_outlier": 1.4
+ },
+ {
+  "familia": "que_pasaria_si",
+  "videos": 131,
+  "mediana_vistas_dia": 4200,
+  "canales_chicos": 75,
+  "mediana_vd_chicos": 2857,
+  "videos_es": 58,
+  "mediana_vd_es": 2832,
+  "mediana_outlier": 2.1
+ },
+ {
+  "familia": "every_x_explained",
+  "videos": 183,
+  "mediana_vistas_dia": 3135,
+  "canales_chicos": 104,
+  "mediana_vd_chicos": 2267,
+  "videos_es": 92,
+  "mediana_vd_es": 1639,
+  "mediana_outlier": 2.0
+ },
+ {
+  "familia": "dormir_compilado",
+  "videos": 132,
+  "mediana_vistas_dia": 1922,
+  "canales_chicos": 94,
+  "mediana_vd_chicos": 1186,
+  "videos_es": 72,
+  "mediana_vd_es": 1144,
+  "mediana_outlier": 2.7
+ },
+ {
+  "familia": "pov_segunda_persona",
+  "videos": 89,
+  "mediana_vistas_dia": 1923,
+  "canales_chicos": 62,
+  "mediana_vd_chicos": 904,
+  "videos_es": 54,
+  "mediana_vd_es": 575,
+  "mediana_outlier": 1.4
+ },
+ {
+  "familia": "otros",
+  "videos": 1437,
+  "mediana_vistas_dia": 1773,
+  "canales_chicos": 771,
+  "mediana_vd_chicos": 245,
+  "videos_es": 651,
+  "mediana_vd_es": 915,
+  "mediana_outlier": 1.1
+ },
+ {
+  "familia": "lista_numero",
+  "videos": 242,
+  "mediana_vistas_dia": 1427,
+  "canales_chicos": 140,
+  "mediana_vd_chicos": 130,
+  "videos_es": 180,
+  "mediana_vd_es": 1480,
+  "mediana_outlier": 0.8
+ },
+ {
+  "familia": "misterio_perdido",
+  "videos": 116,
+  "mediana_vistas_dia": 200,
+  "canales_chicos": 79,
+  "mediana_vd_chicos": 70,
+  "videos_es": 69,
+  "mediana_vd_es": 52,
+  "mediana_outlier": 1.1
+ },
+ {
+  "familia": "sentir_cuerpo",
+  "videos": 11,
+  "mediana_vistas_dia": 36,
+  "canales_chicos": 11,
+  "mediana_vd_chicos": 36,
+  "videos_es": 1,
+  "mediana_vd_es": 12395,
+  "mediana_outlier": 3.5
+ },
+ {
+  "familia": "cuanto_durarias",
+  "videos": 64,
+  "mediana_vistas_dia": 26,
+  "canales_chicos": 62,
+  "mediana_vd_chicos": 24,
+  "videos_es": 49,
+  "mediana_vd_es": 17,
+  "mediana_outlier": 1.2
+ },
+ {
+  "familia": "asi_era_hace_x",
+  "videos": 29,
+  "mediana_vistas_dia": 7,
+  "canales_chicos": 28,
+  "mediana_vd_chicos": 6,
+  "videos_es": 20,
+  "mediana_vd_es": 6,
+  "mediana_outlier": 0.3
+ },
+ {
+  "familia": "peores_de_la_historia",
+  "videos": 59,
+  "mediana_vistas_dia": 3,
+  "canales_chicos": 56,
+  "mediana_vd_chicos": 3,
+  "videos_es": 39,
+  "mediana_vd_es": 1,
+  "mediana_outlier": 0.5
+ }
+]

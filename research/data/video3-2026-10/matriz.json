@@ -1,0 +1,307 @@
+{
+ "criterios": [
+  [
+   "dem",
+   "Demanda probada",
+   20
+  ],
+  [
+   "vel",
+   "Velocidad en canales chicos",
+   15
+  ],
+  [
+   "hue",
+   "Hueco en español",
+   15
+  ],
+  [
+   "bus",
+   "Búsquedas",
+   10
+  ],
+  [
+   "gan",
+   "Fuerza del gancho",
+   10
+  ],
+  [
+   "enc",
+   "Encaje con Pijama",
+   10
+  ],
+  [
+   "mon",
+   "Monetización",
+   10
+  ],
+  [
+   "sho",
+   "Shorts",
+   5
+  ],
+  [
+   "ser",
+   "Serie",
+   5
+  ]
+ ],
+ "ideas": [
+  {
+   "id": "E",
+   "idea": "Pijama sobrevive del día 1 al día 30 en una época (peste negra 1348)",
+   "notas": {
+    "dem": 5,
+    "vel": 5,
+    "hue": 5,
+    "bus": 2,
+    "gan": 5,
+    "enc": 5,
+    "mon": 4,
+    "sho": 5,
+    "ser": 5
+   },
+   "puntaje": 92.0
+  },
+  {
+   "id": "B",
+   "idea": "¿Qué hacía REALMENTE la gente en la Edad Media todo el día?",
+   "notas": {
+    "dem": 5,
+    "vel": 5,
+    "hue": 3,
+    "bus": 5,
+    "gan": 4,
+    "enc": 5,
+    "mon": 4,
+    "sho": 4,
+    "ser": 5
+   },
+   "puntaje": 89.0
+  },
+  {
+   "id": "R",
+   "idea": "¿Contra qué especie humana ganarías una pelea?",
+   "notas": {
+    "dem": 5,
+    "vel": 4,
+    "hue": 5,
+    "bus": 3,
+    "gan": 5,
+    "enc": 4,
+    "mon": 4,
+    "sho": 5,
+    "ser": 4
+   },
+   "puntaje": 88.0
+  },
+  {
+   "id": "D",
+   "idea": "¿Cómo dormían en la Edad de Hielo sin morir congelados?",
+   "notas": {
+    "dem": 5,
+    "vel": 5,
+    "hue": 4,
+    "bus": 4,
+    "gan": 4,
+    "enc": 4,
+    "mon": 5,
+    "sho": 3,
+    "ser": 4
+   },
+   "puntaje": 88.0
+  },
+  {
+   "id": "I",
+   "idea": "Qué te pasaría DE VERDAD si viajaras al pasado",
+   "notas": {
+    "dem": 4,
+    "vel": 5,
+    "hue": 5,
+    "bus": 3,
+    "gan": 5,
+    "enc": 5,
+    "mon": 4,
+    "sho": 4,
+    "ser": 3
+   },
+   "puntaje": 87.0
+  },
+  {
+   "id": "A",
+   "idea": "¿Cuánto durarías en cada continente en la Edad de Hielo?",
+   "notas": {
+    "dem": 5,
+    "vel": 4,
+    "hue": 4,
+    "bus": 5,
+    "gan": 4,
+    "enc": 4,
+    "mon": 4,
+    "sho": 4,
+    "ser": 4
+   },
+   "puntaje": 86.0
+  },
+  {
+   "id": "L",
+   "idea": "Pijama come un día entero en cada época: qué le pasa a su cuerpo",
+   "notas": {
+    "dem": 4,
+    "vel": 4,
+    "hue": 4,
+    "bus": 5,
+    "gan": 4,
+    "enc": 5,
+    "mon": 4,
+    "sho": 5,
+    "ser": 4
+   },
+   "puntaje": 85.0
+  },
+  {
+   "id": "C",
+   "idea": "Los peores años para estar vivo (536, 1348, 1816…)",
+   "notas": {
+    "dem": 5,
+    "vel": 4,
+    "hue": 5,
+    "bus": 3,
+    "gan": 5,
+    "enc": 3,
+    "mon": 3,
+    "sho": 5,
+    "ser": 3
+   },
+   "puntaje": 83.0
+  },
+  {
+   "id": "G",
+   "idea": "Los peores trabajos de la historia: ¿cuánto durarías en cada uno?",
+   "notas": {
+    "dem": 4,
+    "vel": 3,
+    "hue": 4,
+    "bus": 3,
+    "gan": 4,
+    "enc": 5,
+    "mon": 4,
+    "sho": 5,
+    "ser": 4
+   },
+   "puntaje": 78.0
+  },
+  {
+   "id": "K",
+   "idea": "Una noche de −40 °C dentro de un castillo medieval",
+   "notas": {
+    "dem": 4,
+    "vel": 4,
+    "hue": 3,
+    "bus": 3,
+    "gan": 4,
+    "enc": 4,
+    "mon": 4,
+    "sho": 3,
+    "ser": 3
+   },
+   "puntaje": 73.0
+  },
+  {
+   "id": "F",
+   "idea": "Qué se siente cada castigo medieval",
+   "notas": {
+    "dem": 4,
+    "vel": 4,
+    "hue": 3,
+    "bus": 4,
+    "gan": 5,
+    "enc": 3,
+    "mon": 2,
+    "sho": 4,
+    "ser": 3
+   },
+   "puntaje": 72.0
+  },
+  {
+   "id": "J",
+   "idea": "¿Qué hacían los humanos antiguos cuando llovía una semana?",
+   "notas": {
+    "dem": 4,
+    "vel": 3,
+    "hue": 2,
+    "bus": 5,
+    "gan": 3,
+    "enc": 4,
+    "mon": 4,
+    "sho": 3,
+    "ser": 4
+   },
+   "puntaje": 70.0
+  },
+  {
+   "id": "Q",
+   "idea": "El iceberg de la historia oscura",
+   "notas": {
+    "dem": 4,
+    "vel": 3,
+    "hue": 3,
+    "bus": 4,
+    "gan": 4,
+    "enc": 3,
+    "mon": 3,
+    "sho": 4,
+    "ser": 3
+   },
+   "puntaje": 69.0
+  },
+  {
+   "id": "P",
+   "idea": "¿Sobrevivirías? Historia interactiva: elige y te digo si mueres",
+   "notas": {
+    "dem": 3,
+    "vel": 3,
+    "hue": 5,
+    "bus": 2,
+    "gan": 4,
+    "enc": 4,
+    "mon": 3,
+    "sho": 3,
+    "ser": 4
+   },
+   "puntaje": 69.0
+  },
+  {
+   "id": "H",
+   "idea": "Historia aburrida para dormir: 2 horas con Pijama",
+   "notas": {
+    "dem": 4,
+    "vel": 2,
+    "hue": 3,
+    "bus": 5,
+    "gan": 1,
+    "enc": 3,
+    "mon": 5,
+    "sho": 1,
+    "ser": 5
+   },
+   "puntaje": 65.0
+  },
+  {
+   "id": "M",
+   "idea": "Cada desastre que cambió la historia",
+   "notas": {
+    "dem": 3,
+    "vel": 3,
+    "hue": 3,
+    "bus": 3,
+    "gan": 3,
+    "enc": 3,
+    "mon": 4,
+    "sho": 3,
+    "ser": 3
+   },
+   "puntaje": 62.0
+  }
+ ]
+}

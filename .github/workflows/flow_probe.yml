@@ -1,0 +1,36 @@
+name: Flow · prueba de acceso
+
+# Abre Google Flow en el Chrome del runner con la sesión del secret FLOW_COOKIES,
+# saca capturas y un mapa de botones, y lo sube a la rama flow-out para revisarlo.
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - video3/flow_probe.txt
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: pip install -q playwright
+      - name: Abrir Flow
+        env:
+          FLOW_COOKIES: ${{ secrets.FLOW_COOKIES }}
+        run: python3 video3/tools/flow_bot.py probe
+      - name: Subir capturas a la rama flow-out
+        if: always()
+        run: |
+          mkdir -p flow_out && cd flow_out
+          git init -q -b flow-out
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A && git commit -q -m "Flow: prueba de acceso" || exit 0
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" flow-out

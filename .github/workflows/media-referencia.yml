@@ -1,0 +1,46 @@
+name: Miniaturas y transcripciones de referencia
+
+# Baja miniaturas (research/miniaturas.json) y transcripciones
+# (research/transcribir.txt) desde GitHub Actions, que tiene internet
+# abierto, y las commitea de vuelta en la misma rama. Ver
+# research/media_referencia.py para los métodos que prueba.
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - research/miniaturas.json
+      - research/transcribir.txt
+      - research/media_referencia.py
+      - .github/workflows/media-referencia.yml
+
+permissions:
+  contents: write
+
+jobs:
+  media:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+      - name: Dependencias
+        run: pip install -U yt-dlp youtube-transcript-api bgutil-ytdlp-pot-provider requests pillow
+      - name: Servidor de PO token (bgutil)
+        run: |
+          docker run -d --name bgutil -p 4416:4416 brainicism/bgutil-ytdlp-pot-provider || echo "no arrancó el servidor de PO token"
+          sleep 5
+      - name: Bajar miniaturas y transcripciones
+        run: python3 research/media_referencia.py
+      - name: Commitear resultados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add research/miniaturas research/transcripciones research/media_referencia.log || true
+          git commit -m "Miniaturas y transcripciones de referencia (workflow)" || echo "nada nuevo"
+          git push

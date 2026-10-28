@@ -1,0 +1,1064 @@
+{
+ "duracion": 45.56,
+ "n": 4,
+ "planos": [
+  {
+   "ini": 0.0,
+   "tipo": "img",
+   "id": "095",
+   "cam": "WS",
+   "tr": "FLASH",
+   "epoca": 4,
+   "vertical": false,
+   "fin": 2.371
+  },
+  {
+   "ini": 2.371,
+   "tipo": "img",
+   "id": "096",
+   "cam": "EC",
+   "tr": "",
+   "epoca": 4,
+   "vertical": false,
+   "fin": 4.094
+  },
+  {
+   "ini": 4.094,
+   "tipo": "img",
+   "id": "097",
+   "cam": "MS",
+   "tr": "GAME",
+   "epoca": 4,
+   "vertical": false,
+   "fin": 5.924
+  },
+  {
+   "ini": 5.924,
+   "fin": 7.754,
+   "tipo": "img",
+   "id": "234",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 4,
+   "vertical": true
+  },
+  {
+   "ini": 7.754,
+   "tipo": "img",
+   "id": "098",
+   "cam": "BE",
+   "tr": "",
+   "epoca": 4,
+   "vertical": false,
+   "fin": 9.896
+  },
+  {
+   "ini": 9.896,
+   "fin": 12.039,
+   "tipo": "img",
+   "id": "102",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 4,
+   "vertical": false
+  },
+  {
+   "ini": 12.039,
+   "tipo": "img",
+   "id": "095",
+   "cam": "WS",
+   "tr": "FLASH",
+   "epoca": 4,
+   "vertical": false,
+   "fin": 14.173
+  },
+  {
+   "ini": 14.173,
+   "tipo": "img",
+   "id": "097",
+   "cam": "MS",
+   "tr": "GAME",
+   "epoca": 4,
+   "vertical": false,
+   "fin": 15.756
+  },
+  {
+   "ini": 15.756,
+   "fin": 17.338,
+   "tipo": "img",
+   "id": "104",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 4,
+   "vertical": false
+  },
+  {
+   "ini": 17.338,
+   "tipo": "img",
+   "id": "101",
+   "cam": "LA",
+   "tr": "PUNCH",
+   "epoca": 4,
+   "vertical": false,
+   "fin": 18.525
+  },
+  {
+   "ini": 18.525,
+   "tipo": "img",
+   "id": "234",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 4,
+   "vertical": true,
+   "fin": 19.127
+  },
+  {
+   "ini": 19.127,
+   "tipo": "img",
+   "id": "102",
+   "cam": "WS",
+   "tr": "PUNCH",
+   "epoca": 4,
+   "vertical": false,
+   "fin": 19.662
+  },
+  {
+   "ini": 19.662,
+   "tipo": "img",
+   "id": "103",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 4,
+   "vertical": false,
+   "fin": 21.131
+  },
+  {
+   "ini": 21.131,
+   "fin": 22.6,
+   "tipo": "img",
+   "id": "108",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 4,
+   "vertical": false
+  },
+  {
+   "ini": 22.6,
+   "tipo": "img",
+   "id": "104",
+   "cam": "EC",
+   "tr": "PUNCH",
+   "epoca": 4,
+   "vertical": false,
+   "fin": 23.162
+  },
+  {
+   "ini": 23.162,
+   "tipo": "img",
+   "id": "105",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 4,
+   "vertical": false,
+   "fin": 23.7
+  },
+  {
+   "ini": 23.7,
+   "tipo": "img",
+   "id": "106",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 4,
+   "vertical": false,
+   "fin": 25.612
+  },
+  {
+   "ini": 25.612,
+   "tipo": "img",
+   "id": "107",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 4,
+   "vertical": false,
+   "fin": 27.075
+  },
+  {
+   "ini": 27.075,
+   "fin": 28.537,
+   "tipo": "img",
+   "id": "112",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 4,
+   "vertical": false
+  },
+  {
+   "ini": 28.537,
+   "tipo": "img",
+   "id": "108",
+   "cam": "EC",
+   "tr": "SMASH",
+   "epoca": 4,
+   "vertical": false,
+   "fin": 30.036
+  },
+  {
+   "ini": 30.036,
+   "tipo": "img",
+   "id": "109",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 4,
+   "vertical": false,
+   "fin": 32.123
+  },
+  {
+   "ini": 32.123,
+   "tipo": "img",
+   "id": "110",
+   "cam": "MS",
+   "tr": "PUNCH",
+   "epoca": 4,
+   "vertical": false,
+   "fin": 33.48
+  },
+  {
+   "ini": 33.48,
+   "fin": 34.836,
+   "tipo": "img",
+   "id": "116",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 4,
+   "vertical": false
+  },
+  {
+   "ini": 34.836,
+   "tipo": "img",
+   "id": "111",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 4,
+   "vertical": false,
+   "fin": 36.741
+  },
+  {
+   "ini": 36.741,
+   "tipo": "img",
+   "id": "112",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 4,
+   "vertical": false,
+   "congelar": 38.259,
+   "fin": 38.559
+  },
+  {
+   "ini": 38.559,
+   "tipo": "negro",
+   "fin": 38.679
+  },
+  {
+   "ini": 38.679,
+   "tipo": "img",
+   "id": "113",
+   "cam": "EC",
+   "tr": "SMASH",
+   "epoca": 4,
+   "vertical": false,
+   "fin": 40.713
+  },
+  {
+   "ini": 40.713,
+   "tipo": "img",
+   "id": "115",
+   "cam": "WS",
+   "tr": "SMASH",
+   "epoca": 4,
+   "vertical": false,
+   "fin": 41.994
+  },
+  {
+   "ini": 41.994,
+   "tipo": "img",
+   "id": "116",
+   "cam": "WS",
+   "tr": "MATCH",
+   "epoca": 4,
+   "vertical": false,
+   "fin": 44.06
+  },
+  {
+   "ini": 44.06,
+   "tipo": "tarjeta",
+   "n": 4,
+   "fin": 45.56
+  }
+ ],
+ "textos": [
+  {
+   "ini": 0.1,
+   "texto": "ROMA · AÑO 100",
+   "id": "095",
+   "fin": 2.371
+  },
+  {
+   "ini": 4.194,
+   "texto": "MUERTES: 3 · ÉPOCA 4/8",
+   "id": "097",
+   "fin": 5.924
+  },
+  {
+   "ini": 7.854,
+   "texto": "CERCA DE 1.000.000 DE HABITANTES",
+   "id": "098",
+   "fin": 9.896
+  },
+  {
+   "ini": 12.139,
+   "texto": "ROMA · AÑO 100",
+   "id": "095",
+   "fin": 13.339
+  },
+  {
+   "ini": 14.273,
+   "texto": "REPETICIÓN",
+   "id": "097",
+   "fin": 15.473
+  },
+  {
+   "ini": 25.712,
+   "texto": "25 AÑOS",
+   "id": "107",
+   "fin": 27.075
+  },
+  {
+   "ini": 28.637,
+   "texto": "MENTIRA",
+   "id": "108",
+   "fin": 29.837
+  },
+  {
+   "ini": 30.136,
+   "texto": "CASI LA MITAD · ANTES DE LOS 10",
+   "id": "109",
+   "fin": 32.123
+  },
+  {
+   "ini": 32.223,
+   "texto": "~50 AÑOS",
+   "id": "110",
+   "fin": 33.48
+  },
+  {
+   "ini": 38.779,
+   "texto": "6:07",
+   "id": "113",
+   "fin": 40.713
+  },
+  {
+   "ini": 42.094,
+   "texto": "MITAD DEL JUEGO",
+   "id": "116",
+   "fin": 43.294
+  }
+ ],
+ "subs": [
+  {
+   "w": "¡Y",
+   "ini": 0.02,
+   "fin": 0.182
+  },
+  {
+   "w": "entra",
+   "ini": 0.192,
+   "fin": 0.462
+  },
+  {
+   "w": "a",
+   "ini": 0.473,
+   "fin": 0.505
+  },
+  {
+   "w": "la",
+   "ini": 0.516,
+   "fin": 0.623
+  },
+  {
+   "w": "arena…",
+   "ini": 0.634,
+   "fin": 0.958
+  },
+  {
+   "w": "el",
+   "ini": 1.108,
+   "fin": 1.269
+  },
+  {
+   "w": "hombre",
+   "ini": 1.28,
+   "fin": 1.485
+  },
+  {
+   "w": "del",
+   "ini": 1.495,
+   "fin": 1.646
+  },
+  {
+   "w": "pijama!",
+   "ini": 1.657,
+   "fin": 2.12
+  },
+  {
+   "w": "Despiertas",
+   "ini": 2.391,
+   "fin": 2.984
+  },
+  {
+   "w": "con",
+   "ini": 2.994,
+   "fin": 3.145
+  },
+  {
+   "w": "un",
+   "ini": 3.156,
+   "fin": 3.275
+  },
+  {
+   "w": "ruido",
+   "ini": 3.285,
+   "fin": 3.555
+  },
+  {
+   "w": "enorme.",
+   "ini": 3.566,
+   "fin": 3.953
+  },
+  {
+   "w": "Tercera",
+   "ini": 4.114,
+   "fin": 4.48
+  },
+  {
+   "w": "muerte,",
+   "ini": 4.491,
+   "fin": 4.879
+  },
+  {
+   "w": "cuarta",
+   "ini": 5.029,
+   "fin": 5.395
+  },
+  {
+   "w": "época.",
+   "ini": 5.406,
+   "fin": 5.816
+  },
+  {
+   "w": "Y",
+   "ini": 5.966,
+   "fin": 6.127
+  },
+  {
+   "w": "esta",
+   "ini": 6.138,
+   "fin": 6.343
+  },
+  {
+   "w": "vez",
+   "ini": 6.354,
+   "fin": 6.569
+  },
+  {
+   "w": "lo",
+   "ini": 6.58,
+   "fin": 6.655
+  },
+  {
+   "w": "mira",
+   "ini": 6.666,
+   "fin": 6.914
+  },
+  {
+   "w": "todo",
+   "ini": 6.925,
+   "fin": 7.162
+  },
+  {
+   "w": "el",
+   "ini": 7.173,
+   "fin": 7.237
+  },
+  {
+   "w": "mundo.",
+   "ini": 7.248,
+   "fin": 7.614
+  },
+  {
+   "w": "Estás",
+   "ini": 7.774,
+   "fin": 8.13
+  },
+  {
+   "w": "en",
+   "ini": 8.14,
+   "fin": 8.237
+  },
+  {
+   "w": "Roma.",
+   "ini": 8.248,
+   "fin": 8.593
+  },
+  {
+   "w": "Año",
+   "ini": 8.743,
+   "fin": 9.002
+  },
+  {
+   "w": "cien,",
+   "ini": 9.012,
+   "fin": 9.293
+  },
+  {
+   "w": "más",
+   "ini": 9.443,
+   "fin": 9.647
+  },
+  {
+   "w": "o",
+   "ini": 9.658,
+   "fin": 9.701
+  },
+  {
+   "w": "menos.",
+   "ini": 9.712,
+   "fin": 10.143
+  },
+  {
+   "w": "Cerca",
+   "ini": 10.293,
+   "fin": 10.681
+  },
+  {
+   "w": "de",
+   "ini": 10.692,
+   "fin": 10.799
+  },
+  {
+   "w": "un",
+   "ini": 10.81,
+   "fin": 10.918
+  },
+  {
+   "w": "millón",
+   "ini": 10.929,
+   "fin": 11.209
+  },
+  {
+   "w": "de",
+   "ini": 11.22,
+   "fin": 11.274
+  },
+  {
+   "w": "habitantes.",
+   "ini": 11.284,
+   "fin": 11.899
+  },
+  {
+   "w": "Miren",
+   "ini": 12.059,
+   "fin": 12.382
+  },
+  {
+   "w": "cómo",
+   "ini": 12.393,
+   "fin": 12.598
+  },
+  {
+   "w": "camina,",
+   "ini": 12.609,
+   "fin": 12.964
+  },
+  {
+   "w": "damas",
+   "ini": 13.114,
+   "fin": 13.394
+  },
+  {
+   "w": "y",
+   "ini": 13.405,
+   "fin": 13.448
+  },
+  {
+   "w": "caballeros.",
+   "ini": 13.459,
+   "fin": 14.073
+  },
+  {
+   "w": "Descalzo.",
+   "ini": 14.223,
+   "fin": 14.827
+  },
+  {
+   "w": "Con",
+   "ini": 14.977,
+   "fin": 15.117
+  },
+  {
+   "w": "estrellas.",
+   "ini": 15.128,
+   "fin": 15.753
+  },
+  {
+   "w": "Esto",
+   "ini": 15.903,
+   "fin": 16.183
+  },
+  {
+   "w": "no",
+   "ini": 16.193,
+   "fin": 16.323
+  },
+  {
+   "w": "lo",
+   "ini": 16.334,
+   "fin": 16.42
+  },
+  {
+   "w": "vimos",
+   "ini": 16.431,
+   "fin": 16.722
+  },
+  {
+   "w": "nunca.",
+   "ini": 16.732,
+   "fin": 17.088
+  },
+  {
+   "w": "Se",
+   "ini": 17.358,
+   "fin": 17.606
+  },
+  {
+   "w": "abre",
+   "ini": 17.617,
+   "fin": 17.821
+  },
+  {
+   "w": "una",
+   "ini": 17.832,
+   "fin": 18.005
+  },
+  {
+   "w": "puerta.",
+   "ini": 18.015,
+   "fin": 18.425
+  },
+  {
+   "w": "Sale…",
+   "ini": 18.575,
+   "fin": 18.909
+  },
+  {
+   "w": "un",
+   "ini": 19.059,
+   "fin": 19.167
+  },
+  {
+   "w": "león.",
+   "ini": 19.177,
+   "fin": 19.522
+  },
+  {
+   "w": "Sí,",
+   "ini": 19.682,
+   "fin": 20.016
+  },
+  {
+   "w": "el",
+   "ini": 20.166,
+   "fin": 20.285
+  },
+  {
+   "w": "mismo",
+   "ini": 20.295,
+   "fin": 20.608
+  },
+  {
+   "w": "del",
+   "ini": 20.619,
+   "fin": 20.748
+  },
+  {
+   "w": "video",
+   "ini": 20.759,
+   "fin": 21.028
+  },
+  {
+   "w": "anterior.",
+   "ini": 21.039,
+   "fin": 21.545
+  },
+  {
+   "w": "Con",
+   "ini": 21.695,
+   "fin": 21.846
+  },
+  {
+   "w": "su",
+   "ini": 21.857,
+   "fin": 21.976
+  },
+  {
+   "w": "barbijo.",
+   "ini": 21.986,
+   "fin": 22.46
+  },
+  {
+   "w": "Te",
+   "ini": 22.62,
+   "fin": 22.717
+  },
+  {
+   "w": "mira.",
+   "ini": 22.728,
+   "fin": 23.062
+  },
+  {
+   "w": "Tose.",
+   "ini": 23.212,
+   "fin": 23.6
+  },
+  {
+   "w": "Y",
+   "ini": 23.75,
+   "fin": 23.847
+  },
+  {
+   "w": "se",
+   "ini": 23.857,
+   "fin": 24.008
+  },
+  {
+   "w": "va.",
+   "ini": 24.019,
+   "fin": 24.289
+  },
+  {
+   "w": "Ahora,",
+   "ini": 24.449,
+   "fin": 24.869
+  },
+  {
+   "w": "un",
+   "ini": 25.019,
+   "fin": 25.127
+  },
+  {
+   "w": "dato:",
+   "ini": 25.138,
+   "fin": 25.472
+  },
+  {
+   "w": "Dicen",
+   "ini": 25.632,
+   "fin": 26.009
+  },
+  {
+   "w": "que",
+   "ini": 26.02,
+   "fin": 26.128
+  },
+  {
+   "w": "en",
+   "ini": 26.138,
+   "fin": 26.246
+  },
+  {
+   "w": "Roma",
+   "ini": 26.257,
+   "fin": 26.473
+  },
+  {
+   "w": "la",
+   "ini": 26.483,
+   "fin": 26.57
+  },
+  {
+   "w": "gente",
+   "ini": 26.58,
+   "fin": 26.86
+  },
+  {
+   "w": "vivía",
+   "ini": 26.871,
+   "fin": 27.173
+  },
+  {
+   "w": "veinticinco",
+   "ini": 27.184,
+   "fin": 27.787
+  },
+  {
+   "w": "años.",
+   "ini": 27.798,
+   "fin": 28.197
+  },
+  {
+   "w": "Mentira.",
+   "ini": 28.557,
+   "fin": 29.107
+  },
+  {
+   "w": "Lo",
+   "ini": 29.267,
+   "fin": 29.418
+  },
+  {
+   "w": "que",
+   "ini": 29.429,
+   "fin": 29.536
+  },
+  {
+   "w": "pasa",
+   "ini": 29.547,
+   "fin": 29.838
+  },
+  {
+   "w": "es",
+   "ini": 29.849,
+   "fin": 29.957
+  },
+  {
+   "w": "que",
+   "ini": 29.967,
+   "fin": 30.075
+  },
+  {
+   "w": "casi",
+   "ini": 30.086,
+   "fin": 30.366
+  },
+  {
+   "w": "la",
+   "ini": 30.377,
+   "fin": 30.452
+  },
+  {
+   "w": "mitad",
+   "ini": 30.463,
+   "fin": 30.765
+  },
+  {
+   "w": "moría",
+   "ini": 30.776,
+   "fin": 31.12
+  },
+  {
+   "w": "antes",
+   "ini": 31.131,
+   "fin": 31.411
+  },
+  {
+   "w": "de",
+   "ini": 31.422,
+   "fin": 31.487
+  },
+  {
+   "w": "los",
+   "ini": 31.498,
+   "fin": 31.627
+  },
+  {
+   "w": "diez.",
+   "ini": 31.638,
+   "fin": 31.983
+  },
+  {
+   "w": "Si",
+   "ini": 32.143,
+   "fin": 32.326
+  },
+  {
+   "w": "pasabas",
+   "ini": 32.337,
+   "fin": 32.757
+  },
+  {
+   "w": "la",
+   "ini": 32.768,
+   "fin": 32.822
+  },
+  {
+   "w": "infancia,",
+   "ini": 32.833,
+   "fin": 33.274
+  },
+  {
+   "w": "llegabas",
+   "ini": 33.424,
+   "fin": 33.855
+  },
+  {
+   "w": "a",
+   "ini": 33.866,
+   "fin": 33.92
+  },
+  {
+   "w": "unos",
+   "ini": 33.931,
+   "fin": 34.168
+  },
+  {
+   "w": "cincuenta.",
+   "ini": 34.179,
+   "fin": 34.696
+  },
+  {
+   "w": "O",
+   "ini": 34.856,
+   "fin": 34.942
+  },
+  {
+   "w": "sea:",
+   "ini": 34.953,
+   "fin": 35.276
+  },
+  {
+   "w": "tenías",
+   "ini": 35.426,
+   "fin": 35.793
+  },
+  {
+   "w": "buenas",
+   "ini": 35.803,
+   "fin": 36.062
+  },
+  {
+   "w": "chances.",
+   "ini": 36.073,
+   "fin": 36.601
+  },
+  {
+   "w": "Pero",
+   "ini": 36.761,
+   "fin": 36.944
+  },
+  {
+   "w": "te",
+   "ini": 36.955,
+   "fin": 37.041
+  },
+  {
+   "w": "metiste",
+   "ini": 37.052,
+   "fin": 37.451
+  },
+  {
+   "w": "en",
+   "ini": 37.461,
+   "fin": 37.548
+  },
+  {
+   "w": "una",
+   "ini": 37.558,
+   "fin": 37.763
+  },
+  {
+   "w": "arena.",
+   "ini": 37.774,
+   "fin": 38.119
+  },
+  {
+   "w": "Seis",
+   "ini": 38.699,
+   "fin": 39.055
+  },
+  {
+   "w": "minutos,",
+   "ini": 39.065,
+   "fin": 39.496
+  },
+  {
+   "w": "siete",
+   "ini": 39.646,
+   "fin": 39.98
+  },
+  {
+   "w": "segundos.",
+   "ini": 39.991,
+   "fin": 40.573
+  },
+  {
+   "w": "Y",
+   "ini": 40.733,
+   "fin": 40.841
+  },
+  {
+   "w": "suena",
+   "ini": 40.852,
+   "fin": 41.121
+  },
+  {
+   "w": "el",
+   "ini": 41.132,
+   "fin": 41.186
+  },
+  {
+   "w": "despertador.",
+   "ini": 41.196,
+   "fin": 41.854
+  },
+  {
+   "w": "Mitad",
+   "ini": 42.014,
+   "fin": 42.359
+  },
+  {
+   "w": "del",
+   "ini": 42.37,
+   "fin": 42.488
+  },
+  {
+   "w": "juego.",
+   "ini": 42.499,
+   "fin": 42.865
+  },
+  {
+   "w": "Mira",
+   "ini": 43.015,
+   "fin": 43.317
+  },
+  {
+   "w": "cómo",
+   "ini": 43.328,
+   "fin": 43.543
+  },
+  {
+   "w": "vas.",
+   "ini": 43.554,
+   "fin": 43.92
+  }
+ ],
+ "recap": {
+  "vidas": 5,
+  "previas": [
+   {
+    "epoca": "HIELO",
+    "nota": "F"
+   },
+   {
+    "epoca": "EGIPTO",
+    "nota": "A"
+   },
+   {
+    "epoca": "POMPEYA",
+    "nota": "D"
+   }
+  ],
+  "titulo": "ÉPOCA 4 DE 8 · ROMA",
+  "jefe": "JEFE: UN LEÓN CON BARBIJO"
+ },
+ "estilo": "roma",
+ "fin_voz": 44.06
+}

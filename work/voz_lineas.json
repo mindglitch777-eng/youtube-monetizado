@@ -1,0 +1,894 @@
+{
+ "voz": "es-MX-JorgeNeural",
+ "rate": "+8%",
+ "lineas": [
+  {
+   "n": 1,
+   "tramo": 0,
+   "texto": "Cierras los ojos en tu cama.",
+   "texto_tts": "Cierras los ojos en tu cama."
+  },
+  {
+   "n": 2,
+   "tramo": 0,
+   "texto": "Los abres… y estás en la sabana, hace 20.000 años.",
+   "texto_tts": "Los abres… y estás en la sabana, hace veinte mil años."
+  },
+  {
+   "n": 3,
+   "tramo": 1,
+   "texto": "Sin celular. Sin nadie.",
+   "texto_tts": "Sin celular. Sin nadie."
+  },
+  {
+   "n": 4,
+   "tramo": 1,
+   "texto": "Solo tú y 24 horas.",
+   "texto_tts": "Solo tú y veinticuatro horas."
+  },
+  {
+   "n": 5,
+   "tramo": 2,
+   "texto": "¿Te mata el león? ¿La sed? ¿El frío?",
+   "texto_tts": "¿Te mata el león? ¿La sed? ¿El frío?"
+  },
+  {
+   "n": 6,
+   "tramo": 3,
+   "texto": "Spoiler: el león es el menor de tus problemas.",
+   "texto_tts": "Spoiler: el león es el menor de tus problemas."
+  },
+  {
+   "n": 7,
+   "tramo": 4,
+   "texto": "¿Sabes encender un fuego? ¿Sabes qué comer?",
+   "texto_tts": "¿Sabes encender un fuego? ¿Sabes qué comer?"
+  },
+  {
+   "n": 8,
+   "tramo": 5,
+   "texto": "¿Alguien te ayuda… o alguien te ataca?",
+   "texto_tts": "¿Alguien te ayuda… o alguien te ataca?"
+  },
+  {
+   "n": 9,
+   "tramo": 6,
+   "texto": "Hoy cuento las 7 formas de morir, del 7 al 1.",
+   "texto_tts": "Hoy cuento las 7 formas de morir, del 7 al 1."
+  },
+  {
+   "n": 10,
+   "tramo": 6,
+   "texto": "La número uno ni siquiera la ves.",
+   "texto_tts": "La número uno ni siquiera la ves."
+  },
+  {
+   "n": 11,
+   "tramo": 7,
+   "texto": "Haz tu apuesta.",
+   "texto_tts": "Haz tu apuesta."
+  },
+  {
+   "n": 12,
+   "tramo": 7,
+   "texto": "Vamos a ver cuánto duras.",
+   "texto_tts": "Vamos a ver cuánto duras."
+  },
+  {
+   "n": 13,
+   "tramo": 9,
+   "texto": "Son las 9 de la mañana.",
+   "texto_tts": "Son las 9 de la mañana."
+  },
+  {
+   "n": 14,
+   "tramo": 9,
+   "texto": "Tu boca ya sabe a lija.",
+   "texto_tts": "Tu boca ya sabe a lija."
+  },
+  {
+   "n": 15,
+   "tramo": 10,
+   "texto": "Pierdes agua hasta cuando respiras.",
+   "texto_tts": "Pierdes agua hasta cuando respiras."
+  },
+  {
+   "n": 16,
+   "tramo": 11,
+   "texto": "En tu casa, el agua sale de una llave.",
+   "texto_tts": "En tu casa, el agua sale de una llave."
+  },
+  {
+   "n": 17,
+   "tramo": 11,
+   "texto": "Aquí sale de un lugar que nadie te mostró.",
+   "texto_tts": "Aquí sale de un lugar que nadie te mostró."
+  },
+  {
+   "n": 18,
+   "tramo": 12,
+   "texto": "Tu grupo lo sabía de memoria.",
+   "texto_tts": "Tu grupo lo sabía de memoria."
+  },
+  {
+   "n": 19,
+   "tramo": 12,
+   "texto": "Era un Google Maps con piernas.",
+   "texto_tts": "Era un Google Maps con piernas."
+  },
+  {
+   "n": 20,
+   "tramo": 12,
+   "texto": "Tú eres un punto azul sin señal.",
+   "texto_tts": "Tú eres un punto azul sin señal."
+  },
+  {
+   "n": 21,
+   "tramo": 13,
+   "texto": "Caminas horas hacia donde \"te parece\" que hay un río.",
+   "texto_tts": "Caminas horas hacia donde \"te parece\" que hay un río."
+  },
+  {
+   "n": 22,
+   "tramo": 14,
+   "texto": "Y de pronto: un charco.",
+   "texto_tts": "Y de pronto: un charco."
+  },
+  {
+   "n": 23,
+   "tramo": 14,
+   "texto": "Verde, quieto, con una capa rara.",
+   "texto_tts": "Verde, quieto, con una capa rara."
+  },
+  {
+   "n": 24,
+   "tramo": 14,
+   "texto": "Tu boca dice: bebe.",
+   "texto_tts": "Tu boca dice: bebe."
+  },
+  {
+   "n": 25,
+   "tramo": 14,
+   "texto": "Tu cabeza dice: no sé.",
+   "texto_tts": "Tu cabeza dice: no sé."
+  },
+  {
+   "n": 26,
+   "tramo": 15,
+   "texto": "Si lo bebes, hoy se te quita la sed.",
+   "texto_tts": "Si lo bebes, hoy se te quita la sed."
+  },
+  {
+   "n": 27,
+   "tramo": 15,
+   "texto": "Mañana te llega la cuenta.",
+   "texto_tts": "Mañana te llega la cuenta."
+  },
+  {
+   "n": 28,
+   "tramo": 15,
+   "texto": "Guarda ese charco.",
+   "texto_tts": "Guarda ese charco."
+  },
+  {
+   "n": 29,
+   "tramo": 16,
+   "texto": "Estás débil.",
+   "texto_tts": "Estás débil."
+  },
+  {
+   "n": 30,
+   "tramo": 16,
+   "texto": "Y un humano débil en la sabana es una invitación.",
+   "texto_tts": "Y un humano débil en la sabana es una invitación."
+  },
+  {
+   "n": 31,
+   "tramo": 19,
+   "texto": "Ahora sí: los grandes animales.",
+   "texto_tts": "Ahora sí: los grandes animales."
+  },
+  {
+   "n": 32,
+   "tramo": 20,
+   "texto": "Los ves y tu cuerpo dice: corre.",
+   "texto_tts": "Los ves y tu cuerpo dice: corre."
+  },
+  {
+   "n": 33,
+   "tramo": 21,
+   "texto": "Pero para ellos tú no eres un premio.",
+   "texto_tts": "Pero para ellos tú no eres un premio."
+  },
+  {
+   "n": 34,
+   "tramo": 21,
+   "texto": "Eres un riesgo.",
+   "texto_tts": "Eres un riesgo."
+  },
+  {
+   "n": 35,
+   "tramo": 21,
+   "texto": "Cazar cansa, y un animal herido no come mañana.",
+   "texto_tts": "Cazar cansa, y un animal herido no come mañana."
+  },
+  {
+   "n": 36,
+   "tramo": 22,
+   "texto": "Un humano de esa época nunca andaba solo.",
+   "texto_tts": "Un humano de esa época nunca andaba solo."
+  },
+  {
+   "n": 37,
+   "tramo": 22,
+   "texto": "Andaba en grupo, con palos, con fuego y gritando.",
+   "texto_tts": "Andaba en grupo, con palos, con fuego y gritando."
+  },
+  {
+   "n": 38,
+   "tramo": 23,
+   "texto": "Tú estás solo, con un palito.",
+   "texto_tts": "Tú estás solo, con un palito."
+  },
+  {
+   "n": 39,
+   "tramo": 24,
+   "texto": "Ahora, el dato que arruina las películas.",
+   "texto_tts": "Ahora, el dato que arruina las películas."
+  },
+  {
+   "n": 40,
+   "tramo": 24,
+   "texto": "Los accidentes, animales incluidos, explican menos de 1 de cada 12 muertes.",
+   "texto_tts": "Los accidentes, animales incluidos, explican menos de 1 de cada 12 muertes."
+  },
+  {
+   "n": 41,
+   "tramo": 25,
+   "texto": "No me lo invento.",
+   "texto_tts": "No me lo invento."
+  },
+  {
+   "n": 42,
+   "tramo": 25,
+   "texto": "Sale de un estudio de 2007 de Gurven y Kaplan.",
+   "texto_tts": "Sale de un estudio de 2007 de Gurven y Kaplan."
+  },
+  {
+   "n": 43,
+   "tramo": 25,
+   "texto": "3.328 muertes en grupos de cazadores-recolectores.",
+   "texto_tts": "tres mil trescientas veintiocho muertes en grupos de cazadores-recolectores."
+  },
+  {
+   "n": 44,
+   "tramo": 25,
+   "texto": "Es lo más cerca que tenemos de esa vida.",
+   "texto_tts": "Es lo más cerca que tenemos de esa vida."
+  },
+  {
+   "n": 45,
+   "tramo": 26,
+   "texto": "El león sale en todas las películas.",
+   "texto_tts": "El león sale en todas las películas."
+  },
+  {
+   "n": 46,
+   "tramo": 26,
+   "texto": "Y casi no sale en las estadísticas.",
+   "texto_tts": "Y casi no sale en las estadísticas."
+  },
+  {
+   "n": 47,
+   "tramo": 29,
+   "texto": "Intentas atrapar un conejo.",
+   "texto_tts": "Intentas atrapar un conejo."
+  },
+  {
+   "n": 48,
+   "tramo": 29,
+   "texto": "El conejo te mira, se ríe y se va.",
+   "texto_tts": "El conejo te mira, se ríe y se va."
+  },
+  {
+   "n": 49,
+   "tramo": 30,
+   "texto": "Tu especie tiene un truco: sudamos.",
+   "texto_tts": "Tu especie tiene un truco: sudamos."
+  },
+  {
+   "n": 50,
+   "tramo": 30,
+   "texto": "Hay cazadores que siguen a un animal caminando horas, hasta que se cansa.",
+   "texto_tts": "Hay cazadores que siguen a un animal caminando horas, hasta que se cansa."
+  },
+  {
+   "n": 51,
+   "tramo": 30,
+   "texto": "Pero eso lo hace gente que lo practicó toda la vida.",
+   "texto_tts": "Pero eso lo hace gente que lo practicó toda la vida."
+  },
+  {
+   "n": 52,
+   "tramo": 30,
+   "texto": "Tú no.",
+   "texto_tts": "Tú no."
+  },
+  {
+   "n": 53,
+   "tramo": 31,
+   "texto": "Tu estómago suena como un motor viejo.",
+   "texto_tts": "Tu estómago suena como un motor viejo."
+  },
+  {
+   "n": 54,
+   "tramo": 31,
+   "texto": "Y entonces los ves: frutos rojos, brillantes, perfectos.",
+   "texto_tts": "Y entonces los ves: frutos rojos, brillantes, perfectos."
+  },
+  {
+   "n": 55,
+   "tramo": 32,
+   "texto": "Tu cerebro dice: come.",
+   "texto_tts": "Tu cerebro dice: come."
+  },
+  {
+   "n": 56,
+   "tramo": 32,
+   "texto": "Tu abuela de la Edad de Piedra diría: ¡suelta eso!",
+   "texto_tts": "Tu abuela de la Edad de Piedra diría: ¡suelta eso!"
+  },
+  {
+   "n": 57,
+   "tramo": 33,
+   "texto": "Ella sabía qué plantas se comían y cuáles no.",
+   "texto_tts": "Ella sabía qué plantas se comían y cuáles no."
+  },
+  {
+   "n": 58,
+   "tramo": 33,
+   "texto": "Ese manual pasaba de padres a hijos.",
+   "texto_tts": "Ese manual pasaba de padres a hijos."
+  },
+  {
+   "n": 59,
+   "tramo": 33,
+   "texto": "Hoy el manual es la etiqueta del supermercado.",
+   "texto_tts": "Hoy el manual es la etiqueta del supermercado."
+  },
+  {
+   "n": 60,
+   "tramo": 34,
+   "texto": "Y tu abuela no está.",
+   "texto_tts": "Y tu abuela no está."
+  },
+  {
+   "n": 61,
+   "tramo": 35,
+   "texto": "Lo peor: muchas veces el error no se nota en el momento.",
+   "texto_tts": "Lo peor: muchas veces el error no se nota en el momento."
+  },
+  {
+   "n": 62,
+   "tramo": 35,
+   "texto": "Se nota horas después.",
+   "texto_tts": "Se nota horas después."
+  },
+  {
+   "n": 63,
+   "tramo": 38,
+   "texto": "El sol se va.",
+   "texto_tts": "El sol se va."
+  },
+  {
+   "n": 64,
+   "tramo": 38,
+   "texto": "Y con él se va todo lo que veías.",
+   "texto_tts": "Y con él se va todo lo que veías."
+  },
+  {
+   "n": 65,
+   "tramo": 39,
+   "texto": "Sin luz. Sin fuego. Sin abrigo.",
+   "texto_tts": "Sin luz. Sin fuego. Sin abrigo."
+  },
+  {
+   "n": 66,
+   "tramo": 39,
+   "texto": "Solo tú, tu camiseta y el frío.",
+   "texto_tts": "Solo tú, tu camiseta y el frío."
+  },
+  {
+   "n": 67,
+   "tramo": 40,
+   "texto": "Podrías hacer fuego.",
+   "texto_tts": "Podrías hacer fuego."
+  },
+  {
+   "n": 68,
+   "tramo": 40,
+   "texto": "Frotando dos palos.",
+   "texto_tts": "Frotando dos palos."
+  },
+  {
+   "n": 69,
+   "tramo": 40,
+   "texto": "Mucha gente lo intenta una tarde entera, y solo consigue ampollas.",
+   "texto_tts": "Mucha gente lo intenta una tarde entera, y solo consigue ampollas."
+  },
+  {
+   "n": 70,
+   "tramo": 41,
+   "texto": "La sabana de noche se enfría más de lo que crees.",
+   "texto_tts": "La sabana de noche se enfría más de lo que crees."
+  },
+  {
+   "n": 71,
+   "tramo": 41,
+   "texto": "Y tu cuerpo gasta toda su energía en no congelarse.",
+   "texto_tts": "Y tu cuerpo gasta toda su energía en no congelarse."
+  },
+  {
+   "n": 72,
+   "tramo": 42,
+   "texto": "Y ahora, los ruidos.",
+   "texto_tts": "Y ahora, los ruidos."
+  },
+  {
+   "n": 73,
+   "tramo": 42,
+   "texto": "Ramas que crujen. Ojos que brillan. Algo que respira muy cerca.",
+   "texto_tts": "Ramas que crujen. Ojos que brillan. Algo que respira muy cerca."
+  },
+  {
+   "n": 74,
+   "tramo": 43,
+   "texto": "Dormir cuesta.",
+   "texto_tts": "Dormir cuesta."
+  },
+  {
+   "n": 75,
+   "tramo": 43,
+   "texto": "No dormir te debilita más.",
+   "texto_tts": "No dormir te debilita más."
+  },
+  {
+   "n": 76,
+   "tramo": 44,
+   "texto": "Pero lo que más miedo da de noche no tiene cuatro patas.",
+   "texto_tts": "Pero lo que más miedo da de noche no tiene cuatro patas."
+  },
+  {
+   "n": 77,
+   "tramo": 44,
+   "texto": "Camina en dos.",
+   "texto_tts": "Camina en dos."
+  },
+  {
+   "n": 78,
+   "tramo": 47,
+   "texto": "Apareces, en pijama, en el territorio de un grupo que no te conoce.",
+   "texto_tts": "Apareces, en pijama, en el territorio de un grupo que no te conoce."
+  },
+  {
+   "n": 79,
+   "tramo": 47,
+   "texto": "Para ellos eres un extraño.",
+   "texto_tts": "Para ellos eres un extraño."
+  },
+  {
+   "n": 80,
+   "tramo": 47,
+   "texto": "Y un extraño es un problema.",
+   "texto_tts": "Y un extraño es un problema."
+  },
+  {
+   "n": 81,
+   "tramo": 48,
+   "texto": "Un cazador se acerca con una lanza.",
+   "texto_tts": "Un cazador se acerca con una lanza."
+  },
+  {
+   "n": 82,
+   "tramo": 48,
+   "texto": "No habla tu idioma.",
+   "texto_tts": "No habla tu idioma."
+  },
+  {
+   "n": 83,
+   "tramo": 48,
+   "texto": "Tú no hablas el suyo.",
+   "texto_tts": "Tú no hablas el suyo."
+  },
+  {
+   "n": 84,
+   "tramo": 48,
+   "texto": "Y los dos tienen miedo.",
+   "texto_tts": "Y los dos tienen miedo."
+  },
+  {
+   "n": 85,
+   "tramo": 49,
+   "texto": "Si dejamos de lado las enfermedades, que ya llegamos a ellas, lo que más mataba era otra persona.",
+   "texto_tts": "Si dejamos de lado las enfermedades, que ya llegamos a ellas, lo que más mataba era otra persona."
+  },
+  {
+   "n": 86,
+   "tramo": 49,
+   "texto": "En esos grupos, 1 de cada 8 muertes fue por violencia.",
+   "texto_tts": "En esos grupos, 1 de cada 8 muertes fue por violencia."
+  },
+  {
+   "n": 87,
+   "tramo": 49,
+   "texto": "Más que todos los accidentes juntos.",
+   "texto_tts": "Más que todos los accidentes juntos."
+  },
+  {
+   "n": 88,
+   "tramo": 50,
+   "texto": "No hay policía. No hay denuncia. No hay abogado.",
+   "texto_tts": "No hay policía. No hay denuncia. No hay abogado."
+  },
+  {
+   "n": 89,
+   "tramo": 50,
+   "texto": "Solo las reglas del grupo.",
+   "texto_tts": "Solo las reglas del grupo."
+  },
+  {
+   "n": 90,
+   "tramo": 50,
+   "texto": "Y tú no eres del grupo.",
+   "texto_tts": "Y tú no eres del grupo."
+  },
+  {
+   "n": 91,
+   "tramo": 51,
+   "texto": "Pero lo peor ni siquiera llega con una lanza.",
+   "texto_tts": "Pero lo peor ni siquiera llega con una lanza."
+  },
+  {
+   "n": 92,
+   "tramo": 51,
+   "texto": "Llega con una espina.",
+   "texto_tts": "Llega con una espina."
+  },
+  {
+   "n": 93,
+   "tramo": 54,
+   "texto": "Pasas entre unos arbustos.",
+   "texto_tts": "Pasas entre unos arbustos."
+  },
+  {
+   "n": 94,
+   "tramo": 54,
+   "texto": "Una espina te abre el pie.",
+   "texto_tts": "Una espina te abre el pie."
+  },
+  {
+   "n": 95,
+   "tramo": 54,
+   "texto": "Nada grave. Un corte chiquito.",
+   "texto_tts": "Nada grave. Un corte chiquito."
+  },
+  {
+   "n": 96,
+   "tramo": 55,
+   "texto": "Hoy: agua, jabón, curita, y a seguir.",
+   "texto_tts": "Hoy: agua, jabón, curita, y a seguir."
+  },
+  {
+   "n": 97,
+   "tramo": 55,
+   "texto": "Allá: no hay agua limpia, ni jabón, ni curita.",
+   "texto_tts": "Allá: no hay agua limpia, ni jabón, ni curita."
+  },
+  {
+   "n": 98,
+   "tramo": 56,
+   "texto": "Los gérmenes entran y se multiplican.",
+   "texto_tts": "Los gérmenes entran y se multiplican."
+  },
+  {
+   "n": 99,
+   "tramo": 56,
+   "texto": "Tu cuerpo pelea, pero nadie lo ayuda.",
+   "texto_tts": "Tu cuerpo pelea, pero nadie lo ayuda."
+  },
+  {
+   "n": 100,
+   "tramo": 57,
+   "texto": "La herida se pone roja.",
+   "texto_tts": "La herida se pone roja."
+  },
+  {
+   "n": 101,
+   "tramo": 57,
+   "texto": "Después caliente.",
+   "texto_tts": "Después caliente."
+  },
+  {
+   "n": 102,
+   "tramo": 57,
+   "texto": "Después hinchada.",
+   "texto_tts": "Después hinchada."
+  },
+  {
+   "n": 103,
+   "tramo": 58,
+   "texto": "Un corte que no era nada es el principio del final.",
+   "texto_tts": "Un corte que no era nada es el principio del final."
+  },
+  {
+   "n": 104,
+   "tramo": 59,
+   "texto": "Y ahí entra el verdadero jefe.",
+   "texto_tts": "Y ahí entra el verdadero jefe."
+  },
+  {
+   "n": 105,
+   "tramo": 62,
+   "texto": "No tiene colmillos. No tiene garras. No hace ruido.",
+   "texto_tts": "No tiene colmillos. No tiene garras. No hace ruido."
+  },
+  {
+   "n": 106,
+   "tramo": 62,
+   "texto": "Ni siquiera la puedes ver.",
+   "texto_tts": "Ni siquiera la puedes ver."
+  },
+  {
+   "n": 107,
+   "tramo": 63,
+   "texto": "Son los gérmenes.",
+   "texto_tts": "Son los gérmenes."
+  },
+  {
+   "n": 108,
+   "tramo": 63,
+   "texto": "La enfermedad.",
+   "texto_tts": "La enfermedad."
+  },
+  {
+   "n": 109,
+   "tramo": 64,
+   "texto": "¿Recuerdas tu apuesta?",
+   "texto_tts": "¿Recuerdas tu apuesta?"
+  },
+  {
+   "n": 110,
+   "tramo": 64,
+   "texto": "Si apostaste por el león, la hiena o el asesino con lanza… lo siento.",
+   "texto_tts": "Si apostaste por el león, la hiena o el asesino con lanza… lo siento."
+  },
+  {
+   "n": 111,
+   "tramo": 65,
+   "texto": "En esos grupos, la enfermedad causó cerca de 7 de cada 10 muertes.",
+   "texto_tts": "En esos grupos, la enfermedad causó cerca de 7 de cada 10 muertes."
+  },
+  {
+   "n": 112,
+   "tramo": 66,
+   "texto": "Una diarrea hoy es una molestia.",
+   "texto_tts": "Una diarrea hoy es una molestia."
+  },
+  {
+   "n": 113,
+   "tramo": 66,
+   "texto": "Allá podía ser una sentencia.",
+   "texto_tts": "Allá podía ser una sentencia."
+  },
+  {
+   "n": 114,
+   "tramo": 66,
+   "texto": "Sobre todo para los niños.",
+   "texto_tts": "Sobre todo para los niños."
+  },
+  {
+   "n": 115,
+   "tramo": 67,
+   "texto": "Sin vacunas. Sin antibióticos. Sin agua limpia.",
+   "texto_tts": "Sin vacunas. Sin antibióticos. Sin agua limpia."
+  },
+  {
+   "n": 116,
+   "tramo": 68,
+   "texto": "¿Recuerdas el charco verde?",
+   "texto_tts": "¿Recuerdas el charco verde?"
+  },
+  {
+   "n": 117,
+   "tramo": 68,
+   "texto": "¿La herida del pie? ¿Los frutos rojos?",
+   "texto_tts": "¿La herida del pie? ¿Los frutos rojos?"
+  },
+  {
+   "n": 118,
+   "tramo": 68,
+   "texto": "Tres puertas distintas.",
+   "texto_tts": "Tres puertas distintas."
+  },
+  {
+   "n": 119,
+   "tramo": 68,
+   "texto": "El mismo jefe esperando del otro lado.",
+   "texto_tts": "El mismo jefe esperando del otro lado."
+  },
+  {
+   "n": 120,
+   "tramo": 69,
+   "texto": "Por eso en la miniatura el león lleva mascarilla.",
+   "texto_tts": "Por eso en la miniatura el león lleva mascarilla."
+  },
+  {
+   "n": 121,
+   "tramo": 69,
+   "texto": "El león sí sabe quién manda.",
+   "texto_tts": "El león sí sabe quién manda."
+  },
+  {
+   "n": 122,
+   "tramo": 71,
+   "texto": "El ranking de verdad.",
+   "texto_tts": "El ranking de verdad."
+  },
+  {
+   "n": 123,
+   "tramo": 71,
+   "texto": "Enfermedad: 7 de cada 10 muertes.",
+   "texto_tts": "Enfermedad: 7 de cada 10 muertes."
+  },
+  {
+   "n": 124,
+   "tramo": 71,
+   "texto": "Violencia: 1 de cada 8.",
+   "texto_tts": "Violencia: 1 de cada 8."
+  },
+  {
+   "n": 125,
+   "tramo": 71,
+   "texto": "Accidentes, con el león incluido: menos de 1 de cada 12.",
+   "texto_tts": "Accidentes, con el león incluido: menos de 1 de cada 12."
+  },
+  {
+   "n": 126,
+   "tramo": 72,
+   "texto": "¿Cuánto duras tú?",
+   "texto_tts": "¿Cuánto duras tú?"
+  },
+  {
+   "n": 127,
+   "tramo": 72,
+   "texto": "Sin grupo. Sin saber dónde hay agua. Sin abrigo.",
+   "texto_tts": "Sin grupo. Sin saber dónde hay agua. Sin abrigo."
+  },
+  {
+   "n": 128,
+   "tramo": 72,
+   "texto": "Yo diría que unas 20 horas, con mucha suerte.",
+   "texto_tts": "Yo diría que unas 20 horas, con mucha suerte."
+  },
+  {
+   "n": 129,
+   "tramo": 73,
+   "texto": "Ahora, el dato que casi todos tenemos mal.",
+   "texto_tts": "Ahora, el dato que casi todos tenemos mal."
+  },
+  {
+   "n": 130,
+   "tramo": 73,
+   "texto": "Seguro oíste que en la Edad de Piedra la gente moría a los 30.",
+   "texto_tts": "Seguro oíste que en la Edad de Piedra la gente moría a los 30."
+  },
+  {
+   "n": 131,
+   "tramo": 74,
+   "texto": "Es mentira.",
+   "texto_tts": "Es mentira."
+  },
+  {
+   "n": 132,
+   "tramo": 74,
+   "texto": "Ese número sale de promediar a los bebés y niños que morían muy chicos.",
+   "texto_tts": "Ese número sale de promediar a los bebés y niños que morían muy chicos."
+  },
+  {
+   "n": 133,
+   "tramo": 74,
+   "texto": "En esos grupos, más de 4 de cada 10 no llegaban a los 15 años.",
+   "texto_tts": "En esos grupos, más de 4 de cada 10 no llegaban a los 15 años."
+  },
+  {
+   "n": 134,
+   "tramo": 74,
+   "texto": "Pero quien pasaba esa edad solía llegar a los 70 y pico.",
+   "texto_tts": "Pero quien pasaba esa edad solía llegar a los 70 y pico."
+  },
+  {
+   "n": 135,
+   "tramo": 75,
+   "texto": "No vivían poco.",
+   "texto_tts": "No vivían poco."
+  },
+  {
+   "n": 136,
+   "tramo": 75,
+   "texto": "Lo durísimo era llegar a grande.",
+   "texto_tts": "Lo durísimo era llegar a grande."
+  },
+  {
+   "n": 137,
+   "tramo": 76,
+   "texto": "Y vuelvo a tu pijama en la sabana.",
+   "texto_tts": "Y vuelvo a tu pijama en la sabana."
+  },
+  {
+   "n": 138,
+   "tramo": 76,
+   "texto": "La sed, el hambre, el frío, la violencia, la herida, los gérmenes.",
+   "texto_tts": "La sed, el hambre, el frío, la violencia, la herida, los gérmenes."
+  },
+  {
+   "n": 139,
+   "tramo": 76,
+   "texto": "Casi todo eso lo resolvía tu grupo.",
+   "texto_tts": "Casi todo eso lo resolvía tu grupo."
+  },
+  {
+   "n": 140,
+   "tramo": 77,
+   "texto": "El agua la conocía alguien.",
+   "texto_tts": "El agua la conocía alguien."
+  },
+  {
+   "n": 141,
+   "tramo": 77,
+   "texto": "La comida la sabía alguien.",
+   "texto_tts": "La comida la sabía alguien."
+  },
+  {
+   "n": 142,
+   "tramo": 77,
+   "texto": "El fuego lo cuidaba alguien.",
+   "texto_tts": "El fuego lo cuidaba alguien."
+  },
+  {
+   "n": 143,
+   "tramo": 77,
+   "texto": "Y si te enfermabas, te cuidaba alguien.",
+   "texto_tts": "Y si te enfermabas, te cuidaba alguien."
+  },
+  {
+   "n": 144,
+   "tramo": 78,
+   "texto": "Tu mejor arma no era la lanza.",
+   "texto_tts": "Tu mejor arma no era la lanza."
+  },
+  {
+   "n": 145,
+   "tramo": 78,
+   "texto": "Era tu gente.",
+   "texto_tts": "Era tu gente."
+  },
+  {
+   "n": 146,
+   "tramo": 79,
+   "texto": "Por cierto: ¿viste al león escondido en cada escena?",
+   "texto_tts": "Por cierto: ¿viste al león escondido en cada escena?"
+  },
+  {
+   "n": 147,
+   "tramo": 79,
+   "texto": "No hizo nada en todo el video.",
+   "texto_tts": "No hizo nada en todo el video."
+  },
+  {
+   "n": 148,
+   "tramo": 80,
+   "texto": "Mándale este video a ese amigo que cree que sobreviviría solo.",
+   "texto_tts": "Mándale este video a ese amigo que cree que sobreviviría solo."
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+miniaturas OK ideas_ganadores_01 (4)
+miniaturas OK ideas_ganadores_02 (4)
+miniaturas OK ideas_ganadores_03 (4)
+miniaturas OK ideas_ganadores_04 (4)
+miniaturas OK ideas_ganadores_05 (4)
+miniaturas OK ideas_ganadores_06 (4)
+miniaturas OK ideas_ganadores_07 (4)
+miniaturas OK ideas_ganadores_08 (4)
+transcripción U_eV4WbL6Vw youtube-transcript-api: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=U_eV4WbL6Vw! This is most likely caused by:
+
+YouTube is blocking requests from yo
+transcripción U_eV4WbL6Vw yt-dlp+po-token: RuntimeError: ERROR: [youtube] U_eV4WbL6Vw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dl
+transcripción U_eV4WbL6Vw invidious: RuntimeError: https://yewtu.be: JSONDecodeError; https://invidious.nerdvpn.de: ConnectionError; https://invidious.f5.si: JSONDecodeError; https://inv.tux.pizza: ConnectTimeou
+transcripción U_eV4WbL6Vw yt-dlp mweb: RuntimeError: ERROR: [youtube] U_eV4WbL6Vw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dl
+transcripción U_eV4WbL6Vw yt-dlp tv_simply: RuntimeError: ERROR: [youtube] U_eV4WbL6Vw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dl
+transcripción FALLO U_eV4WbL6Vw: ningún método funcionó
+transcripción 0tSwA12rEtk youtube-transcript-api: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=0tSwA12rEtk! This is most likely caused by:
+
+YouTube is blocking requests from yo
+transcripción 0tSwA12rEtk yt-dlp+po-token: RuntimeError: ERROR: [youtube] 0tSwA12rEtk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dl
+transcripción 0tSwA12rEtk invidious: RuntimeError: https://yewtu.be: JSONDecodeError; https://invidious.nerdvpn.de: ConnectionError; https://invidious.f5.si: JSONDecodeError; https://inv.tux.pizza: ConnectTimeou
+transcripción 0tSwA12rEtk yt-dlp mweb: RuntimeError: ERROR: [youtube] 0tSwA12rEtk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dl
+transcripción 0tSwA12rEtk yt-dlp tv_simply: RuntimeError: ERROR: [youtube] 0tSwA12rEtk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dl
+transcripción FALLO 0tSwA12rEtk: ningún método funcionó
+transcripción OlCQZbYGVtk youtube-transcript-api: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=OlCQZbYGVtk! This is most likely caused by:
+
+YouTube is blocking requests from yo
+transcripción OlCQZbYGVtk yt-dlp+po-token: RuntimeError: ERROR: [youtube] OlCQZbYGVtk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dl
+transcripción OlCQZbYGVtk invidious: RuntimeError: https://yewtu.be: JSONDecodeError; https://invidious.nerdvpn.de: ConnectionError; https://invidious.f5.si: JSONDecodeError; https://inv.tux.pizza: ConnectTimeou
+transcripción OlCQZbYGVtk yt-dlp mweb: RuntimeError: ERROR: [youtube] OlCQZbYGVtk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dl
+transcripción OlCQZbYGVtk yt-dlp tv_simply: RuntimeError: ERROR: [youtube] OlCQZbYGVtk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dl
+transcripción FALLO OlCQZbYGVtk: ningún método funcionó

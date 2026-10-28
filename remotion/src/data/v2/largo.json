@@ -1,0 +1,3114 @@
+{
+ "duracion": 516.092,
+ "planos": [
+  {
+   "ini": 0.0,
+   "fin": 1.198,
+   "tipo": "img",
+   "id": "008",
+   "cam": "LA",
+   "tr": "FLASH",
+   "epoca": 0,
+   "linea": "H_01"
+  },
+  {
+   "ini": 1.198,
+   "fin": 1.865,
+   "tipo": "img",
+   "id": "009",
+   "cam": "HA",
+   "tr": "",
+   "epoca": 0,
+   "linea": "H_01"
+  },
+  {
+   "ini": 1.865,
+   "fin": 3.208,
+   "tipo": "img",
+   "id": "010",
+   "cam": "EC",
+   "tr": "",
+   "epoca": 0,
+   "linea": "H_01"
+  },
+  {
+   "ini": 3.208,
+   "fin": 3.985,
+   "tipo": "img",
+   "id": "011",
+   "cam": "EC",
+   "tr": "PUNCH",
+   "epoca": 0,
+   "linea": "H_02"
+  },
+  {
+   "ini": 3.985,
+   "fin": 4.962,
+   "tipo": "img",
+   "id": "012",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 0,
+   "linea": "H_02"
+  },
+  {
+   "ini": 4.962,
+   "fin": 8.729,
+   "tipo": "img",
+   "id": "013",
+   "cam": "MS",
+   "tr": "GAME",
+   "epoca": 0,
+   "linea": "H_03"
+  },
+  {
+   "ini": 8.729,
+   "fin": 10.121,
+   "tipo": "img",
+   "id": "014",
+   "cam": "EC",
+   "tr": "PUNCH",
+   "epoca": 0,
+   "linea": "H_04"
+  },
+  {
+   "ini": 10.121,
+   "fin": 12.284,
+   "tipo": "img",
+   "id": "015",
+   "cam": "EC",
+   "tr": "",
+   "epoca": 0,
+   "linea": "H_04"
+  },
+  {
+   "ini": 12.284,
+   "fin": 13.821,
+   "tipo": "img",
+   "id": "016",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 0,
+   "linea": "H_04"
+  },
+  {
+   "ini": 13.821,
+   "fin": 15.935,
+   "tipo": "img",
+   "id": "017",
+   "cam": "EC",
+   "tr": "",
+   "epoca": 0,
+   "linea": "H_05"
+  },
+  {
+   "ini": 15.935,
+   "fin": 17.61,
+   "tipo": "img",
+   "id": "018",
+   "cam": "OS",
+   "tr": "PUNCH",
+   "epoca": 0,
+   "linea": "H_05"
+  },
+  {
+   "ini": 17.61,
+   "fin": 19.013,
+   "tipo": "img",
+   "id": "019",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 0,
+   "linea": "H_06"
+  },
+  {
+   "ini": 19.013,
+   "fin": 24.344,
+   "tipo": "img",
+   "id": "020",
+   "cam": "FE",
+   "tr": "WHIP",
+   "epoca": 0,
+   "linea": "H_07",
+   "golpes": [
+    21.678
+   ]
+  },
+  {
+   "ini": 24.344,
+   "fin": 24.957,
+   "tipo": "img",
+   "id": "021",
+   "cam": "LA",
+   "tr": "PUNCH",
+   "epoca": 0,
+   "linea": "H_08"
+  },
+  {
+   "ini": 24.957,
+   "fin": 25.679,
+   "tipo": "img",
+   "id": "022",
+   "cam": "LA",
+   "tr": "PUNCH",
+   "epoca": 0,
+   "linea": "H_08"
+  },
+  {
+   "ini": 25.679,
+   "fin": 26.669,
+   "tipo": "img",
+   "id": "023",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 0,
+   "linea": "H_08"
+  },
+  {
+   "ini": 26.669,
+   "fin": 27.441,
+   "tipo": "img",
+   "id": "024",
+   "cam": "EC",
+   "tr": "PUNCH",
+   "epoca": 0,
+   "linea": "H_08"
+  },
+  {
+   "ini": 27.441,
+   "fin": 30.036,
+   "tipo": "img",
+   "id": "025",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 0,
+   "linea": "H_09"
+  },
+  {
+   "ini": 30.036,
+   "fin": 31.718,
+   "tipo": "img",
+   "id": "026",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 0,
+   "linea": "H_10"
+  },
+  {
+   "ini": 31.718,
+   "fin": 33.524,
+   "tipo": "img",
+   "id": "027",
+   "cam": "HA",
+   "tr": "",
+   "epoca": 0,
+   "linea": "H_10"
+  },
+  {
+   "ini": 33.524,
+   "fin": 35.774,
+   "tipo": "img",
+   "id": "028",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 0,
+   "linea": "H_11"
+  },
+  {
+   "ini": 35.774,
+   "fin": 37.349,
+   "tipo": "img",
+   "id": "029",
+   "cam": "WS",
+   "tr": "PUNCH",
+   "epoca": 0,
+   "linea": "H_12"
+  },
+  {
+   "ini": 37.349,
+   "fin": 39.187,
+   "tipo": "img",
+   "id": "030",
+   "cam": "EC",
+   "tr": "",
+   "epoca": 0,
+   "linea": "H_12"
+  },
+  {
+   "ini": 39.187,
+   "fin": 41.984,
+   "tipo": "img",
+   "id": "031",
+   "cam": "EC",
+   "tr": "SMASH",
+   "epoca": 0,
+   "linea": "H_13"
+  },
+  {
+   "ini": 41.984,
+   "fin": 42.134,
+   "tipo": "negro"
+  },
+  {
+   "ini": 42.134,
+   "fin": 42.884,
+   "tipo": "titulo_epoca",
+   "texto": "ÉPOCA 1 DE 8"
+  },
+  {
+   "ini": 42.884,
+   "fin": 43.034,
+   "tipo": "negro"
+  },
+  {
+   "ini": 43.034,
+   "fin": 43.784,
+   "tipo": "titulo_epoca",
+   "texto": "ÉPOCA 1 DE 8"
+  },
+  {
+   "ini": 43.784,
+   "fin": 45.948,
+   "tipo": "img",
+   "id": "033",
+   "cam": "WS",
+   "tr": "FLASH",
+   "epoca": 1,
+   "linea": "E1_01"
+  },
+  {
+   "ini": 45.948,
+   "fin": 47.046,
+   "tipo": "img",
+   "id": "034",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 1,
+   "linea": "E1_02"
+  },
+  {
+   "ini": 47.046,
+   "fin": 51.707,
+   "tipo": "img",
+   "id": "035",
+   "cam": "LA",
+   "tr": "",
+   "epoca": 1,
+   "linea": "E1_04",
+   "golpes": [
+    49.377
+   ]
+  },
+  {
+   "ini": 51.707,
+   "fin": 54.915,
+   "tipo": "img",
+   "id": "037",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 1,
+   "linea": "E1_05"
+  },
+  {
+   "ini": 54.915,
+   "fin": 56.831,
+   "tipo": "img",
+   "id": "038",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 1,
+   "linea": "E1_06"
+  },
+  {
+   "ini": 56.831,
+   "fin": 59.728,
+   "tipo": "img",
+   "id": "039",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 1,
+   "linea": "E1_07"
+  },
+  {
+   "ini": 59.728,
+   "fin": 62.262,
+   "tipo": "img",
+   "id": "040",
+   "cam": "WS",
+   "tr": "PUNCH",
+   "epoca": 1,
+   "linea": "E1_08"
+  },
+  {
+   "ini": 62.262,
+   "fin": 63.895,
+   "tipo": "img",
+   "id": "041",
+   "cam": "HA",
+   "tr": "",
+   "epoca": 1,
+   "linea": "E1_08"
+  },
+  {
+   "ini": 63.895,
+   "fin": 65.251,
+   "tipo": "img",
+   "id": "042",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 1,
+   "linea": "E1_09"
+  },
+  {
+   "ini": 65.251,
+   "fin": 67.827,
+   "tipo": "img",
+   "id": "043",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 1,
+   "linea": "E1_10"
+  },
+  {
+   "ini": 67.827,
+   "fin": 70.258,
+   "tipo": "img",
+   "id": "044",
+   "cam": "EC",
+   "tr": "",
+   "epoca": 1,
+   "linea": "E1_10"
+  },
+  {
+   "ini": 70.258,
+   "fin": 72.306,
+   "tipo": "img",
+   "id": "045",
+   "cam": "WS",
+   "tr": "PUNCH",
+   "epoca": 1,
+   "linea": "E1_11"
+  },
+  {
+   "ini": 72.306,
+   "fin": 74.121,
+   "tipo": "img",
+   "id": "046",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 1,
+   "linea": "E1_11"
+  },
+  {
+   "ini": 74.121,
+   "fin": 75.575,
+   "tipo": "img",
+   "id": "047",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 1,
+   "linea": "E1_12",
+   "congelar": 75.075
+  },
+  {
+   "ini": 75.575,
+   "fin": 75.725,
+   "tipo": "negro"
+  },
+  {
+   "ini": 75.725,
+   "fin": 77.608,
+   "tipo": "img",
+   "id": "048",
+   "cam": "EC",
+   "tr": "SMASH",
+   "epoca": 1,
+   "linea": "E1_13"
+  },
+  {
+   "ini": 77.608,
+   "fin": 82.265,
+   "tipo": "img",
+   "id": "049",
+   "cam": "MS",
+   "tr": "GAME",
+   "epoca": 1,
+   "linea": "E1_14",
+   "golpes": [
+    79.936
+   ]
+  },
+  {
+   "ini": 82.265,
+   "fin": 83.546,
+   "tipo": "img",
+   "id": "050",
+   "cam": "WS",
+   "tr": "SMASH",
+   "epoca": 1,
+   "linea": "E1_15"
+  },
+  {
+   "ini": 83.546,
+   "fin": 85.882,
+   "tipo": "img",
+   "id": "051",
+   "cam": "WS",
+   "tr": "MATCH",
+   "epoca": 1,
+   "linea": "E1_16"
+  },
+  {
+   "ini": 85.882,
+   "fin": 86.002,
+   "tipo": "negro"
+  },
+  {
+   "ini": 86.002,
+   "fin": 87.502,
+   "tipo": "fin",
+   "culpable": "EL FRÍO",
+   "nota": "F",
+   "tiempo": "2 H 14 MIN",
+   "epoca": 1
+  },
+  {
+   "ini": 87.502,
+   "fin": 87.652,
+   "tipo": "negro"
+  },
+  {
+   "ini": 87.652,
+   "fin": 88.102,
+   "tipo": "img",
+   "id": "249",
+   "cam": "zoom",
+   "tr": "",
+   "epoca": 1
+  },
+  {
+   "ini": 88.102,
+   "fin": 88.852,
+   "tipo": "titulo_epoca",
+   "texto": "ÉPOCA 2 DE 8"
+  },
+  {
+   "ini": 88.852,
+   "fin": 93.407,
+   "tipo": "img",
+   "id": "052",
+   "cam": "WS",
+   "tr": "FLASH",
+   "epoca": 2,
+   "linea": "E2_01",
+   "golpes": [
+    91.13
+   ]
+  },
+  {
+   "ini": 93.407,
+   "fin": 94.44,
+   "tipo": "img",
+   "id": "053",
+   "cam": "EC",
+   "tr": "PUNCH",
+   "epoca": 2,
+   "linea": "E2_02"
+  },
+  {
+   "ini": 94.44,
+   "fin": 97.905,
+   "tipo": "img",
+   "id": "054",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 2,
+   "linea": "E2_04"
+  },
+  {
+   "ini": 97.905,
+   "fin": 99.426,
+   "tipo": "img",
+   "id": "055",
+   "cam": "EC",
+   "tr": "PUNCH",
+   "epoca": 2,
+   "linea": "E2_05"
+  },
+  {
+   "ini": 99.426,
+   "fin": 101.556,
+   "tipo": "img",
+   "id": "056",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 2,
+   "linea": "E2_05"
+  },
+  {
+   "ini": 101.556,
+   "fin": 103.464,
+   "tipo": "img",
+   "id": "057",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 2,
+   "linea": "E2_06"
+  },
+  {
+   "ini": 103.464,
+   "fin": 105.877,
+   "tipo": "img",
+   "id": "058",
+   "cam": "HA",
+   "tr": "",
+   "epoca": 2,
+   "linea": "E2_06"
+  },
+  {
+   "ini": 105.877,
+   "fin": 107.672,
+   "tipo": "img",
+   "id": "059",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 2,
+   "linea": "E2_06"
+  },
+  {
+   "ini": 107.672,
+   "fin": 109.828,
+   "tipo": "img",
+   "id": "060",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 2,
+   "linea": "E2_07"
+  },
+  {
+   "ini": 109.828,
+   "fin": 110.745,
+   "tipo": "img",
+   "id": "061",
+   "cam": "EC",
+   "tr": "PUNCH",
+   "epoca": 2,
+   "linea": "E2_08"
+  },
+  {
+   "ini": 110.745,
+   "fin": 111.905,
+   "tipo": "img",
+   "id": "062",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 2,
+   "linea": "E2_08"
+  },
+  {
+   "ini": 111.905,
+   "fin": 115.397,
+   "tipo": "img",
+   "id": "063",
+   "cam": "WS",
+   "tr": "PUNCH",
+   "epoca": 2,
+   "linea": "E2_09"
+  },
+  {
+   "ini": 115.397,
+   "fin": 116.298,
+   "tipo": "img",
+   "id": "064",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 2,
+   "linea": "E2_09"
+  },
+  {
+   "ini": 116.298,
+   "fin": 116.978,
+   "tipo": "img",
+   "id": "065",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 2,
+   "linea": "E2_10"
+  },
+  {
+   "ini": 116.978,
+   "fin": 119.11,
+   "tipo": "img",
+   "id": "066",
+   "cam": "MS",
+   "tr": "GAME",
+   "epoca": 2,
+   "linea": "E2_10"
+  },
+  {
+   "ini": 119.11,
+   "fin": 121.272,
+   "tipo": "img",
+   "id": "067",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 2,
+   "linea": "E2_10"
+  },
+  {
+   "ini": 121.272,
+   "fin": 124.085,
+   "tipo": "img",
+   "id": "068",
+   "cam": "CU",
+   "tr": "WHIP",
+   "epoca": 2,
+   "linea": "E2_11",
+   "congelar": 123.585
+  },
+  {
+   "ini": 124.085,
+   "fin": 124.235,
+   "tipo": "negro"
+  },
+  {
+   "ini": 124.235,
+   "fin": 125.365,
+   "tipo": "img",
+   "id": "072",
+   "cam": "WS",
+   "tr": "SMASH",
+   "epoca": 2,
+   "linea": "E2_12"
+  },
+  {
+   "ini": 125.365,
+   "fin": 130.166,
+   "tipo": "img",
+   "id": "071",
+   "cam": "MS",
+   "tr": "GAME",
+   "epoca": 2,
+   "linea": "E2_13",
+   "golpes": [
+    127.766
+   ]
+  },
+  {
+   "ini": 130.166,
+   "fin": 133.234,
+   "tipo": "img",
+   "id": "072",
+   "cam": "WS",
+   "tr": "SMASH",
+   "epoca": 2,
+   "linea": "E2_14"
+  },
+  {
+   "ini": 133.234,
+   "fin": 136.066,
+   "tipo": "img",
+   "id": "073",
+   "cam": "WS",
+   "tr": "MATCH",
+   "epoca": 2,
+   "linea": "E2_15"
+  },
+  {
+   "ini": 136.066,
+   "fin": 136.186,
+   "tipo": "negro"
+  },
+  {
+   "ini": 136.186,
+   "fin": 137.686,
+   "tipo": "fin",
+   "culpable": "LA VEJEZ",
+   "nota": "A",
+   "tiempo": "41 AÑOS",
+   "epoca": 2
+  },
+  {
+   "ini": 137.686,
+   "fin": 137.836,
+   "tipo": "negro"
+  },
+  {
+   "ini": 137.836,
+   "fin": 138.286,
+   "tipo": "img",
+   "id": "250",
+   "cam": "zoom",
+   "tr": "",
+   "epoca": 2
+  },
+  {
+   "ini": 138.286,
+   "fin": 139.036,
+   "tipo": "titulo_epoca",
+   "texto": "ÉPOCA 3 DE 8"
+  },
+  {
+   "ini": 139.036,
+   "fin": 140.879,
+   "tipo": "img",
+   "id": "074",
+   "cam": "WS",
+   "tr": "FLASH",
+   "epoca": 3,
+   "linea": "E3_01"
+  },
+  {
+   "ini": 140.879,
+   "fin": 142.75,
+   "tipo": "img",
+   "id": "075",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 3,
+   "linea": "E3_01"
+  },
+  {
+   "ini": 142.75,
+   "fin": 144.763,
+   "tipo": "img",
+   "id": "077",
+   "cam": "WS",
+   "tr": "SMASH",
+   "epoca": 3,
+   "linea": "E3_03"
+  },
+  {
+   "ini": 144.763,
+   "fin": 148.21,
+   "tipo": "img",
+   "id": "078",
+   "cam": "LA",
+   "tr": "PUNCH",
+   "epoca": 3,
+   "linea": "E3_04"
+  },
+  {
+   "ini": 148.21,
+   "fin": 149.86,
+   "tipo": "img",
+   "id": "079",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 3,
+   "linea": "E3_05"
+  },
+  {
+   "ini": 149.86,
+   "fin": 152.906,
+   "tipo": "img",
+   "id": "080",
+   "cam": "WS",
+   "tr": "PUNCH",
+   "epoca": 3,
+   "linea": "E3_05"
+  },
+  {
+   "ini": 152.906,
+   "fin": 156.581,
+   "tipo": "img",
+   "id": "081",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 3,
+   "linea": "E3_06"
+  },
+  {
+   "ini": 156.581,
+   "fin": 160.026,
+   "tipo": "img",
+   "id": "082",
+   "cam": "MS",
+   "tr": "PUNCH",
+   "epoca": 3,
+   "linea": "E3_07"
+  },
+  {
+   "ini": 160.026,
+   "fin": 163.528,
+   "tipo": "img",
+   "id": "083",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 3,
+   "linea": "E3_08"
+  },
+  {
+   "ini": 163.528,
+   "fin": 166.606,
+   "tipo": "img",
+   "id": "084",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 3,
+   "linea": "E3_09"
+  },
+  {
+   "ini": 166.606,
+   "fin": 169.597,
+   "tipo": "img",
+   "id": "085",
+   "cam": "MS",
+   "tr": "PUNCH",
+   "epoca": 3,
+   "linea": "E3_10"
+  },
+  {
+   "ini": 169.597,
+   "fin": 171.028,
+   "tipo": "img",
+   "id": "086",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 3,
+   "linea": "E3_11"
+  },
+  {
+   "ini": 171.028,
+   "fin": 173.831,
+   "tipo": "img",
+   "id": "087",
+   "cam": "WS",
+   "tr": "PUNCH",
+   "epoca": 3,
+   "linea": "E3_12"
+  },
+  {
+   "ini": 173.831,
+   "fin": 177.695,
+   "tipo": "img",
+   "id": "088",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 3,
+   "linea": "E3_12"
+  },
+  {
+   "ini": 177.695,
+   "fin": 182.723,
+   "tipo": "img",
+   "id": "089",
+   "cam": "MS",
+   "tr": "GAME",
+   "epoca": 3,
+   "linea": "E3_13",
+   "golpes": [
+    180.209
+   ]
+  },
+  {
+   "ini": 182.723,
+   "fin": 185.71,
+   "tipo": "img",
+   "id": "090",
+   "cam": "EC",
+   "tr": "",
+   "epoca": 3,
+   "linea": "E3_14",
+   "congelar": 185.21
+  },
+  {
+   "ini": 185.71,
+   "fin": 185.86,
+   "tipo": "negro"
+  },
+  {
+   "ini": 185.86,
+   "fin": 187.001,
+   "tipo": "img",
+   "id": "091",
+   "cam": "EC",
+   "tr": "SMASH",
+   "epoca": 3,
+   "linea": "E3_15"
+  },
+  {
+   "ini": 187.001,
+   "fin": 190.707,
+   "tipo": "img",
+   "id": "092",
+   "cam": "MS",
+   "tr": "GAME",
+   "epoca": 3,
+   "linea": "E3_16"
+  },
+  {
+   "ini": 190.707,
+   "fin": 191.988,
+   "tipo": "img",
+   "id": "093",
+   "cam": "WS",
+   "tr": "SMASH",
+   "epoca": 3,
+   "linea": "E3_17"
+  },
+  {
+   "ini": 191.988,
+   "fin": 194.173,
+   "tipo": "img",
+   "id": "094",
+   "cam": "WS",
+   "tr": "MATCH",
+   "epoca": 3,
+   "linea": "E3_18"
+  },
+  {
+   "ini": 194.173,
+   "fin": 194.293,
+   "tipo": "negro"
+  },
+  {
+   "ini": 194.293,
+   "fin": 195.793,
+   "tipo": "fin",
+   "culpable": "LA CURIOSIDAD",
+   "nota": "D",
+   "tiempo": "19 HORAS",
+   "epoca": 3
+  },
+  {
+   "ini": 195.793,
+   "fin": 195.943,
+   "tipo": "negro"
+  },
+  {
+   "ini": 195.943,
+   "fin": 196.393,
+   "tipo": "img",
+   "id": "251",
+   "cam": "zoom",
+   "tr": "",
+   "epoca": 3
+  },
+  {
+   "ini": 196.393,
+   "fin": 197.143,
+   "tipo": "titulo_epoca",
+   "texto": "ÉPOCA 4 DE 8"
+  },
+  {
+   "ini": 197.143,
+   "fin": 199.514,
+   "tipo": "img",
+   "id": "095",
+   "cam": "WS",
+   "tr": "FLASH",
+   "epoca": 4,
+   "linea": "E4_01"
+  },
+  {
+   "ini": 199.514,
+   "fin": 201.237,
+   "tipo": "img",
+   "id": "096",
+   "cam": "EC",
+   "tr": "",
+   "epoca": 4,
+   "linea": "E4_02"
+  },
+  {
+   "ini": 201.237,
+   "fin": 205.522,
+   "tipo": "img",
+   "id": "098",
+   "cam": "BE",
+   "tr": "",
+   "epoca": 4,
+   "linea": "E4_04"
+  },
+  {
+   "ini": 205.522,
+   "fin": 207.656,
+   "tipo": "img",
+   "id": "095",
+   "cam": "WS",
+   "tr": "FLASH",
+   "epoca": 4,
+   "linea": "E4_05"
+  },
+  {
+   "ini": 207.656,
+   "fin": 210.821,
+   "tipo": "img",
+   "id": "097",
+   "cam": "MS",
+   "tr": "GAME",
+   "epoca": 4,
+   "linea": "E4_05"
+  },
+  {
+   "ini": 210.821,
+   "fin": 212.008,
+   "tipo": "img",
+   "id": "101",
+   "cam": "LA",
+   "tr": "PUNCH",
+   "epoca": 4,
+   "linea": "E4_06"
+  },
+  {
+   "ini": 212.008,
+   "fin": 213.145,
+   "tipo": "img",
+   "id": "102",
+   "cam": "WS",
+   "tr": "PUNCH",
+   "epoca": 4,
+   "linea": "E4_06"
+  },
+  {
+   "ini": 213.145,
+   "fin": 216.083,
+   "tipo": "img",
+   "id": "103",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 4,
+   "linea": "E4_07"
+  },
+  {
+   "ini": 216.083,
+   "fin": 216.645,
+   "tipo": "img",
+   "id": "104",
+   "cam": "EC",
+   "tr": "PUNCH",
+   "epoca": 4,
+   "linea": "E4_08"
+  },
+  {
+   "ini": 216.645,
+   "fin": 217.183,
+   "tipo": "img",
+   "id": "105",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 4,
+   "linea": "E4_08"
+  },
+  {
+   "ini": 217.183,
+   "fin": 219.095,
+   "tipo": "img",
+   "id": "106",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 4,
+   "linea": "E4_08"
+  },
+  {
+   "ini": 219.095,
+   "fin": 222.12,
+   "tipo": "img",
+   "id": "107",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 4,
+   "linea": "E4_10"
+  },
+  {
+   "ini": 222.12,
+   "fin": 223.619,
+   "tipo": "img",
+   "id": "108",
+   "cam": "EC",
+   "tr": "SMASH",
+   "epoca": 4,
+   "linea": "E4_11"
+  },
+  {
+   "ini": 223.619,
+   "fin": 225.706,
+   "tipo": "img",
+   "id": "109",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 4,
+   "linea": "E4_12"
+  },
+  {
+   "ini": 225.706,
+   "fin": 228.419,
+   "tipo": "img",
+   "id": "110",
+   "cam": "MS",
+   "tr": "PUNCH",
+   "epoca": 4,
+   "linea": "E4_13"
+  },
+  {
+   "ini": 228.419,
+   "fin": 230.324,
+   "tipo": "img",
+   "id": "111",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 4,
+   "linea": "E4_14"
+  },
+  {
+   "ini": 230.324,
+   "fin": 232.342,
+   "tipo": "img",
+   "id": "112",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 4,
+   "linea": "E4_15",
+   "congelar": 231.842
+  },
+  {
+   "ini": 232.342,
+   "fin": 232.492,
+   "tipo": "negro"
+  },
+  {
+   "ini": 232.492,
+   "fin": 234.526,
+   "tipo": "img",
+   "id": "113",
+   "cam": "EC",
+   "tr": "SMASH",
+   "epoca": 4,
+   "linea": "E4_16"
+  },
+  {
+   "ini": 234.526,
+   "fin": 235.807,
+   "tipo": "img",
+   "id": "115",
+   "cam": "WS",
+   "tr": "SMASH",
+   "epoca": 4,
+   "linea": "E4_17"
+  },
+  {
+   "ini": 235.807,
+   "fin": 237.873,
+   "tipo": "img",
+   "id": "116",
+   "cam": "WS",
+   "tr": "MATCH",
+   "epoca": 4,
+   "linea": "E4_18"
+  },
+  {
+   "ini": 237.873,
+   "fin": 237.993,
+   "tipo": "negro"
+  },
+  {
+   "ini": 237.993,
+   "fin": 239.493,
+   "tipo": "fin",
+   "culpable": "EL ESPECTÁCULO",
+   "nota": "C",
+   "tiempo": "6:07",
+   "epoca": 4
+  },
+  {
+   "ini": 239.493,
+   "fin": 240.243,
+   "tipo": "titulo_epoca",
+   "texto": "MITAD DEL JUEGO"
+  },
+  {
+   "ini": 240.243,
+   "fin": 242.277,
+   "tipo": "img",
+   "id": "117",
+   "cam": "WS",
+   "tr": "GAME",
+   "epoca": 4,
+   "linea": "M_01"
+  },
+  {
+   "ini": 242.277,
+   "fin": 245.666,
+   "tipo": "img",
+   "id": "118",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 4,
+   "linea": "M_02"
+  },
+  {
+   "ini": 245.666,
+   "fin": 248.474,
+   "tipo": "img",
+   "id": "119",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 4,
+   "linea": "M_03"
+  },
+  {
+   "ini": 248.474,
+   "fin": 251.08,
+   "tipo": "img",
+   "id": "120",
+   "cam": "WS",
+   "tr": "PUNCH",
+   "epoca": 4,
+   "linea": "M_04"
+  },
+  {
+   "ini": 251.08,
+   "fin": 252.738,
+   "tipo": "img",
+   "id": "121",
+   "cam": "EC",
+   "tr": "SMASH",
+   "epoca": 4,
+   "linea": "M_05"
+  },
+  {
+   "ini": 252.738,
+   "fin": 252.888,
+   "tipo": "negro"
+  },
+  {
+   "ini": 252.888,
+   "fin": 253.638,
+   "tipo": "titulo_epoca",
+   "texto": "ÉPOCA 5 DE 8"
+  },
+  {
+   "ini": 253.638,
+   "fin": 253.788,
+   "tipo": "negro"
+  },
+  {
+   "ini": 253.788,
+   "fin": 254.538,
+   "tipo": "titulo_epoca",
+   "texto": "ÉPOCA 5 DE 8"
+  },
+  {
+   "ini": 254.538,
+   "fin": 256.917,
+   "tipo": "img",
+   "id": "122",
+   "cam": "WS",
+   "tr": "FLASH",
+   "epoca": 5,
+   "linea": "E5_01"
+  },
+  {
+   "ini": 256.917,
+   "fin": 259.328,
+   "tipo": "img",
+   "id": "123",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 5,
+   "linea": "E5_02"
+  },
+  {
+   "ini": 259.328,
+   "fin": 261.093,
+   "tipo": "img",
+   "id": "125",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 5,
+   "linea": "E5_04"
+  },
+  {
+   "ini": 261.093,
+   "fin": 265.112,
+   "tipo": "img",
+   "id": "126",
+   "cam": "WS",
+   "tr": "PUNCH",
+   "epoca": 5,
+   "linea": "E5_05"
+  },
+  {
+   "ini": 265.112,
+   "fin": 268.028,
+   "tipo": "img",
+   "id": "127",
+   "cam": "WS",
+   "tr": "GAME",
+   "epoca": 5,
+   "linea": "E5_06"
+  },
+  {
+   "ini": 268.028,
+   "fin": 274.825,
+   "tipo": "img",
+   "id": "128",
+   "cam": "MS",
+   "tr": "PUNCH",
+   "epoca": 5,
+   "linea": "E5_07",
+   "golpes": [
+    271.427
+   ]
+  },
+  {
+   "ini": 274.825,
+   "fin": 277.948,
+   "tipo": "img",
+   "id": "129",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 5,
+   "linea": "E5_08"
+  },
+  {
+   "ini": 277.948,
+   "fin": 280.011,
+   "tipo": "img",
+   "id": "130",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 5,
+   "linea": "E5_09"
+  },
+  {
+   "ini": 280.011,
+   "fin": 281.93,
+   "tipo": "img",
+   "id": "131",
+   "cam": "EC",
+   "tr": "PUNCH",
+   "epoca": 5,
+   "linea": "E5_10"
+  },
+  {
+   "ini": 281.93,
+   "fin": 283.973,
+   "tipo": "img",
+   "id": "132",
+   "cam": "EC",
+   "tr": "",
+   "epoca": 5,
+   "linea": "E5_10"
+  },
+  {
+   "ini": 283.973,
+   "fin": 285.425,
+   "tipo": "img",
+   "id": "133",
+   "cam": "MS",
+   "tr": "GAME",
+   "epoca": 5,
+   "linea": "E5_11"
+  },
+  {
+   "ini": 285.425,
+   "fin": 288.32,
+   "tipo": "img",
+   "id": "134",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 5,
+   "linea": "E5_12"
+  },
+  {
+   "ini": 288.32,
+   "fin": 290.934,
+   "tipo": "img",
+   "id": "135",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 5,
+   "linea": "E5_13"
+  },
+  {
+   "ini": 290.934,
+   "fin": 292.531,
+   "tipo": "img",
+   "id": "136",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 5,
+   "linea": "E5_14",
+   "congelar": 292.031
+  },
+  {
+   "ini": 292.531,
+   "fin": 292.681,
+   "tipo": "negro"
+  },
+  {
+   "ini": 292.681,
+   "fin": 293.531,
+   "tipo": "img",
+   "id": "137",
+   "cam": "EC",
+   "tr": "SMASH",
+   "epoca": 5,
+   "linea": "E5_15"
+  },
+  {
+   "ini": 293.531,
+   "fin": 294.812,
+   "tipo": "img",
+   "id": "138",
+   "cam": "WS",
+   "tr": "SMASH",
+   "epoca": 5,
+   "linea": "E5_16"
+  },
+  {
+   "ini": 294.812,
+   "fin": 297.417,
+   "tipo": "img",
+   "id": "139",
+   "cam": "WS",
+   "tr": "MATCH",
+   "epoca": 5,
+   "linea": "E5_17"
+  },
+  {
+   "ini": 297.417,
+   "fin": 297.537,
+   "tipo": "negro"
+  },
+  {
+   "ini": 297.537,
+   "fin": 299.037,
+   "tipo": "fin",
+   "culpable": "UNA PULGA",
+   "nota": "F",
+   "tiempo": "11 DÍAS",
+   "epoca": 5
+  },
+  {
+   "ini": 299.037,
+   "fin": 299.187,
+   "tipo": "negro"
+  },
+  {
+   "ini": 299.187,
+   "fin": 299.937,
+   "tipo": "titulo_epoca",
+   "texto": "ÉPOCA 6 DE 8"
+  },
+  {
+   "ini": 299.937,
+   "fin": 301.228,
+   "tipo": "img",
+   "id": "140",
+   "cam": "MS",
+   "tr": "FLASH",
+   "epoca": 6,
+   "linea": "E6_01"
+  },
+  {
+   "ini": 301.228,
+   "fin": 305.157,
+   "tipo": "img",
+   "id": "141",
+   "cam": "WS",
+   "tr": "PUNCH",
+   "epoca": 6,
+   "linea": "E6_02"
+  },
+  {
+   "ini": 305.157,
+   "fin": 307.644,
+   "tipo": "img",
+   "id": "143",
+   "cam": "BE",
+   "tr": "PUNCH",
+   "epoca": 6,
+   "linea": "E6_05"
+  },
+  {
+   "ini": 307.644,
+   "fin": 310.164,
+   "tipo": "img",
+   "id": "144",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 6,
+   "linea": "E6_06"
+  },
+  {
+   "ini": 310.164,
+   "fin": 315.184,
+   "tipo": "img",
+   "id": "145",
+   "cam": "WS",
+   "tr": "PUNCH",
+   "epoca": 6,
+   "linea": "E6_07",
+   "golpes": [
+    312.674
+   ]
+  },
+  {
+   "ini": 315.184,
+   "fin": 317.411,
+   "tipo": "img",
+   "id": "146",
+   "cam": "MS",
+   "tr": "PUNCH",
+   "epoca": 6,
+   "linea": "E6_08"
+  },
+  {
+   "ini": 317.411,
+   "fin": 319.197,
+   "tipo": "img",
+   "id": "147",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 6,
+   "linea": "E6_09"
+  },
+  {
+   "ini": 319.197,
+   "fin": 321.382,
+   "tipo": "img",
+   "id": "148",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 6,
+   "linea": "E6_10"
+  },
+  {
+   "ini": 321.382,
+   "fin": 322.458,
+   "tipo": "img",
+   "id": "149",
+   "cam": "WS",
+   "tr": "WHIP",
+   "epoca": 6,
+   "linea": "E6_11"
+  },
+  {
+   "ini": 322.458,
+   "fin": 324.558,
+   "tipo": "img",
+   "id": "150",
+   "cam": "WS",
+   "tr": "SMASH",
+   "epoca": 6,
+   "linea": "E6_12"
+  },
+  {
+   "ini": 324.558,
+   "fin": 328.682,
+   "tipo": "img",
+   "id": "151",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 6,
+   "linea": "E6_13"
+  },
+  {
+   "ini": 328.682,
+   "fin": 332.172,
+   "tipo": "img",
+   "id": "152",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 6,
+   "linea": "E6_15"
+  },
+  {
+   "ini": 332.172,
+   "fin": 333.377,
+   "tipo": "img",
+   "id": "153",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 6,
+   "linea": "E6_16"
+  },
+  {
+   "ini": 333.377,
+   "fin": 335.503,
+   "tipo": "img",
+   "id": "154",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 6,
+   "linea": "E6_17",
+   "congelar": 335.003
+  },
+  {
+   "ini": 335.503,
+   "fin": 335.653,
+   "tipo": "negro"
+  },
+  {
+   "ini": 335.653,
+   "fin": 338.578,
+   "tipo": "img",
+   "id": "155",
+   "cam": "EC",
+   "tr": "SMASH",
+   "epoca": 6,
+   "linea": "E6_18"
+  },
+  {
+   "ini": 338.578,
+   "fin": 340.405,
+   "tipo": "img",
+   "id": "156",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 6,
+   "linea": "E6_19"
+  },
+  {
+   "ini": 340.405,
+   "fin": 342.493,
+   "tipo": "img",
+   "id": "157",
+   "cam": "WS",
+   "tr": "SMASH",
+   "epoca": 6,
+   "linea": "E6_20"
+  },
+  {
+   "ini": 342.493,
+   "fin": 345.519,
+   "tipo": "img",
+   "id": "158",
+   "cam": "WS",
+   "tr": "MATCH",
+   "epoca": 6,
+   "linea": "E6_21"
+  },
+  {
+   "ini": 345.519,
+   "fin": 345.639,
+   "tipo": "negro"
+  },
+  {
+   "ini": 345.639,
+   "fin": 347.139,
+   "tipo": "fin",
+   "culpable": "LA VIRUELA",
+   "nota": "B",
+   "tiempo": "9 MESES",
+   "epoca": 6
+  },
+  {
+   "ini": 347.139,
+   "fin": 347.289,
+   "tipo": "negro"
+  },
+  {
+   "ini": 347.289,
+   "fin": 348.039,
+   "tipo": "titulo_epoca",
+   "texto": "ÉPOCA 7 DE 8"
+  },
+  {
+   "ini": 348.039,
+   "fin": 354.383,
+   "tipo": "img",
+   "id": "159",
+   "cam": "WS",
+   "tr": "FLASH",
+   "epoca": 7,
+   "linea": "E7_01",
+   "golpes": [
+    351.211
+   ]
+  },
+  {
+   "ini": 354.383,
+   "fin": 356.728,
+   "tipo": "img",
+   "id": "160",
+   "cam": "LA",
+   "tr": "PUNCH",
+   "epoca": 7,
+   "linea": "E7_02"
+  },
+  {
+   "ini": 356.728,
+   "fin": 359.467,
+   "tipo": "img",
+   "id": "162",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 7,
+   "linea": "E7_04"
+  },
+  {
+   "ini": 359.467,
+   "fin": 361.672,
+   "tipo": "img",
+   "id": "163",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 7,
+   "linea": "E7_04"
+  },
+  {
+   "ini": 361.672,
+   "fin": 367.679,
+   "tipo": "img",
+   "id": "164",
+   "cam": "MS",
+   "tr": "PUNCH",
+   "epoca": 7,
+   "linea": "E7_05",
+   "golpes": [
+    364.675
+   ]
+  },
+  {
+   "ini": 367.679,
+   "fin": 370.736,
+   "tipo": "img",
+   "id": "165",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 7,
+   "linea": "E7_06"
+  },
+  {
+   "ini": 370.736,
+   "fin": 372.554,
+   "tipo": "img",
+   "id": "166",
+   "cam": "WS",
+   "tr": "PUNCH",
+   "epoca": 7,
+   "linea": "E7_07"
+  },
+  {
+   "ini": 372.554,
+   "fin": 374.022,
+   "tipo": "img",
+   "id": "167",
+   "cam": "EC",
+   "tr": "PUNCH",
+   "epoca": 7,
+   "linea": "E7_08"
+  },
+  {
+   "ini": 374.022,
+   "fin": 376.304,
+   "tipo": "img",
+   "id": "176",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 7,
+   "linea": "E7_08"
+  },
+  {
+   "ini": 376.304,
+   "fin": 378.821,
+   "tipo": "img",
+   "id": "168",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 7,
+   "linea": "E7_09"
+  },
+  {
+   "ini": 378.821,
+   "fin": 381.743,
+   "tipo": "img",
+   "id": "169",
+   "cam": "MS",
+   "tr": "GAME",
+   "epoca": 7,
+   "linea": "E7_10"
+  },
+  {
+   "ini": 381.743,
+   "fin": 384.077,
+   "tipo": "img",
+   "id": "170",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 7,
+   "linea": "E7_10"
+  },
+  {
+   "ini": 384.077,
+   "fin": 385.361,
+   "tipo": "img",
+   "id": "172",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 7,
+   "linea": "E7_11"
+  },
+  {
+   "ini": 385.361,
+   "fin": 388.7,
+   "tipo": "img",
+   "id": "171",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 7,
+   "linea": "E7_11"
+  },
+  {
+   "ini": 388.7,
+   "fin": 390.845,
+   "tipo": "img",
+   "id": "173",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 7,
+   "linea": "E7_11",
+   "congelar": 390.345
+  },
+  {
+   "ini": 390.845,
+   "fin": 390.995,
+   "tipo": "negro"
+  },
+  {
+   "ini": 390.995,
+   "fin": 393.592,
+   "tipo": "img",
+   "id": "174",
+   "cam": "EC",
+   "tr": "SMASH",
+   "epoca": 7,
+   "linea": "E7_12"
+  },
+  {
+   "ini": 393.592,
+   "fin": 402.244,
+   "tipo": "img",
+   "id": "175",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 7,
+   "linea": "E7_13",
+   "golpes": [
+    396.476,
+    399.36
+   ]
+  },
+  {
+   "ini": 402.244,
+   "fin": 403.525,
+   "tipo": "img",
+   "id": "177",
+   "cam": "WS",
+   "tr": "SMASH",
+   "epoca": 7,
+   "linea": "E7_15"
+  },
+  {
+   "ini": 403.525,
+   "fin": 405.645,
+   "tipo": "img",
+   "id": "178",
+   "cam": "EC",
+   "tr": "MATCH",
+   "epoca": 7,
+   "linea": "E7_16"
+  },
+  {
+   "ini": 405.645,
+   "fin": 405.765,
+   "tipo": "negro"
+  },
+  {
+   "ini": 405.765,
+   "fin": 407.265,
+   "tipo": "fin",
+   "culpable": "EL HAMBRE",
+   "nota": "D",
+   "tiempo": "17 DÍAS",
+   "epoca": 7
+  },
+  {
+   "ini": 407.265,
+   "fin": 407.415,
+   "tipo": "negro"
+  },
+  {
+   "ini": 407.415,
+   "fin": 408.165,
+   "tipo": "titulo_epoca",
+   "texto": "ÉPOCA 8 DE 8"
+  },
+  {
+   "ini": 408.165,
+   "fin": 412.417,
+   "tipo": "img",
+   "id": "179",
+   "cam": "EC",
+   "tr": "FLASH",
+   "epoca": 8,
+   "linea": "E8_01"
+  },
+  {
+   "ini": 412.417,
+   "fin": 415.865,
+   "tipo": "img",
+   "id": "180",
+   "cam": "WS",
+   "tr": "PUNCH",
+   "epoca": 8,
+   "linea": "E8_04"
+  },
+  {
+   "ini": 415.865,
+   "fin": 418.554,
+   "tipo": "img",
+   "id": "182",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 8,
+   "linea": "E8_05"
+  },
+  {
+   "ini": 418.554,
+   "fin": 420.136,
+   "tipo": "img",
+   "id": "183",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 8,
+   "linea": "E8_06"
+  },
+  {
+   "ini": 420.136,
+   "fin": 423.441,
+   "tipo": "img",
+   "id": "184",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 8,
+   "linea": "E8_07"
+  },
+  {
+   "ini": 423.441,
+   "fin": 426.576,
+   "tipo": "img",
+   "id": "185",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 8,
+   "linea": "E8_09"
+  },
+  {
+   "ini": 426.576,
+   "fin": 427.661,
+   "tipo": "img",
+   "id": "186",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 8,
+   "linea": "E8_09"
+  },
+  {
+   "ini": 427.661,
+   "fin": 430.075,
+   "tipo": "img",
+   "id": "187",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 8,
+   "linea": "E8_10"
+  },
+  {
+   "ini": 430.075,
+   "fin": 430.239,
+   "tipo": "img",
+   "id": "188",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 8,
+   "linea": "E8_11"
+  },
+  {
+   "ini": 430.239,
+   "fin": 433.478,
+   "tipo": "img",
+   "id": "194",
+   "cam": "EC",
+   "tr": "SMASH",
+   "epoca": 8,
+   "linea": "E8_11"
+  },
+  {
+   "ini": 433.478,
+   "fin": 435.544,
+   "tipo": "img",
+   "id": "189",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 8,
+   "linea": "E8_12"
+  },
+  {
+   "ini": 435.544,
+   "fin": 438.472,
+   "tipo": "img",
+   "id": "190",
+   "cam": "MS",
+   "tr": "PUNCH",
+   "epoca": 8,
+   "linea": "E8_13"
+  },
+  {
+   "ini": 438.472,
+   "fin": 441.584,
+   "tipo": "img",
+   "id": "191",
+   "cam": "CU",
+   "tr": "PUNCH",
+   "epoca": 8,
+   "linea": "E8_14"
+  },
+  {
+   "ini": 441.584,
+   "fin": 444.072,
+   "tipo": "img",
+   "id": "192",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 8,
+   "linea": "E8_15"
+  },
+  {
+   "ini": 444.072,
+   "fin": 446.144,
+   "tipo": "img",
+   "id": "193",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 8,
+   "linea": "E8_16",
+   "congelar": 445.644
+  },
+  {
+   "ini": 446.144,
+   "fin": 447.176,
+   "tipo": "negro"
+  },
+  {
+   "ini": 447.176,
+   "fin": 452.658,
+   "tipo": "img",
+   "id": "195",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 8,
+   "linea": "E8_18",
+   "golpes": [
+    449.917
+   ]
+  },
+  {
+   "ini": 452.658,
+   "fin": 452.778,
+   "tipo": "negro"
+  },
+  {
+   "ini": 452.778,
+   "fin": 454.278,
+   "tipo": "fin",
+   "culpable": "UN VASO DE AGUA",
+   "nota": "F",
+   "tiempo": "3 DÍAS",
+   "epoca": 8
+  },
+  {
+   "ini": 454.278,
+   "fin": 455.878,
+   "tipo": "img",
+   "id": "197",
+   "cam": "WS",
+   "tr": "FLASH",
+   "epoca": 8
+  },
+  {
+   "ini": 455.878,
+   "fin": 457.891,
+   "tipo": "img",
+   "id": "198",
+   "cam": "EC",
+   "tr": "FLASH",
+   "epoca": 0,
+   "linea": "C_01"
+  },
+  {
+   "ini": 457.891,
+   "fin": 460.56,
+   "tipo": "img",
+   "id": "200",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 0,
+   "linea": "C_02"
+  },
+  {
+   "ini": 460.56,
+   "fin": 463.746,
+   "tipo": "img",
+   "id": "203",
+   "cam": "MS",
+   "tr": "PUNCH",
+   "epoca": 0,
+   "linea": "C_03"
+  },
+  {
+   "ini": 463.746,
+   "fin": 465.004,
+   "tipo": "img",
+   "id": "204",
+   "cam": "EC",
+   "tr": "PUNCH",
+   "epoca": 0,
+   "linea": "C_04"
+  },
+  {
+   "ini": 465.004,
+   "fin": 468.88,
+   "tipo": "img",
+   "id": "206",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 0,
+   "linea": "C_05"
+  },
+  {
+   "ini": 468.88,
+   "fin": 472.153,
+   "tipo": "img",
+   "id": "207",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 0,
+   "linea": "C_06"
+  },
+  {
+   "ini": 472.153,
+   "fin": 479.618,
+   "tipo": "img",
+   "id": "208",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 0,
+   "linea": "C_07",
+   "golpes": [
+    474.641,
+    477.13
+   ]
+  },
+  {
+   "ini": 479.618,
+   "fin": 480.929,
+   "tipo": "img",
+   "id": "209",
+   "cam": "WS",
+   "tr": "",
+   "epoca": 0,
+   "linea": "C_08"
+  },
+  {
+   "ini": 480.929,
+   "fin": 483.793,
+   "tipo": "img",
+   "id": "210",
+   "cam": "WS",
+   "tr": "PUNCH",
+   "epoca": 0,
+   "linea": "C_09"
+  },
+  {
+   "ini": 483.793,
+   "fin": 485.612,
+   "tipo": "img",
+   "id": "211",
+   "cam": "WS",
+   "tr": "SMASH",
+   "epoca": 0,
+   "linea": "C_10"
+  },
+  {
+   "ini": 485.612,
+   "fin": 488.82,
+   "tipo": "img",
+   "id": "212",
+   "cam": "WS",
+   "tr": "PUNCH",
+   "epoca": 0,
+   "linea": "C_11"
+  },
+  {
+   "ini": 488.82,
+   "fin": 491.049,
+   "tipo": "img",
+   "id": "213",
+   "cam": "CU",
+   "tr": "",
+   "epoca": 0,
+   "linea": "C_13"
+  },
+  {
+   "ini": 491.049,
+   "fin": 493.364,
+   "tipo": "img",
+   "id": "221",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 0,
+   "linea": "C_14"
+  },
+  {
+   "ini": 493.364,
+   "fin": 494.957,
+   "tipo": "img",
+   "id": "222",
+   "cam": "MS",
+   "tr": "PUNCH",
+   "epoca": 0,
+   "linea": "C_15"
+  },
+  {
+   "ini": 494.957,
+   "fin": 498.64,
+   "tipo": "img",
+   "id": "223",
+   "cam": "MS",
+   "tr": "",
+   "epoca": 0,
+   "linea": "C_16"
+  },
+  {
+   "ini": 498.64,
+   "fin": 501.589,
+   "tipo": "img",
+   "id": "224",
+   "cam": "MS",
+   "tr": "PUNCH",
+   "epoca": 0,
+   "linea": "C_17"
+  },
+  {
+   "ini": 501.589,
+   "fin": 505.492,
+   "tipo": "img",
+   "id": "225",
+   "cam": "CU",
+   "tr": "GAME",
+   "epoca": 0,
+   "linea": "C_18"
+  },
+  {
+   "ini": 505.492,
+   "fin": 514.492,
+   "tipo": "tabla",
+   "filas": [
+    {
+     "epoca": "HIELO",
+     "nota": "F",
+     "tiempo": "2 H 14 MIN",
+     "culpable": "EL FRÍO"
+    },
+    {
+     "epoca": "EGIPTO",
+     "nota": "A",
+     "tiempo": "41 AÑOS",
+     "culpable": "LA VEJEZ"
+    },
+    {
+     "epoca": "POMPEYA",
+     "nota": "D",
+     "tiempo": "19 HORAS",
+     "culpable": "LA CURIOSIDAD"
+    },
+    {
+     "epoca": "ROMA",
+     "nota": "C",
+     "tiempo": "6:07",
+     "culpable": "EL ESPECTÁCULO"
+    },
+    {
+     "epoca": "1348",
+     "nota": "F",
+     "tiempo": "11 DÍAS",
+     "culpable": "UNA PULGA"
+    },
+    {
+     "epoca": "TENOCHTITLAN",
+     "nota": "B",
+     "tiempo": "9 MESES",
+     "culpable": "LA VIRUELA"
+    },
+    {
+     "epoca": "1816",
+     "nota": "D",
+     "tiempo": "17 DÍAS",
+     "culpable": "EL HAMBRE"
+    },
+    {
+     "epoca": "LONDRES",
+     "nota": "F",
+     "tiempo": "3 DÍAS",
+     "culpable": "UN VASO DE AGUA"
+    }
+   ],
+   "llenar": 4.0
+  },
+  {
+   "ini": 514.492,
+   "fin": 516.092,
+   "tipo": "img",
+   "id": "008",
+   "cam": "zoom",
+   "tr": "FLASH",
+   "epoca": 0
+  }
+ ],
+ "textos": [
+  {
+   "ini": 5.062,
+   "texto": "NUEVA PARTIDA · JUGADOR: TÚ · DIFICULTAD: REALISTA",
+   "id": "013",
+   "fin": 8.729
+  },
+  {
+   "ini": 12.384,
+   "texto": "HACE 18.000 AÑOS",
+   "id": "016",
+   "fin": 13.821
+  },
+  {
+   "ini": 17.71,
+   "texto": "SPOILER: POCO",
+   "id": "019",
+   "fin": 19.013
+  },
+  {
+   "ini": 27.541,
+   "texto": "TABLA FINAL",
+   "id": "025",
+   "fin": 30.036
+  },
+  {
+   "ini": 30.136,
+   "texto": "¿EN CUÁL DURARÍAS MÁS?",
+   "id": "026",
+   "fin": 31.718
+  },
+  {
+   "ini": 31.818,
+   "texto": "HAZ TU APUESTA",
+   "id": "027",
+   "fin": 33.524
+  },
+  {
+   "ini": 43.884,
+   "texto": "HACE 18.000 AÑOS · UCRANIA",
+   "id": "033",
+   "fin": 45.948
+  },
+  {
+   "ini": 74.221,
+   "texto": "SKILL ISSUE",
+   "id": "047",
+   "fin": 75.575
+  },
+  {
+   "ini": 75.825,
+   "texto": "2:14 · FIN",
+   "id": "048",
+   "fin": 77.608
+  },
+  {
+   "ini": 88.952,
+   "texto": "HACE 3.200 AÑOS · EGIPTO",
+   "id": "052",
+   "fin": 93.407
+  },
+  {
+   "ini": 107.772,
+   "texto": "NIVEL TUTORIAL",
+   "id": "060",
+   "fin": 109.828
+  },
+  {
+   "ini": 117.078,
+   "texto": "EXIGIMOS PAN",
+   "id": "066",
+   "fin": 119.11
+  },
+  {
+   "ini": 124.335,
+   "texto": "41 AÑOS",
+   "id": "072",
+   "fin": 133.234
+  },
+  {
+   "ini": 139.136,
+   "texto": "AÑO 79 · POMPEYA",
+   "id": "074",
+   "fin": 140.879
+  },
+  {
+   "ini": 148.31,
+   "texto": "EVEREST vs COLUMNA",
+   "id": "079",
+   "fin": 149.86
+  },
+  {
+   "ini": 173.931,
+   "texto": "~200 °C ≈ UN HORNO",
+   "id": "088",
+   "fin": 177.695
+  },
+  {
+   "ini": 177.795,
+   "texto": "1.500 – 3.500 PERSONAS (ESTIMADO)",
+   "id": "089",
+   "fin": 182.723
+  },
+  {
+   "ini": 182.823,
+   "texto": "GUARDA ESTE NÚMERO",
+   "id": "090",
+   "fin": 185.71
+  },
+  {
+   "ini": 185.96,
+   "texto": "19 HORAS",
+   "id": "091",
+   "fin": 187.16
+  },
+  {
+   "ini": 197.243,
+   "texto": "ROMA · AÑO 100",
+   "id": "095",
+   "fin": 201.287
+  },
+  {
+   "ini": 201.337,
+   "texto": "CERCA DE 1.000.000 DE HABITANTES",
+   "id": "098",
+   "fin": 205.522
+  },
+  {
+   "ini": 205.622,
+   "texto": "ROMA · AÑO 100",
+   "id": "095",
+   "fin": 207.656
+  },
+  {
+   "ini": 207.756,
+   "texto": "REPETICIÓN",
+   "id": "097",
+   "fin": 210.821
+  },
+  {
+   "ini": 219.195,
+   "texto": "25 AÑOS",
+   "id": "107",
+   "fin": 222.12
+  },
+  {
+   "ini": 222.22,
+   "texto": "MENTIRA",
+   "id": "108",
+   "fin": 223.619
+  },
+  {
+   "ini": 223.719,
+   "texto": "CASI LA MITAD · ANTES DE LOS 10",
+   "id": "109",
+   "fin": 225.706
+  },
+  {
+   "ini": 225.806,
+   "texto": "~50 AÑOS",
+   "id": "110",
+   "fin": 228.419
+  },
+  {
+   "ini": 232.592,
+   "texto": "6:07",
+   "id": "113",
+   "fin": 234.526
+  },
+  {
+   "ini": 235.907,
+   "texto": "MITAD DEL JUEGO",
+   "id": "116",
+   "fin": 237.873
+  },
+  {
+   "ini": 240.343,
+   "texto": "HIELO F · EGIPTO A · POMPEYA D · ROMA C",
+   "id": "117",
+   "fin": 242.277
+  },
+  {
+   "ini": 254.638,
+   "texto": "1348",
+   "id": "122",
+   "fin": 256.917
+  },
+  {
+   "ini": 261.193,
+   "texto": "1348 · LA PESTE NEGRA",
+   "id": "126",
+   "fin": 265.112
+  },
+  {
+   "ini": 265.212,
+   "texto": "1 DE CADA 3 … 2 DE CADA 3",
+   "id": "127",
+   "fin": 268.028
+  },
+  {
+   "ini": 284.073,
+   "texto": "DÍA 1",
+   "id": "133",
+   "fin": 285.425
+  },
+  {
+   "ini": 285.525,
+   "texto": "DÍA 3",
+   "id": "134",
+   "fin": 288.32
+  },
+  {
+   "ini": 288.42,
+   "texto": "DÍA 4",
+   "id": "135",
+   "fin": 290.934
+  },
+  {
+   "ini": 291.034,
+   "texto": "COOKED",
+   "id": "136",
+   "fin": 292.531
+  },
+  {
+   "ini": 292.781,
+   "texto": "DÍA 11",
+   "id": "137",
+   "fin": 293.981
+  },
+  {
+   "ini": 305.257,
+   "texto": "TENOCHTITLAN · 1519",
+   "id": "143",
+   "fin": 307.644
+  },
+  {
+   "ini": 307.744,
+   "texto": "200.000 – 300.000 HABITANTES",
+   "id": "144",
+   "fin": 310.164
+  },
+  {
+   "ini": 310.264,
+   "texto": "2–3 × ESTADIO AZTECA",
+   "id": "145",
+   "fin": 315.184
+  },
+  {
+   "ini": 322.558,
+   "texto": "1520",
+   "id": "150",
+   "fin": 324.558
+  },
+  {
+   "ini": 328.782,
+   "texto": "MÁS DE LA MITAD · EN POCOS MESES",
+   "id": "152",
+   "fin": 332.172
+  },
+  {
+   "ini": 335.753,
+   "texto": "9 MESES",
+   "id": "155",
+   "fin": 338.578
+  },
+  {
+   "ini": 348.139,
+   "texto": "ABRIL 1815 · TAMBORA",
+   "id": "159",
+   "fin": 354.383
+  },
+  {
+   "ini": 356.828,
+   "texto": "2.600 KM",
+   "id": "162",
+   "fin": 359.467
+  },
+  {
+   "ini": 359.567,
+   "texto": "CDMX → PANAMÁ (APROX.)",
+   "id": "163",
+   "fin": 361.672
+  },
+  {
+   "ini": 361.772,
+   "texto": "1816 · SUIZA",
+   "id": "164",
+   "fin": 367.679
+  },
+  {
+   "ini": 372.654,
+   "texto": "MENOS DE 1 °C",
+   "id": "167",
+   "fin": 374.022
+  },
+  {
+   "ini": 378.921,
+   "texto": "AVENA: 12 → 92 CENTAVOS",
+   "id": "169",
+   "fin": 381.743
+  },
+  {
+   "ini": 381.843,
+   "texto": "PAN: $1 → $8",
+   "id": "170",
+   "fin": 384.077
+  },
+  {
+   "ini": 391.095,
+   "texto": "17 DÍAS",
+   "id": "174",
+   "fin": 393.592
+  },
+  {
+   "ini": 393.692,
+   "texto": "+65.000 · TIFUS",
+   "id": "175",
+   "fin": 402.244
+  },
+  {
+   "ini": 412.517,
+   "texto": "SOHO · LONDRES · 1854",
+   "id": "180",
+   "fin": 415.865
+  },
+  {
+   "ini": 426.676,
+   "texto": "MENOS DE 1 METRO",
+   "id": "186",
+   "fin": 427.876
+  },
+  {
+   "ini": 430.175,
+   "texto": "127 EN 3 DÍAS",
+   "id": "188",
+   "fin": 430.289
+  },
+  {
+   "ini": 430.339,
+   "texto": "3 DÍAS",
+   "id": "194",
+   "fin": 433.478
+  },
+  {
+   "ini": 433.578,
+   "texto": "+300 EN 10 DÍAS",
+   "id": "189",
+   "fin": 435.544
+  },
+  {
+   "ini": 435.644,
+   "texto": "DR. JOHN SNOW",
+   "id": "190",
+   "fin": 438.472
+  },
+  {
+   "ini": 441.684,
+   "texto": "8 DE SEPTIEMBRE",
+   "id": "192",
+   "fin": 444.072
+  },
+  {
+   "ini": 454.378,
+   "texto": "PRÓXIMO: LOS RESULTADOS",
+   "id": "197",
+   "fin": 455.878
+  },
+  {
+   "ini": 460.66,
+   "texto": "MÁS DURASTE: EGIPTO · 41 AÑOS",
+   "id": "203",
+   "fin": 463.746
+  },
+  {
+   "ini": 463.846,
+   "texto": "TU APUESTA",
+   "id": "204",
+   "fin": 465.046
+  },
+  {
+   "ini": 481.029,
+   "texto": "UNOS MILES",
+   "id": "210",
+   "fin": 483.793
+  },
+  {
+   "ini": 483.893,
+   "texto": "DECENAS DE MILLONES",
+   "id": "211",
+   "fin": 485.612
+  },
+  {
+   "ini": 498.74,
+   "texto": "PRÓXIMO: PIJAMA, CAZADOR",
+   "id": "224",
+   "fin": 501.589
+  },
+  {
+   "ini": 501.689,
+   "texto": "67 MIL LIKES",
+   "id": "225",
+   "fin": 505.492
+  }
+ ],
+ "carteles": [
+  {
+   "ini": 44.134,
+   "fin": 45.634,
+   "tipo": "jefe",
+   "texto": "JEFE: EL FRÍO"
+  },
+  {
+   "ini": 45.784,
+   "fin": 47.784,
+   "tipo": "simulacion",
+   "texto": "TIEMPOS DE PIJAMA = SIMULACIÓN"
+  },
+  {
+   "ini": 77.608,
+   "fin": 82.185,
+   "tipo": "logro",
+   "texto": "MORIR CONGELADO EN PIJAMA",
+   "aura": -67
+  },
+  {
+   "ini": 89.202,
+   "fin": 90.702,
+   "tipo": "jefe",
+   "texto": "JEFE: LA REUNIÓN DE LUNES"
+  },
+  {
+   "ini": 125.365,
+   "fin": 130.086,
+   "tipo": "logro",
+   "texto": "NIVEL TUTORIAL COMPLETADO",
+   "aura": 1000
+  },
+  {
+   "ini": 139.386,
+   "fin": 140.886,
+   "tipo": "jefe",
+   "texto": "JEFE: EL VESUBIO"
+  },
+  {
+   "ini": 187.001,
+   "fin": 190.627,
+   "tipo": "logro",
+   "texto": "MIRAR UN VOLCÁN DE CERCA",
+   "aura": 0
+  },
+  {
+   "ini": 197.493,
+   "fin": 198.993,
+   "tipo": "jefe",
+   "texto": "JEFE: UN LEÓN CON BARBIJO"
+  },
+  {
+   "ini": 234.446,
+   "fin": 236.046,
+   "tipo": "logro",
+   "texto": "CULPABLE: EL ESPECTÁCULO"
+  },
+  {
+   "ini": 240.443,
+   "fin": 242.443,
+   "tipo": "simulacion",
+   "texto": "TIEMPOS DE PIJAMA = SIMULACIÓN"
+  },
+  {
+   "ini": 254.888,
+   "fin": 256.388,
+   "tipo": "jefe",
+   "texto": "JEFE: UNA PULGA"
+  },
+  {
+   "ini": 293.451,
+   "fin": 295.051,
+   "tipo": "logro",
+   "texto": "CULPABLE: UNA PULGA"
+  },
+  {
+   "ini": 300.287,
+   "fin": 301.787,
+   "tipo": "jefe",
+   "texto": "JEFE: ???"
+  },
+  {
+   "ini": 336.498,
+   "fin": 338.098,
+   "tipo": "logro",
+   "texto": "CULPABLE: LA VIRUELA"
+  },
+  {
+   "ini": 348.389,
+   "fin": 349.889,
+   "tipo": "jefe",
+   "texto": "JEFE: UN VERANO QUE NO LLEGA"
+  },
+  {
+   "ini": 392.077,
+   "fin": 393.677,
+   "tipo": "logro",
+   "texto": "CULPABLE: EL HAMBRE"
+  },
+  {
+   "ini": 408.515,
+   "fin": 410.015,
+   "tipo": "jefe",
+   "texto": "JEFE: UN VASO DE AGUA"
+  },
+  {
+   "ini": 447.096,
+   "fin": 448.696,
+   "tipo": "logro",
+   "texto": "CULPABLE: UN VASO DE AGUA"
+  },
+  {
+   "ini": 509.992,
+   "fin": 514.492,
+   "tipo": "simulacion",
+   "texto": "TIEMPOS DE PIJAMA = SIMULACIÓN"
+  },
+  {
+   "ini": 509.992,
+   "fin": 514.492,
+   "tipo": "fuentes",
+   "texto": "FUENTES EN LA DESCRIPCIÓN"
+  }
+ ],
+ "hud": [
+  {
+   "ini": 0,
+   "epoca": 0,
+   "vidas": 8,
+   "aura": 0,
+   "vida": ""
+  },
+  {
+   "ini": 43.784,
+   "epoca": 1,
+   "vidas": 8,
+   "aura": 0,
+   "vida": ""
+  },
+  {
+   "ini": 75.725,
+   "epoca": 1,
+   "vidas": 7,
+   "aura": 0,
+   "vida": "2 H 14 MIN"
+  },
+  {
+   "ini": 81.27,
+   "epoca": 1,
+   "vidas": 7,
+   "aura": -67,
+   "vida": "2 H 14 MIN"
+  },
+  {
+   "ini": 88.852,
+   "epoca": 2,
+   "vidas": 7,
+   "aura": -67,
+   "vida": ""
+  },
+  {
+   "ini": 124.235,
+   "epoca": 2,
+   "vidas": 6,
+   "aura": -67,
+   "vida": "41 AÑOS"
+  },
+  {
+   "ini": 129.142,
+   "epoca": 2,
+   "vidas": 6,
+   "aura": 933,
+   "vida": "41 AÑOS"
+  },
+  {
+   "ini": 139.036,
+   "epoca": 3,
+   "vidas": 6,
+   "aura": 933,
+   "vida": ""
+  },
+  {
+   "ini": 185.86,
+   "epoca": 3,
+   "vidas": 5,
+   "aura": 933,
+   "vida": "19 HORAS"
+  },
+  {
+   "ini": 189.902,
+   "epoca": 3,
+   "vidas": 5,
+   "aura": 933,
+   "vida": "19 HORAS"
+  },
+  {
+   "ini": 197.143,
+   "epoca": 4,
+   "vidas": 5,
+   "aura": 933,
+   "vida": ""
+  },
+  {
+   "ini": 232.492,
+   "epoca": 4,
+   "vidas": 4,
+   "aura": 933,
+   "vida": "6:07"
+  },
+  {
+   "ini": 254.538,
+   "epoca": 5,
+   "vidas": 4,
+   "aura": 933,
+   "vida": ""
+  },
+  {
+   "ini": 292.681,
+   "epoca": 5,
+   "vidas": 3,
+   "aura": 933,
+   "vida": "11 DÍAS"
+  },
+  {
+   "ini": 299.937,
+   "epoca": 6,
+   "vidas": 3,
+   "aura": 933,
+   "vida": ""
+  },
+  {
+   "ini": 335.653,
+   "epoca": 6,
+   "vidas": 2,
+   "aura": 933,
+   "vida": "9 MESES"
+  },
+  {
+   "ini": 348.039,
+   "epoca": 7,
+   "vidas": 2,
+   "aura": 933,
+   "vida": ""
+  },
+  {
+   "ini": 390.995,
+   "epoca": 7,
+   "vidas": 1,
+   "aura": 933,
+   "vida": "17 DÍAS"
+  },
+  {
+   "ini": 408.165,
+   "epoca": 8,
+   "vidas": 1,
+   "aura": 933,
+   "vida": ""
+  },
+  {
+   "ini": 446.294,
+   "epoca": 8,
+   "vidas": 0,
+   "aura": 933,
+   "vida": "3 DÍAS"
+  },
+  {
+   "ini": 455.878,
+   "epoca": 0,
+   "vidas": 0,
+   "aura": 933,
+   "vida": "3 DÍAS"
+  }
+ ],
+ "color": [
+  {
+   "ini": 0.0,
+   "estilo": "gancho"
+  },
+  {
+   "ini": 43.784,
+   "estilo": "hielo"
+  },
+  {
+   "ini": 88.852,
+   "estilo": "egipto"
+  },
+  {
+   "ini": 139.036,
+   "estilo": "pompeya"
+  },
+  {
+   "ini": 197.143,
+   "estilo": "roma"
+  },
+  {
+   "ini": 240.243,
+   "estilo": "juego"
+  },
+  {
+   "ini": 254.538,
+   "estilo": "1348"
+  },
+  {
+   "ini": 299.937,
+   "estilo": "tenochtitlan"
+  },
+  {
+   "ini": 324.558,
+   "estilo": "drenaje",
+   "fin_rampa": 333.297
+  },
+  {
+   "ini": 348.039,
+   "estilo": "1816"
+  },
+  {
+   "ini": 402.244,
+   "estilo": "mudo"
+  },
+  {
+   "ini": 408.165,
+   "estilo": "mudo"
+  },
+  {
+   "ini": 408.165,
+   "estilo": "londres"
+  },
+  {
+   "ini": 412.417,
+   "estilo": "londres"
+  },
+  {
+   "ini": 455.878,
+   "estilo": "casa"
+  }
+ ]
+}

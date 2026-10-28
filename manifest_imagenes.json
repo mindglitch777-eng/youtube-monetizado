@@ -1,0 +1,1171 @@
+{
+ "estilo": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream.",
+ "personajes": {
+  "P": "Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet)",
+  "L": "León (a big cartoon male lion with a golden mane and a grumpy but harmless face)",
+  "G": "evil cute germs (round green blobs with small spikes and tiny wicked smiles)"
+ },
+ "notas": "tipo=reaccion: imagenes para cortes rapidos de 1.0-1.5 s entre frases. El campo quote dice en que frase del guion va cada imagen; si una frase tiene varias imagenes, repartirlas en orden cada 3-4 s.",
+ "imagenes": [
+  {
+   "id": "001",
+   "file": "001_hoja_pijama.png",
+   "tipo": "hoja",
+   "block": "HOJAS",
+   "quote": "Hoja de referencia de Pijama (subirla como referencia en todas las demás)",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Character reference sheet of Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet). Three poses side by side on a plain cream background: neutral standing, scared with wide eyes and hands on cheeks, and sick with green skin, spiral eyes, tongue out and a thermometer in his mouth."
+  },
+  {
+   "id": "002",
+   "file": "002_hoja_leon.png",
+   "tipo": "hoja",
+   "block": "HOJAS",
+   "quote": "Hoja de referencia de León (subirla como referencia en todas las demás)",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Character reference sheet of León (a big cartoon male lion with a golden mane and a grumpy but harmless face). Three poses side by side on a plain cream background: roaring, yawning bored, and proudly wearing a white face mask."
+  },
+  {
+   "id": "003",
+   "file": "003_hoja_germenes.png",
+   "tipo": "hoja",
+   "block": "HOJAS",
+   "quote": "Hoja de referencia de los gérmenes (subirla como referencia)",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Character reference sheet of evil cute germs (round green blobs with small spikes and tiny wicked smiles). Several variations on a plain cream background: smiling, laughing evil, one with tiny crown as the boss."
+  },
+  {
+   "id": "004",
+   "file": "004_hook_cama.png",
+   "tipo": "imagen",
+   "block": "GANCHO",
+   "quote": "Cierras los ojos en tu cama",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) sleeping peacefully in a cozy cartoon bed with a blanket, eyes closed, small smile, soft morning light from a window. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "005",
+   "file": "005_hook_ojos.png",
+   "tipo": "imagen",
+   "block": "GANCHO",
+   "quote": "Los abres…",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Extreme close-up of Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet)'s face, eyes snapping wide open in shock, huge pupils, eyebrows raised very high. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "006",
+   "file": "006_hook_sabana_sol.png",
+   "tipo": "imagen",
+   "block": "GANCHO",
+   "quote": "…estás en la sabana, hace 20.000 años",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Wide empty African savanna at sunrise, a huge orange sun filling the sky, flat acacia trees, dry yellow grass, no characters."
+  },
+  {
+   "id": "007",
+   "file": "007_hook_pasto_seco.png",
+   "tipo": "imagen",
+   "block": "GANCHO",
+   "quote": "pasto seco",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) lying on his back on dry yellow grass in the middle of the savanna, wearing pajamas, eyes wide open in shock, huge sun above him. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "008",
+   "file": "008_hook_bolsillos.png",
+   "tipo": "imagen",
+   "block": "GANCHO",
+   "quote": "Sin celular. Sin nadie",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) turning his empty pajama pockets inside out, one tiny lint ball floating down, confused face, savanna background. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "009",
+   "file": "009_hook_reloj24.png",
+   "tipo": "imagen",
+   "block": "GANCHO",
+   "quote": "Solo tú y 24 horas",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A giant round clock face with only tick marks and no numbers, a bold red hand, floating in a savanna sky, dramatic."
+  },
+  {
+   "id": "010",
+   "file": "010_hook_pijama_bajo_reloj.png",
+   "tipo": "imagen",
+   "block": "GANCHO",
+   "quote": "Solo tú y 24 horas",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. The giant round clock from above towering over Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet), who looks tiny and worried at the bottom, savanna background. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "011",
+   "file": "011_hook_leon_enorme.png",
+   "tipo": "imagen",
+   "block": "GANCHO",
+   "quote": "¿Te mata el león?",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Giant menacing León (a big cartoon male lion with a golden mane and a grumpy but harmless face) seen from a low angle roaring at tiny Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet), dark red dramatic sky, savanna. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "012",
+   "file": "012_hook_leon_bosteza.png",
+   "tipo": "imagen",
+   "block": "GANCHO",
+   "quote": "el león es el menor de tus problemas",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. León (a big cartoon male lion with a golden mane and a grumpy but harmless face) yawning widely, bored and sleepy, half-closed eyes, savanna background. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "013",
+   "file": "013_hook_leon_se_va.png",
+   "tipo": "imagen",
+   "block": "GANCHO",
+   "quote": "el león es el menor de tus problemas",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. León (a big cartoon male lion with a golden mane and a grumpy but harmless face) walking away offended with his nose in the air and arms crossed, seen from the side, savanna. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "014",
+   "file": "014_hook_siete_candados.png",
+   "tipo": "imagen",
+   "block": "GANCHO",
+   "quote": "Hoy cuento las 7 formas de morir",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A funny game-show scene: Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) acts like an excited game-show host, holding a long pointer stick and presenting a wall of seven big cartoon padlocks hanging in a row from a stone wall under a dramatic spotlight. Each of the first six padlocks has a different bold icon on its front and a wicked little grin: a water drop, a lion eye, a red berry, a crescent moon with a snowflake, a spear, and a thorn. The seventh padlock is the surprise: it is almost invisible, only a faint ghostly dotted outline with a tiny sparkle, so small and see-through that Pijama squints at it with a shocked face. Dark savanna night behind, exaggerated and funny. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "015",
+   "file": "015_hook_silueta_pregunta.png",
+   "tipo": "imagen",
+   "block": "GANCHO",
+   "quote": "La número uno ni siquiera la ves",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A blurry dark silhouette hiding in thick fog with a giant question mark shape made of smoke, mysterious, no visible details."
+  },
+  {
+   "id": "016",
+   "file": "016_hook_ficha_apuesta.png",
+   "tipo": "imagen",
+   "block": "GANCHO",
+   "quote": "Haz tu apuesta",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) holding a big casino betting chip in his hand, a thought bubble above him showing three small silhouettes: a lion, a hyena and a man with a spear. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "017",
+   "file": "017_hook_pijama_pensando.png",
+   "tipo": "imagen",
+   "block": "GANCHO",
+   "quote": "Haz tu apuesta",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) in a thinking pose, hand on chin, one eyebrow raised, looking up, savanna background. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "112",
+   "file": "112_hook_candado_fantasma.png",
+   "tipo": "imagen",
+   "block": "GANCHO",
+   "quote": "La número uno ni siquiera la ves",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Extreme close-up of Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet)'s shocked face holding a giant magnifying glass, searching a stone wall where the seventh padlock should be; there is only a faint ghostly dotted outline of a padlock and a tiny white sparkle, nothing else visible. Mysterious, funny, suspenseful, dark background with a spotlight. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "018",
+   "file": "018_b7_sol_lengua.png",
+   "tipo": "imagen",
+   "block": "#7 SIN AGUA",
+   "quote": "Son las 9 de la mañana. Tu boca ya sabe a lija.",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A giant smug smiling sun glaring down at Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet), who sticks out a very long dry cracked tongue, cracked dry ground, heat waves. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "019",
+   "file": "019_b7_vapor.png",
+   "tipo": "imagen",
+   "block": "#7 SIN AGUA",
+   "quote": "Pierdes agua hasta cuando respiras",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Close-up of Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) exhaling a cloud of vapor, tiny water droplets with little legs running away from his mouth. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "020",
+   "file": "020_b7_llave.png",
+   "tipo": "imagen",
+   "block": "#7 SIN AGUA",
+   "quote": "En tu casa, el agua sale de una llave",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A giant lonely water tap standing in an empty savanna with one dry drop hanging from it, a blank beige map drawn on the ground, Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) staring at the tap, a tiny León (a big cartoon male lion with a golden mane and a grumpy but harmless face) peeking from behind the tap. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "021",
+   "file": "021_b7_grupo_gps.png",
+   "tipo": "imagen",
+   "block": "#7 SIN AGUA",
+   "quote": "Era un Google Maps con piernas",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. On the left a group of cave people all pointing the same way, one with a speech bubble containing a water drop; on the right Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) looking the opposite way with a blue dot and crossed-out antenna icon above his head. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "022",
+   "file": "022_b7_huellas.png",
+   "tipo": "imagen",
+   "block": "#7 SIN AGUA",
+   "quote": "Caminas horas hacia donde te parece que hay un río",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Top view of footprints walking in a perfect circle on dry sand, mirage bottles of water floating in the distance with mocking little faces."
+  },
+  {
+   "id": "023",
+   "file": "023_b7_charco.png",
+   "tipo": "imagen",
+   "block": "#7 SIN AGUA",
+   "quote": "Y de pronto: un charco",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) kneeling in front of a green muddy puddle with bubbles, a tiny tadpole looking up at him, doubtful face with sweat drops. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "024",
+   "file": "024_b7_charco_guino.png",
+   "tipo": "imagen",
+   "block": "#7 SIN AGUA",
+   "quote": "Guarda ese charco",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. The green muddy puddle winking one eye at the viewer while Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) writes in a tiny notebook with a thoughtful face. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "025",
+   "file": "025_b7_debil.png",
+   "tipo": "imagen",
+   "block": "#7 SIN AGUA",
+   "quote": "Estás débil. Un humano débil es una invitación",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) crawling weakly on the ground with a long shadow behind him, dozens of glowing eyes watching from dark bushes in the background. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "026",
+   "file": "026_b7_mesa_animales.png",
+   "tipo": "imagen",
+   "block": "#7 SIN AGUA",
+   "quote": "La invitación ya tiene fila",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A long wooden table in the savanna with a lion, a hyena and a leopard sitting with napkins around their necks, holding forks, waiting eagerly, empty plate in the center."
+  },
+  {
+   "id": "086",
+   "file": "086_b7_sueno_lavabo.png",
+   "tipo": "imagen",
+   "block": "#7 SIN AGUA",
+   "quote": "Aquí sale de un lugar que nadie te mostró",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) staring into the distance with a dreamy longing face, a thought bubble above him showing a modern kitchen sink with clean water running from the tap, dry cracked savanna ground below. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "087",
+   "file": "087_b7_charco_cerca.png",
+   "tipo": "imagen",
+   "block": "#7 SIN AGUA",
+   "quote": "Verde, quieto, con una capa rara",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Close-up of the surface of a green muddy puddle covered with a weird slimy film, floating bugs, bubbles and a mosquito hovering, gross and funny."
+  },
+  {
+   "id": "088",
+   "file": "088_reaccion_b7.png",
+   "tipo": "reaccion",
+   "block": "#7 SIN AGUA",
+   "quote": "Estás débil",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) desperately licking a dry rock, eyes crossed, tongue dusty, comedic desperation. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "027",
+   "file": "027_b6_trio.png",
+   "tipo": "imagen",
+   "block": "#6 GRANDES ANIMALES",
+   "quote": "Ahora sí: los grandes animales",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. León (a big cartoon male lion with a golden mane and a grumpy but harmless face), a hyena and a leopard standing in a row with cocky \"it's our turn\" faces, savanna background. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "028",
+   "file": "028_b6_miedo.png",
+   "tipo": "imagen",
+   "block": "#6 GRANDES ANIMALES",
+   "quote": "Los ves y tu cuerpo dice: corre",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) frozen with fear, giant sweat drops flying off him, knees shaking, mouth wide open. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "029",
+   "file": "029_b6_calculadora.png",
+   "tipo": "imagen",
+   "block": "#6 GRANDES ANIMALES",
+   "quote": "Para ellos tú no eres un premio. Eres un riesgo",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. León (a big cartoon male lion with a golden mane and a grumpy but harmless face) holding a small calculator and doubting, one eyebrow raised, savanna background. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "030",
+   "file": "030_b6_leon_herido.png",
+   "tipo": "imagen",
+   "block": "#6 GRANDES ANIMALES",
+   "quote": "Un animal herido no come mañana",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. León (a big cartoon male lion with a golden mane and a grumpy but harmless face) with a bandaged paw and a big sad tear, lying on the ground, dramatic. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "031",
+   "file": "031_b6_grupo_antorchas.png",
+   "tipo": "imagen",
+   "block": "#6 GRANDES ANIMALES",
+   "quote": "Andaba en grupo, con palos, con fuego y gritando",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A group of cave people shouting and holding torches and sticks, a scared León (a big cartoon male lion with a golden mane and a grumpy but harmless face) retreating in the background. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "032",
+   "file": "032_b6_palito.png",
+   "tipo": "imagen",
+   "block": "#6 GRANDES ANIMALES",
+   "quote": "Tú estás solo, con un palito",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) alone holding a tiny twig like a weapon, scared face, wide empty savanna. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "033",
+   "file": "033_b6_investigadores.png",
+   "tipo": "imagen",
+   "block": "#6 GRANDES ANIMALES",
+   "quote": "Sale de un estudio de 2007 de Gurven y Kaplan",
+   "overlay": "3.328 MUERTES",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Two cartoon researchers with big magnifying glasses leaning over a huge world map covered with many small dots, serious scientific mood."
+  },
+  {
+   "id": "034",
+   "file": "034_b6_afiche_leon.png",
+   "tipo": "imagen",
+   "block": "#6 GRANDES ANIMALES",
+   "quote": "El león sale en todas las películas",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Split image: left half a big movie poster with a dramatic roaring lion and no text; right half a simple bar chart with one tiny sliver of a bar."
+  },
+  {
+   "id": "035",
+   "file": "035_b6_estomago.png",
+   "tipo": "imagen",
+   "block": "#6 GRANDES ANIMALES",
+   "quote": "El hambre no mira estadísticas",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A giant stomach with an angry face growling, sound lines around it, savanna sunlight at midday."
+  },
+  {
+   "id": "089",
+   "file": "089_b6_hollywood.png",
+   "tipo": "imagen",
+   "block": "#6 GRANDES ANIMALES",
+   "quote": "Los accidentes, animales incluidos, explican menos de 1 de cada 12 muertes",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Split image: left half a dramatic movie-style giant roaring lion with explosions and lightning behind it; right half a small lazy lion lying on the grass doing nothing, comedic contrast."
+  },
+  {
+   "id": "090",
+   "file": "090_b6_grupo_equipo.png",
+   "tipo": "imagen",
+   "block": "#6 GRANDES ANIMALES",
+   "quote": "Un humano de esa época nunca andaba solo",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A team of cave people marching together shoulder to shoulder with spears and torches in a heroic squad pose, confident faces, savanna sunrise."
+  },
+  {
+   "id": "091",
+   "file": "091_b6_estudio_papeles.png",
+   "tipo": "imagen",
+   "block": "#6 GRANDES ANIMALES",
+   "quote": "No me lo invento. 3.328 muertes",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. An exhausted cartoon scientist surrounded by towering stacks of paper record sheets and notebooks full of tally marks, glasses sliding off, comedic."
+  },
+  {
+   "id": "092",
+   "file": "092_reaccion_b6.png",
+   "tipo": "reaccion",
+   "block": "#6 GRANDES ANIMALES",
+   "quote": "Tú estás solo, con un palito",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) hiding behind a very thin twig that does not cover him at all, only pretending to hide, eyes wide open. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "036",
+   "file": "036_b5_conejo.png",
+   "tipo": "imagen",
+   "block": "#5 LO QUE COMES",
+   "quote": "Intentas atrapar un conejo",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A smug rabbit laughing as it hops away while Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) lies face-down in the grass after missing. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "037",
+   "file": "037_b5_cazador_antilope.png",
+   "tipo": "imagen",
+   "block": "#5 LO QUE COMES",
+   "quote": "Hay cazadores que siguen a un animal caminando horas",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A cave hunter walking steadily behind an exhausted antelope, both sweating; in the bottom corner Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) shaking his head with a \"not me\" face. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "038",
+   "file": "038_b5_frutos.png",
+   "tipo": "imagen",
+   "block": "#5 LO QUE COMES",
+   "quote": "Frutos rojos, brillantes, perfectos",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A bush covered in shiny, perfect red berries glowing with sparkles like a cartoon, a tiny León (a big cartoon male lion with a golden mane and a grumpy but harmless face) peeking from behind the bush. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "039",
+   "file": "039_b5_babeando.png",
+   "tipo": "imagen",
+   "block": "#5 LO QUE COMES",
+   "quote": "Tu cerebro dice: come",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Close-up of Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet)'s face drooling with hungry spiral eyes. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "040",
+   "file": "040_b5_abuela.png",
+   "tipo": "imagen",
+   "block": "#5 LO QUE COMES",
+   "quote": "Tu abuela diría: ¡suelta eso!",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A furious cave grandmother with a wooden spoon raised, wild gray hair, shouting, savanna background."
+  },
+  {
+   "id": "041",
+   "file": "041_b5_manual_etiqueta.png",
+   "tipo": "imagen",
+   "block": "#5 LO QUE COMES",
+   "quote": "Hoy el manual es la etiqueta del supermercado",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Left: a giant dusty ancient book with a blank cover and cobwebs. Right: a modern supermarket food label with unreadable scribbles."
+  },
+  {
+   "id": "042",
+   "file": "042_b5_espacio_vacio.png",
+   "tipo": "imagen",
+   "block": "#5 LO QUE COMES",
+   "quote": "Y tu abuela no está",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) standing next to an empty spot where someone should be, a dry bush rolling past in the wind. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "043",
+   "file": "043_b5_pijama_verde.png",
+   "tipo": "imagen",
+   "block": "#5 LO QUE COMES",
+   "quote": "Se nota horas después",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) sick with green skin, spiral eyes, holding his belly, question marks floating over his head. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "044",
+   "file": "044_b5_atardecer.png",
+   "tipo": "imagen",
+   "block": "#5 LO QUE COMES",
+   "quote": "El sol se va",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. The sun setting fast on the savanna horizon, sky turning deep orange and purple, flat acacia silhouettes, no characters."
+  },
+  {
+   "id": "093",
+   "file": "093_b5_caceria_larga.png",
+   "tipo": "imagen",
+   "block": "#5 LO QUE COMES",
+   "quote": "Hay cazadores que siguen a un animal caminando horas",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Wide shot of a cave hunter walking steadily far away on the horizon behind a tiny antelope under a blazing midday sun, long empty savanna, patient mood."
+  },
+  {
+   "id": "094",
+   "file": "094_b5_estomago_motor.png",
+   "tipo": "imagen",
+   "block": "#5 LO QUE COMES",
+   "quote": "Tu estómago suena como un motor viejo",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) holding his belly while a cartoon old rusty engine with smoke and gears pops out of his stomach, growling loudly, funny. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "095",
+   "file": "095_b5_come_y_pasan_horas.png",
+   "tipo": "imagen",
+   "block": "#5 LO QUE COMES",
+   "quote": "Se nota horas después",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) happily munching red berries while a big clock behind him spins fast and his skin slowly starts to turn slightly green. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "096",
+   "file": "096_reaccion_b5.png",
+   "tipo": "reaccion",
+   "block": "#5 LO QUE COMES",
+   "quote": "Tu cerebro dice: come",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) chewing a leaf with an extremely disgusted face, tears in his eyes, tongue out. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "045",
+   "file": "045_b4_ojos_negro.png",
+   "tipo": "imagen",
+   "block": "#4 LA NOCHE",
+   "quote": "El sol se va y con él todo lo que veías",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Almost completely black screen, only a pair of big white scared eyes of Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) visible in the darkness. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "046",
+   "file": "046_b4_temblando.png",
+   "tipo": "imagen",
+   "block": "#4 LA NOCHE",
+   "quote": "Sin luz. Sin fuego. Sin abrigo",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) shivering in his thin pajamas, teeth chattering with motion lines, a thermometer beside him with a falling red line, night navy sky. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "047",
+   "file": "047_b4_palitos.png",
+   "tipo": "imagen",
+   "block": "#4 LA NOCHE",
+   "quote": "Podrías hacer fuego frotando dos palos",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) rubbing two sticks together, huge blisters on his hands, a ridiculous tiny thread of smoke, tired face, dusk light. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "048",
+   "file": "048_b4_hielo.png",
+   "tipo": "imagen",
+   "block": "#4 LA NOCHE",
+   "quote": "La sabana de noche se enfría más de lo que crees",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) with an icicle hanging from his nose and frost on his hair, next to a frozen thermometer covered in ice. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "049",
+   "file": "049_b4_ojos_oscuridad.png",
+   "tipo": "imagen",
+   "block": "#4 LA NOCHE",
+   "quote": "Ramas que crujen. Ojos que brillan",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Hundreds of glowing yellow eyes watching from a pitch-black savanna night, a tiny scared Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) in the center. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "050",
+   "file": "050_b4_ojeras.png",
+   "tipo": "imagen",
+   "block": "#4 LA NOCHE",
+   "quote": "Dormir cuesta. No dormir te debilita más",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) with giant dark eye bags and exhausted face, while in the corner León (a big cartoon male lion with a golden mane and a grumpy but harmless face) sleeps peacefully curled up. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "051",
+   "file": "051_b4_silueta_humana.png",
+   "tipo": "imagen",
+   "block": "#4 LA NOCHE",
+   "quote": "Camina en dos",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A tall human silhouette standing between dark bushes at night, moonlight, mysterious and tense, no face visible."
+  },
+  {
+   "id": "097",
+   "file": "097_b4_fuego_facil.png",
+   "tipo": "imagen",
+   "block": "#4 LA NOCHE",
+   "quote": "Podrías hacer fuego frotando dos palos",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Side by side comparison: left a cave person making fire in seconds with a wooden bow drill, happy; right Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) failing with two sticks and a tiny sad puff of smoke. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "098",
+   "file": "098_b4_arbusto_ruidos.png",
+   "tipo": "imagen",
+   "block": "#4 LA NOCHE",
+   "quote": "Ramas que crujen. Algo que respira muy cerca",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A rustling bush at night with menacing pointed ears and glowing eyes just visible inside, tiny frozen Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) in front of it, tense mood. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "099",
+   "file": "099_b4_detras_roca.png",
+   "tipo": "imagen",
+   "block": "#4 LA NOCHE",
+   "quote": "Camina en dos",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) peeking from behind a large rock at night, only his eyes and hair visible, moonlight, tense. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "100",
+   "file": "100_reaccion_b4.png",
+   "tipo": "reaccion",
+   "block": "#4 LA NOCHE",
+   "quote": "Y tu cuerpo gasta toda su energía en no congelarse",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) hugging a big rock for warmth, shivering, frost on his hair, sleepy face. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "052",
+   "file": "052_b3_grupo_palos.png",
+   "tipo": "imagen",
+   "block": "#3 OTRAS PERSONAS",
+   "quote": "Apareces en el territorio de un grupo que no te conoce",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A group of cave people holding sticks and staring seriously at the viewer, tense mood, savanna background."
+  },
+  {
+   "id": "053",
+   "file": "053_b3_cartel.png",
+   "tipo": "imagen",
+   "block": "#3 OTRAS PERSONAS",
+   "quote": "Para ellos eres un extraño",
+   "overlay": "TERRITORIO PRIVADO",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A crude wooden sign with a blank face at the edge of a camp, Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) waving awkwardly in pajamas next to it, a tiny León (a big cartoon male lion with a golden mane and a grumpy but harmless face) peeking behind the sign. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "054",
+   "file": "054_b3_dos_hombres.png",
+   "tipo": "imagen",
+   "block": "#3 OTRAS PERSONAS",
+   "quote": "Un cazador se acerca con una lanza",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A cave hunter with a spear and Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) face to face, each with a speech bubble full of weird unreadable symbols, both scared. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "055",
+   "file": "055_b3_manos_arriba.png",
+   "tipo": "imagen",
+   "block": "#3 OTRAS PERSONAS",
+   "quote": "Los dos tienen miedo",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Close-up of Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) with both hands raised in surrender, nervous smile, sweat drops. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "056",
+   "file": "056_b3_policia.png",
+   "tipo": "imagen",
+   "block": "#3 OTRAS PERSONAS",
+   "quote": "No hay policía. No hay denuncia. No hay abogado",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A modern police officer in uniform standing in the middle of the savanna with a \"please don't call me\" face, shrugging."
+  },
+  {
+   "id": "057",
+   "file": "057_b3_fuera_circulo.png",
+   "tipo": "imagen",
+   "block": "#3 OTRAS PERSONAS",
+   "quote": "Y tú no eres del grupo",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A circle of cave people sitting around a bonfire, Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) standing alone outside the circle, left out, cold night. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "058",
+   "file": "058_b3_espina.png",
+   "tipo": "imagen",
+   "block": "#3 OTRAS PERSONAS",
+   "quote": "Llega con una espina",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Extreme close-up of a single tiny sharp thorn on a branch, dramatic lighting, menacing mood."
+  },
+  {
+   "id": "101",
+   "file": "101_b3_disputa_rio.png",
+   "tipo": "imagen",
+   "block": "#3 OTRAS PERSONAS",
+   "quote": "Lo que más mataba era otra persona",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Two groups of cave people on opposite sides of a river shouting at each other with fists in the air, comedic angry faces, non-violent cartoon tension."
+  },
+  {
+   "id": "102",
+   "file": "102_b3_arbusto_nuestro.png",
+   "tipo": "imagen",
+   "block": "#3 OTRAS PERSONAS",
+   "quote": "Para ellos eres un extraño",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A cave person standing proudly in front of a berry bush pointing angrily at it, others with crossed arms and suspicious faces, small Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) watching nervously from far behind. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "103",
+   "file": "103_reaccion_b3.png",
+   "tipo": "reaccion",
+   "block": "#3 OTRAS PERSONAS",
+   "quote": "No habla tu idioma. Tú no hablas el suyo",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) miming with exaggerated hand gestures trying to communicate, the cave hunter in front of him tilting his head in confusion. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "059",
+   "file": "059_b2_espina_arbusto.png",
+   "tipo": "imagen",
+   "block": "#2 UN RASGUÑO",
+   "quote": "Una espina te abre el pie",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) walking through bushes, a thorn on a branch about to touch his foot, carefree face. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "060",
+   "file": "060_b2_pie_cortado.png",
+   "tipo": "imagen",
+   "block": "#2 UN RASGUÑO",
+   "quote": "Nada grave. Un corte chiquito",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Close-up of Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet)'s bare foot with a tiny cut and a thorn stuck in it, he looks at it with a casual shrug. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "061",
+   "file": "061_b2_gota_sangre.png",
+   "tipo": "imagen",
+   "block": "#2 UN RASGUÑO",
+   "quote": "Nada grave. Un corte chiquito",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Extreme close-up of a single drop of blood falling from a tiny cut on a bare foot onto dry ground."
+  },
+  {
+   "id": "062",
+   "file": "062_b2_botiquin.png",
+   "tipo": "imagen",
+   "block": "#2 UN RASGUÑO",
+   "quote": "Hoy: agua, jabón, curita. Allá: nada",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. An empty first-aid box covered in cobwebs, a big adhesive bandage crossed out with a red X, a tiny León (a big cartoon male lion with a golden mane and a grumpy but harmless face) peeking from behind the box. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "063",
+   "file": "063_b2_soldaditos.png",
+   "tipo": "imagen",
+   "block": "#2 UN RASGUÑO",
+   "quote": "Los gérmenes entran y se multiplican",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Cross-section inside Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet)'s foot: little white soldier cells fighting a swarm of evil cute germs (round green blobs with small spikes and tiny wicked smiles), a tiny flag with a blank sign on a stick, battle chaos. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "064",
+   "file": "064_b2_pie_latido.png",
+   "tipo": "imagen",
+   "block": "#2 UN RASGUÑO",
+   "quote": "Roja, caliente, hinchada",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet)'s foot swollen, red and glowing, pulsing with throb lines, Pijama holding it in pain. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "065",
+   "file": "065_b2_pie_villano.png",
+   "tipo": "imagen",
+   "block": "#2 UN RASGUÑO",
+   "quote": "Es el principio del final",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A giant swollen foot with an evil villain face and sharp grin towering over a tiny scared Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet). Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "066",
+   "file": "066_b2_mancha_micro.png",
+   "tipo": "imagen",
+   "block": "#2 UN RASGUÑO",
+   "quote": "Y ahí entra el verdadero jefe",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Extreme zoom on a microscopic spot on a wound, a tiny shadowy figure hiding in it, dark and ominous, vignette."
+  },
+  {
+   "id": "104",
+   "file": "104_b2_pasos_espinas.png",
+   "tipo": "imagen",
+   "block": "#2 UN RASGUÑO",
+   "quote": "Pasas entre unos arbustos",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Close-up of Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet)'s bare feet walking carelessly through thorny bushes while he whistles, musical notes floating, thorns everywhere. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "105",
+   "file": "105_reaccion_b2.png",
+   "tipo": "reaccion",
+   "block": "#2 UN RASGUÑO",
+   "quote": "La herida se pone roja, caliente, hinchada",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) blowing on his sore swollen foot with a worried face, small wind lines. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "067",
+   "file": "067_b1_negro_germenes.png",
+   "tipo": "imagen",
+   "block": "#1 LOS GÉRMENES",
+   "quote": "No tiene colmillos. No tiene garras",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pure black background with evil cute germs (round green blobs with small spikes and tiny wicked smiles) slowly appearing out of the darkness, smiling wickedly, glowing slightly green. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "068",
+   "file": "068_b1_pijama_verde.png",
+   "tipo": "imagen",
+   "block": "#1 LOS GÉRMENES",
+   "quote": "Son los gérmenes. La enfermedad",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) sick with bright green skin, spiral eyes, tongue out, a thermometer exploding in his mouth, surrounded by evil cute germs (round green blobs with small spikes and tiny wicked smiles). Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "069",
+   "file": "069_b1_ficha_rota.png",
+   "tipo": "imagen",
+   "block": "#1 LOS GÉRMENES",
+   "quote": "¿Recuerdas tu apuesta?",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A betting chip breaking in half in mid-air, León (a big cartoon male lion with a golden mane and a grumpy but harmless face) in the background looking away embarrassed. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "070",
+   "file": "070_b1_agua_sucia.png",
+   "tipo": "imagen",
+   "block": "#1 LOS GÉRMENES",
+   "quote": "Una diarrea hoy es una molestia",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A glass of dirty brown water with a sinister smiling face, a worried small child looking at it, a tiny León (a big cartoon male lion with a golden mane and a grumpy but harmless face) wearing a white face mask watching from the corner. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "071",
+   "file": "071_b1_sin_vacunas.png",
+   "tipo": "imagen",
+   "block": "#1 LOS GÉRMENES",
+   "quote": "Sin vacunas. Sin antibióticos. Sin agua limpia",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A syringe, a pill and a glass of clean water in a row, each one crossed out with a big red X, plain beige background."
+  },
+  {
+   "id": "072",
+   "file": "072_b1_tres_puertas.png",
+   "tipo": "imagen",
+   "block": "#1 LOS GÉRMENES",
+   "quote": "Tres puertas distintas. El mismo jefe",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Three wooden doors: one with a green puddle drawn on it, one with a foot, one with red berries; the same smiling evil cute germs (round green blobs with small spikes and tiny wicked smiles) peeking from behind each door. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "073",
+   "file": "073_b1_leon_mascarilla.png",
+   "tipo": "imagen",
+   "block": "#1 LOS GÉRMENES",
+   "quote": "El león sí sabe quién manda",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. León (a big cartoon male lion with a golden mane and a grumpy but harmless face) wearing a white face mask and applauding proudly, a sunrise behind him, savanna. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "106",
+   "file": "106_reaccion_b1.png",
+   "tipo": "reaccion",
+   "block": "#1 LOS GÉRMENES",
+   "quote": "Sin vacunas. Sin antibióticos. Sin agua limpia",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) lying on the ground with a leaf on his forehead as a compress, flushed red face, sweating, a thermometer sticking out of his mouth. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "074",
+   "file": "074_c_pijama_camara.png",
+   "tipo": "imagen",
+   "block": "CIERRE",
+   "quote": "¿Cuánto duras tú?",
+   "overlay": "TÚ DURAS ~20 HORAS",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) looking straight at the viewer with a tired, funny, resigned face, messy hair, savanna sunrise behind him. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "075",
+   "file": "075_c_viejito_30.png",
+   "tipo": "imagen",
+   "block": "CIERRE",
+   "quote": "La gente moría a los 30",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A cartoon man around 30 years old with white hair and a cane, looking absurdly old, comedic."
+  },
+  {
+   "id": "076",
+   "file": "076_c_cunas_calculadora.png",
+   "tipo": "imagen",
+   "block": "CIERRE",
+   "quote": "Sale de promediar a los bebés",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A simple calculator with a blank display next to many small cribs with babies, a downward arrow, clear explanatory illustration."
+  },
+  {
+   "id": "077",
+   "file": "077_c_abuelo_nietos.png",
+   "tipo": "imagen",
+   "block": "CIERRE",
+   "quote": "Quien pasaba esa edad llegaba a los 70 y pico",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A smiling grandfather with a long white beard surrounded by happy grandchildren, warm light, cave camp background."
+  },
+  {
+   "id": "078",
+   "file": "078_c_bebe_guerrero.png",
+   "tipo": "imagen",
+   "block": "CIERRE",
+   "quote": "Lo durísimo era llegar a grande",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A tiny baby wearing an oversized helmet and saluting like a brave warrior, comedic, savanna background."
+  },
+  {
+   "id": "079",
+   "file": "079_c_candados_fogata.png",
+   "tipo": "imagen",
+   "block": "CIERRE",
+   "quote": "Casi todo eso lo resolvía tu grupo",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. The seven padlocks from before, now all open, hanging on a rope above a campfire like party lights, each showing its icon: a water drop, a lion eye, a red berry, a crescent moon with a snowflake, a spear, a thorn, and a tiny smiling germ. Underneath, Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) and a group of cave people cheer and raise their arms around the fire, warm orange glow, celebration mood. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "080",
+   "file": "080_c_grupo_agua.png",
+   "tipo": "imagen",
+   "block": "CIERRE",
+   "quote": "El agua la conocía alguien",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A group of cave people at a river, one pointing proudly at the water, warm daylight."
+  },
+  {
+   "id": "081",
+   "file": "081_c_grupo_comida.png",
+   "tipo": "imagen",
+   "block": "CIERRE",
+   "quote": "La comida la sabía alguien",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A group of cave people gathering safe berries and plants into baskets, happy and busy, warm daylight."
+  },
+  {
+   "id": "082",
+   "file": "082_c_grupo_fuego.png",
+   "tipo": "imagen",
+   "block": "CIERRE",
+   "quote": "El fuego lo cuidaba alguien",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A cave person carefully tending a big campfire while others sit around it, warm night glow."
+  },
+  {
+   "id": "083",
+   "file": "083_c_grupo_cuida.png",
+   "tipo": "imagen",
+   "block": "CIERRE",
+   "quote": "Si te enfermabas, te cuidaba alguien",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A group of cave people caring for a sick Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) lying under a blanket, one placing a damp cloth on his forehead, warm tender mood. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "084",
+   "file": "084_c_pijama_en_grupo.png",
+   "tipo": "imagen",
+   "block": "CIERRE",
+   "quote": "Tu mejor arma era tu gente",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) sitting happily among a circle of cave people around a campfire, smiling, warm light, wide shot with empty space around. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "085",
+   "file": "085_c_whatsapp.png",
+   "tipo": "imagen",
+   "block": "CIERRE",
+   "quote": "Mándale este video a ese amigo",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A generic phone chat screen with a green message bubble containing a small video thumbnail, no logos, no real text, funny thumbs-up emoji shape."
+  },
+  {
+   "id": "107",
+   "file": "107_c_cofre_dato.png",
+   "tipo": "imagen",
+   "block": "CIERRE",
+   "quote": "Ahora, el dato que casi todos tenemos mal",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A mysterious glowing treasure chest locked with a big padlock and a giant question mark shape floating above it, Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) kneeling in front of it curious. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "108",
+   "file": "108_c_tablilla_rota.png",
+   "tipo": "imagen",
+   "block": "CIERRE",
+   "quote": "Es mentira",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A stone tablet being smashed in half by a giant red X, stone fragments flying."
+  },
+  {
+   "id": "109",
+   "file": "109_c_ancianos_felices.png",
+   "tipo": "imagen",
+   "block": "CIERRE",
+   "quote": "Pero quien pasaba esa edad solía llegar a los 70 y pico",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Several elderly cave people with white hair and wrinkles sitting around a fire laughing and sharing food, warm friendly mood."
+  },
+  {
+   "id": "110",
+   "file": "110_c_pijama_recuerda.png",
+   "tipo": "imagen",
+   "block": "CIERRE",
+   "quote": "Y vuelvo a tu pijama en la sabana",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) sitting thoughtfully on the savanna, around his head floating small icons: a water drop, a berry, a snowflake, a spear, a thorn and a green germ, calm sunrise. Keep the exact character design from the reference image if one is attached."
+  },
+  {
+   "id": "111",
+   "file": "111_c_agua_para_ti.png",
+   "tipo": "imagen",
+   "block": "CIERRE",
+   "quote": "El agua la conocía alguien",
+   "overlay": "",
+   "prompt": "Flat 2D vector cartoon illustration, thick black outlines, bold flat colors, no gradients, no shadows, funny exaggerated expressions, simple shapes, clean uncluttered background, 16:9 widescreen, main subject centered with empty space on both sides, absolutely no text, no letters, no numbers, no logos. Color palette: savanna ochre, dry yellow grass, sunset orange, night navy blue, danger red, germ green, cream. A cave person kindly handing Pijama (a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, bare feet) a gourd of water, Pijama gratefully reaching for it, warm daylight. Keep the exact character design from the reference image if one is attached."
+  }
+ ],
+ "montaje_gancho": [
+  {
+   "imagen": "004_hook_cama.png",
+   "overlay": "",
+   "segundos": 1.2
+  },
+  {
+   "imagen": "005_hook_ojos.png",
+   "overlay": "",
+   "segundos": 1.1
+  },
+  {
+   "imagen": "006_hook_sabana_sol.png",
+   "overlay": "",
+   "segundos": 1.2
+  },
+  {
+   "imagen": "007_hook_pasto_seco.png",
+   "overlay": "",
+   "segundos": 1.2
+  },
+  {
+   "imagen": "006_hook_sabana_sol.png",
+   "overlay": "HACE 20.000 AÑOS",
+   "segundos": 1.3
+  },
+  {
+   "imagen": "008_hook_bolsillos.png",
+   "overlay": "",
+   "segundos": 1.3
+  },
+  {
+   "imagen": "009_hook_reloj24.png",
+   "overlay": "",
+   "segundos": 1.2
+  },
+  {
+   "imagen": "010_hook_pijama_bajo_reloj.png",
+   "overlay": "",
+   "segundos": 1.3
+  },
+  {
+   "imagen": "011_hook_leon_enorme.png",
+   "overlay": "",
+   "segundos": 1.0
+  },
+  {
+   "imagen": "018_b7_sol_lengua.png",
+   "overlay": "",
+   "segundos": 1.0
+  },
+  {
+   "imagen": "048_b4_hielo.png",
+   "overlay": "",
+   "segundos": 1.0
+  },
+  {
+   "imagen": "049_b4_ojos_oscuridad.png",
+   "overlay": "",
+   "segundos": 1.0
+  },
+  {
+   "imagen": "012_hook_leon_bosteza.png",
+   "overlay": "",
+   "segundos": 1.3
+  },
+  {
+   "imagen": "013_hook_leon_se_va.png",
+   "overlay": "",
+   "segundos": 1.3
+  },
+  {
+   "imagen": "013_hook_leon_se_va.png",
+   "overlay": "NO ES EL LEÓN",
+   "segundos": 1.4
+  },
+  {
+   "imagen": "047_b4_palitos.png",
+   "overlay": "",
+   "segundos": 1.0
+  },
+  {
+   "imagen": "038_b5_frutos.png",
+   "overlay": "",
+   "segundos": 1.0
+  },
+  {
+   "imagen": "023_b7_charco.png",
+   "overlay": "",
+   "segundos": 1.0
+  },
+  {
+   "imagen": "040_b5_abuela.png",
+   "overlay": "",
+   "segundos": 1.0
+  },
+  {
+   "imagen": "031_b6_grupo_antorchas.png",
+   "overlay": "",
+   "segundos": 1.0
+  },
+  {
+   "imagen": "054_b3_dos_hombres.png",
+   "overlay": "",
+   "segundos": 1.0
+  },
+  {
+   "imagen": "053_b3_cartel.png",
+   "overlay": "",
+   "segundos": 1.0
+  },
+  {
+   "imagen": "055_b3_manos_arriba.png",
+   "overlay": "",
+   "segundos": 1.0
+  },
+  {
+   "imagen": "014_hook_siete_candados.png",
+   "overlay": "",
+   "segundos": 1.5
+  },
+  {
+   "imagen": "112_hook_candado_fantasma.png",
+   "overlay": "",
+   "segundos": 1.3
+  },
+  {
+   "imagen": "015_hook_silueta_pregunta.png",
+   "overlay": "",
+   "segundos": 1.5
+  },
+  {
+   "imagen": "016_hook_ficha_apuesta.png",
+   "overlay": "",
+   "segundos": 1.5
+  },
+  {
+   "imagen": "017_hook_pijama_pensando.png",
+   "overlay": "",
+   "segundos": 1.5
+  },
+  {
+   "imagen": "009_hook_reloj24.png",
+   "overlay": "parpadea en 24:00",
+   "segundos": 1.5
+  },
+  {
+   "imagen": null,
+   "overlay": "corte a negro",
+   "segundos": 0.6
+  }
+ ]
+}

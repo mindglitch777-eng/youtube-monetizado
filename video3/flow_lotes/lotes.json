@@ -1,0 +1,925 @@
+[
+ {
+  "n": 0,
+  "nombre": "esenciales_40",
+  "refs": [],
+  "formato": "16:9",
+  "archivo": "E0_esenciales_40.txt",
+  "nota": "Lote corto: 5 hojas de personaje, 33 planos clave y 2 miniaturas. Sin referencias para adjuntar.",
+  "items": [
+   {
+    "id": "PIJAMA",
+    "prompt": "Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. Character turnaround of PIJAMA on a plain light-gray background: a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, barefoot. Front, three-quarter, side and back views, neutral pose, full body. Same style as the film: bold clean outlines, cinematic soft light. No text, letters or logos."
+   },
+   {
+    "id": "PIJAMA_CARAS",
+    "prompt": "Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. Expression sheet of PIJAMA (same man, light-blue pajamas with white stars) on a plain light-gray background: six head-and-shoulders expressions in a grid: terror, disgust, relief, exhausted fever, sly smile, triumphant shout. No text, letters or logos."
+   },
+   {
+    "id": "PULGA",
+    "prompt": "Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. Character sheet of PULGA on a plain light-gray background, drawn large: a cartoon flea villain, dark brown glossy armored body, long spring legs, tiny wicked grin with little fangs, red glinting eyes. Four poses: grin, mid-jump, rubbing hands, laughing. No text, letters or logos."
+   },
+   {
+    "id": "MEDICO",
+    "prompt": "Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. Character turnaround of MEDICO on a plain light-gray background: a skinny 1348 Florentine physician, long dirty dark-red robe, round red cap, big crooked nose, stubble, holding a small glass flask and a rusty little knife; shifty eyes. NO bird mask. Front, side, lecturing, grinning. No text, letters or logos."
+   },
+   {
+    "id": "NENA",
+    "prompt": "Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. Character sheet of NENA on a plain light-gray background: a thin 8-year-old girl from 1348 Florence, brown braid, patched beige dress, barefoot, huge sad eyes. Front, side, knocking, crying softly. No text, letters or logos."
+   },
+   {
+    "id": "002",
+    "prompt": "First-person POV shot through PIJAMA's eyes: we see his own hands and/or bare feet at the bottom of the frame. POV looking down: his own bare feet sunk in a dark mud puddle on the cobblestones of CALLE, his pajama sleeves visible, morning fog. Who and where: PIJAMA = a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, barefoot. CALLE = a narrow residential street in Florence, 1348. Tall ochre and terracotta stone houses, dark green wooden shutters, laundry lines, wet cobblestones, a bell tower at the end of the street. Same character design in every image. Color and light: muddy browns, smoky orange dawn haze, cold teal shadows. Mood: dread and disorientation. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "004",
+    "prompt": "Tight close-up on the face. PIJAMA pinching his nose with a disgusted face, eyes watering, thick yellowish smoke curling around him. Who and where: PIJAMA = a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, barefoot. Same character design in every image. Color and light: muddy browns, smoky orange dawn haze, cold teal shadows. Mood: dread and disorientation. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "005",
+    "prompt": "Wide establishing shot. Epic wide shot of medieval Florence at dawn: red roofs, towers, the unfinished cathedral, smoke columns rising from several points of the city, crows in the sky. Who and where: PLAZA = a Florentine piazza in 1348 with a stone fountain, a church facade, market stalls with awnings, the unfinished cathedral with scaffolding and NO dome in the background. Same character design in every image. Color and light: muddy browns, smoky orange dawn haze, cold teal shadows. Mood: dread and disorientation. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "010",
+    "prompt": "Extreme macro close-up. Macro of PULGA sitting on a single hair of skin, grinning straight at the camera, red eyes glinting, dark background. Who and where: PULGA = a cartoon flea villain, dark brown glossy armored body, long spring legs, tiny wicked grin with little fangs, red glinting eyes. Same character design in every image. Color and light: muddy browns, smoky orange dawn haze, cold teal shadows. Mood: dread and disorientation. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "013",
+    "prompt": "Third-person shot. PIJAMA sprinting toward the camera down CALLE, DESPERTADOR on his wrist ringing wildly, mud splashing, motion blur. Who and where: PIJAMA = a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, barefoot. DESPERTADOR = a chunky retro twin-bell alarm clock worn on a wrist strap, round glowing screen face with big expressive cartoon eyes, tiny arms, sarcastic attitude. CALLE = a narrow residential street in Florence, 1348. Tall ochre and terracotta stone houses, dark green wooden shutters, laundry lines, wet cobblestones, a bell tower at the end of the street. Same character design in every image. Color and light: muddy browns, smoky orange dawn haze, cold teal shadows. Mood: dread and disorientation. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "016",
+    "prompt": "First-person POV shot through PIJAMA's eyes: we see his own hands and/or bare feet at the bottom of the frame. POV: his own hands reaching toward the sparkling stone fountain of PLAZA, glittering water, sun reflections. Who and where: PIJAMA = a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, barefoot. PLAZA = a Florentine piazza in 1348 with a stone fountain, a church facade, market stalls with awnings, the unfinished cathedral with scaffolding and NO dome in the background. Same character design in every image. Color and light: warm golden afternoon turning into cold blue night. Mood: thirst, temptation, then cold fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "017",
+    "prompt": "Over-the-shoulder shot from behind PIJAMA. Over the shoulder of PIJAMA: a butcher washing pig guts in the water channel that feeds the fountain, brown swirls in the water. Who and where: PIJAMA = a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, barefoot. PLAZA = a Florentine piazza in 1348 with a stone fountain, a church facade, market stalls with awnings, the unfinished cathedral with scaffolding and NO dome in the background. Same character design in every image. Color and light: warm golden afternoon turning into cold blue night. Mood: thirst, temptation, then cold fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "027",
+    "prompt": "Extreme macro close-up. Macro of a straw mattress like a jungle: dozens of fleas jumping from sleeping body to body, PULGA leading them like a general. Who and where: PULGA = a cartoon flea villain, dark brown glossy armored body, long spring legs, tiny wicked grin with little fangs, red glinting eyes. Same character design in every image. Color and light: warm golden afternoon turning into cold blue night. Mood: thirst, temptation, then cold fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "028",
+    "prompt": "Third-person shot. PIJAMA tiptoeing into ESTABLO holding his nose, the horse turning its head to stare at him. Who and where: PIJAMA = a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, barefoot. ESTABLO = a small medieval stable in Florence, 1348, at night. Wooden stalls, hay piles, one tired brown horse, a hanging lantern, broken plank door, moonlight through gaps. Same character design in every image. Color and light: warm golden afternoon turning into cold blue night. Mood: thirst, temptation, then cold fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "034",
+    "prompt": "Wide establishing shot. From far away: three men with cloths over their faces carrying a long white-sheet bundle out of a doorway at dusk, neighbors watching from windows. No blood, no wounds, no visible corpses. Who and where: CALLE = a narrow residential street in Florence, 1348. Tall ochre and terracotta stone houses, dark green wooden shutters, laundry lines, wet cobblestones, a bell tower at the end of the street. Same character design in every image. Color and light: overcast gray-green daylight, chalk-white accents, long shadows. Mood: unease, silence. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "036",
+    "prompt": "Extreme macro close-up. Stylized medical-diagram look: silhouette of a body with a glowing dark circle under the armpit and an apple drawn next to it for size. Not realistic, no skin detail. Who and where: PIJAMA = a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, barefoot. Same character design in every image. Color and light: overcast gray-green daylight, chalk-white accents, long shadows. Mood: unease, silence. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "039",
+    "prompt": "First-person POV shot through PIJAMA's eyes: we see his own hands and/or bare feet at the bottom of the frame. POV through the gap of the stable door: NENA outside looking up at us with huge wet eyes, hands together pleading. Who and where: NENA = a thin 8-year-old girl from 1348 Florence, brown braid, patched beige dress, barefoot, huge sad eyes. PIJAMA = a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, barefoot. ESTABLO = a small medieval stable in Florence, 1348, at night. Wooden stalls, hay piles, one tired brown horse, a hanging lantern, broken plank door, moonlight through gaps. Same character design in every image. Color and light: overcast gray-green daylight, chalk-white accents, long shadows. Mood: unease, silence. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "045",
+    "prompt": "Third-person shot. PIJAMA stepping back from a loaf of bread on the ground, NENA receiving it with both hands, both looking at each other with sadness. Who and where: PIJAMA = a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, barefoot. NENA = a thin 8-year-old girl from 1348 Florence, brown braid, patched beige dress, barefoot, huge sad eyes. ESTABLO = a small medieval stable in Florence, 1348, at night. Wooden stalls, hay piles, one tired brown horse, a hanging lantern, broken plank door, moonlight through gaps. Same character design in every image. Color and light: overcast gray-green daylight, chalk-white accents, long shadows. Mood: unease, silence. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "047",
+    "prompt": "High aerial bird's-eye shot. Aerial view of CALLE where every door has a big white chalk cross painted on it, a man with a bucket and brush walking away. Who and where: CALLE = a narrow residential street in Florence, 1348. Tall ochre and terracotta stone houses, dark green wooden shutters, laundry lines, wet cobblestones, a bell tower at the end of the street. Same character design in every image. Color and light: overcast gray-green daylight, chalk-white accents, long shadows. Mood: unease, silence. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "050",
+    "prompt": "Tiny low ground-level shot from the PULGA's point of view, huge foreground, wide-angle distortion. PULGA standing triumphantly on PIJAMA's ankle like a mountain climber planting a tiny flag, a sesame seed next to it for scale. Who and where: PULGA = a cartoon flea villain, dark brown glossy armored body, long spring legs, tiny wicked grin with little fangs, red glinting eyes. PIJAMA = a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, barefoot. Same character design in every image. Color and light: sickly amber candlelight with green shadows. Mood: dark comedy and disgust. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "054",
+    "prompt": "Third-person shot. MEDICO greeting from his doorway in CONSULTORIO with a creepy wide smile, green smell lines and buzzing flies around him. Who and where: MEDICO = a skinny 1348 Florentine physician, long dirty dark-red robe, round red cap, big crooked nose, stubble, holding a small glass flask and a rusty little knife; shifty eyes. NO bird mask. CONSULTORIO = a cramped medieval physician's room in 1348 Florence. Shelves of murky glass flasks, dried herbs hanging from beams, a planet chart painted on the wall, a filthy wooden table, a stool, candles. Same character design in every image. Color and light: sickly amber candlelight with green shadows. Mood: dark comedy and disgust. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "056",
+    "prompt": "Third-person shot. MEDICO pointing dramatically at the planet chart on the wall of CONSULTORIO, Saturn, Jupiter and Mars with angry cartoon faces. Who and where: MEDICO = a skinny 1348 Florentine physician, long dirty dark-red robe, round red cap, big crooked nose, stubble, holding a small glass flask and a rusty little knife; shifty eyes. NO bird mask. CONSULTORIO = a cramped medieval physician's room in 1348 Florence. Shelves of murky glass flasks, dried herbs hanging from beams, a planet chart painted on the wall, a filthy wooden table, a stool, candles. Same character design in every image. Color and light: sickly amber candlelight with green shadows. Mood: dark comedy and disgust. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "061",
+    "prompt": "Third-person shot. PIJAMA kicking the stool flying, grabbing the vinegar bottle mid-air, MEDICO falling backward with the knife, comic chaos. Who and where: PIJAMA = a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, barefoot. MEDICO = a skinny 1348 Florentine physician, long dirty dark-red robe, round red cap, big crooked nose, stubble, holding a small glass flask and a rusty little knife; shifty eyes. NO bird mask. CONSULTORIO = a cramped medieval physician's room in 1348 Florence. Shelves of murky glass flasks, dried herbs hanging from beams, a planet chart painted on the wall, a filthy wooden table, a stool, candles. Same character design in every image. Color and light: sickly amber candlelight with green shadows. Mood: dark comedy and disgust. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "064",
+    "prompt": "First-person POV shot through PIJAMA's eyes: we see his own hands and/or bare feet at the bottom of the frame. POV with blurred, double vision: the stable ceiling spinning, the edges of the frame darkening, heat shimmer. Who and where: PIJAMA = a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, barefoot. ESTABLO = a small medieval stable in Florence, 1348, at night. Wooden stalls, hay piles, one tired brown horse, a hanging lantern, broken plank door, moonlight through gaps. Same character design in every image. Color and light: sickly amber candlelight with green shadows. Mood: dark comedy and disgust. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "067",
+    "prompt": "Wide establishing shot. Far away at night: a silhouette of a cart pulled by a tired figure with a lantern, white sheets in the cart, heading out of the city gate. No blood, no wounds, no visible corpses. Who and where: CALLE = a narrow residential street in Florence, 1348. Tall ochre and terracotta stone houses, dark green wooden shutters, laundry lines, wet cobblestones, a bell tower at the end of the street. Same character design in every image. Color and light: almost monochrome night blue, one small warm candle; fever dream moments in surreal hot red. Mood: despair. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "069",
+    "prompt": "Third-person shot. PIJAMA falling to his knees in the hay of ESTABLO, one hand on the ground, shaking, cold blue light. Who and where: PIJAMA = a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, barefoot. ESTABLO = a small medieval stable in Florence, 1348, at night. Wooden stalls, hay piles, one tired brown horse, a hanging lantern, broken plank door, moonlight through gaps. Same character design in every image. Color and light: almost monochrome night blue, one small warm candle; fever dream moments in surreal hot red. Mood: despair. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "072",
+    "prompt": "First-person POV shot through PIJAMA's eyes: we see his own hands and/or bare feet at the bottom of the frame. POV: his own trembling fingers touching his neck, lit by one candle, deep shadows. Who and where: PIJAMA = a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, barefoot. Same character design in every image. Color and light: almost monochrome night blue, one small warm candle; fever dream moments in surreal hot red. Mood: despair. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "078",
+    "prompt": "Wide establishing shot. Ten elegant young nobles in bright silk loading horses and mules with chests and baskets in PLAZA, gray city around them. Who and where: PLAZA = a Florentine piazza in 1348 with a stone fountain, a church facade, market stalls with awnings, the unfinished cathedral with scaffolding and NO dome in the background. Same character design in every image. Color and light: dusty gold daylight under a heavy storm sky, dark cypress silhouettes. Mood: escape and awe-fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "085",
+    "prompt": "First-person POV shot through PIJAMA's eyes: we see his own hands and/or bare feet at the bottom of the frame. POV running: his own bare feet on hot stones of CAMINO, the horses' dust cloud ahead. Who and where: PIJAMA = a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, barefoot. CAMINO = a dusty stone country road through Tuscan hills, olive groves, rows of tall dark cypress trees, a wide sky. Same character design in every image. Color and light: dusty gold daylight under a heavy storm sky, dark cypress silhouettes. Mood: escape and awe-fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "088",
+    "prompt": "Third-person shot. Stylized silhouettes of penitents in a line raising small whips against a red-orange stormy sky, faces hidden by hoods. No blood, no wounds. Who and where: CAMINO = a dusty stone country road through Tuscan hills, olive groves, rows of tall dark cypress trees, a wide sky. Same character design in every image. Color and light: dusty gold daylight under a heavy storm sky, dark cypress silhouettes. Mood: escape and awe-fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "091",
+    "prompt": "Third-person shot. PIJAMA diving head-first into a muddy ditch beside the road, only his eyes above the mud, the procession passing above. Who and where: PIJAMA = a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, barefoot. CAMINO = a dusty stone country road through Tuscan hills, olive groves, rows of tall dark cypress trees, a wide sky. Same character design in every image. Color and light: dusty gold daylight under a heavy storm sky, dark cypress silhouettes. Mood: escape and awe-fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "094",
+    "prompt": "Third-person shot. A young noblewoman touching PIJAMA's starry pajama sleeve with amazement, sparkles on the fabric, PIJAMA doing a fancy noble pose. Who and where: PIJAMA = a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, barefoot. VILLA = a Tuscan hill villa in 1348. Stone arches, a garden with roses and lemon trees, a long table under a vine pergola, cypress trees, golden hills behind. Same character design in every image. Color and light: saturated sunny paradise (lemon yellow, rose, sky blue) that turns dark crimson-shadowed when danger hits. Mood: false safety then shock. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "098",
+    "prompt": "Third-person shot. A servant dropping a wine cup in slow motion, the cup in mid-air, everyone turning their heads. Who and where: VILLA = a Tuscan hill villa in 1348. Stone arches, a garden with roses and lemon trees, a long table under a vine pergola, cypress trees, golden hills behind. Same character design in every image. Color and light: saturated sunny paradise (lemon yellow, rose, sky blue) that turns dark crimson-shadowed when danger hits. Mood: false safety then shock. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "099",
+    "prompt": "Tight close-up on the face. The servant bent over coughing into his elbow, a dark smoky cartoon cloud spreading over the food. No blood, no wounds, no visible corpses. Who and where: VILLA = a Tuscan hill villa in 1348. Stone arches, a garden with roses and lemon trees, a long table under a vine pergola, cypress trees, golden hills behind. Same character design in every image. Color and light: saturated sunny paradise (lemon yellow, rose, sky blue) that turns dark crimson-shadowed when danger hits. Mood: false safety then shock. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "104",
+    "prompt": "Third-person shot. PIJAMA jumping through a back window of the villa holding bread, wooden shutters flying, night forest behind. Who and where: PIJAMA = a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, barefoot. VILLA = a Tuscan hill villa in 1348. Stone arches, a garden with roses and lemon trees, a long table under a vine pergola, cypress trees, golden hills behind. Same character design in every image. Color and light: saturated sunny paradise (lemon yellow, rose, sky blue) that turns dark crimson-shadowed when danger hits. Mood: false safety then shock. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "110",
+    "prompt": "First-person POV shot through PIJAMA's eyes: we see his own hands and/or bare feet at the bottom of the frame. POV: his own hands pushing open the splintered hut door, blinding golden sunrise light pouring in. Who and where: PIJAMA = a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, barefoot. BOSQUE = a dark Tuscan pine forest with a small abandoned hunter's wooden hut, moss, a tiny fire pit, morning mist. Same character design in every image. Color and light: deep forest night blue turning into a glorious pink-gold sunrise. Mood: exhaustion then triumph. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "111",
+    "prompt": "Wide establishing shot. PIJAMA standing at the edge of the forest with arms wide open over a Tuscan valley bathed in pink-gold sunrise. Who and where: PIJAMA = a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, barefoot. BOSQUE = a dark Tuscan pine forest with a small abandoned hunter's wooden hut, moss, a tiny fire pit, morning mist. Same character design in every image. Color and light: deep forest night blue turning into a glorious pink-gold sunrise. Mood: exhaustion then triumph. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "115",
+    "prompt": "Third-person shot. PIJAMA in his starry pajamas holding a scythe and a fat bag of gold coins, giving a thumbs up, peasants cheering. Who and where: PIJAMA = a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, barefoot. Same character design in every image. Color and light: deep forest night blue turning into a glorious pink-gold sunrise. Mood: exhaustion then triumph. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "MIN1",
+    "prompt": "Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. YouTube thumbnail composition, 16:9: on the left, PIJAMA's face in extreme terror (huge eyes, mouth open, sweat); on the right, PULGA drawn GIANT and close to the camera, grinning with fangs, red eyes glowing. Dark crimson background with a hint of medieval Florence silhouette. Very high contrast, rim light, simple, readable at tiny size. Leave the top-left corner empty for big text. Who: PIJAMA = a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, barefoot. PULGA = a cartoon flea villain, dark brown glossy armored body, long spring legs, tiny wicked grin with little fangs, red glinting eyes. No text, letters or logos."
+   },
+   {
+    "id": "MIN3",
+    "prompt": "Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. YouTube thumbnail composition, 16:9: split in two by a glowing line; left side MEDICO grinning with a rusty knife in sickly green light; right side a vinegar bottle in clean golden light; PIJAMA's terrified face in the center between them. Bold, high contrast, few elements. Leave the top strip empty for text. Who: PIJAMA = a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, barefoot. MEDICO = a skinny 1348 Florentine physician, long dirty dark-red robe, round red cap, big crooked nose, stubble, holding a small glass flask and a rusty little knife; shifty eyes. NO bird mask. No text, letters or logos."
+   }
+  ]
+ },
+ {
+  "n": 0,
+  "nombre": "ingredientes",
+  "refs": [],
+  "formato": "16:9",
+  "nota": "Sin referencias. Son las hojas de personajes y los lugares: elegí la mejor de cada uno y guardala con el nombre exacto.",
+  "items": [
+   {
+    "id": "PIJAMA",
+    "prompt": "Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. Character turnaround of PIJAMA on a plain light-gray background: a modern man around 30, round head, messy brown hair, big expressive eyes, light-blue pajamas with small white stars, barefoot. Front, three-quarter, side and back views, neutral pose, full body. Same style as the film: bold clean outlines, cinematic soft light. No text, letters or logos."
+   },
+   {
+    "id": "PIJAMA_CARAS",
+    "prompt": "Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. Expression sheet of PIJAMA (same man, light-blue pajamas with white stars) on a plain light-gray background: six head-and-shoulders expressions in a grid: terror, disgust, relief, exhausted fever, sly smile, triumphant shout. No text, letters or logos."
+   },
+   {
+    "id": "DESPERTADOR",
+    "prompt": "Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. Character turnaround of DESPERTADOR on a plain light-gray background: a chunky retro twin-bell alarm clock worn on a wrist strap, round glowing screen face with big expressive cartoon eyes, tiny arms, sarcastic attitude. Front, side, laughing, worried. No text, letters or logos."
+   },
+   {
+    "id": "PULGA",
+    "prompt": "Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. Character sheet of PULGA on a plain light-gray background, drawn large: a cartoon flea villain, dark brown glossy armored body, long spring legs, tiny wicked grin with little fangs, red glinting eyes. Four poses: grin, mid-jump, rubbing hands, laughing. No text, letters or logos."
+   },
+   {
+    "id": "MEDICO",
+    "prompt": "Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. Character turnaround of MEDICO on a plain light-gray background: a skinny 1348 Florentine physician, long dirty dark-red robe, round red cap, big crooked nose, stubble, holding a small glass flask and a rusty little knife; shifty eyes. NO bird mask. Front, side, lecturing, grinning. No text, letters or logos."
+   },
+   {
+    "id": "NENA",
+    "prompt": "Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. Character sheet of NENA on a plain light-gray background: a thin 8-year-old girl from 1348 Florence, brown braid, patched beige dress, barefoot, huge sad eyes. Front, side, knocking, crying softly. No text, letters or logos."
+   },
+   {
+    "id": "ESTABLO",
+    "prompt": "Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. Empty location plate, no characters: a small medieval stable in Florence, 1348, at night. Wooden stalls, hay piles, one tired brown horse, a hanging lantern, broken plank door, moonlight through gaps. No text, letters or logos."
+   },
+   {
+    "id": "CALLE",
+    "prompt": "Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. Empty location plate, no characters: a narrow residential street in Florence, 1348. Tall ochre and terracotta stone houses, dark green wooden shutters, laundry lines, wet cobblestones, a bell tower at the end of the street. No text, letters or logos."
+   },
+   {
+    "id": "PLAZA",
+    "prompt": "Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. Empty location plate, no characters: a Florentine piazza in 1348 with a stone fountain, a church facade, market stalls with awnings, the unfinished cathedral with scaffolding and NO dome in the background. No text, letters or logos."
+   },
+   {
+    "id": "CONSULTORIO",
+    "prompt": "Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. Empty location plate, no characters: a cramped medieval physician's room in 1348 Florence. Shelves of murky glass flasks, dried herbs hanging from beams, a planet chart painted on the wall, a filthy wooden table, a stool, candles. No text, letters or logos."
+   },
+   {
+    "id": "VILLA",
+    "prompt": "Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. Empty location plate, no characters: a Tuscan hill villa in 1348. Stone arches, a garden with roses and lemon trees, a long table under a vine pergola, cypress trees, golden hills behind. No text, letters or logos."
+   },
+   {
+    "id": "BOSQUE",
+    "prompt": "Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. Empty location plate, no characters: a dark Tuscan pine forest with a small abandoned hunter's wooden hut, moss, a tiny fire pit, morning mist. No text, letters or logos."
+   },
+   {
+    "id": "CAMINO",
+    "prompt": "Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. Empty location plate, no characters: a dusty stone country road through Tuscan hills, olive groves, rows of tall dark cypress trees, a wide sky. No text, letters or logos."
+   }
+  ],
+  "archivo": "00_ingredientes.txt"
+ },
+ {
+  "n": 1,
+  "nombre": "medico",
+  "refs": [
+   "MEDICO",
+   "CONSULTORIO",
+   "PIJAMA"
+  ],
+  "formato": "16:9",
+  "nota": "",
+  "items": [
+   {
+    "id": "054",
+    "prompt": "Third-person shot. MEDICO greeting from his doorway in CONSULTORIO with a creepy wide smile, green smell lines and buzzing flies around him. Keep characters and places exactly as in the attached reference images (MEDICO, CONSULTORIO, PIJAMA). Color and light: sickly amber candlelight with green shadows. Mood: dark comedy and disgust. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "055",
+    "prompt": "Extreme macro close-up. Macro of a rusty little knife and a copper bowl on a filthy wooden table, candle reflection on the blade. Keep characters and places exactly as in the attached reference images (MEDICO, CONSULTORIO, PIJAMA). Color and light: sickly amber candlelight with green shadows. Mood: dark comedy and disgust. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "056",
+    "prompt": "Third-person shot. MEDICO pointing dramatically at the planet chart on the wall of CONSULTORIO, Saturn, Jupiter and Mars with angry cartoon faces. Keep characters and places exactly as in the attached reference images (MEDICO, CONSULTORIO, PIJAMA). Color and light: sickly amber candlelight with green shadows. Mood: dark comedy and disgust. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "057",
+    "prompt": "First-person POV shot through PIJAMA's eyes: we see his own hands and/or bare feet at the bottom of the frame. POV sitting on the stool: MEDICO leaning toward us holding the rusty knife in one hand and a vinegar bottle in the other, like offering a choice. Keep characters and places exactly as in the attached reference images (MEDICO, CONSULTORIO, PIJAMA). Color and light: sickly amber candlelight with green shadows. Mood: dark comedy and disgust. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "058",
+    "prompt": "Extreme macro close-up. The rusty knife and empty copper bowl, ominous red-amber light. Keep characters and places exactly as in the attached reference images (MEDICO, CONSULTORIO, PIJAMA). Color and light: sickly amber candlelight with green shadows. Mood: dark comedy and disgust. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "059",
+    "prompt": "Extreme macro close-up. A clay bottle of vinegar and a bundle of herbs, soft green clean light. Keep characters and places exactly as in the attached reference images (MEDICO, CONSULTORIO, PIJAMA). Color and light: sickly amber candlelight with green shadows. Mood: dark comedy and disgust. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "061",
+    "prompt": "Third-person shot. PIJAMA kicking the stool flying, grabbing the vinegar bottle mid-air, MEDICO falling backward with the knife, comic chaos. Keep characters and places exactly as in the attached reference images (MEDICO, CONSULTORIO, PIJAMA). Color and light: sickly amber candlelight with green shadows. Mood: dark comedy and disgust. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "118",
+    "prompt": "Third-person shot. MEDICO waving goodbye at the viewer with his rusty knife and a creepy smile. Keep characters and places exactly as in the attached reference images (MEDICO, CONSULTORIO, PIJAMA). Color and light: clean bold game-screen colors, gold and deep navy. Mood: victory and challenge. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   }
+  ],
+  "archivo": "01_medico.txt"
+ },
+ {
+  "n": 2,
+  "nombre": "nena",
+  "refs": [
+   "NENA",
+   "PIJAMA",
+   "ESTABLO"
+  ],
+  "formato": "16:9",
+  "nota": "",
+  "items": [
+   {
+    "id": "039",
+    "prompt": "First-person POV shot through PIJAMA's eyes: we see his own hands and/or bare feet at the bottom of the frame. POV through the gap of the stable door: NENA outside looking up at us with huge wet eyes, hands together pleading. Keep characters and places exactly as in the attached reference images (NENA, PIJAMA, ESTABLO). Color and light: overcast gray-green daylight, chalk-white accents, long shadows. Mood: unease, silence. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "045",
+    "prompt": "Third-person shot. PIJAMA stepping back from a loaf of bread on the ground, NENA receiving it with both hands, both looking at each other with sadness. Keep characters and places exactly as in the attached reference images (NENA, PIJAMA, ESTABLO). Color and light: overcast gray-green daylight, chalk-white accents, long shadows. Mood: unease, silence. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   }
+  ],
+  "archivo": "02_nena.txt"
+ },
+ {
+  "n": 3,
+  "nombre": "shorts_verticales",
+  "refs": [
+   "PIJAMA",
+   "PULGA",
+   "NENA"
+  ],
+  "formato": "9:16",
+  "nota": "",
+  "items": [
+   {
+    "id": "119",
+    "prompt": "First-person POV shot through PIJAMA's eyes: we see his own hands and/or bare feet at the bottom of the frame. Vertical POV looking down at his own bare feet in mud on medieval cobblestones, a crowd of medieval legs around, smoke. Keep characters and places exactly as in the attached reference images (PIJAMA, PULGA, NENA). Color and light: high contrast, saturated, eye-catching. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 9:16 vertical. Main subject large in the center, readable at phone size. Keep the top 20% calm for titles. No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "120",
+    "prompt": "Third-person shot. PIJAMA about to drink from the fountain while behind him a butcher washes guts in the same water. Keep characters and places exactly as in the attached reference images (PIJAMA, PULGA, NENA). Color and light: high contrast, saturated, eye-catching. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 9:16 vertical. Main subject large in the center, readable at phone size. Keep the top 20% calm for titles. No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "121",
+    "prompt": "First-person POV shot through PIJAMA's eyes: we see his own hands and/or bare feet at the bottom of the frame. Vertical POV through a door gap: NENA pleading with huge wet eyes. Keep characters and places exactly as in the attached reference images (PIJAMA, PULGA, NENA). Color and light: high contrast, saturated, eye-catching. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 9:16 vertical. Main subject large in the center, readable at phone size. Keep the top 20% calm for titles. No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "122",
+    "prompt": "Extreme macro close-up. PULGA planting a tiny flag on PIJAMA's ankle, grinning at camera. Keep characters and places exactly as in the attached reference images (PIJAMA, PULGA, NENA). Color and light: high contrast, saturated, eye-catching. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 9:16 vertical. Main subject large in the center, readable at phone size. Keep the top 20% calm for titles. No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "123",
+    "prompt": "First-person POV shot through PIJAMA's eyes: we see his own hands and/or bare feet at the bottom of the frame. Vertical POV of trembling fingers touching his neck by candlelight. Keep characters and places exactly as in the attached reference images (PIJAMA, PULGA, NENA). Color and light: high contrast, saturated, eye-catching. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 9:16 vertical. Main subject large in the center, readable at phone size. Keep the top 20% calm for titles. No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "124",
+    "prompt": "Third-person shot. PIJAMA hiding in a muddy ditch with only his eyes visible while hooded silhouettes pass against a storm sky. Keep characters and places exactly as in the attached reference images (PIJAMA, PULGA, NENA). Color and light: high contrast, saturated, eye-catching. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 9:16 vertical. Main subject large in the center, readable at phone size. Keep the top 20% calm for titles. No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "125",
+    "prompt": "Third-person shot. A wine cup frozen mid-air falling, nobles' shocked faces around the table. Keep characters and places exactly as in the attached reference images (PIJAMA, PULGA, NENA). Color and light: high contrast, saturated, eye-catching. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 9:16 vertical. Main subject large in the center, readable at phone size. Keep the top 20% calm for titles. No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "126",
+    "prompt": "First-person POV shot through PIJAMA's eyes: we see his own hands and/or bare feet at the bottom of the frame. Vertical POV pushing open a hut door into a blinding golden sunrise. Keep characters and places exactly as in the attached reference images (PIJAMA, PULGA, NENA). Color and light: high contrast, saturated, eye-catching. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 9:16 vertical. Main subject large in the center, readable at phone size. Keep the top 20% calm for titles. No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "127",
+    "prompt": "Third-person shot. PIJAMA holding up five fingers next to DESPERTADOR, in front of a wooden scoreboard. Keep characters and places exactly as in the attached reference images (PIJAMA, PULGA, NENA). Color and light: high contrast, saturated, eye-catching. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 9:16 vertical. Main subject large in the center, readable at phone size. Keep the top 20% calm for titles. No text, letters, numbers, logos or watermarks anywhere."
+   }
+  ],
+  "archivo": "03_shorts_verticales.txt"
+ },
+ {
+  "n": 4,
+  "nombre": "pulga",
+  "refs": [
+   "PULGA",
+   "PIJAMA"
+  ],
+  "formato": "16:9",
+  "nota": "",
+  "items": [
+   {
+    "id": "009",
+    "prompt": "Tiny low ground-level shot from the PULGA's point of view, huge foreground, wide-angle distortion. Ground-level view: a big black rat in the foreground, a coughing neighbor in a doorway behind, frost on the cobblestones; three threats lined up. Keep characters and places exactly as in the attached reference images (PULGA, PIJAMA). Color and light: muddy browns, smoky orange dawn haze, cold teal shadows. Mood: dread and disorientation. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "010",
+    "prompt": "Extreme macro close-up. Macro of PULGA sitting on a single hair of skin, grinning straight at the camera, red eyes glinting, dark background. Keep characters and places exactly as in the attached reference images (PULGA, PIJAMA). Color and light: muddy browns, smoky orange dawn haze, cold teal shadows. Mood: dread and disorientation. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "018",
+    "prompt": "Extreme macro close-up. Macro inside a drop of water: cartoon germs with angry faces swimming like a pool party. Keep characters and places exactly as in the attached reference images (PULGA, PIJAMA). Color and light: warm golden afternoon turning into cold blue night. Mood: thirst, temptation, then cold fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "027",
+    "prompt": "Extreme macro close-up. Macro of a straw mattress like a jungle: dozens of fleas jumping from sleeping body to body, PULGA leading them like a general. Keep characters and places exactly as in the attached reference images (PULGA, PIJAMA). Color and light: warm golden afternoon turning into cold blue night. Mood: thirst, temptation, then cold fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "037",
+    "prompt": "Third-person shot. Stylized x-ray of lungs filling with dark smoky clouds, a red heart icon cracking, a 48-hour hourglass beside it. Keep characters and places exactly as in the attached reference images (PULGA, PIJAMA). Color and light: overcast gray-green daylight, chalk-white accents, long shadows. Mood: unease, silence. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "043",
+    "prompt": "Tiny low ground-level shot from the PULGA's point of view, huge foreground, wide-angle distortion. Ground-level: a row of fleas led by PULGA marching out of a dark doorway toward the camera, following a glowing heat trail. No blood, no wounds, no visible corpses. Keep characters and places exactly as in the attached reference images (PULGA, PIJAMA). Color and light: overcast gray-green daylight, chalk-white accents, long shadows. Mood: unease, silence. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "044",
+    "prompt": "Extreme macro close-up. PULGA in macro pointing at a giant out-of-focus PIJAMA in the background, licking its lips. Keep characters and places exactly as in the attached reference images (PULGA, PIJAMA). Color and light: overcast gray-green daylight, chalk-white accents, long shadows. Mood: unease, silence. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "050",
+    "prompt": "Tiny low ground-level shot from the PULGA's point of view, huge foreground, wide-angle distortion. PULGA standing triumphantly on PIJAMA's ankle like a mountain climber planting a tiny flag, a sesame seed next to it for scale. Keep characters and places exactly as in the attached reference images (PULGA, PIJAMA). Color and light: sickly amber candlelight with green shadows. Mood: dark comedy and disgust. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "063",
+    "prompt": "Extreme macro close-up. Stylized bloodstream tunnel (cartoon tube) with tiny dark germ cells sneaking in like burglars. Keep characters and places exactly as in the attached reference images (PULGA, PIJAMA). Color and light: sickly amber candlelight with green shadows. Mood: dark comedy and disgust. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "077",
+    "prompt": "Third-person shot. PIJAMA standing up slowly, behind him on the wall a huge shadow of PULGA looming like a monster. Keep characters and places exactly as in the attached reference images (PULGA, PIJAMA). Color and light: almost monochrome night blue, one small warm candle; fever dream moments in surreal hot red. Mood: despair. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "090",
+    "prompt": "Extreme macro close-up. PULGA riding on the hood of a penitent like a passenger on a bus, waving a tiny handkerchief. Keep characters and places exactly as in the attached reference images (PULGA, PIJAMA). Color and light: dusty gold daylight under a heavy storm sky, dark cypress silhouettes. Mood: escape and awe-fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   }
+  ],
+  "archivo": "04_pulga.txt"
+ },
+ {
+  "n": 5,
+  "nombre": "despertador",
+  "refs": [
+   "DESPERTADOR",
+   "PIJAMA"
+  ],
+  "formato": "16:9",
+  "nota": "",
+  "items": [
+   {
+    "id": "007",
+    "prompt": "Extreme macro close-up. Macro on DESPERTADOR on a wrist: its screen face glowing, three small red hearts floating above it, a sand-like digital countdown glow. Keep characters and places exactly as in the attached reference images (DESPERTADOR, PIJAMA). Color and light: muddy browns, smoky orange dawn haze, cold teal shadows. Mood: dread and disorientation. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "012",
+    "prompt": "Tight close-up on the face. PIJAMA gulping, sweat drop, DESPERTADOR on his wrist with a smug grin pointing at the viewer. Keep characters and places exactly as in the attached reference images (DESPERTADOR, PIJAMA). Color and light: muddy browns, smoky orange dawn haze, cold teal shadows. Mood: dread and disorientation. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "013",
+    "prompt": "Third-person shot. PIJAMA sprinting toward the camera down CALLE, DESPERTADOR on his wrist ringing wildly, mud splashing, motion blur. Keep characters and places exactly as in the attached reference images (DESPERTADOR, PIJAMA). Color and light: muddy browns, smoky orange dawn haze, cold teal shadows. Mood: dread and disorientation. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "030",
+    "prompt": "Tight close-up on the face. DESPERTADOR holding its nose with one tiny arm and giving a thumbs up with the other, golden sparkles. Keep characters and places exactly as in the attached reference images (DESPERTADOR, PIJAMA). Color and light: warm golden afternoon turning into cold blue night. Mood: thirst, temptation, then cold fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "051",
+    "prompt": "Tight close-up on the face. DESPERTADOR screaming, its screen face flashing red, bells shaking, sweat flying. Keep characters and places exactly as in the attached reference images (DESPERTADOR, PIJAMA). Color and light: sickly amber candlelight with green shadows. Mood: dark comedy and disgust. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "076",
+    "prompt": "Tight close-up on the face. DESPERTADOR with a cracked screen showing one single red heart, alarm red light pulsing. Keep characters and places exactly as in the attached reference images (DESPERTADOR, PIJAMA). Color and light: almost monochrome night blue, one small warm candle; fever dream moments in surreal hot red. Mood: despair. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "081",
+    "prompt": "Tight close-up on the face. DESPERTADOR wearing tiny sunglasses and a tiny velvet rope behind it like a VIP club entrance. Keep characters and places exactly as in the attached reference images (DESPERTADOR, PIJAMA). Color and light: dusty gold daylight under a heavy storm sky, dark cypress silhouettes. Mood: escape and awe-fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "092",
+    "prompt": "Tight close-up on the face. DESPERTADOR covered in mud, still grinning, one red heart beating above it. Keep characters and places exactly as in the attached reference images (DESPERTADOR, PIJAMA). Color and light: dusty gold daylight under a heavy storm sky, dark cypress silhouettes. Mood: escape and awe-fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "112",
+    "prompt": "Wide establishing shot. Low angle hero shot of PIJAMA raising a golden trophy shaped like a pillow, DESPERTADOR ringing with joy, light rays. Keep characters and places exactly as in the attached reference images (DESPERTADOR, PIJAMA). Color and light: deep forest night blue turning into a glorious pink-gold sunrise. Mood: exhaustion then triumph. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "113",
+    "prompt": "Extreme macro close-up. DESPERTADOR exploding with golden fireworks and confetti, eyes turned into stars. Keep characters and places exactly as in the attached reference images (DESPERTADOR, PIJAMA). Color and light: deep forest night blue turning into a glorious pink-gold sunrise. Mood: exhaustion then triumph. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "116",
+    "prompt": "Third-person shot. PIJAMA and DESPERTADOR standing proudly in front of a big wooden medieval scoreboard with five empty rows (no text). Keep characters and places exactly as in the attached reference images (DESPERTADOR, PIJAMA). Color and light: clean bold game-screen colors, gold and deep navy. Mood: victory and challenge. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "117",
+    "prompt": "Tight close-up on the face. DESPERTADOR pointing straight at the viewer with a tiny quill, a cheeky challenging grin. Keep characters and places exactly as in the attached reference images (DESPERTADOR, PIJAMA). Color and light: clean bold game-screen colors, gold and deep navy. Mood: victory and challenge. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   }
+  ],
+  "archivo": "05_despertador.txt"
+ },
+ {
+  "n": 6,
+  "nombre": "pijama_establo",
+  "refs": [
+   "PIJAMA",
+   "ESTABLO"
+  ],
+  "formato": "16:9",
+  "nota": "",
+  "items": [
+   {
+    "id": "028",
+    "prompt": "Third-person shot. PIJAMA tiptoeing into ESTABLO holding his nose, the horse turning its head to stare at him. Keep characters and places exactly as in the attached reference images (PIJAMA, ESTABLO). Color and light: warm golden afternoon turning into cold blue night. Mood: thirst, temptation, then cold fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "029",
+    "prompt": "Third-person shot. PIJAMA curled up alone in the hay, a moonbeam falling on him like a protective spotlight, the rest of the stable dark. Keep characters and places exactly as in the attached reference images (PIJAMA, ESTABLO). Color and light: warm golden afternoon turning into cold blue night. Mood: thirst, temptation, then cold fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "064",
+    "prompt": "First-person POV shot through PIJAMA's eyes: we see his own hands and/or bare feet at the bottom of the frame. POV with blurred, double vision: the stable ceiling spinning, the edges of the frame darkening, heat shimmer. Keep characters and places exactly as in the attached reference images (PIJAMA, ESTABLO). Color and light: sickly amber candlelight with green shadows. Mood: dark comedy and disgust. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "069",
+    "prompt": "Third-person shot. PIJAMA falling to his knees in the hay of ESTABLO, one hand on the ground, shaking, cold blue light. Keep characters and places exactly as in the attached reference images (PIJAMA, ESTABLO). Color and light: almost monochrome night blue, one small warm candle; fever dream moments in surreal hot red. Mood: despair. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "071",
+    "prompt": "Third-person shot. PIJAMA lying weak, letting single drops fall from a cup into his mouth, the horse lowering its head next to him. Keep characters and places exactly as in the attached reference images (PIJAMA, ESTABLO). Color and light: almost monochrome night blue, one small warm candle; fever dream moments in surreal hot red. Mood: despair. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "075",
+    "prompt": "Third-person shot. Wind and snowflakes blowing through the gaps of the stable onto PIJAMA under thin straw, cold blue. Keep characters and places exactly as in the attached reference images (PIJAMA, ESTABLO). Color and light: almost monochrome night blue, one small warm candle; fever dream moments in surreal hot red. Mood: despair. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   }
+  ],
+  "archivo": "06_pijama_establo.txt"
+ },
+ {
+  "n": 7,
+  "nombre": "pijama_ciudad",
+  "refs": [
+   "PIJAMA",
+   "CALLE",
+   "PLAZA"
+  ],
+  "formato": "16:9",
+  "nota": "",
+  "items": [
+   {
+    "id": "002",
+    "prompt": "First-person POV shot through PIJAMA's eyes: we see his own hands and/or bare feet at the bottom of the frame. POV looking down: his own bare feet sunk in a dark mud puddle on the cobblestones of CALLE, his pajama sleeves visible, morning fog. Keep characters and places exactly as in the attached reference images (PIJAMA, CALLE, PLAZA). Color and light: muddy browns, smoky orange dawn haze, cold teal shadows. Mood: dread and disorientation. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "003",
+    "prompt": "Third-person shot. PIJAMA standing knee-deep in mud in the middle of CALLE, arms open, utterly confused, medieval people stopping to stare. Keep characters and places exactly as in the attached reference images (PIJAMA, CALLE, PLAZA). Color and light: muddy browns, smoky orange dawn haze, cold teal shadows. Mood: dread and disorientation. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "011",
+    "prompt": "Over-the-shoulder shot from behind PIJAMA. Over the shoulder of PIJAMA facing five glowing doorways along the street, each door with a different colored light. Keep characters and places exactly as in the attached reference images (PIJAMA, CALLE, PLAZA). Color and light: muddy browns, smoky orange dawn haze, cold teal shadows. Mood: dread and disorientation. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "016",
+    "prompt": "First-person POV shot through PIJAMA's eyes: we see his own hands and/or bare feet at the bottom of the frame. POV: his own hands reaching toward the sparkling stone fountain of PLAZA, glittering water, sun reflections. Keep characters and places exactly as in the attached reference images (PIJAMA, CALLE, PLAZA). Color and light: warm golden afternoon turning into cold blue night. Mood: thirst, temptation, then cold fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "017",
+    "prompt": "Over-the-shoulder shot from behind PIJAMA. Over the shoulder of PIJAMA: a butcher washing pig guts in the water channel that feeds the fountain, brown swirls in the water. Keep characters and places exactly as in the attached reference images (PIJAMA, CALLE, PLAZA). Color and light: warm golden afternoon turning into cold blue night. Mood: thirst, temptation, then cold fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "024",
+    "prompt": "Over-the-shoulder shot from behind PIJAMA. Over the shoulder of PIJAMA at a fork in the night street: left, a warm glowing noisy inn; right, a dark quiet stable. Keep characters and places exactly as in the attached reference images (PIJAMA, CALLE, PLAZA). Color and light: warm golden afternoon turning into cold blue night. Mood: thirst, temptation, then cold fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "033",
+    "prompt": "Over-the-shoulder shot from behind PIJAMA. Over the shoulder of PIJAMA peeking from the stable door at a closed house across CALLE, shutters closed, a pair of work boots left outside. Keep characters and places exactly as in the attached reference images (PIJAMA, CALLE, PLAZA). Color and light: overcast gray-green daylight, chalk-white accents, long shadows. Mood: unease, silence. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "052",
+    "prompt": "Third-person shot. PIJAMA running down CALLE holding his ankle, hopping on one foot, dramatic speed lines. Keep characters and places exactly as in the attached reference images (PIJAMA, CALLE, PLAZA). Color and light: sickly amber candlelight with green shadows. Mood: dark comedy and disgust. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   }
+  ],
+  "archivo": "07_pijama_ciudad.txt"
+ },
+ {
+  "n": 8,
+  "nombre": "pijama_camino",
+  "refs": [
+   "PIJAMA",
+   "CAMINO"
+  ],
+  "formato": "16:9",
+  "nota": "",
+  "items": [
+   {
+    "id": "082",
+    "prompt": "Over-the-shoulder shot from behind PIJAMA. Over the shoulder of PIJAMA at the city gate: behind him the gray city, ahead the dusty road to the sunny hills. Keep characters and places exactly as in the attached reference images (PIJAMA, CAMINO). Color and light: dusty gold daylight under a heavy storm sky, dark cypress silhouettes. Mood: escape and awe-fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "085",
+    "prompt": "First-person POV shot through PIJAMA's eyes: we see his own hands and/or bare feet at the bottom of the frame. POV running: his own bare feet on hot stones of CAMINO, the horses' dust cloud ahead. Keep characters and places exactly as in the attached reference images (PIJAMA, CAMINO). Color and light: dusty gold daylight under a heavy storm sky, dark cypress silhouettes. Mood: escape and awe-fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "086",
+    "prompt": "Wide establishing shot. Tiny PIJAMA crossing endless golden hills between cypress lines, dramatic sky, tiny caravan far ahead. Keep characters and places exactly as in the attached reference images (PIJAMA, CAMINO). Color and light: dusty gold daylight under a heavy storm sky, dark cypress silhouettes. Mood: escape and awe-fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "091",
+    "prompt": "Third-person shot. PIJAMA diving head-first into a muddy ditch beside the road, only his eyes above the mud, the procession passing above. Keep characters and places exactly as in the attached reference images (PIJAMA, CAMINO). Color and light: dusty gold daylight under a heavy storm sky, dark cypress silhouettes. Mood: escape and awe-fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   }
+  ],
+  "archivo": "08_pijama_camino.txt"
+ },
+ {
+  "n": 9,
+  "nombre": "pijama_villa",
+  "refs": [
+   "PIJAMA",
+   "VILLA"
+  ],
+  "formato": "16:9",
+  "nota": "",
+  "items": [
+   {
+    "id": "093",
+    "prompt": "Wide establishing shot. PIJAMA arriving at the villa gate covered in dry mud, the sunny garden of VILLA opening behind the gate like paradise. Keep characters and places exactly as in the attached reference images (PIJAMA, VILLA). Color and light: saturated sunny paradise (lemon yellow, rose, sky blue) that turns dark crimson-shadowed when danger hits. Mood: false safety then shock. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "094",
+    "prompt": "Third-person shot. A young noblewoman touching PIJAMA's starry pajama sleeve with amazement, sparkles on the fabric, PIJAMA doing a fancy noble pose. Keep characters and places exactly as in the attached reference images (PIJAMA, VILLA). Color and light: saturated sunny paradise (lemon yellow, rose, sky blue) that turns dark crimson-shadowed when danger hits. Mood: false safety then shock. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "095",
+    "prompt": "First-person POV shot through PIJAMA's eyes: we see his own hands and/or bare feet at the bottom of the frame. POV at the long table of VILLA: his hands reaching for white bread, grapes, cheese, lemons, sunlight through the vines. Keep characters and places exactly as in the attached reference images (PIJAMA, VILLA). Color and light: saturated sunny paradise (lemon yellow, rose, sky blue) that turns dark crimson-shadowed when danger hits. Mood: false safety then shock. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "096",
+    "prompt": "Third-person shot. PIJAMA lying on the grass of the villa garden smiling with eyes closed, butterflies around. Keep characters and places exactly as in the attached reference images (PIJAMA, VILLA). Color and light: saturated sunny paradise (lemon yellow, rose, sky blue) that turns dark crimson-shadowed when danger hits. Mood: false safety then shock. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "104",
+    "prompt": "Third-person shot. PIJAMA jumping through a back window of the villa holding bread, wooden shutters flying, night forest behind. Keep characters and places exactly as in the attached reference images (PIJAMA, VILLA). Color and light: saturated sunny paradise (lemon yellow, rose, sky blue) that turns dark crimson-shadowed when danger hits. Mood: false safety then shock. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   }
+  ],
+  "archivo": "09_pijama_villa.txt"
+ },
+ {
+  "n": 10,
+  "nombre": "pijama_bosque",
+  "refs": [
+   "PIJAMA",
+   "BOSQUE"
+  ],
+  "formato": "16:9",
+  "nota": "",
+  "items": [
+   {
+    "id": "105",
+    "prompt": "Wide establishing shot. PIJAMA discovering the abandoned hunter's hut in BOSQUE, a moonbeam on its door. Keep characters and places exactly as in the attached reference images (PIJAMA, BOSQUE). Color and light: saturated sunny paradise (lemon yellow, rose, sky blue) that turns dark crimson-shadowed when danger hits. Mood: false safety then shock. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "108",
+    "prompt": "Third-person shot. PIJAMA sitting by a tiny fire inside the hut, carving tally marks on the wooden wall, night. Keep characters and places exactly as in the attached reference images (PIJAMA, BOSQUE). Color and light: deep forest night blue turning into a glorious pink-gold sunrise. Mood: exhaustion then triumph. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "110",
+    "prompt": "First-person POV shot through PIJAMA's eyes: we see his own hands and/or bare feet at the bottom of the frame. POV: his own hands pushing open the splintered hut door, blinding golden sunrise light pouring in. Keep characters and places exactly as in the attached reference images (PIJAMA, BOSQUE). Color and light: deep forest night blue turning into a glorious pink-gold sunrise. Mood: exhaustion then triumph. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "111",
+    "prompt": "Wide establishing shot. PIJAMA standing at the edge of the forest with arms wide open over a Tuscan valley bathed in pink-gold sunrise. Keep characters and places exactly as in the attached reference images (PIJAMA, BOSQUE). Color and light: deep forest night blue turning into a glorious pink-gold sunrise. Mood: exhaustion then triumph. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   }
+  ],
+  "archivo": "10_pijama_bosque.txt"
+ },
+ {
+  "n": 11,
+  "nombre": "pijama_solo",
+  "refs": [
+   "PIJAMA",
+   "PIJAMA_CARAS"
+  ],
+  "formato": "16:9",
+  "nota": "",
+  "items": [
+   {
+    "id": "001",
+    "prompt": "Tight close-up on the face. PIJAMA asleep in a cozy modern bed at night, peaceful face, a phone glowing on the nightstand, warm lamp light. Keep characters and places exactly as in the attached reference images (PIJAMA, PIJAMA_CARAS). Color and light: muddy browns, smoky orange dawn haze, cold teal shadows. Mood: dread and disorientation. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "004",
+    "prompt": "Tight close-up on the face. PIJAMA pinching his nose with a disgusted face, eyes watering, thick yellowish smoke curling around him. Keep characters and places exactly as in the attached reference images (PIJAMA, PIJAMA_CARAS). Color and light: muddy browns, smoky orange dawn haze, cold teal shadows. Mood: dread and disorientation. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "008",
+    "prompt": "Third-person shot. Cartoon cutaway inside PIJAMA's body: tiny white-blood-cell soldiers in modern sneakers and headphones relaxing on couches, totally unprepared. Keep characters and places exactly as in the attached reference images (PIJAMA, PIJAMA_CARAS). Color and light: muddy browns, smoky orange dawn haze, cold teal shadows. Mood: dread and disorientation. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "015",
+    "prompt": "Tight close-up on the face. PIJAMA holding his throat, cracked dry lips, tongue out, sand grains swirling stylized around his neck. Keep characters and places exactly as in the attached reference images (PIJAMA, PIJAMA_CARAS). Color and light: warm golden afternoon turning into cold blue night. Mood: thirst, temptation, then cold fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "020",
+    "prompt": "Extreme macro close-up. Macro: PIJAMA's fingers placing one white pajama button in the rough palm of a tavern keeper, golden light, like a precious coin. Keep characters and places exactly as in the attached reference images (PIJAMA, PIJAMA_CARAS). Color and light: warm golden afternoon turning into cold blue night. Mood: thirst, temptation, then cold fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "021",
+    "prompt": "Third-person shot. PIJAMA drinking from a clay cup with eyes closed in relief, then a tiny grimace at the sour taste. Keep characters and places exactly as in the attached reference images (PIJAMA, PIJAMA_CARAS). Color and light: warm golden afternoon turning into cold blue night. Mood: thirst, temptation, then cold fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "023",
+    "prompt": "Tight close-up on the face. PIJAMA hugging himself, shivering, blue lips, frost on his eyebrows, his breath a white cloud. Keep characters and places exactly as in the attached reference images (PIJAMA, PIJAMA_CARAS). Color and light: warm golden afternoon turning into cold blue night. Mood: thirst, temptation, then cold fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "036",
+    "prompt": "Extreme macro close-up. Stylized medical-diagram look: silhouette of a body with a glowing dark circle under the armpit and an apple drawn next to it for size. Not realistic, no skin detail. Keep characters and places exactly as in the attached reference images (PIJAMA, PIJAMA_CARAS). Color and light: overcast gray-green daylight, chalk-white accents, long shadows. Mood: unease, silence. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "042",
+    "prompt": "Tight close-up on the face. PIJAMA split by light: half of his face warm and kind, the other half in cold shadow, eyes torn. Keep characters and places exactly as in the attached reference images (PIJAMA, PIJAMA_CARAS). Color and light: overcast gray-green daylight, chalk-white accents, long shadows. Mood: unease, silence. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "046",
+    "prompt": "Tight close-up on the face. PIJAMA sitting with his back against the closed door, eyes shut, one tear, moonlight. Keep characters and places exactly as in the attached reference images (PIJAMA, PIJAMA_CARAS). Color and light: overcast gray-green daylight, chalk-white accents, long shadows. Mood: unease, silence. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "048",
+    "prompt": "Extreme macro close-up. Macro of an old wooden spinning wheel of fortune with six slots, five painted black and one white, PIJAMA's finger about to spin it. Keep characters and places exactly as in the attached reference images (PIJAMA, PIJAMA_CARAS). Color and light: overcast gray-green daylight, chalk-white accents, long shadows. Mood: unease, silence. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "049",
+    "prompt": "Extreme macro close-up. Macro of PIJAMA's ankle with a tiny red dot glowing like an alarm light. Keep characters and places exactly as in the attached reference images (PIJAMA, PIJAMA_CARAS). Color and light: sickly amber candlelight with green shadows. Mood: dark comedy and disgust. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "053",
+    "prompt": "Third-person shot. A thought bubble with a classic plague doctor in a bird mask, with a big red cartoon X stamped over it. Keep characters and places exactly as in the attached reference images (PIJAMA, PIJAMA_CARAS). Color and light: sickly amber candlelight with green shadows. Mood: dark comedy and disgust. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "060",
+    "prompt": "Third-person shot. A pale medieval patient slumped in a chair after a bloodletting, white as paper, an empty battery icon floating above his head. No blood, no wounds, no visible corpses. Keep characters and places exactly as in the attached reference images (PIJAMA, PIJAMA_CARAS). Color and light: sickly amber candlelight with green shadows. Mood: dark comedy and disgust. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "062",
+    "prompt": "Tight close-up on the face. PIJAMA splashing vinegar on his arms with eyes squeezed shut, steam-like smell waves, fleas jumping away. Keep characters and places exactly as in the attached reference images (PIJAMA, PIJAMA_CARAS). Color and light: sickly amber candlelight with green shadows. Mood: dark comedy and disgust. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "065",
+    "prompt": "Tight close-up on the face. PIJAMA collapsing in the hay, a big red heart shattering into shards above him, red vignette. Keep characters and places exactly as in the attached reference images (PIJAMA, PIJAMA_CARAS). Color and light: sickly amber candlelight with green shadows. Mood: dark comedy and disgust. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "070",
+    "prompt": "First-person POV shot through PIJAMA's eyes: we see his own hands and/or bare feet at the bottom of the frame. Fever-dream POV: the stable walls melting into his modern bathroom with a hot shower and his cozy bed, surreal hot red and orange colors. Keep characters and places exactly as in the attached reference images (PIJAMA, PIJAMA_CARAS). Color and light: almost monochrome night blue, one small warm candle; fever dream moments in surreal hot red. Mood: despair. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "072",
+    "prompt": "First-person POV shot through PIJAMA's eyes: we see his own hands and/or bare feet at the bottom of the frame. POV: his own trembling fingers touching his neck, lit by one candle, deep shadows. Keep characters and places exactly as in the attached reference images (PIJAMA, PIJAMA_CARAS). Color and light: almost monochrome night blue, one small warm candle; fever dream moments in surreal hot red. Mood: despair. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "073",
+    "prompt": "Tight close-up on the face. Extreme tension close-up of PIJAMA's eyes wide open, a single sweat drop rolling down. Keep characters and places exactly as in the attached reference images (PIJAMA, PIJAMA_CARAS). Color and light: almost monochrome night blue, one small warm candle; fever dream moments in surreal hot red. Mood: despair. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "074",
+    "prompt": "Tight close-up on the face. PIJAMA exhaling, eyes closed, a faint warm light returning to his face. Keep characters and places exactly as in the attached reference images (PIJAMA, PIJAMA_CARAS). Color and light: almost monochrome night blue, one small warm candle; fever dream moments in surreal hot red. Mood: despair. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "107",
+    "prompt": "Extreme macro close-up. PIJAMA with a mind-blown face, cartoon explosion of stars around his head. Keep characters and places exactly as in the attached reference images (PIJAMA, PIJAMA_CARAS). Color and light: saturated sunny paradise (lemon yellow, rose, sky blue) that turns dark crimson-shadowed when danger hits. Mood: false safety then shock. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "109",
+    "prompt": "Tight close-up on the face. PIJAMA touching his own forehead and smiling slightly, first light of dawn on his face. Keep characters and places exactly as in the attached reference images (PIJAMA, PIJAMA_CARAS). Color and light: deep forest night blue turning into a glorious pink-gold sunrise. Mood: exhaustion then triumph. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "115",
+    "prompt": "Third-person shot. PIJAMA in his starry pajamas holding a scythe and a fat bag of gold coins, giving a thumbs up, peasants cheering. Keep characters and places exactly as in the attached reference images (PIJAMA, PIJAMA_CARAS). Color and light: deep forest night blue turning into a glorious pink-gold sunrise. Mood: exhaustion then triumph. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   }
+  ],
+  "archivo": "11_pijama_solo.txt"
+ },
+ {
+  "n": 12,
+  "nombre": "lugares_sin_personajes",
+  "refs": [],
+  "formato": "16:9",
+  "nota": "",
+  "items": [
+   {
+    "id": "005",
+    "prompt": "Wide establishing shot. Epic wide shot of medieval Florence at dawn: red roofs, towers, the unfinished cathedral, smoke columns rising from several points of the city, crows in the sky. Color and light: muddy browns, smoky orange dawn haze, cold teal shadows. Mood: dread and disorientation. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "006",
+    "prompt": "High aerial bird's-eye shot. Bird's-eye view of a crowd in the street where every second person is drawn as a pale gray fading silhouette while the others stay in color. No blood, no wounds, no visible corpses. Color and light: muddy browns, smoky orange dawn haze, cold teal shadows. Mood: dread and disorientation. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "014",
+    "prompt": "Wide establishing shot. Hot golden afternoon in PLAZA, heat haze shimmering, a stray dog panting in the shade. Color and light: warm golden afternoon turning into cold blue night. Mood: thirst, temptation, then cold fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "019",
+    "prompt": "Third-person shot. Medieval family at a tavern table outdoors, a 5-year-old boy drinking from a big clay mug, PIJAMA in the background with jaw dropped. Color and light: warm golden afternoon turning into cold blue night. Mood: thirst, temptation, then cold fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "022",
+    "prompt": "Wide establishing shot. CALLE at night, cold blue moonlight, breath vapor from a passing guard, frost forming on the stones. Color and light: warm golden afternoon turning into cold blue night. Mood: thirst, temptation, then cold fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "025",
+    "prompt": "Wide establishing shot. Inside a cheap crowded inn: twenty strangers packed on straw mattresses, warm fire, soup pot, everyone scratching themselves. Color and light: warm golden afternoon turning into cold blue night. Mood: thirst, temptation, then cold fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "026",
+    "prompt": "Wide establishing shot. ESTABLO at night: empty, quiet, one horse, moonlight, a single hay pile. Color and light: warm golden afternoon turning into cold blue night. Mood: thirst, temptation, then cold fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "031",
+    "prompt": "High aerial bird's-eye shot. Looking up a bell tower: the big bronze bell completely still, its rope tied, pigeons leaving. Color and light: overcast gray-green daylight, chalk-white accents, long shadows. Mood: unease, silence. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "032",
+    "prompt": "Third-person shot. A town crier reading a decree in a nearly empty PLAZA, a few people with cloths over their mouths listening from far. Color and light: overcast gray-green daylight, chalk-white accents, long shadows. Mood: unease, silence. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "034",
+    "prompt": "Wide establishing shot. From far away: three men with cloths over their faces carrying a long white-sheet bundle out of a doorway at dusk, neighbors watching from windows. No blood, no wounds, no visible corpses. Color and light: overcast gray-green daylight, chalk-white accents, long shadows. Mood: unease, silence. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "035",
+    "prompt": "Third-person shot. A sick medieval man sitting on his doorstep holding his head, gray-green face, dizzy spiral lines, simple and not graphic. Color and light: overcast gray-green daylight, chalk-white accents, long shadows. Mood: unease, silence. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "038",
+    "prompt": "Tight close-up on the face. Close-up of a small fist knocking hard on the old plank door of ESTABLO, dust shaking off. Color and light: overcast gray-green daylight, chalk-white accents, long shadows. Mood: unease, silence. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "040",
+    "prompt": "Wide establishing shot. A dark doorway of a small house with a warm sick-room glow inside, the open door inviting and ominous. Color and light: overcast gray-green daylight, chalk-white accents, long shadows. Mood: unease, silence. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "041",
+    "prompt": "Wide establishing shot. A loaf of bread on the ground in front of a closed plank door with a wooden bar across it. Color and light: overcast gray-green daylight, chalk-white accents, long shadows. Mood: unease, silence. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "047",
+    "prompt": "High aerial bird's-eye shot. Aerial view of CALLE where every door has a big white chalk cross painted on it, a man with a bucket and brush walking away. Color and light: overcast gray-green daylight, chalk-white accents, long shadows. Mood: unease, silence. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "066",
+    "prompt": "Wide establishing shot. An empty church square at night, the church doors closed, a single candle on the steps, total silence. Color and light: almost monochrome night blue, one small warm candle; fever dream moments in surreal hot red. Mood: despair. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "067",
+    "prompt": "Wide establishing shot. Far away at night: a silhouette of a cart pulled by a tired figure with a lantern, white sheets in the cart, heading out of the city gate. No blood, no wounds, no visible corpses. Color and light: almost monochrome night blue, one small warm candle; fever dream moments in surreal hot red. Mood: despair. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "068",
+    "prompt": "High aerial bird's-eye shot. Extremely far aerial view outside the city walls: long pale trenches like scars in the earth dusted with white lime, tiny figures with shovels. No blood, no wounds, no visible corpses. Color and light: almost monochrome night blue, one small warm candle; fever dream moments in surreal hot red. Mood: despair. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "078",
+    "prompt": "Wide establishing shot. Ten elegant young nobles in bright silk loading horses and mules with chests and baskets in PLAZA, gray city around them. Color and light: dusty gold daylight under a heavy storm sky, dark cypress silhouettes. Mood: escape and awe-fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "079",
+    "prompt": "Third-person shot. The young nobles riding away toward a sunny villa on a hill while gray smoke rises from the city behind them. Color and light: dusty gold daylight under a heavy storm sky, dark cypress silhouettes. Mood: escape and awe-fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "080",
+    "prompt": "Third-person shot. A chubby medieval writer (Boccaccio) at a desk by candlelight writing in a big leather book, winking at the viewer. Color and light: dusty gold daylight under a heavy storm sky, dark cypress silhouettes. Mood: escape and awe-fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "083",
+    "prompt": "Wide establishing shot. The dark stable in the gray city, a rat peeking from the hay. Color and light: dusty gold daylight under a heavy storm sky, dark cypress silhouettes. Mood: escape and awe-fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "084",
+    "prompt": "Wide establishing shot. The long dusty road into golden hills with the noble caravan far ahead. Color and light: dusty gold daylight under a heavy storm sky, dark cypress silhouettes. Mood: escape and awe-fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "087",
+    "prompt": "Wide establishing shot. Storm clouds over the road; on the hill a long procession of hooded figures carrying a cross appears in silhouette. Color and light: dusty gold daylight under a heavy storm sky, dark cypress silhouettes. Mood: escape and awe-fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "088",
+    "prompt": "Third-person shot. Stylized silhouettes of penitents in a line raising small whips against a red-orange stormy sky, faces hidden by hoods. No blood, no wounds. Color and light: dusty gold daylight under a heavy storm sky, dark cypress silhouettes. Mood: escape and awe-fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "089",
+    "prompt": "Tight close-up on the face. Close-up of a hooded penitent singing with closed eyes, candlelight on his face, intense and serious. Color and light: dusty gold daylight under a heavy storm sky, dark cypress silhouettes. Mood: escape and awe-fear. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "097",
+    "prompt": "Wide establishing shot. Golden-hour dinner at the long table of VILLA, ten nobles laughing, candles, wine, lute player. Color and light: saturated sunny paradise (lemon yellow, rose, sky blue) that turns dark crimson-shadowed when danger hits. Mood: false safety then shock. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "098",
+    "prompt": "Third-person shot. A servant dropping a wine cup in slow motion, the cup in mid-air, everyone turning their heads. Color and light: saturated sunny paradise (lemon yellow, rose, sky blue) that turns dark crimson-shadowed when danger hits. Mood: false safety then shock. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "099",
+    "prompt": "Tight close-up on the face. The servant bent over coughing into his elbow, a dark smoky cartoon cloud spreading over the food. No blood, no wounds, no visible corpses. Color and light: saturated sunny paradise (lemon yellow, rose, sky blue) that turns dark crimson-shadowed when danger hits. Mood: false safety then shock. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "100",
+    "prompt": "Tight close-up on the face. Close-up of the servant's feverish red eyes, sweat, dark red shadows. Color and light: saturated sunny paradise (lemon yellow, rose, sky blue) that turns dark crimson-shadowed when danger hits. Mood: false safety then shock. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "101",
+    "prompt": "Wide establishing shot. Wide frozen moment: all the nobles stopped mid-gesture, the sunny scene suddenly drained to dark crimson shadows. Color and light: saturated sunny paradise (lemon yellow, rose, sky blue) that turns dark crimson-shadowed when danger hits. Mood: false safety then shock. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "102",
+    "prompt": "Wide establishing shot. A small closed room inside the villa with one tiny window, stale air, dust floating. Color and light: saturated sunny paradise (lemon yellow, rose, sky blue) that turns dark crimson-shadowed when danger hits. Mood: false safety then shock. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "103",
+    "prompt": "Wide establishing shot. The dark open pine forest at night, cold but with fresh moving air and stars. Color and light: saturated sunny paradise (lemon yellow, rose, sky blue) that turns dark crimson-shadowed when danger hits. Mood: false safety then shock. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "106",
+    "prompt": "Wide establishing shot. A medieval Adriatic harbor with stone walls: wooden ships anchored far out at sea, a guard on the pier holding up his hand, a big hourglass on the dock. Color and light: saturated sunny paradise (lemon yellow, rose, sky blue) that turns dark crimson-shadowed when danger hits. Mood: false safety then shock. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   },
+   {
+    "id": "114",
+    "prompt": "Wide establishing shot. Empty wheat fields with abandoned scythes, a nervous landlord facing a group of peasants with crossed arms. Color and light: deep forest night blue turning into a glorious pink-gold sunrise. Mood: exhaustion then triumph. Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. 16:9 horizontal. Main subject large and inside the central third, readable at phone size. Keep the top 15% of the frame calm (game HUD goes there). No text, letters, numbers, logos or watermarks anywhere."
+   }
+  ],
+  "archivo": "12_lugares_sin_personajes.txt"
+ },
+ {
+  "n": 13,
+  "nombre": "miniaturas",
+  "refs": [
+   "PIJAMA",
+   "PULGA",
+   "MEDICO"
+  ],
+  "formato": "16:9",
+  "nota": "Las 3 ideas de miniatura.",
+  "items": [
+   {
+    "id": "MIN1",
+    "prompt": "Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. YouTube thumbnail composition, 16:9: on the left, PIJAMA's face in extreme terror (huge eyes, mouth open, sweat); on the right, PULGA drawn GIANT and close to the camera, grinning with fangs, red eyes glowing. Dark crimson background with a hint of medieval Florence silhouette. Very high contrast, rim light, simple, readable at tiny size. Leave the top-left corner empty for big text. No text, letters or logos."
+   },
+   {
+    "id": "MIN2",
+    "prompt": "Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. YouTube thumbnail composition, 16:9: PIJAMA standing on the edge of a dark pit, looking back at the camera with a desperate face, DESPERTADOR on his wrist glowing red; a huge glowing countdown light behind him. Deep blue night, red rim light, extremely simple and bold. Leave the right third empty for big text. No blood, no wounds, no visible corpses. No text, letters or logos."
+   },
+   {
+    "id": "MIN3",
+    "prompt": "Cinematic 2D animated film still. Bold cartoon characters with clean thick outlines and very expressive faces; painterly, detailed backgrounds with real depth; dramatic cinematic lighting (rim light, volumetric light rays, deep soft shadows); rich color grading; shallow depth of field; subtle film grain. YouTube thumbnail composition, 16:9: split in two by a glowing line; left side MEDICO grinning with a rusty knife in sickly green light; right side a vinegar bottle in clean golden light; PIJAMA's terrified face in the center between them. Bold, high contrast, few elements. Leave the top strip empty for text. No text, letters or logos."
+   }
+  ],
+  "archivo": "13_miniaturas.txt"
+ }
+]

@@ -1,0 +1,972 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ideas para Pijama</title>
+<style>
+:root{--bg:#fbfaf7;--fg:#1d1d1f;--mut:#5d5d63;--line:#e3e0d8;--card:#fff;--acc:#1f5fbf;--med:#0f7b4a;--est:#9a6400;--opi:#7a3fb0}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141416;--fg:#ececee;--mut:#a3a3aa;--line:#2c2c31;--card:#1c1c20;--acc:#7fb0ff;--med:#4fd497;--est:#f0b74a;--opi:#c79bf0}}
+:root[data-theme="dark"]{--bg:#141416;--fg:#ececee;--mut:#a3a3aa;--line:#2c2c31;--card:#1c1c20;--acc:#7fb0ff;--med:#4fd497;--est:#f0b74a;--opi:#c79bf0}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:860px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:1.7rem;line-height:1.25;margin:.2em 0 .4em}
+h2{font-size:1.3rem;margin:2.2em 0 .6em;padding-top:.6em;border-top:1px solid var(--line)}
+h3{font-size:1.1rem;margin:1.8em 0 .4em}
+a{color:var(--acc);overflow-wrap:anywhere}
+p,li{overflow-wrap:break-word}
+table{border-collapse:collapse;font-size:.82rem;display:block;overflow-x:auto;max-width:100%;margin:1em 0}
+th,td{border:1px solid var(--line);padding:6px 8px;vertical-align:top;text-align:left}
+th{background:var(--card);position:sticky;top:0}
+blockquote{margin:1em 0;padding:.6em 1em;background:var(--card);border-left:4px solid var(--acc);border-radius:6px}
+code{font-size:.9em}
+img{max-width:100%;height:auto;border-radius:8px;border:1px solid var(--line)}
+strong{font-weight:650}
+</style></head><body><main>
+<h1>Ideas para Pijama: qué video hacer después</h1>
+<p><strong>Explicado en Pijamas · investigación de ideas · octubre 2026</strong></p>
+<p>Etiquetas: <strong>MEDIDO</strong> = sale de la API de YouTube (datos guardados en <code>research/data/ideas-2026-10/</code>). <strong>ESTIMADO</strong> = cálculo o lectura nuestra a partir de datos. <strong>OPINIÓN</strong> = criterio, no dato.</p>
+<p>Qué se hizo: 92 búsquedas en YouTube en dos días (20 ideas × 4 búsquedas, más 12 extra), sobre todo de videos de 4 a 20 minutos (2 de las extra buscaron videos de más de 20) publicados en los últimos 24 meses. Con eso se midieron <strong>3.110 videos</strong> y <strong>2.190 canales</strong>; se leyeron <strong>3.538 comentarios</strong> de 40 videos ganadores; se miraron <strong>32 miniaturas</strong> y se analizaron 5 videos completos con Gemini.</p>
+<h2>1. Resumen en 8 líneas</h2>
+<ol>
+<li><strong>Hacer primero: "¿Cuánto durarías en cada época?" con Pijama.</strong> En inglés, el video más fuerte de este formato tiene <strong>11.718.522 vistas</strong>. En español la versión más vista tiene <strong>4.271</strong>. (MEDIDO)</li>
+<li><strong>Hay que moverse rápido:</strong> entre el 10 y el 15 de octubre aparecieron al menos 5 copias en español de ese video (y hay otra de septiembre). Todas tienen menos de 5.000 vistas, pero la mayoría son de esta semana. (MEDIDO)</li>
+<li><strong>La fórmula que más se repite en canales chicos es "cómo aguantaban X sin nada moderno"</strong> (calor, frío, mosquitos). Da para una serie entera. (MEDIDO)</li>
+<li><strong>"¿Qué hacían todo el día antes de que existiera el trabajo?" es la idea con la que la gente más se identifica.</strong> Tiene 14,7 millones y 3,4 millones de vistas en inglés, y los comentarios hablan del lunes en la oficina. (MEDIDO)</li>
+<li><strong>"Los peores años para estar vivo" también está probada en español:</strong> un video sobre el año 536 tiene <strong>1.145.991 vistas</strong> en un canal de 5.910 suscriptores. (MEDIDO)</li>
+<li><strong>Descartar por ahora:</strong> vikingos, piratas, soldados, medicina, pareja y mitos. En español casi no hay ganadores de canales chicos con esos temas. (MEDIDO + OPINIÓN)</li>
+<li><strong>Los ganadores duran unos 15 minutos</strong> (mediana), el doble que nuestro primer video. Además, 103 de los 146 ganadores eran de canales de menos de un año. (MEDIDO)</li>
+<li><strong>Lo que la gente castiga en los comentarios:</strong> voz de IA que pronuncia mal, imágenes que se repiten, música alta y errores de historia. (MEDIDO en comentarios)</li>
+</ol>
+<h2>2. Tabla de las ideas (20 tuyas + 2 nuevas)</h2>
+<p>Cómo se calcula el puntaje final:</p>
+<ul>
+<li>40 % es la matriz de viralidad (10 puntos de OPINIÓN, ver más abajo).</li>
+<li>15 % es la <strong>demanda</strong> (MEDIDO: vistas del mejor video del tema, en español o inglés).</li>
+<li>15 % es la <strong>competencia</strong> (MEDIDO: cuántos videos en español hay del tema; 10 = casi nadie).</li>
+<li>15 % es la <strong>prueba en canales chicos</strong> (MEDIDO: ganadores en canales de menos de 20.000 suscriptores).</li>
+<li>15 % es el <strong>encaje con Pijama</strong> (OPINIÓN).</li>
+</ul>
+<p>Un video es <strong>ganador</strong> si tiene al menos 10 veces más vistas que suscriptores el canal, o si pasa las 100.000 vistas en un canal de menos de 20.000. En los dos casos le pedí además un mínimo de 10.000 vistas, para no contar casos como 300 vistas en un canal de 20 suscriptores. Es <strong>fracaso</strong> si tiene menos de 1.000 vistas después de 60 días.</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Idea</th>
+<th>Matriz (OPINIÓN)</th>
+<th>Demanda</th>
+<th>Competencia</th>
+<th>Canales chicos</th>
+<th>Pijama</th>
+<th><strong>Final</strong></th>
+<th>Videos ES / canales</th>
+<th>Veredicto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Cuánto durarías en cada época de la humanidad (idea 4)</td>
+<td>8.4</td>
+<td>10</td>
+<td>9.2</td>
+<td>3.0</td>
+<td>10</td>
+<td><strong>8.19</strong></td>
+<td>12 / 12</td>
+<td>✅ HACER</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Cómo aguantaban calor, frío o bichos sin nada moderno (idea nueva) (idea 22)</td>
+<td>7.6</td>
+<td>8.5</td>
+<td>5.3</td>
+<td>10</td>
+<td>9</td>
+<td><strong>7.96</strong></td>
+<td>71 / 64</td>
+<td>✅ HACER</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Los peores años para estar vivo (idea nueva) (idea 21)</td>
+<td>7.9</td>
+<td>10.0</td>
+<td>9.0</td>
+<td>4.0</td>
+<td>8</td>
+<td><strong>7.81</strong></td>
+<td>15 / 15</td>
+<td>✅ HACER</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Un día completo en una aldea de hace 10.000 años (idea 3)</td>
+<td>7.6</td>
+<td>10</td>
+<td>6.0</td>
+<td>5.5</td>
+<td>9</td>
+<td><strong>7.61</strong></td>
+<td>60 / 57</td>
+<td>✅ HACER</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Ir al baño, bañarse y dormir en el pasado (idea 12)</td>
+<td>7.6</td>
+<td>8.9</td>
+<td>1.3</td>
+<td>10</td>
+<td>9</td>
+<td><strong>7.42</strong></td>
+<td>131 / 112</td>
+<td>🟡 PROBAR</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Una noche a −30 °C en la Edad de Hielo (idea 1)</td>
+<td>7.0</td>
+<td>8.8</td>
+<td>3.7</td>
+<td>10</td>
+<td>8</td>
+<td><strong>7.38</strong></td>
+<td>94 / 70</td>
+<td>🟡 PROBAR</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Qué comerías en la Edad de Piedra / Edad Media (idea 11)</td>
+<td>6.9</td>
+<td>7.6</td>
+<td>4.4</td>
+<td>10</td>
+<td>8</td>
+<td><strong>7.26</strong></td>
+<td>84 / 70</td>
+<td>🟡 PROBAR</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Cuánto durarías en el Imperio Azteca / Inca (idea 15)</td>
+<td>7.1</td>
+<td>8.3</td>
+<td>3.3</td>
+<td>10</td>
+<td>7</td>
+<td><strong>7.13</strong></td>
+<td>101 / 86</td>
+<td>🟡 PROBAR</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Qué trabajo tendrías en una tribu prehistórica (idea 10)</td>
+<td>6.8</td>
+<td>9.1</td>
+<td>9.1</td>
+<td>3.0</td>
+<td>8</td>
+<td><strong>7.1</strong></td>
+<td>13 / 13</td>
+<td>🟡 PROBAR</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Qué pasaría si viajaras al pasado con tu celular (idea 9)</td>
+<td>7.1</td>
+<td>8.8</td>
+<td>9.5</td>
+<td>1.0</td>
+<td>9</td>
+<td><strong>7.08</strong></td>
+<td>7 / 6</td>
+<td>🟡 PROBAR</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Tu primer día en el pasado hora por hora (idea 20)</td>
+<td>7.6</td>
+<td>7.6</td>
+<td>6.3</td>
+<td>3.0</td>
+<td>10</td>
+<td><strong>7.08</strong></td>
+<td>55 / 51</td>
+<td>🟡 PROBAR</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Así morirías en la Edad Media (idea 5)</td>
+<td>7.1</td>
+<td>8.6</td>
+<td>1</td>
+<td>10</td>
+<td>8</td>
+<td><strong>6.98</strong></td>
+<td>262 / 172</td>
+<td>🟡 PROBAR</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Cuánto durarías en el Antiguo Egipto (idea 6)</td>
+<td>6.8</td>
+<td>8.3</td>
+<td>4.2</td>
+<td>7.5</td>
+<td>7</td>
+<td><strong>6.77</strong></td>
+<td>87 / 83</td>
+<td>❌ DESCARTAR</td>
+</tr>
+<tr>
+<td>14</td>
+<td>La peor profesión de la historia (idea 19)</td>
+<td>7.0</td>
+<td>8.9</td>
+<td>7.6</td>
+<td>2.5</td>
+<td>7</td>
+<td><strong>6.7</strong></td>
+<td>36 / 36</td>
+<td>❌ DESCARTAR</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Cuánto durarías en la peste negra (idea 13)</td>
+<td>7.0</td>
+<td>8.9</td>
+<td>4.5</td>
+<td>3.0</td>
+<td>7</td>
+<td><strong>6.31</strong></td>
+<td>83 / 81</td>
+<td>❌ DESCARTAR</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Un día en la Antigua Roma (esclavo, ciudadano, gladiador) (idea 7)</td>
+<td>6.9</td>
+<td>9.5</td>
+<td>1</td>
+<td>6.0</td>
+<td>7</td>
+<td><strong>6.29</strong></td>
+<td>159 / 137</td>
+<td>❌ DESCARTAR</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Mitos de la prehistoria que son mentira (idea 17)</td>
+<td>6.6</td>
+<td>7.2</td>
+<td>7.7</td>
+<td>2.0</td>
+<td>7</td>
+<td><strong>6.22</strong></td>
+<td>35 / 35</td>
+<td>❌ DESCARTAR</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Cuánto durarías siendo un vikingo (idea 8)</td>
+<td>6.4</td>
+<td>7.9</td>
+<td>6.0</td>
+<td>3.0</td>
+<td>7</td>
+<td><strong>6.15</strong></td>
+<td>60 / 57</td>
+<td>❌ DESCARTAR</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Cuánto durarías de pirata (idea 14)</td>
+<td>6.3</td>
+<td>8.8</td>
+<td>7.4</td>
+<td>2.0</td>
+<td>6</td>
+<td><strong>6.15</strong></td>
+<td>39 / 34</td>
+<td>❌ DESCARTAR</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Cuánto durarías como soldado antiguo (idea 16)</td>
+<td>6.4</td>
+<td>10</td>
+<td>4.5</td>
+<td>2.5</td>
+<td>6</td>
+<td><strong>6.01</strong></td>
+<td>82 / 73</td>
+<td>❌ DESCARTAR</td>
+</tr>
+<tr>
+<td>21</td>
+<td>Qué hacían cuando se enfermaban (medicina prehistórica) (idea 2)</td>
+<td>5.8</td>
+<td>7.2</td>
+<td>7.1</td>
+<td>2.0</td>
+<td>6</td>
+<td><strong>5.66</strong></td>
+<td>44 / 44</td>
+<td>❌ DESCARTAR</td>
+</tr>
+<tr>
+<td>22</td>
+<td>Cómo se ligaba o se vivía en pareja en el pasado (idea 18)</td>
+<td>5.9</td>
+<td>5.6</td>
+<td>6.8</td>
+<td>2.0</td>
+<td>6</td>
+<td><strong>5.42</strong></td>
+<td>48 / 43</td>
+<td>❌ DESCARTAR</td>
+</tr>
+</tbody>
+</table>
+<p>Veredicto: <strong>hacer</strong> si el puntaje es 7,5 o más, <strong>probar</strong> entre 6,8 y 7,5, <strong>descartar</strong> por debajo de 6,8. La idea 9 (viajar con el celular) y la 20 (primer día hora por hora) tienen poca demanda medible, pero son la premisa del canal. "Una persona de hoy en el pasado" casi no existe en YouTube: la búsqueda en español no trajo nada y la de inglés trajo 1 video con 20 vistas (MEDIDO). Tampoco hay en español ningún "¿cuánto durarías…?" de historia que haya ganado: los que ganan son de Minecraft o Skibidi Toilet (MEDIDO). Conviene usarlas <strong>como forma de contar</strong> (Pijama cae en el pasado, contado hora por hora), no como temas sueltos.</p>
+<h3>Matriz de viralidad (OPINIÓN, de 1 a 10)</h3>
+<table>
+<thead>
+<tr>
+<th>Idea</th>
+<th>gancho</th>
+<th>alcanc</th>
+<th>curios</th>
+<th>identi</th>
+<th>emocio</th>
+<th>compar</th>
+<th>rewatc</th>
+<th>visual</th>
+<th>serie</th>
+<th>largo</th>
+<th>Por qué (resumen)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4. Cuánto durarías en cada época de la hu</td>
+<td>9</td>
+<td>9</td>
+<td>8</td>
+<td>9</td>
+<td>7</td>
+<td>8</td>
+<td>7</td>
+<td>9</td>
+<td>9</td>
+<td>9</td>
+<td>Es literalmente la premisa del canal: un tipo de hoy tirado en cada época. En inglés hay un video de 11,7 millones; en español casi nada.</td>
+</tr>
+<tr>
+<td>22. Cómo aguantaban calor, frío o bichos s</td>
+<td>8</td>
+<td>8</td>
+<td>8</td>
+<td>8</td>
+<td>6</td>
+<td>7</td>
+<td>5</td>
+<td>8</td>
+<td>10</td>
+<td>8</td>
+<td>Idea nueva de los datos: 'cómo aguantaban X sin nada moderno' (calor, frío, mosquitos) gana una y otra vez en canales chicos.</td>
+</tr>
+<tr>
+<td>21. Los peores años para estar vivo (idea</td>
+<td>9</td>
+<td>8</td>
+<td>8</td>
+<td>6</td>
+<td>8</td>
+<td>8</td>
+<td>6</td>
+<td>8</td>
+<td>9</td>
+<td>9</td>
+<td>Idea nueva de los datos: 9,7 millones en inglés y 1,1 millones en español (536 d.C.) en canal de 5.900 subs.</td>
+</tr>
+<tr>
+<td>3. Un día completo en una aldea de hace 1</td>
+<td>8</td>
+<td>8</td>
+<td>8</td>
+<td>9</td>
+<td>6</td>
+<td>8</td>
+<td>5</td>
+<td>8</td>
+<td>8</td>
+<td>8</td>
+<td>Compararse con un cazador ('¿y si vivías mejor sin trabajo?') genera miles de comentarios; Pijama con su lunes de oficina encaja perfecto.</td>
+</tr>
+<tr>
+<td>12. Ir al baño, bañarse y dormir en el pas</td>
+<td>8</td>
+<td>8</td>
+<td>8</td>
+<td>8</td>
+<td>6</td>
+<td>8</td>
+<td>5</td>
+<td>8</td>
+<td>9</td>
+<td>8</td>
+<td>Baño, higiene y dormir: 12 ganadores en canales chicos en español; asco + risa; da para serie.</td>
+</tr>
+<tr>
+<td>1. Una noche a −30 °C en la Edad de Hielo</td>
+<td>8</td>
+<td>6</td>
+<td>7</td>
+<td>6</td>
+<td>7</td>
+<td>6</td>
+<td>5</td>
+<td>9</td>
+<td>8</td>
+<td>8</td>
+<td>Pijama descalzo a -30 °C es una imagen fuerte y graciosa; el tema ya rinde en canales chicos en español.</td>
+</tr>
+<tr>
+<td>11. Qué comerías en la Edad de Piedra / Ed</td>
+<td>7</td>
+<td>7</td>
+<td>7</td>
+<td>7</td>
+<td>6</td>
+<td>7</td>
+<td>5</td>
+<td>8</td>
+<td>8</td>
+<td>7</td>
+<td>Comida asquerosa del pasado + Pijama probándola = humor; 6 ganadores en canales chicos en español.</td>
+</tr>
+<tr>
+<td>15. Cuánto durarías en el Imperio Azteca /</td>
+<td>8</td>
+<td>7</td>
+<td>7</td>
+<td>7</td>
+<td>7</td>
+<td>7</td>
+<td>5</td>
+<td>8</td>
+<td>7</td>
+<td>8</td>
+<td>Azteca/Inca: 14 ganadores en canales chicos en español (público latino), pero los comentarios castigan errores históricos.</td>
+</tr>
+<tr>
+<td>10. Qué trabajo tendrías en una tribu preh</td>
+<td>7</td>
+<td>7</td>
+<td>7</td>
+<td>9</td>
+<td>5</td>
+<td>8</td>
+<td>5</td>
+<td>7</td>
+<td>7</td>
+<td>6</td>
+<td>La versión que gana es 'qué hacían todo el día antes de que existiera el trabajo' (se junta con la idea 3).</td>
+</tr>
+<tr>
+<td>9. Qué pasaría si viajaras al pasado con</td>
+<td>8</td>
+<td>8</td>
+<td>8</td>
+<td>8</td>
+<td>6</td>
+<td>7</td>
+<td>5</td>
+<td>8</td>
+<td>7</td>
+<td>6</td>
+<td>Gancho fuerte y muy Pijama, pero casi no hay videos medibles: no se puede saber si la gente lo busca.</td>
+</tr>
+<tr>
+<td>20. Tu primer día en el pasado hora por ho</td>
+<td>8</td>
+<td>7</td>
+<td>8</td>
+<td>8</td>
+<td>7</td>
+<td>7</td>
+<td>6</td>
+<td>9</td>
+<td>8</td>
+<td>8</td>
+<td>Es más una estructura (hora por hora) que un tema; los videos 'despertaste en la prehistoria' casi no tienen vistas.</td>
+</tr>
+<tr>
+<td>5. Así morirías en la Edad Media</td>
+<td>8</td>
+<td>7</td>
+<td>7</td>
+<td>7</td>
+<td>7</td>
+<td>7</td>
+<td>5</td>
+<td>8</td>
+<td>7</td>
+<td>8</td>
+<td>Funciona, pero hay mucha competencia en español y repetiría la plantilla de '7 formas de morir'.</td>
+</tr>
+<tr>
+<td>6. Cuánto durarías en el Antiguo Egipto</td>
+<td>7</td>
+<td>7</td>
+<td>7</td>
+<td>6</td>
+<td>6</td>
+<td>6</td>
+<td>5</td>
+<td>8</td>
+<td>8</td>
+<td>8</td>
+<td>Egipto atrae; lo que mejor rinde no es 'cuánto durarías' sino 'cómo aguantaban 50 °C sin aire acondicionado'.</td>
+</tr>
+<tr>
+<td>19. La peor profesión de la historia</td>
+<td>7</td>
+<td>7</td>
+<td>7</td>
+<td>8</td>
+<td>6</td>
+<td>7</td>
+<td>5</td>
+<td>8</td>
+<td>8</td>
+<td>7</td>
+<td>En inglés rinde mucho (2,9 millones) pero en canales grandes; en español solo 1 ganador chico.</td>
+</tr>
+<tr>
+<td>13. Cuánto durarías en la peste negra</td>
+<td>8</td>
+<td>7</td>
+<td>7</td>
+<td>6</td>
+<td>8</td>
+<td>7</td>
+<td>5</td>
+<td>8</td>
+<td>6</td>
+<td>8</td>
+<td>La peste rinde mucho, pero los ganadores son documentales de reconstrucción; 'cuánto durarías' casi no existe en español.</td>
+</tr>
+<tr>
+<td>7. Un día en la Antigua Roma (esclavo, ci</td>
+<td>7</td>
+<td>7</td>
+<td>7</td>
+<td>7</td>
+<td>6</td>
+<td>6</td>
+<td>5</td>
+<td>8</td>
+<td>8</td>
+<td>8</td>
+<td>Roma tiene demanda grande en inglés; en español los ganadores son canales medianos y el tema está muy tratado.</td>
+</tr>
+<tr>
+<td>17. Mitos de la prehistoria que son mentir</td>
+<td>7</td>
+<td>7</td>
+<td>8</td>
+<td>6</td>
+<td>5</td>
+<td>7</td>
+<td>5</td>
+<td>7</td>
+<td>7</td>
+<td>7</td>
+<td>El mito 'vivían 30 años' tiene un ganador de 383.000 vistas en canal de 7.000; buen video, poca serie.</td>
+</tr>
+<tr>
+<td>8. Cuánto durarías siendo un vikingo</td>
+<td>7</td>
+<td>6</td>
+<td>6</td>
+<td>5</td>
+<td>7</td>
+<td>6</td>
+<td>5</td>
+<td>8</td>
+<td>7</td>
+<td>7</td>
+<td>Vikingos rinden en canales grandes; en español solo 1 ganador en canal chico.</td>
+</tr>
+<tr>
+<td>14. Cuánto durarías de pirata</td>
+<td>7</td>
+<td>6</td>
+<td>6</td>
+<td>5</td>
+<td>7</td>
+<td>6</td>
+<td>5</td>
+<td>8</td>
+<td>6</td>
+<td>7</td>
+<td>Piratas: demanda en canales grandes; poca prueba en canales chicos.</td>
+</tr>
+<tr>
+<td>16. Cuánto durarías como soldado antiguo</td>
+<td>7</td>
+<td>6</td>
+<td>6</td>
+<td>5</td>
+<td>7</td>
+<td>6</td>
+<td>5</td>
+<td>8</td>
+<td>7</td>
+<td>7</td>
+<td>Soldados antiguos: poca prueba en canales chicos y mucho contenido de guerra que no es de Pijama.</td>
+</tr>
+<tr>
+<td>2. Qué hacían cuando se enfermaban (medic</td>
+<td>6</td>
+<td>5</td>
+<td>7</td>
+<td>5</td>
+<td>6</td>
+<td>5</td>
+<td>4</td>
+<td>7</td>
+<td>6</td>
+<td>7</td>
+<td>Interesa, pero en YouTube rinde poco solo: el mejor video en español del tema exacto no pasa de 21.000 vistas.</td>
+</tr>
+<tr>
+<td>18. Cómo se ligaba o se vivía en pareja en</td>
+<td>6</td>
+<td>6</td>
+<td>7</td>
+<td>7</td>
+<td>6</td>
+<td>6</td>
+<td>4</td>
+<td>6</td>
+<td>5</td>
+<td>6</td>
+<td>Poca demanda medida (máximo 63.000 vistas) y riesgo con anunciantes por el tema sexual.</td>
+</tr>
+</tbody>
+</table>
+<h2>3. Fichas de las 8 mejores ideas</h2>
+<h3>1) ¿Cuánto durarías en cada época? (idea 4) — HACER PRIMERO</h3>
+<ul>
+<li><strong>¿Ya existe en español?</strong> Sí, como copia de la versión en inglés, y todas son de los últimos días (MEDIDO):</li>
+<li><a href="https://www.youtube.com/watch?v=ZdGJan1265Q">¿Cuánto durarías en cada época de la prehistoria?</a> — <strong>4.271 vistas</strong>, canal de 8 subs, 11/10/2026</li>
+<li><a href="https://www.youtube.com/watch?v=4I1zFqbi3io">¿Cuánto tiempo podrías SOBREVIVIR en cada era prehistórica?</a> — <strong>1.318 vistas</strong>, canal de 44 subs, 10/10/2026</li>
+<li><a href="https://www.youtube.com/watch?v=tm3dLq2894U">¿Cuánto Durarías En Cada Era De La Prehistoria?</a> — <strong>578 vistas</strong>, canal de 72 subs, 15/10/2026</li>
+</ul>
+<p>Todas copian las <strong>eras geológicas</strong> (Cámbrico, Jurásico…) del original en inglés. Con <strong>épocas humanas</strong> (Edad de Hielo, Egipto, Roma, 1348…) no apareció ninguna en español en nuestras búsquedas. (MEDIDO)
+- <strong>Referencias ganadoras:</strong>
+  - <a href="https://www.youtube.com/watch?v=nAWpLtG-kNs">How Long You’d Last in Every Prehistoric Era</a> — <strong>11.718.522 vistas</strong>, canal de 40.100 subs, 10/08/2026
+  - <a href="https://www.youtube.com/watch?v=P6CKpmo4o0s">How Long Could You Survive in Every Prehistoric Period?</a> — <strong>658.367 vistas</strong>, canal de 5.240 subs, 20/08/2026
+  - <a href="https://www.youtube.com/watch?v=Mm93jwF9lCs">How Long You'd Last in Every Century With the iPhone Duo</a> — <strong>221.893 vistas</strong>, canal de 8.620 subs, 26/09/2026 (es la versión con épocas humanas: siglos + un iPhone)
+- <strong>Fracaso:</strong> todavía no se puede medir. Casi todas las copias en español tienen menos de 10 días, y a los fracasos los marcamos recién a los 60. La más vieja (<a href="https://www.youtube.com/watch?v=Ndo2SR_jCYs">Cuánto Durarías en Cada Era Prehistórica</a> — <strong>550 vistas</strong>, canal de 5 subs, 09/09/2026) tiene 40 días: va camino a fracaso.
+- <strong>Por qué funcionó:</strong> es una pregunta que te incluye ("¿cuánto durarías vos?"). Además, una tabla se va llenando época por época y, para saber dónde quedás, tenés que llegar al final. El comentario con más likes del video de 11,7 millones dice <em>"Bruh I'd be cooked in the wild even today"</em> (20.098 likes): la gente se ríe de lo inútil que es hoy. (MEDIDO + OPINIÓN)
+- <strong>Versión recomendada:</strong> <strong>8 épocas humanas</strong>, no eras de dinosaurios. Es menos copiada, está dentro del nicho y cada época sale como un Short. Hay una contra: la prueba fuerte (11,7 millones) es de la versión geológica; la versión con épocas humanas tiene 221.893 vistas en un canal de 8.620 suscriptores. (ESTIMADO)
+- <strong>Títulos:</strong>
+  - "¿Cuánto durarías en cada época de la humanidad?"
+  - "Te despiertas en pijama en 8 épocas: ¿en cuál mueres primero?"
+  - "De la Edad de Hielo a 1348: cuánto durarías en cada una"
+- <strong>Gancho (primera frase):</strong> "Te dormiste en tu cama. Te despiertas descalzo, en pijama… hace 20.000 años. Tienes un reloj en la muñeca y empieza a correr."
+- <strong>Estructura: "reloj de vida".</strong> Pijama cae en 8 épocas, de la más vieja a la más nueva. En cada una pasa lo mismo:
+  1. dónde cae;
+  2. el primer peligro;
+  3. un cronómetro en pantalla que se frena cuando muere ("2 horas", "3 días", "41 años");
+  4. la nota en una tabla de la S a la F.</p>
+<p>Al final, la tabla completa muestra en qué época durarías más, con un giro: no es la que la gente cree. No es una cuenta regresiva de causas como "7 formas de morir": es un viaje con un marcador.
+- <strong>Miniatura:</strong> Pijama aterrado en el centro con un cronómetro gigante y 3 franjas de fondo (hielo azul, arena de Egipto, calle de 1348). Texto de 2 o 3 palabras: "¿CUÁNTO DURAS?".
+- <strong>Riesgo principal:</strong> que lleguen más copias en español. También que se sienta como la plantilla del video en inglés si no se nota la mano de Pijama.</p>
+<h3>2) Cómo aguantaban calor, frío o bichos sin nada moderno (idea nueva 22) — HACER COMO SERIE</h3>
+<ul>
+<li><strong>¿Ya existe en español?</strong> Parecidos, sí (MEDIDO):</li>
+<li><a href="https://www.youtube.com/watch?v=bWL9hh4JtGY">¿Cómo dormían los antiguos egipcios ante el calor del desierto sin aire acondicionado?</a> — <strong>460.965 vistas</strong>, canal de 970 subs, 21/09/2026</li>
+<li><a href="https://www.youtube.com/watch?v=4APj-KV0liA">¿Cómo Sobrevivían al Frío los Humanos Prehistóricos Mientras Dormían?</a> — <strong>253.806 vistas</strong>, canal de 6.780 subs, 15/09/2026</li>
+<li><a href="https://www.youtube.com/watch?v=b2KwMiW-9NU">¿Cómo Dormía La Gente En Los Castillos Medievales Sin Morir Congelada?</a> — <strong>1.697.785 vistas</strong>, canal de 47.100 subs, 20/07/2025</li>
+</ul>
+<p>Varios títulos en español son traducciones casi literales de videos en inglés de este mismo estilo de dibujo. (ESTIMADO)
+- <strong>Referencias ganadoras:</strong>
+  - <a href="https://www.youtube.com/watch?v=lC4HeSA5bwU">How Ancient Egyptians Survived 50°C Heat Without Air Conditioning</a> — <strong>1.473.705 vistas</strong>, canal de 2.270 subs, 25/09/2026
+  - <a href="https://www.youtube.com/watch?v=5Xk2bHsjusA">How Did Ancient Egyptians Sleep in Desert Heat Without Air Conditioning?</a> — <strong>848.734 vistas</strong>, canal de 11.700 subs, 17/08/2026
+  - <a href="https://www.youtube.com/watch?v=gfQwTOilk8o">How Did Ancient Humans Sleep With Thousands Of Mosquitoes Around?</a> — <strong>447.263 vistas</strong>, canal de 1.480 subs, 23/09/2026
+- <strong>Fracaso del mismo tema:</strong> <a href="https://www.youtube.com/watch?v=712nsW-0UYg">Cómo Sobrevivían al Calor Extremo en el Antiguo Egipto Hace 3.000 Años (Sin Tecnología)</a> — <strong>421 vistas</strong>, canal de 5.840 subs, 25/03/2026. El tema solo no alcanza: importan el título y la miniatura. (MEDIDO + OPINIÓN)
+- <strong>Por qué funcionó:</strong> es un problema que todos sentimos hoy (calor, mosquitos) puesto contra "no existía el aire acondicionado". El de Egipto arranca en segunda persona: <em>"Te despiertas y el aire ya está tratando de matarte"</em>. Después encadena problema → solución → problema nuevo. (MEDIDO con Gemini)
+- <strong>Títulos:</strong>
+  - "Una noche a 50 °C en Egipto sin aire acondicionado"
+  - "Sin aire, sin ventilador: así dormían con 50 °C"
+  - "¿Cómo dormían en Egipto con 50 °C? (en pijama)"
+- <strong>Gancho:</strong> "Son las 11 de la noche, hace 45 grados y el ventilador no existe. Esto es lo que hacía un egipcio para no morir."
+- <strong>Estructura: "la noche hora por hora".</strong> Va de las 21:00 a las 6:00 con un termómetro en pantalla. Cada hora trae un truco (paredes de barro, techo, patio, sábana mojada). El cierre es el truco que todavía te sirve hoy, y eso hace que se comparta.
+- <strong>Miniatura:</strong> la misma idea que ganó, pero con Pijama: él derretido en la cama de un lado y un egipcio fresco del otro. Texto "¿50 °C?".
+- <strong>Riesgos:</strong>
+  - Está muy copiado: hay una miniatura repetida igual en dos canales distintos (MEDIDO).
+  - Los likes son muy bajos (0,27 % en el de Egipto), así que puede ser público pasivo (ESTIMADO).
+  - Los comentarios corrigen que el desierto de noche es frío (MEDIDO): hay que investigar bien.</p>
+<h3>3) Los peores años para estar vivo (idea nueva 21) — HACER</h3>
+<ul>
+<li><strong>¿Ya existe en español?</strong> Sí, sobre todo el año 536 (MEDIDO):</li>
+<li><a href="https://www.youtube.com/watch?v=FmWT7h9O320">536 d.C.: El Peor Año para Estar Vivo en la Historia</a> — <strong>1.145.991 vistas</strong>, canal de 5.910 subs, 07/03/2026</li>
+<li><a href="https://www.youtube.com/watch?v=tRAEtoEAdtw">AÑO 536: EL PEOR AÑO PARA ESTAR VIVO</a> — <strong>250.999 vistas</strong>, canal de 769.000 subs, 25/09/2025</li>
+<li><a href="https://www.youtube.com/watch?v=gm_eaKApjrs">EL ICEBERG LOS PEORES AÑOS PARA VIVIR</a> — <strong>438.635 vistas</strong>, canal de 709.000 subs, 09/11/2024</li>
+<li><strong>Referencias ganadoras:</strong></li>
+<li><a href="https://www.youtube.com/watch?v=uPQcyookL0Y">The Worst Time in History to Be Born as a Human</a> — <strong>9.717.899 vistas</strong>, canal de 111.000 subs, 10/05/2025 (el canal tenía 21 días)</li>
+<li><a href="https://www.youtube.com/watch?v=_kzWEwip0JE">Top 5 Worst Years to Be Alive in Human History (536, 1348, 1918)</a> — <strong>1.665.407 vistas</strong>, canal de 3.550 subs, 22/08/2026</li>
+<li><a href="https://www.youtube.com/watch?v=VJNxdAuz9bA">The Worst Periods To Be Alive In History</a> — <strong>614.717 vistas</strong>, canal de 7.540 subs, 28/04/2026</li>
+<li><strong>Fracasos en español:</strong></li>
+<li><a href="https://www.youtube.com/watch?v=YUedyxZDZHY">El PEOR Año Para Estar VIVO ¿Como fue el año 536?</a> — <strong>564 vistas</strong>, canal de 1.880 subs, 08/02/2026</li>
+<li><a href="https://www.youtube.com/watch?v=gLojtHNWq_U">LOS 15 PEORES AÑOS PARA ESTAR VIVO EN LA HISTORIA 🔴</a> — <strong>359 vistas</strong>, canal de 1.060 subs, 09/08/2026</li>
+</ul>
+<p>Ojo: las dos listas largas en español fracasaron y el video sobre un solo año ganó. La muestra es chica. (ESTIMADO)
+- <strong>Por qué funcionó:</strong> el top 5 en inglés empieza en segunda persona ("Imagina que te despiertas y el sol no está"). Censura el puesto #1 para dar curiosidad y une cada año con el siguiente ("te quedan 33 años para la próxima"). (MEDIDO con Gemini)
+- <strong>Títulos:</strong>
+  - "Los 5 peores años para estar vivo (el #1 no es 1348)"
+  - "536: el año en que el sol desapareció"
+  - "Si despertaras en uno de estos años, no llegarías al invierno"
+- <strong>Gancho:</strong> "Te despiertas y el sol no sale. No por un día: por más de un año. Eso pasó de verdad, en el año 536."
+- <strong>Estructura: "la ruleta del tiempo".</strong> Una máquina tira a Pijama a un año al azar: 1315, 1520, 1348, 1918, 536. Un marcador suma sufrimiento (hambre, frío, enfermedad, miedo) y gana el peor. El año 1520 (viruela en América) le habla directo al público latino. Cierre: "¿qué año aguantarías vos?".
+- <strong>Miniatura:</strong> 3 paneles con años grandes (536 · 1348 · 1520) y Pijama en el del medio. Es lo mismo que ganó en inglés, con nuestro personaje.
+- <strong>Riesgos:</strong>
+  - El 536 en español ya tiene 3 videos fuertes.
+  - El tema es triste: necesita humor de Pijama para no ser pesado.</p>
+<h3>4) Qué hacían todo el día antes de que existiera el trabajo (ideas 3 y 10 juntas) — HACER</h3>
+<ul>
+<li><strong>¿Ya existe en español?</strong> Sí (MEDIDO):</li>
+<li><a href="https://www.youtube.com/watch?v=UATMaN127NE">¿Qué hacían realmente los humanos antiguos todo el día?</a> — <strong>488.441 vistas</strong>, canal de 12.400 subs, 30/08/2026</li>
+<li><a href="https://www.youtube.com/watch?v=FUuFtr-ndok">¿Qué Hacían los Cavernícolas Todo el Día Antes de que Existiera el Trabajo?</a> — <strong>145.669 vistas</strong>, canal de 7.730 subs, 22/05/2026</li>
+<li><a href="https://www.youtube.com/watch?v=2g_FWZ4ixWo">¿Qué Hacían Realmente Los CAVERNÍCOLAS Todo El Día? La Rutina Que No Te Imaginas.</a> — <strong>56.207 vistas</strong>, canal de 7.730 subs, 26/05/2026</li>
+<li><strong>Referencias ganadoras:</strong></li>
+<li><a href="https://www.youtube.com/watch?v=49_Ph2q6uIM">What Did Ancient Humans Actually Do All Day?</a> — <strong>14.718.377 vistas</strong>, canal de 137.000 subs, 21/08/2026</li>
+<li><a href="https://www.youtube.com/watch?v=TQd2k1pEXp4">What Did Ancient Humans Do all Day Before Jobs Existed?</a> — <strong>3.400.886 vistas</strong>, canal de 64.300 subs, 04/05/2026 (el canal tenía 6 días)</li>
+<li><a href="https://www.youtube.com/watch?v=1sGDIeldr-s">Your "Busy" Life Would Disgust an Ancient Roman</a> — <strong>667.195 vistas</strong>, canal de 21.700 subs, 23/01/2026</li>
+<li><strong>Fracaso:</strong> <a href="https://www.youtube.com/watch?v=HNmrqF5B-s4">¿Vivían mejor hace 10,000 años? La gran mentira✨aulamedia Historia</a> — <strong>81 vistas</strong>, canal de 23.900 subs, 06/05/2026</li>
+<li><strong>Por qué funcionó:</strong> te compara con tu propia vida. Los comentarios con más likes (MEDIDO):</li>
+<li><em>"See everyone at work on Monday"</em> (9.905 likes)</li>
+<li><em>"What did people do before jobs were a thing? They lived."</em> (22.787 likes)</li>
+</ul>
+<p>El de 14,7 millones arranca con un despertador sonando y salta 50.000 años atrás. (MEDIDO con Gemini)
+- <strong>Títulos:</strong>
+  - "Tu lunes vs. el lunes de un cazador de hace 20.000 años"
+  - "¿Trabajaban 17 horas por semana? Lo que hacían todo el día"
+  - "Qué hacía un humano de hace 20.000 años todo el día"
+- <strong>Gancho:</strong> "Suena tu alarma: 6:30. Hace 20.000 años, un tipo se despertó cuando quiso. ¿Quién vive mejor? La respuesta no es la que te contaron."
+- <strong>Estructura: "pantalla partida, hora por hora".</strong> De un lado Pijama en la oficina, del otro un cazador. Un contador de "horas libres" va sumando. Giro final: no todo era mejor, porque 7 de cada 10 morían por enfermedad. Eso conecta con el primer video del canal.
+- <strong>Miniatura:</strong> Pijama con ojeras frente a la computadora y un cazador tirado al sol. Texto "17 HORAS POR SEMANA". Mejor no usar "SIN TRABAJO", que ya lo usa un canal en español.
+- <strong>Riesgo:</strong> la cifra de "17 horas por semana" (estudio de Richard Lee en el Kalahari) <strong>es discutida</strong> por otros investigadores. Hay que presentarla como discutida para no caer en "antes se vivía mejor" (OPINIÓN). Además ya hay 3 videos en español.</p>
+<h3>5) Una noche a −30 °C en la Edad de Hielo (idea 1) — PROBAR (primer capítulo de la serie "sin nada moderno")</h3>
+<ul>
+<li><strong>¿Ya existe en español?</strong> Uno casi igual, de hace 13 días: <a href="https://www.youtube.com/watch?v=bHZ5OmbYkCY">DORMIR EN LA EDAD DE HIELO: Así Sobrevivían a Noches de -30 Grados</a> — <strong>82.674 vistas</strong>, canal de 121 subs, 06/10/2026. Parecidos: <a href="https://www.youtube.com/watch?v=euiS6Gq0nO0">Los métodos MÁS LOCOS que usaron los humanos antiguos para no morir de frío</a> — <strong>649.197 vistas</strong>, canal de 516 subs, 14/08/2026 y <a href="https://www.youtube.com/watch?v=Ipa6QvpBaDw">Cómo era dormir durante la Edad de Hielo en condiciones extremas como los primeros humanos</a> — <strong>210.829 vistas</strong>, canal de 651 subs, 01/04/2026. (MEDIDO)</li>
+<li><strong>Referencias ganadoras:</strong></li>
+<li><a href="https://www.youtube.com/watch?v=tpfo9tRWQy4">The CRAZIEST Survival Methods Used by Ancient Humans During Ice Age</a> — <strong>2.494.982 vistas</strong>, canal de 13.400 subs, 01/05/2026</li>
+<li><a href="https://www.youtube.com/watch?v=IV2PbYeyaSY">DARKEST things ancient humans did to Survive the cold</a> — <strong>973.103 vistas</strong>, canal de 4.190 subs, 24/06/2026</li>
+<li><a href="https://www.youtube.com/watch?v=euiS6Gq0nO0">Los métodos MÁS LOCOS que usaron los humanos antiguos para no morir de frío</a> — <strong>649.197 vistas</strong>, canal de 516 subs, 14/08/2026 (el "salto" más grande de todo el estudio: 1.258 veces los suscriptores)</li>
+<li><strong>Fracaso:</strong> <a href="https://www.youtube.com/watch?v=tLMRlt8hDzw">Neandertales en la Edad de Hielo: La Historia Real de Cómo Sobrevivieron al Frío Extremo</a> — <strong>344 vistas</strong>, canal de 7.460 subs, 23/12/2025</li>
+<li><strong>Por qué funcionó:</strong> el frío extremo da imágenes claras (refugios de huesos de mamut, gente dentro de animales) y los títulos usan palabras fuertes como "MÁS LOCOS" o "DARKEST". (MEDIDO + OPINIÓN)</li>
+<li><strong>Títulos:</strong></li>
+<li>"Una noche a −30 °C… en pijama"</li>
+<li>"Así dormían a −30 °C hace 20.000 años"</li>
+<li>"Lo más loco que hacían para no morir congelados"</li>
+<li><strong>Gancho:</strong> "Son las 5 de la tarde y el sol ya se fue. Hace −30 °C. Y tú estás descalzo, en pijama."</li>
+<li><strong>Estructura: "cuenta atrás de la noche".</strong> Va de la puesta de sol al amanecer con el termómetro bajando en pantalla. Cada hora trae un problema y un truco: refugio, fuego, pieles, dormir juntos, perros. Al amanecer, ¿sobrevivió Pijama?</li>
+<li><strong>Miniatura:</strong> Pijama azul de frío y escarcha en el pijama, con "−30 °C" gigante.</li>
+<li><strong>Riesgo:</strong> hay mucha competencia (94 videos en español, de 70 canales) y los likes de los ganadores son bajos. (MEDIDO)</li>
+</ul>
+<h3>6) Ir al baño, bañarse y dormir en el pasado (idea 12) — PROBAR</h3>
+<ul>
+<li><strong>¿Ya existe en español?</strong> Sí (MEDIDO):</li>
+<li><a href="https://www.youtube.com/watch?v=9ULO12K5r3E">¿CÓMO SE LIMPIABAN EL TRASERO EN LA EDAD MEDIA?</a> — <strong>758.341 vistas</strong>, canal de 988.000 subs, 21/02/2025</li>
+<li><a href="https://www.youtube.com/watch?v=3uBP9QaWfPM">¿Cómo Era un Día Completo en la Edad Media? | Historia Para Dormir</a> — <strong>1.104.486 vistas</strong>, canal de 14.800 subs, 10/01/2026 (dura 150 minutos: es para dormir)</li>
+<li><strong>Referencias ganadoras:</strong></li>
+<li><a href="https://www.youtube.com/watch?v=1ikf4ztFPQg">1348: No Showers, No Toilet Paper – Life in the Middle Ages</a> — <strong>996.179 vistas</strong>, canal de 12.100 subs, 06/02/2026</li>
+<li><a href="https://www.youtube.com/watch?v=bWL9hh4JtGY">¿Cómo dormían los antiguos egipcios ante el calor del desierto sin aire acondicionado?</a> — <strong>460.965 vistas</strong>, canal de 970 subs, 21/09/2026</li>
+<li><a href="https://www.youtube.com/watch?v=gfQwTOilk8o">How Did Ancient Humans Sleep With Thousands Of Mosquitoes Around?</a> — <strong>447.263 vistas</strong>, canal de 1.480 subs, 23/09/2026</li>
+<li><strong>Fracasos en canales medianos:</strong></li>
+<li><a href="https://www.youtube.com/watch?v=4sJqcZ9Fat4">¿Cómo se bañaban en la Edad Media?</a> — <strong>729 vistas</strong>, canal de 36.200 subs, 16/07/2026</li>
+<li><a href="https://www.youtube.com/watch?v=RceOCQzmcUg">La Manera en que DORMÍAN en la Edad Media que Nadie Soporta😴(Sueño en Dos Fases + Camas con Familia)</a> — <strong>547 vistas</strong>, canal de 47.100 subs, 14/03/2026</li>
+</ul>
+<p>Con el tema no alcanza: los dos fracasaron en canales de 36.000 y 47.000 suscriptores. (MEDIDO)
+- <strong>Por qué funcionó:</strong> asco + "gracias por el inodoro de hoy". El comentario con más likes del video de 1348: <em>"This is why I refused to live in the Middle Ages"</em> (1.621 likes). (MEDIDO)
+- <strong>Títulos:</strong>
+  - "1348: necesitas ir al baño y no hay papel"
+  - "24 horas sin ducha ni papel higiénico en 1348"
+  - "Qué usaban en vez de papel higiénico (no quieres saberlo)"
+- <strong>Gancho:</strong> "Te despiertas en Londres, en 1348. Te urge ir al baño. Y descubres que el baño… es la calle."
+- <strong>Estructura: "un día sucio".</strong> De la mañana a la noche, con un contador de "días sin ducharte" y un asco que va subiendo. Cierre: los romanos tenían baños públicos mejores que los de la Edad Media.
+- <strong>Miniatura:</strong> Pijama con cara de asco, sosteniendo algo que no es papel. Texto "¿Y EL PAPEL?".
+- <strong>Riesgo:</strong> es la idea con más competencia de las 8 (131 videos en español, de 112 canales). (MEDIDO)</p>
+<h3>7) Qué comerías en el pasado (idea 11) — PROBAR</h3>
+<ul>
+<li><strong>¿Ya existe en español?</strong> Sí (MEDIDO):</li>
+<li><a href="https://www.youtube.com/watch?v=kVPBI23wCFg">Una visita a una taberna medieval de 1340: por qué rezarías por la comida moderna</a> — <strong>617.403 vistas</strong>, canal de 8.400 subs, 21/03/2026</li>
+<li><a href="https://www.youtube.com/watch?v=dJQTNM_MQ_g">Comer en una Taberna Inglesa del Siglo XII: Por Qué Tu Cuerpo No Lo Soportaría</a> — <strong>90.544 vistas</strong>, canal de 8.400 subs, 02/04/2026</li>
+<li><a href="https://www.youtube.com/watch?v=TdwUKqPfxiY">Así era un FESTÍN de los NOBLES en la EDAD MEDIA (¡No creerás lo que COMÍAN!)</a> — <strong>80.634 vistas</strong>, canal de 571 subs, 15/06/2025</li>
+<li><strong>Referencias ganadoras:</strong></li>
+<li><a href="https://www.youtube.com/watch?v=kVPBI23wCFg">Una visita a una taberna medieval de 1340: por qué rezarías por la comida moderna</a> — <strong>617.403 vistas</strong>, canal de 8.400 subs, 21/03/2026</li>
+<li><a href="https://www.youtube.com/watch?v=sDz4OtIOVms">1100s AD: What People Used to Eat at Medieval Alehouses (England)</a> — <strong>234.035 vistas</strong>, canal de 12.100 subs, 24/02/2026</li>
+<li><a href="https://www.youtube.com/watch?v=pBsb5etC_RU">What People Really Ate in Medieval Taverns</a> — <strong>139.689 vistas</strong>, canal de 1.940 subs, 15/02/2026</li>
+<li><strong>Fracaso:</strong> <a href="https://www.youtube.com/watch?v=nsrm_2AzX68">La Verdad del Invierno Medieval: Qué Comían los Pobres en la Edad Media</a> — <strong>235 vistas</strong>, canal de 8.430 subs, 07/06/2026</li>
+<li><strong>Por qué funcionó:</strong> te pone en el lugar ("una visita a una taberna", "por qué tu cuerpo no lo soportaría") y te compara con la comida de hoy. (OPINIÓN sobre títulos MEDIDOS)</li>
+<li><strong>Títulos:</strong></li>
+<li>"Pedí la cena en una taberna de 1340 (y casi muero)"</li>
+<li>"El menú de 1340: ¿te lo comerías?"</li>
+<li>"Lo que comías en la Edad Media te mandaría al hospital"</li>
+<li><strong>Gancho:</strong> "Tienes hambre, es 1340 y solo hay una taberna. El menú del día: pan con arena, cerveza tibia y algo que alguna vez fue un animal."</li>
+<li><strong>Estructura: "menú de 5 pasos".</strong> Va de la entrada al postre y cada plato lleva una nota de "¿te lo comerías?". Cierre: el único plato que era más sano que lo que comes hoy.</li>
+<li><strong>Miniatura:</strong> Pijama frente a un plato horrible, con una mano tapándose la boca. Texto "¿TE LO COMES?".</li>
+<li><strong>Riesgo:</strong> la taberna de 1340 es la fórmula de un canal (8.400 suscriptores, varios videos así). Si se copia muy parecido, se nota. (MEDIDO + OPINIÓN)</li>
+</ul>
+<h3>8) Una semana en Tenochtitlan / el Imperio Inca (idea 15) — PROBAR (para el público latino)</h3>
+<ul>
+<li><strong>¿Ya existe en español?</strong> Con el formato "cuánto durarías", casi no: la búsqueda solo trajo 2 resultados. Temas parecidos (MEDIDO):</li>
+<li><a href="https://www.youtube.com/watch?v=UQEqY2Zz2HI">La diferencia REAL entre los imperios INCA, AZTECA y MAYA, revelada</a> — <strong>805.173 vistas</strong>, canal de 5.320 subs, 03/04/2026</li>
+<li><a href="https://www.youtube.com/watch?v=T1thipH4-mU">La Mejor Recreación con IA del Imperio Azteca QUE TE DEJARÁ SIN PALABRAS</a> — <strong>591.431 vistas</strong>, canal de 9.890 subs, 17/02/2026</li>
+<li><a href="https://www.youtube.com/watch?v=1D2bjs5_cls">Así era vivir en Tenochtitlán (Imperio Azteca) en el 1325 d.C. - Los últimos siglos del reino mexica</a> — <strong>245.389 vistas</strong>, canal de 4.460.000 subs, 18/06/2026</li>
+<li><strong>Referencias ganadoras:</strong></li>
+<li><a href="https://www.youtube.com/watch?v=UQEqY2Zz2HI">La diferencia REAL entre los imperios INCA, AZTECA y MAYA, revelada</a> — <strong>805.173 vistas</strong>, canal de 5.320 subs, 03/04/2026</li>
+<li><a href="https://www.youtube.com/watch?v=MVDbPoN1CV0">La historia que nunca te contaron sobre los incas en Argentina</a> — <strong>522.888 vistas</strong>, canal de 14.100 subs, 01/05/2026</li>
+<li><a href="https://www.youtube.com/watch?v=OjP2udAoINs">Los INCAS y su ORO INFINITO: El secreto mejor guardado de su imperio</a> — <strong>324.459 vistas</strong>, canal de 1.490 subs, 05/12/2025</li>
+<li>En inglés, con el formato justo: <a href="https://www.youtube.com/watch?v=g2SeGrmGJc4">What If You Spent 1 Week in the Aztec Empire?</a> — <strong>88.557 vistas</strong>, canal de 2.280 subs, 09/05/2026</li>
+<li><strong>Fracaso:</strong> <a href="https://www.youtube.com/watch?v=Zw5gBPIhDmM">Cómo Vivía la Ciudad Más Avanzada del Mundo en 1450 | Tenochtitlán Reconstruida con IA</a> — <strong>250 vistas</strong>, canal de 34.900 subs, 11/05/2026</li>
+<li><strong>Por qué funcionó:</strong> es historia propia del público latino. Es el tema con más ganadores de canales chicos en español: 14. (MEDIDO)</li>
+<li><strong>Títulos:</strong></li>
+<li>"Una semana en Tenochtitlan… en pijama"</li>
+<li>"¿Cuánto durarías en el Imperio Azteca?"</li>
+<li>"Despertaste en Tenochtitlan, 1519: estas son tus chances"</li>
+<li><strong>Gancho:</strong> "Te despiertas en una ciudad construida sobre un lago, una de las más grandes del mundo en ese momento. Y todos miran tu pijama."</li>
+<li><strong>Estructura: "una semana, un desafío por día".</strong> Mercado, idioma, chinampas, juego de pelota, ceremonia… Cierre: llega 1520 y la viruela, que conecta con el primer video y con el de los peores años. Es el mismo molde que usa <a href="https://www.youtube.com/watch?v=dJ6slDs1ePo">What Happens If A Modern Gym Bro Spends 7 Days In Ancient Rome?</a> — <strong>172.697 vistas</strong>, canal de 1.650 subs, 07/04/2026: un tipo de hoy pasa 7 días en el pasado, un capítulo por día (MEDIDO con Gemini). Es lo más parecido a Pijama que apareció en todo el estudio.</li>
+<li><strong>Miniatura:</strong> Pijama sobre una canoa frente al templo mayor. Texto "¿7 DÍAS?".</li>
+<li><strong>Riesgo:</strong> los comentarios castigan duro los errores. En el video de recreación con IA, el comentario con más likes acusa mezclar arquitectura egipcia con azteca (223 likes), y en otro se quejan de la voz de IA que no pronuncia la Ñ (163 likes). (MEDIDO) Hay que cuidar mucho las imágenes y los datos.</li>
+</ul>
+<h2>4. Qué tienen en común los videos ganadores</h2>
+<p>Los datos son de los 146 ganadores que tocan alguna de las ideas (MEDIDO) y de 32 miniaturas mirando una por una (MEDIDO, conteo a ojo).</p>
+<p><strong>Títulos</strong></p>
+<ul>
+<li>Mediana de 11 palabras.</li>
+<li>58 de 146 son preguntas (40 %), 42 llevan un número (29 %) y 28 tienen alguna palabra en mayúsculas.</li>
+<li>Moldes que se repiten:</li>
+<li>"¿Cómo [hacían X] sin [algo de hoy]?"</li>
+<li>"¿Cuánto durarías en cada…?"</li>
+<li>"¿Qué hacían todo el día…?"</li>
+<li>"[Año]: …" (1348:, 536 d.C.:)</li>
+<li>"Life 20,000 Years Ago | …"</li>
+</ul>
+<p><strong>Duración</strong></p>
+<ul>
+<li>La mediana de los ganadores es de <strong>13,9 minutos</strong> (14,9 en español). Nuestro primer video dura 7 minutos.</li>
+<li>Regla: apuntar a <strong>10–15 minutos</strong> en el video largo. (MEDIDO → OPINIÓN)</li>
+<li>Los videos muy largos también ganan: 27 de los 146 ganadores duran más de 20 minutos (15 en español). En español hay recopilaciones de 44 y 56 minutos sobre los primeros humanos con 818.844 y 600.652 vistas en canales de unos 15.500 suscriptores. Idea: cuando haya 4 o 5 videos de Pijama, subir una recopilación de 1 hora "para dormir" sin hacer nada nuevo. (MEDIDO + OPINIÓN)</li>
+</ul>
+<p><strong>Canales</strong></p>
+<ul>
+<li>103 de 146 ganadores eran de canales de <strong>menos de un año</strong>. La mediana de edad del canal al publicar era de 117 días. Un canal nuevo puede ganar. (MEDIDO)</li>
+<li>77 de los 146 se publicaron en los últimos 6 meses: el nicho está vivo. (MEDIDO)</li>
+</ul>
+<p><strong>Gancho</strong></p>
+<ul>
+<li>Los 5 videos analizados con Gemini abren con una <strong>pregunta</strong> o una <strong>escena en segunda persona</strong> ("Te despiertas y…").</li>
+<li>4 de los 5 repiten la promesa del título antes del segundo 35; el de Egipto, en el segundo 45. (MEDIDO con Gemini)</li>
+</ul>
+<p><strong>Miniaturas</strong> (32 vistas)</p>
+<ul>
+<li>15 son de dibujo simple con un personaje expresivo y 17 son imágenes realistas de IA.</li>
+<li>11 tienen un número grande (50 °C, −40°, 536, 12 minutes) y 9 una pregunta corta ("COZY ALL DAY?", "¿50 °C POR LAS NOCHES?").</li>
+<li>Casi todas llevan 2 a 4 palabras en amarillo o blanco con borde negro.</li>
+<li>El recurso más usado es el <strong>contraste</strong>: uno sufre y otro está cómodo, o calor contra fresco.</li>
+<li>Dos canales distintos usan <strong>la misma miniatura</strong> ("BITTEN ALL NIGHT?"): se copian entre ellos.</li>
+</ul>
+<p><strong>Reglas para aplicar</strong></p>
+<ol>
+<li>La miniatura lleva un número o una pregunta de 2 a 4 palabras, con Pijama sufriendo y algo que contraste.</li>
+<li>El título usa uno de los moldes de arriba y no pasa de 60 caracteres.</li>
+<li>Arrancar en segunda persona y repetir la promesa antes del segundo 35.</li>
+<li>Que dure 10–15 minutos.</li>
+<li><strong>No repetir imágenes y mantener la música baja.</strong> Son las dos quejas con más likes en un video ganador en español: 866 likes por música y transiciones, 388 y 286 likes por imágenes repetidas. (MEDIDO)</li>
+<li>Revisar la pronunciación de la voz (nombres, la Ñ) y poner las fuentes en la descripción. Hubo un pedido explícito de bibliografía. (MEDIDO)</li>
+</ol>
+<p><strong>Ojo con los likes:</strong> 20 de los 146 ganadores tienen menos de 0,5 likes cada 100 vistas, y la mediana es de 1,1. Casi todos son canales chicos de dibujo con "cómo sobrevivían…". Puede ser que YouTube los recomiende a gente que los mira de fondo o para dormir. No sabemos si también hay publicidad paga. (ESTIMADO) Esas vistas son reales, pero ese público es menos fiel.</p>
+<h2>5. Orden recomendado de los próximos 6 videos</h2>
+<p>El primer video sale el jueves 22 de octubre. La propuesta es uno por semana, cada uno con sus Shorts.</p>
+<table>
+<thead>
+<tr>
+<th>Orden</th>
+<th>Video</th>
+<th>Por qué en este lugar</th>
+<th>Prueba simple</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>¿Cuánto durarías en cada época?</strong> (idea 4)</td>
+<td>Es lo más urgente: el hueco en español se está llenando esta semana. Da 8 Shorts.</td>
+<td>Usar "Probar y comparar" de YouTube (gratis) con 2 miniaturas. Sirve si el CTR pasa de 5 % y la retención del minuto 1 de 60 %.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>Tu lunes vs. el de un cazador</strong> (ideas 3+10)</td>
+<td>Es la idea con más identificación y conecta con el dato del primer video (7 de 10).</td>
+<td>Contar cuántos comentarios hablan de trabajo o de la vida propia en los primeros 7 días. Si hay muchos, esa línea funciona.</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>Una noche a −30 °C en pijama</strong> (idea 1, abre la serie "sin nada moderno")</td>
+<td>Es la más visual y prueba la fórmula de los canales chicos.</td>
+<td>Si funciona (CTR &gt; 5 %), el 4.º video es el de Egipto a 50 °C, con el mismo molde.</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>Los peores años para estar vivo</strong> (idea 21)</td>
+<td>Está probada en español y el año 1520 suma al público latino.</td>
+<td>Medir la retención en el paso de un año al siguiente: si cae más de 10 puntos, acortar los bloques.</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>1348: no hay baño ni papel</strong> (idea 12)</td>
+<td>Tiene mucha demanda y el humor de asco va con Pijama. Va después porque es la que tiene más competencia.</td>
+<td>Comparar el CTR con el del video 1. Si es la mitad, el problema es la miniatura, no el tema.</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>Una semana en Tenochtitlan</strong> (idea 15)</td>
+<td>Es para el público latino, que es el que más gana en español. Hay que investigarlo más.</td>
+<td>Leer los comentarios buscando correcciones. Si hay varias con muchos likes, corregir en un comentario fijado.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Regla para los 6:</strong> sirve si el CTR pasa de 5 % y la retención del minuto 1 pasa de 60 % (los dos se ven en YouTube Studio). Si <strong>ninguno de los primeros 6 pasa las 5.000 vistas</strong> en 30 días, hay que volver a revisar el nicho, no solo las ideas.</p>
+<h2>6. Ideas nuevas que salieron de los comentarios</h2>
+<p>Todos son pedidos o preguntas reales (MEDIDO); la idea de video que sale de cada uno es OPINIÓN.</p>
+<ul>
+<li><strong>"Bruh, what about ICE AGE??"</strong> (113 likes, en el top de peores años) → meter la Edad de Hielo como época en el video 1, o como bonus en el 4.</li>
+<li><strong>"How did ancient people wash their hands after the toilet?"</strong> (en el de Egipto) → bloque del video del baño, o un video aparte: "Cómo se lavaban sin jabón".</li>
+<li><strong>"Could you do a deeper dive into other 'forgotten' ancient techniques?"</strong> (por el malqaf, la torre de viento de Egipto) → serie "inventos antiguos que hoy nos salvarían del calor".</li>
+<li><strong>"Most people don't even know how to start a fire"</strong> (12.702 likes, en el de 11,7 millones; aparece en varios videos) → video corto o Short: "¿Podrías encender fuego sin fósforos?".</li>
+<li><strong>"Would love to see everyone agreeing with this video live a week as a hunter-gatherer"</strong> → secuela del video 2: "Pijama vive una semana como cazador".</li>
+<li><strong>"Could you do a video about the Neolithic revolution, with the pros and cons?"</strong> → "¿Fue la agricultura el peor error de la humanidad?". Es la secuela natural del video del lunes.</li>
+<li><strong>Pedidos latinos en videos de incas y aztecas:</strong> Caral (Perú), toltecas, aymaras, tartesos, Mesopotamia → futuras épocas para "una semana en…".</li>
+<li><strong>"Can you make a video about how people sleep in Southeast Asia during high humidity?"</strong> → otro capítulo de "sin nada moderno": humedad y selva.</li>
+</ul>
+<h2>7. Límites (lo que este estudio no puede decir)</h2>
+<ul>
+<li><strong>Sesgo de supervivencia:</strong> la búsqueda de YouTube muestra sobre todo lo que ya ganó. Los fracasos que contamos son los que aparecieron, y hay muchos más que no.</li>
+<li><strong>Búsquedas limitadas:</strong> además de las 10.000 unidades por día, YouTube corta en unas 85 búsquedas diarias. Por eso se hicieron 85 un día y 7 al día siguiente. Las 7 del segundo día no cambiaron qué ideas hacer.</li>
+<li><strong>Duración:</strong> casi todo se buscó entre 4 y 20 minutos. De videos de más de 20 hay solo 2 búsquedas y lo que traía la ronda anterior.</li>
+<li><strong>Clasificación por título:</strong> decidí a qué idea pertenece cada video por palabras del título, con una lista de exclusión para juegos, anime, ficción, etc. Algún video puede estar mal asignado. Las fichas se revisaron a mano.</li>
+<li><strong>Idioma y traducciones:</strong> el idioma sale de lo que declara el canal o, si no declara, de las palabras del título. "Posible traducción" es una pista (país del canal), no una prueba.</li>
+<li><strong>No se puede medir:</strong> el CTR, la retención y los ingresos de otros canales, ni si un video tuvo publicidad paga.</li>
+<li><strong>Transcripciones:</strong> las hizo Gemini escuchando el audio. No son los subtítulos oficiales.</li>
+<li><strong>Gemini:</strong> se analizaron 5 videos. 2 ya estaban analizados de la ronda 1 (el de las eras y el de "qué hacían todo el día") y 3 son nuevos (peores años, Egipto a 50 °C y gym bro en Roma).</li>
+</ul>
+<hr />
+<p>Archivos: <code>research/ideas.py</code> (búsquedas), <code>research/ideas_analisis.py</code> (métricas), <code>research/ideas_puntaje.py</code> (puntajes), <code>research/informe/build_ideas.py</code> (este informe). Datos crudos: <code>research/data/ideas-2026-10/</code>. Miniaturas: <code>research/miniaturas/ideas_ganadores_01.jpg</code> a <code>_08.jpg</code>.</p>
+</main></body></html>
