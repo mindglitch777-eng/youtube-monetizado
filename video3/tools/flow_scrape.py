@@ -95,7 +95,7 @@ def main():
         base_mod = base_mod[: base_mod.index("/m=") + 3]
         ids = set()
         for f in JS.glob("*"):
-            ids |= set(re.findall(r'_\.ho\("([A-Za-z0-9]{4,8})"\)', f.read_text(errors="ignore")))
+            ids |= set(re.findall(r'\(0,_\.ho\)\("([A-Za-z0-9]{4,8})"\)', f.read_text(errors="ignore")))
         print("módulos encontrados:", len(ids))
         with sync_playwright() as p:
             req = p.request.new_context()
