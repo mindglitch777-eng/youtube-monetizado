@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Flow Pijama · generador por lotes
 // @namespace    explicado-en-pijamas
-// @version      0.3.0
+// @version      0.3.1
 // @description  Panel flotante para Google Flow: genera los prompts del video en orden, de a uno, y baja cada imagen con el número de su plano.
 // @match        https://flow.google.com/*
 // @grant        GM_xmlhttpRequest
@@ -162,26 +162,44 @@
     return pm >= 3 ? mejor : null;
   }
   const SEL_CAJA = "textarea,[contenteditable=true],[contenteditable=''],[role=textbox],input[type=text]";
+  // la caja buena es la del chat de Flow ("¿Qué quieres crear?"), nunca el buscador de arriba
+  const NO_ES_CAJA = /(buscar|search|filtr|find)/i;
+  const ES_CAJA = /(qu[eé] quieres|crear|create|prompt|describ|imagine|what do you want)/i;
+  function textoDe(e) { return [e.getAttribute("aria-label"), e.getAttribute("placeholder"), e.getAttribute("data-placeholder"), e.getAttribute("aria-placeholder")].join(" "); }
   function cajaPrompt() {
     const aprendida = buscar(cfg.caja, SEL_CAJA);
     if (aprendida) return aprendida;
-    return [...document.querySelectorAll(SEL_CAJA)].filter(visible)
-      .sort((a, b) => b.getBoundingClientRect().width - a.getBoundingClientRect().width)[0] || null;
+    const c = [...document.querySelectorAll(SEL_CAJA)].filter(visible).filter((e) =>
+      e.type !== "search" && !/searchbox|combobox/.test(e.getAttribute("role") || "") && !NO_ES_CAJA.test(textoDe(e)));
+    const puntaje = (e) => {
+      const r = e.getBoundingClientRect();
+      // cerca de un texto tipo "¿Qué quieres crear?" (placeholder propio o del contenedor)
+      let s = ES_CAJA.test(textoDe(e)) || ES_CAJA.test((e.parentElement && e.parentElement.innerText || "").slice(0, 120)) ? 10 : 0;
+      return s + (r.top / innerHeight) * 5; // las cajas de prompt suelen estar abajo
+    };
+    return c.sort((x, y) => puntaje(y) - puntaje(x))[0] || null;
   }
+  // el botón de enviar está pegado a la caja: se busca SOLO dentro de su contenedor
+  const ES_ENVIAR = /(arrow_forward|arrow_upward|send|enviar|submit|generar|generate|crear|create)/i;
+  const NO_ES_ENVIAR = /(herramienta|tool|proyecto|project|colecci|biblioteca|nuevo|new|adjuntar|attach|add|agregar|ajuste|setting)/i;
   function botonCrear(caja) {
     const sel = "button,[role=button]";
     const aprendido = buscar(cfg.boton, sel);
     if (aprendido) return aprendido;
-    const bs = [...document.querySelectorAll(sel)].filter(visible);
-    const rx = /(create|crear|generar|generate|send|enviar|arrow_forward|arrow_upward|submit)/i;
-    const porNombre = bs.find((b) => rx.test([b.getAttribute("aria-label"), b.innerText, descriptor(b).icono].join(" ")));
-    if (porNombre) return porNombre;
     if (!caja) return null;
-    const rc = caja.getBoundingClientRect(); // si no: el botón más a la derecha pegado a la caja
-    const cerca = bs.map((b) => [b, b.getBoundingClientRect()])
-      .filter(([, r]) => r.left >= rc.left - 10 && r.top >= rc.top - 40 && r.top <= rc.bottom + 80)
-      .sort((a, b) => (b[1].right - a[1].right) || (b[1].bottom - a[1].bottom));
-    return cerca.length ? cerca[0][0] : null;
+    let cont = caja.parentElement, bs = [];
+    for (let k = 0; k < 7 && cont; k++, cont = cont.parentElement) {
+      bs = [...cont.querySelectorAll(sel)].filter(visible);
+      if (bs.length >= 1 && k >= 1) break;
+    }
+    const rc = caja.getBoundingClientRect();
+    const cerca = bs.filter((b) => { const r = b.getBoundingClientRect(); return Math.abs(r.top - rc.bottom) < 140 || (r.top >= rc.top - 20 && r.top <= rc.bottom + 140); });
+    const nombre = (b) => [b.getAttribute("aria-label"), b.innerText, descriptor(b).icono, b.getAttribute("title")].join(" ");
+    const porNombre = cerca.filter((b) => ES_ENVIAR.test(nombre(b)) && !NO_ES_ENVIAR.test(nombre(b)));
+    if (porNombre.length) return porNombre.sort((x, y) => y.getBoundingClientRect().right - x.getBoundingClientRect().right)[0];
+    // si no: el botón de más a la derecha y más abajo de la caja (donde suele estar la flecha de enviar)
+    return cerca.filter((b) => !NO_ES_ENVIAR.test(nombre(b)))
+      .sort((x, y) => (y.getBoundingClientRect().right - x.getBoundingClientRect().right) || (y.getBoundingClientRect().bottom - x.getBoundingClientRect().bottom))[0] || null;
   }
   function escribir(e, texto) {
     e.focus();
