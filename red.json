@@ -1,0 +1,2774 @@
+[
+ {
+  "ctx": "escritorio",
+  "url": "https://flow.google.com/",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "document"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.css",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "stylesheet"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://fonts.googleapis.com/css2?family=Google+Sans+Text:wght@400;500;700",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "stylesheet"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/_/mss/boq-labs-ai-sandbox/_/js/k=boq-labs-ai-sandbox.AiSandboxAngularFrontend.es_419.h-wXHWk7a9U.2018.O/ck=boq-labs-ai-sandbox.AiSandboxAngularFrontend.TIKJLaSbaTI.L.B1.O/d=1/exm=_b/excm=_b/ed=1/br=1/wt=2/ujg=1/rs=APwUF7z1yJfrJXBDQ18LtTyQPjlXqkromg/ee=Pjplud:PoEs9b;QGR0gd:Mlh",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/_/mss/boq-labs-ai-sandbox/_/js/k=boq-labs-ai-sandbox.AiSandboxAngularFrontend.es_419.h-wXHWk7a9U.2018.O/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=APwUF7yiyPceVl9kvFDqZOFL5NRkY6tdmA/ee=Pjplud:PoEs9b;QGR0gd:Mlhmy;ScI3Yc:e7Hzgb;YIZmRd:A1yn5d;cEt90b:ws9Tlc;dowIGb:ebZ3mb/dti=1/m=_b",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/glue/cookienotificationbar/config/2a.json?hl=es-419",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "fetch"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.google.com/recaptcha/enterprise.js?trustedtypes=true&render=6LdsFiUsAAAAAIjVDZcuLhaHiDn5nnHVXVRQGeMV",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/_/mss/boq-labs-ai-sandbox/_/js/k=boq-labs-ai-sandbox.AiSandboxAngularFrontend.es_419.h-wXHWk7a9U.2018.O/ck=boq-labs-ai-sandbox.AiSandboxAngularFrontend.TIKJLaSbaTI.L.B1.O/d=1/exm=_b/excm=_b/ed=1/br=1/wt=2/ujg=1/rs=APwUF7z1yJfrJXBDQ18LtTyQPjlXqkromg/ee=Pjplud:PoEs9b;QGR0gd:Mlh",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/og/_/ss/k=og.qtm.sF74QqzWKc4.L.W.O/m=qcwid,d_b_gm3,d_wi_gm3,d_lo_gm3/excm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/ct=zgms/rs=AA2YrTsd8fn1PDmTZtp4WJSHIvYr3iwTHQ",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "stylesheet"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://fonts.gstatic.com/s/googlesanstext/v29/5aUp9-KzpRiLCAt4Unrc-xIKmCU5oLlVnmhjtg.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://fonts.gstatic.com/s/googlesanstext/v29/5aUu9-KzpRiLCAt4Unrc-xIKmCU5qEp2iw.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__until_we_meet_again.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__a_small_gap_in_time.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__lucky_boy.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__the_sun_returned.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__ocean_master.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__my_body_knows_things.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__0.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__1.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__1.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/icons/flow-music-icon.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__2.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__2.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__1.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__2.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__0.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__0.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_applets__media__0.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_video__poster-desktop.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/og/_/js/k=og.qtm.en_US.ZS82hcemEOY.2019.O/rt=j/m=qabr,q_dnp,qcwid,qapid,qads/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/rs=AA2YrTsVbEvP9NCrctFJGFctnR7I-p7S0g",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/recaptcha/releases/NhfdZHzre16wrc2m6BxEdu7J/recaptcha__es_419.js",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://fonts.gstatic.com/s/googlesans/v62/4UaRrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iq2vgCI.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://fonts.gstatic.com/s/googlesymbols/v467/HhyqU5Ak9u-oMExPeInvcuEmPosC9zS3FYkFU68cPrjdKM1XMoDZlWmzc3IiWvF1SbxVhQidBnv_C-yl.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_hero__background_video__420w.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__lucky_boy_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_models__card_video__veo.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_models__card_video__omni.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__ocean_view_master.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__the_sun_returned_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__lucky_boy_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__until_we_meet_again_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_hero__background_video__1440w.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__a_small_gap_in_time_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__until_we_meet_again_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__a_small_gap_in_time_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdsFiUsAAAAAIjVDZcuLhaHiDn5nnHVXVRQGeMV&co=aHR0cHM6Ly9mbG93Lmdvb2dsZS5jb206NDQz&hl=es-419&v=NhfdZHzre16wrc2m6BxEdu7J&size=invisible&anchor-ms=20000&execute-ms=30000&cb=ctfzfxd1379u",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "document"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NZ9M8LQL",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+  "metodo": "POST",
+  "estado": 200,
+  "tipo": "xhr"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/recaptcha/releases/NhfdZHzre16wrc2m6BxEdu7J/styles__ltr.css",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "stylesheet"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/recaptcha/releases/NhfdZHzre16wrc2m6BxEdu7J/recaptcha__es_419.js",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.googletagmanager.com/gtag/js?id=G-X2GNH8R5NS&cx=c&gtm=4e6aq1",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.google.com/recaptcha/enterprise/webworker.js?hl=es-419&v=NhfdZHzre16wrc2m6BxEdu7J",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/recaptcha/releases/NhfdZHzre16wrc2m6BxEdu7J/recaptcha__es_419.js",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "other"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-X2GNH8R5NS&gtm=45je6aq1v883763742z89224422997za20gzb9224422997zd9224422997xf1&_p=1793184322661&gcs=G111&gcd=13r3r3l3r5l1&npa=0&dma=0&ecid=1299799912&cid=2078743894.1793184325&frm=0&ngs=1&pscdl=noapi&rcb=19&sr=1440x900&uaa=x86&uab=64&uafvl=Not%253A",
+  "metodo": "POST",
+  "estado": 204,
+  "tipo": "fetch"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/favicon/flow_favicon_b.png",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "other"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://play.google.com/log?format=json&hasfast=true",
+  "metodo": "POST",
+  "estado": 200,
+  "tipo": "xhr"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-X2GNH8R5NS&gtm=45je6aq1v883763742z89224422997za20gzb9224422997zd9224422997xf1&_p=1793184322661&gcs=G111&gcd=13r3r3l3r5l1&npa=0&dma=0&ecid=1299799912&_eu=AAAAAAQ&cid=2078743894.1793184325&frm=0&ngs=1&pscdl=noapi&rcb=19&sr=1440x900&uaa=x86&uab=64&ua",
+  "metodo": "POST",
+  "estado": 204,
+  "tipo": "fetch"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://flow.google.com/project/nuevo",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "document"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://fonts.googleapis.com/css2?family=Google+Sans+Text:wght@400;500;700",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "stylesheet"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.css",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "stylesheet"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/_/mss/boq-labs-ai-sandbox/_/js/k=boq-labs-ai-sandbox.AiSandboxAngularFrontend.es_419.h-wXHWk7a9U.2018.O/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=APwUF7yiyPceVl9kvFDqZOFL5NRkY6tdmA/ee=Pjplud:PoEs9b;QGR0gd:Mlhmy;ScI3Yc:e7Hzgb;YIZmRd:A1yn5d;cEt90b:ws9Tlc;dowIGb:ebZ3mb/dti=1/m=_b",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/_/mss/boq-labs-ai-sandbox/_/js/k=boq-labs-ai-sandbox.AiSandboxAngularFrontend.es_419.h-wXHWk7a9U.2018.O/ck=boq-labs-ai-sandbox.AiSandboxAngularFrontend.TIKJLaSbaTI.L.B1.O/d=1/exm=_b/excm=_b/ed=1/br=1/wt=2/ujg=1/rs=APwUF7z1yJfrJXBDQ18LtTyQPjlXqkromg/ee=Pjplud:PoEs9b;QGR0gd:Mlh",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/glue/cookienotificationbar/config/2a.json?hl=es-419",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "fetch"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.google.com/recaptcha/enterprise.js?trustedtypes=true&render=6LdsFiUsAAAAAIjVDZcuLhaHiDn5nnHVXVRQGeMV",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/_/mss/boq-labs-ai-sandbox/_/js/k=boq-labs-ai-sandbox.AiSandboxAngularFrontend.es_419.h-wXHWk7a9U.2018.O/ck=boq-labs-ai-sandbox.AiSandboxAngularFrontend.TIKJLaSbaTI.L.B1.O/d=1/exm=_b/excm=_b/ed=1/br=1/wt=2/ujg=1/rs=APwUF7z1yJfrJXBDQ18LtTyQPjlXqkromg/ee=Pjplud:PoEs9b;QGR0gd:Mlh",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://fonts.gstatic.com/s/googlesanstext/v29/5aUu9-KzpRiLCAt4Unrc-xIKmCU5qEp2iw.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://fonts.gstatic.com/s/googlesanstext/v29/5aUp9-KzpRiLCAt4Unrc-xIKmCU5oLlVnmhjtg.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://fonts.gstatic.com/s/googlesans/v62/4UaRrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iq2vgCI.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://fonts.gstatic.com/s/googlesymbols/v467/HhyqU5Ak9u-oMExPeInvcuEmPosC9zS3FYkFU68cPrjdKM1XMoDZlWmzc3IiWvF1SbxVhQidBnv_C-yl.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/og/_/js/k=og.qtm.en_US.ZS82hcemEOY.2019.O/rt=j/m=qabr,q_dnp,qcwid,qapid,qads/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/rs=AA2YrTsVbEvP9NCrctFJGFctnR7I-p7S0g",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/og/_/ss/k=og.qtm.sF74QqzWKc4.L.W.O/m=qcwid,d_b_gm3,d_wi_gm3,d_lo_gm3/excm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/ct=zgms/rs=AA2YrTsd8fn1PDmTZtp4WJSHIvYr3iwTHQ",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "stylesheet"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NZ9M8LQL",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/icons/flow-music-icon.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_video__poster-desktop.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_applets__media__0.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__until_we_meet_again.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__a_small_gap_in_time.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__my_body_knows_things.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__ocean_master.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__the_sun_returned.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__lucky_boy.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__0.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__1.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__2.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__0.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__1.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__2.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__0.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__1.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__2.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/recaptcha/releases/NhfdZHzre16wrc2m6BxEdu7J/recaptcha__es_419.js",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_hero__background_video__420w.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__ocean_view_master.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__the_sun_returned_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__lucky_boy_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_models__card_video__veo.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_models__card_video__omni.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__until_we_meet_again_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__a_small_gap_in_time_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_hero__background_video__1440w.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__until_we_meet_again_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__a_small_gap_in_time_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+  "metodo": "POST",
+  "estado": 200,
+  "tipo": "xhr"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.googletagmanager.com/gtag/js?id=G-X2GNH8R5NS&cx=c&gtm=4e6aq1",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__until_we_meet_again_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__a_small_gap_in_time_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdsFiUsAAAAAIjVDZcuLhaHiDn5nnHVXVRQGeMV&co=aHR0cHM6Ly9mbG93Lmdvb2dsZS5jb206NDQz&hl=es-419&v=NhfdZHzre16wrc2m6BxEdu7J&size=invisible&anchor-ms=20000&execute-ms=30000&cb=uunwr5i6vxah",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "document"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/recaptcha/releases/NhfdZHzre16wrc2m6BxEdu7J/styles__ltr.css",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "stylesheet"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/recaptcha/releases/NhfdZHzre16wrc2m6BxEdu7J/recaptcha__es_419.js",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.google.com/recaptcha/enterprise/webworker.js?hl=es-419&v=NhfdZHzre16wrc2m6BxEdu7J",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/favicon/flow_favicon_b.png",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "other"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/recaptcha/releases/NhfdZHzre16wrc2m6BxEdu7J/recaptcha__es_419.js",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "other"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://play.google.com/log?format=json&hasfast=true",
+  "metodo": "POST",
+  "estado": 200,
+  "tipo": "xhr"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-X2GNH8R5NS&gtm=45je6aq1v883763742z89224422997za20gzb9224422997zd9224422997xf1&_p=1793184337663&gcs=G111&gcd=13r3r3l3r5l1&npa=0&dma=0&ecid=1299799912&_eu=AAAAAAQ&cid=2078743894.1793184325&frm=0&ngs=1&pscdl=noapi&rcb=16&sr=1440x900&uaa=x86&uab=64&ua",
+  "metodo": "POST",
+  "estado": 204,
+  "tipo": "fetch"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://flow.google.com/about",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "document"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://fonts.googleapis.com/css2?family=Google+Sans+Text:wght@400;500;700",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "stylesheet"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.css",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "stylesheet"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/_/mss/boq-labs-ai-sandbox/_/js/k=boq-labs-ai-sandbox.AiSandboxAngularFrontend.es_419.h-wXHWk7a9U.2018.O/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=APwUF7yiyPceVl9kvFDqZOFL5NRkY6tdmA/ee=Pjplud:PoEs9b;QGR0gd:Mlhmy;ScI3Yc:e7Hzgb;YIZmRd:A1yn5d;cEt90b:ws9Tlc;dowIGb:ebZ3mb/dti=1/m=_b",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.google.com/recaptcha/enterprise.js?trustedtypes=true&render=6LdsFiUsAAAAAIjVDZcuLhaHiDn5nnHVXVRQGeMV",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/_/mss/boq-labs-ai-sandbox/_/js/k=boq-labs-ai-sandbox.AiSandboxAngularFrontend.es_419.h-wXHWk7a9U.2018.O/ck=boq-labs-ai-sandbox.AiSandboxAngularFrontend.TIKJLaSbaTI.L.B1.O/d=1/exm=_b/excm=_b/ed=1/br=1/wt=2/ujg=1/rs=APwUF7z1yJfrJXBDQ18LtTyQPjlXqkromg/ee=Pjplud:PoEs9b;QGR0gd:Mlh",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/glue/cookienotificationbar/config/2a.json?hl=es-419",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "fetch"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/og/_/js/k=og.qtm.en_US.ZS82hcemEOY.2019.O/rt=j/m=qabr,q_dnp,qcwid,qapid,qads/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/rs=AA2YrTsVbEvP9NCrctFJGFctnR7I-p7S0g",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/og/_/ss/k=og.qtm.sF74QqzWKc4.L.W.O/m=qcwid,d_b_gm3,d_wi_gm3,d_lo_gm3/excm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/ct=zgms/rs=AA2YrTsd8fn1PDmTZtp4WJSHIvYr3iwTHQ",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "stylesheet"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://fonts.gstatic.com/s/googlesanstext/v29/5aUu9-KzpRiLCAt4Unrc-xIKmCU5qEp2iw.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://fonts.gstatic.com/s/googlesanstext/v29/5aUp9-KzpRiLCAt4Unrc-xIKmCU5oLlVnmhjtg.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://fonts.gstatic.com/s/googlesans/v62/4UaRrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iq2vgCI.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://fonts.gstatic.com/s/googlesymbols/v467/HhyqU5Ak9u-oMExPeInvcuEmPosC9zS3FYkFU68cPrjdKM1XMoDZlWmzc3IiWvF1SbxVhQidBnv_C-yl.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/icons/flow-music-icon.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_video__poster-desktop.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_applets__media__0.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__until_we_meet_again.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__a_small_gap_in_time.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__my_body_knows_things.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__ocean_master.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__the_sun_returned.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__lucky_boy.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__0.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__1.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__2.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__0.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__1.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__2.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__0.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__1.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__2.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NZ9M8LQL",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/recaptcha/releases/NhfdZHzre16wrc2m6BxEdu7J/recaptcha__es_419.js",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_hero__background_video__420w.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__ocean_view_master.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__the_sun_returned_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__lucky_boy_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_models__card_video__veo.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_models__card_video__omni.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_hero__background_video__1440w.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__until_we_meet_again_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.googletagmanager.com/gtag/js?id=G-X2GNH8R5NS&cx=c&gtm=4e6aq1",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__a_small_gap_in_time_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+  "metodo": "POST",
+  "estado": 200,
+  "tipo": "xhr"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__until_we_meet_again_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__a_small_gap_in_time_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdsFiUsAAAAAIjVDZcuLhaHiDn5nnHVXVRQGeMV&co=aHR0cHM6Ly9mbG93Lmdvb2dsZS5jb206NDQz&hl=es-419&v=NhfdZHzre16wrc2m6BxEdu7J&size=invisible&anchor-ms=20000&execute-ms=30000&cb=fipn6kmnc1eh",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "document"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/recaptcha/releases/NhfdZHzre16wrc2m6BxEdu7J/styles__ltr.css",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "stylesheet"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/recaptcha/releases/NhfdZHzre16wrc2m6BxEdu7J/recaptcha__es_419.js",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.google.com/recaptcha/enterprise/webworker.js?hl=es-419&v=NhfdZHzre16wrc2m6BxEdu7J",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/favicon/flow_favicon_b.png",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "other"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.gstatic.com/recaptcha/releases/NhfdZHzre16wrc2m6BxEdu7J/recaptcha__es_419.js",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "other"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://play.google.com/log?format=json&hasfast=true",
+  "metodo": "POST",
+  "estado": 200,
+  "tipo": "xhr"
+ },
+ {
+  "ctx": "escritorio",
+  "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-X2GNH8R5NS&gtm=45je6aq1v883763742z89224422997za20gzb9224422997zd9224422997xf1&_p=1793184347538&gcs=G111&gcd=13r3r3l3r5l1&npa=0&dma=0&ecid=1299799912&_eu=AAAAAAQ&cid=2078743894.1793184325&frm=0&ngs=1&pscdl=noapi&rcb=14&sr=1440x900&uaa=x86&uab=64&ua",
+  "metodo": "POST",
+  "estado": 204,
+  "tipo": "fetch"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://flow.google.com/",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "document"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.css",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "stylesheet"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/_/mss/boq-labs-ai-sandbox/_/js/k=boq-labs-ai-sandbox.AiSandboxAngularFrontend.es_419.h-wXHWk7a9U.2018.O/ck=boq-labs-ai-sandbox.AiSandboxAngularFrontend.TIKJLaSbaTI.L.B1.O/d=1/exm=_b/excm=_b/ed=1/br=1/wt=2/ujg=1/rs=APwUF7z1yJfrJXBDQ18LtTyQPjlXqkromg/ee=Pjplud:PoEs9b;QGR0gd:Mlh",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://fonts.googleapis.com/css2?family=Google+Sans+Text:wght@400;500;700",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "stylesheet"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/_/mss/boq-labs-ai-sandbox/_/js/k=boq-labs-ai-sandbox.AiSandboxAngularFrontend.es_419.h-wXHWk7a9U.2018.O/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=APwUF7yiyPceVl9kvFDqZOFL5NRkY6tdmA/ee=Pjplud:PoEs9b;QGR0gd:Mlhmy;ScI3Yc:e7Hzgb;YIZmRd:A1yn5d;cEt90b:ws9Tlc;dowIGb:ebZ3mb/dti=1/m=_b",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://fonts.gstatic.com/s/googlesanstext/v29/5aUp9-KzpRiLCAt4Unrc-xIKmCU5oLlVnmhjtjm4DZw.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://fonts.gstatic.com/s/googlesanstext/v29/5aUu9-KzpRiLCAt4Unrc-xIKmCU5qEp2i0VBuxM.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/glue/cookienotificationbar/config/2a.json?hl=es-419",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "fetch"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.google.com/recaptcha/enterprise.js?trustedtypes=true&render=6LdsFiUsAAAAAIjVDZcuLhaHiDn5nnHVXVRQGeMV",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/og/_/ss/k=og.qtm.sF74QqzWKc4.L.W.O/m=qcwid,d_b_gm3,d_wi_gm3,d_lo_gm3/excm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/ct=zgms/rs=AA2YrTsd8fn1PDmTZtp4WJSHIvYr3iwTHQ",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "stylesheet"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/_/mss/boq-labs-ai-sandbox/_/js/k=boq-labs-ai-sandbox.AiSandboxAngularFrontend.es_419.h-wXHWk7a9U.2018.O/ck=boq-labs-ai-sandbox.AiSandboxAngularFrontend.TIKJLaSbaTI.L.B1.O/d=1/exm=_b/excm=_b/ed=1/br=1/wt=2/ujg=1/rs=APwUF7z1yJfrJXBDQ18LtTyQPjlXqkromg/ee=Pjplud:PoEs9b;QGR0gd:Mlh",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_applets__media__0.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_applets__media__1.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__lucky_boy.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__until_we_meet_again.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__a_small_gap_in_time.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__my_body_knows_things.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__ocean_master.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__the_sun_returned.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/og/_/js/k=og.qtm.en_US.ZS82hcemEOY.2019.O/rt=j/m=qabr,q_dnp,qcwid,qapid,qads/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/rs=AA2YrTsVbEvP9NCrctFJGFctnR7I-p7S0g",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__2.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__1.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/recaptcha/releases/NhfdZHzre16wrc2m6BxEdu7J/recaptcha__es_419.js",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__0.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/icons/flow-music-icon.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://fonts.gstatic.com/s/googlesanstext/v29/5aUp9-KzpRiLCAt4Unrc-xIKmCU5oPFTnmhjtjm4DZw.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__1.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__2.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__0.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__1.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__0.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__2.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NZ9M8LQL",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_video__poster-mobile.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://fonts.gstatic.com/s/googlesans/v62/4UaRrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iq2vgCIhM907w.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_models__card_image__nano.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_hero__background_video__420w.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__until_we_meet_again_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__the_sun_returned_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__ocean_view_master.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__lucky_boy_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__a_small_gap_in_time_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_models__card_video__veo.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_models__card_video__omni.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__lucky_boy_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__a_small_gap_in_time_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__until_we_meet_again_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://fonts.gstatic.com/s/googlesymbols/v467/HhyqU5Ak9u-oMExPeInvcuEmPosC9zS3FYkFU68cPrjdKM1XMoDZlWmzc3IiWvF1SbxVhQidBnv_C-yl9mm4Tw.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+  "metodo": "POST",
+  "estado": 200,
+  "tipo": "xhr"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdsFiUsAAAAAIjVDZcuLhaHiDn5nnHVXVRQGeMV&co=aHR0cHM6Ly9mbG93Lmdvb2dsZS5jb206NDQz&hl=es-419&v=NhfdZHzre16wrc2m6BxEdu7J&size=invisible&anchor-ms=20000&execute-ms=30000&cb=z99mw9lkuea5",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "document"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/recaptcha/releases/NhfdZHzre16wrc2m6BxEdu7J/styles__ltr.css",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "stylesheet"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/recaptcha/releases/NhfdZHzre16wrc2m6BxEdu7J/recaptcha__es_419.js",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.googletagmanager.com/gtag/js?id=G-X2GNH8R5NS&cx=c&gtm=4e6aq1",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.google.com/recaptcha/enterprise/webworker.js?hl=es-419&v=NhfdZHzre16wrc2m6BxEdu7J",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/recaptcha/releases/NhfdZHzre16wrc2m6BxEdu7J/recaptcha__es_419.js",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "other"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/favicon/flow_favicon_b.png",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "other"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-X2GNH8R5NS&gtm=45je6aq1v883763742z89224422997za20gzb9224422997zd9224422997xf1&_p=1793184354853&gcs=G111&gcd=13r3r3l3r5l1&npa=0&dma=0&ecid=1382791982&cid=570781877.1793184356&frm=0&ngs=1&pscdl=noapi&rcb=2&sr=412x839&uaa=arm&uab=64&uafvl=Not%253AA-B",
+  "metodo": "POST",
+  "estado": 204,
+  "tipo": "fetch"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://play.google.com/log?format=json&hasfast=true",
+  "metodo": "POST",
+  "estado": 200,
+  "tipo": "xhr"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-X2GNH8R5NS&gtm=45je6aq1v883763742z89224422997za20gzb9224422997zd9224422997xf1&_p=1793184354853&gcs=G111&gcd=13r3r3l3r5l1&npa=0&dma=0&ecid=1382791982&_eu=AAAAAAQ&cid=570781877.1793184356&frm=0&ngs=1&pscdl=noapi&rcb=2&sr=412x839&uaa=arm&uab=64&uafvl",
+  "metodo": "POST",
+  "estado": 204,
+  "tipo": "fetch"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://flow.google.com/project/nuevo",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "document"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://fonts.googleapis.com/css2?family=Google+Sans+Text:wght@400;500;700",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "stylesheet"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.css",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "stylesheet"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/_/mss/boq-labs-ai-sandbox/_/js/k=boq-labs-ai-sandbox.AiSandboxAngularFrontend.es_419.h-wXHWk7a9U.2018.O/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=APwUF7yiyPceVl9kvFDqZOFL5NRkY6tdmA/ee=Pjplud:PoEs9b;QGR0gd:Mlhmy;ScI3Yc:e7Hzgb;YIZmRd:A1yn5d;cEt90b:ws9Tlc;dowIGb:ebZ3mb/dti=1/m=_b",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/_/mss/boq-labs-ai-sandbox/_/js/k=boq-labs-ai-sandbox.AiSandboxAngularFrontend.es_419.h-wXHWk7a9U.2018.O/ck=boq-labs-ai-sandbox.AiSandboxAngularFrontend.TIKJLaSbaTI.L.B1.O/d=1/exm=_b/excm=_b/ed=1/br=1/wt=2/ujg=1/rs=APwUF7z1yJfrJXBDQ18LtTyQPjlXqkromg/ee=Pjplud:PoEs9b;QGR0gd:Mlh",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/glue/cookienotificationbar/config/2a.json?hl=es-419",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "fetch"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.google.com/recaptcha/enterprise.js?trustedtypes=true&render=6LdsFiUsAAAAAIjVDZcuLhaHiDn5nnHVXVRQGeMV",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/_/mss/boq-labs-ai-sandbox/_/js/k=boq-labs-ai-sandbox.AiSandboxAngularFrontend.es_419.h-wXHWk7a9U.2018.O/ck=boq-labs-ai-sandbox.AiSandboxAngularFrontend.TIKJLaSbaTI.L.B1.O/d=1/exm=_b/excm=_b/ed=1/br=1/wt=2/ujg=1/rs=APwUF7z1yJfrJXBDQ18LtTyQPjlXqkromg/ee=Pjplud:PoEs9b;QGR0gd:Mlh",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://fonts.gstatic.com/s/googlesanstext/v29/5aUu9-KzpRiLCAt4Unrc-xIKmCU5qEp2i0VBuxM.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://fonts.gstatic.com/s/googlesanstext/v29/5aUp9-KzpRiLCAt4Unrc-xIKmCU5oLlVnmhjtjm4DZw.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://fonts.gstatic.com/s/googlesanstext/v29/5aUp9-KzpRiLCAt4Unrc-xIKmCU5oPFTnmhjtjm4DZw.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://fonts.gstatic.com/s/googlesans/v62/4UaRrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iq2vgCIhM907w.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://fonts.gstatic.com/s/googlesymbols/v467/HhyqU5Ak9u-oMExPeInvcuEmPosC9zS3FYkFU68cPrjdKM1XMoDZlWmzc3IiWvF1SbxVhQidBnv_C-yl9mm4Tw.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/og/_/js/k=og.qtm.en_US.ZS82hcemEOY.2019.O/rt=j/m=qabr,q_dnp,qcwid,qapid,qads/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/rs=AA2YrTsVbEvP9NCrctFJGFctnR7I-p7S0g",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/og/_/ss/k=og.qtm.sF74QqzWKc4.L.W.O/m=qcwid,d_b_gm3,d_wi_gm3,d_lo_gm3/excm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/ct=zgms/rs=AA2YrTsd8fn1PDmTZtp4WJSHIvYr3iwTHQ",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "stylesheet"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NZ9M8LQL",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/icons/flow-music-icon.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_video__poster-mobile.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_models__card_image__nano.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_applets__media__0.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_applets__media__1.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__lucky_boy.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__until_we_meet_again.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__a_small_gap_in_time.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__my_body_knows_things.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__ocean_master.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__the_sun_returned.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__0.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__1.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__2.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__0.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__1.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__2.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__0.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__1.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__2.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/recaptcha/releases/NhfdZHzre16wrc2m6BxEdu7J/recaptcha__es_419.js",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_hero__background_video__420w.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__ocean_view_master.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__the_sun_returned_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_models__card_video__veo.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_models__card_video__omni.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__until_we_meet_again_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__until_we_meet_again_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__lucky_boy_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__a_small_gap_in_time_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__lucky_boy_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__a_small_gap_in_time_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+  "metodo": "POST",
+  "estado": 200,
+  "tipo": "xhr"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.googletagmanager.com/gtag/js?id=G-X2GNH8R5NS&cx=c&gtm=4e6aq1",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdsFiUsAAAAAIjVDZcuLhaHiDn5nnHVXVRQGeMV&co=aHR0cHM6Ly9mbG93Lmdvb2dsZS5jb206NDQz&hl=es-419&v=NhfdZHzre16wrc2m6BxEdu7J&size=invisible&anchor-ms=20000&execute-ms=30000&cb=l3c24l5w1lq6",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "document"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/recaptcha/releases/NhfdZHzre16wrc2m6BxEdu7J/styles__ltr.css",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "stylesheet"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/recaptcha/releases/NhfdZHzre16wrc2m6BxEdu7J/recaptcha__es_419.js",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.google.com/recaptcha/enterprise/webworker.js?hl=es-419&v=NhfdZHzre16wrc2m6BxEdu7J",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/favicon/flow_favicon_b.png",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "other"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/recaptcha/releases/NhfdZHzre16wrc2m6BxEdu7J/recaptcha__es_419.js",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "other"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://play.google.com/log?format=json&hasfast=true",
+  "metodo": "POST",
+  "estado": 200,
+  "tipo": "xhr"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-X2GNH8R5NS&gtm=45je6aq1v883763742z89224422997za20gzb9224422997zd9224422997xf1&_p=1793184371078&gcs=G111&gcd=13r3r3l3r5l1&npa=0&dma=0&ecid=1382791982&_eu=AAAAAAQ&cid=570781877.1793184356&frm=0&ngs=1&pscdl=noapi&rcb=2&sr=412x839&uaa=arm&uab=64&uafvl",
+  "metodo": "POST",
+  "estado": 204,
+  "tipo": "fetch"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://flow.google.com/about",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "document"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://fonts.googleapis.com/css2?family=Google+Sans+Text:wght@400;500;700",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "stylesheet"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.css",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "stylesheet"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/_/mss/boq-labs-ai-sandbox/_/js/k=boq-labs-ai-sandbox.AiSandboxAngularFrontend.es_419.h-wXHWk7a9U.2018.O/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=APwUF7yiyPceVl9kvFDqZOFL5NRkY6tdmA/ee=Pjplud:PoEs9b;QGR0gd:Mlhmy;ScI3Yc:e7Hzgb;YIZmRd:A1yn5d;cEt90b:ws9Tlc;dowIGb:ebZ3mb/dti=1/m=_b",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.google.com/recaptcha/enterprise.js?trustedtypes=true&render=6LdsFiUsAAAAAIjVDZcuLhaHiDn5nnHVXVRQGeMV",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/_/mss/boq-labs-ai-sandbox/_/js/k=boq-labs-ai-sandbox.AiSandboxAngularFrontend.es_419.h-wXHWk7a9U.2018.O/ck=boq-labs-ai-sandbox.AiSandboxAngularFrontend.TIKJLaSbaTI.L.B1.O/d=1/exm=_b/excm=_b/ed=1/br=1/wt=2/ujg=1/rs=APwUF7z1yJfrJXBDQ18LtTyQPjlXqkromg/ee=Pjplud:PoEs9b;QGR0gd:Mlh",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://fonts.gstatic.com/s/googlesanstext/v29/5aUu9-KzpRiLCAt4Unrc-xIKmCU5qEp2i0VBuxM.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://fonts.gstatic.com/s/googlesanstext/v29/5aUp9-KzpRiLCAt4Unrc-xIKmCU5oLlVnmhjtjm4DZw.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://fonts.gstatic.com/s/googlesanstext/v29/5aUp9-KzpRiLCAt4Unrc-xIKmCU5oPFTnmhjtjm4DZw.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://fonts.gstatic.com/s/googlesans/v62/4UaRrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iq2vgCIhM907w.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://fonts.gstatic.com/s/googlesymbols/v467/HhyqU5Ak9u-oMExPeInvcuEmPosC9zS3FYkFU68cPrjdKM1XMoDZlWmzc3IiWvF1SbxVhQidBnv_C-yl9mm4Tw.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/glue/cookienotificationbar/config/2a.json?hl=es-419",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "fetch"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/og/_/js/k=og.qtm.en_US.ZS82hcemEOY.2019.O/rt=j/m=qabr,q_dnp,qcwid,qapid,qads/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/rs=AA2YrTsVbEvP9NCrctFJGFctnR7I-p7S0g",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/og/_/ss/k=og.qtm.sF74QqzWKc4.L.W.O/m=qcwid,d_b_gm3,d_wi_gm3,d_lo_gm3/excm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/ct=zgms/rs=AA2YrTsd8fn1PDmTZtp4WJSHIvYr3iwTHQ",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "stylesheet"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/icons/flow-music-icon.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_video__poster-mobile.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_models__card_image__nano.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_applets__media__0.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_applets__media__1.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__lucky_boy.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__until_we_meet_again.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__a_small_gap_in_time.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__my_body_knows_things.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__ocean_master.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_poster__the_sun_returned.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__0.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__1.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__2.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__0.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__1.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__2.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__0.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__1.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__2.webp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/recaptcha/releases/NhfdZHzre16wrc2m6BxEdu7J/recaptcha__es_419.js",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_hero__background_video__420w.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__ocean_view_master.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__the_sun_returned_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__until_we_meet_again_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_models__card_video__veo.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_models__card_video__omni.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__lucky_boy_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__a_small_gap_in_time_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NZ9M8LQL",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__a_small_gap_in_time_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__lucky_boy_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_create__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_refine__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_capabilities_plan__slide__0.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+  "metodo": "POST",
+  "estado": 200,
+  "tipo": "xhr"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdsFiUsAAAAAIjVDZcuLhaHiDn5nnHVXVRQGeMV&co=aHR0cHM6Ly9mbG93Lmdvb2dsZS5jb206NDQz&hl=es-419&v=NhfdZHzre16wrc2m6BxEdu7J&size=invisible&anchor-ms=20000&execute-ms=30000&cb=i2sf756ltpcp",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "document"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/recaptcha/releases/NhfdZHzre16wrc2m6BxEdu7J/styles__ltr.css",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "stylesheet"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/landing_page/landing_sessions__video_mp4__a_small_gap_in_time_preview.mp4",
+  "metodo": "GET",
+  "estado": 206,
+  "tipo": "media"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.googletagmanager.com/gtag/js?id=G-X2GNH8R5NS&cx=c&gtm=4e6aq1",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/recaptcha/releases/NhfdZHzre16wrc2m6BxEdu7J/recaptcha__es_419.js",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "image"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "font"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.google.com/recaptcha/enterprise/webworker.js?hl=es-419&v=NhfdZHzre16wrc2m6BxEdu7J",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "script"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/recaptcha/releases/NhfdZHzre16wrc2m6BxEdu7J/recaptcha__es_419.js",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "other"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.gstatic.com/aitestkitchen/website/flow/favicon/flow_favicon_b.png",
+  "metodo": "GET",
+  "estado": 200,
+  "tipo": "other"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://play.google.com/log?format=json&hasfast=true",
+  "metodo": "POST",
+  "estado": 200,
+  "tipo": "xhr"
+ },
+ {
+  "ctx": "celular",
+  "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-X2GNH8R5NS&gtm=45je6aq1v883763742z89224422997za20gzb9224422997zd9224422997xf1&_p=1793184383588&gcs=G111&gcd=13r3r3l3r5l1&npa=0&dma=0&ecid=1382791982&_eu=AAAAAAQ&cid=570781877.1793184356&frm=0&ngs=1&pscdl=noapi&rcb=5&sr=412x839&uaa=arm&uab=64&uafvl",
+  "metodo": "POST",
+  "estado": 204,
+  "tipo": "fetch"
+ }
+]
