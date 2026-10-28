@@ -1,7 +1,7 @@
 name: Flow · prueba del script (Chromium y Firefox)
 
-# Prueba flow_pijama.user.js contra una copia de la caja de Flow hecha con un editor
-# ProseMirror real (el mismo que usa Flow), en Chromium y en Firefox.
+# Prueba flow_pijama.user.js contra el simulador de Flow (editor ProseMirror real, agente que
+# responde, pregunta o se niega, botón que no responde, recargas, imágenes viejas...) en Chromium y Firefox.
 
 on:
   workflow_dispatch:
@@ -13,7 +13,7 @@ on:
 jobs:
   probar:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -23,7 +23,7 @@ jobs:
           cd video3/tools/test_flow
           npm init -y >/dev/null
           npm install --silent prosemirror-state prosemirror-view prosemirror-model prosemirror-schema-basic prosemirror-keymap prosemirror-commands esbuild playwright
-          npx esbuild editor_falso.js --bundle --format=iife --outfile=editor.bundle.js --log-level=warning
+          npx esbuild simulador.js --bundle --format=iife --outfile=simulador.bundle.js --log-level=warning
           npx playwright install --with-deps chromium firefox
       - name: Probar
         run: NODE_PATH=video3/tools/test_flow/node_modules node video3/tools/test_flow/probar.js

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Flow Pijama · generador por lotes
 // @namespace    explicado-en-pijamas
-// @version      0.5.0
+// @version      0.6.0
 // @description  Panel flotante para Google Flow: genera los prompts del video en orden, de a uno, y baja cada imagen con el número de su plano.
 // @match        https://flow.google.com/*
 // @grant        GM_xmlhttpRequest
@@ -260,7 +260,9 @@
   const seMando = (caja) => hayStop() || textoActual(editorDe(caja)).trim().length < 5;
 
   // varias formas de mandar, comprobando cada una; deja todo anotado en el Registro
+  let stopAlEnviar = false; // si Flow ya mostraba "stop" al confirmar el envío
   async function enviar(caja) {
+    stopAlEnviar = false;
     let b = null;
     for (let k = 0; k < 24; k++) { b = botonCrear(caja); if (b && !desactivado(b)) break; await dormir(250); }
     if (desactivado(b)) {
@@ -276,7 +278,7 @@
       ["tocar lo que está encima del botón", () => {
         if (!b) return "sin botón";
         const r = b.getBoundingClientRect(), t = document.elementFromPoint(r.x + r.width / 2, r.y + r.height / 2);
-        if (!t || t === b) return "es el mismo botón"; tocar(t);
+        if (!t || t === b || !fuera(t)) return "es el mismo botón (o el panel)"; tocar(t);
       }],
       ["Enter en el editor", () => enter(caja)],
       ["enviar el formulario", () => { const f = b && b.closest("form"); if (!f) return "sin formulario"; f.requestSubmit ? f.requestSubmit(b) : f.submit(); }],
@@ -286,7 +288,7 @@
       let r; try { r = fn(); } catch (e) { r = "error: " + e.message; }
       if (r) { log(`· ${nombre}: ${r}`); continue; }
       await dormir(1800);
-      if (seMando(caja)) { log(`✓ enviado con: ${nombre}`); return true; }
+      if (seMando(caja)) { stopAlEnviar = hayStop(); log(`✓ enviado con: ${nombre}`); return true; }
       log(`· ${nombre}: no se mandó`);
       b = botonCrear(caja) || b;
     }
@@ -300,7 +302,30 @@
     b.click();
   }
   const srcDe = (i) => i.currentSrc || i.src;
-  const imagenes = () => [...document.querySelectorAll("img")].filter((i) => fuera(i) && i.naturalWidth >= 256 && i.naturalHeight >= 256 && srcDe(i));
+  const imagenes = () => [...document.querySelectorAll("img")].filter((i) => fuera(i) && i.complete && i.naturalWidth >= 256 && i.naturalHeight >= 256 && srcDe(i));
+  // la misma imagen aparece en el chat (chica) y en la grilla (grande), a veces con otro tamaño en la URL:
+  // la clave es la URL sin parámetros de tamaño
+  function claveImg(src) {
+    if (!/^https?:/.test(src)) return src;
+    try {
+      const u = new URL(src);
+      // solo cuentan los parámetros que identifican la imagen; tamaños, tokens y firmas cambian solos
+      const id = ["name", "id", "mediaId", "media_key", "mediaKey", "key"].map((k) => u.searchParams.get(k)).filter(Boolean).join("|");
+      return u.origin + u.pathname.replace(/=[swh]\d+[^/]*$/, "") + (id ? "#" + id : "");
+    } catch (_) { return src; }
+  }
+  const clavesTodas = () => new Set([...document.querySelectorAll("img")].filter((i) => fuera(i) && srcDe(i)).map((i) => claveImg(srcDe(i))));
+  function nuevasAgrupadas(antes) {
+    const grupos = new Map();
+    for (const i of imagenes()) {
+      const k = claveImg(srcDe(i));
+      if (antes.has(k)) continue;
+      const g = grupos.get(k);
+      if (!g || i.naturalWidth * i.naturalHeight > g.naturalWidth * g.naturalHeight) grupos.set(k, i);
+    }
+    // orden de lectura (arriba→abajo, izquierda→derecha) para que _a y _b sean siempre iguales
+    return [...grupos.values()].sort((x, y) => { const a = x.getBoundingClientRect(), b = y.getBoundingClientRect(); return (a.top - b.top) || (a.left - b.left); });
+  }
 
   function blobGM(src) {
     return new Promise((ok, mal) => GM_xmlhttpRequest({ method: "GET", url: src, responseType: "blob", onload: (r) => ok(r.response), onerror: mal }));
@@ -345,52 +370,70 @@
   }
 
   // ---------- generar ----------
+  const PREFIJO_DIRECTO = "Generate the image now. Do not ask questions, do not suggest alternatives, just create it. ";
+  // espera el resultado de UN envío: imágenes nuevas estables, o "terminó sin imágenes"
+  async function esperarResultado(antes) {
+    const t0 = Date.now();
+    let vioStop = stopAlEnviar, cant = 0, estable = 0;
+    while (Date.now() - t0 < cfg.esperaMax * 1000) {
+      await dormir(1500);
+      if (parar) throw new Error("pausado");
+      const stop = hayStop(); if (stop) vioStop = true;
+      const nuevas = nuevasAgrupadas(antes);
+      if (nuevas.length) {
+        if (nuevas.length !== cant) { cant = nuevas.length; estable = Date.now(); }
+        if (!stop && Date.now() - estable >= 3000) return nuevas; // ya no aparecen más
+      } else if (vioStop && !stop && Date.now() - t0 > 5000) {
+        await dormir(5000); // por si las imágenes llegan un poco después del final
+        const tarde = nuevasAgrupadas(antes);
+        return tarde.length ? tarde : null;
+      } else if (!vioStop && Date.now() - t0 > 60000) return null;
+    }
+    const ult = nuevasAgrupadas(antes);
+    return ult.length ? ult : null;
+  }
+  async function cajaConEspera() {
+    for (let k = 0; k < 40; k++) { const c = cajaPrompt(); if (c) return c; await dormir(250); } // Flow redibuja después de cada envío
+    return null;
+  }
   let ultimaImg = null;
   async function generarUno(item, nombre) {
-    const caja = cajaPrompt();
-    if (!caja) throw new Error("no encuentro la caja del prompt → Ajustes › Enseñar caja");
-    const antes = new Set(imagenes().map(srcDe));
-    await escribir(caja, item.prompt);
-    if (!(await enviar(caja))) throw new Error("no pude mandar el prompt (mirá el Registro)");
-    const t0 = Date.now();
-    let avisado = false;
-    while (Date.now() - t0 < cfg.esperaMax * 1000) {
-      await dormir(2000);
-      if (parar) throw new Error("pausado");
-      if (!avisado && Date.now() - t0 > 25000 && (textoActual(caja).length > 20)) {
-        avisado = true; log("⚠ el prompt sigue en la caja: puede que no haya apretado crear → Ajustes › Enseñar botón");
+    for (let intento = 1; intento <= 2; intento++) {
+      const caja = await cajaConEspera();
+      if (!caja) throw new Error("no encuentro la caja del prompt");
+      const antes = clavesTodas();
+      await escribir(caja, intento === 1 ? item.prompt : PREFIJO_DIRECTO + item.prompt);
+      if (!(await enviar(caja))) throw new Error("no pude mandar el prompt (mirá el Registro)");
+      const imgs = await esperarResultado(antes);
+      if (imgs) {
+        for (let k = 0; k < imgs.length; k++) ultimaImg = await bajar(srcDe(imgs[k]), imgs.length > 1 ? `${nombre}_${"abcdefgh"[k] || k}` : nombre);
+        return imgs.length;
       }
-      if (imagenes().some((i) => !antes.has(srcDe(i)))) {
-        await dormir(3000); // que terminen de cargar todas las variantes
-        const todas = imagenes().filter((i) => !antes.has(srcDe(i)));
-        for (let k = 0; k < todas.length; k++) ultimaImg = await bajar(srcDe(todas[k]), todas.length > 1 ? `${nombre}_${"abcd"[k] || k}` : nombre);
-        return todas.length;
-      }
+      log(intento === 1 ? "el agente contestó sin imagen: lo vuelvo a pedir de forma directa" : "otra vez sin imagen");
     }
-    throw new Error("no apareció ninguna imagen nueva a tiempo");
+    throw new Error("Flow no generó imagen (2 intentos)");
   }
   async function correr(soloUno) {
     if (corriendo) return;
     const l = lotes[cfg.lote]; if (!l) { toast("Elegí un lote"); return; }
     corriendo = true; parar = false; bub.classList.add("run"); pintar();
     log(`▶ lote ${l.archivo} desde #${cfg.desde}`);
-    try {
-      for (let i = cfg.desde - 1; i < l.items.length; i++) {
-        cfg.desde = i + 1; guardar(); pintar();
-        const it = l.items[i], clave = l.archivo + ":" + it.id;
-        try {
-          const n = await generarUno(it, `v3_${l.archivo.slice(0, 2)}_${it.id}`);
-          cfg.hechos[clave] = "ok"; log(`✓ ${it.id} (${n} imagen/es)`);
-        } catch (e) {
-          if (e.message !== "pausado") { cfg.hechos[clave] = "err"; toast("✗ " + e.message); }
-          guardar(); log(`✗ ${it.id}: ${e.message}`); throw e;
-        }
-        cfg.desde = i + 2; guardar(); pintar();
-        if (soloUno) break;
-        await dormir(cfg.pausa * 1000);
+    let ok = 0, mal = 0;
+    for (let i = cfg.desde - 1; i < l.items.length; i++) {
+      cfg.desde = i + 1; guardar(); pintar();
+      const it = l.items[i], clave = l.archivo + ":" + it.id;
+      try {
+        const n = await generarUno(it, `v3_${l.archivo.slice(0, 2)}_${it.id}`);
+        cfg.hechos[clave] = "ok"; ok++; log(`✓ ${it.id} (${n} imagen/es)`);
+      } catch (e) {
+        if (e.message === "pausado") { log("⏸ pausado"); break; }
+        cfg.hechos[clave] = "err"; mal++; log(`✗ ${it.id}: ${e.message}`); toast(`✗ ${it.id}: ${e.message}`);
       }
-      if (!soloUno && cfg.desde > l.items.length) { toast("🏁 Lote terminado"); log("🏁 lote terminado"); }
-    } catch (e) { /* ya avisado */ }
+      cfg.desde = i + 2; guardar(); pintar();
+      if (soloUno) break;
+      await dormir(cfg.pausa * 1000);
+    }
+    if (!soloUno && cfg.desde > l.items.length) { toast(`🏁 Lote terminado: ${ok} bien, ${mal} con error`); log(`🏁 lote terminado: ${ok} bien, ${mal} con error (los rojos se repiten tocándolos)`); }
     corriendo = false; bub.classList.remove("run"); pintar();
   }
 
