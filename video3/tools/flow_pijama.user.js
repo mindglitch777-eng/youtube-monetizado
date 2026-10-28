@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Flow Pijama · generador por lotes
 // @namespace    explicado-en-pijamas
-// @version      0.6.0
+// @version      0.7.0
 // @description  Panel flotante para Google Flow: genera los prompts del video en orden, de a uno, y baja cada imagen con el número de su plano.
 // @match        https://flow.google.com/*
 // @grant        GM_xmlhttpRequest
@@ -19,7 +19,7 @@
 
   // ---------- estado guardado ----------
   const cfg = Object.assign({
-    x: null, y: null, abierto: true, tab: "gen", lote: 0, desde: 1, pausa: 8, esperaMax: 180,
+    x: null, y: null, abierto: true, tab: "gen", lote: 0, desde: 1, pausa: 2, esperaMax: 180,
     boton: null, caja: null, hechos: {},
   }, GM_getValue("fp_cfg") || {});
   const guardar = () => GM_setValue("fp_cfg", cfg);
@@ -81,6 +81,9 @@
   .log{font:11px/1.45 ui-monospace,Menlo,monospace;white-space:pre-wrap;background:#0e0e13;border-radius:10px;padding:8px;max-height:240px;overflow:auto;color:#b9b9c6}
   .toast{position:fixed;left:50%;top:14px;transform:translateX(-50%);background:#ececf1;color:#15151b;padding:10px 16px;border-radius:99px;font-weight:700;font-size:14px;z-index:2147483647;box-shadow:0 8px 24px #0008}
   .pick{position:fixed;left:0;right:0;bottom:0;background:#ff6a3d;color:#1a0b06;font-weight:800;text-align:center;padding:14px;z-index:2147483647}
+  .toca{position:fixed;border:4px solid #2ecc71;border-radius:999px;pointer-events:none;z-index:2147483646;animation:tc 1s infinite;box-shadow:0 0 0 6px #2ecc7155}
+  @keyframes tc{50%{box-shadow:0 0 0 16px #2ecc7100;transform:scale(1.08)}}
+  .toca-t{position:fixed;width:170px;text-align:center;background:#2ecc71;color:#06210f;font-weight:900;font-size:14px;padding:8px 0;border-radius:99px;pointer-events:none;z-index:2147483646;box-shadow:0 6px 18px #0008}
   .hl{position:fixed;border:3px solid #ff6a3d;border-radius:10px;pointer-events:none;z-index:2147483646;box-shadow:0 0 0 9999px #0006}
   img.th{width:100%;border-radius:10px}`;
   sh.append(css);
@@ -245,22 +248,19 @@
     }
     if (!textoActual(ed).includes(texto.slice(0, 40))) log("⚠ no pude confirmar que el texto quedó en la caja");
   }
-  function teclaEnter(ed) {
-    for (const tipo of ["keydown", "keypress", "keyup"]) {
-      const ev = new KeyboardEvent(tipo, { key: "Enter", code: "Enter", bubbles: true, cancelable: true });
-      for (const k of ["keyCode", "which", "charCode"]) { try { Object.defineProperty(ev, k, { get: () => 13 }); } catch (_) {} }
-      ed.dispatchEvent(ev);
-    }
-  }
   function editorDe(e) { return e.matches && e.matches("[contenteditable=true]") ? e : (e.querySelector && e.querySelector("[contenteditable=true]")) || e; }
-  function enter(e) { const ed = editorDe(e); ed.focus(); teclaEnter(ed); }
   const desactivado = (b) => !b || b.disabled || b.getAttribute("aria-disabled") === "true";
   const hayStop = () => [...document.querySelectorAll("flow-stop-icon-button button, button.stop-icon-button, button.stop-button")].some(visible);
   // se mandó si el editor quedó vacío o apareció el botón de stop
   const seMando = (caja) => hayStop() || textoActual(editorDe(caja)).trim().length < 5;
 
-  // varias formas de mandar, comprobando cada una; deja todo anotado en el Registro
+  // Flow (código real, flow-creative-agent-prompt-box.submit) descarta los envíos que no vienen de un
+  // dedo real (event.isTrusted) cuando la generación es gratis. Ningún script lo puede falsificar.
+  // Entonces: se prueba UN toque automático (sirve si la generación cuesta créditos) y si no sale,
+  // el script marca la flecha de Flow y espera tu toque. Todo lo demás (escribir, esperar, bajar,
+  // nombrar, pasar al siguiente) sigue siendo automático.
   let stopAlEnviar = false; // si Flow ya mostraba "stop" al confirmar el envío
+  let modoToque = false;    // ya sabemos que este Flow pide toque humano: no se pierde tiempo probando
   async function enviar(caja) {
     stopAlEnviar = false;
     let b = null;
@@ -272,27 +272,50 @@
       document.execCommand("insertText", false, " "); await dormir(150); document.execCommand("delete", false, null);
       await dormir(800); b = botonCrear(caja);
     }
-    log(`botón: ${b ? (b.getAttribute("aria-label") || b.className || b.tagName).toString().slice(0, 40) : "no encontrado"} · ${desactivado(b) ? "desactivado" : "activo"}`);
-    const intentos = [
-      ["tocar el botón", () => { if (!b) return "sin botón"; tocar(b); }],
-      ["tocar lo que está encima del botón", () => {
-        if (!b) return "sin botón";
-        const r = b.getBoundingClientRect(), t = document.elementFromPoint(r.x + r.width / 2, r.y + r.height / 2);
-        if (!t || t === b || !fuera(t)) return "es el mismo botón (o el panel)"; tocar(t);
-      }],
-      ["Enter en el editor", () => enter(caja)],
-      ["enviar el formulario", () => { const f = b && b.closest("form"); if (!f) return "sin formulario"; f.requestSubmit ? f.requestSubmit(b) : f.submit(); }],
-      ["Ctrl+Enter", () => { const ed = editorDe(caja); const ev = new KeyboardEvent("keydown", { key: "Enter", code: "Enter", ctrlKey: true, metaKey: true, bubbles: true, cancelable: true }); try { Object.defineProperty(ev, "keyCode", { get: () => 13 }); } catch (_) {} ed.dispatchEvent(ev); }],
-    ];
-    for (const [nombre, fn] of intentos) {
-      let r; try { r = fn(); } catch (e) { r = "error: " + e.message; }
-      if (r) { log(`· ${nombre}: ${r}`); continue; }
+    if (!b) { log("no encuentro la flecha de Flow"); return false; }
+    if (!modoToque) {
+      tocar(b);
       await dormir(1800);
-      if (seMando(caja)) { stopAlEnviar = hayStop(); log(`✓ enviado con: ${nombre}`); return true; }
-      log(`· ${nombre}: no se mandó`);
-      b = botonCrear(caja) || b;
+      if (seMando(caja)) { stopAlEnviar = hayStop(); log("✓ enviado solo"); return true; }
+      modoToque = true;
+      log("Flow pide un toque real (generación gratis): desde ahora te marco la flecha");
     }
-    return false;
+    return await esperarToque(caja);
+  }
+  // marca la flecha de Flow (sin taparla) y espera a que la toques
+  async function esperarToque(caja) {
+    const anillo = el("div", { class: "toca" }), cartel = el("div", { class: "toca-t" }, "👇 TOCÁ LA FLECHA");
+    sh.append(anillo, cartel);
+    const abiertoAntes = cfg.abierto;
+    if (cfg.abierto) { cfg.abierto = false; pintar(); }
+    try { navigator.vibrate && navigator.vibrate([120, 80, 120]); } catch (_) {}
+    let avisos = 0;
+    try {
+      for (;;) {
+        if (parar) throw new Error("pausado");
+        const b = botonCrear(caja) || botonCrear(cajaPrompt());
+        if (b) {
+          const r = b.getBoundingClientRect();
+          if (r.bottom > innerHeight || r.top < 0) b.scrollIntoView({ block: "center" });
+          Object.assign(anillo.style, { left: r.x - 8 + "px", top: r.y - 8 + "px", width: r.width + 16 + "px", height: r.height + 16 + "px" });
+          Object.assign(cartel.style, { left: Math.min(Math.max(4, r.x + r.width / 2 - 85), innerWidth - 174) + "px", top: Math.max(4, r.y - 52) + "px" });
+          apartarBurbuja(r);
+        }
+        if (seMando(caja)) { stopAlEnviar = hayStop(); log("✓ enviado (tu toque)"); return true; }
+        if (++avisos % 100 === 0) { try { navigator.vibrate && navigator.vibrate(200); } catch (_) {} }
+        await dormir(300);
+      }
+    } finally {
+      anillo.remove(); cartel.remove(); bub.style.transform = "";
+      if (abiertoAntes && !corriendo) { cfg.abierto = true; pintar(); }
+    }
+  }
+  // si la burbuja quedó encima de la flecha, se corre (sin guardar la posición)
+  function apartarBurbuja(r) {
+    bub.style.transform = "";
+    const q = bub.getBoundingClientRect(), m = 24;
+    const choca = q.right > r.left - m && q.left < r.right + m && q.bottom > r.top - m && q.top < r.bottom + m;
+    if (choca) bub.style.transform = `translateY(${q.top > 140 ? -(q.bottom - r.top + m + 40) : (r.bottom - q.top + m + 40)}px)`;
   }
   function tocar(b) {
     const r = b.getBoundingClientRect();

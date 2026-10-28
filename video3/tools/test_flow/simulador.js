@@ -10,7 +10,7 @@ import {schema} from "prosemirror-schema-basic";
 import {keymap} from "prosemirror-keymap";
 import {baseKeymap} from "prosemirror-commands";
 
-const ESC = Object.assign({lag: 0, botonMuerto: false, preguntas: 0, rechazo: false, rerender: false, demora: 1500, nImgs: 2, origen: "cross", previas: 0, refrescoTokens: false}, window.ESC || {});
+const ESC = Object.assign({lag: 0, botonMuerto: false, preguntas: 0, rechazo: false, rerender: false, demora: 1500, nImgs: 2, origen: "cross", previas: 0, refrescoTokens: false, soloHumano: false}, window.ESC || {});
 window.enviados = [];
 let preguntasQuedan = ESC.preguntas, contador = 0, view = null, generando = false;
 
@@ -34,7 +34,8 @@ function pintarSlot() {
   } else {
     const b = h("button", {type: "submit", class: "generate-icon-button", "aria-label": "Iniciar generación"}, h("mat-icon", {}, "arrow_forward"));
     b.disabled = !(view && view.state.doc.textContent.trim());
-    b.addEventListener("click", () => { if (!ESC.botonMuerto && !b.disabled) enviar(); });
+    // como Flow real: con generación gratis, el submit ignora los eventos que no son de un dedo (isTrusted)
+    b.addEventListener("click", (e) => { if (ESC.soloHumano && !e.isTrusted) return; if (!ESC.botonMuerto && !b.disabled) enviar(); });
     s.append(h("flow-generate-icon-button", {}, b));
   }
 }
@@ -52,7 +53,8 @@ function montarCaja() {
           h("div", {class: "submit-controls"}, h("button", {type: "button", class: "settings-trigger-button", "aria-label": "Botón de configuración"}, "⚙"), h("div", {class: "submit-button-slot"}))))));
   pbox.append(caja);
   view = new EditorView(tb, {
-    state: EditorState.create({schema, plugins: [keymap({Enter: () => { enviar(); return true; }}), keymap(baseKeymap)]}),
+    state: EditorState.create({schema, plugins: [keymap(baseKeymap)]}),
+    handleKeyDown(v, e) { if (e.key !== "Enter" || e.shiftKey) return false; if (!ESC.soloHumano || e.isTrusted) enviar(); return true; },
     dispatchTransaction(tr) {
       const ns = view.state.apply(tr); view.updateState(ns);
       // Angular actualiza el botón un rato después (change detection)

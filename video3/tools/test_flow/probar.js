@@ -38,8 +38,10 @@ body{margin:0;background:#000;color:#eee;font:14px sans-serif}
 </body></html>`;
 
 const CASOS = [
-  { nombre: "normal (2 imágenes por prompt, de otro dominio)", esc: {}, items: 3, espera: (r) => r.descargas === "P1_a P1_b P2_a P2_b P3_a P3_b" && r.enviados === 3 },
-  { nombre: "el botón no responde, solo Enter", esc: { botonMuerto: true }, items: 2, espera: (r) => r.descargas === "P1_a P1_b P2_a P2_b" && /enviado con: Enter/.test(r.log) },
+  { nombre: "normal (2 imágenes por prompt, de otro dominio)", esc: {}, items: 3, espera: (r) => r.descargas === "P1_a P1_b P2_a P2_b P3_a P3_b" && r.enviados === 3 && r.toques === 0 },
+  { nombre: "Flow exige toque real (como el Flow de verdad): el script marca la flecha y espera", esc: { soloHumano: true }, items: 3, espera: (r) => r.descargas === "P1_a P1_b P2_a P2_b P3_a P3_b" && r.toques === 3 && r.enviados === 3 },
+  { nombre: "toque real + el agente pregunta + Flow rearma la caja", esc: { soloHumano: true, preguntas: 1, rerender: true }, items: 2, espera: (r) => r.descargas === "P1_a P1_b P2_a P2_b" && r.toques === 3 && r.enviados === 3 },
+  { nombre: "toque real con el panel y la burbuja encima de la flecha", esc: { soloHumano: true }, items: 2, panelEncima: true, espera: (r) => r.descargas === "P1_a P1_b P2_a P2_b" && r.toques === 2 },
   { nombre: "Flow tarda 2,5 s en activar el botón", esc: { lag: 2500 }, items: 2, espera: (r) => r.descargas === "P1_a P1_b P2_a P2_b" },
   { nombre: "el agente pregunta en vez de generar", esc: { preguntas: 1 }, items: 1, espera: (r) => r.descargas === "P1_a P1_b" && r.enviados === 2 && /Generate the image now/.test(r.ultimoEnviado) },
   { nombre: "el agente se niega siempre (sigue con el siguiente)", esc: { rechazo: true }, items: 2, espera: (r) => r.descargas === "" && /0 bien, 2 con error/.test(r.log) && r.enviados === 4 },
@@ -79,6 +81,19 @@ async function caso(motor, c) {
   await pg.goto("https://flow.google.com/project/prueba");
   await pg.waitForTimeout(1200);
   await arrancar();
+  let toques = 0, dedoVivo = true;
+  const dedo = (async () => {
+    while (dedoVivo) {
+      try {
+        if (await pg.locator("#flow-pijama-host .toca").count()) {
+          await pg.waitForTimeout(700); // la persona tarda un poco en tocar
+          const bb = await pg.locator("flow-generate-icon-button button").boundingBox();
+          if (bb) { await pg.mouse.click(bb.x + bb.width / 2, bb.y + bb.height / 2); toques++; await pg.waitForTimeout(1500); }
+        }
+      } catch (_) {}
+      await pg.waitForTimeout(300);
+    }
+  })();
   let log;
   if (c.reanudar) {
     await esperarLog(/✓ P2/, 120000);
@@ -87,6 +102,7 @@ async function caso(motor, c) {
   }
   log = await esperarLog(/lote terminado/, 60000 * c.items + 60000);
   await pg.waitForTimeout(800);
+  dedoVivo = false; await dedo;
   const enviados = await pg.evaluate(() => window.enviados || []);
   // con items < 4 el lote sigue: se juntan solo las descargas de los planos pedidos
   const pedidos = new Set(LOTE[0].items.slice(0, c.items).map((i) => i.id));
@@ -96,7 +112,7 @@ async function caso(motor, c) {
     duplicadas: nombres.length !== new Set(nombres).size,
     todas: nombres.length,
     enviados: enviados.filter((e) => [...pedidos].some((id) => e.includes("numero " + id.slice(1) + ":"))).length,
-    ultimoEnviado: enviados[enviados.length - 1] || "",
+    ultimoEnviado: enviados[enviados.length - 1] || "", toques,
     log, errores,
   };
   await b.close();
