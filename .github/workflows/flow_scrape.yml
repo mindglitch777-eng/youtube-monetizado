@@ -1,0 +1,33 @@
+name: Flow · radiografía (Chromium completo, sin sesión)
+
+# Abre Google Flow con Chrome en el runner, guarda capturas, HTML, todo el JavaScript
+# de la aplicación y el registro de red, y lo sube a la rama flow-scrape para analizarlo.
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - video3/flow_scrape.txt
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: pip install -q playwright
+      - run: python3 video3/tools/flow_scrape.py
+      - name: Subir a la rama flow-scrape
+        if: always()
+        run: |
+          [ -d flow_scrape ] || exit 0
+          cd flow_scrape && git init -q -b flow-scrape
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A && git commit -q -m "Flow: radiografía" || exit 0
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" flow-scrape
