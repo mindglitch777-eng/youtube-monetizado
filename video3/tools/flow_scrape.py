@@ -26,7 +26,8 @@ BUSCAR = [
     r"Qu[eé] quieres crear", r"What do you want to create", r"placeholder", r"aria-label", r"arrow_forward", r"arrow_upward",
     r"batchGenerate\w*", r"generateImage\w*", r"runImage\w*", r"flowMedia\w*", r"aisandbox[\w.-]*", r"/v1[:/]\w[\w:/.-]*",
     r"api/auth/session", r"access_token", r"imageModel\w*", r"NANO_BANANA\w*", r"IMAGEN_\w+", r"GEM_PIX\w*", r"aspectRatio\w*",
-    r"IMAGE_ASPECT_RATIO_\w+", r"recaptcha\w*", r"mediaGenerationId", r"workflowId", r"projectId",
+    r"IMAGE_ASPECT_RATIO_\w+", r"mediaGenerationId", r"contenteditable", r"textarea", r"\"icon\",\"(?:arrow_forward|arrow_upward|send)\"",
+    r"Enviar", r"Generar", r"Crear", r"streamCreationAgentChat", r"StreamGenerateContent", r"fife|lh3\.googleusercontent", r"download",
 ]
 
 
@@ -87,6 +88,29 @@ def main():
                 print("manifest", e)
             ctx.close()
         b.close()
+    # módulos de la app que se cargan recién dentro de un proyecto (editor, chat, galería):
+    # sus ids salen del código principal (`_.ho("XXXX")`) y se piden al mismo servidor
+    try:
+        base_mod = next(u for u in vistos if "boq-labs-ai-sandbox" in u and "/m=" in u and "/ck=" in u)
+        base_mod = base_mod[: base_mod.index("/m=") + 3]
+        ids = set()
+        for f in JS.glob("*"):
+            ids |= set(re.findall(r'_\.ho\("([A-Za-z0-9]{4,8})"\)', f.read_text(errors="ignore")))
+        print("módulos encontrados:", len(ids))
+        with sync_playwright() as p:
+            req = p.request.new_context()
+            ids = sorted(ids)
+            for i in range(0, len(ids), 8):
+                lote = ",".join(ids[i:i + 8])
+                r = req.get(base_mod + lote)
+                if r.ok:
+                    (JS / f"modulos_{i // 8:03d}_{lote.replace(',', '_')}.js").write_bytes(r.body())
+                else:
+                    print("módulo", lote, r.status)
+    except StopIteration:
+        print("no encontré la URL base de módulos")
+    except Exception as e:
+        print("módulos", e)
     (OUT / "red.json").write_text(json.dumps(red, indent=1))
     # índice de textos útiles en el código
     indice = {}
